@@ -1,0 +1,1430 @@
+{
+  "adv.electricFence": {
+    "desc": {
+      "cn": "在激活状态下的高压阻拦网是无法通过的。\n沿着电线找到其对应的开关，即可关闭高压阻拦网，通过其封锁的路段。",
+      "en": "An active high voltage fence is impassable. Follow the cable, find the switch, and shut down the fence for safe passage."
+    },
+    "iconPath": "",
+    "id": "adv.electricFence",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "高压阻拦网",
+      "en": "High Voltage Fence"
+    },
+    "richTextId": "gd.key"
+  },
+  "adv.eswitch": {
+    "desc": {
+      "cn": "受击装置在受到攻击或是爆炸冲击后，会改变运行状态。\n一般用来关闭<#adv.electricFence>高压阻拦网</>或启用<#adv.jumpMachine>弹射装置</>。",
+      "en": "A reactive device changes its operation mode when attacked or hit by an explosion. It is often used to switch off <#adv.electricFence>High Voltage Fences</> or activate <#adv.jumpMachine>Bounce Devices</>."
+    },
+    "iconPath": "",
+    "id": "adv.eswitch",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "受击装置",
+      "en": "Reactive Device"
+    },
+    "richTextId": "gd.key"
+  },
+  "adv.jumpMachine": {
+    "desc": {
+      "cn": "主控干员可使用弹射装置进行一次长距离的跳跃，能够抵达普通跳跃无法触达的高处。\n在通电时，弹射装置为可用状态。此时操控主控干员站立在装置上方并进行跳跃即可使用。",
+      "en": "The controlled operator can use Bounce Devices to jump across a longer distance or reach high places unreachable with normal jumping.\nSimply stand on a powered Bounce Device, then jump to use it."
+    },
+    "iconPath": "",
+    "id": "adv.jumpMachine",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "弹射装置",
+      "en": "Bounce Device"
+    },
+    "richTextId": "gd.key"
+  },
+  "adv.powerTerminal": {
+    "desc": {
+      "cn": "作为电路末端的终端设备，可接入电网为其他设备供电。\n供电终端通常为大门、开关等设备供电。使用中继器为供电终端运输电力后，即可控制大门或开关。",
+      "en": "An electric nexus is usually placed at the end of a power transmission line. Connect it to the power grid to supply power to nearby facilities. Electric Nexuses are often used to power gates and switches. Supply power to Electric Nexuses with Relay Towers. This then grants control access to gates or switches linked to them."
+    },
+    "iconPath": "",
+    "id": "adv.powerTerminal",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "供电终端",
+      "en": "Electric Nexus"
+    },
+    "richTextId": "gd.key"
+  },
+  "ba.airborne": {
+    "desc": {
+      "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则叠加一层<#ba.noguard>破防</>，造成<@ba.phy>物理伤害</>并累积<@ba.poise>失衡值</>。",
+      "en": "Applies <#ba.noguard>Vulnerability</> on an enemy. If the enemy is already <#ba.noguard>Vulnerable</>, then add 1 stack of <#ba.noguard>Vulnerability</>, and deal <@ba.phy>Physical DMG</> and <@ba.poise>Stagger</>."
+    },
+    "iconPath": "TermIcon/icon_term_ba_airborne",
+    "id": "ba.airborne",
+    "jumpWikiId": "wiki_tut_bat_airborne",
+    "name": {
+      "cn": "物理异常 - 击飞",
+      "en": "Physical Status: Lift"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.burning": {
+    "desc": {
+      "cn": "<@ba.burning>燃烧</>状态下，敌人持续受到<@ba.fire>灼热伤害</>。\n<@ba.burning>燃烧</> = 其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.fireinflict>灼热附着</>",
+      "en": "An enemy with <@ba.burning>Combustion</> takes <@ba.fire>Heat DMG</> over time.\n<@ba.burning>Combustion</> = A <#ba.spellinflict>non-Heat Infliction</> (<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.fireinflict>Heat Infliction</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_burning",
+    "id": "ba.burning",
+    "jumpWikiId": "wiki_tut_bat_combust",
+    "name": {
+      "cn": "法术异常 - 燃烧",
+      "en": "Arts Reaction: Combustion"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.burningonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.fireinflict>灼热附着</>。\n达到4层时，干员会进入<@ba.burning>燃烧</>状态：一段时间内，持续受到无视防御力的<@ba.fire>灼热伤害</>。",
+      "en": "Certain enemy skills can apply stacks of <@ba.fireinflict>Heat Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.burning>Combusted</>: Temporarily take continuous <@ba.fire>Heat DMG</> that ignores their DEF."
+    },
+    "iconPath": "TermIcon/icon_term_ba_burning",
+    "id": "ba.burningonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到燃烧",
+      "en": "Operator Debuff: Combustion"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.combo": {
+    "desc": {
+      "cn": "全队的下个战技或终结技的伤害提高，对战技的提高幅度更大，触发后效果清空。同类效果可以叠加，但效果有衰减。",
+      "en": "Next battle skill or ultimate cast by the team consumes the Link buff and deals more DMG, with battle skills getting a higher increase. Effects of the same type can stack, but with diminishing returns."
+    },
+    "iconPath": "TermIcon/icon_term_ba_combo",
+    "id": "ba.combo",
+    "jumpWikiId": "wiki_tut_bat_combohint",
+    "name": {
+      "cn": "连击",
+      "en": "Link"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.conduct": {
+    "desc": {
+      "cn": "<@ba.conduct>导电</>状态下，敌人受到的<#ba.spelldmg>法术伤害</>提高。\n<@ba.conduct>导电</> = 其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.pulseinflict>电磁附着</>",
+      "en": "An enemy with <@ba.conduct>Electrification</> takes more <#ba.spelldmg>Arts DMG</>.\n<@ba.conduct>Electrification</> = A <#ba.spellinflict>non-Electric Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.pulseinflict>Electric Infliction</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_conduct",
+    "id": "ba.conduct",
+    "jumpWikiId": "wiki_tut_bat_conduct",
+    "name": {
+      "cn": "法术异常 - 导电",
+      "en": "Arts Reaction: Electrification"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.conductonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.pulseinflict>电磁附着</>。\n达到4层时，干员会进入<@ba.conduct>导电</>状态：短暂眩晕，且一段时间内，受到的<#ba.spelldmg>法术伤害</>提高。",
+      "en": "Certain enemy skills can apply stacks of <@ba.pulseinflict>Electric Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.conduct>Electrified</>: Temporary stun and take more <#ba.spelldmg>Arts DMG</> for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_conduct",
+    "id": "ba.conductonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到导电",
+      "en": "Operator Debuff: Electrification"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.consume": {
+    "desc": {
+      "cn": "状态以特殊的方式提前结束（如<#ba.crush>猛击</>消耗<#ba.noguard>破防</>状态，<#ba.burning>燃烧</>消耗<#ba.spellinflict>法术附着</>状态）。",
+      "en": "Various Physical and Arts debuffs can be ended early. For example, <#ba.crush>Crush</> consumes <#ba.noguard>Vulnerability</> debuffs, while <#ba.burning>Combustion</> consumes <#ba.spellinflict>Arts Infliction</> debuffs."
+    },
+    "iconPath": "",
+    "id": "ba.consume",
+    "jumpWikiId": "wiki_tut_bat_consume",
+    "name": {
+      "cn": "状态消耗",
+      "en": "Debuff Consumption"
+    },
+    "richTextId": ""
+  },
+  "ba.corrupt": {
+    "desc": {
+      "cn": "<@ba.corrupt>腐蚀</>状态下，敌人的所有抗性逐渐下降。\n<@ba.corrupt>腐蚀</> = 其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>）+ <@ba.naturalinflict>自然附着</>",
+      "en": "An enemy with <@ba.corrupt>Corrosion</> gradually loses resistance against all elements. \n<@ba.corrupt>Corrosion</> = A <#ba.spellinflict>non-Nature Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>) + <@ba.naturalinflict>Nature Infliction</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_corrupt",
+    "id": "ba.corrupt",
+    "jumpWikiId": "wiki_tut_bat_corrode",
+    "name": {
+      "cn": "法术异常 - 腐蚀",
+      "en": "Arts Reaction: Corrosion"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.corruptonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.naturalinflict>自然附着</>。\n达到4层时，干员会进入<@ba.corrupt>腐蚀</>状态：一段时间内无法冲刺，且移动速度降低。",
+      "en": "Certain enemy skills can apply stacks of <@ba.naturalinflict>Nature Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.corrupt>Corroded</>: Cannot dash and suffer movement speed reduction for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_corrupt",
+    "id": "ba.corruptonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到腐蚀",
+      "en": "Operator Debuff: Corrosion"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.crush": {
+    "desc": {
+      "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则会<#ba.consume>消耗</>所有<#ba.noguard>破防</>层数并造成大量<@ba.phy>物理伤害</>。",
+      "en": "Applies <#ba.noguard>Vulnerability</> on an enemy. If the enemy is already <#ba.noguard>Vulnerable</>, then <#ba.consume>consume</> all <#ba.noguard>Vulnerability</> stacks and deal massive <@ba.phy>Physical DMG</>."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crush",
+    "id": "ba.crush",
+    "jumpWikiId": "wiki_tut_bat_knockback",
+    "name": {
+      "cn": "物理异常 - 猛击",
+      "en": "Physical Status: Crush"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.crystbreak": {
+    "desc": {
+      "cn": "对处于<#ba.frozen>冻结</>状态的敌人施加<#ba.noguard>破防</>或<#ba.physicalstatus>物理异常</>时触发，<#ba.consume>消耗</>目标的<#ba.frozen>冻结</>状态，并对其造成大量<@ba.pd>物理伤害</>。",
+      "en": "To an enemy with active <#ba.frozen>Solidification</>, applying <#ba.noguard>Vulnerability</> or <#ba.physicalstatus>Physical Status</> effects will <#ba.consume>consume</> the <#ba.frozen>Solidification</> to trigger Shatter that deals massive <@ba.pd>Physical DMG</>."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystbreak",
+    "id": "ba.crystbreak",
+    "jumpWikiId": "wiki_tut_bat_freeze",
+    "name": {
+      "cn": "碎冰",
+      "en": "Shatter"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.crystburst": {
+    "desc": {
+      "cn": "<#ba.crystinflict>寒冷附着</> + <#ba.crystinflict>寒冷附着</>会触发<@ba.cryst>寒冷爆发</>，对敌人造成一定<@ba.cryst>寒冷伤害</>。",
+      "en": "<#ba.crystinflict>Cryo Infliction</> + <#ba.crystinflict>Cryo Infliction</> will trigger <@ba.cryst>Cryo Burst</> that deals <@ba.cryst>Cryo DMG</> to enemies."
+    },
+    "iconPath": "",
+    "id": "ba.crystburst",
+    "jumpWikiId": "wiki_tut_bat_cold_outbreak",
+    "name": {
+      "cn": "法术爆发 - 寒冷",
+      "en": "Arts Burst: Cryo"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.crystenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.cryst>寒冷伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Cryo Amped targets temporarily deal more <@ba.cryst>Cryo DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystenhance",
+    "id": "ba.crystenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "寒冷增幅",
+      "en": "Cryo Amp"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.crystinflict": {
+    "desc": {
+      "cn": "<@ba.crystinflict>寒冷附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.crystinflict>寒冷附着</>最多叠加4层，叠加时会触发<#ba.crystburst>寒冷爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.crystinflict>寒冷附着</> = <#ba.frozen>冻结</>",
+      "en": "<@ba.crystinflict>Cryo Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.crystinflict>Cryo Infliction</> can be applied and stacking triggers <#ba.crystburst>Cryo Burst</>. \nA <#ba.spellinflict>non-Cryo Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.crystinflict>Cryo Infliction</> = <#ba.frozen>Solidification</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystinflict",
+    "id": "ba.crystinflict",
+    "jumpWikiId": "wiki_tut_bat_cold",
+    "name": {
+      "cn": "法术附着 - 寒冷",
+      "en": "Arts Infliction: Cryo"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.crystonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.crystinflict>寒冷附着</>。\n达到4层时，干员会进入<@ba.frozen>冻结</>状态：一段时间内无法行动。",
+      "en": "Certain enemy skills can apply stacks of <@ba.crystinflict>Cryo Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.frozen>Solidified</>: Cannot move for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystinflict",
+    "id": "ba.crystonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到寒冷附着",
+      "en": "Operator Debuff: Cryo Infliction"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.crystvul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.cryst>寒冷伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Cryo Susceptible targets temporarily take more <@ba.cryst>Cryo DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystvul",
+    "id": "ba.crystvul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "寒冷脆弱",
+      "en": "Cryo Susceptibility"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.dispel": {
+    "desc": {
+      "cn": "清除干员的特定异常状态。",
+      "en": "This removes specific debuffs from the operator."
+    },
+    "iconPath": "",
+    "id": "ba.dispel",
+    "jumpWikiId": "wiki_tut_bat_dispel",
+    "name": {
+      "cn": "净化",
+      "en": "Dispel"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.dot": {
+    "desc": {
+      "cn": "持续伤害无法触发暴击。",
+      "en": "DMG over time cannot trigger critical hits."
+    },
+    "iconPath": "",
+    "id": "ba.dot",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "持续伤害",
+      "en": "DMG Over Time"
+    },
+    "richTextId": ""
+  },
+  "ba.enhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的特定属性伤害提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Amped targets deal more DMG of the element it is Amped for. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_enhance",
+    "id": "ba.enhance",
+    "jumpWikiId": "wiki_tut_bat_enhance",
+    "name": {
+      "cn": "增幅",
+      "en": "Amp"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.fireburst": {
+    "desc": {
+      "cn": "<#ba.fireinflict>灼热附着</> + <#ba.fireinflict>灼热附着</>会触发<@ba.fire>灼热爆发</>，对敌人造成一定<@ba.fire>灼热伤害</>。",
+      "en": "<#ba.fireinflict>Heat Infliction</> + <#ba.fireinflict>Heat Infliction</> will trigger <@ba.fire>Heat Burst</> that deals <@ba.fire>Heat DMG</> to enemies."
+    },
+    "iconPath": "",
+    "id": "ba.fireburst",
+    "jumpWikiId": "wiki_tut_bat_fire_outbreak",
+    "name": {
+      "cn": "法术爆发 - 灼热",
+      "en": "Arts Burst: Heat"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.fireenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.fire>灼热伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Heat Amped targets temporarily deal more <@ba.fire>Heat DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_fireenhance",
+    "id": "ba.fireenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "灼热增幅",
+      "en": "Heat Amp"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.fireinflict": {
+    "desc": {
+      "cn": "<@ba.fireinflict>灼热附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.fireinflict>灼热附着</>最多叠加4层，叠加时会触发<#ba.fireburst>灼热爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.fireinflict>灼热附着</> = <#ba.burning>燃烧</>",
+      "en": "<@ba.fireinflict>Heat Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.fireinflict>Heat Infliction</> can be applied and stacking triggers <#ba.fireburst>Heat Burst</>. \nA <#ba.spellinflict>non-Heat Infliction</> (<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.fireinflict>Heat Infliction</> = <#ba.burning>Combustion</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_fireinflict",
+    "id": "ba.fireinflict",
+    "jumpWikiId": "wiki_tut_bat_fire",
+    "name": {
+      "cn": "法术附着 - 灼热",
+      "en": "Arts Infliction: Heat"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.fireonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.fireinflict>灼热附着</>。\n达到4层时，干员会进入<@ba.burning>燃烧</>状态：一段时间内，持续受到无视防御力的<@ba.fire>灼热伤害</>。",
+      "en": "Certain enemy skills can apply stacks of <@ba.fireinflict>Heat Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.burning>Combusted</>: Temporarily take continuous <@ba.fire>Heat DMG</> that ignores their DEF."
+    },
+    "iconPath": "TermIcon/icon_term_ba_fireinflict",
+    "id": "ba.fireonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到灼热附着",
+      "en": "Operator Debuff: Heat Infliction"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.firevul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.fire>灼热伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Heat Susceptible targets temporarily take more <@ba.fire>Heat DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_firevul",
+    "id": "ba.firevul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "灼热脆弱",
+      "en": "Heat Susceptibility"
+    },
+    "richTextId": "ba.fire"
+  },
+  "ba.fracture": {
+    "desc": {
+      "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则会<#ba.consume>消耗</>所有<#ba.noguard>破防</>层数，造成<@ba.phy>物理伤害</>，并使其在一段时间内受到的<@ba.pd>物理伤害</>提高。",
+      "en": "Applies <#ba.noguard>Vulnerability</> on an enemy. If the enemy is already <#ba.noguard>Vulnerable</>, then <#ba.consume>consume</> all <#ba.noguard>Vulnerability</> stacks, deal <@ba.phy>Physical DMG</>, and temporarily increase the <@ba.pd>Physical DMG</> taken by the enemy."
+    },
+    "iconPath": "TermIcon/icon_term_ba_fracture",
+    "id": "ba.fracture",
+    "jumpWikiId": "wiki_tut_bat_breakarmor",
+    "name": {
+      "cn": "物理异常 - 碎甲",
+      "en": "Physical Status: Breach"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.frozen": {
+    "desc": {
+      "cn": "<@ba.frozen>冻结</>状态下，敌人无法行动，此时若受到<#ba.noguard>破防</>或<#ba.physicalstatus>物理异常</>，会触发<#ba.crystbreak>碎冰</>。\n<@ba.frozen>冻结</> = 其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.crystinflict>寒冷附着</>",
+      "en": "An enemy with <@ba.frozen>Solidification</> cannot move, and applying <#ba.noguard>Vulnerability</> or a <#ba.physicalstatus>Physical Status</> to the enemy triggers the <#ba.crystbreak>Shatter</> effect. \n<@ba.frozen>Solidification</> = A <#ba.spellinflict>non-Cryo Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.crystinflict>Cryo Infliction</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_frozen",
+    "id": "ba.frozen",
+    "jumpWikiId": "wiki_tut_bat_freeze",
+    "name": {
+      "cn": "法术异常 - 冻结",
+      "en": "Arts Reaction: Solidification"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.frozenonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.crystinflict>寒冷附着</>。\n达到4层时，干员会进入<@ba.frozen>冻结</>状态：一段时间内无法行动。",
+      "en": "Certain enemy skills can apply stacks of <@ba.crystinflict>Cryo Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.frozen>Solidified</>: Cannot move for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_frozen",
+    "id": "ba.frozenonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到冻结",
+      "en": "Operator Debuff: Solidification"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.guard": {
+    "desc": {
+      "cn": "一定时间内目标受到的伤害降低（数值代表降低的幅度）。同类效果会取效果最高值。",
+      "en": "Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies."
+    },
+    "iconPath": "TermIcon/icon_term_ba_guard",
+    "id": "ba.guard",
+    "jumpWikiId": "wiki_tut_bat_guard",
+    "name": {
+      "cn": "庇护",
+      "en": "Protect"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.knockdown": {
+    "desc": {
+      "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则叠加一层<#ba.noguard>破防</>，造成<@ba.phy>物理伤害</>并累积<@ba.poise>失衡值</>。",
+      "en": "Applies <#ba.noguard>Vulnerability</> on an enemy. If the enemy is already <#ba.noguard>Vulnerable</>, then add 1 stack of <#ba.noguard>Vulnerability</>, and deal <@ba.phy>Physical DMG</> and <@ba.poise>Stagger</>."
+    },
+    "iconPath": "TermIcon/icon_term_ba_knockdown",
+    "id": "ba.knockdown",
+    "jumpWikiId": "wiki_tut_bat_knockdown",
+    "name": {
+      "cn": "物理异常 - 倒地",
+      "en": "Physical Status: Knock Down"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.lastcombo": {
+    "desc": {
+      "cn": "重击是干员普通攻击的最后一段。主控干员的重击命中敌人时，会额外累积<@ba.poise>失衡值</>，并恢复一定技力。",
+      "en": "Final Strike is the last sequence of basic attack. When the controlled operator's Final Strike hits the enemy, it also deals <@ba.poise>Stagger</> and restores some Skill Points (SP)."
+    },
+    "iconPath": "",
+    "id": "ba.lastcombo",
+    "jumpWikiId": "wiki_tut_bat_heavy_attack",
+    "name": {
+      "cn": "重击",
+      "en": "Final Strike"
+    },
+    "richTextId": ""
+  },
+  "ba.naturalburst": {
+    "desc": {
+      "cn": "<#ba.naturalinflict>自然附着</> + <#ba.naturalinflict>自然附着</>会触发<@ba.natur>自然爆发</>，对敌人造成一定<@ba.natur>自然伤害</>。",
+      "en": "<#ba.naturalinflict>Nature Infliction</> + <#ba.naturalinflict>Nature Infliction</> will trigger <@ba.natur>Nature Burst</> that deals <@ba.natur>Nature DMG</> to enemies."
+    },
+    "iconPath": "",
+    "id": "ba.naturalburst",
+    "jumpWikiId": "wiki_tut_bat_nature_outbreak",
+    "name": {
+      "cn": "法术爆发 - 自然",
+      "en": "Arts Burst: Nature"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.naturalenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.natur>自然伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Nature Amped targets temporarily deal more <@ba.natur>Nature DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_naturalenhance",
+    "id": "ba.naturalenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "自然增幅",
+      "en": "Nature Amp"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.naturalinflict": {
+    "desc": {
+      "cn": "<@ba.naturalinflict>自然附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.naturalinflict>自然附着</>最多叠加4层，叠加时会触发<#ba.naturalburst>自然爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>）+ <@ba.naturalinflict>自然附着</> = <#ba.corrupt>腐蚀</>",
+      "en": "<@ba.naturalinflict>Nature Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.naturalinflict>Nature Infliction</> can be applied and stacking triggers <#ba.naturalburst>Nature Burst</>. \nA <#ba.spellinflict>non-Nature Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>) + <@ba.naturalinflict>Nature Infliction</> = <#ba.corrupt>Corrosion</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_naturalinflict",
+    "id": "ba.naturalinflict",
+    "jumpWikiId": "wiki_tut_bat_nature",
+    "name": {
+      "cn": "法术附着 - 自然",
+      "en": "Arts Infliction: Nature"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.naturalonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.naturalinflict>自然附着</>。\n达到4层时，干员会进入<@ba.corrupt>腐蚀</>状态：一段时间内无法冲刺，且移动速度降低。",
+      "en": "Certain enemy skills can apply stacks of <@ba.naturalinflict>Nature Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.corrupt>Corroded</>: Cannot dash and suffer movement speed reduction for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_naturalinflict",
+    "id": "ba.naturalonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到自然附着",
+      "en": "Operator Debuff: Nature Infliction"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.naturalvul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.natur>自然伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Nature Susceptible targets temporarily take more <@ba.natur>Nature DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_naturalvul",
+    "id": "ba.naturalvul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "自然脆弱",
+      "en": "Nature Susceptibility"
+    },
+    "richTextId": "ba.natur"
+  },
+  "ba.noguard": {
+    "desc": {
+      "cn": "当敌人首次受到<#ba.physicalstatus>物理异常</>时，不会直接触发异常效果，而是进入<@ba.noguard>破防</>状态。\n<@ba.phy>破防</>状态可以被<#ba.airborne>击飞</>和<#ba.knockdown>倒地</>叠加（最多4层），且会被<#ba.crush>猛击</>和<#ba.fracture>碎甲</><#ba.consume>消耗</>。",
+      "en": "Hitting an enemy for the first time with a skill with <#ba.physicalstatus>Physical Status</> applies <@ba.noguard>Vulnerability</> instead of the actual Physical Status.\nA <@ba.phy>Vulnerable</> enemy can be <#ba.airborne>Lifted</> and <#ba.knockdown>Knocked Down</> to add more Vulnerability stacks (up to 4). Hitting a Vulnerable enemy with <#ba.crush>Crush</> or <#ba.fracture>Breach</> will <#ba.consume>consume</> the Vulnerability stacks."
+    },
+    "iconPath": "TermIcon/icon_term_ba_noguard",
+    "id": "ba.noguard",
+    "jumpWikiId": "wiki_tut_bat_break_defence",
+    "name": {
+      "cn": "破防",
+      "en": "Vulnerable"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.originium": {
+    "desc": {
+      "cn": "管理员的连携技会对敌人附着源石结晶，使敌人无法行动。",
+      "en": "The Endministrator's combo skill attaches Originium Crystals to enemies and immobilizes them."
+    },
+    "iconPath": "",
+    "id": "ba.originium",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "源石结晶",
+      "en": "Originium Crystal"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.physicalenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.pd>物理伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Physical Amped targets temporarily deal more <@ba.pd>Physical DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_physicalenhance",
+    "id": "ba.physicalenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "物理增幅",
+      "en": "Physical Amp"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.physicalstatus": {
+    "desc": {
+      "cn": "物理异常是通过物理方式对敌人施加的异常效果，包含<#ba.airborne>击飞</>、<#ba.knockdown>倒地</>、<#ba.crush>猛击</>、<#ba.fracture>碎甲</>。",
+      "en": "Physical Statuses refer to physical debuffs applied to the enemy. They include: <#ba.airborne>Lifted</>, <#ba.knockdown>Knocked Down</>, <#ba.crush>Crushed</>, and <#ba.fracture>Breached</>."
+    },
+    "iconPath": "",
+    "id": "ba.physicalstatus",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "物理异常",
+      "en": "Physical Status"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.physicalvul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.pd>物理伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Physical Susceptible targets temporarily take more <@ba.pd>Physical DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_physicalvul",
+    "id": "ba.physicalvul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "物理脆弱",
+      "en": "Physical Susceptibility"
+    },
+    "richTextId": "ba.phy"
+  },
+  "ba.poiseknot": {
+    "desc": {
+      "cn": "部分强大的敌人存在<@ba.poise>失衡节点</>。<@ba.poise>失衡值</>累积到<@ba.poise>失衡节点</>时，会打断敌人行动并让敌人踉跄。",
+      "en": "Some powerful enemies have <@ba.poise>Stagger Nodes</>. Deal enough <@ba.poise>Stagger</> to reach the <@ba.poise>Stagger Node</> to interrupt such enemies and make them stumble."
+    },
+    "iconPath": "",
+    "id": "ba.poiseknot",
+    "jumpWikiId": "wiki_tut_bat_poise_point",
+    "name": {
+      "cn": "失衡节点",
+      "en": "Stagger Node"
+    },
+    "richTextId": "ba.poise"
+  },
+  "ba.pulseburst": {
+    "desc": {
+      "cn": "<#ba.pulseinflict>电磁附着</> + <#ba.pulseinflict>电磁附着</>会触发<@ba.pulse>电磁爆发</>，对敌人造成一定<@ba.pulse>电磁伤害</>。",
+      "en": "<#ba.pulseinflict>Electric Infliction</> + <#ba.pulseinflict>Electric Infliction</> will trigger <@ba.pulse>Electric Burst</> that deals <@ba.pulse>Electric DMG</> to enemies."
+    },
+    "iconPath": "",
+    "id": "ba.pulseburst",
+    "jumpWikiId": "wiki_tut_bat_pulse_outbreak",
+    "name": {
+      "cn": "法术爆发 - 电磁",
+      "en": "Arts Burst: Electric"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.pulseenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.pulse>电磁伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Electric Amped targets temporarily deal more <@ba.pulse>Electric DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulseenhance",
+    "id": "ba.pulseenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "电磁增幅",
+      "en": "Electric Amp"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.pulseinflict": {
+    "desc": {
+      "cn": "<@ba.pulseinflict>电磁附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.pulseinflict>电磁附着</>最多叠加4层，叠加时会触发<#ba.pulseburst>电磁爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.pulseinflict>电磁附着</> = <#ba.conduct>导电</>",
+      "en": "<@ba.pulseinflict>Electric Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.pulseinflict>Electric Infliction</> can be applied and stacking triggers <#ba.pulseburst>Electric Burst</>. \nA <#ba.spellinflict>non-Electric Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.pulseinflict>Electric Infliction</> = <#ba.conduct>Electrification</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulseinflict",
+    "id": "ba.pulseinflict",
+    "jumpWikiId": "wiki_tut_bat_pulse",
+    "name": {
+      "cn": "法术附着 - 电磁",
+      "en": "Arts Infliction: Electric"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.pulseonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.pulseinflict>电磁附着</>。\n达到4层时，干员会进入<@ba.conduct>导电</>状态：短暂眩晕，且一段时间内，受到的<#ba.spelldmg>法术伤害</>提高。",
+      "en": "Certain enemy skills can apply stacks of <@ba.pulseinflict>Electric Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.conduct>Electrified</>: Temporary stun and take more <#ba.spelldmg>Arts DMG</> for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulseinflict",
+    "id": "ba.pulseonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到电磁附着",
+      "en": "Operator Debuff: Electric Infliction"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.pulsevul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.pulse>电磁伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Electric Susceptible targets temporarily take more <@ba.pulse>Electric DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulsevul",
+    "id": "ba.pulsevul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "电磁脆弱",
+      "en": "Electric Susceptibility"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.return": {
+    "desc": {
+      "cn": "消耗技力后，满足一定条件时，重新获得的一部分技力。\n返还技力并不算作“恢复技力”，不会触发恢复技力时触发的效果，且这部分技力消耗时不会获得终结技能量。",
+      "en": "After spending SP and meeting certain criteria, some of the SP spent will be returned. \nSP Return is not \"SP Recovery\" and do not activate SP Recovery-triggered effects. Spending returned SP also does not gain Ultimate Energy."
+    },
+    "iconPath": "",
+    "id": "ba.return",
+    "jumpWikiId": "wiki_tut_bat_return",
+    "name": {
+      "cn": "返还技力",
+      "en": "SP Return"
+    },
+    "richTextId": ""
+  },
+  "ba.shield": {
+    "desc": {
+      "cn": "护盾可以在持续时间内吸收伤害。部分护盾只会吸收特定类型的伤害。",
+      "en": "The shield can absorb damage while it is active. Some shields may only absorb specific type(s) of DMG."
+    },
+    "iconPath": "",
+    "id": "ba.shield",
+    "jumpWikiId": "wiki_tut_bat_shield",
+    "name": {
+      "cn": "护盾",
+      "en": "Shield"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.slow": {
+    "desc": {
+      "cn": "一定时间内目标的移动速度降低（数值代表降低的幅度）。同类效果会取效果最高值。",
+      "en": "Slowed targets temporarily suffer movement speed reduction. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies."
+    },
+    "iconPath": "TermIcon/icon_term_ba_slow",
+    "id": "ba.slow",
+    "jumpWikiId": "wiki_tut_bat_slow",
+    "name": {
+      "cn": "缓速",
+      "en": "Slow"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellburst": {
+    "desc": {
+      "cn": "<@ba.key>法术爆发</>是同类型的<#ba.spellinflict>法术附着</>叠加时产生的伤害效果，包含<#ba.fireburst>灼热爆发</>、<#ba.pulseburst>电磁爆发</>、<#ba.crystburst>寒冷爆发</>、<#ba.naturalburst>自然爆发</>。",
+      "en": "<@ba.key>Arts Bursts</> are triggered by stacking <#ba.spellinflict>Arts Inflictions</> of the same elements. They include <#ba.fireburst>Heat Burst</>, <#ba.pulseburst>Electric Burst</>, <#ba.crystburst>Cryo Burst</>, and <#ba.naturalburst>Nature Burst</>."
+    },
+    "iconPath": "",
+    "id": "ba.spellburst",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术爆发",
+      "en": "Arts Burst"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spelldmg": {
+    "desc": {
+      "cn": "伤害分为<@ba.pd>物理伤害</>、<@ba.key>法术伤害</>、<@ba.ether>超域伤害</>。\n其中，<@ba.key>法术伤害</>又分为<@ba.fire>灼热伤害</>、<@ba.pulse>电磁伤害</>、<@ba.cryst>寒冷伤害</>、<@ba.natur>自然伤害</>。",
+      "en": "Damage can be divided into <@ba.pd>Physical DMG</>, <@ba.key>Arts DMG</>, and <@ba.ether>Æther DMG</>.\n<@ba.key>Arts DMG</> can be further divided into <@ba.fire>Heat DMG</>, <@ba.pulse>Electric DMG</>, <@ba.cryst>Cryo DMG</>, and <@ba.natur>Nature DMG</>."
+    },
+    "iconPath": "",
+    "id": "ba.spelldmg",
+    "jumpWikiId": "wiki_tut_bat_dmg_type",
+    "name": {
+      "cn": "伤害类型",
+      "en": "DMG Type"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<#ba.spelldmg>法术伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Arts Amped targets temporarily deal more <#ba.spelldmg>Arts DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_spellenhance",
+    "id": "ba.spellenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术增幅",
+      "en": "Arts Amp"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellinflict": {
+    "desc": {
+      "cn": "<@ba.key>法术附着</>是一种附着在敌人身上的法术标记，包括<#ba.fireinflict>灼热附着</>、<#ba.pulseinflict>电磁附着</>、<#ba.crystinflict>寒冷附着</>、<#ba.naturalinflict>自然附着</>。\n同类型的<@ba.key>法术附着</>可以叠加，最多4层。",
+      "en": "<@ba.key>Arts Inflictions</> are special Arts debuff inflicted upon the enemy. There are 4 elements of Arts Inflictions: <#ba.fireinflict>Heat Infliction</>, <#ba.pulseinflict>Electric Infliction</>, <#ba.crystinflict>Cryo Infliction</>, and <#ba.naturalinflict>Nature Infliction</>. \nUp to 4 stacks of <@ba.key>Arts Infliction</> of the same element can be applied."
+    },
+    "iconPath": "",
+    "id": "ba.spellinflict",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术附着",
+      "en": "Arts Infliction"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellinflictonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<#ba.burningonchar>灼热附着</>、<#ba.conductonchar>电磁附着</>、<#ba.frozenonchar>寒冷附着</>或<#ba.corruptonchar>自然附着</>。\n达到4层时，会分别让干员受到<#ba.burningonchar>燃烧</>、<#ba.conductonchar>导电</>、<#ba.frozenonchar>冻结</>或<#ba.corruptonchar>腐蚀</>。",
+      "en": "Some enemy skills can apply stacks of <#ba.burningonchar>Heat Infliction</>, <#ba.conductonchar>Electric Infliction</>, <#ba.frozenonchar>Cryo Infliction</>, or <#ba.corruptonchar>Nature Infliction</>.\nAt 4 stacks of the Arts Inflictions, the operator becomes <#ba.burningonchar>Combusted</>, <#ba.conductonchar>Electrified</>, <#ba.frozenonchar>Solidified</>, or <#ba.corruptonchar>Corroded</> respectively."
+    },
+    "iconPath": "",
+    "id": "ba.spellinflictonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到法术附着/异常",
+      "en": "Arts Inflictions / Arts Reactions on Operators"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellstatus": {
+    "desc": {
+      "cn": "<@ba.key>法术异常</>是通过法术方式对敌人施加的异常效果，包含<#ba.burning>燃烧</>、<#ba.conduct>导电</>、<#ba.frozen>冻结</>、<#ba.corrupt>腐蚀</>。",
+      "en": "<@ba.key>Arts Reactions</> are Arts debuffs that can be applied to the enemy. They include: <#ba.burning>Combustion</>, <#ba.conduct>Electrification</>, <#ba.frozen>Solidification</>, and <#ba.corrupt>Corrosion</>."
+    },
+    "iconPath": "",
+    "id": "ba.spellstatus",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术异常",
+      "en": "Arts Reaction"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.spellvul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<#ba.spelldmg>法术伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Arts Susceptible targets temporarily take more <#ba.spelldmg>Arts DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_spellvul",
+    "id": "ba.spellvul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术脆弱",
+      "en": "Arts Susceptibility"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.statuslevel": {
+    "desc": {
+      "cn": "异常等级等于触发<#ba.physicalstatus>物理异常</>或<#ba.spellstatus>法术异常</>时<#ba.consume>消耗</>的<#ba.noguard>破防</>或<#ba.spellinflict>法术附着</>层数（最高4级）。<#ba.statuslevel>异常等级</>越高，<#ba.physicalstatus>物理异常</>和<#ba.spellstatus>法术异常</>的效果就越强。",
+      "en": "Status Level is the number of <#ba.noguard>Vulnerability</> or <#ba.spellinflict>Arts Infliction</> stacks (max 4) <#ba.consume>consumed</> when triggering a <#ba.physicalstatus>Physical Status</> or <#ba.spellstatus>Arts Reaction</>. The higher the <#ba.statuslevel>Status Level</>, the stronger the resulting <#ba.physicalstatus>Physical Status</> or <#ba.spellstatus>Arts Reaction</>."
+    },
+    "iconPath": "",
+    "id": "ba.statuslevel",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "异常等级",
+      "en": "Status Level"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.vulnerable": {
+    "desc": {
+      "cn": "一定时间内目标受到的特定属性伤害提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_vulnerable",
+    "id": "ba.vulnerable",
+    "jumpWikiId": "wiki_tut_bat_vulnerable",
+    "name": {
+      "cn": "脆弱",
+      "en": "Susceptible"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.weak": {
+    "desc": {
+      "cn": "一定时间内目标造成的伤害降低（数值代表降低的幅度）。同类效果会以非线性方式叠加。",
+      "en": "Weakened targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly."
+    },
+    "iconPath": "TermIcon/icon_term_ba_weak",
+    "id": "ba.weak",
+    "jumpWikiId": "wiki_tut_bat_weak",
+    "name": {
+      "cn": "虚弱",
+      "en": "Weaken"
+    },
+    "richTextId": "ba.key"
+  },
+  "fac.hub": {
+    "desc": {
+      "cn": "协议核心是集成工业系统的中枢设备，承担了诸多功能，是进行工业建设的核心。\n在协议核心所在的集成核心区域内，可以进行仓储管理。",
+      "en": "The Protocol Automation-Core (PAC) is the central facility of the Automated Industry Complex (AIC) Factory. Storage management becomes available when standing in the Core AIC Area of the PAC."
+    },
+    "iconPath": "",
+    "id": "fac.hub",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "协议核心",
+      "en": "Protocol Automation-Core"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.bbflower": {
+    "desc": {
+      "cn": "一种可在野外采集的植物，内含易燃易爆成分。\n可使用工业设备培育获得，或在<#item.portSoilBbflower>酮化灌木田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.bbflowerPowder>酮化灌木粉末</>。",
+      "en": "A plant that contains flammable and explosive substances. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilBbflower>Aketine Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.bbflowerPowder>Aketine Powder</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_bbflower",
+    "id": "item.bbflower",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木",
+      "en": "Aketine"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.bbflowerPowder": {
+    "desc": {
+      "cn": "由<#item.bbflower>酮化灌木</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.bbflower>Aketine</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_bbflowerPowder",
+    "id": "item.bbflowerPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木粉末",
+      "en": "Aketine Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.bbflowerSeed": {
+    "desc": {
+      "cn": "由<#item.bbflower>酮化灌木</>通过工业设备采种得到的种子。\n在工业设备中种植酮化树种，可获得酮化灌木。\n将酮化树种与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilBbflower>酮化灌木田块</>。",
+      "en": "Seeds picked from <#item.bbflower>Aketine</> with AIC Factory facilities.\nAketine Seeds can then be planted and grown at AIC Factory facilities to acquire Aketine.\nAlternatively, Aketine Seed and <#item.carbonMtl>Carbon</> can be used in the <#sys.manualCraftField>Planting</> screen and crafted into <#item.portSoilBbflower>Aketine Plots</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_bbflowerSeed",
+    "id": "item.bbflowerSeed",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化树种",
+      "en": "Aketine Seed"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.bottledRecHp1": {
+    "desc": {
+      "cn": "由<#item.plantMossPowder1>荞花粉末</>与<#item.glassBottle>紫晶质瓶</>通过<#sys.manualCraft>简易制作</>或工业设备灌装得到的胶囊。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。\n",
+      "en": "A capsule made by <#sys.manualCraft>crafting</> or filling <#item.plantMossPowder1>Buckflower Powder</> into an <#item.glassBottle>Amethyst Bottle</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_bottledRecHp1",
+    "id": "item.bottledRecHp1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞愈胶囊",
+      "en": "Buck Capsule [C]"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.carbonMtl": {
+    "desc": {
+      "cn": "由<#item.plantMoss1>荞花</>通过工业设备精炼得来的碳材料。\n是<#sys.manualCraftField>种植调配</>田块必不可少的材料，也可用于其他材料的合成。",
+      "en": "A material produced by refining <#item.plantMoss1>Buckflowers</> with AIC Factory facilities.\nCarbon is essential for crafting <#sys.manualCraftField>planting</> plots, and can also be used for producing other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_carbonMtl",
+    "id": "item.carbonMtl",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "碳块",
+      "en": "Carbon"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.crystalShell": {
+    "desc": {
+      "cn": "由<#item.originium>源矿</>通过工业设备精炼后得到的外壳。\n可用于其他材料合成。\n",
+      "en": "A crystalline crust produced by refining <#item.originium>Originium Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_crystalShell",
+    "id": "item.crystalShell",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "晶体外壳",
+      "en": "Origocrust"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.glassBottle": {
+    "desc": {
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备塑形后得到的瓶子。\n可用于其他材料合成。",
+      "en": "A bottle produced by moulding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_glassBottle",
+    "id": "item.glassBottle",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶质瓶",
+      "en": "Amethyst Bottle"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.glassCmpt": {
+    "desc": {
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备配件后得到的零件。\n可用于其他材料合成。",
+      "en": "A part produced by fitting <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_glassCmpt",
+    "id": "item.glassCmpt",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶零件",
+      "en": "Amethyst Part"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.ironEnrPowder": {
+    "desc": {
+      "cn": "由<#item.ironPowder>蓝铁粉末</>与<#item.plantMossPowder3>砂叶粉末</>通过工业设备研磨后得到的细粉。\n可用于其他材料合成。",
+      "en": "A fine, dense powder produced by grinding <#item.ironPowder>Ferrium Powder</> and <#item.plantMossPowder3>Sandleaf Powder</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_ironEnrPowder",
+    "id": "item.ironEnrPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "致密蓝铁粉末",
+      "en": "Dense Ferrium Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.ironNugget": {
+    "desc": {
+      "cn": "由<#item.ironOre>蓝铁矿</>通过工业设备精炼后得到的金属块。\n可用于其他材料合成。",
+      "en": "A metal ingot produced by refining <#item.ironOre>Ferrium Ore</> with AIC Factory facilities. It can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_ironNugget",
+    "id": "item.ironNugget",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "蓝铁块",
+      "en": "Ferrium"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.ironOre": {
+    "desc": {
+      "cn": "一种可在野外蓝铁矿矿点采集的矿石。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.ironNugget>蓝铁块</>。",
+      "en": "An ore that can be gathered from Ferrium Ore mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.ironNugget>Ferrium</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_ironOre",
+    "id": "item.ironOre",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "蓝铁矿",
+      "en": "Ferrium Ore"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.ironPowder": {
+    "desc": {
+      "cn": "由<#item.ironNugget>蓝铁块</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.ironNugget>Ferrium</> with AIC Factory facilities. It can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_ironPowder",
+    "id": "item.ironPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "蓝铁粉末",
+      "en": "Ferrium Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.originium": {
+    "desc": {
+      "cn": "一种可在野外源矿矿点采集的矿石，可用于集成工业系统发电。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.crystalShell>晶体外壳</>。",
+      "en": "An ore that can be gathered from Originium Ore mining spots in the wilderness. It can be used for power generation in the AIC Factory.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.crystalShell>Origocrust</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_originium",
+    "id": "item.originium",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "源矿",
+      "en": "Originium Ore"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.originiumEnrPowder": {
+    "desc": {
+      "cn": "由<#item.originiumPowder>源石粉末</>与<#item.plantMossPowder3>砂叶粉末</>通过工业设备研磨后得到的细粉。\n可用于其他材料合成。",
+      "en": "A fine, dense powder produced by grinding <#item.originiumPowder>Originium Powder</> and <#item.plantMossPowder3>Sandleaf Powder</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_originiumEnrPowder",
+    "id": "item.originiumEnrPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "致密源石粉末",
+      "en": "Dense Originium Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.originiumPowder": {
+    "desc": {
+      "cn": "由<#item.originium>源矿</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.originium>Originium Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_originiumPowder",
+    "id": "item.originiumPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "源石粉末",
+      "en": "Originium Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMoss1": {
+    "desc": {
+      "cn": "荞花是一种可在野外采集的艳丽花朵。\n可使用工业设备培育获得，或在<#item.portSoilMoss1>荞花田块</>中种植获得。\n可用于<#sys.tacticalItem>战术物品</>制作或其他材料合成。",
+      "en": "The Buckflower is a plant that grows in the wilderness and is known for its brightly colored flowers.\nThe plant can also be grown with AIC Factory facilities or <#item.portSoilMoss1>Buckflower Plots</>.\nThe plant can be used for crafting <#sys.tacticalItem>tacticals</> or other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMoss1",
+    "id": "item.plantMoss1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞花",
+      "en": "Buckflower"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMoss3": {
+    "desc": {
+      "cn": "一种可在野外采集的叶片粗粝的植物。\n可使用工业设备培育获得，或在<#item.portSoilMoss3>砂叶田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.plantMossPowder3>砂叶粉末</>。",
+      "en": "A plant that is characterized by rough, gritty leaves. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilMoss3>Sandleaf Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.plantMossPowder3>Sandleaf Powder</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMoss3",
+    "id": "item.plantMoss3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶",
+      "en": "Sandleaf"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossPowder1": {
+    "desc": {
+      "cn": "由<#item.plantMoss1>荞花</>通过<#sys.manualCraft>简易制作</>或工业设备粉碎后得到的粉末。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。",
+      "en": "A powder made by <#sys.manualCraft>crafting</> or shredding <#item.plantMoss1>Buckflowers</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossPowder1",
+    "id": "item.plantMossPowder1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞花粉末",
+      "en": "Buckflower Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossPowder3": {
+    "desc": {
+      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成，常用于研磨。",
+      "en": "A powder produced by shredding <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nIt can be used to produce other materials, usually by grinding."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossPowder3",
+    "id": "item.plantMossPowder3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶粉末",
+      "en": "Sandleaf Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossSeed1": {
+    "desc": {
+      "cn": "由<#item.plantMoss1>荞花</>通过工业设备采种得到的种子。\n在工业设备中种植荞花种子，可获得荞花。或将荞花种子与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilMoss1>荞花田块</>。",
+      "en": "Seeds picked from <#item.plantMoss1>Buckflowers</> with AIC Factory facilities.\nBuckflower Seeds can then be planted and grown at AIC Factory facilities to acquire Buckflowers. Alternatively, Buckflower Seed and <#item.carbonMtl>Carbon</> can be used in the <#sys.manualCraftField>Planting</> screen and crafted into <#item.portSoilMoss1>Buckflower Plots</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossSeed1",
+    "id": "item.plantMossSeed1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞花种子",
+      "en": "Buckflower Seed"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossSeed3": {
+    "desc": {
+      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备采种得到的种子。\n在工业设备中种植砂叶种子，可获得砂叶。\n将砂叶种子与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilMoss3>砂叶田块</>。",
+      "en": "Seeds picked from <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nSandleaf Seeds can then be planted and grown at AIC Factory facilities to acquire Sandleaves.\nAlternatively, Sandleaf Seed and <#item.carbonMtl>Carbon</> can be used in the <#sys.manualCraftField>Planting</> screen and crafted into <#item.portSoilMoss3>Sandleaf Plots</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_item_plantMossSeed3",
+    "id": "item.plantMossSeed3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶种子",
+      "en": "Sandleaf Seed"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossSpc1": {
+    "desc": {
+      "cn": "映火荞花是一种可在野外采集的特殊艳丽花朵。\n在采集<#item.plantMoss1>荞花</>时有概率额外获得映火荞花。\n可用于<#sys.tacticalItem>战术物品</>制作。",
+      "en": "The Firebuckle is a plant that grows in the wilderness and is known for its exceptionally brilliant flowers.\nThere is a chance of getting Firebuckles when harvesting <#item.plantMoss1>Buckflowers</> in the wilderness.\nThey can be used for crafting <#sys.tacticalItem>tacticals</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossSpc1",
+    "id": "item.plantMossSpc1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "映火荞花",
+      "en": "Firebuckle"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantSp1": {
+    "desc": {
+      "cn": "灰芦麦是一种可在野外采集的作物，也可在<#item.portSoilSp1>灰芦麦田块</>中种植获得。\n可直接用于<#sys.manualCraftDish>精制食药</>的制作。",
+      "en": "The Reed Rye is a type of plantable crop gatherable from the wilderness. It can also be acquired by cultivating <#item.portSoilSp1>Reed Rye Plots</>.\nIt can be directly used for crafting <#sys.manualCraftDish>Fine Food & Meds</> (Fine F&M)."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantSp1",
+    "id": "item.plantSp1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "灰芦麦",
+      "en": "Reed Rye"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantSpSeed1": {
+    "desc": {
+      "cn": "由<#item.plantSp1>灰芦麦</>通过工业设备采种后得到的种子。\n将灰芦麦种子与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilSp1>灰芦麦田块</>。",
+      "en": "Seeds produced by seed-picking <#item.plantSp1>Reed Rye</> plants with AIC Factory facilities.\nTake Reed Rye Seed and <#item.carbonMtl>Carbon</>, then go to the <#sys.manualCraftField>Planting</> screen to craft them into <#item.portSoilSp1>Reed Rye Plots</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantSpSeed1",
+    "id": "item.plantSpSeed1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "灰芦麦种子",
+      "en": "Reed Rye Seed"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.portSoilBbflower": {
+    "desc": {
+      "cn": "可以在生态种植园中进行进行精细化培育以收获<#item.bbflower>酮化灌木</>的田块。\n由<#item.bbflowerSeed>酮化树种</>与<#item.carbonMtl>碳块</>一起进行种植调配获得。\n收获时可获得大量酮化灌木。",
+      "en": "Aketine Plots can be cultivated at the Eco-Farm to acquire <#item.bbflower>Aketine</>.\nThese plots can be crafted by using <#item.bbflowerSeed>Aketine Seed</> and <#item.carbonMtl>Carbon</> in the Planting screen.\nHarvesting a fully grown plot provides plenty of Aketine."
+    },
+    "iconPath": "TermIcon/icon_term_item_portSoilBbflower",
+    "id": "item.portSoilBbflower",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木田块",
+      "en": "Aketine Plot"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.portSoilMoss1": {
+    "desc": {
+      "cn": "可以在生态种植园中进行精细化培育以收获<#item.plantMoss1>荞花</>的田块\n由<#item.plantMossSeed1>荞花种子</>与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>获得。\n收获时可获得大量荞花，且有较高概率额外获得<#item.plantMossSpc1>映火荞花</>。",
+      "en": "Buckflower Plots can be cultivated at the Eco-Farm to acquire <#item.plantMoss1>Buckflower</>.\nThese plots can be crafted by using <#item.plantMossSeed1>Buckflower Seed</> and <#item.carbonMtl>Carbon</> in the <#sys.manualCraftField>Planting</> screen.\nHarvesting a fully grown plot has a higher chance of getting bonus <#item.plantMossSpc1>Firebuckle</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_portSoilMoss1",
+    "id": "item.portSoilMoss1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞花田块",
+      "en": "Buckflower Plot"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.portSoilMoss3": {
+    "desc": {
+      "cn": "可以在生态种植园中进行进行精细化培育以收获<#item.plantMoss3>砂叶</>的田块。\n由<#item.plantMossSeed3>砂叶种子</>与<#item.carbonMtl>碳块</>一起进行种植调配获得。\n收获时可获得大量砂叶。",
+      "en": "Sandleaf Plots can be cultivated at the Eco-Farm to acquire <#item.plantMoss3>Sandleaf</>.\nThese plots can be crafted by using <#item.plantMossSeed3>Sandleaf Seed</> and <#item.carbonMtl>Carbon</> in the Planting screen.\nHarvesting a fully grown plot provides plenty of Sandleaves."
+    },
+    "iconPath": "TermIcon/icon_term_item_item_portSoilMoss3",
+    "id": "item.portSoilMoss3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶田块",
+      "en": "Sandleaf Plot"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.portSoilSp1": {
+    "desc": {
+      "cn": "可以在生态种植园中进行进行精细化培育以收获<#item.plantSp1>灰芦麦</>的田块。\n由<#item.plantSpSeed1>灰芦麦种子</>与<#item.carbonMtl>碳块</>一起进行种植调配获得。\n收获时可获得大量灰芦麦。",
+      "en": "Reed Rye Plots can be cultivated at the Eco-Farm to acquire <#item.plantSp1>Reed Rye</>.\nThese plots can be crafted by using <#item.plantSpSeed1>Reed Rye Seed</> and <#item.carbonMtl>Carbon</> in the Planting screen.\nHarvesting a fully grown plot provides plenty of Reed Rye."
+    },
+    "iconPath": "TermIcon/icon_term_item_portSoilSp1",
+    "id": "item.portSoilSp1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "灰芦麦田块",
+      "en": "Reed Rye Plot"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.procBattery1": {
+    "desc": {
+      "cn": "由<#item.glassCmpt>紫晶零件</>与<#item.originiumPowder>源石粉末</>通过工业设备封装得到的电池。\n可用于发电、设备充能或与据点进行交易。",
+      "en": "A battery produced by packaging <#item.glassCmpt>Amethyst Part</> and <#item.originiumPowder>Originium Powder</> with AIC Factory facilities.\nIt can be used to supply power, charge up facilities, or traded at various outposts."
+    },
+    "iconPath": "TermIcon/icon_term_item_procBattery1",
+    "id": "item.procBattery1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "低容谷地电池",
+      "en": "LC Valley Battery"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.procBomb": {
+    "desc": {
+      "cn": "工业爆炸物是一种可生产的爆炸物。\n由<#item.glassCmpt>紫晶零件</>与<#item.bbflowerPowder>酮化灌木粉末</>通过工业设备封装后获得。\n使用工业爆炸物，可对爆炸范围内的敌人造成伤害，也可对范围内可被爆破的物体造成破坏。",
+      "en": "Industrial Explosives are a type of explosive that can be produced.\nThey are made by using the Packaging Unit, an AIC Factory facility. The materials required are <#item.glassCmpt>Amethyst Part</> and <#item.bbflowerPowder>Aketine Powder</>.\nUse Industrial Explosives to deal DMG to enemies or take down destructible objects within the blast radius."
+    },
+    "iconPath": "TermIcon/icon_term_item_procBomb",
+    "id": "item.procBomb",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "工业爆炸物",
+      "en": "Industrial Explosive"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.quartzGlass": {
+    "desc": {
+      "cn": "由<#item.quartzSand>紫晶矿</>通过工业设备精炼后得到的纤维。\n可用于其他材料合成。",
+      "en": "A fiber produced by refining <#item.quartzSand>Amethyst Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_quartzGlass",
+    "id": "item.quartzGlass",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶纤维",
+      "en": "Amethyst Fiber"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.quartzPowder": {
+    "desc": {
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_quartzPowder",
+    "id": "item.quartzPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶粉末",
+      "en": "Amethyst Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.quartzSand": {
+    "desc": {
+      "cn": "一种可在野外紫晶矿矿点采集的矿石。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.quartzGlass>紫晶纤维</>。",
+      "en": "An ore that can be gathered from Amethyst Ore mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.quartzGlass>Amethyst Fiber</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_quartzSand",
+    "id": "item.quartzSand",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶矿",
+      "en": "Amethyst Ore"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.manualCraft": {
+    "desc": {
+      "cn": "可在背包中进行简易制作，将不同的原材料制作成各种可用的物品。\n例如可通过简易制作，将<#item.plantMoss1>荞花</>制作成能够回复生命值的<#item.plantMossSeed1>荞花粉末</>。",
+      "en": "Open the Backpack panel to access the Crafting screen. Different raw materials can be crafted into useful items.\nFor example, <#item.plantMoss1>Buckflower</> can be crafted into <#item.plantMossSeed1>Buckflower Powder</> for restoring HP."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraft",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "简易制作",
+      "en": "Crafting"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.manualCraftDish": {
+    "desc": {
+      "cn": "精制食药可以作为<#sys.tacticalItem>战术物品</>使用。\n不同于<#sys.manualCraftTonic>应急食药</>，精致食药只能通过<#sys.manualCraft>简易制作</>获取。",
+      "en": "Fine Food & Meds (Fine F&M) can be used as <#sys.tacticalItem>tacticals</>. \nUnlike <#sys.manualCraftTonic>Emergency Food & Meds</>, they can only be made using <#sys.manualCraft>Crafting</>."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraftDish",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "精制食药",
+      "en": "Fine Food & Meds"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.manualCraftField": {
+    "desc": {
+      "cn": "在<#sys.manualCraft>简易制作</>中，可将一些植物的种子与<#item.carbonMtl>碳块</>调配成对应植物的田块。\n可以进一步在生态种植区中对田块种植培育。",
+      "en": "<#sys.manualCraft>Crafting</> lets you craft planting plots with plant seeds and <#item.carbonMtl>Carbon</>. Planting plots can be placed and grown at the Eco-Farm."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraftField",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "种植调配",
+      "en": "Planting"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.manualCraftTonic": {
+    "desc": {
+      "cn": "应急食药可以作为<#sys.tacticalItem>战术物品</>使用。\n可以通过<#sys.manualCraft>简易制作</>或工业设备生产获取。",
+      "en": "Emergency Food & Meds (EMS F&M) can be used as <#sys.tacticalItem>tacticals</>.\nThey can be acquired by <#sys.manualCraft>Crafting</> or by using AIC Factory facilities."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraftTonic",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "应急食药",
+      "en": "Emergency Food & Meds"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.tacticalItem": {
+    "desc": {
+      "cn": "战术物品可以为战斗带来增益效果，每种战术物品都有不同的生效条件及使用次数上限。\n战斗前，可为每名干员装备一种战术物品。战斗中，当符合其生效条件时，干员会自动使用已装备的战术物品。\n当战术物品的使用次数在单次战斗中耗尽后，会在一段时间后恢复一次使用次数。",
+      "en": "Tacticals are items that can be used during combat to provide various benefits and buffs. Every tactical has different activation criteria and usage limits.\nEvery operator can be equipped with 1 tactical. During battle, whenever the tactical activation criteria are met, the operator will auto-use their equipped tactical.\nAfter expending all tactical usage attempts in a single battle, one more use will be restored after a while."
+    },
+    "iconPath": "",
+    "id": "sys.tacticalItem",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "战术物品",
+      "en": "Tacticals"
+    },
+    "richTextId": "gd.key"
+  }
+}

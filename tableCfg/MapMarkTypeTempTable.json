@@ -1,0 +1,2950 @@
+{
+  "1": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "拥有数个格子的储物设备，在通电状态下可将其中物品转移至仓库，也可作为物品输出端直接用于工厂内部。",
+          "en": "A storage facility with several item storage slots. When powered, it can transfer items to the Depot. It can also be used as a point to unload items in the Factory."
+        },
+        "inActiveIcon": "icon_map_storager_box_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_storebox",
+        "markInfoType": "0",
+        "markType": "1",
+        "name": {
+          "cn": "协议储存箱",
+          "en": "Protocol Stash"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "存储液体的设备。",
+          "en": "A facility for storing fluids."
+        },
+        "inActiveIcon": "icon_map_storager_box_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_liquid_storebox",
+        "markInfoType": "0",
+        "markType": "1",
+        "name": {
+          "cn": "储液罐",
+          "en": "Fluid Tank"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通电后可给较大范围内的终末地设备无线供电。完成后续工业计划研发后可进行30m内短距离电力运输。",
+          "en": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area. Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability."
+        },
+        "inActiveIcon": "icon_map_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "供电桩",
+          "en": "Electric Pylon"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_big_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以在80m范围内完成电力配给的中继设备，只能进行电力传输。完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
+          "en": "This relay can be used to transmit power to other facilities within an 80-meter radius. Researching certain AIC Factory Plan technologies also lets this facility wirelessly supply power to other Endfield facilities within a small area."
+        },
+        "inActiveIcon": "icon_map_big_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole_2",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "中继器",
+          "en": "Relay Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_pole_wuling",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "在集成核心区域外可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
+          "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances."
+        },
+        "inActiveIcon": "icon_map_big_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerdiffuser_2",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "息壤供电桩",
+          "en": "Xiranite Pylon"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_big_pole_wuling",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "在集成核心区域外可自动连接协议核心与全部息壤电力设备（80m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行电力传输与小范围供电。",
+          "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range."
+        },
+        "inActiveIcon": "icon_map_big_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole_3",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "息壤中继器",
+          "en": "Xiranite Relay"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_miner",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_miner_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_minemachine",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "矿机",
+          "en": "Mining Rig"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_terminal",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_terminal_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerterminal",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "供电终端",
+          "en": "Electric Nexus"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_terminal",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "作为电路末端的终端中继器。",
+          "en": "An electric nexus is usually deployed at the end of a power transmission line."
+        },
+        "inActiveIcon": "icon_map_terminal_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerport",
+        "markInfoType": "3",
+        "markType": "1",
+        "name": {
+          "cn": "供电终端",
+          "en": "Electric Nexus"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_water_pump",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于抽取液体的设备。",
+          "en": "A facility for pumping bulk fluids."
+        },
+        "inActiveIcon": "icon_map_water_pump_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_pump",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "水泵",
+          "en": "Fluid Pump"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_water_supply",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于供给液体的设备。",
+          "en": "A facility for dispensing fluids."
+        },
+        "inActiveIcon": "icon_map_water_supply_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_dumper",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "给水器",
+          "en": "Fluid Supply Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
+          "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_power_station_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "热能池",
+          "en": "Thermal Bank"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "使用高温熔炼其他材料的设备。",
+          "en": "A facility that performs high temperature smelting of various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_furnance_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "精炼炉",
+          "en": "Refining Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能粉碎各种材料的重型设备。",
+          "en": "A heavy facility that shreds and pulverizes various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_grinder_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "粉碎机",
+          "en": "Shredding Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够将不同材料嵌合加工成装备原件的设备。",
+          "en": "A facility that laminates different materials together to create gear components."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_winder_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "装备原件机",
+          "en": "Gearing Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够加工各式零件的平台。",
+          "en": "A facility capable of processing various parts."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_component_mc_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "配件机",
+          "en": "Fitting Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够冲压各种容器的设备。",
+          "en": "A facility that produces various containers via stamp moulding."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_shaper_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "塑形机",
+          "en": "Moulding Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够将原料灌装到容器的设备。",
+          "en": "A facility capable of filling containers with various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_filling_powder_mc_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "灌装机",
+          "en": "Filling Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以对粉末材料进行细致研磨处理的设备。",
+          "en": "A facility that performs fine grinding of powdered materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_thickener_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "研磨机",
+          "en": "Grinding Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于封装部分能量元件的设备。",
+          "en": "A facility for packaging certain power components."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "封装机",
+          "en": "Packaging Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够采集普通植物种子的设备。",
+          "en": "A facility that extracts seeds from common crops."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_seedcollector_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "采种机",
+          "en": "Seed-Picking Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够培育各类普通植物的仓形设备。",
+          "en": "A cultivating silo for growing various common plants and crops."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_planter_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "种植机",
+          "en": "Planting Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "进行固液体化学反应的设备。",
+          "en": "A facility for running solid or liquid-state chemical reactions."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_mix_pool_1",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "反应池",
+          "en": "Reactor Crucible"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "向固定位置喷洒液体的设备。",
+          "en": "A facility that sprays fluids in a fixed direction."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_squirter_1",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "洒水机",
+          "en": "Sprinkler"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于息壤相关产物合成的设备。",
+          "en": "A facility for making Xiranite-based products."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_xiranite_oven_1",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "天有洪炉",
+          "en": "Forge of the Sky"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于进行物理分拆的设备。",
+          "en": "A facility that physically separates various items."
+        },
+        "inActiveIcon": "icon_map_general_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_dismantler_1",
+        "markInfoType": "27",
+        "markType": "1",
+        "name": {
+          "cn": "拆解机",
+          "en": "Separating Unit"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "",
+          "en": ""
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_2",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "",
+          "en": ""
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量荞花。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Buckflowers."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_moss_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "荞花田块",
+          "en": "Buckflower Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量柑实。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Citromes."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_moss_2",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "柑实田块",
+          "en": "Citrome Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量砂叶。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sandleaves."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_moss_3",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "砂叶田块",
+          "en": "Sandleaf Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量酮化灌木。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Aketine."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_bbflower_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "酮化灌木田块",
+          "en": "Aketine Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量锦草。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_grass_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "锦草田块",
+          "en": "Jincao Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量芽针。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_grass_2",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "芽针田块",
+          "en": "Yazhen Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量灰芦麦。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Reed Rye."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "灰芦麦田块",
+          "en": "Reed Rye Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量苦叶椒。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Tartpeppers."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_2",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "苦叶椒田块",
+          "en": "Tartpepper Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_3",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "琼叶参田块",
+          "en": "Redjade Ginseng Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
+          "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_4",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "金石稻田块",
+          "en": "Amber Rice Plot"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量锦草。",
+          "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_grass_fast_1",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "模拟锦草田块",
+          "en": "Jincao Plot (SIM)"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量芽针。",
+          "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_grass_fast_2",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "模拟芽针田块",
+          "en": "Yazhen Plot (SIM)"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
+          "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_fast_3",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "模拟琼叶参田块",
+          "en": "Redjade Ginseng Plot (SIM)"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_fields",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
+          "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
+        },
+        "inActiveIcon": "icon_map_fields",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_soil_sp_fast_4",
+        "markInfoType": "26",
+        "markType": "1",
+        "name": {
+          "cn": "模拟金石稻田块",
+          "en": "Amber Rice Plot (SIM)"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      }
+    ]
+  },
+  "10": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_mission_main_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_main_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_main_high",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "主线任务",
+          "en": "Main Mission"
+        },
+        "sortOrder": "4",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_main_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_main_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_main_mid",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "主线任务",
+          "en": "Main Mission"
+        },
+        "sortOrder": "4",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_main_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_main_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_main_low",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "主线任务",
+          "en": "Main Mission"
+        },
+        "sortOrder": "4",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_side_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_side_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_side_high",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "支线任务",
+          "en": "Side Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_side_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_side_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_side_mid",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "支线任务",
+          "en": "Side Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_side_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_side_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_side_low",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "支线任务",
+          "en": "Side Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_activity_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_activity_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_activity_high",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "活动任务",
+          "en": "Event Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_activity_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_activity_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_activity_mid",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "活动任务",
+          "en": "Event Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_activity_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_activity_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_activity_low",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "活动任务",
+          "en": "Event Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_discovery_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_discovery_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_discovery_high",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "探索任务",
+          "en": "Exploration Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_discovery_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_discovery_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_discovery_mid",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "探索任务",
+          "en": "Exploration Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_discovery_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_discovery_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_discovery_low",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "探索任务",
+          "en": "Exploration Mission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_other_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_other_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_other_high",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "委派任务",
+          "en": "Commission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_other_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_other_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_other_mid",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "委派任务",
+          "en": "Commission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_other_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_other_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_other_low",
+        "markInfoType": "36",
+        "markType": "10",
+        "name": {
+          "cn": "委派任务",
+          "en": "Commission"
+        },
+        "sortOrder": "3",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "101": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_teleport",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "在会客室中可进行干员留影、干员履历、蚀刻章、武器等内容的展示。使用传送台可前往好友飞船进行拜访。",
+          "en": "Operator snapshots, operator CVs, engraved medals, and weapons can be showcased at the Reception Room. Use the TP Platform to visit a friend's ship."
+        },
+        "inActiveIcon": "icon_map_ship_teleport",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_reception_teleport",
+        "markInfoType": "37",
+        "markType": "101",
+        "name": {
+          "cn": "传送台",
+          "en": "TP Platform"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "102": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_region_shop",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在物资调度终端售卖地区货品。在拜访好友飞船时，可于此查看好友的弹性需求物资价格，并以该价格出售库存货品。",
+          "en": "Regional goods can be sold at the Stock Redistribution Terminal. When visiting a friend's ship, the terminal can be used to check the prices of elastic goods and sell any available stock owned."
+        },
+        "inActiveIcon": "icon_map_region_shop_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_reception_dispatch",
+        "markInfoType": "37",
+        "markType": "102",
+        "name": {
+          "cn": "物资调度终端",
+          "en": "Stock Redistribution Terminal"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "103": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_terminal",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在访客终端查看访客记录。在拜访好友飞船时，可于此查看对方飞船信息并进行生产助力等活动。",
+          "en": "Check the Guest Terminal to look at the Visit Log. When visiting a friend's ship, the Guest Terminal can be used to view information of the friend's ship and provide production assists."
+        },
+        "inActiveIcon": "icon_map_ship_terminal",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_reception_visitor",
+        "markInfoType": "37",
+        "markType": "103",
+        "name": {
+          "cn": "访客终端",
+          "en": "Guest Terminal"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "104": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_contact",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可通过干员联络台将干员召集到管理员身边，进行交谈或赠送礼物。",
+          "en": "Use the Operator Contact Panel to contact and summon operators to your side for a chat or offer them gifts."
+        },
+        "inActiveIcon": "icon_map_ship_contact",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_contact_center",
+        "markInfoType": "37",
+        "markType": "104",
+        "name": {
+          "cn": "干员联络台",
+          "en": "Operator Contact Panel"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "105": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_display",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在行迹高塔放置展示探索中收集的陈列品，供干员及来访好友参观。",
+          "en": "The Tower of Trails is a showcase of various display items gathered during exploration. Displayed items can be seen by operators and visiting friends."
+        },
+        "inActiveIcon": "icon_map_ship_display",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_display_center",
+        "markInfoType": "37",
+        "markType": "105",
+        "name": {
+          "cn": "行迹高塔",
+          "en": "Tower of Trails"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "106": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_gender",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在协议奇点切换管理员身份。",
+          "en": "Use the Protocol Singularity to switch the Endministrator's identity."
+        },
+        "inActiveIcon": "icon_map_ship_gender",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_ss_gender_change",
+        "markInfoType": "37",
+        "markType": "106",
+        "name": {
+          "cn": "协议奇点",
+          "en": "Protocol Singularity"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "11": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_fixablerobot",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "\"因各种状况而陷入故障的Delta型多功能机器人。\n看看这些小可怜，多么无助。路过时还请帮忙修理一下吧。\"",
+          "en": "\"A Delta general purpose robot. This one has broken down for some reason. \n\"Oh, please help fix these poor, helpless bots if you come across any of them.\""
+        },
+        "inActiveIcon": "icon_map_fixablerobot_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_fixablerobot",
+        "markInfoType": "22",
+        "markType": "11",
+        "name": {
+          "cn": "Delta型机器人",
+          "en": "Delta Bot"
+        },
+        "sortOrder": "2",
+        "visibleDist": 30.0,
+        "visibleInMist": false,
+        "visibleLayer": "2"
+      }
+    ]
+  },
+  "12": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_settlement",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_settlement_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_sp_settlement",
+        "markInfoType": "14",
+        "markType": "12",
+        "name": {
+          "cn": "据点",
+          "en": "Outpost"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "13": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_controlcenter",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "控制着帝江号大小各类系统的中枢设备。可以在这里提升总控中枢等级，以解锁更多建设内容。",
+          "en": "The Nexus controls all major and minor systems of OMV Dijiang. Interact with the Nexus to upgrade it and unlock more construction options."
+        },
+        "inActiveIcon": "icon_map_controlcenter_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_controlcenter",
+        "markInfoType": "37",
+        "markType": "13",
+        "name": {
+          "cn": "总控中枢",
+          "en": "Control Nexus"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "14": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_room_growcabin",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "培养舱可以培养菌类质料、晶植质料、矿物质料等强化素材。",
+          "en": "The Growth Chamber can be used to cultivate all sorts of progression materials such as fungal matter, vitrified plants, and rare minerals."
+        },
+        "inActiveIcon": "icon_map_room_growcabin_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_room_growcabin",
+        "markInfoType": "37",
+        "markType": "14",
+        "name": {
+          "cn": "培养舱",
+          "en": "Growth Chamber"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_room_manufacturingstation",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "制造舱可以生产干员养成所需的强化素材。",
+          "en": "The Manufacturing Cabin can be used to produce progression materials for growing your operators."
+        },
+        "inActiveIcon": "icon_map_room_manufacturingstation_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_room_manufacturingstation",
+        "markInfoType": "37",
+        "markType": "14",
+        "name": {
+          "cn": "制造舱",
+          "en": "Manufacturing Cabin"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_room_empty",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "面积较小的预留空间，可在此建设小型舱室。",
+          "en": "A small area reserved for future expansions. It can be used for building a small cabin."
+        },
+        "inActiveIcon": "icon_map_room_empty",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_room_empty_a",
+        "markInfoType": "37",
+        "markType": "14",
+        "name": {
+          "cn": "待建舱室（小型）",
+          "en": "Empty Cabin [S]"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_room_empty",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "面积适中的预留空间，可在此建设中型舱室。",
+          "en": "A moderate area reserved for future expansions. It can be used for building a medium cabin."
+        },
+        "inActiveIcon": "icon_map_room_empty",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_room_empty_b",
+        "markInfoType": "37",
+        "markType": "14",
+        "name": {
+          "cn": "待建舱室（中型）",
+          "en": "Empty Cabin [M]"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "15": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_settlement",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "终末地技术核心的子版本，与母版本基本一致。",
+          "en": "A smaller version of the Endfield technological nexus. It works like the original PAC."
+        },
+        "inActiveIcon": "icon_map_settlement_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_sp_sub_hub",
+        "markInfoType": "14",
+        "markType": "15",
+        "name": {
+          "cn": "次级核心",
+          "en": "Sub-PAC"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_HUB",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "终末地的技术核心，一种大型能量利用设备组。",
+          "en": "The PAC is a facility complex that serves as the technological nexus of the Automated Industry Complex (AIC; also known as the Factory)."
+        },
+        "inActiveIcon": "icon_map_HUB_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_sp_hub",
+        "markInfoType": "5",
+        "markType": "15",
+        "name": {
+          "cn": "协议核心",
+          "en": "PAC"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "16": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_pazzle",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "\"平平无奇的区域，但似乎隐藏着某种未知源石电路元件构型的线索。\n管理员，不妨四处看看，或许那些仍能运作的设备，甚至是岩石与草木都能为你提供维修灵感。\"",
+          "en": "\"An ordinary-looking place where unknown Originium circuit components of various structures might be found. \n\"Look around, Endministrator. Various pieces of working machinery and even rocks, grasses, and trees might give you the repair logic you need.\""
+        },
+        "inActiveIcon": "icon_map_pazzle",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_pazzle",
+        "markInfoType": "23",
+        "markType": "16",
+        "name": {
+          "cn": "维修灵感点",
+          "en": "Repair Logic"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "17": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_boss",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_boss_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_dg_bossrush",
+        "markInfoType": "16",
+        "markType": "17",
+        "name": {
+          "cn": "危境再现",
+          "en": "RE-Crisis"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "18": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_dungeon",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_dungeon_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_dg_resource",
+        "markInfoType": "12",
+        "markType": "18",
+        "name": {
+          "cn": "协议空间",
+          "en": "Protocol Space"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "2": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_enemyspawner",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "\"超域能量积聚于此，与周边物质形成了微妙的平衡，即使是简单的触碰都会导致它发生异变。\n天使、裂地者……荒野上的“恶意”往往会被它的异象吸引过来。\"",
+          "en": "\"A local Æther energy alluvium delicately balanced with the surrounding matter. A simple touch may cause it to dissipate. \n\"Aggeloi, Landbreakers, and various 'malicious entities' of the wildlands are often drawn to this anomaly.\""
+        },
+        "inActiveIcon": "icon_map_enemyspawner_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_enemyspawner",
+        "markInfoType": "15",
+        "markType": "2",
+        "name": {
+          "cn": "能量淤积点",
+          "en": "Energy Alluvium"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "21": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_dungeon_worldlevel",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_dungeon_worldlevel",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_dg_worldlevel",
+        "markInfoType": "12",
+        "markType": "21",
+        "name": {
+          "cn": "协议空间·探索等级",
+          "en": "Protocol Space: Exploration Level"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "22": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_travel_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可在一定范围内相连，架起索道的大型设备。",
+          "en": "A large zipline facility that can be connected to another within range and create a zipline route."
+        },
+        "inActiveIcon": "icon_map_travel_pole_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_simple_transtower",
+        "markInfoType": "2",
+        "markType": "22",
+        "name": {
+          "cn": "像差滑索架",
+          "en": "Aberrant Zipline Pylon"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "23": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_dungeon",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_dungeon_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_dg_ss",
+        "markInfoType": "12",
+        "markType": "23",
+        "name": {
+          "cn": "协议空间",
+          "en": "Protocol Space"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "24": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_reception_room",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "会客室可通过线索收集和情报交流获取信用奖励。",
+          "en": "The Reception Room can collect clues and engage in clue exchanges to earn credits."
+        },
+        "inActiveIcon": "icon_map_reception_room",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_ss_guest_room_clue",
+        "markInfoType": "37",
+        "markType": "24",
+        "name": {
+          "cn": "会客室",
+          "en": "Reception Room"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "33": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_ship_shop",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可使用从据点获取的协议交换凭证在此处与供应链专员拉冬兑换各种货品。",
+          "en": "Protocol Exchange Certificates (PROXC) earned from your outposts can be exchanged for all sorts of items with supply chain specialist Ladonn."
+        },
+        "inActiveIcon": "icon_map_ship_shop_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_npc_ss_shop",
+        "markInfoType": "37",
+        "markType": "33",
+        "name": {
+          "cn": "协议交换",
+          "en": "Protocol Exchange"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "34": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_trainingroom",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在此处与小道奇交谈，获取课程内容，进行战斗相关的训练。",
+          "en": "Talk to Lil' Dodge here for combat lessons and training."
+        },
+        "inActiveIcon": "icon_map_trainingroom_unactive",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_npc_ss_trainingroom",
+        "markInfoType": "37",
+        "markType": "34",
+        "name": {
+          "cn": "战术训练",
+          "en": "Tactical Training Cabin"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "36": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_1",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_1",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_1",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板1",
+          "en": "CUSTOM TAG TEMPLATE 1"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_2",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_2",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_2",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板2",
+          "en": "CUSTOM TAG TEMPLATE 2"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_3",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_3",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_3",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板3",
+          "en": "CUSTOM TAG TEMPLATE 3"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_4",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_4",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_4",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板4",
+          "en": "CUSTOM TAG TEMPLATE 4"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_5",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_5",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_5",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板5",
+          "en": "CUSTOM TAG TEMPLATE 5"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_6",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_6",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_6",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板6",
+          "en": "CUSTOM TAG TEMPLATE 6"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_custom_mark_shadow_7",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_custom_mark_shadow_7",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_7",
+        "markInfoType": "31",
+        "markType": "36",
+        "name": {
+          "cn": "自定义标记模板7",
+          "en": "CUSTOM TAG TEMPLATE 7"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "37": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_mission_track",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_track",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_cus_select",
+        "markInfoType": "31",
+        "markType": "37",
+        "name": {
+          "cn": "自定义标记选中",
+          "en": "CUSTOM TAG SELECTED"
+        },
+        "sortOrder": "6",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "38": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_coin",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "使用罗盘探测出的醚质。",
+          "en": "An Aurylene detected by a compass."
+        },
+        "inActiveIcon": "icon_map_coin",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_detector_coin",
+        "markInfoType": "44",
+        "markType": "38",
+        "name": {
+          "cn": "醚质",
+          "en": "Aurylene"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "39": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_chest",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "使用探物器探测出的储藏箱。",
+          "en": "A crate detected by a detector."
+        },
+        "inActiveIcon": "icon_map_chest",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_detector_treasur_chest",
+        "markInfoType": "43",
+        "markType": "39",
+        "name": {
+          "cn": "储藏箱",
+          "en": "Crate"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "4": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_blackbox",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_blackbox",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_dg_blackbox",
+        "markInfoType": "21",
+        "markType": "4",
+        "name": {
+          "cn": "协议采录桩",
+          "en": "Protocol Datalogger"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "40": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_equipment_blueprints",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "开启后可获得装备制造模板",
+          "en": "Open this to get gear templates"
+        },
+        "inActiveIcon": "icon_map_equipment_blueprints",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_equip_formula_chest",
+        "markInfoType": "33",
+        "markType": "40",
+        "name": {
+          "cn": "装备模板箱",
+          "en": "Gear Template Crate"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "42": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_settlement_terminal",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "持续分析周边情报，判断所监控范围是否会遭到入侵的预警单元。",
+          "en": "An early warning facility that constantly analyzes the surroundings of its monitoring radius and identifies threats of incursions."
+        },
+        "inActiveIcon": "icon_map_settlement_terminal",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_settlement_defense_terminal",
+        "markInfoType": "35",
+        "markType": "42",
+        "name": {
+          "cn": "预警终端",
+          "en": "Early Warning Terminal"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "43": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_general_shop",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "可在通用商店购买各项商品。",
+          "en": "Various items can be purchased at a general shop."
+        },
+        "inActiveIcon": "icon_map_general_shop",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_common_shop",
+        "markInfoType": "24",
+        "markType": "43",
+        "name": {
+          "cn": "通用商店",
+          "en": "General Shop"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "2"
+      }
+    ]
+  },
+  "44": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成电磁伤害。",
+          "en": "Releases electrical arcs that attack enemies. The arc also chains to nearby enemies (up to 2) and deals Electric DMG."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_lightning_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "电涌塔",
+          "en": "Surge Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "以抛物线发射榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围灼热伤害。",
+          "en": "Attacks enemies by launching Mk II grenades along a ballistic trajectory. The grenades detonate above ground near enemies and deal Heat DMG to the area of effect."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_cannon_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "榴弹塔",
+          "en": "Grenade Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "以抛物线发射Ⅱ级榴弹攻击敌人，榴弹会在敌人附近地面爆炸并造成范围灼热伤害，同时在地面留下一片燃烧区域对敌人造成伤害。",
+          "en": "Attacks enemies by launching Mk II grenades along a ballistic trajectory that detonate above ground near enemies. The grenade explosions deal Heat DMG to the area of effect and leave burning zones that deal DMG to enemies within it."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_cannon_2",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "高爆榴弹塔",
+          "en": "HE Grenade Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "持续发射能量弹，对敌人造成物理伤害。",
+          "en": "Continuously fires energy bolts that deal Physical DMG to enemies."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_turret_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "铳械塔",
+          "en": "Gun Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "持续发射Ⅱ级能量弹，每第4次攻击会发射一次强力能量弹，对敌人造成物理伤害。",
+          "en": "Continuously fires Mk II energy bolts and an empowered energy bolt for every 4th attack. The bolts deal Physical DMG to enemies."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_turret_2",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "扩装铳械塔",
+          "en": "Heavy Gun Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "发射一道震荡波，对范围内的普通敌人和进阶敌人施加晕眩效果。",
+          "en": "Fires a shockwave that stuns common and advanced enemies within the area of effect."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_shockwave_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "全向声波塔",
+          "en": "Omnidirectional Sonic Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "发射特殊液氮晶体，晶体爆裂后会降低范围内敌人的移动速度。",
+          "en": "Fires special liquid nitrogen (LN) crystals that shatter upon impact to slow the movement speed of enemies in the area of effect."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_frost_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "液氮塔",
+          "en": "LN Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "优先锁定范围内威胁更高的敌人，对敌人造成高额物理伤害。",
+          "en": "Attacks high-threat enemies first and deals massive Physical DMG to them."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_sniper_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "哨戒塔",
+          "en": "Sentry Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "消耗大量充能向目标发射射线，对敌人造成高额电磁伤害。",
+          "en": "Consumes vast amounts of energy to emit a cohesive beam that deals massive Electric DMG to enemies."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_laser_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "射线塔",
+          "en": "Beam Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": " 可将充能转化为治疗量，治疗周围受伤的干员。",
+          "en": "Converts electrical power into healing arts that can treat injured operators nearby."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_medtower",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "医疗塔",
+          "en": "Medical Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "发射特制毒雾弹，毒雾弹会在敌人附近地面爆炸并造成范围自然伤害，同时在地面留下一片毒雾区，对范围内的敌人造成伤害并降低移动速度。",
+          "en": "Launches special mist grenades that detonate above ground near enemies. The mist grenade explosion deals area of effect Nature DMG and leaves a mist zone that deals DMG and slows the movement speed of enemies within the area of effect."
+        },
+        "inActiveIcon": "icon_map_combat_architecture_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_fog_1",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "“毒沼”MK-Ⅰ",
+          "en": "Marsh Gas Mk I"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_travel_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可在80m范围内相连，架起索道的小型设备。",
+          "en": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline."
+        },
+        "inActiveIcon": "icon_map_travel_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_transtower",
+        "markInfoType": "2",
+        "markType": "44",
+        "name": {
+          "cn": "滑索架",
+          "en": "Zipline Pylon"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_travel_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可在110m范围内相连，架起索道的大型设备。",
+          "en": "A large zipline facility that can be connected to another zipline facility within a 110-meter radius to create a zipline."
+        },
+        "inActiveIcon": "icon_map_travel_pole_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_transtower_2",
+        "markInfoType": "2",
+        "markType": "44",
+        "name": {
+          "cn": "长距滑索架",
+          "en": "Zipline Tower"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_beacon",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于便捷存取仓库物品的设备。",
+          "en": "A facility that allows quick access of items in the Depot."
+        },
+        "inActiveIcon": "icon_map_beacon_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_carrier_1",
+        "markInfoType": "40",
+        "markType": "44",
+        "name": {
+          "cn": "便捷存取站",
+          "en": "Easy Stash"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_message",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于留下标记信息的设备。",
+          "en": "A facility that can be used to post and leave beacon memos."
+        },
+        "inActiveIcon": "icon_map_message_unactive",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_marker_1",
+        "markInfoType": "41",
+        "markType": "44",
+        "name": {
+          "cn": "留言信标",
+          "en": "Memo Beacon"
+        },
+        "sortOrder": "1",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      }
+    ]
+  },
+  "45": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_weekraid",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "危机与珍宝，偏差与演化……请在足以危及性命的紊乱环境中一探究竟吧，管理员。",
+          "en": "Risks and rare findings, deviations and evolution... Explore this space of potentially lethal derangements and chaos, Endministrator."
+        },
+        "inActiveIcon": "icon_map_weekraid",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_week_raid",
+        "markInfoType": "37",
+        "markType": "45",
+        "name": {
+          "cn": "蚀像寻遗",
+          "en": "Etchspace Salvage"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "5": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_mine",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能自动开采矿物资源的区域。",
+          "en": "Mineral resources can be mined here."
+        },
+        "inActiveIcon": "icon_map_mine",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_minepoint_team",
+        "markInfoType": "17",
+        "markType": "5",
+        "name": {
+          "cn": "集中矿点",
+          "en": "Mineral Bed"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "51": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_region_shop",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_region_shop_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_p_domain_shop",
+        "markInfoType": "39",
+        "markType": "51",
+        "name": {
+          "cn": "物资调度终端",
+          "en": "Stock Redistribution Terminal"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "52": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_region_warehouse",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "仓储节点是终末地工业布置在塔卫二上的常见设备，解锁与升级仓储节点可以提升本地区的本地仓储容量上限。",
+          "en": "Depot nodes are Endfield facilities commonly seen in Talos-II. Unlock and upgrade depot nodes to increase local depot storage capacities of the region."
+        },
+        "inActiveIcon": "icon_map_region_warehouse_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_p_domain_depot",
+        "markInfoType": "34",
+        "markType": "52",
+        "name": {
+          "cn": "仓储节点",
+          "en": "Depot Node"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "53": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_depot_receiving",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "在仓储节点取货后，将货物尽可能完整地运送至目标。货物完整度较高时，尾款会获得额外地区调度券，完整度越低获得的尾款越低。",
+          "en": "After collecting goods from a depot node, deliver them to a marked destination while keeping goods integrity as high as you can. A delivery with higher integrity gives you a bonus in the final fee. But if integrity is too low, you will incur a penalty instead."
+        },
+        "inActiveIcon": "icon_map_depot_receiving",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_domain_depot_deliver_target",
+        "markInfoType": "46",
+        "markType": "53",
+        "name": {
+          "cn": "运送目标",
+          "en": "Delivery Destination"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "54": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_kite",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "观测站会根据当地的环境监测情况或科研需求，在当地监测终端上发布拍摄委托。",
+          "en": "The Environment Monitoring Center references local environment monitoring surveys and R&D requests, and then posts photography tasks at local environment monitoring terminals (EMTs)."
+        },
+        "inActiveIcon": "icon_map_kite_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_p_domain_kiteStation",
+        "markInfoType": "38",
+        "markType": "54",
+        "name": {
+          "cn": "环境监测终端",
+          "en": "Environment Monitoring Terminal"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "6": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_special_plant",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "生长着稀有植物的区域。",
+          "en": "A location where rare lifeforms (plants, fungi, and so on) grow."
+        },
+        "inActiveIcon": "icon_map_special_plant",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_doodad_tundranest",
+        "markInfoType": "18",
+        "markType": "6",
+        "name": {
+          "cn": "稀有采集物区",
+          "en": "Rare Growths"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_special_mine",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "分布着稀有矿物的区域。",
+          "en": "A location where rare ore formations appear."
+        },
+        "inActiveIcon": "icon_map_special_mine",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_doodad_spcstone",
+        "markInfoType": "19",
+        "markType": "6",
+        "name": {
+          "cn": "稀有矿物区",
+          "en": "Rare Ores"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "7": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_recycle",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能定时产出资源的机械站点。",
+          "en": "A mechanical workstation that periodically provides resources."
+        },
+        "inActiveIcon": "icon_map_recycle_inactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_p_recycler",
+        "markInfoType": "20",
+        "markType": "7",
+        "name": {
+          "cn": "资源回收站",
+          "en": "Recycling Station"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "70": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_activity_photograph",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_activity_photograph",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_snapshot",
+        "markInfoType": "45",
+        "markType": "70",
+        "name": {
+          "cn": "",
+          "en": ""
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "71": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_high_difficulty",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "英雄的故事从未终结……影像的记录者——赛尔乔·莱昂，在此期待与您相会，评鉴光影。",
+          "en": "The tale of heroes never ends... Sergio Leon the Recorder of Images hopes to meet you here and critique the light and shadows."
+        },
+        "inActiveIcon": "icon_map_high_difficulty",
+        "isStatic": true,
+        "isVisibleActive": true,
+        "markInfoId": "mark_high_difficulty_enter",
+        "markInfoType": "45",
+        "markType": "71",
+        "name": {
+          "cn": "影拓丰碑",
+          "en": "Umbral Monument"
+        },
+        "sortOrder": "2",
+        "visibleDist": 50.0,
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "8": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_campfire",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "结合了协议技术的实验型装置，其节点通过源石单元记录着投放时录入的地理坐标信息。传送点能够通过存放在帝江号的协议源石对物质进行空间性质的远程传输。",
+          "en": "The Tele-Protocol Point (TP Point) is an experimental Techno-Protocol device. When deployed, its Originium unit is imprinted with its local geopositioning data. Once synced with the Protocol-Originium stored aboard OMV Dijiang, TP Points can achieve long-range transportation of physical materials."
+        },
+        "inActiveIcon": "icon_map_campfire_unactive",
+        "isStatic": true,
+        "isVisibleActive": false,
+        "markInfoId": "mark_sp_campfire",
+        "markInfoType": "10",
+        "markType": "8",
+        "name": {
+          "cn": "协议传送点",
+          "en": "TP Point"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "9": {
+    "typeList": [
+      {
+        "activeIcon": "icon_mission_track_high",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_mission_track_high",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_tracking_high",
+        "markInfoType": "30",
+        "markType": "9",
+        "name": {
+          "cn": "追踪中任务",
+          "en": "Tracked Mission"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_mission_track_mid",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_mission_track_mid",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_tracking_mid",
+        "markInfoType": "30",
+        "markType": "9",
+        "name": {
+          "cn": "追踪中任务",
+          "en": "Tracked Mission"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_mission_track_low",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_mission_track_low",
+        "isStatic": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_tracking_low",
+        "markInfoType": "30",
+        "markType": "9",
+        "name": {
+          "cn": "追踪中任务",
+          "en": "Tracked Mission"
+        },
+        "sortOrder": "5",
+        "visibleDist": 50.0,
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  }
+}
