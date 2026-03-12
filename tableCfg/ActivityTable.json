@@ -33,7 +33,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -48,7 +48,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -131,7 +131,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -146,7 +146,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -229,7 +229,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -244,7 +244,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -309,6 +309,104 @@
     ],
     "type": "10"
   },
+  "CharacterGuide_wulfa": {
+    "bgImg": "",
+    "bubbleSortId": "3005",
+    "bubbleText": {
+      "cn": "「红骑士」活动已开放",
+      "en": "[The Red Knight] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "CharacterGuide_wulfa_unlock1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第一章 - 进程Ⅲ - 世代摇篮",
+          "en": "Complete the main mission [Chapter Ⅰ Process Ⅲ: Cradle of the Ages]"
+        },
+        "jumpId": "jump_mission_CharacterGuide",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e2m8"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "与赤红色的女孩一同寻找遗失的样本，还有被遗忘的童心。",
+      "en": "Join a girl with a red-cape to look for a lost sample and her forgotten childhood innocence."
+    },
+    "detailJumpId": "jump_mission_activity_CharacterGuide_wulfa",
+    "id": "CharacterGuide_wulfa",
+    "immediateClose": true,
+    "instructionId": "CharacterGuide_wulfa",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "红骑士",
+      "en": "The Red Knight"
+    },
+    "panelId": "ActivityCharacterGuideLine",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_CharacterGuide_wulfa",
+    "showRewardCnt": false,
+    "sortId": "3005",
+    "tabImg": "bg_activity_tab_char_guide_wulfa",
+    "tabImgColor": "#cc0e1b",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_story"
+    ],
+    "type": "10"
+  },
   "CharacterGuide_yvonne": {
     "bgImg": "",
     "bubbleSortId": "3002",
@@ -343,7 +441,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -358,7 +456,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -446,6 +544,62 @@
     ],
     "type": "9"
   },
+  "activity_weekly_task_1": {
+    "bgImg": "",
+    "bubbleSortId": "4999",
+    "bubbleText": {
+      "cn": "「每周事务」活动已开放",
+      "en": "[Weekly Routine] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_weekly_task_1_unlock_condition_1",
+        "conditionType": "5023",
+        "desc": {
+          "cn": "管理员权限等阶到达15级",
+          "en": "Reach Endministrator Authority Level 15"
+        },
+        "jumpId": "jump_adventure_book",
+        "parameters": [],
+        "progressToCompare": "15",
+        "tips": {
+          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
+          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "完成周常任务可获取丰厚奖励。",
+      "en": "Complete weekly missions to earn rich rewards."
+    },
+    "detailJumpId": "",
+    "id": "activity_weekly_task_1",
+    "immediateClose": false,
+    "instructionId": "instru_activity_weekly_task_1",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "每周事务",
+      "en": "Weekly Routine"
+    },
+    "panelId": "ActivityWeeklyTask",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_weekly_mission_preview",
+    "showRewardCnt": false,
+    "sortId": "4999",
+    "tabImg": "activity_tab_bg_weeklytask",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_weekly_task"
+    ],
+    "type": "16"
+  },
   "activity_char_trial_2": {
     "bgImg": "activity_bg_character_trial_yvonne",
     "bubbleSortId": "5002",
@@ -484,123 +638,6 @@
       "activity_tag_chartrial"
     ],
     "type": "9"
-  },
-  "activity_char_trial_3": {
-    "bgImg": "activity_bg_character_trial_jieerpeta",
-    "bubbleSortId": "5003",
-    "bubbleText": {
-      "cn": "「洁尔佩塔的作战演练」活动已开放",
-      "en": "[Combat Drills: Gilberta] event now available"
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "洁尔佩塔是兼具法术和物理能力的辅助干员。她可以在触发法术异常后快速造成击飞，并且施放终结技后可以对大范围内的敌人施加法术脆弱效果。",
-      "en": "Gilberta is a supporter with both Arts and Physical abilities. She can quickly Lift enemies after triggering Arts Reactions. Once cast, her ultimate also applies Arts Susceptibility to enemies within a large area."
-    },
-    "detailJumpId": "",
-    "id": "activity_char_trial_3",
-    "immediateClose": false,
-    "instructionId": "Char_Trial",
-    "introMissionJumpId": "",
-    "introMissionQuestId": "",
-    "name": {
-      "cn": "作战演练",
-      "en": "Combat Drills"
-    },
-    "panelId": "ActivityCharacterTrial",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "",
-    "popUpSortId": "-1",
-    "redDotName": "",
-    "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
-    "sortId": "5003",
-    "tabImg": "activity_tab_character_trial_jieerpeta",
-    "tabImgColor": "#fff078",
-    "tabImgGender": false,
-    "tagIds": [
-      "activity_tag_chartrial"
-    ],
-    "type": "9"
-  },
-  "activity_checkin_1": {
-    "bgImg": "",
-    "bubbleSortId": "10100",
-    "bubbleText": {
-      "cn": "「唤醒签到」活动已开放",
-      "en": "[Awakening Sign-In] event now available"
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "detailJumpId": "",
-    "id": "activity_checkin_1",
-    "immediateClose": false,
-    "instructionId": "activity_checkin_1",
-    "introMissionJumpId": "",
-    "introMissionQuestId": "",
-    "name": {
-      "cn": "唤醒签到",
-      "en": "Awakening Sign-In"
-    },
-    "panelId": "ActivityRewardRegistration",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "ActivityRewardRegistrationPopup",
-    "popUpSortId": "1",
-    "redDotName": "",
-    "rewardId": "",
-    "showRewardCnt": false,
-    "sortId": "10100",
-    "tabImg": "activity_tab_bg_temp_2",
-    "tabImgColor": "#FF3B86",
-    "tabImgGender": false,
-    "tagIds": [
-      "activity_tag_novice"
-    ],
-    "type": "2"
-  },
-  "activity_checkin_agline": {
-    "bgImg": "",
-    "bubbleSortId": "8302",
-    "bubbleText": {
-      "cn": "「灵动信使签到」活动已开放",
-      "en": "[Messenger Express Sign-In] event now available"
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "参与签到累计可领取灵动信使寻访凭证×5等丰富奖励。",
-      "en": "Keep signing in to acquire rich rewards such as [Messenger Express HH Permit]×5."
-    },
-    "detailJumpId": "",
-    "id": "activity_checkin_agline",
-    "immediateClose": false,
-    "instructionId": "instru_checkin_agline",
-    "introMissionJumpId": "",
-    "introMissionQuestId": "",
-    "name": {
-      "cn": "灵动信使签到",
-      "en": "Messenger Express Sign-In"
-    },
-    "panelId": "ActivityCharSignCommon",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "ActivityCharSignCommonPopUp",
-    "popUpSortId": "4",
-    "redDotName": "",
-    "rewardId": "",
-    "showRewardCnt": false,
-    "sortId": "8302",
-    "tabImg": "bg_activity_tab_char_sign_aglina",
-    "tabImgColor": "#cc2b02",
-    "tabImgGender": false,
-    "tagIds": [
-      "activity_tag_checkin_time"
-    ],
-    "type": "2"
   },
   "activity_checkin_laevat": {
     "bgImg": "",
@@ -641,6 +678,279 @@
     ],
     "type": "2"
   },
+  "activity_char_trial_3": {
+    "bgImg": "activity_bg_character_trial_jieerpeta",
+    "bubbleSortId": "5003",
+    "bubbleText": {
+      "cn": "「洁尔佩塔的作战演练」活动已开放",
+      "en": "[Combat Drills: Gilberta] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "洁尔佩塔是兼具法术和物理能力的辅助干员。她可以在触发法术异常后快速造成击飞，并且施放终结技后可以对大范围内的敌人施加法术脆弱效果。",
+      "en": "Gilberta is a supporter with both Arts and Physical abilities. She can quickly Lift enemies after triggering Arts Reactions. Once cast, her ultimate also applies Arts Susceptibility to enemies within a large area."
+    },
+    "detailJumpId": "",
+    "id": "activity_char_trial_3",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_activity_char_trial_overview",
+    "showRewardCnt": true,
+    "sortId": "5003",
+    "tabImg": "activity_tab_character_trial_jieerpeta",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "type": "9"
+  },
+  "activity_char_trial_v1d1_1": {
+    "bgImg": "activity_bg_character_trial_tangtang",
+    "bubbleSortId": "5001",
+    "bubbleText": {
+      "cn": "「汤汤的作战演练」活动已开放",
+      "en": "[Combat Drills: Tangtang] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_char_trial_v1d1_1",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_activity_char_trial_overview",
+    "showRewardCnt": true,
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_tangtang",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "type": "9"
+  },
+  "activity_stamina_reduce_v1d1_1": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bubbleSortId": "4000",
+    "bubbleText": {
+      "cn": "「理智减耗」活动已开放",
+      "en": "[Sanity Discount] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "药剂、按摩，甚至一顿大餐……帮助您舒缓精神压力的方式多种多样。",
+      "en": "Potions, massages, and sumptuous feasts... There are many ways to ease your mental stress."
+    },
+    "detailJumpId": "jump_stamina_reduce_1",
+    "id": "activity_stamina_reduce_v1d1_1",
+    "immediateClose": false,
+    "instructionId": "Stamina_Discount",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "理智减耗",
+      "en": "Sanity Discount"
+    },
+    "panelId": "ActivityStaminaDiscount",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_doodad_crylplant_1_1",
+    "showRewardCnt": false,
+    "sortId": "4000",
+    "tabImg": "activity_tab_stamina_discount",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_stamina"
+    ],
+    "type": "5"
+  },
+  "activity_checkin_1": {
+    "bgImg": "",
+    "bubbleSortId": "10100",
+    "bubbleText": {
+      "cn": "「唤醒签到」活动已开放",
+      "en": "[Awakening Sign-In] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_1",
+    "immediateClose": false,
+    "instructionId": "activity_checkin_1",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "唤醒签到",
+      "en": "Awakening Sign-In"
+    },
+    "panelId": "ActivityRewardRegistration",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityRewardRegistrationPopup",
+    "popUpSortId": "1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "10100",
+    "tabImg": "activity_tab_bg_temp_2",
+    "tabImgColor": "#FF3B86",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_novice"
+    ],
+    "type": "2"
+  },
+  "activity_newplayer_benefits_display": {
+    "bgImg": "",
+    "bubbleSortId": "10096",
+    "bubbleText": {
+      "cn": "「启程福利展览板」活动已开放",
+      "en": "[New Horizons Giveaway EXPO Panel] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_newplayer_benefits_display",
+    "immediateClose": false,
+    "instructionId": "activity_benefits_1",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "启程福利展览板",
+      "en": "New Horizons Giveaway EXPO Panel"
+    },
+    "panelId": "ActivityBenefits",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "10096",
+    "tabImg": "activity_tab_bg_benefits",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_benefits"
+    ],
+    "type": "1"
+  },
+  "activity_newplayer_mission_reward": {
+    "bgImg": "",
+    "bubbleSortId": "10098",
+    "bubbleText": {
+      "cn": "「新手特许赠礼」活动已开放",
+      "en": "[Beginner's Chartered Tribute] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_newplayer_mission_reward",
+    "immediateClose": false,
+    "instructionId": "instru_newplayer_mission_reward",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "新手特许赠礼",
+      "en": "Beginner's Chartered Tribute"
+    },
+    "panelId": "ActivityMissionReward",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "10098",
+    "tabImg": "activity_tab_bg_mission_reward",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_novice"
+    ],
+    "type": "19"
+  },
+  "activity_checkin_agline": {
+    "bgImg": "",
+    "bubbleSortId": "8302",
+    "bubbleText": {
+      "cn": "「灵动信使签到」活动已开放",
+      "en": "[Messenger Express Sign-In] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取灵动信使寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Messenger Express HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_agline",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_agline",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "灵动信使签到",
+      "en": "Messenger Express Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "4",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "8302",
+    "tabImg": "bg_activity_tab_char_sign_aglina",
+    "tabImgColor": "#cc2b02",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "type": "2"
+  },
   "activity_checkin_v1d0_end": {
     "bgImg": "",
     "bubbleSortId": "8303",
@@ -652,7 +962,7 @@
     "conditions": [],
     "desc": {
       "cn": "「新潮起，故渊离」版本即将开放，完成3日签到累计可领取奖励【基础寻访凭证】×2和【嵌晶玉】×500。",
-      "en": "[Old Deep Water Dies, by Rising Tide It is Denied] version update is coming soon. Complete the 3-day sign-in to earn rich rewards, including [Basic HH Permit]×2 and [Oroberyl]×500."
+      "en": "[Old Deep Water Dies, by Rising Tide It is Denied] version update is coming soon. Complete the 3-day sign-in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
     "id": "activity_checkin_v1d0_end",
@@ -679,6 +989,275 @@
       "activity_tag_checkin_time"
     ],
     "type": "2"
+  },
+  "activity_level_rewards": {
+    "bgImg": "",
+    "bubbleSortId": "10097",
+    "bubbleText": {
+      "cn": "「权限等阶奖励」活动已开放",
+      "en": "[Authority Level Rewards] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "提升权限等阶，领取丰厚奖励。",
+      "en": "Raise the Endministrator's Authority Level to claim generous rewards."
+    },
+    "detailJumpId": "",
+    "id": "activity_level_rewards",
+    "immediateClose": false,
+    "instructionId": "activity_level_rewards",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "权限等阶奖励",
+      "en": "Authority Level Rewards"
+    },
+    "panelId": "ActivityLevelRewards",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "10097",
+    "tabImg": "activity_tab_bg_level",
+    "tabImgColor": "#fff100",
+    "tabImgGender": true,
+    "tagIds": [
+      "activity_tag_novice"
+    ],
+    "type": "3"
+  },
+  "activity_more": {
+    "bgImg": "activity_bg_more",
+    "bubbleSortId": "100",
+    "bubbleText": {
+      "cn": "",
+      "en": ""
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "推进主线任务以解锁更多活动",
+      "en": "Progress through the main mission to unlock more events"
+    },
+    "detailJumpId": "jump_mission_activity_more",
+    "id": "activity_more",
+    "immediateClose": true,
+    "instructionId": "",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "更多活动",
+      "en": "More Activities"
+    },
+    "panelId": "ActivityMore",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "100",
+    "tabImg": "activity_tab_bg_more",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [],
+    "type": "1"
+  },
+  "activity_checkin_tangtang": {
+    "bgImg": "",
+    "bubbleSortId": "8304",
+    "bubbleText": {
+      "cn": "「清波静流签到」活动已开放",
+      "en": "[Gently Flows Qingbo Sign-In] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取清波静流寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Gently Flows Qingbo HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_tangtang",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_tangtang",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "清波静流签到",
+      "en": "Gently Flows Qingbo Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "2",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "8304",
+    "tabImg": "bg_activity_tab_char_sign_tangtang",
+    "tabImgColor": "#0083f4",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "type": "2"
+  },
+  "activity_high_difficulty_1": {
+    "bgImg": "activity_bg_highdifficulty",
+    "bubbleSortId": "6010",
+    "bubbleText": {
+      "cn": "「丰碑留名·旧创」活动已开放",
+      "en": "[Monumental Etching: Old Wounds] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_high_difficulty_unlock_condition_01",
+        "conditionType": "5023",
+        "desc": {
+          "cn": "管理员权限等阶到达30级",
+          "en": "Reach Endministrator Authority Level 30"
+        },
+        "jumpId": "jump_adventure_book",
+        "parameters": [],
+        "progressToCompare": "30",
+        "tips": {
+          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
+          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_high_difficulty",
+    "id": "activity_high_difficulty_1",
+    "immediateClose": false,
+    "instructionId": "activity_high_difficulty",
+    "introMissionJumpId": "jump_mission_unlock_high_difficulty",
+    "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "name": {
+      "cn": "丰碑留名·旧创",
+      "en": "Monumental Etching: Old Wounds"
+    },
+    "panelId": "ActivityHighDifficulty",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "6010",
+    "tabImg": "activity_tab_bg_highdifficulty",
+    "tabImgColor": "#ff3632",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_high_difficulty"
+    ],
+    "type": "8"
+  },
+  "cleaning_test": {
+    "bgImg": "",
+    "bubbleSortId": "6012",
+    "bubbleText": {
+      "cn": "「净流涤尘」活动已开放",
+      "en": "[Cleanse and Rinse] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_cleaning_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程II - 无患之患",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅱ: Where Danger Sleeps]"
+        },
+        "jumpId": "jump_mission_main",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e6m5"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "武陵盛景，怎可蒙尘。把那些碍眼的污渍统统冲走吧，管理员。",
+      "en": "Don't let anything stain the beauty of Wuling. Let's clean and rinse the ugly stains, Endmin."
+    },
+    "detailJumpId": "jump_cleaning_details",
+    "id": "cleaning_test",
+    "immediateClose": false,
+    "instructionId": "cleaning_test",
+    "introMissionJumpId": "jump_mission_unlock_cleaning_1",
+    "introMissionQuestId": "a1m6d1_q#1",
+    "name": {
+      "cn": "净流涤尘",
+      "en": "Cleanse and Rinse"
+    },
+    "panelId": "ActivityCleaning",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_cleaning_overview",
+    "showRewardCnt": false,
+    "sortId": "6012",
+    "tabImg": "activity_tab_bg_cleaning",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_cleaning"
+    ],
+    "type": "18"
   },
   "activity_checkin_yvonne": {
     "bgImg": "",
@@ -719,6 +1298,104 @@
     ],
     "type": "2"
   },
+  "dungeon_fighting": {
+    "bgImg": "",
+    "bubbleSortId": "6013",
+    "bubbleText": {
+      "cn": "「生存特训」活动已开放",
+      "en": "[Survival Training] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "dungeon_fighting_unlock_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第一章 - 进程II - 开拓前路",
+          "en": "Complete the main mission [Chapter Ⅰ Process Ⅱ: Paving the Way]"
+        },
+        "jumpId": "jump_mission_main",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e1m9"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "为了让干员们适应荒野，克拉拉特意准备了恰到好处的生存训练。",
+      "en": "Klara has specifically prepared the most suitable survival training to help operators feel at home in the wildlands."
+    },
+    "detailJumpId": "jump_dungeon_activity_monster_1",
+    "id": "dungeon_fighting",
+    "immediateClose": false,
+    "instructionId": "activity_dungeon_actmonster",
+    "introMissionJumpId": "jump_mission_unlock_dungeon_fighting",
+    "introMissionQuestId": "a1m2_q#3",
+    "name": {
+      "cn": "生存特训",
+      "en": "Survival Training"
+    },
+    "panelId": "ActivityDungeonActMonster",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_dungeon_fighting_overview",
+    "showRewardCnt": false,
+    "sortId": "6013",
+    "tabImg": "activity_tab_bg_dungeon_survival_1",
+    "tabImgColor": "#ffffff",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_dungeon_fighting"
+    ],
+    "type": "17"
+  },
   "activity_conditional_multistage_1": {
     "bgImg": "activity_bg_temp",
     "bubbleSortId": "6000",
@@ -753,7 +1430,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -768,7 +1445,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -856,6 +1533,45 @@
     ],
     "type": "6"
   },
+  "activity_puzzle_1": {
+    "bgImg": "activity_bg_dungeon",
+    "bubbleSortId": "2001",
+    "bubbleText": {
+      "cn": "「密境行者」活动已开放",
+      "en": "[Delver of the Cryptic] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "随着管理员醒来，终末地工业重启了对这些小型、多变协议空间的探索计划。",
+      "en": "After the Endministrator's awakening, Endfield Industries restarted a project to explore these small, ever-changing Protocol Spaces."
+    },
+    "detailJumpId": "jump_activity_puzzle_1",
+    "id": "activity_puzzle_1",
+    "immediateClose": false,
+    "instructionId": "Dungeon_Challenge",
+    "introMissionJumpId": "jump_mission_activity_puzzle_1",
+    "introMissionQuestId": "a1m1_q#1",
+    "name": {
+      "cn": "密境行者",
+      "en": "Delver of the Cryptic"
+    },
+    "panelId": "ActivityChallengeDungeon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_puzzle_overview",
+    "showRewardCnt": false,
+    "sortId": "2001",
+    "tabImg": "activity_tab_bg_dungeon",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_puzzle"
+    ],
+    "type": "7"
+  },
   "activity_guide_wuling": {
     "bgImg": "",
     "bubbleSortId": "8000",
@@ -890,7 +1606,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -905,7 +1621,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              3.0
+              "3"
             ],
             "valueIntList": [
               "3"
@@ -954,18 +1670,18 @@
     ],
     "type": "13"
   },
-  "activity_high_difficulty_1": {
+  "activity_high_difficulty_v1d1": {
     "bgImg": "activity_bg_highdifficulty",
     "bubbleSortId": "6010",
     "bubbleText": {
-      "cn": "「丰碑留名·旧创」活动已开放",
-      "en": "[Monumental Etching: Old Wounds] event now available"
+      "cn": "「丰碑留名·炽痕」活动已开放",
+      "en": "[Monumental Etching: Scorch Mark] event now available"
     },
     "bubbleType": "White",
     "conditions": [
       {
         "compareOperator": "3",
-        "conditionId": "activity_high_difficulty_unlock_condition_01",
+        "conditionId": "activity_high_difficulty_unlock_condition_02",
         "conditionType": "5023",
         "desc": {
           "cn": "管理员权限等阶到达30级",
@@ -985,14 +1701,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
-    "id": "activity_high_difficulty_1",
+    "id": "activity_high_difficulty_v1d1",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
     "name": {
-      "cn": "丰碑留名·旧创",
-      "en": "Monumental Etching: Old Wounds"
+      "cn": "丰碑留名·炽痕",
+      "en": "Monumental Etching: Scorch Mark"
     },
     "panelId": "ActivityHighDifficulty",
     "popUpOnlyOnce": false,
@@ -1002,7 +1718,7 @@
     "rewardId": "",
     "showRewardCnt": false,
     "sortId": "6010",
-    "tabImg": "activity_tab_bg_highdifficulty",
+    "tabImg": "activity_tab_bg_highdifficulty_v1d1",
     "tabImgColor": "#ff3632",
     "tabImgGender": false,
     "tagIds": [
@@ -1010,159 +1726,103 @@
     ],
     "type": "8"
   },
-  "activity_level_rewards": {
+  "activity_map02_guide_003": {
     "bgImg": "",
-    "bubbleSortId": "10098",
+    "bubbleSortId": "8001",
     "bubbleText": {
-      "cn": "「权限等阶奖励」活动已开放",
-      "en": "[Authority Level Rewards] event now available"
+      "cn": "「泉流无声」活动已开放",
+      "en": "[Quietly Flows the Spring] event now available"
     },
     "bubbleType": "White",
-    "conditions": [],
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_guide_qingbovillage_unlockmain",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程Ⅲ -深入迷局",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅲ: Deep in the Mire]"
+        },
+        "jumpId": "jump_mission_CharacterGuide",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e7m2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
     "desc": {
-      "cn": "提升权限等阶，领取丰厚奖励。",
-      "en": "Raise the Endministrator's Authority Level to claim generous rewards."
+      "cn": "水车静静转动，寂静清波今又涌起，其声如击磬，又唤醒几许沉秽，多少怨仇？",
+      "en": "The waterwheel churns as Qingbo rests quiet. Yet currents surged forth with the clanging sounds of riot. Will it wake filth most crude? Or bring back old, bitter feuds?"
     },
     "detailJumpId": "",
-    "id": "activity_level_rewards",
+    "id": "activity_map02_guide_003",
     "immediateClose": false,
-    "instructionId": "activity_level_rewards",
+    "instructionId": "activity_guide_qingbo",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
     "name": {
-      "cn": "权限等阶奖励",
-      "en": "Authority Level Rewards"
+      "cn": "泉流无声",
+      "en": "Quietly Flows the Spring"
     },
-    "panelId": "ActivityLevelRewards",
+    "panelId": "ActivityVersionGuide",
     "popUpOnlyOnce": false,
     "popUpPanelId": "",
     "popUpSortId": "-1",
     "redDotName": "",
-    "rewardId": "",
-    "showRewardCnt": false,
-    "sortId": "10098",
-    "tabImg": "activity_tab_bg_level",
-    "tabImgColor": "#fff100",
-    "tabImgGender": true,
-    "tagIds": [
-      "activity_tag_novice"
-    ],
-    "type": "3"
-  },
-  "activity_more": {
-    "bgImg": "activity_bg_more",
-    "bubbleSortId": "0",
-    "bubbleText": {
-      "cn": "",
-      "en": ""
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "推进主线任务以解锁更多活动",
-      "en": "Progress through the main mission to unlock more events"
-    },
-    "detailJumpId": "jump_mission_activity_more",
-    "id": "activity_more",
-    "immediateClose": true,
-    "instructionId": "",
-    "introMissionJumpId": "",
-    "introMissionQuestId": "",
-    "name": {
-      "cn": "更多活动",
-      "en": "More Activities"
-    },
-    "panelId": "ActivityMore",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "",
-    "popUpSortId": "-1",
-    "redDotName": "",
-    "rewardId": "",
-    "showRewardCnt": false,
-    "sortId": "100",
-    "tabImg": "activity_tab_bg_more",
-    "tabImgColor": "#fff100",
-    "tabImgGender": false,
-    "tagIds": [],
-    "type": "1"
-  },
-  "activity_newplayer_benefits_display": {
-    "bgImg": "",
-    "bubbleSortId": "10097",
-    "bubbleText": {
-      "cn": "「启程福利展览板」活动已开放",
-      "en": "[New Horizons Giveaway EXPO Panel] event now available"
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "detailJumpId": "",
-    "id": "activity_newplayer_benefits_display",
-    "immediateClose": false,
-    "instructionId": "activity_benefits_1",
-    "introMissionJumpId": "",
-    "introMissionQuestId": "",
-    "name": {
-      "cn": "启程福利展览板",
-      "en": "New Horizons Giveaway EXPO Panel"
-    },
-    "panelId": "ActivityBenefits",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "",
-    "popUpSortId": "-1",
-    "redDotName": "",
-    "rewardId": "",
-    "showRewardCnt": false,
-    "sortId": "10097",
-    "tabImg": "activity_tab_bg_benefits",
-    "tabImgColor": "#fff078",
+    "rewardId": "reward_activity_guide_qingbo_overview",
+    "showRewardCnt": true,
+    "sortId": "8001",
+    "tabImg": "activity_tab_bg_v1d1_qingbovillage",
+    "tabImgColor": "#41cfac",
     "tabImgGender": false,
     "tagIds": [
-      "activity_tag_benefits"
+      "activity_tag_guide"
     ],
-    "type": "1"
-  },
-  "activity_puzzle_1": {
-    "bgImg": "activity_bg_dungeon",
-    "bubbleSortId": "2001",
-    "bubbleText": {
-      "cn": "「密境行者」活动已开放",
-      "en": "[Delver of the Cryptic] event now available"
-    },
-    "bubbleType": "White",
-    "conditions": [],
-    "desc": {
-      "cn": "随着管理员醒来，终末地工业重启了对这些小型、多变协议空间的探索计划。",
-      "en": "After the Endministrator's awakening, Endfield Industries restarted a project to explore these small, ever-changing Protocol Spaces."
-    },
-    "detailJumpId": "jump_activity_puzzle_1",
-    "id": "activity_puzzle_1",
-    "immediateClose": false,
-    "instructionId": "Dungeon_Challenge",
-    "introMissionJumpId": "jump_mission_activity_puzzle_1",
-    "introMissionQuestId": "a1m1_q#1",
-    "name": {
-      "cn": "密境行者",
-      "en": "Delver of the Cryptic"
-    },
-    "panelId": "ActivityChallengeDungeon",
-    "popUpOnlyOnce": false,
-    "popUpPanelId": "",
-    "popUpSortId": "-1",
-    "redDotName": "",
-    "rewardId": "reward_activity_puzzle_overview",
-    "showRewardCnt": false,
-    "sortId": "2001",
-    "tabImg": "activity_tab_bg_dungeon",
-    "tabImgColor": "#fff078",
-    "tabImgGender": false,
-    "tagIds": [
-      "activity_tag_puzzle"
-    ],
-    "type": "7"
+    "type": "13"
   },
   "activity_stamina_reduce_1": {
     "bgImg": "activity_bg_stamina_discount",
@@ -1203,61 +1863,44 @@
     ],
     "type": "5"
   },
-  "activity_weekly_task_1": {
-    "bgImg": "",
-    "bubbleSortId": "4999",
+  "activity_stamina_reduce_v1d1_2": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bubbleSortId": "4000",
     "bubbleText": {
-      "cn": "「每周事务」活动已开放",
-      "en": "[Weekly Routine] event is now available"
+      "cn": "「理智减耗」活动已开放",
+      "en": "[Sanity Discount] event now available"
     },
     "bubbleType": "White",
-    "conditions": [
-      {
-        "compareOperator": "3",
-        "conditionId": "activity_weekly_task_1_unlock_condition_1",
-        "conditionType": "5023",
-        "desc": {
-          "cn": "管理员权限等阶到达15级",
-          "en": "Reach Endministrator Authority Level 15"
-        },
-        "jumpId": "jump_adventure_book",
-        "parameters": [],
-        "progressToCompare": "15",
-        "tips": {
-          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
-          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
-        }
-      }
-    ],
+    "conditions": [],
     "desc": {
-      "cn": "完成周常任务可获取丰厚奖励。",
-      "en": "Complete weekly missions to earn rich rewards."
+      "cn": "药剂、按摩，甚至一顿大餐……帮助您舒缓精神压力的方式多种多样。",
+      "en": "Potions, massages, and sumptuous feasts... There are many ways to ease your mental stress."
     },
-    "detailJumpId": "",
-    "id": "activity_weekly_task_1",
+    "detailJumpId": "jump_stamina_reduce_1",
+    "id": "activity_stamina_reduce_v1d1_2",
     "immediateClose": false,
-    "instructionId": "instru_activity_weekly_task_1",
+    "instructionId": "Stamina_Discount",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
     "name": {
-      "cn": "每周事务",
-      "en": "Weekly Routine"
+      "cn": "理智减耗",
+      "en": "Sanity Discount"
     },
-    "panelId": "ActivityWeeklyTask",
+    "panelId": "ActivityStaminaDiscount",
     "popUpOnlyOnce": false,
     "popUpPanelId": "",
     "popUpSortId": "-1",
     "redDotName": "",
-    "rewardId": "reward_weekly_mission_preview",
+    "rewardId": "reward_doodad_crylplant_1_1",
     "showRewardCnt": false,
-    "sortId": "4999",
-    "tabImg": "activity_tab_bg_weeklytask",
-    "tabImgColor": "#fff100",
+    "sortId": "4000",
+    "tabImg": "activity_tab_stamina_discount",
+    "tabImgColor": "#fff078",
     "tabImgGender": false,
     "tagIds": [
-      "activity_tag_weekly_task"
+      "activity_tag_stamina"
     ],
-    "type": "16"
+    "type": "5"
   },
   "web_activity_v1d0_01_returnback": {
     "bgImg": "activity_bg_webreflow",
@@ -1297,6 +1940,162 @@
       "activity_tag_return"
     ],
     "type": "11"
+  },
+  "activity_submit_food_1": {
+    "bgImg": "activity_bg_materialsupply",
+    "bubbleSortId": "6011",
+    "bubbleText": {
+      "cn": "「物资供给·开拓节」活动已开放",
+      "en": "[Supply: Exploration Day] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_submit_food_1_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第一章 - 进程III - 诡楼寻踪",
+          "en": "Complete the main mission [Chapter Ⅰ Process III: Mystery in the Building]"
+        },
+        "jumpId": "jump_mission_main",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e2m5"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      },
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_submit_food_1_unlock_condition_2",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成探索任务：稼穑不易",
+          "en": "Complete the exploration mission [Farming Toils]"
+        },
+        "jumpId": "jump_mission_f1m10",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m10"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "完成探索任务「据点部署·基建前站」后可接取",
+          "en": "Complete exploration mission [Outpost: Infra-Station] to unlock"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "为了让人们拾起面对困境的勇气，罗曼请求管理员帮忙准备一些食物，分发给众人。",
+      "en": "To boost everyone's morale in the face of adversity, Roman asked Endmin for help in food preparation and distribution."
+    },
+    "detailJumpId": "jump_submit_map_mark_a1",
+    "id": "activity_submit_food_1",
+    "immediateClose": false,
+    "instructionId": "activity_submit_food_1_info",
+    "introMissionJumpId": "jump_mission_activity_submit_food_1",
+    "introMissionQuestId": "a1m5_q#2",
+    "name": {
+      "cn": "物资供给·开拓节",
+      "en": "Supply: Exploration Day"
+    },
+    "panelId": "ActivityMaterialSupply",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_submit_food_a1_overview",
+    "showRewardCnt": false,
+    "sortId": "6011",
+    "tabImg": "activity_tab_bg_materialsupply",
+    "tabImgColor": "#DBF121",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_item_submission"
+    ],
+    "type": "12"
   },
   "web_activity_v1d0_02_springfest": {
     "bgImg": "activity_bg_springfestival",

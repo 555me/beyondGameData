@@ -13,6 +13,20 @@
     },
     "richTextId": "gd.key"
   },
+  "sys.manualCraftTonic": {
+    "desc": {
+      "cn": "应急食药可以作为<#sys.tacticalItem>战术物品</>使用。\n可以通过<#sys.manualCraft>简易制作</>或工业设备生产获取。",
+      "en": "Emergency Food & Meds (EMS F&M) can be used as <#sys.tacticalItem>tacticals</>.\nThey can be acquired by <#sys.manualCraft>Crafting</> or by using AIC Factory facilities."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraftTonic",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "应急食药",
+      "en": "Emergency Food & Meds"
+    },
+    "richTextId": "gd.key"
+  },
   "adv.eswitch": {
     "desc": {
       "cn": "受击装置在受到攻击或是爆炸冲击后，会改变运行状态。\n一般用来关闭<#adv.electricFence>高压阻拦网</>或启用<#adv.jumpMachine>弹射装置</>。",
@@ -24,6 +38,34 @@
     "name": {
       "cn": "受击装置",
       "en": "Reactive Device"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.glassBottle": {
+    "desc": {
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备塑形后得到的瓶子。\n可用于其他材料合成。",
+      "en": "A bottle produced by moulding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_glassBottle",
+    "id": "item.glassBottle",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶质瓶",
+      "en": "Amethyst Bottle"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.plantMossSeed3": {
+    "desc": {
+      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备采种得到的种子。\n在工业设备中种植砂叶种子，可获得砂叶。\n将砂叶种子与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilMoss3>砂叶田块</>。",
+      "en": "Seeds picked from <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nSandleaf Seeds can then be planted and grown at AIC Factory facilities to acquire Sandleaves.\nAlternatively, Sandleaf Seed and <#item.carbonMtl>Carbon</> can be used in the <#sys.manualCraftField>Planting</> screen and crafted into <#item.portSoilMoss3>Sandleaf Plots</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_item_plantMossSeed3",
+    "id": "item.plantMossSeed3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶种子",
+      "en": "Sandleaf Seed"
     },
     "richTextId": "gd.key"
   },
@@ -52,6 +94,34 @@
     "name": {
       "cn": "供电终端",
       "en": "Electric Nexus"
+    },
+    "richTextId": "gd.key"
+  },
+  "ba.corruptonchar": {
+    "desc": {
+      "cn": "一些敌人的技能会给干员施加<@ba.naturalinflict>自然附着</>。\n达到4层时，干员会进入<@ba.corrupt>腐蚀</>状态：一段时间内无法冲刺，且移动速度降低。",
+      "en": "Certain enemy skills can apply stacks of <@ba.naturalinflict>Nature Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.corrupt>Corroded</>: Cannot dash and suffer movement speed reduction for a certain duration."
+    },
+    "iconPath": "TermIcon/icon_term_ba_corrupt",
+    "id": "ba.corruptonchar",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "干员受到腐蚀",
+      "en": "Operator Debuff: Corrosion"
+    },
+    "richTextId": "ba.natur"
+  },
+  "sys.manualCraftDish": {
+    "desc": {
+      "cn": "精制食药可以作为<#sys.tacticalItem>战术物品</>使用。\n不同于<#sys.manualCraftTonic>应急食药</>，精致食药只能通过<#sys.manualCraft>简易制作</>获取。",
+      "en": "Fine Food & Meds (Fine F&M) can be used as <#sys.tacticalItem>tacticals</>. \nUnlike <#sys.manualCraftTonic>Emergency Food & Meds</>, they can only be made using <#sys.manualCraft>Crafting</>."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraftDish",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "精制食药",
+      "en": "Fine Food & Meds"
     },
     "richTextId": "gd.key"
   },
@@ -111,6 +181,20 @@
     },
     "richTextId": "ba.key"
   },
+  "item.plantMossPowder3": {
+    "desc": {
+      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成，常用于研磨。",
+      "en": "A powder produced by shredding <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nIt can be used to produce other materials, usually by grinding."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossPowder3",
+    "id": "item.plantMossPowder3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶粉末",
+      "en": "Sandleaf Powder"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.conduct": {
     "desc": {
       "cn": "<@ba.conduct>导电</>状态下，敌人受到的<#ba.spelldmg>法术伤害</>提高。\n<@ba.conduct>导电</> = 其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.pulseinflict>电磁附着</>",
@@ -138,6 +222,34 @@
       "en": "Operator Debuff: Electrification"
     },
     "richTextId": "ba.pulse"
+  },
+  "item.bottledRecHp1": {
+    "desc": {
+      "cn": "由<#item.plantMossPowder1>荞花粉末</>与<#item.glassBottle>紫晶质瓶</>通过<#sys.manualCraft>简易制作</>或工业设备灌装得到的胶囊。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。\n",
+      "en": "A capsule made by <#sys.manualCraft>crafting</> or filling <#item.plantMossPowder1>Buckflower Powder</> into an <#item.glassBottle>Amethyst Bottle</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_bottledRecHp1",
+    "id": "item.bottledRecHp1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "荞愈胶囊",
+      "en": "Buck Capsule [C]"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.portSoilBbflower": {
+    "desc": {
+      "cn": "可以在生态种植园中进行进行精细化培育以收获<#item.bbflower>酮化灌木</>的田块。\n由<#item.bbflowerSeed>酮化树种</>与<#item.carbonMtl>碳块</>一起进行种植调配获得。\n收获时可获得大量酮化灌木。",
+      "en": "Aketine Plots can be cultivated at the Eco-Farm to acquire <#item.bbflower>Aketine</>.\nThese plots can be crafted by using <#item.bbflowerSeed>Aketine Seed</> and <#item.carbonMtl>Carbon</> in the Planting screen.\nHarvesting a fully grown plot provides plenty of Aketine."
+    },
+    "iconPath": "TermIcon/icon_term_item_portSoilBbflower",
+    "id": "item.portSoilBbflower",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木田块",
+      "en": "Aketine Plot"
+    },
+    "richTextId": "gd.key"
   },
   "ba.consume": {
     "desc": {
@@ -167,19 +279,47 @@
     },
     "richTextId": "ba.natur"
   },
-  "ba.corruptonchar": {
+  "ba.fireonchar": {
     "desc": {
-      "cn": "一些敌人的技能会给干员施加<@ba.naturalinflict>自然附着</>。\n达到4层时，干员会进入<@ba.corrupt>腐蚀</>状态：一段时间内无法冲刺，且移动速度降低。",
-      "en": "Certain enemy skills can apply stacks of <@ba.naturalinflict>Nature Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.corrupt>Corroded</>: Cannot dash and suffer movement speed reduction for a certain duration."
+      "cn": "一些敌人的技能会给干员施加<@ba.fireinflict>灼热附着</>。\n达到4层时，干员会进入<@ba.burning>燃烧</>状态：一段时间内，持续受到无视防御力的<@ba.fire>灼热伤害</>。",
+      "en": "Certain enemy skills can apply stacks of <@ba.fireinflict>Heat Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.burning>Combusted</>: Temporarily take continuous <@ba.fire>Heat DMG</> that ignores their DEF."
     },
-    "iconPath": "TermIcon/icon_term_ba_corrupt",
-    "id": "ba.corruptonchar",
+    "iconPath": "TermIcon/icon_term_ba_fireinflict",
+    "id": "ba.fireonchar",
     "jumpWikiId": "",
     "name": {
-      "cn": "干员受到腐蚀",
-      "en": "Operator Debuff: Corrosion"
+      "cn": "干员受到灼热附着",
+      "en": "Operator Debuff: Heat Infliction"
     },
-    "richTextId": "ba.natur"
+    "richTextId": "ba.fire"
+  },
+  "item.bbflowerPowder": {
+    "desc": {
+      "cn": "由<#item.bbflower>酮化灌木</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.bbflower>Aketine</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_bbflowerPowder",
+    "id": "item.bbflowerPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木粉末",
+      "en": "Aketine Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "sys.manualCraft": {
+    "desc": {
+      "cn": "可在背包中进行简易制作，将不同的原材料制作成各种可用的物品。\n例如可通过简易制作，将<#item.plantMoss1>荞花</>制作成能够回复生命值的<#item.plantMossSeed1>荞花粉末</>。",
+      "en": "Open the Backpack panel to access the Crafting screen. Different raw materials can be crafted into useful items.\nFor example, <#item.plantMoss1>Buckflower</> can be crafted into <#item.plantMossSeed1>Buckflower Powder</> for restoring HP."
+    },
+    "iconPath": "",
+    "id": "sys.manualCraft",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "简易制作",
+      "en": "Crafting"
+    },
+    "richTextId": "gd.key"
   },
   "ba.crush": {
     "desc": {
@@ -195,6 +335,48 @@
     },
     "richTextId": "ba.phy"
   },
+  "ba.crystvul": {
+    "desc": {
+      "cn": "一定时间内目标受到的<@ba.cryst>寒冷伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Cryo Susceptible targets temporarily take more <@ba.cryst>Cryo DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_crystvul",
+    "id": "ba.crystvul",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "寒冷脆弱",
+      "en": "Cryo Susceptibility"
+    },
+    "richTextId": "ba.cryst"
+  },
+  "ba.naturalburst": {
+    "desc": {
+      "cn": "<#ba.naturalinflict>自然附着</> + <#ba.naturalinflict>自然附着</>会触发<@ba.natur>自然爆发</>，对敌人造成一定<@ba.natur>自然伤害</>。",
+      "en": "<#ba.naturalinflict>Nature Infliction</> + <#ba.naturalinflict>Nature Infliction</> will trigger <@ba.natur>Nature Burst</> that deals <@ba.natur>Nature DMG</> to enemies."
+    },
+    "iconPath": "",
+    "id": "ba.naturalburst",
+    "jumpWikiId": "wiki_tut_bat_nature_outbreak",
+    "name": {
+      "cn": "法术爆发 - 自然",
+      "en": "Arts Burst: Nature"
+    },
+    "richTextId": "ba.natur"
+  },
+  "item.procBomb": {
+    "desc": {
+      "cn": "工业爆炸物是一种可生产的爆炸物。\n由<#item.glassCmpt>紫晶零件</>与<#item.bbflowerPowder>酮化灌木粉末</>通过工业设备封装后获得。\n使用工业爆炸物，可对爆炸范围内的敌人造成伤害，也可对范围内可被爆破的物体造成破坏。",
+      "en": "Industrial Explosives are a type of explosive that can be produced.\nThey are made by using the Packaging Unit, an AIC Factory facility. The materials required are <#item.glassCmpt>Amethyst Part</> and <#item.bbflowerPowder>Aketine Powder</>.\nUse Industrial Explosives to deal DMG to enemies or take down destructible objects within the blast radius."
+    },
+    "iconPath": "TermIcon/icon_term_item_procBomb",
+    "id": "item.procBomb",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "工业爆炸物",
+      "en": "Industrial Explosive"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.crystbreak": {
     "desc": {
       "cn": "对处于<#ba.frozen>冻结</>状态的敌人施加<#ba.noguard>破防</>或<#ba.physicalstatus>物理异常</>时触发，<#ba.consume>消耗</>目标的<#ba.frozen>冻结</>状态，并对其造成大量<@ba.pd>物理伤害</>。",
@@ -209,6 +391,20 @@
     },
     "richTextId": "ba.cryst"
   },
+  "ba.guard": {
+    "desc": {
+      "cn": "一定时间内目标受到的伤害降低（数值代表降低的幅度）。同类效果会取效果最高值。",
+      "en": "Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies."
+    },
+    "iconPath": "TermIcon/icon_term_ba_guard",
+    "id": "ba.guard",
+    "jumpWikiId": "wiki_tut_bat_guard",
+    "name": {
+      "cn": "庇护",
+      "en": "Protect"
+    },
+    "richTextId": "ba.key"
+  },
   "ba.crystburst": {
     "desc": {
       "cn": "<#ba.crystinflict>寒冷附着</> + <#ba.crystinflict>寒冷附着</>会触发<@ba.cryst>寒冷爆发</>，对敌人造成一定<@ba.cryst>寒冷伤害</>。",
@@ -222,6 +418,34 @@
       "en": "Arts Burst: Cryo"
     },
     "richTextId": "ba.cryst"
+  },
+  "ba.originium": {
+    "desc": {
+      "cn": "管理员的连携技会对敌人附着源石结晶，使敌人无法行动。",
+      "en": "The Endministrator's combo skill attaches Originium Crystals to enemies and immobilizes them."
+    },
+    "iconPath": "",
+    "id": "ba.originium",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "源石结晶",
+      "en": "Originium Crystal"
+    },
+    "richTextId": "ba.key"
+  },
+  "ba.weak": {
+    "desc": {
+      "cn": "一定时间内目标造成的伤害降低（数值代表降低的幅度）。同类效果会以非线性方式叠加。",
+      "en": "Weakened targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly."
+    },
+    "iconPath": "TermIcon/icon_term_ba_weak",
+    "id": "ba.weak",
+    "jumpWikiId": "wiki_tut_bat_weak",
+    "name": {
+      "cn": "虚弱",
+      "en": "Weaken"
+    },
+    "richTextId": "ba.key"
   },
   "ba.crystenhance": {
     "desc": {
@@ -251,6 +475,34 @@
     },
     "richTextId": "ba.cryst"
   },
+  "ba.spelldmg": {
+    "desc": {
+      "cn": "伤害分为<@ba.pd>物理伤害</>、<@ba.key>法术伤害</>、<@ba.ether>超域伤害</>。\n其中，<@ba.key>法术伤害</>又分为<@ba.fire>灼热伤害</>、<@ba.pulse>电磁伤害</>、<@ba.cryst>寒冷伤害</>、<@ba.natur>自然伤害</>。",
+      "en": "Damage can be divided into <@ba.pd>Physical DMG</>, <@ba.key>Arts DMG</>, and <@ba.ether>Æther DMG</>.\n<@ba.key>Arts DMG</> can be further divided into <@ba.fire>Heat DMG</>, <@ba.pulse>Electric DMG</>, <@ba.cryst>Cryo DMG</>, and <@ba.natur>Nature DMG</>."
+    },
+    "iconPath": "",
+    "id": "ba.spelldmg",
+    "jumpWikiId": "wiki_tut_bat_dmg_type",
+    "name": {
+      "cn": "伤害类型",
+      "en": "DMG Type"
+    },
+    "richTextId": "ba.key"
+  },
+  "item.plantMossSpc1": {
+    "desc": {
+      "cn": "映火荞花是一种可在野外采集的特殊艳丽花朵。\n在采集<#item.plantMoss1>荞花</>时有概率额外获得映火荞花。\n可用于<#sys.tacticalItem>战术物品</>制作。",
+      "en": "The Firebuckle is a plant that grows in the wilderness and is known for its exceptionally brilliant flowers.\nThere is a chance of getting Firebuckles when harvesting <#item.plantMoss1>Buckflowers</> in the wilderness.\nThey can be used for crafting <#sys.tacticalItem>tacticals</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMossSpc1",
+    "id": "item.plantMossSpc1",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "映火荞花",
+      "en": "Firebuckle"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.crystonchar": {
     "desc": {
       "cn": "一些敌人的技能会给干员施加<@ba.crystinflict>寒冷附着</>。\n达到4层时，干员会进入<@ba.frozen>冻结</>状态：一段时间内无法行动。",
@@ -262,20 +514,6 @@
     "name": {
       "cn": "干员受到寒冷附着",
       "en": "Operator Debuff: Cryo Infliction"
-    },
-    "richTextId": "ba.cryst"
-  },
-  "ba.crystvul": {
-    "desc": {
-      "cn": "一定时间内目标受到的<@ba.cryst>寒冷伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
-      "en": "Cryo Susceptible targets temporarily take more <@ba.cryst>Cryo DMG</>. The number represents the degree of increase. Effects of the same type can stack."
-    },
-    "iconPath": "TermIcon/icon_term_ba_crystvul",
-    "id": "ba.crystvul",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "寒冷脆弱",
-      "en": "Cryo Susceptibility"
     },
     "richTextId": "ba.cryst"
   },
@@ -335,6 +573,20 @@
     },
     "richTextId": "ba.fire"
   },
+  "ba.physicalenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.pd>物理伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Physical Amped targets temporarily deal more <@ba.pd>Physical DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_physicalenhance",
+    "id": "ba.physicalenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "物理增幅",
+      "en": "Physical Amp"
+    },
+    "richTextId": "ba.phy"
+  },
   "ba.fireenhance": {
     "desc": {
       "cn": "一定时间内目标造成的<@ba.fire>灼热伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
@@ -349,6 +601,20 @@
     },
     "richTextId": "ba.fire"
   },
+  "item.plantMoss3": {
+    "desc": {
+      "cn": "一种可在野外采集的叶片粗粝的植物。\n可使用工业设备培育获得，或在<#item.portSoilMoss3>砂叶田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.plantMossPowder3>砂叶粉末</>。",
+      "en": "A plant that is characterized by rough, gritty leaves. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilMoss3>Sandleaf Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.plantMossPowder3>Sandleaf Powder</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_plantMoss3",
+    "id": "item.plantMoss3",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "砂叶",
+      "en": "Sandleaf"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.fireinflict": {
     "desc": {
       "cn": "<@ba.fireinflict>灼热附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.fireinflict>灼热附着</>最多叠加4层，叠加时会触发<#ba.fireburst>灼热爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.fireinflict>灼热附着</> = <#ba.burning>燃烧</>",
@@ -360,20 +626,6 @@
     "name": {
       "cn": "法术附着 - 灼热",
       "en": "Arts Infliction: Heat"
-    },
-    "richTextId": "ba.fire"
-  },
-  "ba.fireonchar": {
-    "desc": {
-      "cn": "一些敌人的技能会给干员施加<@ba.fireinflict>灼热附着</>。\n达到4层时，干员会进入<@ba.burning>燃烧</>状态：一段时间内，持续受到无视防御力的<@ba.fire>灼热伤害</>。",
-      "en": "Certain enemy skills can apply stacks of <@ba.fireinflict>Heat Infliction</> to operators. \nAt 4 stacks, the operator becomes <@ba.burning>Combusted</>: Temporarily take continuous <@ba.fire>Heat DMG</> that ignores their DEF."
-    },
-    "iconPath": "TermIcon/icon_term_ba_fireinflict",
-    "id": "ba.fireonchar",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "干员受到灼热附着",
-      "en": "Operator Debuff: Heat Infliction"
     },
     "richTextId": "ba.fire"
   },
@@ -391,6 +643,34 @@
     },
     "richTextId": "ba.fire"
   },
+  "ba.lastcombo": {
+    "desc": {
+      "cn": "重击是干员普通攻击的最后一段。主控干员的重击命中敌人时，会额外累积<@ba.poise>失衡值</>，并恢复一定技力。",
+      "en": "Final Strike is the last sequence of basic attack. When the controlled operator's Final Strike hits the enemy, it also deals <@ba.poise>Stagger</> and restores some Skill Points (SP)."
+    },
+    "iconPath": "",
+    "id": "ba.lastcombo",
+    "jumpWikiId": "wiki_tut_bat_heavy_attack",
+    "name": {
+      "cn": "重击",
+      "en": "Final Strike"
+    },
+    "richTextId": ""
+  },
+  "ba.pulseenhance": {
+    "desc": {
+      "cn": "一定时间内目标造成的<@ba.pulse>电磁伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Electric Amped targets temporarily deal more <@ba.pulse>Electric DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulseenhance",
+    "id": "ba.pulseenhance",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "电磁增幅",
+      "en": "Electric Amp"
+    },
+    "richTextId": "ba.pulse"
+  },
   "ba.fracture": {
     "desc": {
       "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则会<#ba.consume>消耗</>所有<#ba.noguard>破防</>层数，造成<@ba.phy>物理伤害</>，并使其在一段时间内受到的<@ba.pd>物理伤害</>提高。",
@@ -404,6 +684,20 @@
       "en": "Physical Status: Breach"
     },
     "richTextId": "ba.phy"
+  },
+  "ba.vulnerable": {
+    "desc": {
+      "cn": "一定时间内目标受到的特定属性伤害提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack."
+    },
+    "iconPath": "TermIcon/icon_term_ba_vulnerable",
+    "id": "ba.vulnerable",
+    "jumpWikiId": "wiki_tut_bat_vulnerable",
+    "name": {
+      "cn": "脆弱",
+      "en": "Susceptible"
+    },
+    "richTextId": "ba.key"
   },
   "ba.frozen": {
     "desc": {
@@ -433,20 +727,6 @@
     },
     "richTextId": "ba.cryst"
   },
-  "ba.guard": {
-    "desc": {
-      "cn": "一定时间内目标受到的伤害降低（数值代表降低的幅度）。同类效果会取效果最高值。",
-      "en": "Protected targets temporarily take reduced DMG. The number represents the degree of reduction. When there are multiple effects of the same type, only the most powerful applies."
-    },
-    "iconPath": "TermIcon/icon_term_ba_guard",
-    "id": "ba.guard",
-    "jumpWikiId": "wiki_tut_bat_guard",
-    "name": {
-      "cn": "庇护",
-      "en": "Protect"
-    },
-    "richTextId": "ba.key"
-  },
   "ba.knockdown": {
     "desc": {
       "cn": "对敌人造成<#ba.noguard>破防</>，如果敌人已经<#ba.noguard>破防</>，则叠加一层<#ba.noguard>破防</>，造成<@ba.phy>物理伤害</>并累积<@ba.poise>失衡值</>。",
@@ -460,34 +740,6 @@
       "en": "Physical Status: Knock Down"
     },
     "richTextId": "ba.phy"
-  },
-  "ba.lastcombo": {
-    "desc": {
-      "cn": "重击是干员普通攻击的最后一段。主控干员的重击命中敌人时，会额外累积<@ba.poise>失衡值</>，并恢复一定技力。",
-      "en": "Final Strike is the last sequence of basic attack. When the controlled operator's Final Strike hits the enemy, it also deals <@ba.poise>Stagger</> and restores some Skill Points (SP)."
-    },
-    "iconPath": "",
-    "id": "ba.lastcombo",
-    "jumpWikiId": "wiki_tut_bat_heavy_attack",
-    "name": {
-      "cn": "重击",
-      "en": "Final Strike"
-    },
-    "richTextId": ""
-  },
-  "ba.naturalburst": {
-    "desc": {
-      "cn": "<#ba.naturalinflict>自然附着</> + <#ba.naturalinflict>自然附着</>会触发<@ba.natur>自然爆发</>，对敌人造成一定<@ba.natur>自然伤害</>。",
-      "en": "<#ba.naturalinflict>Nature Infliction</> + <#ba.naturalinflict>Nature Infliction</> will trigger <@ba.natur>Nature Burst</> that deals <@ba.natur>Nature DMG</> to enemies."
-    },
-    "iconPath": "",
-    "id": "ba.naturalburst",
-    "jumpWikiId": "wiki_tut_bat_nature_outbreak",
-    "name": {
-      "cn": "法术爆发 - 自然",
-      "en": "Arts Burst: Nature"
-    },
-    "richTextId": "ba.natur"
   },
   "ba.naturalenhance": {
     "desc": {
@@ -503,6 +755,34 @@
     },
     "richTextId": "ba.natur"
   },
+  "ba.pulseinflict": {
+    "desc": {
+      "cn": "<@ba.pulseinflict>电磁附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.pulseinflict>电磁附着</>最多叠加4层，叠加时会触发<#ba.pulseburst>电磁爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.pulseinflict>电磁附着</> = <#ba.conduct>导电</>",
+      "en": "<@ba.pulseinflict>Electric Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.pulseinflict>Electric Infliction</> can be applied and stacking triggers <#ba.pulseburst>Electric Burst</>. \nA <#ba.spellinflict>non-Electric Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.pulseinflict>Electric Infliction</> = <#ba.conduct>Electrification</>"
+    },
+    "iconPath": "TermIcon/icon_term_ba_pulseinflict",
+    "id": "ba.pulseinflict",
+    "jumpWikiId": "wiki_tut_bat_pulse",
+    "name": {
+      "cn": "法术附着 - 电磁",
+      "en": "Arts Infliction: Electric"
+    },
+    "richTextId": "ba.pulse"
+  },
+  "ba.spellinflict": {
+    "desc": {
+      "cn": "<@ba.key>法术附着</>是一种附着在敌人身上的法术标记，包括<#ba.fireinflict>灼热附着</>、<#ba.pulseinflict>电磁附着</>、<#ba.crystinflict>寒冷附着</>、<#ba.naturalinflict>自然附着</>。\n同类型的<@ba.key>法术附着</>可以叠加，最多4层。",
+      "en": "<@ba.key>Arts Inflictions</> are special Arts debuff inflicted upon the enemy. There are 4 elements of Arts Inflictions: <#ba.fireinflict>Heat Infliction</>, <#ba.pulseinflict>Electric Infliction</>, <#ba.crystinflict>Cryo Infliction</>, and <#ba.naturalinflict>Nature Infliction</>. \nUp to 4 stacks of <@ba.key>Arts Infliction</> of the same element can be applied."
+    },
+    "iconPath": "",
+    "id": "ba.spellinflict",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术附着",
+      "en": "Arts Infliction"
+    },
+    "richTextId": "ba.key"
+  },
   "ba.naturalinflict": {
     "desc": {
       "cn": "<@ba.naturalinflict>自然附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.naturalinflict>自然附着</>最多叠加4层，叠加时会触发<#ba.naturalburst>自然爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_pulse\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>）+ <@ba.naturalinflict>自然附着</> = <#ba.corrupt>腐蚀</>",
@@ -517,6 +797,20 @@
     },
     "richTextId": "ba.natur"
   },
+  "item.bbflower": {
+    "desc": {
+      "cn": "一种可在野外采集的植物，内含易燃易爆成分。\n可使用工业设备培育获得，或在<#item.portSoilBbflower>酮化灌木田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.bbflowerPowder>酮化灌木粉末</>。",
+      "en": "A plant that contains flammable and explosive substances. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilBbflower>Aketine Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.bbflowerPowder>Aketine Powder</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_bbflower",
+    "id": "item.bbflower",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "酮化灌木",
+      "en": "Aketine"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.naturalonchar": {
     "desc": {
       "cn": "一些敌人的技能会给干员施加<@ba.naturalinflict>自然附着</>。\n达到4层时，干员会进入<@ba.corrupt>腐蚀</>状态：一段时间内无法冲刺，且移动速度降低。",
@@ -530,6 +824,34 @@
       "en": "Operator Debuff: Nature Infliction"
     },
     "richTextId": "ba.natur"
+  },
+  "item.originiumEnrPowder": {
+    "desc": {
+      "cn": "由<#item.originiumPowder>源石粉末</>与<#item.plantMossPowder3>砂叶粉末</>通过工业设备研磨后得到的细粉。\n可用于其他材料合成。",
+      "en": "A fine, dense powder produced by grinding <#item.originiumPowder>Originium Powder</> and <#item.plantMossPowder3>Sandleaf Powder</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_originiumEnrPowder",
+    "id": "item.originiumEnrPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "致密源石粉末",
+      "en": "Dense Originium Powder"
+    },
+    "richTextId": "gd.key"
+  },
+  "item.quartzGlass": {
+    "desc": {
+      "cn": "由<#item.quartzSand>紫晶矿</>通过工业设备精炼后得到的纤维。\n可用于其他材料合成。",
+      "en": "A fiber produced by refining <#item.quartzSand>Amethyst Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_quartzGlass",
+    "id": "item.quartzGlass",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶纤维",
+      "en": "Amethyst Fiber"
+    },
+    "richTextId": "gd.key"
   },
   "ba.naturalvul": {
     "desc": {
@@ -559,34 +881,6 @@
     },
     "richTextId": "ba.phy"
   },
-  "ba.originium": {
-    "desc": {
-      "cn": "管理员的连携技会对敌人附着源石结晶，使敌人无法行动。",
-      "en": "The Endministrator's combo skill attaches Originium Crystals to enemies and immobilizes them."
-    },
-    "iconPath": "",
-    "id": "ba.originium",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "源石结晶",
-      "en": "Originium Crystal"
-    },
-    "richTextId": "ba.key"
-  },
-  "ba.physicalenhance": {
-    "desc": {
-      "cn": "一定时间内目标造成的<@ba.pd>物理伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
-      "en": "Physical Amped targets temporarily deal more <@ba.pd>Physical DMG</>. The number represents the degree of increase. Effects of the same type can stack."
-    },
-    "iconPath": "TermIcon/icon_term_ba_physicalenhance",
-    "id": "ba.physicalenhance",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "物理增幅",
-      "en": "Physical Amp"
-    },
-    "richTextId": "ba.phy"
-  },
   "ba.physicalstatus": {
     "desc": {
       "cn": "物理异常是通过物理方式对敌人施加的异常效果，包含<#ba.airborne>击飞</>、<#ba.knockdown>倒地</>、<#ba.crush>猛击</>、<#ba.fracture>碎甲</>。",
@@ -601,6 +895,20 @@
     },
     "richTextId": "ba.phy"
   },
+  "item.quartzPowder": {
+    "desc": {
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
+    },
+    "iconPath": "TermIcon/icon_term_item_quartzPowder",
+    "id": "item.quartzPowder",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "紫晶粉末",
+      "en": "Amethyst Powder"
+    },
+    "richTextId": "gd.key"
+  },
   "ba.physicalvul": {
     "desc": {
       "cn": "一定时间内目标受到的<@ba.pd>物理伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
@@ -614,6 +922,20 @@
       "en": "Physical Susceptibility"
     },
     "richTextId": "ba.phy"
+  },
+  "ba.spellburst": {
+    "desc": {
+      "cn": "<@ba.key>法术爆发</>是同类型的<#ba.spellinflict>法术附着</>叠加时产生的伤害效果，包含<#ba.fireburst>灼热爆发</>、<#ba.pulseburst>电磁爆发</>、<#ba.crystburst>寒冷爆发</>、<#ba.naturalburst>自然爆发</>。",
+      "en": "<@ba.key>Arts Bursts</> are triggered by stacking <#ba.spellinflict>Arts Inflictions</> of the same elements. They include <#ba.fireburst>Heat Burst</>, <#ba.pulseburst>Electric Burst</>, <#ba.crystburst>Cryo Burst</>, and <#ba.naturalburst>Nature Burst</>."
+    },
+    "iconPath": "",
+    "id": "ba.spellburst",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "法术爆发",
+      "en": "Arts Burst"
+    },
+    "richTextId": "ba.key"
   },
   "ba.poiseknot": {
     "desc": {
@@ -643,33 +965,19 @@
     },
     "richTextId": "ba.pulse"
   },
-  "ba.pulseenhance": {
+  "item.ironPowder": {
     "desc": {
-      "cn": "一定时间内目标造成的<@ba.pulse>电磁伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
-      "en": "Electric Amped targets temporarily deal more <@ba.pulse>Electric DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+      "cn": "由<#item.ironNugget>蓝铁块</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
+      "en": "A powder produced by shredding <#item.ironNugget>Ferrium</> with AIC Factory facilities. It can be used to produce other materials."
     },
-    "iconPath": "TermIcon/icon_term_ba_pulseenhance",
-    "id": "ba.pulseenhance",
+    "iconPath": "TermIcon/icon_term_item_ironPowder",
+    "id": "item.ironPowder",
     "jumpWikiId": "",
     "name": {
-      "cn": "电磁增幅",
-      "en": "Electric Amp"
+      "cn": "蓝铁粉末",
+      "en": "Ferrium Powder"
     },
-    "richTextId": "ba.pulse"
-  },
-  "ba.pulseinflict": {
-    "desc": {
-      "cn": "<@ba.pulseinflict>电磁附着</>是一种<#ba.spellinflict>法术附着</>。\n<@ba.pulseinflict>电磁附着</>最多叠加4层，叠加时会触发<#ba.pulseburst>电磁爆发</>。\n其他<#ba.spellinflict>法术附着</>（<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>）+ <@ba.pulseinflict>电磁附着</> = <#ba.conduct>导电</>",
-      "en": "<@ba.pulseinflict>Electric Infliction</> is a type of <#ba.spellinflict>Arts Infliction</>. \nUp to 4 stacks of <@ba.pulseinflict>Electric Infliction</> can be applied and stacking triggers <#ba.pulseburst>Electric Burst</>. \nA <#ba.spellinflict>non-Electric Infliction</> (<image=\"BuffIcon/icon_energy_fusion_fire\" scale=1.25>/<image=\"BuffIcon/icon_energy_fusion_cryst\" scale=1.25>/<image=\"BuffIcon/icon_infliction_nature\" scale=1.25>) + <@ba.pulseinflict>Electric Infliction</> = <#ba.conduct>Electrification</>"
-    },
-    "iconPath": "TermIcon/icon_term_ba_pulseinflict",
-    "id": "ba.pulseinflict",
-    "jumpWikiId": "wiki_tut_bat_pulse",
-    "name": {
-      "cn": "法术附着 - 电磁",
-      "en": "Arts Infliction: Electric"
-    },
-    "richTextId": "ba.pulse"
+    "richTextId": "gd.key"
   },
   "ba.pulseonchar": {
     "desc": {
@@ -702,7 +1010,7 @@
   "ba.return": {
     "desc": {
       "cn": "消耗技力后，满足一定条件时，重新获得的一部分技力。\n返还技力并不算作“恢复技力”，不会触发恢复技力时触发的效果，且这部分技力消耗时不会获得终结技能量。",
-      "en": "After spending SP and meeting certain criteria, some of the SP spent will be returned. \nSP Return is not \"SP Recovery\" and do not activate SP Recovery-triggered effects. Spending returned SP also does not gain Ultimate Energy."
+      "en": "After spending SP and meeting certain criteria, some of the SP spent will be returned. \nSP Return is not \"SP Recovery\" and does not activate SP Recovery-triggered effects. Spending returned SP also does not give Ultimate Energy."
     },
     "iconPath": "",
     "id": "ba.return",
@@ -712,6 +1020,20 @@
       "en": "SP Return"
     },
     "richTextId": ""
+  },
+  "item.originium": {
+    "desc": {
+      "cn": "一种可在野外源矿矿点采集的矿石，可用于集成工业系统发电。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.crystalShell>晶体外壳</>。",
+      "en": "An ore that can be gathered from Originium Ore mining spots in the wilderness. It can be used for power generation in the AIC Factory.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.crystalShell>Origocrust</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_originium",
+    "id": "item.originium",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "源矿",
+      "en": "Originium Ore"
+    },
+    "richTextId": "gd.key"
   },
   "ba.shield": {
     "desc": {
@@ -741,31 +1063,31 @@
     },
     "richTextId": "ba.key"
   },
-  "ba.spellburst": {
+  "item.crystalShell": {
     "desc": {
-      "cn": "<@ba.key>法术爆发</>是同类型的<#ba.spellinflict>法术附着</>叠加时产生的伤害效果，包含<#ba.fireburst>灼热爆发</>、<#ba.pulseburst>电磁爆发</>、<#ba.crystburst>寒冷爆发</>、<#ba.naturalburst>自然爆发</>。",
-      "en": "<@ba.key>Arts Bursts</> are triggered by stacking <#ba.spellinflict>Arts Inflictions</> of the same elements. They include <#ba.fireburst>Heat Burst</>, <#ba.pulseburst>Electric Burst</>, <#ba.crystburst>Cryo Burst</>, and <#ba.naturalburst>Nature Burst</>."
+      "cn": "由<#item.originium>源矿</>通过工业设备精炼后得到的外壳。\n可用于其他材料合成。\n",
+      "en": "A crystalline crust produced by refining <#item.originium>Originium Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
     },
-    "iconPath": "",
-    "id": "ba.spellburst",
+    "iconPath": "TermIcon/icon_term_item_crystalShell",
+    "id": "item.crystalShell",
     "jumpWikiId": "",
     "name": {
-      "cn": "法术爆发",
-      "en": "Arts Burst"
+      "cn": "晶体外壳",
+      "en": "Origocrust"
     },
-    "richTextId": "ba.key"
+    "richTextId": "gd.key"
   },
-  "ba.spelldmg": {
+  "ba.speedup": {
     "desc": {
-      "cn": "伤害分为<@ba.pd>物理伤害</>、<@ba.key>法术伤害</>、<@ba.ether>超域伤害</>。\n其中，<@ba.key>法术伤害</>又分为<@ba.fire>灼热伤害</>、<@ba.pulse>电磁伤害</>、<@ba.cryst>寒冷伤害</>、<@ba.natur>自然伤害</>。",
-      "en": "Damage can be divided into <@ba.pd>Physical DMG</>, <@ba.key>Arts DMG</>, and <@ba.ether>Æther DMG</>.\n<@ba.key>Arts DMG</> can be further divided into <@ba.fire>Heat DMG</>, <@ba.pulse>Electric DMG</>, <@ba.cryst>Cryo DMG</>, and <@ba.natur>Nature DMG</>."
+      "cn": "一定时间内目标的移动速度提高（数值代表提高的幅度）。同类效果可以叠加，直到达到上限。",
+      "en": "Temporarily raises the movement speed of a target. The number represents the degree of the speed increase. Effects of the same type can stack until hitting the speed cap."
     },
-    "iconPath": "",
-    "id": "ba.spelldmg",
-    "jumpWikiId": "wiki_tut_bat_dmg_type",
+    "iconPath": "TermIcon/icon_term_ba_speedup",
+    "id": "ba.speedup",
+    "jumpWikiId": "wiki_tut_bat_speedup",
     "name": {
-      "cn": "伤害类型",
-      "en": "DMG Type"
+      "cn": "加速",
+      "en": "Haste"
     },
     "richTextId": "ba.key"
   },
@@ -783,17 +1105,17 @@
     },
     "richTextId": "ba.key"
   },
-  "ba.spellinflict": {
+  "ba.spellvul": {
     "desc": {
-      "cn": "<@ba.key>法术附着</>是一种附着在敌人身上的法术标记，包括<#ba.fireinflict>灼热附着</>、<#ba.pulseinflict>电磁附着</>、<#ba.crystinflict>寒冷附着</>、<#ba.naturalinflict>自然附着</>。\n同类型的<@ba.key>法术附着</>可以叠加，最多4层。",
-      "en": "<@ba.key>Arts Inflictions</> are special Arts debuff inflicted upon the enemy. There are 4 elements of Arts Inflictions: <#ba.fireinflict>Heat Infliction</>, <#ba.pulseinflict>Electric Infliction</>, <#ba.crystinflict>Cryo Infliction</>, and <#ba.naturalinflict>Nature Infliction</>. \nUp to 4 stacks of <@ba.key>Arts Infliction</> of the same element can be applied."
+      "cn": "一定时间内目标受到的<#ba.spelldmg>法术伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
+      "en": "Arts Susceptible targets temporarily take more <#ba.spelldmg>Arts DMG</>. The number represents the degree of increase. Effects of the same type can stack."
     },
-    "iconPath": "",
-    "id": "ba.spellinflict",
+    "iconPath": "TermIcon/icon_term_ba_spellvul",
+    "id": "ba.spellvul",
     "jumpWikiId": "",
     "name": {
-      "cn": "法术附着",
-      "en": "Arts Infliction"
+      "cn": "法术脆弱",
+      "en": "Arts Susceptibility"
     },
     "richTextId": "ba.key"
   },
@@ -825,19 +1147,19 @@
     },
     "richTextId": "ba.key"
   },
-  "ba.spellvul": {
+  "item.portSoilMoss1": {
     "desc": {
-      "cn": "一定时间内目标受到的<#ba.spelldmg>法术伤害</>提高（数值代表提高的幅度）。同类效果可以叠加。",
-      "en": "Arts Susceptible targets temporarily take more <#ba.spelldmg>Arts DMG</>. The number represents the degree of increase. Effects of the same type can stack."
+      "cn": "可以在生态种植园中进行精细化培育以收获<#item.plantMoss1>荞花</>的田块\n由<#item.plantMossSeed1>荞花种子</>与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>获得。\n收获时可获得大量荞花，且有较高概率额外获得<#item.plantMossSpc1>映火荞花</>。",
+      "en": "Buckflower Plots can be cultivated at the Eco-Farm to acquire <#item.plantMoss1>Buckflower</>.\nThese plots can be crafted by using <#item.plantMossSeed1>Buckflower Seed</> and <#item.carbonMtl>Carbon</> in the <#sys.manualCraftField>Planting</> screen.\nHarvesting a fully grown plot has a higher chance of getting bonus <#item.plantMossSpc1>Firebuckle</>."
     },
-    "iconPath": "TermIcon/icon_term_ba_spellvul",
-    "id": "ba.spellvul",
+    "iconPath": "TermIcon/icon_term_item_portSoilMoss1",
+    "id": "item.portSoilMoss1",
     "jumpWikiId": "",
     "name": {
-      "cn": "法术脆弱",
-      "en": "Arts Susceptibility"
+      "cn": "荞花田块",
+      "en": "Buckflower Plot"
     },
-    "richTextId": "ba.key"
+    "richTextId": "gd.key"
   },
   "ba.statuslevel": {
     "desc": {
@@ -853,33 +1175,19 @@
     },
     "richTextId": "ba.key"
   },
-  "ba.vulnerable": {
+  "item.ironNugget": {
     "desc": {
-      "cn": "一定时间内目标受到的特定属性伤害提高（数值代表提高的幅度）。同类效果可以叠加。",
-      "en": "Susceptible targets temporarily take more DMG of the element it is Susceptible to. The number represents the degree of increase. Effects of the same type can stack."
+      "cn": "由<#item.ironOre>蓝铁矿</>通过工业设备精炼后得到的金属块。\n可用于其他材料合成。",
+      "en": "A metal ingot produced by refining <#item.ironOre>Ferrium Ore</> with AIC Factory facilities. It can be used to produce other materials."
     },
-    "iconPath": "TermIcon/icon_term_ba_vulnerable",
-    "id": "ba.vulnerable",
-    "jumpWikiId": "wiki_tut_bat_vulnerable",
+    "iconPath": "TermIcon/icon_term_item_ironNugget",
+    "id": "item.ironNugget",
+    "jumpWikiId": "",
     "name": {
-      "cn": "脆弱",
-      "en": "Susceptible"
+      "cn": "蓝铁块",
+      "en": "Ferrium"
     },
-    "richTextId": "ba.key"
-  },
-  "ba.weak": {
-    "desc": {
-      "cn": "一定时间内目标造成的伤害降低（数值代表降低的幅度）。同类效果会以非线性方式叠加。",
-      "en": "Weakened targets temporarily deal reduced DMG. The number represents the degree of reduction. Effects of the same type can stack non-linearly."
-    },
-    "iconPath": "TermIcon/icon_term_ba_weak",
-    "id": "ba.weak",
-    "jumpWikiId": "wiki_tut_bat_weak",
-    "name": {
-      "cn": "虚弱",
-      "en": "Weaken"
-    },
-    "richTextId": "ba.key"
+    "richTextId": "gd.key"
   },
   "fac.hub": {
     "desc": {
@@ -892,34 +1200,6 @@
     "name": {
       "cn": "协议核心",
       "en": "Protocol Automation-Core"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.bbflower": {
-    "desc": {
-      "cn": "一种可在野外采集的植物，内含易燃易爆成分。\n可使用工业设备培育获得，或在<#item.portSoilBbflower>酮化灌木田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.bbflowerPowder>酮化灌木粉末</>。",
-      "en": "A plant that contains flammable and explosive substances. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilBbflower>Aketine Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.bbflowerPowder>Aketine Powder</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_bbflower",
-    "id": "item.bbflower",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "酮化灌木",
-      "en": "Aketine"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.bbflowerPowder": {
-    "desc": {
-      "cn": "由<#item.bbflower>酮化灌木</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
-      "en": "A powder produced by shredding <#item.bbflower>Aketine</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_bbflowerPowder",
-    "id": "item.bbflowerPowder",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "酮化灌木粉末",
-      "en": "Aketine Powder"
     },
     "richTextId": "gd.key"
   },
@@ -937,17 +1217,17 @@
     },
     "richTextId": "gd.key"
   },
-  "item.bottledRecHp1": {
+  "item.glassCmpt": {
     "desc": {
-      "cn": "由<#item.plantMossPowder1>荞花粉末</>与<#item.glassBottle>紫晶质瓶</>通过<#sys.manualCraft>简易制作</>或工业设备灌装得到的胶囊。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。\n",
-      "en": "A capsule made by <#sys.manualCraft>crafting</> or filling <#item.plantMossPowder1>Buckflower Powder</> into an <#item.glassBottle>Amethyst Bottle</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
+      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备配件后得到的零件。\n可用于其他材料合成。",
+      "en": "A part produced by fitting <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
     },
-    "iconPath": "TermIcon/icon_term_item_bottledRecHp1",
-    "id": "item.bottledRecHp1",
+    "iconPath": "TermIcon/icon_term_item_glassCmpt",
+    "id": "item.glassCmpt",
     "jumpWikiId": "",
     "name": {
-      "cn": "荞愈胶囊",
-      "en": "Buck Capsule [C]"
+      "cn": "紫晶零件",
+      "en": "Amethyst Part"
     },
     "richTextId": "gd.key"
   },
@@ -965,48 +1245,6 @@
     },
     "richTextId": "gd.key"
   },
-  "item.crystalShell": {
-    "desc": {
-      "cn": "由<#item.originium>源矿</>通过工业设备精炼后得到的外壳。\n可用于其他材料合成。\n",
-      "en": "A crystalline crust produced by refining <#item.originium>Originium Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_crystalShell",
-    "id": "item.crystalShell",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "晶体外壳",
-      "en": "Origocrust"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.glassBottle": {
-    "desc": {
-      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备塑形后得到的瓶子。\n可用于其他材料合成。",
-      "en": "A bottle produced by moulding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_glassBottle",
-    "id": "item.glassBottle",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "紫晶质瓶",
-      "en": "Amethyst Bottle"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.glassCmpt": {
-    "desc": {
-      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备配件后得到的零件。\n可用于其他材料合成。",
-      "en": "A part produced by fitting <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_glassCmpt",
-    "id": "item.glassCmpt",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "紫晶零件",
-      "en": "Amethyst Part"
-    },
-    "richTextId": "gd.key"
-  },
   "item.ironEnrPowder": {
     "desc": {
       "cn": "由<#item.ironPowder>蓝铁粉末</>与<#item.plantMossPowder3>砂叶粉末</>通过工业设备研磨后得到的细粉。\n可用于其他材料合成。",
@@ -1018,76 +1256,6 @@
     "name": {
       "cn": "致密蓝铁粉末",
       "en": "Dense Ferrium Powder"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.ironNugget": {
-    "desc": {
-      "cn": "由<#item.ironOre>蓝铁矿</>通过工业设备精炼后得到的金属块。\n可用于其他材料合成。",
-      "en": "A metal ingot produced by refining <#item.ironOre>Ferrium Ore</> with AIC Factory facilities. It can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_ironNugget",
-    "id": "item.ironNugget",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "蓝铁块",
-      "en": "Ferrium"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.ironOre": {
-    "desc": {
-      "cn": "一种可在野外蓝铁矿矿点采集的矿石。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.ironNugget>蓝铁块</>。",
-      "en": "An ore that can be gathered from Ferrium Ore mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.ironNugget>Ferrium</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_ironOre",
-    "id": "item.ironOre",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "蓝铁矿",
-      "en": "Ferrium Ore"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.ironPowder": {
-    "desc": {
-      "cn": "由<#item.ironNugget>蓝铁块</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
-      "en": "A powder produced by shredding <#item.ironNugget>Ferrium</> with AIC Factory facilities. It can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_ironPowder",
-    "id": "item.ironPowder",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "蓝铁粉末",
-      "en": "Ferrium Powder"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.originium": {
-    "desc": {
-      "cn": "一种可在野外源矿矿点采集的矿石，可用于集成工业系统发电。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.crystalShell>晶体外壳</>。",
-      "en": "An ore that can be gathered from Originium Ore mining spots in the wilderness. It can be used for power generation in the AIC Factory.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.crystalShell>Origocrust</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_originium",
-    "id": "item.originium",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "源矿",
-      "en": "Originium Ore"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.originiumEnrPowder": {
-    "desc": {
-      "cn": "由<#item.originiumPowder>源石粉末</>与<#item.plantMossPowder3>砂叶粉末</>通过工业设备研磨后得到的细粉。\n可用于其他材料合成。",
-      "en": "A fine, dense powder produced by grinding <#item.originiumPowder>Originium Powder</> and <#item.plantMossPowder3>Sandleaf Powder</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_originiumEnrPowder",
-    "id": "item.originiumEnrPowder",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "致密源石粉末",
-      "en": "Dense Originium Powder"
     },
     "richTextId": "gd.key"
   },
@@ -1105,6 +1273,20 @@
     },
     "richTextId": "gd.key"
   },
+  "item.ironOre": {
+    "desc": {
+      "cn": "一种可在野外蓝铁矿矿点采集的矿石。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.ironNugget>蓝铁块</>。",
+      "en": "An ore that can be gathered from Ferrium Ore mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.ironNugget>Ferrium</>."
+    },
+    "iconPath": "TermIcon/icon_term_item_ironOre",
+    "id": "item.ironOre",
+    "jumpWikiId": "",
+    "name": {
+      "cn": "蓝铁矿",
+      "en": "Ferrium Ore"
+    },
+    "richTextId": "gd.key"
+  },
   "item.plantMoss1": {
     "desc": {
       "cn": "荞花是一种可在野外采集的艳丽花朵。\n可使用工业设备培育获得，或在<#item.portSoilMoss1>荞花田块</>中种植获得。\n可用于<#sys.tacticalItem>战术物品</>制作或其他材料合成。",
@@ -1116,48 +1298,6 @@
     "name": {
       "cn": "荞花",
       "en": "Buckflower"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.plantMoss3": {
-    "desc": {
-      "cn": "一种可在野外采集的叶片粗粝的植物。\n可使用工业设备培育获得，或在<#item.portSoilMoss3>砂叶田块</>中种植获得。\n也可使用工业设备对其进行加工，比如在粉碎后得到<#item.plantMossPowder3>砂叶粉末</>。",
-      "en": "A plant that is characterized by rough, gritty leaves. It can be gathered from the wilderness.\nThe plant can be grown with AIC Factory facilities or cultivated with <#item.portSoilMoss3>Sandleaf Plots</>.\nIt can also be processed with AIC Factory facilities. For example, it can be shredded to produce <#item.plantMossPowder3>Sandleaf Powder</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_plantMoss3",
-    "id": "item.plantMoss3",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "砂叶",
-      "en": "Sandleaf"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.plantMossPowder1": {
-    "desc": {
-      "cn": "由<#item.plantMoss1>荞花</>通过<#sys.manualCraft>简易制作</>或工业设备粉碎后得到的粉末。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。",
-      "en": "A powder made by <#sys.manualCraft>crafting</> or shredding <#item.plantMoss1>Buckflowers</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_plantMossPowder1",
-    "id": "item.plantMossPowder1",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "荞花粉末",
-      "en": "Buckflower Powder"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.plantMossPowder3": {
-    "desc": {
-      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成，常用于研磨。",
-      "en": "A powder produced by shredding <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nIt can be used to produce other materials, usually by grinding."
-    },
-    "iconPath": "TermIcon/icon_term_item_plantMossPowder3",
-    "id": "item.plantMossPowder3",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "砂叶粉末",
-      "en": "Sandleaf Powder"
     },
     "richTextId": "gd.key"
   },
@@ -1175,31 +1315,17 @@
     },
     "richTextId": "gd.key"
   },
-  "item.plantMossSeed3": {
+  "item.plantMossPowder1": {
     "desc": {
-      "cn": "由<#item.plantMoss3>砂叶</>通过工业设备采种得到的种子。\n在工业设备中种植砂叶种子，可获得砂叶。\n将砂叶种子与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>，可以获得<#item.portSoilMoss3>砂叶田块</>。",
-      "en": "Seeds picked from <#item.plantMoss3>Sandleaves</> with AIC Factory facilities.\nSandleaf Seeds can then be planted and grown at AIC Factory facilities to acquire Sandleaves.\nAlternatively, Sandleaf Seed and <#item.carbonMtl>Carbon</> can be used in the <#sys.manualCraftField>Planting</> screen and crafted into <#item.portSoilMoss3>Sandleaf Plots</>."
+      "cn": "由<#item.plantMoss1>荞花</>通过<#sys.manualCraft>简易制作</>或工业设备粉碎后得到的粉末。\n使用后，可以回复干员的生命值。也可作为<#sys.tacticalItem>战术物品</>进行装备。",
+      "en": "A powder made by <#sys.manualCraft>crafting</> or shredding <#item.plantMoss1>Buckflowers</> with AIC Factory facilities.\nUse this to restore an operator's HP. It can also be equipped as a <#sys.tacticalItem>tactical</>."
     },
-    "iconPath": "TermIcon/icon_term_item_item_plantMossSeed3",
-    "id": "item.plantMossSeed3",
+    "iconPath": "TermIcon/icon_term_item_plantMossPowder1",
+    "id": "item.plantMossPowder1",
     "jumpWikiId": "",
     "name": {
-      "cn": "砂叶种子",
-      "en": "Sandleaf Seed"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.plantMossSpc1": {
-    "desc": {
-      "cn": "映火荞花是一种可在野外采集的特殊艳丽花朵。\n在采集<#item.plantMoss1>荞花</>时有概率额外获得映火荞花。\n可用于<#sys.tacticalItem>战术物品</>制作。",
-      "en": "The Firebuckle is a plant that grows in the wilderness and is known for its exceptionally brilliant flowers.\nThere is a chance of getting Firebuckles when harvesting <#item.plantMoss1>Buckflowers</> in the wilderness.\nThey can be used for crafting <#sys.tacticalItem>tacticals</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_plantMossSpc1",
-    "id": "item.plantMossSpc1",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "映火荞花",
-      "en": "Firebuckle"
+      "cn": "荞花粉末",
+      "en": "Buckflower Powder"
     },
     "richTextId": "gd.key"
   },
@@ -1228,34 +1354,6 @@
     "name": {
       "cn": "灰芦麦种子",
       "en": "Reed Rye Seed"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.portSoilBbflower": {
-    "desc": {
-      "cn": "可以在生态种植园中进行进行精细化培育以收获<#item.bbflower>酮化灌木</>的田块。\n由<#item.bbflowerSeed>酮化树种</>与<#item.carbonMtl>碳块</>一起进行种植调配获得。\n收获时可获得大量酮化灌木。",
-      "en": "Aketine Plots can be cultivated at the Eco-Farm to acquire <#item.bbflower>Aketine</>.\nThese plots can be crafted by using <#item.bbflowerSeed>Aketine Seed</> and <#item.carbonMtl>Carbon</> in the Planting screen.\nHarvesting a fully grown plot provides plenty of Aketine."
-    },
-    "iconPath": "TermIcon/icon_term_item_portSoilBbflower",
-    "id": "item.portSoilBbflower",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "酮化灌木田块",
-      "en": "Aketine Plot"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.portSoilMoss1": {
-    "desc": {
-      "cn": "可以在生态种植园中进行精细化培育以收获<#item.plantMoss1>荞花</>的田块\n由<#item.plantMossSeed1>荞花种子</>与<#item.carbonMtl>碳块</>一起进行<#sys.manualCraftField>种植调配</>获得。\n收获时可获得大量荞花，且有较高概率额外获得<#item.plantMossSpc1>映火荞花</>。",
-      "en": "Buckflower Plots can be cultivated at the Eco-Farm to acquire <#item.plantMoss1>Buckflower</>.\nThese plots can be crafted by using <#item.plantMossSeed1>Buckflower Seed</> and <#item.carbonMtl>Carbon</> in the <#sys.manualCraftField>Planting</> screen.\nHarvesting a fully grown plot has a higher chance of getting bonus <#item.plantMossSpc1>Firebuckle</>."
-    },
-    "iconPath": "TermIcon/icon_term_item_portSoilMoss1",
-    "id": "item.portSoilMoss1",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "荞花田块",
-      "en": "Buckflower Plot"
     },
     "richTextId": "gd.key"
   },
@@ -1301,52 +1399,10 @@
     },
     "richTextId": "gd.key"
   },
-  "item.procBomb": {
-    "desc": {
-      "cn": "工业爆炸物是一种可生产的爆炸物。\n由<#item.glassCmpt>紫晶零件</>与<#item.bbflowerPowder>酮化灌木粉末</>通过工业设备封装后获得。\n使用工业爆炸物，可对爆炸范围内的敌人造成伤害，也可对范围内可被爆破的物体造成破坏。",
-      "en": "Industrial Explosives are a type of explosive that can be produced.\nThey are made by using the Packaging Unit, an AIC Factory facility. The materials required are <#item.glassCmpt>Amethyst Part</> and <#item.bbflowerPowder>Aketine Powder</>.\nUse Industrial Explosives to deal DMG to enemies or take down destructible objects within the blast radius."
-    },
-    "iconPath": "TermIcon/icon_term_item_procBomb",
-    "id": "item.procBomb",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "工业爆炸物",
-      "en": "Industrial Explosive"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.quartzGlass": {
-    "desc": {
-      "cn": "由<#item.quartzSand>紫晶矿</>通过工业设备精炼后得到的纤维。\n可用于其他材料合成。",
-      "en": "A fiber produced by refining <#item.quartzSand>Amethyst Ore</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_quartzGlass",
-    "id": "item.quartzGlass",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "紫晶纤维",
-      "en": "Amethyst Fiber"
-    },
-    "richTextId": "gd.key"
-  },
-  "item.quartzPowder": {
-    "desc": {
-      "cn": "由<#item.quartzGlass>紫晶纤维</>通过工业设备粉碎后得到的粉末。\n可用于其他材料合成。",
-      "en": "A powder produced by shredding <#item.quartzGlass>Amethyst Fiber</> with AIC Factory facilities.\nIt can be used to produce other materials."
-    },
-    "iconPath": "TermIcon/icon_term_item_quartzPowder",
-    "id": "item.quartzPowder",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "紫晶粉末",
-      "en": "Amethyst Powder"
-    },
-    "richTextId": "gd.key"
-  },
   "item.quartzSand": {
     "desc": {
       "cn": "一种可在野外紫晶矿矿点采集的矿石。\n可使用工业设备对其进行加工，比如在精炼后得到<#item.quartzGlass>紫晶纤维</>。",
-      "en": "An ore that can be gathered from Amethyst Ore mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.quartzGlass>Amethyst Fiber</>."
+      "en": "An ore that can be gathered from Amethyst mining spots in the wilderness.\nIt can also be processed with AIC Factory facilities. For example, it can be refined to produce <#item.quartzGlass>Amethyst Fiber</>."
     },
     "iconPath": "TermIcon/icon_term_item_quartzSand",
     "id": "item.quartzSand",
@@ -1354,34 +1410,6 @@
     "name": {
       "cn": "紫晶矿",
       "en": "Amethyst Ore"
-    },
-    "richTextId": "gd.key"
-  },
-  "sys.manualCraft": {
-    "desc": {
-      "cn": "可在背包中进行简易制作，将不同的原材料制作成各种可用的物品。\n例如可通过简易制作，将<#item.plantMoss1>荞花</>制作成能够回复生命值的<#item.plantMossSeed1>荞花粉末</>。",
-      "en": "Open the Backpack panel to access the Crafting screen. Different raw materials can be crafted into useful items.\nFor example, <#item.plantMoss1>Buckflower</> can be crafted into <#item.plantMossSeed1>Buckflower Powder</> for restoring HP."
-    },
-    "iconPath": "",
-    "id": "sys.manualCraft",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "简易制作",
-      "en": "Crafting"
-    },
-    "richTextId": "gd.key"
-  },
-  "sys.manualCraftDish": {
-    "desc": {
-      "cn": "精制食药可以作为<#sys.tacticalItem>战术物品</>使用。\n不同于<#sys.manualCraftTonic>应急食药</>，精致食药只能通过<#sys.manualCraft>简易制作</>获取。",
-      "en": "Fine Food & Meds (Fine F&M) can be used as <#sys.tacticalItem>tacticals</>. \nUnlike <#sys.manualCraftTonic>Emergency Food & Meds</>, they can only be made using <#sys.manualCraft>Crafting</>."
-    },
-    "iconPath": "",
-    "id": "sys.manualCraftDish",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "精制食药",
-      "en": "Fine Food & Meds"
     },
     "richTextId": "gd.key"
   },
@@ -1396,20 +1424,6 @@
     "name": {
       "cn": "种植调配",
       "en": "Planting"
-    },
-    "richTextId": "gd.key"
-  },
-  "sys.manualCraftTonic": {
-    "desc": {
-      "cn": "应急食药可以作为<#sys.tacticalItem>战术物品</>使用。\n可以通过<#sys.manualCraft>简易制作</>或工业设备生产获取。",
-      "en": "Emergency Food & Meds (EMS F&M) can be used as <#sys.tacticalItem>tacticals</>.\nThey can be acquired by <#sys.manualCraft>Crafting</> or by using AIC Factory facilities."
-    },
-    "iconPath": "",
-    "id": "sys.manualCraftTonic",
-    "jumpWikiId": "",
-    "name": {
-      "cn": "应急食药",
-      "en": "Emergency Food & Meds"
     },
     "richTextId": "gd.key"
   },

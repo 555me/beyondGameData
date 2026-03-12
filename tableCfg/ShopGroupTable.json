@@ -15,6 +15,29 @@
     ],
     "unlockConditions": []
   },
+  "shop_common_map01_lv001_3": {
+    "icon": "",
+    "randGoodsBaseLimit": "0",
+    "randGoodsDailyAddLimit": "0",
+    "shopGroupId": "shop_common_map01_lv001_3",
+    "shopGroupName": {
+      "cn": "武器销售点",
+      "en": "Weapon Sales Point"
+    },
+    "shopGroupType": "0",
+    "shopIds": [
+      "shop_common_map01_lv001_3_1"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map01_lv001_3_condition_1",
+        "desc": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ]
+  },
   "domainshop_map02": {
     "icon": "shop_trade_area_icon_2",
     "randGoodsBaseLimit": "0",
@@ -30,6 +53,30 @@
       "domainshop_page_rand_map02"
     ],
     "unlockConditions": []
+  },
+  "shop_common_map01_lv006_1": {
+    "icon": "",
+    "randGoodsBaseLimit": "0",
+    "randGoodsDailyAddLimit": "0",
+    "shopGroupId": "shop_common_map01_lv006_1",
+    "shopGroupName": {
+      "cn": "芙蕾丝杂货铺",
+      "en": "Fraissy's Groceries"
+    },
+    "shopGroupType": "0",
+    "shopIds": [
+      "shop_common_map01_lv006_1_1",
+      "shop_common_map01_lv006_1_2"
+    ],
+    "unlockConditions": [
+      {
+        "conditionId": "unlock_map01_lv006_1_condition_1",
+        "desc": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ]
   },
   "shop_common_map01_lv001_1": {
     "icon": "",
@@ -79,29 +126,6 @@
       }
     ]
   },
-  "shop_common_map01_lv001_3": {
-    "icon": "",
-    "randGoodsBaseLimit": "0",
-    "randGoodsDailyAddLimit": "0",
-    "shopGroupId": "shop_common_map01_lv001_3",
-    "shopGroupName": {
-      "cn": "武器销售点",
-      "en": "Weapon Sales Point"
-    },
-    "shopGroupType": "0",
-    "shopIds": [
-      "shop_common_map01_lv001_3_1"
-    ],
-    "unlockConditions": [
-      {
-        "conditionId": "unlock_map01_lv001_3_condition_1",
-        "desc": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ]
-  },
   "shop_common_map01_lv003_1": {
     "icon": "",
     "randGoodsBaseLimit": "0",
@@ -134,30 +158,6 @@
     "unlockConditions": [
       {
         "conditionId": "unlock_map01_lv005_1_condition_1",
-        "desc": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ]
-  },
-  "shop_common_map01_lv006_1": {
-    "icon": "",
-    "randGoodsBaseLimit": "0",
-    "randGoodsDailyAddLimit": "0",
-    "shopGroupId": "shop_common_map01_lv006_1",
-    "shopGroupName": {
-      "cn": "芙蕾丝杂货铺",
-      "en": "Fraissy's Groceries"
-    },
-    "shopGroupType": "0",
-    "shopIds": [
-      "shop_common_map01_lv006_1_1",
-      "shop_common_map01_lv006_1_2"
-    ],
-    "unlockConditions": [
-      {
-        "conditionId": "unlock_map01_lv006_1_condition_1",
         "desc": {
           "cn": "",
           "en": ""
@@ -211,6 +211,19 @@
       }
     ]
   },
+  "shop_pay_gift_pack": {
+    "icon": "icon_type_shop_package",
+    "randGoodsBaseLimit": "0",
+    "randGoodsDailyAddLimit": "0",
+    "shopGroupId": "shop_pay_gift_pack",
+    "shopGroupName": {
+      "cn": "组合包",
+      "en": "Bundles"
+    },
+    "shopGroupType": "5",
+    "shopIds": [],
+    "unlockConditions": []
+  },
   "shop_common_map02_lv002_2": {
     "icon": "",
     "randGoodsBaseLimit": "0",
@@ -257,17 +270,22 @@
       }
     ]
   },
-  "shop_pay_gift_pack": {
-    "icon": "icon_type_shop_package",
+  "shop_pay_weapon": {
+    "icon": "icon_type_shop_weapon",
     "randGoodsBaseLimit": "0",
     "randGoodsDailyAddLimit": "0",
-    "shopGroupId": "shop_pay_gift_pack",
+    "shopGroupId": "shop_pay_weapon",
     "shopGroupName": {
-      "cn": "组合包",
-      "en": "Bundles"
+      "cn": "武库交易所",
+      "en": "Arsenal Exchange"
     },
-    "shopGroupType": "5",
-    "shopIds": [],
+    "shopGroupType": "2",
+    "shopIds": [
+      "shop_pay_weapon_gacha",
+      "shop_pay_weapon_weekly",
+      "shop_pay_weapon_daily",
+      "shop_pay_weapon_constant"
+    ],
     "unlockConditions": []
   },
   "shop_pay_originium_recharge": {
@@ -280,19 +298,6 @@
       "en": "Originium Exchange"
     },
     "shopGroupType": "5",
-    "shopIds": [],
-    "unlockConditions": []
-  },
-  "shop_pay_recommend": {
-    "icon": "icon_type_shop_recommond",
-    "randGoodsBaseLimit": "0",
-    "randGoodsDailyAddLimit": "0",
-    "shopGroupId": "shop_pay_recommend",
-    "shopGroupName": {
-      "cn": "帝江号精选",
-      "en": "Dijiang Select"
-    },
-    "shopGroupType": "2",
     "shopIds": [],
     "unlockConditions": []
   },
@@ -313,22 +318,17 @@
     ],
     "unlockConditions": []
   },
-  "shop_pay_weapon": {
-    "icon": "icon_type_shop_weapon",
+  "shop_pay_recommend": {
+    "icon": "icon_type_shop_recommond",
     "randGoodsBaseLimit": "0",
     "randGoodsDailyAddLimit": "0",
-    "shopGroupId": "shop_pay_weapon",
+    "shopGroupId": "shop_pay_recommend",
     "shopGroupName": {
-      "cn": "武库交易所",
-      "en": "Arsenal Exchange"
+      "cn": "帝江号精选",
+      "en": "Dijiang Select"
     },
     "shopGroupType": "2",
-    "shopIds": [
-      "shop_pay_weapon_gacha",
-      "shop_pay_weapon_weekly",
-      "shop_pay_weapon_daily",
-      "shop_pay_weapon_constant"
-    ],
+    "shopIds": [],
     "unlockConditions": []
   },
   "shop_spaceship_credit": {

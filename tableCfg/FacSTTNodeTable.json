@@ -58,6 +58,69 @@
       }
     ]
   },
+  "tech_jinlong_2_miner_4": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_miner_4_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_miner_4"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_miner_3"
+    ],
+    "category": "fac_team_jinlong_mining",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>水驱矿机</>；\n水驱矿机在通入清水后无需通电即可工作；\n可采集更稀有的矿藏，典型矿物为<@tech.key>赤铜矿</>。",
+      "en": "Research this to construct the <@tech.key>Hydro Mining Rig</>. \nThe Hydro Mining Rig requires a source of Clean Water to work. \nThis mining rig can extract rarer minerals such as <@tech.key>Cuprium Ore</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_miner_4",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "水辅矿物采掘",
+      "en": "Hydro Mining"
+    },
+    "preNode": [
+      "tech_jinlong_1_pump_1"
+    ],
+    "sortId": "7",
+    "techId": "tech_jinlong_2_miner_4",
+    "uiPos": [
+      "0",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>水驱矿机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Hydro Mining Rigs</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_miner_4"
+      },
+      {
+        "count": "8",
+        "itemId": "item_port_miner_4"
+      }
+    ]
+  },
   "tech_jinlong_1_battle_fog_1": {
     "action": {
       "actionId": "act_tech_jinlong_1_battle_fog_1_1",
@@ -159,6 +222,124 @@
       {
         "count": "0",
         "itemId": "item_log_pipe_conditioner"
+      }
+    ]
+  },
+  "tech_jinlong_1_pipe_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_1_pipe_1_1",
+      "actionType": "2004",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FacPipe"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": true,
+    "blackboxIds": [
+      "dung_blackbox_pipe_1"
+    ],
+    "category": "fac_team_jinlong_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可解锁<@tech.key>管道</>的使用权限；\n管道可将货物<@tech.key>自动从设备的管道输出口输送到下个设备的管道输入口</>。",
+      "en": "Research this to unlock authority level access to <@tech.key>Pipes</>. \nPipes can <@tech.key>automatically transport fluids from a pipe outlet of a facility to a pipe inlet of another</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_1_pipe_1",
+    "layer": "tech_group_jinlong_liquid",
+    "name": {
+      "cn": "基础液体运输",
+      "en": "Pipe Basics"
+    },
+    "preNode": [],
+    "sortId": "2",
+    "techId": "tech_jinlong_1_pipe_1",
+    "uiPos": [
+      "1",
+      "0"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以放置<@tech.get>管道</>并使用了",
+      "en": "<@tech.get>Pipes</> can now be placed and used"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_log_pipe_01"
+      }
+    ]
+  },
+  "tech_tundra_2_travel_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_travel_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_travel_pole_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>滑索架</>；\n两个滑索架之间可进行<@tech.key>快速远距离移动</>。",
+      "en": "Research this to construct <@tech.key>Zipline Pylons</>. \nCreate a zipline with 2 Zipline Pylons to <@tech.key>zip quickly between these pylons</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_travel_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "户外机动技术I",
+      "en": "Field Mobility I"
+    },
+    "preNode": [
+      "tech_tundra_1_storager_1"
+    ],
+    "sortId": "25",
+    "techId": "tech_tundra_2_travel_1",
+    "uiPos": [
+      "11",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>滑索架</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Zipline Pylons</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_travel_pole_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_travel_pole_1"
       }
     ]
   },
@@ -352,6 +533,192 @@
       }
     ]
   },
+  "tech_tundra_2_asm_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_asm_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_tools_asm_mc_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_assebling_1",
+      "dung_blackbox_asseblingbomb_1"
+    ],
+    "category": "fac_team_tundra_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>封装机</>；\n封装机可将材料进行<@tech.key>封装</>，典型产物为<@tech.key>低容谷地电池</>与<@tech.key>工业爆炸物</>。",
+      "en": "Research this to construct <@tech.key>Packaging Units</>. \nThe Packaging Unit can <@tech.key>package</> materials to make products such as <@tech.key>LC Valley Batteries</> and <@tech.key>Industrial Explosives</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_asm_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "封装工艺",
+      "en": "Packaging Tech"
+    },
+    "preNode": [
+      "tech_tundra_1_cmpt_1"
+    ],
+    "sortId": "14",
+    "techId": "tech_tundra_2_asm_1",
+    "uiPos": [
+      "4",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>封装机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Packaging Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_tools_asm_mc_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_tools_asm_mc_1"
+      }
+    ]
+  },
+  "tech_tundra_2_power_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_power_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_power_sta_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_powerstation_1"
+    ],
+    "category": "fac_team_tundra_electric",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>热能池</>；\n热能池可消耗<@tech.key>源矿</>或<@tech.key>电池</>进行发电，但<@tech.key>需要接入电网</>整流后才能工作。",
+      "en": "Research this to construct <@tech.key>Thermal Banks</> that consume <@tech.key>Originium Ore</> or <@tech.key>Batteries</> to generate power. \nThermal Banks <@tech.key>must be connected to the power grid</> to work."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_power_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "基础发电",
+      "en": "Power I"
+    },
+    "preNode": [
+      "tech_tundra_1_pole_1"
+    ],
+    "sortId": "13",
+    "techId": "tech_tundra_2_power_1",
+    "uiPos": [
+      "5",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>热能池</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Thermal Banks</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_power_sta_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_power_sta_1"
+      }
+    ]
+  },
+  "tech_tundra_2_splitter_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_splitter_1_1",
+      "actionType": "2004",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FacSplitter"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_splitter_1"
+    ],
+    "category": "fac_team_tundra_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可解锁<@tech.key>分流器</>的使用权限；\n分流器可将单一传送带<@tech.key>分流出最多3条传送带</>进行传输。",
+      "en": "Research this to unlock authority level access to <@tech.key>Splitters</>. \nThe Splitter can <@tech.key>split 1 belt into 2 or 3 belts</> to divide product flow."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_splitter_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "传送带分流",
+      "en": "Belt Splitting"
+    },
+    "preNode": [
+      "tech_tundra_2_belt_1"
+    ],
+    "sortId": "19",
+    "techId": "tech_tundra_2_splitter_1",
+    "uiPos": [
+      "1",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>分流器</>并使用了",
+      "en": "<@tech.get>Splitters</> can now be placed in the <@tech.get>Core AIC Area</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_log_splitter"
+      }
+    ]
+  },
   "tech_jinlong_1_liquid_storager_1": {
     "action": {
       "actionId": "act_tech_jinlong_1_liquid_storager_1_1",
@@ -484,6 +851,139 @@
       }
     ]
   },
+  "tech_jinlong_2_furnance_mode_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_furnance_mode_1_1",
+      "actionType": "3005",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "liquid"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "furnance_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_liquidcleaner_1"
+    ],
+    "category": "fac_team_jinlong_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可解锁<@tech.key>精炼炉的液体模式</>；\n通过解锁液体模式，可进行与液体相关的不同配方生产，典型产物为<@tech.key>赤铜块</>。",
+      "en": "Research this to unlock <@tech.key>Fluid Mode for the Refining Unit</>. \nOnce unlocked, Fluid Mode lets you produce fluid-related formulas such as <@tech.key>Cuprium</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_furnance_mode_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "液辅熔炼",
+      "en": "Liquid Refining"
+    },
+    "preNode": [
+      "tech_jinlong_1_planter_mode_1"
+    ],
+    "sortId": "18",
+    "techId": "tech_jinlong_2_furnance_mode_1",
+    "uiPos": [
+      "5",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>精炼炉</>切换至<@tech.get>液体模式</>了",
+      "en": "The <@tech.get>Refining Unit</> can now be switched to <@tech.get>Fluid Mode</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_furnance_mode_1"
+      }
+    ]
+  },
+  "tech_tundra_1_cmpt_1": {
+    "action": {
+      "actionId": "act_tech_tundra_1_cmpt_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_cmpt_mc_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_cmpt_1"
+    ],
+    "category": "fac_team_tundra_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>配件机</>；\n配件机可将材料进行<@tech.key>配件</>，典型产物为<@tech.key>紫晶零件</>。",
+      "en": "Research this to construct <@tech.key>Fitting Units</>.\nThe Fitting Unit can <@tech.key>fit</> materials to make products such as <@tech.key>Amethyst Parts</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_1_cmpt_1",
+    "layer": "tech_group_tundra_originium",
+    "name": {
+      "cn": "零件制造",
+      "en": "Parts Fitting"
+    },
+    "preNode": [
+      "tech_tundra_1_grinder_1"
+    ],
+    "sortId": "9",
+    "techId": "tech_tundra_1_cmpt_1",
+    "uiPos": [
+      "4",
+      "1"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>配件机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Fitting Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_cmpt_mc_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_cmpt_mc_1"
+      }
+    ]
+  },
   "tech_jinlong_1_mix_1": {
     "action": {
       "actionId": "act_tech_jinlong_1_mix_1_1",
@@ -545,10 +1045,10 @@
       }
     ]
   },
-  "tech_jinlong_1_pipe_1": {
+  "tech_tundra_1_battle_turret_1": {
     "action": {
-      "actionId": "act_tech_jinlong_1_pipe_1_1",
-      "actionType": "2004",
+      "actionId": "act_tech_tundra_1_battle_turret_1_1",
+      "actionType": "501",
       "parameters": [
         {
           "realType": "0",
@@ -556,7 +1056,7 @@
           "valueFloatList": null,
           "valueIntList": null,
           "valueStringList": [
-            "FacPipe"
+            "item_bp_battle_turret_1"
           ],
           "valueType": "0",
           "valueVector3": null
@@ -564,41 +1064,100 @@
       ]
     },
     "alreadyUnlock": true,
-    "blackboxIds": [
-      "dung_blackbox_pipe_1"
-    ],
-    "category": "fac_team_jinlong_logistics",
+    "blackboxIds": [],
+    "category": "fac_team_tundra_battle",
     "conditions": [],
     "cornerIcon": "",
     "costItems": [],
     "costPointCount": "1",
     "defaultHidden": false,
     "desc": {
-      "cn": "研究后可解锁<@tech.key>管道</>的使用权限；\n管道可将货物<@tech.key>自动从设备的管道输出口输送到下个设备的管道输入口</>。",
-      "en": "Research this to unlock authority level access to <@tech.key>Pipes</>. \nPipes can <@tech.key>automatically transport fluids from a pipe outlet of a facility to a pipe inlet of another</>."
+      "cn": "研究后可制造<@tech.key>铳械塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人。",
+      "en": "Research this to construct <@tech.key>Gun Towers</>. \nWhen powered, the tower automatically attacks enemies within range."
     },
-    "groupId": "tech_group_jinlong",
-    "icon": "tech_jinlong_1_pipe_1",
-    "layer": "tech_group_jinlong_liquid",
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_1_battle_turret_1",
+    "layer": "tech_group_tundra_originium",
     "name": {
-      "cn": "基础液体运输",
-      "en": "Pipe Basics"
+      "cn": "基础攻击设备",
+      "en": "Defense I"
     },
     "preNode": [],
-    "sortId": "2",
-    "techId": "tech_jinlong_1_pipe_1",
+    "sortId": "23",
+    "techId": "tech_tundra_1_battle_turret_1",
     "uiPos": [
-      "1",
+      "8",
       "0"
     ],
     "unlockDesc": {
-      "cn": "现在可以放置<@tech.get>管道</>并使用了",
-      "en": "<@tech.get>Pipes</> can now be placed and used"
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>铳械塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Gun Towers</>"
     },
     "unlockReward": [
       {
         "count": "0",
-        "itemId": "item_log_pipe_01"
+        "itemId": "item_bp_battle_turret_1"
+      }
+    ]
+  },
+  "tech_tundra_2_marker_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_marker_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_marker_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>留言信标</>；\n可以用来<@tech.key>留下标记信息</>。",
+      "en": "Research this to construct <@tech.key>Memo Beacons</>. \nThe Memo Beacon can be used to post and leave <@tech.key>beacon memos</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_marker_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "留言信标技术",
+      "en": "Memo Beacon Technology"
+    },
+    "preNode": [
+      "tech_tundra_1_storager_1"
+    ],
+    "sortId": "28",
+    "techId": "tech_tundra_2_marker_1",
+    "uiPos": [
+      "10",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>留言信标</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Memo Beacons</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_marker_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_marker_1"
       }
     ]
   },
@@ -669,6 +1228,125 @@
       {
         "count": "0",
         "itemId": "item_bp_planter_mode_1"
+      }
+    ]
+  },
+  "tech_tundra_1_miner_1": {
+    "action": {
+      "actionId": "act_tech_tundra_1_miner_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_miner_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": true,
+    "blackboxIds": [
+      "dung_blackbox_miner_1"
+    ],
+    "category": "fac_team_tundra_mining",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>便携源石矿机</>；\n便携源石矿机可<@tech.key>开采矿物且无需电力</>；\n典型矿物为<@tech.key>源矿</>。",
+      "en": "Research this to construct <@tech.key>Portable Originium Rigs</>. \nThe Portable Originium Rig <@tech.key>does not require electrical power to work</> and mines minerals such as <@tech.key>Originium Ore</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_1_miner_1",
+    "layer": "tech_group_tundra_originium",
+    "name": {
+      "cn": "基础矿物采掘",
+      "en": "Mining I"
+    },
+    "preNode": [],
+    "sortId": "1",
+    "techId": "tech_tundra_1_miner_1",
+    "uiPos": [
+      "0",
+      "0"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>便携源石矿机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Portable Originium Rigs</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_miner_1"
+      }
+    ]
+  },
+  "tech_tundra_3_converger_1": {
+    "action": {
+      "actionId": "act_tech_tundra_3_converger_1_1",
+      "actionType": "2004",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FacMerger"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_converger_1",
+      "dung_blackbox_bus_1",
+      "dung_blackbox_belt_1",
+      "dung_blackbox_belt_2"
+    ],
+    "category": "fac_team_tundra_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可解锁<@tech.key>汇流器</>的使用权限；\n汇流器可将最多3条传送带并入1条传送带进行传输。",
+      "en": "Research this to unlock authority level access to <@tech.key>Convergers</>. \nThe Converger can merge up to 3 belts into 1 single belt to combine product flows."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_3_converger_1",
+    "layer": "tech_group_tundra_iron",
+    "name": {
+      "cn": "传送带汇流",
+      "en": "Belt Converging"
+    },
+    "preNode": [
+      "tech_tundra_2_connector_1"
+    ],
+    "sortId": "21",
+    "techId": "tech_tundra_3_converger_1",
+    "uiPos": [
+      "1",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>汇流器</>并使用了",
+      "en": "<@tech.get>Convergers</> can now be placed in the <@tech.get>Core AIC Area</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_log_converger"
       }
     ]
   },
@@ -863,6 +1541,67 @@
       }
     ]
   },
+  "tech_tundra_3_battle_turret_2": {
+    "action": {
+      "actionId": "act_tech_tundra_3_battle_turret_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_turret_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_battle",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>扩装铳械塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人。",
+      "en": "Research this to construct <@tech.key>Heavy Gun Towers</>. \nWhen powered, the tower automatically attacks enemies within range."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_3_battle_turret_2",
+    "layer": "tech_group_tundra_iron",
+    "name": {
+      "cn": "改造攻击设备I",
+      "en": "Custom Defense I"
+    },
+    "preNode": [
+      "tech_tundra_2_battle_cannon_1"
+    ],
+    "sortId": "33",
+    "techId": "tech_tundra_3_battle_turret_2",
+    "uiPos": [
+      "7",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>扩装铳械塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Heavy Gun Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_turret_2"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_turret_2"
+      }
+    ]
+  },
   "tech_jinlong_1_xiranite_oven_1": {
     "action": {
       "actionId": "",
@@ -908,6 +1647,67 @@
       }
     ]
   },
+  "tech_tundra_2_battle_frost_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_battle_frost_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_frost_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_battle",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>液氮塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，并对敌人造成减速效果。",
+      "en": "Research this to construct <@tech.key>LN Towers</>. \nWhen powered, the tower automatically attacks enemies within range and slows them down."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_battle_frost_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "对敌干扰设备I",
+      "en": "Hostile Control I"
+    },
+    "preNode": [
+      "tech_tundra_2_battle_cannon_1"
+    ],
+    "sortId": "30",
+    "techId": "tech_tundra_2_battle_frost_1",
+    "uiPos": [
+      "8",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>液氮塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>LN Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_frost_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_frost_1"
+      }
+    ]
+  },
   "tech_jinlong_1_xiranite_oven_amount_1": {
     "action": {
       "actionId": "act_tech_jinlong_1_xiranite_oven_amount_1_1",
@@ -939,7 +1739,7 @@
           "realType": "0",
           "valueBoolList": null,
           "valueFloatList": [
-            1.0
+            "1"
           ],
           "valueIntList": [
             "1"
@@ -982,12 +1782,449 @@
     ],
     "unlockDesc": {
       "cn": "现在可以在武陵地区放置更多的<@tech.key>天有洪炉</>了",
-      "en": "More <@tech.key>Forges of the Sky</> can now be placed in Wuling."
+      "en": "More <@tech.key>Forges of the Sky</> can be placed in Wuling."
     },
     "unlockReward": [
       {
         "count": "0",
         "itemId": "item_factech_wuling_oven_amount_1"
+      }
+    ]
+  },
+  "tech_tundra_3_travel_2": {
+    "action": {
+      "actionId": "act_tech_tundra_3_travel_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_travel_pole_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>长距滑索架</>；\n两个长距滑索架之间可进行<@tech.key>更远距离的快速移动</>，且可在多个长距滑索间进行<@tech.key>连续移动</>。",
+      "en": "Research this to construct <@tech.key>Zipline Towers</>. \nCreate an even longer zipline with 2 Zipline Towers to <@tech.key>zip quickly across greater distances</>. You can also set up a continuous <@tech.key>zipline route</> with multiple Zipline Towers."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_3_travel_2",
+    "layer": "tech_group_tundra_iron",
+    "name": {
+      "cn": "户外机动技术II",
+      "en": "Field Mobility II"
+    },
+    "preNode": [
+      "tech_tundra_2_travel_1"
+    ],
+    "sortId": "32",
+    "techId": "tech_tundra_3_travel_2",
+    "uiPos": [
+      "11",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>长距滑索架</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Zipline Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_travel_pole_2"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_travel_pole_2"
+      }
+    ]
+  },
+  "tech_jinlong_2_battle_jet_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_battle_jet_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_jet_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>激流塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，会使小型敌人向攻击方向后退。",
+      "en": "Research this to construct <@tech.key>Deluge Towers</>. \nWhen powered, the tower automatically attacks enemies within range and pushes back small enemies along the direction of the attack."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_battle_jet_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "激流塔",
+      "en": "Deluge Tower"
+    },
+    "preNode": [
+      "tech_jinlong_1_battle_fog_1"
+    ],
+    "sortId": "30",
+    "techId": "tech_jinlong_2_battle_jet_1",
+    "uiPos": [
+      "7",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>激流塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Deluge Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_jet_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_jet_1"
+      }
+    ]
+  },
+  "tech_jinlong_2_battle_trap_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_battle_trap_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_trap_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>AF1“熔甲者”</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，对范围内敌人造成伤害。",
+      "en": "Research this to construct <@tech.key>AF1 Armor Fragger</>. \nWhen powered, the tower automatically attacks enemies within range and deals DMG to enemies within the area of effect."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_battle_trap_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "AF1“熔甲者”",
+      "en": "AF1 Armor Fragger"
+    },
+    "preNode": [
+      "tech_jinlong_1_battle_cannon_2"
+    ],
+    "sortId": "31",
+    "techId": "tech_jinlong_2_battle_trap_1",
+    "uiPos": [
+      "6",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>AF1“熔甲者”</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>AF1 Armor Fragger</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_trap_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_trap_1"
+      }
+    ]
+  },
+  "tech_tundra_1_furnance_1": {
+    "action": {
+      "actionId": "act_tech_tundra_1_furnance_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_furnance_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": true,
+    "blackboxIds": [
+      "dung_blackbox_basic_1"
+    ],
+    "category": "fac_team_tundra_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>精炼炉</>；\n精炼炉可将材料进行<@tech.key>精炼</>，典型产物为<@tech.key>晶体外壳</>。",
+      "en": "Research this to construct <@tech.key>Refining Units</>. \nThe Refining Unit can <@tech.key>refine</> materials to make products such as <@tech.key>Origocrusts</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_1_furnance_1",
+    "layer": "tech_group_tundra_originium",
+    "name": {
+      "cn": "基础精炼",
+      "en": "Refine I"
+    },
+    "preNode": [],
+    "sortId": "6",
+    "techId": "tech_tundra_1_furnance_1",
+    "uiPos": [
+      "3",
+      "0"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>精炼炉</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Refining Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_furnance_1"
+      }
+    ]
+  },
+  "tech_tundra_2_filling_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_filling_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_filling_pd_mc_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_filling_1"
+    ],
+    "category": "fac_team_tundra_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>灌装机</>；\n灌装机可将材料进行<@tech.key>灌装</>，典型产物为<@tech.key>荞愈胶囊</>和<@tech.key>柑实罐头</>。",
+      "en": "Research this to construct <@tech.key>Filling Units</>. \nThe Filling Unit can <@tech.key>fill</> containers to make products such as <@tech.key>Buck Capsules</> and <@tech.key>Canned Citromes</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_filling_1",
+    "layer": "tech_group_tundra_quartz",
+    "name": {
+      "cn": "固体灌装",
+      "en": "Solid Filling"
+    },
+    "preNode": [
+      "tech_tundra_1_shaper_1"
+    ],
+    "sortId": "15",
+    "techId": "tech_tundra_2_filling_1",
+    "uiPos": [
+      "3",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>灌装机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Filling Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_filling_pd_mc_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_filling_pd_mc_1"
+      }
+    ]
+  },
+  "tech_jinlong_2_liquid_cleaner_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_liquid_cleaner_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_liquid_cleaner_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_liquidcleaner_1"
+    ],
+    "category": "fac_team_jinlong_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>废水处理机</>；\n废水处理机可以处理污水、也可低效处理壤晶废液与惰性壤晶废液。且不对环境造成污染。",
+      "en": "Research this to construct the <@tech.key>Water Treatment Unit</>. \nThe Water Treatment Unit can process Sewage as well as Xircon Effluent and Inert Xircon Effluent, albeit at lower efficiency. The facility also generates no pollution."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_liquid_cleaner_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "废水处理",
+      "en": "Water Treatment Unit"
+    },
+    "preNode": [
+      "tech_jinlong_1_dismantler_1"
+    ],
+    "sortId": "19",
+    "techId": "tech_jinlong_2_liquid_cleaner_1",
+    "uiPos": [
+      "3",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>废水处理机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Water Treatment Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_liquid_cleaner_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_liquid_cleaner_1"
+      }
+    ]
+  },
+  "tech_jinlong_2_udpipe_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_udpipe_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_udpipe_loader_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_udpipe_1"
+    ],
+    "category": "fac_team_jinlong_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>暗管入口</>和<@tech.key>暗管出口</>；\n可将货物自动从暗管入口输送到对应的暗管出口。",
+      "en": "Research this to construct <@tech.key>Conduit Inlets</> and <@tech.key>Conduit Outlets</>.\nFluids can be automatically transported from a Conduit Inlet to a linked Conduit Outlet."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_udpipe_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "暗管",
+      "en": "Conduits"
+    },
+    "preNode": [
+      "tech_jinlong_1_splitter_connector_converger_1"
+    ],
+    "sortId": "20",
+    "techId": "tech_jinlong_2_udpipe_1",
+    "uiPos": [
+      "1",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>暗管入口</>、<@tech.get>暗管出口</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Conduit Inlets</> and <@tech.get>Conduit Outlets</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_udpipe_loader_1"
+      },
+      {
+        "count": "0",
+        "itemId": "item_bp_udpipe_unloader_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_udpipe_loader_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_udpipe_unloader_1"
       }
     ]
   },
@@ -1113,6 +2350,89 @@
       }
     ]
   },
+  "tech_jinlong_2_xiranite_oven_amount_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_2_xiranite_oven_amount_2_2",
+      "actionType": "5123",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "domain_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "xiranite_oven_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "2"
+          ],
+          "valueIntList": [
+            "2"
+          ],
+          "valueStringList": [
+            "2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可在武陵地区放置的<@tech.key>天有洪炉</>数量上限<@tech.key>+2</>。",
+      "en": "Research this to raise the limit of <@tech.key>Forges of the Sky</> in Wuling by <@tech.key>+2</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_2_xiranite_oven_amount_2",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "洪炉扩容II",
+      "en": "Forge Expansion II"
+    },
+    "preNode": [
+      "tech_jinlong_1_xiranite_oven_amount_1"
+    ],
+    "sortId": "29",
+    "techId": "tech_jinlong_2_xiranite_oven_amount_2",
+    "uiPos": [
+      "9",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在武陵地区放置更多的<@tech.key>天有洪炉</>了",
+      "en": "More <@tech.key>Forges of the Sky</> can be placed in Wuling."
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_factech_wuling_oven_amount_2"
+      }
+    ]
+  },
   "tech_tundra_1_battle_medic_1": {
     "action": {
       "actionId": "act_tech_tundra_1_battle_medic_1_1",
@@ -1174,124 +2494,6 @@
       }
     ]
   },
-  "tech_tundra_1_battle_turret_1": {
-    "action": {
-      "actionId": "act_tech_tundra_1_battle_turret_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_battle_turret_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": true,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_battle",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>铳械塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人。",
-      "en": "Research this to construct <@tech.key>Gun Towers</>. \nWhen powered, the tower automatically attacks enemies within range."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_1_battle_turret_1",
-    "layer": "tech_group_tundra_originium",
-    "name": {
-      "cn": "基础攻击设备",
-      "en": "Defense I"
-    },
-    "preNode": [],
-    "sortId": "23",
-    "techId": "tech_tundra_1_battle_turret_1",
-    "uiPos": [
-      "8",
-      "0"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>铳械塔</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Gun Towers</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_battle_turret_1"
-      }
-    ]
-  },
-  "tech_tundra_1_cmpt_1": {
-    "action": {
-      "actionId": "act_tech_tundra_1_cmpt_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_cmpt_mc_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_cmpt_1"
-    ],
-    "category": "fac_team_tundra_processing",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>配件机</>；\n配件机可将材料进行<@tech.key>配件</>，典型产物为<@tech.key>紫晶零件</>。",
-      "en": "Research this to construct <@tech.key>Fitting Units</>.\nThe Fitting Unit can <@tech.key>fit</> materials to make products such as <@tech.key>Amethyst Parts</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_1_cmpt_1",
-    "layer": "tech_group_tundra_originium",
-    "name": {
-      "cn": "零件制造",
-      "en": "Parts Fitting"
-    },
-    "preNode": [
-      "tech_tundra_1_grinder_1"
-    ],
-    "sortId": "9",
-    "techId": "tech_tundra_1_cmpt_1",
-    "uiPos": [
-      "4",
-      "1"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>配件机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Fitting Units</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_cmpt_mc_1"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_cmpt_mc_1"
-      }
-    ]
-  },
   "tech_tundra_1_diffuser_1": {
     "action": {
       "actionId": "act_tech_tundra_1_diffuser_1_1",
@@ -1347,10 +2549,10 @@
       }
     ]
   },
-  "tech_tundra_1_furnance_1": {
+  "tech_tundra_3_pole_supply_1": {
     "action": {
-      "actionId": "act_tech_tundra_1_furnance_1_1",
-      "actionType": "501",
+      "actionId": "act_tech_tundra_3_pole_supply_1_1",
+      "actionType": "5121",
       "parameters": [
         {
           "realType": "0",
@@ -1358,49 +2560,87 @@
           "valueFloatList": null,
           "valueIntList": null,
           "valueStringList": [
-            "item_bp_furnance_1"
+            "power_pole_2"
           ],
           "valueType": "0",
           "valueVector3": null
         }
       ]
     },
-    "alreadyUnlock": true,
-    "blackboxIds": [
-      "dung_blackbox_basic_1"
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_electric",
+    "conditions": [
+      {
+        "conditionId": "tech_tundra_3_pole_supply_1",
+        "conditionType": "511",
+        "desc": {
+          "cn": "发电功率到达1000",
+          "en": "Reach power output of 1000"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "map01_lv001"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "1000"
+            ],
+            "valueIntList": [
+              "1000"
+            ],
+            "valueStringList": [
+              "1000"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_tundra_3_pole_supply_1"
+      }
     ],
-    "category": "fac_team_tundra_processing",
-    "conditions": [],
-    "cornerIcon": "",
+    "cornerIcon": "icon_ftech_electric",
     "costItems": [],
     "costPointCount": "1",
     "defaultHidden": false,
     "desc": {
-      "cn": "研究后可制造<@tech.key>精炼炉</>；\n精炼炉可将材料进行<@tech.key>精炼</>，典型产物为<@tech.key>晶体外壳</>。",
-      "en": "Research this to construct <@tech.key>Refining Units</>. \nThe Refining Unit can <@tech.key>refine</> materials to make products such as <@tech.key>Origocrusts</>."
+      "cn": "研究后可解锁<@tech.key>中继器</>的<@tech.key>范围供电</>功能。",
+      "en": "Research this to unlock the <@tech.key>area power supply</> feature of <@tech.key>Relay Towers</>."
     },
     "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_1_furnance_1",
-    "layer": "tech_group_tundra_originium",
+    "icon": "tech_tundra_3_pole_supply_1",
+    "layer": "tech_group_tundra_iron",
     "name": {
-      "cn": "基础精炼",
-      "en": "Refine I"
+      "cn": "中继器供电",
+      "en": "Relay Redistribution"
     },
-    "preNode": [],
-    "sortId": "6",
-    "techId": "tech_tundra_1_furnance_1",
+    "preNode": [
+      "tech_tundra_2_diffuser_connectable_1"
+    ],
+    "sortId": "26",
+    "techId": "tech_tundra_3_pole_supply_1",
     "uiPos": [
-      "3",
-      "0"
+      "5",
+      "5"
     ],
     "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>精炼炉</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Refining Units</>"
+      "cn": "现在可以用<@tech.get>中继器</>进行<@tech.get>范围供电</>了。",
+      "en": "<@tech.get>Relay Towers</> can now <@tech.get>supply power to a small area</>."
     },
     "unlockReward": [
       {
         "count": "0",
-        "itemId": "item_bp_furnance_1"
+        "itemId": "item_factech_tundra_pole_supply_1"
       }
     ]
   },
@@ -1461,63 +2701,6 @@
       }
     ]
   },
-  "tech_tundra_1_miner_1": {
-    "action": {
-      "actionId": "act_tech_tundra_1_miner_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_miner_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": true,
-    "blackboxIds": [
-      "dung_blackbox_miner_1"
-    ],
-    "category": "fac_team_tundra_mining",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>便携源石矿机</>；\n便携源石矿机可<@tech.key>开采矿物且无需电力</>；\n典型矿物为<@tech.key>源矿</>。",
-      "en": "Research this to construct <@tech.key>Portable Originium Rigs</>. \nThe Portable Originium Rig <@tech.key>does not require electrical power to work</> and mines minerals such as <@tech.key>Originium Ore</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_1_miner_1",
-    "layer": "tech_group_tundra_originium",
-    "name": {
-      "cn": "基础矿物采掘",
-      "en": "Mining I"
-    },
-    "preNode": [],
-    "sortId": "1",
-    "techId": "tech_tundra_1_miner_1",
-    "uiPos": [
-      "0",
-      "0"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>便携源石矿机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Portable Originium Rigs</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_miner_1"
-      }
-    ]
-  },
   "tech_tundra_1_pole_1": {
     "action": {
       "actionId": "act_tech_tundra_1_pole_1_2",
@@ -1572,6 +2755,64 @@
       {
         "count": "0",
         "itemId": "item_bp_power_pole_2"
+      }
+    ]
+  },
+  "tech_tundra_2_belt_1": {
+    "action": {
+      "actionId": "act_tech_tundra_2_belt_1_1",
+      "actionType": "2004",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FacConveyor"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": true,
+    "blackboxIds": [
+      "dung_blackbox_belt_1",
+      "dung_blackbox_hub_1"
+    ],
+    "category": "fac_team_tundra_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可解锁<@tech.key>传送带</>的使用权限；\n传送带可将货物<@tech.key>自动从设备输出口输送到下个设备的输入口</>。",
+      "en": "Research this to unlock authority level access to <@tech.key>Transport Belts</>. \nTransport Belts can <@tech.key>automatically transport goods from the output port of one facility to the input port of another</>."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_2_belt_1",
+    "layer": "tech_group_tundra_originium",
+    "name": {
+      "cn": "基础运输",
+      "en": "Logistics I"
+    },
+    "preNode": [],
+    "sortId": "4",
+    "techId": "tech_tundra_2_belt_1",
+    "uiPos": [
+      "1",
+      "0"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>初级传送带</>并使用了",
+      "en": "<@tech.get>Basic Transport Belts</> can now be placed in the <@tech.get>Core AIC Area</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_log_belt_01"
       }
     ]
   },
@@ -1762,9 +3003,9 @@
       }
     ]
   },
-  "tech_tundra_2_asm_1": {
+  "tech_tundra_3_battle_lightning_1": {
     "action": {
-      "actionId": "act_tech_tundra_2_asm_1_1",
+      "actionId": "act_tech_tundra_3_battle_lightning_1_1",
       "actionType": "501",
       "parameters": [
         {
@@ -1773,7 +3014,7 @@
           "valueFloatList": null,
           "valueIntList": null,
           "valueStringList": [
-            "item_bp_tools_asm_mc_1"
+            "item_bp_battle_lightning_1"
           ],
           "valueType": "0",
           "valueVector3": null
@@ -1781,48 +3022,45 @@
       ]
     },
     "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_assebling_1",
-      "dung_blackbox_asseblingbomb_1"
-    ],
-    "category": "fac_team_tundra_processing",
+    "blackboxIds": [],
+    "category": "fac_team_tundra_battle",
     "conditions": [],
     "cornerIcon": "",
     "costItems": [],
     "costPointCount": "1",
     "defaultHidden": false,
     "desc": {
-      "cn": "研究后可制造<@tech.key>封装机</>；\n封装机可将材料进行<@tech.key>封装</>，典型产物为<@tech.key>低容谷地电池</>与<@tech.key>工业爆炸物</>。",
-      "en": "Research this to construct <@tech.key>Packaging Units</>. \nThe Packaging Unit can <@tech.key>package</> materials to make products such as <@tech.key>LC Valley Batteries</> and <@tech.key>Industrial Explosives</>."
+      "cn": "研究后可制造<@tech.key>电涌塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，攻击对多个目标造成伤害。",
+      "en": "Research this to construct <@tech.key>Surge Towers</>. \nWhen powered, the tower automatically attacks enemies within range. Its attack can hit multiple units at once."
     },
     "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_asm_1",
-    "layer": "tech_group_tundra_quartz",
+    "icon": "tech_tundra_3_battle_lightning_1",
+    "layer": "tech_group_tundra_iron",
     "name": {
-      "cn": "封装工艺",
-      "en": "Packaging Tech"
+      "cn": "范围攻击设备II",
+      "en": "Area Denial II"
     },
     "preNode": [
-      "tech_tundra_1_cmpt_1"
+      "tech_tundra_2_battle_cannon_1"
     ],
-    "sortId": "14",
-    "techId": "tech_tundra_2_asm_1",
+    "sortId": "36",
+    "techId": "tech_tundra_3_battle_lightning_1",
     "uiPos": [
-      "4",
-      "2"
+      "9",
+      "5"
     ],
     "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>封装机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Packaging Units</>"
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>电涌塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Surge Towers</>"
     },
     "unlockReward": [
       {
         "count": "0",
-        "itemId": "item_bp_tools_asm_mc_1"
+        "itemId": "item_bp_battle_lightning_1"
       },
       {
         "count": "1",
-        "itemId": "item_port_tools_asm_mc_1"
+        "itemId": "item_port_battle_lightning_1"
       }
     ]
   },
@@ -1887,9 +3125,9 @@
       }
     ]
   },
-  "tech_tundra_2_battle_frost_1": {
+  "tech_tundra_3_miner_3": {
     "action": {
-      "actionId": "act_tech_tundra_2_battle_frost_1_1",
+      "actionId": "act_tech_tundra_3_miner_3_1",
       "actionType": "501",
       "parameters": [
         {
@@ -1898,7 +3136,7 @@
           "valueFloatList": null,
           "valueIntList": null,
           "valueStringList": [
-            "item_bp_battle_frost_1"
+            "item_bp_miner_3"
           ],
           "valueType": "0",
           "valueVector3": null
@@ -1906,45 +3144,49 @@
       ]
     },
     "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_battle",
+    "blackboxIds": [
+      "dung_blackbox_miner_2",
+      "dung_blackbox_assebling_2",
+      "dung_blackbox_filling_2"
+    ],
+    "category": "fac_team_tundra_mining",
     "conditions": [],
     "cornerIcon": "",
     "costItems": [],
     "costPointCount": "1",
     "defaultHidden": false,
     "desc": {
-      "cn": "研究后可制造<@tech.key>液氮塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，并对敌人造成减速效果。",
-      "en": "Research this to construct <@tech.key>LN Towers</>. \nWhen powered, the tower automatically attacks enemies within range and slows them down."
+      "cn": "研究后可制造<@tech.key>二型电驱矿机</>；\n二型电驱矿机可<@tech.key>在野外无线传输矿物至仓库</>；\n可采集更稀有的矿藏，典型矿物为<@tech.key>蓝铁矿</>。",
+      "en": "Research this to construct <@tech.key>Electric Mining Rigs Mk II</>. \nThe Electric Mining Rig Mk II can use <@tech.key>belt-free transfer to deliver ore directly to the Depot</>. \nThese rigs can mine even rarer minerals such as <@tech.key>Ferrium Ore</>."
     },
     "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_battle_frost_1",
-    "layer": "tech_group_tundra_quartz",
+    "icon": "tech_tundra_3_miner_3",
+    "layer": "tech_group_tundra_iron",
     "name": {
-      "cn": "对敌干扰设备I",
-      "en": "Hostile Control I"
+      "cn": "高级矿物采掘",
+      "en": "Mining III"
     },
     "preNode": [
-      "tech_tundra_2_battle_cannon_1"
+      "tech_tundra_2_miner_2"
     ],
-    "sortId": "30",
-    "techId": "tech_tundra_2_battle_frost_1",
+    "sortId": "3",
+    "techId": "tech_tundra_3_miner_3",
     "uiPos": [
-      "8",
-      "3"
+      "0",
+      "4"
     ],
     "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>液氮塔</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>LN Towers</>"
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>二型电驱矿机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Electric Mining Rigs Mk II</>"
     },
     "unlockReward": [
       {
         "count": "0",
-        "itemId": "item_bp_battle_frost_1"
+        "itemId": "item_bp_miner_3"
       },
       {
-        "count": "1",
-        "itemId": "item_port_battle_frost_1"
+        "count": "3",
+        "itemId": "item_port_miner_3"
       }
     ]
   },
@@ -2006,64 +3248,6 @@
       {
         "count": "1",
         "itemId": "item_port_battle_laser_1"
-      }
-    ]
-  },
-  "tech_tundra_2_belt_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_belt_1_1",
-      "actionType": "2004",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "FacConveyor"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": true,
-    "blackboxIds": [
-      "dung_blackbox_belt_1",
-      "dung_blackbox_hub_1"
-    ],
-    "category": "fac_team_tundra_logistics",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可解锁<@tech.key>传送带</>的使用权限；\n传送带可将货物<@tech.key>自动从设备输出口输送到下个设备的输入口</>。",
-      "en": "Research this to unlock authority level access to <@tech.key>Transport Belts</>. \nTransport Belts can <@tech.key>automatically transport goods from the output port of one facility to the input port of another</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_belt_1",
-    "layer": "tech_group_tundra_originium",
-    "name": {
-      "cn": "基础运输",
-      "en": "Logistics I"
-    },
-    "preNode": [],
-    "sortId": "4",
-    "techId": "tech_tundra_2_belt_1",
-    "uiPos": [
-      "1",
-      "0"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>初级传送带</>并使用了",
-      "en": "<@tech.get>Basic Transport Belts</> can now be placed in the <@tech.get>Core AIC Area</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_log_belt_01"
       }
     ]
   },
@@ -2244,6 +3428,67 @@
       }
     ]
   },
+  "tech_tundra_3_battle_shockwave_1": {
+    "action": {
+      "actionId": "act_tech_tundra_3_battle_shockwave_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_shockwave_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_tundra_battle",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>全向声波塔</>；\n在有能源供给的情况下会以一定间隔对附近范围内的敌人造成晕眩。",
+      "en": "Research this to construct <@tech.key>Omnidirectional Sonic Towers</>. \nWhen powered, the tower periodically stuns enemies within the area of effect."
+    },
+    "groupId": "tech_group_tundra",
+    "icon": "tech_tundra_3_battle_shockwave_1",
+    "layer": "tech_group_tundra_iron",
+    "name": {
+      "cn": "对敌干扰设备II",
+      "en": "Hostile Control II"
+    },
+    "preNode": [
+      "tech_tundra_2_battle_frost_1"
+    ],
+    "sortId": "34",
+    "techId": "tech_tundra_3_battle_shockwave_1",
+    "uiPos": [
+      "8",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>全向声波塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Omnidirectional Sonic Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_shockwave_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_shockwave_1"
+      }
+    ]
+  },
   "tech_tundra_2_diffuser_connectable_1": {
     "action": {
       "actionId": "act_tech_tundra_2_diffuser_connectable_1_1",
@@ -2289,7 +3534,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              250.0
+              "250"
             ],
             "valueIntList": [
               "250"
@@ -2387,7 +3632,7 @@
             "realType": "0",
             "valueBoolList": null,
             "valueFloatList": [
-              0.0
+              "0"
             ],
             "valueIntList": [
               "0"
@@ -2438,130 +3683,6 @@
       {
         "count": "0",
         "itemId": "item_bp_loader_1"
-      }
-    ]
-  },
-  "tech_tundra_2_filling_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_filling_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_filling_pd_mc_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_filling_1"
-    ],
-    "category": "fac_team_tundra_processing",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>灌装机</>；\n灌装机可将材料进行<@tech.key>灌装</>，典型产物为<@tech.key>荞愈胶囊</>和<@tech.key>柑实罐头</>。",
-      "en": "Research this to construct <@tech.key>Filling Units</>. \nThe Filling Unit can <@tech.key>fill</> containers to make products such as <@tech.key>Buck Capsules</> and <@tech.key>Canned Citrome [C]</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_filling_1",
-    "layer": "tech_group_tundra_quartz",
-    "name": {
-      "cn": "固体灌装",
-      "en": "Solid Filling"
-    },
-    "preNode": [
-      "tech_tundra_1_shaper_1"
-    ],
-    "sortId": "15",
-    "techId": "tech_tundra_2_filling_1",
-    "uiPos": [
-      "3",
-      "2"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>灌装机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Filling Units</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_filling_pd_mc_1"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_filling_pd_mc_1"
-      }
-    ]
-  },
-  "tech_tundra_2_marker_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_marker_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_marker_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_explore",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>留言信标</>；\n可以用来<@tech.key>留下标记信息</>。",
-      "en": "Research this to construct <@tech.key>Memo Beacons</>. \nThe Memo Beacon can be used to post and leave <@tech.key>beacon memos</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_marker_1",
-    "layer": "tech_group_tundra_quartz",
-    "name": {
-      "cn": "留言信标技术",
-      "en": "Memo Beacon Technology"
-    },
-    "preNode": [
-      "tech_tundra_1_storager_1"
-    ],
-    "sortId": "28",
-    "techId": "tech_tundra_2_marker_1",
-    "uiPos": [
-      "10",
-      "2"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>留言信标</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Memo Beacons</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_marker_1"
-      },
-      {
-        "count": "2",
-        "itemId": "item_port_marker_1"
       }
     ]
   },
@@ -2699,311 +3820,6 @@
       }
     ]
   },
-  "tech_tundra_2_power_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_power_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_power_sta_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_powerstation_1"
-    ],
-    "category": "fac_team_tundra_electric",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>热能池</>；\n热能池可消耗<@tech.key>源矿</>或<@tech.key>电池</>进行发电，但<@tech.key>需要接入电网</>整流后才能工作。",
-      "en": "Research this to construct <@tech.key>Thermal Banks</> that consume <@tech.key>Originium Ore</> or <@tech.key>Batteries</> to generate power. \nThermal Banks <@tech.key>must be connected to the power grid</> to work."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_power_1",
-    "layer": "tech_group_tundra_quartz",
-    "name": {
-      "cn": "基础发电",
-      "en": "Power I"
-    },
-    "preNode": [
-      "tech_tundra_1_pole_1"
-    ],
-    "sortId": "13",
-    "techId": "tech_tundra_2_power_1",
-    "uiPos": [
-      "5",
-      "2"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>热能池</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Thermal Banks</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_power_sta_1"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_power_sta_1"
-      }
-    ]
-  },
-  "tech_tundra_2_splitter_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_splitter_1_1",
-      "actionType": "2004",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "FacSplitter"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_splitter_1"
-    ],
-    "category": "fac_team_tundra_logistics",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可解锁<@tech.key>分流器</>的使用权限；\n分流器可将单一传送带<@tech.key>分流出最多3条传送带</>进行传输。",
-      "en": "Research this to unlock authority level access to <@tech.key>Splitters</>. \nThe Splitter can <@tech.key>split 1 belt into 2 or 3 belts</> to divide product flow."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_splitter_1",
-    "layer": "tech_group_tundra_quartz",
-    "name": {
-      "cn": "传送带分流",
-      "en": "Belt Splitting"
-    },
-    "preNode": [
-      "tech_tundra_2_belt_1"
-    ],
-    "sortId": "19",
-    "techId": "tech_tundra_2_splitter_1",
-    "uiPos": [
-      "1",
-      "2"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>分流器</>并使用了",
-      "en": "<@tech.get>Splitters</> can now be placed in the <@tech.get>Core AIC Area</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_log_splitter"
-      }
-    ]
-  },
-  "tech_tundra_2_travel_1": {
-    "action": {
-      "actionId": "act_tech_tundra_2_travel_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_travel_pole_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_explore",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>滑索架</>；\n两个滑索架之间可进行<@tech.key>快速远距离移动</>。",
-      "en": "Research this to construct <@tech.key>Zipline Pylons</>. \nCreate a zipline with 2 Zipline Pylons to <@tech.key>zip quickly between these pylons</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_2_travel_1",
-    "layer": "tech_group_tundra_quartz",
-    "name": {
-      "cn": "户外机动技术I",
-      "en": "Field Mobility I"
-    },
-    "preNode": [
-      "tech_tundra_1_storager_1"
-    ],
-    "sortId": "25",
-    "techId": "tech_tundra_2_travel_1",
-    "uiPos": [
-      "11",
-      "2"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>滑索架</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Zipline Pylons</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_travel_pole_1"
-      },
-      {
-        "count": "2",
-        "itemId": "item_port_travel_pole_1"
-      }
-    ]
-  },
-  "tech_tundra_3_battle_lightning_1": {
-    "action": {
-      "actionId": "act_tech_tundra_3_battle_lightning_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_battle_lightning_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_battle",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>电涌塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，攻击对多个目标造成伤害。",
-      "en": "Research this to construct <@tech.key>Surge Towers</>. \nWhen powered, the tower automatically attacks enemies within range. Its attack can hit multiple units at once."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_battle_lightning_1",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "范围攻击设备II",
-      "en": "Area Denial II"
-    },
-    "preNode": [
-      "tech_tundra_2_battle_cannon_1"
-    ],
-    "sortId": "36",
-    "techId": "tech_tundra_3_battle_lightning_1",
-    "uiPos": [
-      "9",
-      "5"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>电涌塔</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Surge Towers</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_battle_lightning_1"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_battle_lightning_1"
-      }
-    ]
-  },
-  "tech_tundra_3_battle_shockwave_1": {
-    "action": {
-      "actionId": "act_tech_tundra_3_battle_shockwave_1_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_battle_shockwave_1"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_battle",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>全向声波塔</>；\n在有能源供给的情况下会以一定间隔对附近范围内的敌人造成晕眩。",
-      "en": "Research this to construct <@tech.key>Omnidirectional Sonic Towers</>. \nWhen powered, the tower periodically stuns enemies within the area of effect."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_battle_shockwave_1",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "对敌干扰设备II",
-      "en": "Hostile Control II"
-    },
-    "preNode": [
-      "tech_tundra_2_battle_frost_1"
-    ],
-    "sortId": "34",
-    "techId": "tech_tundra_3_battle_shockwave_1",
-    "uiPos": [
-      "8",
-      "4"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>全向声波塔</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Omnidirectional Sonic Towers</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_battle_shockwave_1"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_battle_shockwave_1"
-      }
-    ]
-  },
   "tech_tundra_3_battle_sniper_1": {
     "action": {
       "actionId": "act_tech_tundra_3_battle_sniper_1_1",
@@ -3062,289 +3878,6 @@
       {
         "count": "1",
         "itemId": "item_port_battle_sniper_1"
-      }
-    ]
-  },
-  "tech_tundra_3_battle_turret_2": {
-    "action": {
-      "actionId": "act_tech_tundra_3_battle_turret_2_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_battle_turret_2"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_battle",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>扩装铳械塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人。",
-      "en": "Research this to construct <@tech.key>Heavy Gun Towers</>. \nWhen powered, the tower automatically attacks enemies within range."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_battle_turret_2",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "改造攻击设备I",
-      "en": "Custom Defense I"
-    },
-    "preNode": [
-      "tech_tundra_2_battle_cannon_1"
-    ],
-    "sortId": "33",
-    "techId": "tech_tundra_3_battle_turret_2",
-    "uiPos": [
-      "7",
-      "4"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>扩装铳械塔</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Heavy Gun Towers</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_battle_turret_2"
-      },
-      {
-        "count": "1",
-        "itemId": "item_port_battle_turret_2"
-      }
-    ]
-  },
-  "tech_tundra_3_converger_1": {
-    "action": {
-      "actionId": "act_tech_tundra_3_converger_1_1",
-      "actionType": "2004",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "FacMerger"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_converger_1",
-      "dung_blackbox_bus_1",
-      "dung_blackbox_belt_1",
-      "dung_blackbox_belt_2"
-    ],
-    "category": "fac_team_tundra_logistics",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可解锁<@tech.key>汇流器</>的使用权限；\n汇流器可将最多3条传送带并入1条传送带进行传输。",
-      "en": "Research this to unlock authority level access to <@tech.key>Convergers</>. \nThe Converger can merge up to 3 belts into 1 single belt to combine product flows."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_converger_1",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "传送带汇流",
-      "en": "Belt Converging"
-    },
-    "preNode": [
-      "tech_tundra_2_connector_1"
-    ],
-    "sortId": "21",
-    "techId": "tech_tundra_3_converger_1",
-    "uiPos": [
-      "1",
-      "4"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>集成核心区域</>放置<@tech.get>汇流器</>并使用了",
-      "en": "<@tech.get>Convergers</> can now be placed in the <@tech.get>Core AIC Area</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_log_converger"
-      }
-    ]
-  },
-  "tech_tundra_3_miner_3": {
-    "action": {
-      "actionId": "act_tech_tundra_3_miner_3_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_miner_3"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [
-      "dung_blackbox_miner_2",
-      "dung_blackbox_assebling_2",
-      "dung_blackbox_filling_2"
-    ],
-    "category": "fac_team_tundra_mining",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>二型电驱矿机</>；\n二型电驱矿机可<@tech.key>在野外无线传输矿物至仓库</>；\n可采集更稀有的矿藏，典型矿物为<@tech.key>蓝铁矿</>。",
-      "en": "Research this to construct <@tech.key>Electric Mining Rigs Mk II</>. \nThe Electric Mining Rig Mk II can use <@tech.key>belt-free transfer to deliver ore directly to the Depot</>. \nThese rigs can mine even rarer minerals such as <@tech.key>Ferrium Ore</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_miner_3",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "高级矿物采掘",
-      "en": "Mining III"
-    },
-    "preNode": [
-      "tech_tundra_2_miner_2"
-    ],
-    "sortId": "3",
-    "techId": "tech_tundra_3_miner_3",
-    "uiPos": [
-      "0",
-      "4"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>二型电驱矿机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Electric Mining Rigs Mk II</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_miner_3"
-      },
-      {
-        "count": "3",
-        "itemId": "item_port_miner_3"
-      }
-    ]
-  },
-  "tech_tundra_3_pole_supply_1": {
-    "action": {
-      "actionId": "act_tech_tundra_3_pole_supply_1_1",
-      "actionType": "5121",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "power_pole_2"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_electric",
-    "conditions": [
-      {
-        "conditionId": "tech_tundra_3_pole_supply_1",
-        "conditionType": "511",
-        "desc": {
-          "cn": "发电功率到达1000",
-          "en": "Reach power output of 1000"
-        },
-        "parameters": [
-          {
-            "realType": "0",
-            "valueBoolList": null,
-            "valueFloatList": null,
-            "valueIntList": null,
-            "valueStringList": [
-              "map01_lv001"
-            ],
-            "valueType": "0",
-            "valueVector3": null
-          },
-          {
-            "realType": "0",
-            "valueBoolList": null,
-            "valueFloatList": [
-              1000.0
-            ],
-            "valueIntList": [
-              "1000"
-            ],
-            "valueStringList": [
-              "1000"
-            ],
-            "valueType": "0",
-            "valueVector3": null
-          }
-        ],
-        "techId": "tech_tundra_3_pole_supply_1"
-      }
-    ],
-    "cornerIcon": "icon_ftech_electric",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可解锁<@tech.key>中继器</>的<@tech.key>范围供电</>功能。",
-      "en": "Research this to unlock the <@tech.key>area power supply</> feature of <@tech.key>Relay Towers</>."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_pole_supply_1",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "中继器供电",
-      "en": "Relay Redistribution"
-    },
-    "preNode": [
-      "tech_tundra_2_diffuser_connectable_1"
-    ],
-    "sortId": "26",
-    "techId": "tech_tundra_3_pole_supply_1",
-    "uiPos": [
-      "5",
-      "5"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以用<@tech.get>中继器</>进行<@tech.get>范围供电</>了。",
-      "en": "<@tech.get>Relay Towers</> can now <@tech.get>supply power to a small area</>."
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_factech_tundra_pole_supply_1"
       }
     ]
   },
@@ -3409,67 +3942,6 @@
       {
         "count": "2",
         "itemId": "item_port_thickener_1"
-      }
-    ]
-  },
-  "tech_tundra_3_travel_2": {
-    "action": {
-      "actionId": "act_tech_tundra_3_travel_2_1",
-      "actionType": "501",
-      "parameters": [
-        {
-          "realType": "0",
-          "valueBoolList": null,
-          "valueFloatList": null,
-          "valueIntList": null,
-          "valueStringList": [
-            "item_bp_travel_pole_2"
-          ],
-          "valueType": "0",
-          "valueVector3": null
-        }
-      ]
-    },
-    "alreadyUnlock": false,
-    "blackboxIds": [],
-    "category": "fac_team_tundra_explore",
-    "conditions": [],
-    "cornerIcon": "",
-    "costItems": [],
-    "costPointCount": "1",
-    "defaultHidden": false,
-    "desc": {
-      "cn": "研究后可制造<@tech.key>长距滑索架</>；\n两个长距滑索架之间可进行<@tech.key>更远距离的快速移动</>，且可在多个长距滑索间进行<@tech.key>连续移动</>。",
-      "en": "Research this to construct <@tech.key>Zipline Towers</>. \nCreate an even longer zipline with 2 Zipline Towers to <@tech.key>zip quickly across greater distances</>. You can also set up a continuous <@tech.key>zipline route</> with multiple Zipline Towers."
-    },
-    "groupId": "tech_group_tundra",
-    "icon": "tech_tundra_3_travel_2",
-    "layer": "tech_group_tundra_iron",
-    "name": {
-      "cn": "户外机动技术II",
-      "en": "Field Mobility II"
-    },
-    "preNode": [
-      "tech_tundra_2_travel_1"
-    ],
-    "sortId": "32",
-    "techId": "tech_tundra_3_travel_2",
-    "uiPos": [
-      "11",
-      "5"
-    ],
-    "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>长距滑索架</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Zipline Towers</>"
-    },
-    "unlockReward": [
-      {
-        "count": "0",
-        "itemId": "item_bp_travel_pole_2"
-      },
-      {
-        "count": "2",
-        "itemId": "item_port_travel_pole_2"
       }
     ]
   }

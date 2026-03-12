@@ -12,43 +12,9 @@
     "startPosX": "6",
     "techIds": [
       "tech_jinlong_1_battle_cannon_2",
-      "tech_jinlong_1_battle_fog_1"
-    ],
-    "unhiddenBgColor": ""
-  },
-  "fac_team_jinlong_logistics": {
-    "category": "fac_team_jinlong_logistics",
-    "defaultHidden": false,
-    "groupId": "tech_group_jinlong",
-    "guideAfterUnhiddenShow": false,
-    "name": {
-      "cn": "物流运输",
-      "en": "Logistics"
-    },
-    "order": "2",
-    "startPosX": "1",
-    "techIds": [
-      "tech_jinlong_1_pipe_1",
-      "tech_jinlong_1_conditioner_1",
-      "tech_jinlong_1_liquid_storager_1",
-      "tech_jinlong_1_splitter_connector_converger_1",
-      "tech_jinlong_2_squirter_1"
-    ],
-    "unhiddenBgColor": ""
-  },
-  "fac_team_jinlong_mining": {
-    "category": "fac_team_jinlong_mining",
-    "defaultHidden": false,
-    "groupId": "tech_group_jinlong",
-    "guideAfterUnhiddenShow": false,
-    "name": {
-      "cn": "原料开采",
-      "en": "Resourcing"
-    },
-    "order": "1",
-    "startPosX": "0",
-    "techIds": [
-      "tech_jinlong_1_pump_1"
+      "tech_jinlong_1_battle_fog_1",
+      "tech_jinlong_2_battle_jet_1",
+      "tech_jinlong_2_battle_trap_1"
     ],
     "unhiddenBgColor": ""
   },
@@ -69,28 +35,49 @@
       "tech_jinlong_1_filling_mode_1",
       "tech_jinlong_1_planter_mode_1",
       "tech_jinlong_1_dismantler_1",
-      "tech_jinlong_2_mix_1_unlock_1"
+      "tech_jinlong_2_mix_1_unlock_1",
+      "tech_jinlong_2_furnance_mode_1",
+      "tech_jinlong_2_liquid_cleaner_1"
     ],
     "unhiddenBgColor": ""
   },
-  "fac_team_jinlong_xiranite": {
-    "category": "fac_team_jinlong_xiranite",
-    "defaultHidden": true,
+  "fac_team_jinlong_logistics": {
+    "category": "fac_team_jinlong_logistics",
+    "defaultHidden": false,
     "groupId": "tech_group_jinlong",
-    "guideAfterUnhiddenShow": true,
+    "guideAfterUnhiddenShow": false,
     "name": {
-      "cn": "息壤工业",
-      "en": "Xiranite Industry"
+      "cn": "物流运输",
+      "en": "Logistics"
     },
-    "order": "5",
-    "startPosX": "9",
+    "order": "2",
+    "startPosX": "1",
     "techIds": [
-      "tech_jinlong_1_power_pole_3_diffuser_2",
-      "tech_jinlong_1_xiranite_oven_1",
-      "tech_jinlong_1_log_hongs_bus_1",
-      "tech_jinlong_1_xiranite_oven_amount_1"
+      "tech_jinlong_1_pipe_1",
+      "tech_jinlong_1_conditioner_1",
+      "tech_jinlong_1_liquid_storager_1",
+      "tech_jinlong_1_splitter_connector_converger_1",
+      "tech_jinlong_2_squirter_1",
+      "tech_jinlong_2_udpipe_1"
     ],
-    "unhiddenBgColor": "d8f5e5"
+    "unhiddenBgColor": ""
+  },
+  "fac_team_jinlong_mining": {
+    "category": "fac_team_jinlong_mining",
+    "defaultHidden": false,
+    "groupId": "tech_group_jinlong",
+    "guideAfterUnhiddenShow": false,
+    "name": {
+      "cn": "原料开采",
+      "en": "Resourcing"
+    },
+    "order": "1",
+    "startPosX": "0",
+    "techIds": [
+      "tech_jinlong_1_pump_1",
+      "tech_jinlong_2_miner_4"
+    ],
+    "unhiddenBgColor": ""
   },
   "fac_team_tundra_battle": {
     "category": "fac_team_tundra_battle",
@@ -116,6 +103,50 @@
     ],
     "unhiddenBgColor": ""
   },
+  "fac_team_jinlong_xiranite": {
+    "category": "fac_team_jinlong_xiranite",
+    "defaultHidden": true,
+    "groupId": "tech_group_jinlong",
+    "guideAfterUnhiddenShow": true,
+    "name": {
+      "cn": "息壤工业",
+      "en": "Xiranite Industry"
+    },
+    "order": "5",
+    "startPosX": "9",
+    "techIds": [
+      "tech_jinlong_1_power_pole_3_diffuser_2",
+      "tech_jinlong_1_xiranite_oven_1",
+      "tech_jinlong_1_log_hongs_bus_1",
+      "tech_jinlong_1_xiranite_oven_amount_1",
+      "tech_jinlong_2_xiranite_oven_amount_2"
+    ],
+    "unhiddenBgColor": "d8f5e5"
+  },
+  "fac_team_tundra_processing": {
+    "category": "fac_team_tundra_processing",
+    "defaultHidden": false,
+    "groupId": "tech_group_tundra",
+    "guideAfterUnhiddenShow": false,
+    "name": {
+      "cn": "材料加工",
+      "en": "Processing"
+    },
+    "order": "3",
+    "startPosX": "2",
+    "techIds": [
+      "tech_tundra_1_furnance_1",
+      "tech_tundra_1_grinder_1",
+      "tech_tundra_1_winder_1",
+      "tech_tundra_1_shaper_1",
+      "tech_tundra_1_cmpt_1",
+      "tech_tundra_2_filling_1",
+      "tech_tundra_2_asm_1",
+      "tech_tundra_2_plant_1",
+      "tech_tundra_3_thickener_1"
+    ],
+    "unhiddenBgColor": ""
+  },
   "fac_team_tundra_electric": {
     "category": "fac_team_tundra_electric",
     "defaultHidden": false,
@@ -134,6 +165,24 @@
       "tech_tundra_2_diffuser_connectable_1",
       "tech_tundra_2_field_1",
       "tech_tundra_3_pole_supply_1"
+    ],
+    "unhiddenBgColor": ""
+  },
+  "fac_team_tundra_mining": {
+    "category": "fac_team_tundra_mining",
+    "defaultHidden": false,
+    "groupId": "tech_group_tundra",
+    "guideAfterUnhiddenShow": false,
+    "name": {
+      "cn": "原料开采",
+      "en": "Resourcing"
+    },
+    "order": "1",
+    "startPosX": "0",
+    "techIds": [
+      "tech_tundra_1_miner_1",
+      "tech_tundra_2_miner_2",
+      "tech_tundra_3_miner_3"
     ],
     "unhiddenBgColor": ""
   },
@@ -174,48 +223,6 @@
       "tech_tundra_2_splitter_1",
       "tech_tundra_2_connector_1",
       "tech_tundra_3_converger_1"
-    ],
-    "unhiddenBgColor": ""
-  },
-  "fac_team_tundra_mining": {
-    "category": "fac_team_tundra_mining",
-    "defaultHidden": false,
-    "groupId": "tech_group_tundra",
-    "guideAfterUnhiddenShow": false,
-    "name": {
-      "cn": "原料开采",
-      "en": "Resourcing"
-    },
-    "order": "1",
-    "startPosX": "0",
-    "techIds": [
-      "tech_tundra_1_miner_1",
-      "tech_tundra_2_miner_2",
-      "tech_tundra_3_miner_3"
-    ],
-    "unhiddenBgColor": ""
-  },
-  "fac_team_tundra_processing": {
-    "category": "fac_team_tundra_processing",
-    "defaultHidden": false,
-    "groupId": "tech_group_tundra",
-    "guideAfterUnhiddenShow": false,
-    "name": {
-      "cn": "材料加工",
-      "en": "Processing"
-    },
-    "order": "3",
-    "startPosX": "2",
-    "techIds": [
-      "tech_tundra_1_furnance_1",
-      "tech_tundra_1_grinder_1",
-      "tech_tundra_1_winder_1",
-      "tech_tundra_1_shaper_1",
-      "tech_tundra_1_cmpt_1",
-      "tech_tundra_2_filling_1",
-      "tech_tundra_2_asm_1",
-      "tech_tundra_2_plant_1",
-      "tech_tundra_3_thickener_1"
     ],
     "unhiddenBgColor": ""
   }
