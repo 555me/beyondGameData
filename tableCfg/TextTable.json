@@ -2231,6 +2231,14 @@
     "cn": "衍质源石不足，无法兑换",
     "en": "Insufficient Origeometries for exchange"
   },
+  "LUA_COMMON_MONEY_EXCHANGE_NEXT_WEAPON_GACHA_NOT_ENOUGH": {
+    "cn": "衍质源石不足",
+    "en": "Insufficient Origeometry"
+  },
+  "LUA_COMMON_MONEY_EXCHANGE_WEAPON_CONFIRM_RIGHT": {
+    "cn": "<color=#5b92ed>兑换后武库配额共有%s，可进行%s次申领。</color>",
+    "en": "<color=#5b92ed>Total Arsenal Tickets after exchange: %s. This is enough for %s Issue(s).</color>"
+  },
   "LUA_COMMON_NAME_X_COUNT": {
     "cn": "%s × %d",
     "en": "%s × %d"
@@ -13279,6 +13287,14 @@
     "cn": "汤汤的作战演练",
     "en": "Combat Drills: Tangtang"
   },
+  "dungeon_chartrial_wulfa_chartrial_text_01": {
+    "cn": "击败所有敌人",
+    "en": "Defeat all enemies"
+  },
+  "dungeon_chartrial_wulfa_chartrial_title": {
+    "cn": "洛茜的作战演练",
+    "en": "Combat Drills: Rossi"
+  },
   "dungeon_chartrial_yvonne_chartrial_text_01": {
     "cn": "击败所有敌人",
     "en": "Defeat all enemies"
@@ -13918,6 +13934,38 @@
   "dungeon_chartutorial_wolfgd_chartrain01_title": {
     "cn": "干员教学·狼卫",
     "en": "Operator Guide: Wulfgard"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_01": {
+    "cn": "连续普通攻击，发动重击",
+    "en": "Keep performing basic attacks to unleash the Final Strike"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_02_1": {
+    "cn": "使用洛茜的战技，对敌人施加破防",
+    "en": "Use Rossi's battle skill to apply Vulnerability on the enemy"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_02_2": {
+    "cn": "使用洛茜的战技，对敌人造成击飞并释放狼之珀",
+    "en": "Use Rossi's battle skill to Lift the enemy and unleash Wolven Ambrage"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_03_1": {
+    "cn": "使用洛茜和秋栗的战技，施加破防和法术附着，触发洛茜的连携技",
+    "en": "Use Rossi and Akekuri's battle skills to apply Vulnerability and Arts Infliction, and then trigger Rossi's combo skill"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_03_2": {
+    "cn": "使用洛茜的连携技，精准衔接第二段连携技，消耗灼热附着并施加多层破防",
+    "en": "Use Rossi's combo skill, then perform combo sequence 2 with perfect timing to consume Heat Infliction and apply multiple stacks of Vulnerability"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_04_1": {
+    "cn": "使用洛茜的终结技，对敌人造成伤害并施加灼热附着",
+    "en": "Use Rossi's ultimate to deal DMG and apply Heat Infliction to the enemy"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_text_04_2": {
+    "cn": "与埃特拉配合，对敌人造成碎冰",
+    "en": "Cooperate with Estella to shatter the enemy"
+  },
+  "dungeon_chartutorial_wulfa_chartrain01_title": {
+    "cn": "干员教学·洛茜",
+    "en": "Operator Guide: Rossi"
   },
   "dungeon_chartutorial_yvonne_chartrain01_text_01": {
     "cn": "连续普通攻击，发动重击",
@@ -32734,6 +32782,86 @@
   "guide_text_world_levelup_title_4": {
     "cn": "探索等级的下调",
     "en": "Exploration Level: Lowering"
+  },
+  "guide_text_wulfa_chartrain01_02_1": {
+    "cn": "洛茜的战技会造成<@ba.pd>物理伤害</>和<#ba.airborne>击飞</>。",
+    "en": "Rossi's battle skill deals <@ba.pd>Physical DMG</> and applies <#ba.airborne>Lift</>."
+  },
+  "guide_text_wulfa_chartrain01_02_2": {
+    "cn": "当战技命中拥有<#ba.noguard>破防</>的目标时，会额外释放<@ba.key>狼之珀</>冲向目标。",
+    "en": "When her battle skill hits a target with <#ba.noguard>Vulnerability</>, it also unleashes a <@ba.key>Wolven Ambrage</> that charges at the target."
+  },
+  "guide_text_wulfa_chartrain01_02_title": {
+    "cn": "洛茜的战技",
+    "en": "Rossi: Battle Skill"
+  },
+  "guide_text_wulfa_chartrain01_04_1": {
+    "cn": "当有敌人同时处于<#ba.noguard>破防</>和<#ba.spellinflict>法术附着</>时可以发动洛茜的连携技，造成伤害并激活第二段连携技。",
+    "en": "Rossi's combo skill is triggered when an enemy has both <#ba.noguard>Vulnerability</> and <#ba.spellinflict>Arts Infliction</> stacks. Her combo skill deals DMG and has two casting sequences."
+  },
+  "guide_text_wulfa_chartrain01_04_2": {
+    "cn": "第二段连携技可以<#ba.consume>消耗</>目标身上的全部<#ba.spellinflict>法术附着</>，对其造成基于<#ba.spellinflict>法术附着</>层数的<@ba.pd>物理伤害</>和一次<#ba.airborne>击飞</>。",
+    "en": "Combo sequence 2 <#ba.consume>consumes</> all of the target's <#ba.spellinflict>Arts Infliction</> stacks, deals <@ba.pd>Physical DMG</> based on the number of <#ba.spellinflict>Arts Infliction</> stacks consumed, and applies 1 instance of <#ba.airborne>Lift</>."
+  },
+  "guide_text_wulfa_chartrain01_04_3": {
+    "cn": "当第二段连携技<@ba.key>精准衔接</>时，可以额外施加一层<#ba.noguard>破防</>。",
+    "en": "When combo sequence 2 is performed with <@ba.key>perfect timing</>, it applies 1 more stack of <#ba.noguard>Vulnerability</>."
+  },
+  "guide_text_wulfa_chartrain01_04_title": {
+    "cn": "洛茜的连携技",
+    "en": "Rossi: Combo Skill"
+  },
+  "guide_text_wulfa_chartrain01_05_1": {
+    "cn": "洛茜的终结技会造成大量伤害并施加<#ba.fireinflict>灼热附着</>。",
+    "en": "Rossi's ultimate deals massive DMG and applies <#ba.fireinflict>Heat Infliction</>."
+  },
+  "guide_text_wulfa_chartrain01_05_title": {
+    "cn": "洛茜的终结技",
+    "en": "Rossi: Ultimate"
+  },
+  "guide_text_wulfa_chartrain01_06": {
+    "cn": "使敌人同时处于<#ba.noguard>破防</>和<#ba.spellinflict>法术附着</>状态，触发洛茜的连携技！",
+    "en": "Rossi's combo skill is triggered when an enemy has both <#ba.noguard>Vulnerability</> and <#ba.spellinflict>Arts Infliction</> stacks!"
+  },
+  "guide_text_wulfa_chartrial01_01_1": {
+    "cn": "洛茜是一名能快速施加大量<#ba.noguard>破防</>并兼具多属性输出能力的干员。她可以<#ba.consume>消耗</><#ba.spellinflict>法术附着</>来造成<#ba.airborne>击飞</>和施加<#ba.noguard>破防</>，并可以同时造成<@ba.pd>物理伤害</>和<@ba.fire>灼热伤害</>。",
+    "en": "Rossi is an operator who can quickly apply multiple stacks of <#ba.noguard>Vulnerability</> and deal DMG of different elements. She can <#ba.consume>consume</><#ba.spellinflict> Arts Infliction</> to apply <#ba.airborne>Lift</> and <#ba.noguard>Vulnerability</>, and deals both <@ba.pd>Physical DMG</> and <@ba.fire>Heat DMG</> at the same time."
+  },
+  "guide_text_wulfa_chartrial01_01_2": {
+    "cn": "洛茜的战技会造成<@ba.pd>物理伤害</>并造成<#ba.airborne>击飞</>。如果命中拥有<#ba.noguard>破防</>的目标时，还会额外释放<@ba.key>狼之珀</>冲向目标，造成<@ba.fire>灼热伤害</>。",
+    "en": "Rossi's battle skill deals <@ba.pd>Physical DMG</> and applies <#ba.airborne>Lift</>. If the skill hits a target with <#ba.noguard>Vulnerability</>, it also unleashes a <@ba.key>Wolven Ambrage</> that charges at the target to deal <@ba.fire>Heat DMG</>."
+  },
+  "guide_text_wulfa_chartrial01_01_3": {
+    "cn": "当有敌人同时处于<#ba.noguard>破防</>和<#ba.spellinflict>法术附着</>状态时，可以发动洛茜的连携技，洛茜的连携技可连续使用两次， 第二次将<#ba.consume>消耗</>目标身上全部的<#ba.spellinflict>法术附着</>并造成基于<#ba.spellinflict>法术附着</>层数的<@ba.pd>物理伤害</>和一次<#ba.airborne>击飞</>，当第二段连携技<@ba.key>精准衔接</>时，还会额外施加1层<#ba.noguard>破防</>。",
+    "en": "Rossi's combo skill is triggered when an enemy has both <#ba.noguard>Vulnerability</> and <#ba.spellinflict>Arts Infliction</> stacks. Her combo skill also has 2 consecutive casting sequences. Combo sequence 2 <#ba.consume>consumes</> all <#ba.spellinflict>Arts Infliction</> stacks of the target, deals <@ba.pd>Physical DMG</> based on the number of <#ba.spellinflict>Arts Infliction</> stacks consumed, and applies 1 instance of <#ba.airborne>Lift</>. If sequence 2 is cast with <@ba.key>perfect timing</>, it applies 1 more stack of <#ba.noguard>Vulnerability</>."
+  },
+  "guide_text_wulfa_chartrial01_01_4": {
+    "cn": "洛茜的终结技可以在短时间内对目标造成大量<@ba.fire>灼热伤害</>并施加<#ba.fireinflict>灼热附着</>。",
+    "en": "Rossi's ultimate quickly deals massive <@ba.fire>Heat DMG</> and applies <#ba.fireinflict>Heat Infliction</> to the target."
+  },
+  "guide_text_wulfa_chartrial01_01_5": {
+    "cn": "利用队伍施加的<#ba.noguard>破防</>和<#ba.spellinflict>法术附着</>，<@ba.key>精准衔接</>洛茜的连携技高效施加<#ba.noguard>破防</>，配合洛茜的战技和终结技造成大量伤害。高效施加的破防可以配合其他干员获得更高输出效率。",
+    "en": "Use the team to apply <#ba.noguard>Vulnerability</> and <#ba.spellinflict>Arts Infliction</>, then cast Rossi's combo skill with <@ba.key>perfect timing</> to quickly build up stacks of <#ba.noguard>Vulnerability</>. Use Rossi's battle skill and ultimate to deal massive DMG. Other teammates can also make use of the quick Vulnerability stacking ability of Rossi to deal even more DMG."
+  },
+  "guide_text_wulfa_chartrial01_title": {
+    "cn": "干员介绍",
+    "en": "Operator Description"
+  },
+  "guide_text_wulfa_chartrial01_title2": {
+    "cn": "战技介绍",
+    "en": "Battle Skill Description"
+  },
+  "guide_text_wulfa_chartrial01_title3": {
+    "cn": "连携技介绍",
+    "en": "Combo Skill Description"
+  },
+  "guide_text_wulfa_chartrial01_title4": {
+    "cn": "终结技介绍",
+    "en": "Ultimate Description"
+  },
+  "guide_text_wulfa_chartrial01_title5": {
+    "cn": "作战方式",
+    "en": "Combat Tips"
   },
   "guide_text_wuling_domain_0": {
     "cn": "可按下<action=mainhud_open_domain>或者按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击此处，进入<@gd.key>地区建设</>。",
@@ -63234,6 +63362,10 @@
   "ui_shop_weapon_sold_out": {
     "cn": "售罄",
     "en": "Sold Out"
+  },
+  "ui_shop_weapongacha_ten_supplement": {
+    "cn": "单次申领所需",
+    "en": "Cost per Issue"
   },
   "ui_shop_wepon_pool_gift_hint": {
     "cn": "武库申领奖励已发放",
