@@ -24,31 +24,6 @@
     "subConditionIdLogics": [],
     "subConditionIds": []
   },
-  "cond_unlock_bloc": {
-    "compareOperator": "0",
-    "conditionId": "cond_unlock_bloc",
-    "conditionType": "3",
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "parameters": [
-      {
-        "realType": "0",
-        "valueBoolList": null,
-        "valueFloatList": null,
-        "valueIntList": null,
-        "valueStringList": [
-          "questgroup_bloc_startup"
-        ],
-        "valueType": "0",
-        "valueVector3": null
-      }
-    ],
-    "progressToCompare": "1",
-    "subConditionIdLogics": [],
-    "subConditionIds": []
-  },
   "child_cond_blocLevel_02": {
     "compareOperator": "0",
     "conditionId": "child_cond_blocLevel_02",
@@ -74,31 +49,6 @@
     "subConditionIdLogics": [],
     "subConditionIds": []
   },
-  "cond_ready_to_learn_bloc": {
-    "compareOperator": "0",
-    "conditionId": "cond_ready_to_learn_bloc",
-    "conditionType": "5",
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "parameters": [
-      {
-        "realType": "0",
-        "valueBoolList": null,
-        "valueFloatList": null,
-        "valueIntList": null,
-        "valueStringList": [
-          "questms_bloc_startup"
-        ],
-        "valueType": "0",
-        "valueVector3": null
-      }
-    ],
-    "progressToCompare": "1",
-    "subConditionIdLogics": [],
-    "subConditionIds": []
-  },
   "child_cond_bloc_exp_full1": {
     "compareOperator": "0",
     "conditionId": "child_cond_bloc_exp_full1",
@@ -115,31 +65,6 @@
         "valueIntList": null,
         "valueStringList": [
           "kernel_union_bloc01"
-        ],
-        "valueType": "0",
-        "valueVector3": null
-      }
-    ],
-    "progressToCompare": "1",
-    "subConditionIdLogics": [],
-    "subConditionIds": []
-  },
-  "child_cond_bloc_upgradeTo3_msOn": {
-    "compareOperator": "0",
-    "conditionId": "child_cond_bloc_upgradeTo3_msOn",
-    "conditionType": "5",
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "parameters": [
-      {
-        "realType": "0",
-        "valueBoolList": null,
-        "valueFloatList": null,
-        "valueIntList": null,
-        "valueStringList": [
-          "questms_bloc_upgradeTo3_3"
         ],
         "valueType": "0",
         "valueVector3": null
@@ -171,31 +96,6 @@
       }
     ],
     "progressToCompare": "1",
-    "subConditionIdLogics": [],
-    "subConditionIds": []
-  },
-  "child_cond_bloc_upgradeTo2_moonEnough": {
-    "compareOperator": "3",
-    "conditionId": "child_cond_bloc_upgradeTo2_moonEnough",
-    "conditionType": "107",
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "parameters": [
-      {
-        "realType": "0",
-        "valueBoolList": null,
-        "valueFloatList": null,
-        "valueIntList": null,
-        "valueStringList": [
-          "item_collection_instance"
-        ],
-        "valueType": "0",
-        "valueVector3": null
-      }
-    ],
-    "progressToCompare": "10",
     "subConditionIdLogics": [],
     "subConditionIds": []
   },
@@ -249,6 +149,31 @@
     "subConditionIdLogics": [],
     "subConditionIds": []
   },
+  "child_cond_bloc_upgradeTo2_moonEnough": {
+    "compareOperator": "3",
+    "conditionId": "child_cond_bloc_upgradeTo2_moonEnough",
+    "conditionType": "107",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "parameters": [
+      {
+        "realType": "0",
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "item_collection_instance"
+        ],
+        "valueType": "0",
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": "10",
+    "subConditionIdLogics": [],
+    "subConditionIds": []
+  },
   "child_cond_bloc_upgradeTo2_msOn": {
     "compareOperator": "0",
     "conditionId": "child_cond_bloc_upgradeTo2_msOn",
@@ -265,6 +190,56 @@
         "valueIntList": null,
         "valueStringList": [
           "questms_bloc_upgradeTo2_3"
+        ],
+        "valueType": "0",
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": "1",
+    "subConditionIdLogics": [],
+    "subConditionIds": []
+  },
+  "child_cond_bloc_upgradeTo3_moonEnough": {
+    "compareOperator": "3",
+    "conditionId": "child_cond_bloc_upgradeTo3_moonEnough",
+    "conditionType": "107",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "parameters": [
+      {
+        "realType": "0",
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "item_collection_instance"
+        ],
+        "valueType": "0",
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": "20",
+    "subConditionIdLogics": [],
+    "subConditionIds": []
+  },
+  "child_cond_bloc_upgradeTo3_msOn": {
+    "compareOperator": "0",
+    "conditionId": "child_cond_bloc_upgradeTo3_msOn",
+    "conditionType": "5",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "parameters": [
+      {
+        "realType": "0",
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "questms_bloc_upgradeTo3_3"
         ],
         "valueType": "0",
         "valueVector3": null
@@ -292,31 +267,6 @@
       "child_cond_bloc_upgradeTo2_msOn",
       "child_cond_bloc_upgradeTo2_moonEnough"
     ]
-  },
-  "child_cond_bloc_upgradeTo3_moonEnough": {
-    "compareOperator": "3",
-    "conditionId": "child_cond_bloc_upgradeTo3_moonEnough",
-    "conditionType": "107",
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "parameters": [
-      {
-        "realType": "0",
-        "valueBoolList": null,
-        "valueFloatList": null,
-        "valueIntList": null,
-        "valueStringList": [
-          "item_collection_instance"
-        ],
-        "valueType": "0",
-        "valueVector3": null
-      }
-    ],
-    "progressToCompare": "20",
-    "subConditionIdLogics": [],
-    "subConditionIds": []
   },
   "cond_bloc_upgradeTo3_finished": {
     "compareOperator": "3",
@@ -363,6 +313,31 @@
     "subConditionIdLogics": [],
     "subConditionIds": []
   },
+  "cond_ready_to_learn_bloc": {
+    "compareOperator": "0",
+    "conditionId": "cond_ready_to_learn_bloc",
+    "conditionType": "5",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "parameters": [
+      {
+        "realType": "0",
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "questms_bloc_startup"
+        ],
+        "valueType": "0",
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": "1",
+    "subConditionIdLogics": [],
+    "subConditionIds": []
+  },
   "cond_ready_to_upgradeTo_lv02": {
     "compareOperator": "3",
     "conditionId": "cond_ready_to_upgradeTo_lv02",
@@ -404,6 +379,31 @@
       "child_cond_bloc_exp_full2",
       "child_cond_bloc_upgradeMisson2_on"
     ]
+  },
+  "cond_unlock_bloc": {
+    "compareOperator": "0",
+    "conditionId": "cond_unlock_bloc",
+    "conditionType": "3",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "parameters": [
+      {
+        "realType": "0",
+        "valueBoolList": null,
+        "valueFloatList": null,
+        "valueIntList": null,
+        "valueStringList": [
+          "questgroup_bloc_startup"
+        ],
+        "valueType": "0",
+        "valueVector3": null
+      }
+    ],
+    "progressToCompare": "1",
+    "subConditionIdLogics": [],
+    "subConditionIds": []
   },
   "cond_unlock_bloc_all_func": {
     "compareOperator": "0",

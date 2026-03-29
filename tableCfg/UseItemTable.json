@@ -53,60 +53,6 @@
       }
     ]
   },
-  "item_plant_grass_spc_powder_2": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_plant_grass_spc_powder_2",
-    "itemUseDesc": {
-      "cn": "使用后，每秒回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "0",
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal",
-              "value": 319.51532,
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal2",
-              "value": 0.05,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "6",
-              "valueStr": ""
-            },
-            {
-              "key": "maxcount",
-              "value": "5",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_moss_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
   "item_agmelee_1_moss_1_lbmob_1_1": {
     "duration": "0",
     "effectType": "0",
@@ -127,45 +73,6 @@
             {
               "key": "value",
               "value": 436.2245,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.2,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_bottled_grass1spc_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_bottled_grass1spc_1",
-    "itemUseDesc": {
-      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1564.2858,
               "valueStr": ""
             },
             {
@@ -214,107 +121,6 @@
             }
           ],
           "buffId": "buff_common_def_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_corp4_animal_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_corp4_animal_1",
-    "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{value:0%}</>防御力，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to grant DEF +<@ba.vup>{value:0%}</>. Duration: <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.6832166,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_def_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_hshog_1_hsmob_1_slimeml_1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_hshog_1_hsmob_1_slimeml_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_def_buff_potion_2\\value:0}</>点防御力，受到所有类型的伤害降低<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_resis_up_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant DEF +<@ba.vup>{buff_common_def_buff_potion_2\\value:0}</> and DMG Reduction +<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</> against all forms of DMG. Duration: <@ba.vup>{buff_common_resis_up_potion_1\\duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 42.92111,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_def_buff_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.8295945,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_resis_up_potion_1"
         },
         "skillBBData": {
           "blackboard": [],
@@ -403,55 +209,6 @@
       }
     ]
   },
-  "item_bottled_food_2": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_bottled_food_2",
-    "itemUseDesc": {
-      "cn": "使用后，每秒回复<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to restore <@ba.vup>{triggerheal:0}</> HP per second for <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "0",
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal",
-              "value": 163.77551,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "6",
-              "valueStr": ""
-            },
-            {
-              "key": "maxcount",
-              "value": "5",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_moss_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
   "item_agrange_1_moss_2_lbmob_1_1": {
     "duration": "300",
     "effectType": "2",
@@ -481,68 +238,6 @@
             }
           ],
           "buffId": "buff_common_def_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_corp3_animal_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_corp3_animal_1",
-    "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_2\\value:0}</>点攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，持续<@ba.vup>{buff_common_atk_buff_potion_2\\duration:0}</>秒。",
-      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_2\\value:0}</> and Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_2\\duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "180",
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_atk_buff_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.11443877,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_ctr_buff_potion_1"
         },
         "skillBBData": {
           "blackboard": [],
@@ -592,55 +287,6 @@
       }
     ]
   },
-  "item_bottled_food_5": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_bottled_food_5",
-    "itemUseDesc": {
-      "cn": "使用后，立刻回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this to instantly restore <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1564.2858,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_tundra_detector_trchest_3": {
-    "duration": "0",
-    "effectType": "2",
-    "isPersistentBuff": false,
-    "isValuableDepot": true,
-    "itemId": "item_tundra_detector_trchest_3",
-    "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的储藏箱。解锁当前区域所有地图迷雾后才可使用。（仅限四号谷地地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered storage crate within the current area. Usable only after all fogged places of the map have been charted. This item only works in Valley IV."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "2",
-    "useActions": []
-  },
   "item_bottled_flower1spc_2": {
     "duration": "0",
     "effectType": "0",
@@ -670,114 +316,6 @@
             }
           ],
           "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_bottled_flower2spc_3": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_bottled_flower2spc_3",
-    "itemUseDesc": {
-      "cn": "使用后，每秒都会回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "0",
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal",
-              "value": 269.0051,
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal2",
-              "value": 0.05,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "6",
-              "valueStr": ""
-            },
-            {
-              "key": "maxcount",
-              "value": "5",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_moss_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_bottled_grass2spc_2": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_bottled_grass2spc_2",
-    "itemUseDesc": {
-      "cn": "使用后，每秒回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "0",
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal",
-              "value": 412.11734,
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal2",
-              "value": 0.05,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "6",
-              "valueStr": ""
-            },
-            {
-              "key": "maxcount",
-              "value": "5",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_moss_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -935,6 +473,60 @@
       }
     ]
   },
+  "item_bottled_flower2spc_3": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_bottled_flower2spc_3",
+    "itemUseDesc": {
+      "cn": "使用后，每秒都会回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": "0",
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 269.0051,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.05,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "6",
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": "5",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_bottled_food_1": {
     "duration": "0",
     "effectType": "0",
@@ -984,58 +576,45 @@
       }
     ]
   },
-  "item_corp3_grass1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
+  "item_bottled_food_2": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
     "isValuableDepot": false,
-    "itemId": "item_corp3_grass1_1",
+    "itemId": "item_bottled_food_2",
     "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，造成的所有伤害增加<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</> and All Damage +<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>s."
+      "cn": "使用后，每秒回复<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to restore <@ba.vup>{triggerheal:0}</> HP per second for <@ba.vup>{duration:0}</>s."
     },
-    "stackingKey": "buff",
+    "stackingKey": "",
     "targetNumType": "0",
-    "uiType": "3",
+    "uiType": "0",
     "useActions": [
       {
         "buffBBData": {
           "blackboard": [
             {
               "key": "value",
-              "value": 0.09096939,
+              "value": "0",
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 163.77551,
               "valueStr": ""
             },
             {
               "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_ctr_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.18193878,
+              "value": "6",
               "valueStr": ""
             },
             {
-              "key": "duration",
-              "value": "300",
+              "key": "maxcount",
+              "value": "5",
               "valueStr": ""
             }
           ],
-          "buffId": "buff_common_dmg_up_potion_1"
+          "buffId": "buff_common_heal_moss_1"
         },
         "skillBBData": {
           "blackboard": [],
@@ -1095,45 +674,6 @@
       }
     ]
   },
-  "item_hscrane_1_hsmob_1_grass_1_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_hscrane_1_hsmob_1_grass_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1480.102,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.2,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
   "item_bottled_food_4": {
     "duration": "0",
     "effectType": "0",
@@ -1158,6 +698,79 @@
             }
           ],
           "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_bottled_food_5": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_bottled_food_5",
+    "itemUseDesc": {
+      "cn": "使用后，立刻回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to instantly restore <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1564.2858,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_bottled_grass1spc_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_bottled_grass1spc_1",
+    "itemUseDesc": {
+      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1564.2858,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.2,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -1261,81 +874,50 @@
       }
     ]
   },
-  "item_wgslime_1_wgthorns_1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
+  "item_bottled_grass2spc_2": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
     "isValuableDepot": false,
-    "itemId": "item_wgslime_1_wgthorns_1_1",
+    "itemId": "item_bottled_grass2spc_2",
     "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_def_buff_potion_1\\value:0%}</>防御力，受到所有类型的伤害降低<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</>，治疗效率加成提高<@ba.vup>{buff_common_healrt_buff_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_def_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant DEF +<@ba.vup>{buff_common_def_buff_potion_1\\value:0%}</>, DMG Reduction +<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</> against all forms of DMG, and Treatment Bonus +<@ba.vup>{buff_common_healrt_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_def_buff_potion_1\\duration:0}</>s."
+      "cn": "使用后，每秒回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
     },
-    "stackingKey": "buff",
+    "stackingKey": "",
     "targetNumType": "0",
-    "uiType": "3",
+    "uiType": "0",
     "useActions": [
       {
         "buffBBData": {
           "blackboard": [
             {
               "key": "value",
-              "value": 0.18103361,
+              "value": "0",
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 412.11734,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.05,
               "valueStr": ""
             },
             {
               "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_def_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.89182794,
+              "value": "6",
               "valueStr": ""
             },
             {
-              "key": "duration",
-              "value": "300",
+              "key": "maxcount",
+              "value": "5",
               "valueStr": ""
             }
           ],
-          "buffId": "buff_common_resis_up_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.12129252,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_healrt_buff_potion_1"
+          "buffId": "buff_common_heal_moss_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -1405,45 +987,6 @@
             }
           ],
           "buffId": "buff_common_dmg_up_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_plant_grass_spc_powder_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_plant_grass_spc_powder_1",
-    "itemUseDesc": {
-      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 1278.0613,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.2,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -1639,142 +1182,6 @@
       }
     ]
   },
-  "item_firebat_1_agrange_1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_firebat_1_agrange_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，造成的所有伤害增加<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>, Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>, and All Damage +<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.066530615,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_atk_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.033265308,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_ctr_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.066530615,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_dmg_up_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_lbmob_1_moss_2_bottled_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_lbmob_1_moss_2_bottled_1",
-    "itemUseDesc": {
-      "cn": "使用后，<#ba.dispel>净化</><#ba.spellinflictonchar>法术附着</>与<#ba.spellinflictonchar>法术异常</>，然后立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this to <#ba.dispel>dispel</> <#ba.spellinflictonchar>Arts Inflictions</> and <#ba.spellinflictonchar>Arts Reactions</>, then instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 503.57144,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.1,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [],
-          "buffId": "buff_common_dispel_potion"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
   "item_bottled_rec_hp_3": {
     "duration": "0",
     "effectType": "0",
@@ -1799,68 +1206,6 @@
             }
           ],
           "buffId": "buff_common_heal_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_hsmob_1_dog_1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_hsmob_1_dog_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，终结技充能效率增加<@ba.vup>{buff_common_usprt_buff_potion_1\\value:0%}</>，受治疗效率加成提高<@ba.vup>{buff_common_healrt_buff_potion_2\\value:0%}</>，持续<@ba.vup>{buff_common_usprt_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant Ultimate Gain Efficiency +<@ba.vup>{buff_common_usprt_buff_potion_1\\value:0%}</> and Treatment Received Bonus +<@ba.vup>{buff_common_healrt_buff_potion_2\\value:0%}</>. Duration: <@ba.vup>{buff_common_usprt_buff_potion_1\\duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.21100584,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_usprt_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      },
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.3544898,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_healrt_buff_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -1917,84 +1262,6 @@
           "skillPath": ""
         },
         "useType": "2"
-      }
-    ]
-  },
-  "item_mimicw_1_moss_1_moss_2_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
-    "isValuableDepot": false,
-    "itemId": "item_mimicw_1_moss_1_moss_2_1",
-    "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，持续<@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>s."
-    },
-    "stackingKey": "buff",
-    "targetNumType": "0",
-    "uiType": "3",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 0.11979592,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "300",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_atk_buff_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_sp_1_moss_1_agmelee_1_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_sp_1_moss_1_agmelee_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，全队干员立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this for the entire team to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "1",
-    "uiType": "1",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 288.97958,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.08,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "3"
       }
     ]
   },
@@ -2061,45 +1328,6 @@
     "targetNumType": "0",
     "uiType": "2",
     "useActions": []
-  },
-  "item_lbshamman_1_agmelee_1_1": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_lbshamman_1_agmelee_1_1",
-    "itemUseDesc": {
-      "cn": "使用后，全队干员立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
-      "en": "Use this for the entire team to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
-    },
-    "stackingKey": "",
-    "targetNumType": "1",
-    "uiType": "1",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": 187.95918,
-              "valueStr": ""
-            },
-            {
-              "key": "value2",
-              "value": 0.08,
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_potion_2"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "3"
-      }
-    ]
   },
   "item_cbp_voucher_pay": {
     "duration": "0",
@@ -2196,6 +1424,169 @@
         "buffBBData": {
           "blackboard": [],
           "buffId": "buff_common_dispel_potion"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_corp3_animal_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_corp3_animal_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_2\\value:0}</>点攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，持续<@ba.vup>{buff_common_atk_buff_potion_2\\duration:0}</>秒。",
+      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_2\\value:0}</> and Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_2\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": "180",
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.11443877,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_corp3_grass1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_corp3_grass1_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，造成的所有伤害增加<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</> and All Damage +<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.09096939,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.18193878,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_dmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_corp4_animal_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_corp4_animal_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{value:0%}</>防御力，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to grant DEF +<@ba.vup>{value:0%}</>. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.6832166,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2318,20 +1709,129 @@
       }
     ]
   },
-  "item_wuling_detector_trchest_3": {
-    "duration": "0",
+  "item_firebat_1_agrange_1_1": {
+    "duration": "300",
     "effectType": "2",
-    "isPersistentBuff": false,
-    "isValuableDepot": true,
-    "itemId": "item_wuling_detector_trchest_3",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_firebat_1_agrange_1_1",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的储藏箱。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered storage crate within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，造成的所有伤害增加<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>, Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>, and All Damage +<@ba.vup>{buff_common_dmg_up_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.066530615,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.033265308,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.066530615,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_dmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_hscrane_1_hsmob_1_grass_1_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_hscrane_1_hsmob_1_grass_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
     },
     "stackingKey": "",
     "targetNumType": "0",
-    "uiType": "2",
-    "useActions": []
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1480.102,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.2,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
   },
   "item_hsfly_1_slimeml_1_hsmob_1_1": {
     "duration": "300",
@@ -2372,15 +1872,15 @@
       }
     ]
   },
-  "item_wgshoal_1_grass_1_grass_2_1": {
+  "item_hshog_1_hsmob_1_slimeml_1_1": {
     "duration": "300",
     "effectType": "2",
     "isPersistentBuff": true,
     "isValuableDepot": false,
-    "itemId": "item_wgshoal_1_grass_1_grass_2_1",
+    "itemId": "item_hshog_1_hsmob_1_slimeml_1_1",
     "itemUseDesc": {
-      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，持续<@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>秒。",
-      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</> and Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>s."
+      "cn": "使用后，增加<@ba.vup>{buff_common_def_buff_potion_2\\value:0}</>点防御力，受到所有类型的伤害降低<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_resis_up_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant DEF +<@ba.vup>{buff_common_def_buff_potion_2\\value:0}</> and DMG Reduction +<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</> against all forms of DMG. Duration: <@ba.vup>{buff_common_resis_up_potion_1\\duration:0}</>s."
     },
     "stackingKey": "buff",
     "targetNumType": "0",
@@ -2391,7 +1891,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 0.18193878,
+              "value": 42.92111,
               "valueStr": ""
             },
             {
@@ -2400,7 +1900,7 @@
               "valueStr": ""
             }
           ],
-          "buffId": "buff_common_atk_buff_potion_1"
+          "buffId": "buff_common_def_buff_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2414,7 +1914,7 @@
           "blackboard": [
             {
               "key": "value",
-              "value": 0.09096939,
+              "value": 0.8295945,
               "valueStr": ""
             },
             {
@@ -2423,7 +1923,69 @@
               "valueStr": ""
             }
           ],
-          "buffId": "buff_common_ctr_buff_potion_1"
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_hsmob_1_dog_1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_hsmob_1_dog_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，终结技充能效率增加<@ba.vup>{buff_common_usprt_buff_potion_1\\value:0%}</>，受治疗效率加成提高<@ba.vup>{buff_common_healrt_buff_potion_2\\value:0%}</>，持续<@ba.vup>{buff_common_usprt_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant Ultimate Gain Efficiency +<@ba.vup>{buff_common_usprt_buff_potion_1\\value:0%}</> and Treatment Received Bonus +<@ba.vup>{buff_common_healrt_buff_potion_2\\value:0%}</>. Duration: <@ba.vup>{buff_common_usprt_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.21100584,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_usprt_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.3544898,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_healrt_buff_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2581,35 +2143,35 @@
       }
     ]
   },
-  "item_wgthorns_1_hshog_1_hsmob_1_1": {
-    "duration": "300",
-    "effectType": "2",
-    "isPersistentBuff": true,
+  "item_lbmob_1_moss_2_bottled_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
     "isValuableDepot": false,
-    "itemId": "item_wgthorns_1_hshog_1_hsmob_1_1",
+    "itemId": "item_lbmob_1_moss_2_bottled_1",
     "itemUseDesc": {
-      "cn": "使用后，受到所有类型的伤害降低<@ba.vup>{1-value:0%}</>，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to grant DMG Reduction +<@ba.vup>{1-value:0%}</> against all forms of DMG. Duration: <@ba.vup>{duration:0}</>s."
+      "cn": "使用后，<#ba.dispel>净化</><#ba.spellinflictonchar>法术附着</>与<#ba.spellinflictonchar>法术异常</>，然后立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to <#ba.dispel>dispel</> <#ba.spellinflictonchar>Arts Inflictions</> and <#ba.spellinflictonchar>Arts Reactions</>, then instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
     },
-    "stackingKey": "buff",
+    "stackingKey": "",
     "targetNumType": "0",
-    "uiType": "3",
+    "uiType": "0",
     "useActions": [
       {
         "buffBBData": {
           "blackboard": [
             {
               "key": "value",
-              "value": 0.7088095,
+              "value": 503.57144,
               "valueStr": ""
             },
             {
-              "key": "duration",
-              "value": "300",
+              "key": "value2",
+              "value": 0.1,
               "valueStr": ""
             }
           ],
-          "buffId": "buff_common_resis_up_potion_1"
+          "buffId": "buff_common_heal_potion_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2617,6 +2179,57 @@
           "skillPath": ""
         },
         "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [],
+          "buffId": "buff_common_dispel_potion"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_lbshamman_1_agmelee_1_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_lbshamman_1_agmelee_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，全队干员立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this for the entire team to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "1",
+    "uiType": "1",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 187.95918,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.08,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "3"
       }
     ]
   },
@@ -2649,6 +2262,45 @@
             }
           ],
           "buffId": "buff_common_phydmg_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_mimicw_1_moss_1_moss_2_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_mimicw_1_moss_1_moss_2_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，持续<@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_atk_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.11979592,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2757,20 +2409,98 @@
       }
     ]
   },
-  "item_tundra_detector_coin_3": {
+  "item_plant_grass_spc_powder_1": {
     "duration": "0",
-    "effectType": "2",
+    "effectType": "0",
     "isPersistentBuff": false,
-    "isValuableDepot": true,
-    "itemId": "item_tundra_detector_coin_3",
+    "isValuableDepot": false,
+    "itemId": "item_plant_grass_spc_powder_1",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的醚质。解锁当前区域所有地图迷雾后才可使用。（仅限四号谷地地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered Aurylene within the current area. Usable only after all fogged places of the map have been charted. This item only works in Valley IV."
+      "cn": "使用后，立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
     },
     "stackingKey": "",
     "targetNumType": "0",
-    "uiType": "2",
-    "useActions": []
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1278.0613,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.2,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_plant_grass_spc_powder_2": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_plant_grass_spc_powder_2",
+    "itemUseDesc": {
+      "cn": "使用后，每秒回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": "0",
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 319.51532,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.05,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "6",
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": "5",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
   },
   "item_plant_moss_powder_1": {
     "duration": "0",
@@ -2796,60 +2526,6 @@
             }
           ],
           "buffId": "buff_common_heal_potion_1"
-        },
-        "skillBBData": {
-          "blackboard": [],
-          "skillId": "",
-          "skillPath": ""
-        },
-        "useType": "2"
-      }
-    ]
-  },
-  "item_plant_moss_spc_powder_2": {
-    "duration": "0",
-    "effectType": "0",
-    "isPersistentBuff": false,
-    "isValuableDepot": false,
-    "itemId": "item_plant_moss_spc_powder_2",
-    "itemUseDesc": {
-      "cn": "使用后，每秒都会回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
-      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
-    },
-    "stackingKey": "",
-    "targetNumType": "0",
-    "uiType": "0",
-    "useActions": [
-      {
-        "buffBBData": {
-          "blackboard": [
-            {
-              "key": "value",
-              "value": "0",
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal",
-              "value": 117.47449,
-              "valueStr": ""
-            },
-            {
-              "key": "triggerheal2",
-              "value": 0.05,
-              "valueStr": ""
-            },
-            {
-              "key": "duration",
-              "value": "6",
-              "valueStr": ""
-            },
-            {
-              "key": "maxcount",
-              "value": "5",
-              "valueStr": ""
-            }
-          ],
-          "buffId": "buff_common_heal_moss_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -2938,6 +2614,60 @@
             }
           ],
           "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_plant_moss_spc_powder_2": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_plant_moss_spc_powder_2",
+    "itemUseDesc": {
+      "cn": "使用后，每秒都会回复<@ba.vup>{triggerheal2:0%}</>最大生命值和<@ba.vup>{triggerheal:0}</>点生命值，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to restore <@ba.vup>{triggerheal2:0%}</> Max HP per second plus <@ba.vup>{triggerheal:0}</> HP. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": "0",
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal",
+              "value": 117.47449,
+              "valueStr": ""
+            },
+            {
+              "key": "triggerheal2",
+              "value": 0.05,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "6",
+              "valueStr": ""
+            },
+            {
+              "key": "maxcount",
+              "value": "5",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_moss_2"
         },
         "skillBBData": {
           "blackboard": [],
@@ -3071,6 +2801,45 @@
       }
     ]
   },
+  "item_sp_1_moss_1_agmelee_1_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_sp_1_moss_1_agmelee_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，全队干员立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this for the entire team to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "1",
+    "uiType": "1",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 288.97958,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.08,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "3"
+      }
+    ]
+  },
   "item_sp_2_moss_2_agrange_1_1": {
     "duration": "0",
     "effectType": "0",
@@ -3122,6 +2891,98 @@
           "skillPath": ""
         },
         "useType": "3"
+      }
+    ]
+  },
+  "item_tundra_detector_coin_3": {
+    "duration": "0",
+    "effectType": "2",
+    "isPersistentBuff": false,
+    "isValuableDepot": true,
+    "itemId": "item_tundra_detector_coin_3",
+    "itemUseDesc": {
+      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的醚质。解锁当前区域所有地图迷雾后才可使用。（仅限四号谷地地区生效）",
+      "en": "Consumable. Usage reveals an undiscovered Aurylene within the current area. Usable only after all fogged places of the map have been charted. This item only works in Valley IV."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "2",
+    "useActions": []
+  },
+  "item_tundra_detector_trchest_3": {
+    "duration": "0",
+    "effectType": "2",
+    "isPersistentBuff": false,
+    "isValuableDepot": true,
+    "itemId": "item_tundra_detector_trchest_3",
+    "itemUseDesc": {
+      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的储藏箱。解锁当前区域所有地图迷雾后才可使用。（仅限四号谷地地区生效）",
+      "en": "Consumable. Usage reveals an undiscovered storage crate within the current area. Usable only after all fogged places of the map have been charted. This item only works in Valley IV."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "2",
+    "useActions": []
+  },
+  "item_wgshoal_1_grass_1_grass_2_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_wgshoal_1_grass_1_grass_2_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</>攻击力，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，持续<@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant ATK +<@ba.vup>{buff_common_atk_buff_potion_1\\value:0%}</> and Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.18193878,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_atk_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.09096939,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
       }
     ]
   },
@@ -3179,6 +3040,130 @@
       }
     ]
   },
+  "item_wgslime_1_wgthorns_1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_wgslime_1_wgthorns_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_def_buff_potion_1\\value:0%}</>防御力，受到所有类型的伤害降低<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</>，治疗效率加成提高<@ba.vup>{buff_common_healrt_buff_potion_1\\value:0%}</>，持续<@ba.vup>{buff_common_def_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant DEF +<@ba.vup>{buff_common_def_buff_potion_1\\value:0%}</>, DMG Reduction +<@ba.vup>{1-buff_common_resis_up_potion_1\\value:0%}</> against all forms of DMG, and Treatment Bonus +<@ba.vup>{buff_common_healrt_buff_potion_1\\value:0%}</>. Duration: <@ba.vup>{buff_common_def_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.18103361,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.89182794,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.12129252,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_healrt_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_wgthorns_1_hshog_1_hsmob_1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_wgthorns_1_hshog_1_hsmob_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，受到所有类型的伤害降低<@ba.vup>{1-value:0%}</>，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to grant DMG Reduction +<@ba.vup>{1-value:0%}</> against all forms of DMG. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.7088095,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_wuling_detector_coin_3": {
     "duration": "0",
     "effectType": "2",
@@ -3188,6 +3173,21 @@
     "itemUseDesc": {
       "cn": "消耗品，使用后可探测出当前区域内的一个未发现的醚质。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
       "en": "Consumable. Usage reveals an undiscovered Aurylene within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "2",
+    "useActions": []
+  },
+  "item_wuling_detector_trchest_3": {
+    "duration": "0",
+    "effectType": "2",
+    "isPersistentBuff": false,
+    "isValuableDepot": true,
+    "itemId": "item_wuling_detector_trchest_3",
+    "itemUseDesc": {
+      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的储藏箱。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
+      "en": "Consumable. Usage reveals an undiscovered storage crate within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
     },
     "stackingKey": "",
     "targetNumType": "0",

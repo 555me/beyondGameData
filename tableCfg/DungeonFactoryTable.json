@@ -15,14 +15,6 @@
       "dung_blackbox_assebling_1"
     ]
   },
-  "dung_blackbox_planter_2": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_2",
-    "preDependencies": [
-      "dung_blackbox_filling_4"
-    ]
-  },
   "dung_blackbox_asseblingbomb_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -31,49 +23,14 @@
       "dung_blackbox_assebling_1"
     ]
   },
-  "dung_blackbox_xiraniteoven_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": false,
-    "domainId": "domain_2",
-    "preDependencies": []
-  },
-  "dung_test_factory": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
-  },
   "dung_blackbox_basic_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_1",
     "preDependencies": []
   },
-  "dung_blackbox_mix_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_2",
-    "preDependencies": [
-      "dung_blackbox_pipe_1"
-    ]
-  },
-  "dung_blackbox_planter_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": [
-      "dung_blackbox_shaper_1",
-      "dung_blackbox_filling_1"
-    ]
-  },
   "dung_blackbox_belt_1": {
     "afterDirectlyGetRewardGuideGroupId": "guide_blackbox_belt1_reward_pop_2",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
-  },
-  "dung_blackbox_hub_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_1",
     "preDependencies": []
@@ -134,15 +91,6 @@
       "dung_blackbox_bus_1"
     ]
   },
-  "dung_blackbox_filling_2": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": [
-      "dung_blackbox_filling_1",
-      "dung_blackbox_miner_2"
-    ]
-  },
   "dung_blackbox_dismantler_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -157,12 +105,13 @@
       "dung_blackbox_shaper_1"
     ]
   },
-  "dung_blackbox_miner_3": {
+  "dung_blackbox_filling_2": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_2",
+    "domainId": "domain_1",
     "preDependencies": [
-      "dung_blackbox_pipe_1"
+      "dung_blackbox_filling_1",
+      "dung_blackbox_miner_2"
     ]
   },
   "dung_blackbox_filling_3": {
@@ -173,12 +122,6 @@
       "dung_blackbox_filling_1",
       "dung_blackbox_thickener_1"
     ]
-  },
-  "dung_blackbox_miner_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": false,
-    "domainId": "domain_1",
-    "preDependencies": []
   },
   "dung_blackbox_filling_4": {
     "afterDirectlyGetRewardGuideGroupId": "",
@@ -202,6 +145,12 @@
       "dung_blackbox_belt_1"
     ]
   },
+  "dung_blackbox_hub_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_1",
+    "preDependencies": []
+  },
   "dung_blackbox_liquidcleaner_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -210,10 +159,10 @@
       "dung_blackbox_pipe_1"
     ]
   },
-  "dung_blackbox_pipe_1": {
+  "dung_blackbox_miner_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_2",
+    "canDirectlyGetRewardForBlackbox": false,
+    "domainId": "domain_1",
     "preDependencies": []
   },
   "dung_blackbox_miner_2": {
@@ -224,17 +173,21 @@
       "dung_blackbox_miner_1"
     ]
   },
-  "dung_blackbox_power_1": {
+  "dung_blackbox_miner_3": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ]
   },
-  "dung_blackbox_winder_1": {
+  "dung_blackbox_mix_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": false,
-    "domainId": "domain_1",
-    "preDependencies": []
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_pipe_1"
+    ]
   },
   "dung_blackbox_mix_2": {
     "afterDirectlyGetRewardGuideGroupId": "",
@@ -245,6 +198,12 @@
       "dung_blackbox_filling_4"
     ]
   },
+  "dung_blackbox_pipe_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": []
+  },
   "dung_blackbox_pipe_2": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -252,6 +211,29 @@
     "preDependencies": [
       "dung_blackbox_pipe_1"
     ]
+  },
+  "dung_blackbox_planter_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_1",
+    "preDependencies": [
+      "dung_blackbox_shaper_1",
+      "dung_blackbox_filling_1"
+    ]
+  },
+  "dung_blackbox_planter_2": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_filling_4"
+    ]
+  },
+  "dung_blackbox_power_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_1",
+    "preDependencies": []
   },
   "dung_blackbox_powerstation_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
@@ -292,12 +274,6 @@
     "domainId": "domain_1",
     "preDependencies": []
   },
-  "dung_demo_blackbox02": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_2",
-    "preDependencies": []
-  },
   "dung_blackbox_thickener_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -312,7 +288,31 @@
     "domainId": "domain_2",
     "preDependencies": []
   },
+  "dung_blackbox_winder_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": false,
+    "domainId": "domain_1",
+    "preDependencies": []
+  },
+  "dung_blackbox_xiraniteoven_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": false,
+    "domainId": "domain_2",
+    "preDependencies": []
+  },
+  "dung_demo_blackbox02": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": []
+  },
   "dung_test_blackbox_01": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_1",
+    "preDependencies": []
+  },
+  "dung_test_factory": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_1",

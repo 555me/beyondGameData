@@ -134,136 +134,6 @@
     "roadAttachSide": "0",
     "type": "21"
   },
-  "pump_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_pump_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "用于抽取液体的设备。",
-      "en": "A facility for pumping fluids."
-    },
-    "iconOnPanel": "icon_port_pump_1",
-    "id": "pump_1",
-    "inputPorts": [],
-    "limitType": "4",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_pump",
-    "modelHeight": 5.1,
-    "name": {
-      "cn": "水泵",
-      "en": "Fluid Pump"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "10",
-    "quickBarType": "source_machine",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "25"
-  },
-  "udpipe_unloader_1": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_udpipe_unloader_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "地下暗管的出口，可与暗管入口进行配对连接，传输管道中的货物。",
-      "en": "An outlet for an underground pipeline. Connect this to a matching Conduit inlet to transport fluids through it."
-    },
-    "iconOnPanel": "icon_pot_udpipe_unloader_1",
-    "id": "udpipe_unloader_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_underpipe_2",
-    "modelHeight": 3.6,
-    "name": {
-      "cn": "暗管出口",
-      "en": "Conduit Outlet"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "storage",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "34"
-  },
   "battle_fog_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_fog_1",
@@ -308,69 +178,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "21"
-  },
-  "unloader_1": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_unloader_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "可选择物品从当地仓库取出的活动端口，只能贴靠仓库存取线放置。",
-      "en": "A placeable unloading point that transfers goods from a local depot into the AIC Factory. The Depot Unloader must be placed right next to the Depot Bus."
-    },
-    "iconOnPanel": "icon_port_unloader_1",
-    "id": "unloader_1",
-    "inputPorts": [],
-    "limitType": "2",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": "3",
-    "name": {
-      "cn": "仓库取货口",
-      "en": "Depot Unloader"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "storage",
-    "range": {
-      "depth": "1",
-      "height": "3",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "11"
   },
   "battle_frost_1": {
     "bandwidth": "2",
@@ -417,53 +224,6 @@
     "roadAttachSide": "0",
     "type": "21"
   },
-  "soil_grass_fast_2": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量芽针。",
-      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_grass_fast_2",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_grass_fast_2",
-    "modelHeight": "1",
-    "name": {
-      "cn": "模拟芽针田块",
-      "en": "Yazhen Plot (SIM)"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
   "battle_jet_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_jet_1",
@@ -508,55 +268,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "21"
-  },
-  "soil_sp_4": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_4",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_4",
-    "modelHeight": "1",
-    "name": {
-      "cn": "金石稻田块",
-      "en": "Amber Rice Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
   },
   "battle_laser_1": {
     "bandwidth": "2",
@@ -603,51 +314,6 @@
     "roadAttachSide": "0",
     "type": "21"
   },
-  "soil_moss_3": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量砂叶。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sandleaves."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_moss_3",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_moss_3",
-    "modelHeight": "1",
-    "name": {
-      "cn": "砂叶田块",
-      "en": "Sandleaf Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
   "battle_lightning_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_lightning_1",
@@ -692,181 +358,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "21"
-  },
-  "liquid_storager_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_liquid_storager_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "存储液体的设备。",
-      "en": "A facility for storing fluids."
-    },
-    "iconOnPanel": "icon_port_liquid_storager_1",
-    "id": "liquid_storager_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_liquid_storebox",
-    "modelHeight": 4.1,
-    "name": {
-      "cn": "储液罐",
-      "en": "Fluid Tank"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "storage",
-    "range": {
-      "depth": "3",
-      "height": "4",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "24"
-  },
-  "marker_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "用于留下标记信息的设备。",
-      "en": "A facility that can be used to post and leave beacon memos."
-    },
-    "iconOnPanel": "icon_port_marker_1",
-    "id": "marker_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_marker_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "留言信标",
-      "en": "Memo Beacon"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "extra_machine",
-    "range": {
-      "depth": "1",
-      "height": "1",
-      "width": "1",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "35"
-  },
-  "soil_sp_fast_3": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
-      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_fast_3",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_fast_3",
-    "modelHeight": "1",
-    "name": {
-      "cn": "模拟琼叶参田块",
-      "en": "Redjade Ginseng Plot (SIM)"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
   },
   "battle_medic_1": {
     "bandwidth": "2",
@@ -913,55 +404,6 @@
     "roadAttachSide": "0",
     "type": "21"
   },
-  "power_diffuser_2": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_power_diffuser_2",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "在集成核心区域外可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
-      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances."
-    },
-    "iconOnPanel": "icon_port_power_pole_2",
-    "id": "power_diffuser_2",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerdiffuser_2",
-    "modelHeight": 6.7,
-    "name": {
-      "cn": "息壤供电桩",
-      "en": "Xiranite Pylon"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "electric_machine",
-    "range": {
-      "depth": "2",
-      "height": "7",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "23"
-  },
   "battle_shockwave_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_shockwave_1",
@@ -1006,145 +448,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "21"
-  },
-  "battle_turret_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_battle_turret_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "<b>攻击力</b>：<@ba.key>609</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射能量弹，对敌人造成<@ba.phy>物理伤害</>。",
-      "en": "<b>ATK</b>: <@ba.key>609</>\n<b>Attack Interval</b>: <@ba.key>2</>s\n<b>Mode of Attack</b>: Continuously fires energy bolts that deal <@ba.phy>Physical DMG</>."
-    },
-    "iconOnPanel": "icon_port_battle_turret_1",
-    "id": "battle_turret_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_battle_turret_1",
-    "modelHeight": 3.5,
-    "name": {
-      "cn": "铳械塔",
-      "en": "Gun Tower"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "5",
-    "quickBarType": "battle_machine",
-    "range": {
-      "depth": "2",
-      "height": "4",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "21"
-  },
-  "soil_grass_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量锦草，有较高概率额外获得蓬茸锦草。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao and a higher chance of Fluffed Jincao."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_grass_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_grass_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "锦草田块",
-      "en": "Jincao Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "travel_pole_1": {
-    "bandwidth": "3",
-    "bgOnPanel": "bg_port_travel_pole_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "可在80m范围内相连，架起索道的小型设备。",
-      "en": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline."
-    },
-    "iconOnPanel": "icon_port_travel_pole_1",
-    "id": "travel_pole_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_transtower",
-    "modelHeight": "7",
-    "name": {
-      "cn": "滑索架",
-      "en": "Zipline Pylon"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "5",
-    "quickBarType": "extra_machine",
-    "range": {
-      "depth": "3",
-      "height": "7",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "16"
   },
   "battle_sniper_1": {
     "bandwidth": "2",
@@ -1236,9 +539,9 @@
     "roadAttachSide": "0",
     "type": "21"
   },
-  "mix_pool_1": {
+  "battle_turret_1": {
     "bandwidth": "2",
-    "bgOnPanel": "bg_port_mix_pool_1",
+    "bgOnPanel": "bg_port_battle_turret_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
@@ -1248,327 +551,38 @@
       "en": ""
     },
     "desc": {
-      "cn": "进行固液体化学反应的设备。",
-      "en": "A facility for running solid or liquid-state chemical reactions."
+      "cn": "<b>攻击力</b>：<@ba.key>609</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射能量弹，对敌人造成<@ba.phy>物理伤害</>。",
+      "en": "<b>ATK</b>: <@ba.key>609</>\n<b>Attack Interval</b>: <@ba.key>2</>s\n<b>Mode of Attack</b>: Continuously fires energy bolts that deal <@ba.phy>Physical DMG</>."
     },
-    "iconOnPanel": "icon_port_mix_pool_1",
-    "id": "mix_pool_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_formula_mix_pool_1",
-    "modelHeight": 5.1,
-    "name": {
-      "cn": "反应池",
-      "en": "Reactor Crucible"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "3",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "50",
-    "quickBarType": "assemble_machine",
-    "range": {
-      "depth": "5",
-      "height": "5",
-      "width": "5",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "27"
-  },
-  "shaper_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_shaper_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "能够冲压各种容器的设备。",
-      "en": "A facility that produces various containers via stamp moulding."
-    },
-    "iconOnPanel": "icon_port_shaper_1",
-    "id": "shaper_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
+    "iconOnPanel": "icon_port_battle_turret_1",
+    "id": "battle_turret_1",
+    "inputPorts": [],
     "limitType": "0",
     "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_shaper_1",
-    "modelHeight": 3.2,
+    "markInfoId": "mark_bd_battle_turret_1",
+    "modelHeight": 3.5,
     "name": {
-      "cn": "塑形机",
-      "en": "Moulding Unit"
+      "cn": "铳械塔",
+      "en": "Gun Tower"
     },
     "needPower": true,
     "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
+    "outputPorts": [],
     "placeDomainLimitCnt": [],
     "placeDomains": [],
-    "powerConsume": "10",
-    "quickBarType": "basic_machine",
+    "powerConsume": "5",
+    "quickBarType": "battle_machine",
     "range": {
-      "depth": "3",
+      "depth": "2",
       "height": "4",
-      "width": "3",
+      "width": "2",
       "x": "0",
       "y": "0",
       "z": "0"
     },
     "recommendDomains": [],
     "roadAttachSide": "0",
-    "type": "6"
+    "type": "21"
   },
   "battle_turret_2": {
     "bandwidth": "2",
@@ -1808,89 +822,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "6"
-  },
-  "liquid_storager_nop_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_liquid_storager_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "存储液体的设备。",
-      "en": "A facility for storing fluids."
-    },
-    "iconOnPanel": "icon_port_liquid_storager_1",
-    "id": "liquid_storager_nop_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_liquid_storebox",
-    "modelHeight": 4.1,
-    "name": {
-      "cn": "储液罐",
-      "en": "Fluid Tank"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "3",
-      "height": "4",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "24"
   },
   "dismantler_1": {
     "bandwidth": "2",
@@ -2162,6 +1093,404 @@
     "roadAttachSide": "0",
     "type": "6"
   },
+  "dumper_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_dumper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于供给液体的设备。",
+      "en": "A facility for dispensing fluids."
+    },
+    "iconOnPanel": "icon_port_dumper_1",
+    "id": "dumper_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "4",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_dumper",
+    "modelHeight": 4.2,
+    "name": {
+      "cn": "给水器",
+      "en": "Fluid Supply Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "10",
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "26"
+  },
+  "dumper_nop_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_dumper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": false,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于供给液体的设备。",
+      "en": "A facility for dispensing fluids."
+    },
+    "iconOnPanel": "icon_port_dumper_1",
+    "id": "dumper_nop_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "4",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_dumper",
+    "modelHeight": 4.2,
+    "name": {
+      "cn": "给水器",
+      "en": "Fluid Supply Unit"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "26"
+  },
+  "filling_powder_mc_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_filling_pd_mc_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "能够将原料灌装到容器的设备。",
+      "en": "A facility capable of filling containers with various materials."
+    },
+    "iconOnPanel": "icon_port_filling_pd_mc_1",
+    "id": "filling_powder_mc_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "6",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_filling_powder_mc_1",
+    "modelHeight": 3.4,
+    "name": {
+      "cn": "灌装机",
+      "en": "Filling Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "4",
+      "height": "4",
+      "width": "6",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "6"
+  },
   "furnance_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_furnance_1",
@@ -2345,9 +1674,9 @@
     "roadAttachSide": "0",
     "type": "6"
   },
-  "tools_assebling_mc_1": {
+  "furnance_nop_1": {
     "bandwidth": "2",
-    "bgOnPanel": "bg_port_tools_asm_mc_1",
+    "bgOnPanel": "bg_port_furnance_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
@@ -2357,11 +1686,11 @@
       "en": ""
     },
     "desc": {
-      "cn": "用于封装部分能量元件的设备。",
-      "en": "A facility for packaging certain power components."
+      "cn": "使用高温熔炼其他材料的设备。",
+      "en": "A facility that performs high temperature smelting of various materials."
     },
-    "iconOnPanel": "icon_port_tools_asm_mc_1",
-    "id": "tools_assebling_mc_1",
+    "iconOnPanel": "icon_port_furnance_1",
+    "id": "furnance_nop_1",
     "inputPorts": [
       {
         "index": "0",
@@ -2371,7 +1700,7 @@
           "position": {
             "x": "0",
             "y": "0",
-            "z": "3"
+            "z": "2"
           },
           "rotation": {
             "x": "0",
@@ -2388,7 +1717,7 @@
           "position": {
             "x": "1",
             "y": "0",
-            "z": "3"
+            "z": "2"
           },
           "rotation": {
             "x": "0",
@@ -2405,58 +1734,7 @@
           "position": {
             "x": "2",
             "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "5",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "5",
-            "y": "0",
-            "z": "3"
+            "z": "2"
           },
           "rotation": {
             "x": "0",
@@ -2468,11 +1746,160 @@
     ],
     "limitType": "0",
     "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
-    "modelHeight": 2.9,
+    "markInfoId": "mark_bd_formula_furnance_1",
+    "modelHeight": 3.94,
     "name": {
-      "cn": "封装机",
-      "en": "Packaging Unit"
+      "cn": "精炼炉",
+      "en": "Refining Unit"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "5",
+    "quickBarType": "",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "grinder_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_grinder_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "能粉碎各种材料的重型设备。",
+      "en": "A heavy facility that shreds and pulverizes various materials."
+    },
+    "iconOnPanel": "icon_port_grinder_1",
+    "id": "grinder_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_grinder_1",
+    "modelHeight": 3.4,
+    "name": {
+      "cn": "粉碎机",
+      "en": "Shredding Unit"
     },
     "needPower": true,
     "onlyShowOnMain": false,
@@ -2527,67 +1954,16 @@
             "z": "0"
           }
         }
-      },
-      {
-        "index": "3",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "5",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "5",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
       }
     ],
     "placeDomainLimitCnt": [],
     "placeDomains": [],
-    "powerConsume": "20",
-    "quickBarType": "assemble_machine",
+    "powerConsume": "5",
+    "quickBarType": "basic_machine",
     "range": {
-      "depth": "4",
+      "depth": "3",
       "height": "4",
-      "width": "6",
+      "width": "3",
       "x": "0",
       "y": "0",
       "z": "0"
@@ -2596,9 +1972,9 @@
     "roadAttachSide": "0",
     "type": "6"
   },
-  "dumper_1": {
+  "liquid_cleaner_1": {
     "bandwidth": "2",
-    "bgOnPanel": "bg_port_dumper_1",
+    "bgOnPanel": "bg_port_liquid_cleaner_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
@@ -2608,11 +1984,11 @@
       "en": ""
     },
     "desc": {
-      "cn": "用于供给液体的设备。",
-      "en": "A facility for dispensing fluids."
+      "cn": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
+      "en": "A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency."
     },
-    "iconOnPanel": "icon_port_dumper_1",
-    "id": "dumper_1",
+    "iconOnPanel": "icon_port_liquid_cleaner_1",
+    "id": "liquid_cleaner_1",
     "inputPorts": [
       {
         "index": "0",
@@ -2632,21 +2008,104 @@
         }
       }
     ],
-    "limitType": "4",
+    "limitType": "0",
     "liquidEnabled": true,
-    "markInfoId": "mark_bd_dumper",
-    "modelHeight": 4.2,
+    "markInfoId": "mark_bd_formula_liquid_cleaner_1",
+    "modelHeight": 3.4,
     "name": {
-      "cn": "给水器",
-      "en": "Fluid Supply Unit"
+      "cn": "废水处理机",
+      "en": "Water Treatment Unit"
     },
     "needPower": true,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
     "placeDomains": [],
-    "powerConsume": "10",
-    "quickBarType": "extra_machine",
+    "powerConsume": "50",
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "28"
+  },
+  "liquid_storager_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_liquid_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "存储液体的设备。",
+      "en": "A facility for storing fluids."
+    },
+    "iconOnPanel": "icon_port_liquid_storager_1",
+    "id": "liquid_storager_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_liquid_storebox",
+    "modelHeight": 4.1,
+    "name": {
+      "cn": "储液罐",
+      "en": "Fluid Tank"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
     "range": {
       "depth": "3",
       "height": "4",
@@ -2659,7 +2118,891 @@
       "domain_2"
     ],
     "roadAttachSide": "0",
-    "type": "26"
+    "type": "24"
+  },
+  "liquid_storager_nop_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_liquid_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "存储液体的设备。",
+      "en": "A facility for storing fluids."
+    },
+    "iconOnPanel": "icon_port_liquid_storager_1",
+    "id": "liquid_storager_nop_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_liquid_storebox",
+    "modelHeight": 4.1,
+    "name": {
+      "cn": "储液罐",
+      "en": "Fluid Tank"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "24"
+  },
+  "loader_1": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_loader_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可将物品运送至当地仓库的活动端口，只能贴靠仓库存取线放置。",
+      "en": "A placeable loading point that delivers goods from the AIC Factory to a local depot. The Depot Loader must be placed right next to the Depot Bus."
+    },
+    "iconOnPanel": "icon_port_loader_1",
+    "id": "loader_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "2",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": "3",
+    "name": {
+      "cn": "仓库存货口",
+      "en": "Depot Loader"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "1",
+      "height": "3",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "2",
+    "type": "10"
+  },
+  "log_hongs_bus": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_log_hongs_bus",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可以在集成核心区域放置的仓库存取线基段，需要和仓库存取线源桩或其他生效的仓库存取线基段相连，其上可贴靠仓库存货口和仓库取货口。",
+      "en": "A bus section that can be deployed in the Core AIC Area. The Depot Bus Section must be connected to a Depot Bus Port or other active Depot Bus Sections. Once active, Depot Loaders and Depot Unloaders can be attached to the Depot Bus."
+    },
+    "iconOnPanel": "icon_port_log_hongs_bus",
+    "id": "log_hongs_bus",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 2.1,
+    "name": {
+      "cn": "仓库存取线基段",
+      "en": "Depot Bus Section"
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "8",
+      "height": "2",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "32"
+  },
+  "log_hongs_bus_source": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_log_hongs_bus_source",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "作为仓库存取线的起始点，可以在集成核心区域自由放置。",
+      "en": "The origin of the Depot Bus. The Depot Bus Port can be placed anywhere in the Core AIC Area."
+    },
+    "iconOnPanel": "icon_port_log_hongs_bus_source",
+    "id": "log_hongs_bus_source",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 2.1,
+    "name": {
+      "cn": "仓库存取线源桩",
+      "en": "Depot Bus Port"
+    },
+    "needPower": false,
+    "onlyShowOnMain": true,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "4",
+      "height": "2",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "31"
+  },
+  "marker_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于留下标记信息的设备。",
+      "en": "A facility that can be used to post and leave beacon memos."
+    },
+    "iconOnPanel": "icon_port_marker_1",
+    "id": "marker_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_marker_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "留言信标",
+      "en": "Memo Beacon"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": "1",
+      "height": "1",
+      "width": "1",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "35"
+  },
+  "miner_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_miner_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": false,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用来开采源矿的机械设备，可使用源石完成自供能，不需要通电就可以运作。",
+      "en": "A mining rig for digging up Originium Ore. This rig does not need to be connected to the power grid to work as it powers itself using the Originium it mines."
+    },
+    "iconOnPanel": "icon_port_miner_1",
+    "id": "miner_1",
+    "inputPorts": [],
+    "limitType": "1",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": 2.3,
+    "name": {
+      "cn": "便携源石矿机",
+      "en": "Portable Originium Rig"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "3",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_1"
+    ],
+    "roadAttachSide": "0",
+    "type": "8"
+  },
+  "miner_2": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_miner_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": false,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "在通电状态下，可以用来开采源矿、类晶石的机械设备。",
+      "en": "Requires power. This mining rig can mine Originium Ore and Krystallite."
+    },
+    "iconOnPanel": "icon_port_miner_2",
+    "id": "miner_2",
+    "inputPorts": [],
+    "limitType": "1",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": "5",
+    "name": {
+      "cn": "电驱矿机",
+      "en": "Electric Mining Rig"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "5",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "8"
+  },
+  "miner_3": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_miner_3",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": false,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "在通电状态下，可以用来开采蓝铁矿等多种矿物的机械设备。",
+      "en": "Requires power. This mining rig can mine Ferrium Ore and other minerals."
+    },
+    "iconOnPanel": "icon_port_miner_3",
+    "id": "miner_3",
+    "inputPorts": [],
+    "limitType": "1",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": "5",
+    "name": {
+      "cn": "二型电驱矿机",
+      "en": "Electric Mining Rig Mk II"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "10",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "8"
+  },
+  "miner_4": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_miner_4",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": false,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用来开采赤铜矿等多种矿物的机械设备，可使用清水完成自供能，不需要通电就可以运作。",
+      "en": "A mining rig for digging up various types of ore such as Cuprium Ore. This rig does not need power as it can be driven with Clean Water."
+    },
+    "iconOnPanel": "icon_port_liquid_miner",
+    "id": "miner_4",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "1",
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": 4.7,
+    "name": {
+      "cn": "水驱矿机",
+      "en": "Hydro Mining Rig"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "8"
+  },
+  "mix_pool_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_mix_pool_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "进行固液体化学反应的设备。",
+      "en": "A facility for running solid or liquid-state chemical reactions."
+    },
+    "iconOnPanel": "icon_port_mix_pool_1",
+    "id": "mix_pool_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_mix_pool_1",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "反应池",
+      "en": "Reactor Crucible"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "50",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "27"
   },
   "planter_1": {
     "bandwidth": "2",
@@ -2895,11 +3238,199 @@
     "roadAttachSide": "0",
     "type": "6"
   },
-  "dumper_nop_1": {
+  "power_diffuser_1": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_power_diffuser_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "通电后可给较大范围内的终末地设备无线供电。\n完成后续工业计划研发后可进行30m内短距离电力运输。",
+      "en": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area. Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability."
+    },
+    "iconOnPanel": "icon_port_power_diffuser_1",
+    "id": "power_diffuser_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole",
+    "modelHeight": 6.7,
+    "name": {
+      "cn": "供电桩",
+      "en": "Electric Pylon"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": "2",
+      "height": "7",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "23"
+  },
+  "power_diffuser_2": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_power_diffuser_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "在集成核心区域外可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
+      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances."
+    },
+    "iconOnPanel": "icon_port_power_pole_2",
+    "id": "power_diffuser_2",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerdiffuser_2",
+    "modelHeight": 6.7,
+    "name": {
+      "cn": "息壤供电桩",
+      "en": "Xiranite Pylon"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": "2",
+      "height": "7",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "23"
+  },
+  "power_pole_2": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_power_pole_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可以在80m范围内完成电力配给的中继设备，只能进行电力传输。\n完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
+      "en": "This relay can be used to transmit power to other facilities within an 80-meter radius. Researching certain AIC Factory Plan technologies also lets this facility wirelessly supply power to other Endfield facilities within a small area."
+    },
+    "iconOnPanel": "icon_port_power_pole_2",
+    "id": "power_pole_2",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole_2",
+    "modelHeight": 15.5,
+    "name": {
+      "cn": "中继器",
+      "en": "Relay Tower"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": "3",
+      "height": "15",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "2"
+  },
+  "power_pole_3": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_power_pole_3",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "在集成核心区域外可自动连接协议核心与全部息壤电力设备（80m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行电力传输与小范围供电。",
+      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range."
+    },
+    "iconOnPanel": "icon_port_power_pole_3",
+    "id": "power_pole_3",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerpole_3",
+    "modelHeight": 15.5,
+    "name": {
+      "cn": "息壤中继器",
+      "en": "Xiranite Relay"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": "3",
+      "height": "15",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "2"
+  },
+  "power_port_1": {
     "bandwidth": "0",
-    "bgOnPanel": "bg_port_dumper_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
+    "bgOnPanel": "bg_power_port_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": false,
     "delConfirmText": {
@@ -2907,19 +3438,200 @@
       "en": ""
     },
     "desc": {
-      "cn": "用于供给液体的设备。",
-      "en": "A facility for dispensing fluids."
+      "cn": "作为电路末端的终端中继器。",
+      "en": "An electric nexus is usually deployed at the end of a power transmission line."
     },
-    "iconOnPanel": "icon_port_dumper_1",
-    "id": "dumper_nop_1",
+    "iconOnPanel": "icon_power_port_1",
+    "id": "power_port_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerport",
+    "modelHeight": 3.4,
+    "name": {
+      "cn": "供电终端",
+      "en": "Electric Nexus"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "2",
+      "height": "4",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "18"
+  },
+  "power_station_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_power_sta_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
+      "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
+    },
+    "iconOnPanel": "icon_port_power_sta_1",
+    "id": "power_station_1",
     "inputPorts": [
       {
         "index": "0",
         "isOutput": "0",
-        "isPipe": true,
+        "isPipe": false,
         "trans": {
           "position": {
             "x": "0",
+            "y": "0",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_power_station_1",
+    "modelHeight": "3",
+    "name": {
+      "cn": "热能池",
+      "en": "Thermal Bank"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "electric_machine",
+    "range": {
+      "depth": "2",
+      "height": "4",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "3"
+  },
+  "power_terminal_1": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_power_port_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconOnPanel": "icon_power_port_1",
+    "id": "power_terminal_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_powerterminal",
+    "modelHeight": "7",
+    "name": {
+      "cn": "",
+      "en": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "2",
+      "height": "7",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "17"
+  },
+  "pump_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_pump_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于抽取液体的设备。",
+      "en": "A facility for pumping fluids."
+    },
+    "iconOnPanel": "icon_port_pump_1",
+    "id": "pump_1",
+    "inputPorts": [],
+    "limitType": "4",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_pump",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "水泵",
+      "en": "Fluid Pump"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
             "y": "3",
             "z": "1"
           },
@@ -2931,24 +3643,13 @@
         }
       }
     ],
-    "limitType": "4",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_dumper",
-    "modelHeight": 4.2,
-    "name": {
-      "cn": "给水器",
-      "en": "Fluid Supply Unit"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
     "placeDomainLimitCnt": [],
     "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
+    "powerConsume": "10",
+    "quickBarType": "source_machine",
     "range": {
       "depth": "3",
-      "height": "4",
+      "height": "5",
       "width": "3",
       "x": "0",
       "y": "0",
@@ -2958,13 +3659,13 @@
       "domain_2"
     ],
     "roadAttachSide": "0",
-    "type": "26"
+    "type": "25"
   },
-  "log_hongs_bus": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_log_hongs_bus",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
+  "seedcollector_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_seedcol_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
     "delConfirmText": {
@@ -2972,32 +3673,533 @@
       "en": ""
     },
     "desc": {
-      "cn": "可以在集成核心区域放置的仓库存取线基段，需要和仓库存取线源桩或其他生效的仓库存取线基段相连，其上可贴靠仓库存货口和仓库取货口。",
-      "en": "A bus section that can be deployed in the Core AIC Area. The Depot Bus Section must be connected to a Depot Bus Port or other active Depot Bus Sections. Once active, Depot Loaders and Depot Unloaders can be attached to the Depot Bus."
+      "cn": "能够采集普通植物种子的设备。",
+      "en": "A facility that extracts seeds from common crops."
     },
-    "iconOnPanel": "icon_port_log_hongs_bus",
-    "id": "log_hongs_bus",
-    "inputPorts": [],
+    "iconOnPanel": "icon_port_seedcol_1",
+    "id": "seedcollector_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
     "limitType": "0",
     "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": 2.1,
+    "markInfoId": "mark_bd_formula_seedcollector_1",
+    "modelHeight": 3.3,
     "name": {
-      "cn": "仓库存取线基段",
-      "en": "Depot Bus Section"
+      "cn": "采种机",
+      "en": "Seed-Picking Unit"
     },
-    "needPower": false,
-    "onlyShowOnMain": true,
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "10",
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": "5",
+      "height": "4",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "shaper_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_shaper_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "能够冲压各种容器的设备。",
+      "en": "A facility that produces various containers via stamp moulding."
+    },
+    "iconOnPanel": "icon_port_shaper_1",
+    "id": "shaper_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_shaper_1",
+    "modelHeight": 3.2,
+    "name": {
+      "cn": "塑形机",
+      "en": "Moulding Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "10",
+    "quickBarType": "basic_machine",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "soil_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "",
+      "en": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_2": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_2",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_2",
+    "modelHeight": "1",
+    "name": {
+      "cn": "",
+      "en": ""
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_bbflower_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量酮化灌木。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Aketine."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_bbflower_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_bbflower_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "酮化灌木田块",
+      "en": "Aketine Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_grass_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量锦草，有较高概率额外获得蓬茸锦草。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao and a higher chance of Fluffed Jincao."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "锦草田块",
+      "en": "Jincao Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
     "placeDomains": [
       "domain_2"
     ],
     "powerConsume": "0",
-    "quickBarType": "storage",
+    "quickBarType": "",
     "range": {
-      "depth": "8",
-      "height": "2",
+      "depth": "4",
+      "height": "1",
       "width": "4",
       "x": "0",
       "y": "0",
@@ -3007,7 +4209,567 @@
       "domain_2"
     ],
     "roadAttachSide": "0",
-    "type": "32"
+    "type": "15"
+  },
+  "soil_grass_2": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量芽针，有较高概率额外获得荆刺芽针。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen and a higher chance of Thorny Yazhen."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_2",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_2",
+    "modelHeight": "1",
+    "name": {
+      "cn": "芽针田块",
+      "en": "Yazhen Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_grass_fast_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量锦草。",
+      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_fast_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_fast_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "模拟锦草田块",
+      "en": "Jincao Plot (SIM)"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_grass_fast_2": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量芽针。",
+      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_grass_fast_2",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_grass_fast_2",
+    "modelHeight": "1",
+    "name": {
+      "cn": "模拟芽针田块",
+      "en": "Yazhen Plot (SIM)"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_moss_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量荞花，有较高概率额外获得映火荞花。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Buckflowers and a higher chance of Firebuckle."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "荞花田块",
+      "en": "Buckflower Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_moss_2": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量柑实，有较高概率额外获得黯银柑实。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Citromes and a higher chance of Umbraline."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_2",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_2",
+    "modelHeight": "1",
+    "name": {
+      "cn": "柑实田块",
+      "en": "Citrome Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_moss_3": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量砂叶。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Sandleaves."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_moss_3",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_moss_3",
+    "modelHeight": "1",
+    "name": {
+      "cn": "砂叶田块",
+      "en": "Sandleaf Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量灰芦麦。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Reed Rye."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_1",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_1",
+    "modelHeight": "1",
+    "name": {
+      "cn": "灰芦麦田块",
+      "en": "Reed Rye Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_2": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量苦叶椒。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Tartpeppers."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_2",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_2",
+    "modelHeight": "1",
+    "name": {
+      "cn": "苦叶椒田块",
+      "en": "Tartpepper Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_3": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_3",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_3",
+    "modelHeight": "1",
+    "name": {
+      "cn": "琼叶参田块",
+      "en": "Redjade Ginseng Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_4": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
+      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_4",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_4",
+    "modelHeight": "1",
+    "name": {
+      "cn": "金石稻田块",
+      "en": "Amber Rice Plot"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [
+      "domain_2"
+    ],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_fast_3": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
+      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_fast_3",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_fast_3",
+    "modelHeight": "1",
+    "name": {
+      "cn": "模拟琼叶参田块",
+      "en": "Redjade Ginseng Plot (SIM)"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
+  },
+  "soil_sp_fast_4": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_soil_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "回收时种植作物无法获取，确认回收吗？",
+      "en": "Retrieve this plot and lose the crops planted on it?"
+    },
+    "desc": {
+      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
+      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
+    },
+    "iconOnPanel": "icon_port_soil_1",
+    "id": "soil_sp_fast_4",
+    "inputPorts": [],
+    "limitType": "3",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_soil_sp_fast_4",
+    "modelHeight": "1",
+    "name": {
+      "cn": "模拟金石稻田块",
+      "en": "Amber Rice Plot (SIM)"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "4",
+      "height": "1",
+      "width": "4",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "15"
   },
   "sp_hub_1": {
     "bandwidth": "0",
@@ -3395,2237 +5157,6 @@
     "recommendDomains": [],
     "roadAttachSide": "0",
     "type": "1"
-  },
-  "filling_powder_mc_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_filling_pd_mc_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "能够将原料灌装到容器的设备。",
-      "en": "A facility capable of filling containers with various materials."
-    },
-    "iconOnPanel": "icon_port_filling_pd_mc_1",
-    "id": "filling_powder_mc_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "5",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "5",
-            "y": "0",
-            "z": "3"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "6",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_filling_powder_mc_1",
-    "modelHeight": 3.4,
-    "name": {
-      "cn": "灌装机",
-      "en": "Filling Unit"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "5",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "5",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "20",
-    "quickBarType": "assemble_machine",
-    "range": {
-      "depth": "4",
-      "height": "4",
-      "width": "6",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "6"
-  },
-  "soil_moss_2": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量柑实，有较高概率额外获得黯银柑实。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Citromes and a higher chance of Umbraline."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_moss_2",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_moss_2",
-    "modelHeight": "1",
-    "name": {
-      "cn": "柑实田块",
-      "en": "Citrome Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "furnance_nop_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_furnance_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "使用高温熔炼其他材料的设备。",
-      "en": "A facility that performs high temperature smelting of various materials."
-    },
-    "iconOnPanel": "icon_port_furnance_1",
-    "id": "furnance_nop_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_furnance_1",
-    "modelHeight": 3.94,
-    "name": {
-      "cn": "精炼炉",
-      "en": "Refining Unit"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "5",
-    "quickBarType": "",
-    "range": {
-      "depth": "3",
-      "height": "4",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "6"
-  },
-  "grinder_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_grinder_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "能粉碎各种材料的重型设备。",
-      "en": "A heavy facility that shreds and pulverizes various materials."
-    },
-    "iconOnPanel": "icon_port_grinder_1",
-    "id": "grinder_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "2"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_grinder_1",
-    "modelHeight": 3.4,
-    "name": {
-      "cn": "粉碎机",
-      "en": "Shredding Unit"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "5",
-    "quickBarType": "basic_machine",
-    "range": {
-      "depth": "3",
-      "height": "4",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "6"
-  },
-  "travel_pole_nop_1": {
-    "bandwidth": "3",
-    "bgOnPanel": "bg_port_travel_pole_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": false,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "可在80m范围内相连，架起索道的小型设备。",
-      "en": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline."
-    },
-    "iconOnPanel": "icon_port_travel_pole_1",
-    "id": "travel_pole_nop_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_transtower",
-    "modelHeight": 6.6,
-    "name": {
-      "cn": "滑索架",
-      "en": "Zipline Pylon"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "3",
-      "height": "7",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "16"
-  },
-  "liquid_cleaner_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_liquid_cleaner_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
-      "en": "A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency."
-    },
-    "iconOnPanel": "icon_port_liquid_cleaner_1",
-    "id": "liquid_cleaner_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": true,
-    "markInfoId": "mark_bd_formula_liquid_cleaner_1",
-    "modelHeight": 3.4,
-    "name": {
-      "cn": "废水处理机",
-      "en": "Water Treatment Unit"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "50",
-    "quickBarType": "basic_machine",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "28"
-  },
-  "loader_1": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_loader_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "可将物品运送至当地仓库的活动端口，只能贴靠仓库存取线放置。",
-      "en": "A placeable loading point that delivers goods from the AIC Factory to a local depot. The Depot Loader must be placed right next to the Depot Bus."
-    },
-    "iconOnPanel": "icon_port_loader_1",
-    "id": "loader_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "2",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": "3",
-    "name": {
-      "cn": "仓库存货口",
-      "en": "Depot Loader"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "storage",
-    "range": {
-      "depth": "1",
-      "height": "3",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "2",
-    "type": "10"
-  },
-  "log_hongs_bus_source": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_log_hongs_bus_source",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "作为仓库存取线的起始点，可以在集成核心区域自由放置。",
-      "en": "The origin of the Depot Bus. The Depot Bus Port can be placed anywhere in the Core AIC Area."
-    },
-    "iconOnPanel": "icon_port_log_hongs_bus_source",
-    "id": "log_hongs_bus_source",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": 2.1,
-    "name": {
-      "cn": "仓库存取线源桩",
-      "en": "Depot Bus Port"
-    },
-    "needPower": false,
-    "onlyShowOnMain": true,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "storage",
-    "range": {
-      "depth": "4",
-      "height": "2",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "31"
-  },
-  "miner_3": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_miner_3",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": false,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "在通电状态下，可以用来开采蓝铁矿等多种矿物的机械设备。",
-      "en": "Requires power. This mining rig can mine Ferrium Ore and other minerals."
-    },
-    "iconOnPanel": "icon_port_miner_3",
-    "id": "miner_3",
-    "inputPorts": [],
-    "limitType": "1",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": "5",
-    "name": {
-      "cn": "二型电驱矿机",
-      "en": "Electric Mining Rig Mk II"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "10",
-    "quickBarType": "source_machine",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "8"
-  },
-  "miner_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_miner_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": false,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "用来开采源矿的机械设备，可使用源石完成自供能，不需要通电就可以运作。",
-      "en": "A mining rig for digging up Originium Ore. This rig does not need to be connected to the power grid to work as it powers itself using the Originium it mines."
-    },
-    "iconOnPanel": "icon_port_miner_1",
-    "id": "miner_1",
-    "inputPorts": [],
-    "limitType": "1",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": 2.3,
-    "name": {
-      "cn": "便携源石矿机",
-      "en": "Portable Originium Rig"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "source_machine",
-    "range": {
-      "depth": "3",
-      "height": "3",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_1"
-    ],
-    "roadAttachSide": "0",
-    "type": "8"
-  },
-  "miner_2": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_miner_2",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": false,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "在通电状态下，可以用来开采源矿、类晶石的机械设备。",
-      "en": "Requires power. This mining rig can mine Originium Ore and Krystallite."
-    },
-    "iconOnPanel": "icon_port_miner_2",
-    "id": "miner_2",
-    "inputPorts": [],
-    "limitType": "1",
-    "liquidEnabled": false,
-    "markInfoId": "",
-    "modelHeight": "5",
-    "name": {
-      "cn": "电驱矿机",
-      "en": "Electric Mining Rig"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "5",
-    "quickBarType": "source_machine",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "8"
-  },
-  "power_terminal_1": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_power_port_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "iconOnPanel": "icon_power_port_1",
-    "id": "power_terminal_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerterminal",
-    "modelHeight": "7",
-    "name": {
-      "cn": "",
-      "en": ""
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "2",
-      "height": "7",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "17"
-  },
-  "miner_4": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_miner_4",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": false,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "用来开采赤铜矿等多种矿物的机械设备，可使用清水完成自供能，不需要通电就可以运作。",
-      "en": "A mining rig for digging up various types of ore such as Cuprium Ore. This rig does not need power as it can be driven with Clean Water."
-    },
-    "iconOnPanel": "icon_port_liquid_miner",
-    "id": "miner_4",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": true,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "3",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "90",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "1",
-    "liquidEnabled": true,
-    "markInfoId": "",
-    "modelHeight": 4.7,
-    "name": {
-      "cn": "水驱矿机",
-      "en": "Hydro Mining Rig"
-    },
-    "needPower": false,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "source_machine",
-    "range": {
-      "depth": "3",
-      "height": "5",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "8"
-  },
-  "power_diffuser_1": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_power_diffuser_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "通电后可给较大范围内的终末地设备无线供电。\n完成后续工业计划研发后可进行30m内短距离电力运输。",
-      "en": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area. Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability."
-    },
-    "iconOnPanel": "icon_port_power_diffuser_1",
-    "id": "power_diffuser_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerpole",
-    "modelHeight": 6.7,
-    "name": {
-      "cn": "供电桩",
-      "en": "Electric Pylon"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "electric_machine",
-    "range": {
-      "depth": "2",
-      "height": "7",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "23"
-  },
-  "soil_2": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_2",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_2",
-    "modelHeight": "1",
-    "name": {
-      "cn": "",
-      "en": ""
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "power_pole_2": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_power_pole_2",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "可以在80m范围内完成电力配给的中继设备，只能进行电力传输。\n完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
-      "en": "This relay can be used to transmit power to other facilities within an 80-meter radius. Researching certain AIC Factory Plan technologies also lets this facility wirelessly supply power to other Endfield facilities within a small area."
-    },
-    "iconOnPanel": "icon_port_power_pole_2",
-    "id": "power_pole_2",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerpole_2",
-    "modelHeight": 15.5,
-    "name": {
-      "cn": "中继器",
-      "en": "Relay Tower"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "electric_machine",
-    "range": {
-      "depth": "3",
-      "height": "15",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "2"
-  },
-  "power_pole_3": {
-    "bandwidth": "1",
-    "bgOnPanel": "bg_port_power_pole_3",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "在集成核心区域外可自动连接协议核心与全部息壤电力设备（80m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行电力传输与小范围供电。",
-      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range."
-    },
-    "iconOnPanel": "icon_port_power_pole_3",
-    "id": "power_pole_3",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerpole_3",
-    "modelHeight": 15.5,
-    "name": {
-      "cn": "息壤中继器",
-      "en": "Xiranite Relay"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "electric_machine",
-    "range": {
-      "depth": "3",
-      "height": "15",
-      "width": "3",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "2"
-  },
-  "soil_grass_fast_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量锦草。",
-      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Jincao."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_grass_fast_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_grass_fast_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "模拟锦草田块",
-      "en": "Jincao Plot (SIM)"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "power_port_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_power_port_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": false,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "作为电路末端的终端中继器。",
-      "en": "An electric nexus is usually deployed at the end of a power transmission line."
-    },
-    "iconOnPanel": "icon_power_port_1",
-    "id": "power_port_1",
-    "inputPorts": [],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_powerport",
-    "modelHeight": 3.4,
-    "name": {
-      "cn": "供电终端",
-      "en": "Electric Nexus"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "2",
-      "height": "4",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "18"
-  },
-  "power_station_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_power_sta_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
-      "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
-    },
-    "iconOnPanel": "icon_port_power_sta_1",
-    "id": "power_station_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "1"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_power_station_1",
-    "modelHeight": "3",
-    "name": {
-      "cn": "热能池",
-      "en": "Thermal Bank"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "electric_machine",
-    "range": {
-      "depth": "2",
-      "height": "4",
-      "width": "2",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "3"
-  },
-  "seedcollector_1": {
-    "bandwidth": "2",
-    "bgOnPanel": "bg_port_seedcol_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
-    "canBatchModeTogglePower": true,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "",
-      "en": ""
-    },
-    "desc": {
-      "cn": "能够采集普通植物种子的设备。",
-      "en": "A facility that extracts seeds from common crops."
-    },
-    "iconOnPanel": "icon_port_seedcol_1",
-    "id": "seedcollector_1",
-    "inputPorts": [
-      {
-        "index": "0",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "0",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "4"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "limitType": "0",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_formula_seedcollector_1",
-    "modelHeight": 3.3,
-    "name": {
-      "cn": "采种机",
-      "en": "Seed-Picking Unit"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [
-      {
-        "index": "0",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "0",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "1",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "1",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "2",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "2",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "3",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "3",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      },
-      {
-        "index": "4",
-        "isOutput": "1",
-        "isPipe": false,
-        "trans": {
-          "position": {
-            "x": "4",
-            "y": "0",
-            "z": "0"
-          },
-          "rotation": {
-            "x": "0",
-            "y": "180",
-            "z": "0"
-          }
-        }
-      }
-    ],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "10",
-    "quickBarType": "basic_machine",
-    "range": {
-      "depth": "5",
-      "height": "4",
-      "width": "5",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "6"
-  },
-  "soil_sp_fast_4": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "模拟空间内专用田块，生长速度远快于正常田块。此田块上按步骤进行精细种植，收获后可获得大量金石稻。",
-      "en": "A simulated farm plot with faster growth rate than its real counterpart. To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Amber Rice."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_fast_4",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_fast_4",
-    "modelHeight": "1",
-    "name": {
-      "cn": "模拟金石稻田块",
-      "en": "Amber Rice Plot (SIM)"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "",
-      "en": ""
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "",
-      "en": ""
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_bbflower_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量酮化灌木。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Aketine."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_bbflower_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_bbflower_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "酮化灌木田块",
-      "en": "Aketine Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_grass_2": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量芽针，有较高概率额外获得荆刺芽针。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Yazhen and a higher chance of Thorny Yazhen."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_grass_2",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_grass_2",
-    "modelHeight": "1",
-    "name": {
-      "cn": "芽针田块",
-      "en": "Yazhen Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_moss_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量荞花，有较高概率额外获得映火荞花。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Buckflowers and a higher chance of Firebuckle."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_moss_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_moss_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "荞花田块",
-      "en": "Buckflower Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_sp_1": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量灰芦麦。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Reed Rye."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_1",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_1",
-    "modelHeight": "1",
-    "name": {
-      "cn": "灰芦麦田块",
-      "en": "Reed Rye Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_sp_2": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量苦叶椒。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Tartpeppers."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_2",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_2",
-    "modelHeight": "1",
-    "name": {
-      "cn": "苦叶椒田块",
-      "en": "Tartpepper Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [],
-    "roadAttachSide": "0",
-    "type": "15"
-  },
-  "soil_sp_3": {
-    "bandwidth": "0",
-    "bgOnPanel": "bg_port_soil_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Small",
-    "canBatchModeTogglePower": false,
-    "canBatchSelect": true,
-    "canDelete": true,
-    "delConfirmText": {
-      "cn": "回收时种植作物无法获取，确认回收吗？",
-      "en": "Retrieve this plot and lose the crops planted on it?"
-    },
-    "desc": {
-      "cn": "此田块上按步骤进行精细种植，收获后可获得大量琼叶参。",
-      "en": "To use this plot, follow the steps of fine cultivation and harvest the ripened crops to get plenty of Redjade Ginseng."
-    },
-    "iconOnPanel": "icon_port_soil_1",
-    "id": "soil_sp_3",
-    "inputPorts": [],
-    "limitType": "3",
-    "liquidEnabled": false,
-    "markInfoId": "mark_bd_soil_sp_3",
-    "modelHeight": "1",
-    "name": {
-      "cn": "琼叶参田块",
-      "en": "Redjade Ginseng Plot"
-    },
-    "needPower": true,
-    "onlyShowOnMain": false,
-    "outputPorts": [],
-    "placeDomainLimitCnt": [],
-    "placeDomains": [
-      "domain_2"
-    ],
-    "powerConsume": "0",
-    "quickBarType": "",
-    "range": {
-      "depth": "4",
-      "height": "1",
-      "width": "4",
-      "x": "0",
-      "y": "0",
-      "z": "0"
-    },
-    "recommendDomains": [
-      "domain_2"
-    ],
-    "roadAttachSide": "0",
-    "type": "15"
   },
   "sp_sub_hub_1": {
     "bandwidth": "0",
@@ -6693,6 +6224,302 @@
     "roadAttachSide": "0",
     "type": "6"
   },
+  "tools_assebling_mc_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_tools_asm_mc_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于封装部分能量元件的设备。",
+      "en": "A facility for packaging certain power components."
+    },
+    "iconOnPanel": "icon_port_tools_asm_mc_1",
+    "id": "tools_assebling_mc_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "0",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
+    "modelHeight": 2.9,
+    "name": {
+      "cn": "封装机",
+      "en": "Packaging Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "4",
+      "height": "4",
+      "width": "6",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "travel_pole_1": {
+    "bandwidth": "3",
+    "bgOnPanel": "bg_port_travel_pole_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可在80m范围内相连，架起索道的小型设备。",
+      "en": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline."
+    },
+    "iconOnPanel": "icon_port_travel_pole_1",
+    "id": "travel_pole_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_transtower",
+    "modelHeight": "7",
+    "name": {
+      "cn": "滑索架",
+      "en": "Zipline Pylon"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "5",
+    "quickBarType": "extra_machine",
+    "range": {
+      "depth": "3",
+      "height": "7",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "16"
+  },
   "travel_pole_2": {
     "bandwidth": "3",
     "bgOnPanel": "bg_port_travel_pole_2",
@@ -6726,6 +6553,51 @@
     "placeDomains": [],
     "powerConsume": "5",
     "quickBarType": "extra_machine",
+    "range": {
+      "depth": "3",
+      "height": "7",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "16"
+  },
+  "travel_pole_nop_1": {
+    "bandwidth": "3",
+    "bgOnPanel": "bg_port_travel_pole_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": false,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可在80m范围内相连，架起索道的小型设备。",
+      "en": "A small zipline facility that can be connected to another zipline facility within an 80-meter radius to create a zipline."
+    },
+    "iconOnPanel": "icon_port_travel_pole_1",
+    "id": "travel_pole_nop_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_transtower",
+    "modelHeight": 6.6,
+    "name": {
+      "cn": "滑索架",
+      "en": "Zipline Pylon"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
     "range": {
       "depth": "3",
       "height": "7",
@@ -6802,6 +6674,134 @@
     ],
     "roadAttachSide": "0",
     "type": "33"
+  },
+  "udpipe_unloader_1": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_udpipe_unloader_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "地下暗管的出口，可与暗管入口进行配对连接，传输管道中的货物。",
+      "en": "An outlet for an underground pipeline. Connect this to a matching Conduit inlet to transport fluids through it."
+    },
+    "iconOnPanel": "icon_pot_udpipe_unloader_1",
+    "id": "udpipe_unloader_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_underpipe_2",
+    "modelHeight": 3.6,
+    "name": {
+      "cn": "暗管出口",
+      "en": "Conduit Outlet"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "roadAttachSide": "0",
+    "type": "34"
+  },
+  "unloader_1": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_unloader_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可选择物品从当地仓库取出的活动端口，只能贴靠仓库存取线放置。",
+      "en": "A placeable unloading point that transfers goods from a local depot into the AIC Factory. The Depot Unloader must be placed right next to the Depot Bus."
+    },
+    "iconOnPanel": "icon_port_unloader_1",
+    "id": "unloader_1",
+    "inputPorts": [],
+    "limitType": "2",
+    "liquidEnabled": false,
+    "markInfoId": "",
+    "modelHeight": "3",
+    "name": {
+      "cn": "仓库取货口",
+      "en": "Depot Unloader"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "1",
+      "height": "3",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "roadAttachSide": "0",
+    "type": "11"
   },
   "v_fluid_container_1": {
     "bandwidth": "0",
