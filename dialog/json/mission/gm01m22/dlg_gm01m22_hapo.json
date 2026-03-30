@@ -1,0 +1,106 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_dialogIfData": {
+                "condition": {
+                    "_dialogId": {
+                        "constValue": "dlg_gm01m22_4"
+                    },
+                    "_finishId": {
+                        "constValue": -1
+                    },
+                    "$type": "Beyond.Gameplay.CheckTalkOptionFinish"
+                }
+            },
+            "_position": {
+                "x": 219.4193,
+                "y": 485.4479
+            },
+            "$type": "Beyond.Gameplay.DialogTreeIfNode",
+            "$id": "0"
+        },
+        {
+            "_dialogId": "dlg_gm01m22_8",
+            "additionalWidth": 85.0,
+            "_position": {
+                "x": 523.1561,
+                "y": 368.734
+            },
+            "$type": "Beyond.Gameplay.DialogTreeDialogNode",
+            "$id": "1"
+        },
+        {
+            "_dialogId": "dlg_gm01m22_6",
+            "additionalWidth": 85.0,
+            "_position": {
+                "x": 515.9562,
+                "y": 573.5339
+            },
+            "$type": "Beyond.Gameplay.DialogTreeDialogNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 1,
+        "_useBlackScreen": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "useNpcProxy": true,
+        "actors": [
+            {
+                "actorType": 256,
+                "levelId": "map01_lv005",
+                "actorId": "hapo_map01",
+                "npcProxyId": "hapo_map01_001",
+                "useNpcProxy": true
+            }
+        ],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

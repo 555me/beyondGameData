@@ -1,0 +1,110 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e1m2_8_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 560.0,
+                "y": 1180.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 760.0,
+                "y": 1180.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0,
+            "fadeOutDuration": 0.0
+        },
+        "hideSquad": true,
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 25.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "inAudioEvent": "au_music_dlg_e1m2_8",
+        "outAudioEvent": "au_music_dlg_empty",
+        "useNpcProxy": true,
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 1,
+                "position": {
+                    "x": -380.398,
+                    "y": 118.3041,
+                    "z": -179.66
+                },
+                "rotation": {
+                    "y": 19.4083
+                }
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 0,
+                "position": {
+                    "x": -381.859,
+                    "y": 118.2989,
+                    "z": -177.473
+                },
+                "rotation": {
+                    "y": 61.62281
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

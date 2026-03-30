@@ -1,0 +1,94 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_dialogIfData": {
+                "condition": {
+                    "_dialogId": {
+                        "constValue": "dlg_map01_lv001_env_12"
+                    },
+                    "_finishId": {
+                        "constValue": -1
+                    },
+                    "$type": "Beyond.Gameplay.CheckTalkOptionFinish"
+                }
+            },
+            "_position": {
+                "x": 460.0,
+                "y": 80.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeIfNode",
+            "$id": "0"
+        },
+        {
+            "_dialogId": "dlg_map01_lv001_env_12",
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 640.0,
+                "y": -40.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeDialogNode",
+            "$id": "1"
+        },
+        {
+            "_dialogId": "dlg_map01_lv001_env_13",
+            "finishId": 1,
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 640.0,
+                "y": 120.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeDialogNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 1,
+        "_useBlackScreen": false,
+        "hideSquad": true,
+        "needNpcTurnTo": false,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "useNpcProxy": true,
+        "actors": [],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e2m5_2_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -584.9087,
+                "y": -97.99576
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -231.8149,
+                "y": -119.9545
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 713.65,
+            "y": 116.55,
+            "z": -177.64
+        },
+        "rootRot": {
+            "y": 310.95
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "inAudioEvent": "au_music_dlg_e2m5_2",
+        "outAudioEvent": "au_music_dlg_empty",
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0002_endminm",
+                "lookAt": 3,
+                "position": {
+                    "x": -1.79,
+                    "z": 0.54
+                },
+                "rotation": {
+                    "y": 33.6
+                }
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 3,
+                "position": {
+                    "x": -1.0,
+                    "z": -0.38
+                },
+                "rotation": {
+                    "y": 17.81
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "lookAt": 3,
+                "position": {
+                    "x": 716.3077,
+                    "y": 116.64,
+                    "z": -182.9385
+                },
+                "rotation": {
+                    "x": 0.4899999,
+                    "y": 345.59,
+                    "z": 339.7
+                }
+            },
+            {
+                "templateId": "npc_chr_0017_yvonne",
+                "position": {
+                    "x": 1.501331,
+                    "y": 0.9079971,
+                    "z": 10.86218
+                },
+                "rotation": {
+                    "x": -0.0004775202,
+                    "y": 19.99285,
+                    "z": 0.0003136474
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [
+            {
+                "path": "P_anm_tundra_zmdmachine+1_004_03"
+            }
+        ],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

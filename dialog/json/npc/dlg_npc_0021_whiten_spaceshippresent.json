@@ -1,0 +1,1353 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": -499.1785,
+                "y": 337.0635
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "0"
+        },
+        {
+            "_trunkReplaceData": {
+                "replaceItems": [
+                    {
+                        "trunkId": "sim_talk_whiten_lv01_01",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 1
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    },
+                    {
+                        "trunkId": "sim_talk_whiten_lv02_01",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 2
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    },
+                    {
+                        "trunkId": "sim_talk_whiten_lv02_02",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 2
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    },
+                    {
+                        "trunkId": "sim_talk_whiten_max_01",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 3
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    },
+                    {
+                        "trunkId": "sim_talk_whiten_max_02",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 3
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    },
+                    {
+                        "trunkId": "sim_talk_whiten_max_03",
+                        "activeCondition": {
+                            "_charId": {
+                                "constValue": "chr_0021_whiten"
+                            },
+                            "_friendShipLevel": {
+                                "constValue": 3
+                            },
+                            "_comparer": {
+                                "constValue": 3
+                            },
+                            "$type": "Beyond.Gameplay.CharFriendshipLevel"
+                        }
+                    }
+                ]
+            },
+            "additionalWidth": 92.0,
+            "_position": {
+                "x": -415.1826,
+                "y": 638.7343
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExTrunkReplaceNode",
+            "$id": "1"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "dlg_spaceship_present_o_1_1",
+                    "conditionData": {
+                        "conditionEvalString": "not{0}and not{1}",
+                        "subConditions": [
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "$type": "Beyond.Gameplay.CharDailyGiftFriendshipIncreaseMax"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "$type": "Beyond.Gameplay.CharFriendshipMax"
+                            }
+                        ],
+                        "$type": "Beyond.Gameplay.CombineCondition"
+                    },
+                    "index": 1,
+                    "selectedFlag": false,
+                    "logicId": 82
+                },
+                {
+                    "_optionId": "dlg_spaceship_present_o_1_1",
+                    "conditionData": {
+                        "conditionEvalString": "{0}and not{1}",
+                        "subConditions": [
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "$type": "Beyond.Gameplay.CharDailyGiftFriendshipIncreaseMax"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "$type": "Beyond.Gameplay.CharFriendshipMax"
+                            }
+                        ],
+                        "$type": "Beyond.Gameplay.CombineCondition"
+                    },
+                    "index": 2,
+                    "setGreyed": true,
+                    "selectedFlag": false,
+                    "logicId": 553
+                },
+                {
+                    "_optionId": "dlg_spaceship_present_o_1_6",
+                    "conditionData": {
+                        "_charId": {
+                            "constValue": "chr_0021_whiten"
+                        },
+                        "$type": "Beyond.Gameplay.CharFriendshipMax"
+                    },
+                    "index": 3,
+                    "selectedFlag": false,
+                    "logicId": 73
+                },
+                {
+                    "charId": "",
+                    "state": 1,
+                    "_optionId": "dlg_spaceship_present_o_1_2",
+                    "conditionData": {
+                        "conditionEvalString": "{0}and{1}",
+                        "subConditions": [
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_isWorking": {
+                                    "constValue": true
+                                },
+                                "$type": "Beyond.Gameplay.CharIsWorkingInSpaceship"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_stamina": {
+                                    "constValue": 9500
+                                },
+                                "_comparer": {
+                                    "constValue": 5
+                                },
+                                "$type": "Beyond.Gameplay.CharCurStamina"
+                            }
+                        ],
+                        "$type": "Beyond.Gameplay.CombineCondition"
+                    },
+                    "index": 4,
+                    "optionIconColor": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "logicId": 40,
+                    "$type": "Beyond.Gameplay.SpaceshipOptionWorkData"
+                },
+                {
+                    "charId": "",
+                    "_optionId": "dlg_spaceship_present_o_1_4",
+                    "conditionData": {
+                        "conditionEvalString": "{0}and{1}and{2}and{3}",
+                        "subConditions": [
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_isWorking": {
+
+                                },
+                                "$type": "Beyond.Gameplay.CharIsWorkingInSpaceship"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_isInStation": {
+                                    "constValue": true
+                                },
+                                "$type": "Beyond.Gameplay.CharIsInStationInSpaceship"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_stamina": {
+                                    "constValue": 500
+                                },
+                                "_comparer": {
+                                    "constValue": 3
+                                },
+                                "$type": "Beyond.Gameplay.CharCurStamina"
+                            },
+                            {
+                                "_charId": {
+                                    "constValue": "chr_0021_whiten"
+                                },
+                                "_stamina": {
+                                    "constValue": 10000
+                                },
+                                "_comparer": {
+                                    "constValue": 5
+                                },
+                                "$type": "Beyond.Gameplay.CharCurStamina"
+                            }
+                        ],
+                        "$type": "Beyond.Gameplay.CombineCondition"
+                    },
+                    "index": 5,
+                    "optionIconColor": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                    },
+                    "logicId": 42,
+                    "$type": "Beyond.Gameplay.SpaceshipOptionWorkData"
+                },
+                {
+                    "_optionId": "dlg_spaceship_present_o_1_5",
+                    "main": true,
+                    "index": 6,
+                    "selectedFlag": false,
+                    "logicId": 83
+                }
+            ],
+            "_hasExOption": true,
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 150.5057,
+                "y": 243.4433
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "2"
+        },
+        {
+            "_position": {
+                "x": 237.1694,
+                "y": 549.3369
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExOptionNode",
+            "$id": "3"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "duration": 0.1,
+                                "$type": "Beyond.Gameplay.DialogTextFadeActionData"
+                            },
+                            {
+                                "emotionDesc": {
+                                    "emotionTag": {
+                                        "tagName": "FacialMorph/Emotion/happys",
+                                        "tagId": -261552492
+                                    },
+                                    "browsTrackInfo": {
+
+                                    },
+                                    "eyesTrackInfo": {
+
+                                    },
+                                    "mouthTrackInfo": {
+
+                                    }
+                                },
+                                "mEmotionDesc": {
+                                    "browsTrackInfo": {
+
+                                    },
+                                    "eyesTrackInfo": {
+
+                                    },
+                                    "mouthTrackInfo": {
+
+                                    }
+                                },
+                                "actorIndex": 0,
+                                "duration": 0.1,
+                                "$type": "Beyond.Gameplay.DialogEmotionActData"
+                            },
+                            {
+                                "$type": "Beyond.Gameplay.DialogCamPitchActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 14.0,
+            "_position": {
+                "x": 553.2552,
+                "y": 26.73214
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "4"
+        },
+        {
+            "_actionData": {
+                "panelType": 7,
+                "param": "{\"charId\": \"chr_0021_whiten\"}",
+                "duration": -1.0,
+                "actionEnum": 57,
+                "$type": "Beyond.Gameplay.DialogOpenUIAction"
+            },
+            "additionalWidth": 131.0,
+            "_position": {
+                "x": 718.8079,
+                "y": 14.70944
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOpenUINode",
+            "$id": "5"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 0.5,
+                        "actions": [
+                            {
+                                "anim": {
+                                    "charMontageDesc": {
+                                        "charUseNpcMontage": true,
+                                        "charNpcMontage": {
+                                            "tagName": "Montage/NPC/VirtualEndmin/give_gift",
+                                            "tagId": -329400017
+                                        },
+                                        "blendInTime": 1.0
+                                    },
+                                    "montageDesc": {
+                                        "montageOverrideEntryTransitionInfo": [],
+                                        "actorId": "chr_9000_endmin",
+                                        "proxyId": null
+                                    },
+                                    "maleMontageOverrideDesc": {
+                                        "actorId": "chr_9000_endmin",
+                                        "proxyId": null
+                                    }
+                                },
+                                "actorIndex": 1,
+                                "$type": "Beyond.Gameplay.DialogAnimActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 1143.2,
+                "y": -124.8
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "6"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "sim_gift_whiten_recv_01",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "tweenTime": -1.0,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "bKeepMontageBefore": true,
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/Humanoid/Particular/Girl/Whiten/receive_gift",
+                                    "tagId": -538163529
+                                },
+                                "montageFadeInTransitionInfo": {
+                                    "bIsFixedTransitionTime": true,
+                                    "fixedTransitionDuration": 0.5
+                                },
+                                "montageOverrideEntryTransitionInfo": [],
+                                "actorId": "whiten_base01_lv001",
+                                "proxyId": "whiten_base01_lv001_default"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "montageOverrideEntryTransitionInfo": [],
+                                "actorId": "whiten_base01_lv001",
+                                "proxyId": "whiten_base01_lv001_default"
+                            }
+                        },
+                        "actorIndex": 0,
+                        "delay": 0.5,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    },
+                    {
+                        "reset": true,
+                        "emptyTargetDescriptor": {
+
+                        },
+                        "lookAtDescriptor": {
+
+                        },
+                        "actorIndex": 0,
+                        "delay": 0.5,
+                        "$type": "Beyond.Gameplay.DialogLookAtActData"
+                    },
+                    {
+                        "setCoreEmotionWeight": true,
+                        "emotionWeight": 0.0,
+                        "actorIndex": 0,
+                        "$type": "Beyond.Gameplay.DialogEmotionWeightActData"
+                    },
+                    {
+                        "setCoreEmotionWeight": true,
+                        "actorIndex": 0,
+                        "delay": 8.0,
+                        "$type": "Beyond.Gameplay.DialogEmotionWeightActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_UID": "a69b4f82-3312-4087-b52e-169ac95cfadd",
+            "_name": "\u540d\u5b572",
+            "_position": {
+                "x": 1423.139,
+                "y": -152.3061
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "7"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "duration": 0.1,
+                                "$type": "Beyond.Gameplay.DialogCamResetActionData"
+                            },
+                            {
+                                "envTalkId": "envEmoji_common_love",
+                                "actorIndex": 0,
+                                "duration": 0.1,
+                                "$type": "Beyond.Gameplay.EnvTalkActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 0.5,
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
+                                    }
+                                },
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "setCoreEmotionWeight": true,
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogEmotionWeightActData"
+                            }
+                        ]
+                    },
+                    {
+                        "actions": [
+                            {
+                                "show": true,
+                                "duration": 0.1,
+                                "isMainAction": true,
+                                "$type": "Beyond.Gameplay.DialogShowSquadActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 10.0,
+            "_position": {
+                "x": 1794.192,
+                "y": -83.90591
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "8"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "sim_gift_whiten_givebye_01",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "duration": 0.1,
+                                "$type": "Beyond.Gameplay.DialogCamResetActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 0.5
+                                },
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            }
+                        ]
+                    },
+                    {
+                        "actions": [
+                            {
+                                "show": true,
+                                "duration": 0.1,
+                                "isMainAction": true,
+                                "$type": "Beyond.Gameplay.DialogShowSquadActData"
+                            }
+                        ]
+                    }
+                ],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 1111.97,
+                "y": 66.18442
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "9"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1456.779,
+                "y": 133.4694
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "10"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "sim_rest_whiten_01",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 637.7995,
+                "y": 259.6448
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "11"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 968.8195,
+                "y": 279.0373
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "12"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "sim_work_whiten_01",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "whiten_base01_lv001",
+                            "proxyId": "whiten_base01_lv001_default"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 646.4183,
+                "y": 488.0459
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "13"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 984.9797,
+                "y": 506.3611
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "14"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 588.5101,
+                "y": 754.1651
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "15"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "3"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "4"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "4"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "4"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "11"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "13"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "15"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "4"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "6"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "9"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "6"
+            },
+            "_targetNode": {
+                "$ref": "7"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "7"
+            },
+            "_targetNode": {
+                "$ref": "8"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "8"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "9"
+            },
+            "_targetNode": {
+                "$ref": "10"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "11"
+            },
+            "_targetNode": {
+                "$ref": "12"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "13"
+            },
+            "_targetNode": {
+                "$ref": "14"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 1,
+        "_useBlackScreen": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "isSpaceshipDialog": true,
+        "spaceshipCharId": "chr_0021_whiten",
+        "showSpaceshipCharFriendship": true,
+        "startAfterTurn": false,
+        "interactCamType": 1,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [
+            {
+                "actorType": 256,
+                "levelId": "base01_lv001",
+                "actorId": "whiten_base01_lv001",
+                "npcProxyId": "whiten_base01_lv001_default",
+                "useNpcProxy": true
+            },
+            {
+                "actorType": 8,
+                "actorId": "chr_9000_endmin",
+                "useNpcProxy": true
+            }
+        ],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

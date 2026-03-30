@@ -1,0 +1,185 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e2m5_5_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 3138.052,
+                "y": 1296.778
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 3425.72,
+                "y": 1260.536
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+            "fadeOutDuration": 0.0
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 755.3,
+            "y": 101.52,
+            "z": -191.27
+        },
+        "rootRot": {
+            "y": 354.02
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "inAudioEvent": "au_music_dlg_e2m5_5",
+        "outAudioEvent": "au_music_dlg_empty",
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.06997587,
+                    "y": 0.2397995,
+                    "z": -0.4699988
+                }
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.9399908,
+                    "y": 0.2590714,
+                    "z": -1.25129E-06
+                },
+                "rotation": {
+                    "y": 23.9
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "lookAt": 3,
+                "position": {
+                    "x": 0.7399786,
+                    "y": 0.2042618,
+                    "z": 0.1200026
+                },
+                "rotation": {
+                    "y": 329.25
+                }
+            },
+            {
+                "templateId": "npc_chr_0017_yvonne",
+                "lookAt": 0,
+                "position": {
+                    "x": -0.6016687,
+                    "y": 0.2008362,
+                    "z": 1.110136
+                },
+                "rotation": {
+                    "y": 158.1342
+                }
+            },
+            {
+                "templateId": "npc_obj_car_02",
+                "lookAt": 0,
+                "position": {
+                    "x": 759.14,
+                    "y": 101.68,
+                    "z": -188.72
+                },
+                "rotation": {
+                    "x": 359.08,
+                    "y": 28.22,
+                    "z": 0.95
+                }
+            },
+            {
+                "templateId": "npc_gentleman_unionminer_a_16",
+                "position": {
+                    "x": 36.3254,
+                    "y": -0.08148956,
+                    "z": -2.576195
+                },
+                "rotation": {
+                    "y": 35.50431
+                }
+            },
+            {
+                "templateId": "npc_girl_unionminer_a_13",
+                "position": {
+                    "x": 36.18917,
+                    "y": -0.08148956,
+                    "z": -0.7054325
+                },
+                "rotation": {
+                    "y": 84.70045
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "position": {
+                    "x": 37.59819,
+                    "y": -0.08148956,
+                    "z": -0.8104697
+                },
+                "rotation": {
+                    "y": 236.4298
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

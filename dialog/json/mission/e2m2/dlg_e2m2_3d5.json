@@ -1,0 +1,147 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [],
+                "actions": []
+            },
+            "_position": {
+                "x": -1369.067,
+                "y": 1007.975
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e2m2_3d5_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "timelineFinishNums": [],
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -1176.203,
+                "y": 997.9871
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -883.4967,
+                "y": 985.3358
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0003_endminf"
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "position": {
+                    "x": -0.67,
+                    "z": 0.04
+                },
+                "rotation": {
+                    "y": 26.27
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "position": {
+                    "z": 1.1
+                },
+                "rotation": {
+                    "y": 180.0
+                }
+            },
+            {
+                "templateId": "npc_obj_car_02",
+                "position": {
+                    "x": 339.0521,
+                    "y": 100.85,
+                    "z": -127.2385
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [
+            {
+                "path": "P_interactive_car_shockwave_01"
+            },
+            {
+                "path": "P_lv005_car_connect_01"
+            },
+            {
+                "path": "P_lv005_scanerosioncore_02"
+            },
+            {
+                "path": "P_interactive_scanlight_03_highway_dlg"
+            }
+        ],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

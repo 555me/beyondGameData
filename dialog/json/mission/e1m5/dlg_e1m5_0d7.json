@@ -1,0 +1,235 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 838.9249,
+                "y": 1455.113
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e1m5_0d7_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 1079.618,
+                "y": 1543.069
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1466.913,
+                "y": 1511.596
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -618.64,
+            "y": 125.43,
+            "z": 13.34
+        },
+        "rootRot": {
+            "x": 359.26,
+            "y": 91.66,
+            "z": 359.71
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "inAudioEvent": "au_music_dlg_e1m5_0d7",
+        "outAudioEvent": "au_music_dlg_empty",
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0006_wolfgd",
+                "position": {
+                    "x": -1.731904,
+                    "y": 0.01209488,
+                    "z": 1.443747
+                },
+                "rotation": {
+                    "x": -2.169783E-07,
+                    "y": 9.019743,
+                    "z": 3.641239E-08
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "position": {
+                    "x": -1.412,
+                    "y": -0.188,
+                    "z": -0.732
+                },
+                "rotation": {
+                    "x": 355.1484,
+                    "y": 3.750693,
+                    "z": 9.907254E-07
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "position": {
+                    "x": -0.221,
+                    "y": -0.144,
+                    "z": -0.318
+                },
+                "rotation": {
+                    "x": 357.7525,
+                    "y": 356.1097,
+                    "z": 0.3705959
+                }
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "npcLevel": 1,
+                "position": {
+                    "x": -0.828,
+                    "y": -0.211,
+                    "z": -1.181
+                },
+                "rotation": {
+                    "x": 355.6787,
+                    "y": 359.5033,
+                    "z": 7.090469E-07
+                }
+            },
+            {
+                "templateId": "npc_eny_0029_lbmob",
+                "lookAt": 6,
+                "position": {
+                    "x": -5.070011,
+                    "y": 1.230433,
+                    "z": 19.87
+                },
+                "rotation": {
+                    "x": 0.6653126,
+                    "y": 11.76606,
+                    "z": 0.4347513
+                }
+            },
+            {
+                "templateId": "npc_eny_0029_lbmob",
+                "lookAt": 6,
+                "position": {
+                    "x": -3.44015,
+                    "y": 1.196793,
+                    "z": 18.9833
+                },
+                "rotation": {
+                    "x": 0.7632346,
+                    "y": 354.8092,
+                    "z": 0.2218075
+                }
+            },
+            {
+                "templateId": "npc_gentleman_rfg_a_09",
+                "position": {
+                    "x": -2.943962,
+                    "y": 1.232036,
+                    "z": 21.42493
+                },
+                "rotation": {
+                    "x": 359.2783,
+                    "y": 183.3891,
+                    "z": 359.6668
+                }
+            },
+            {
+                "templateId": "npc_eny_0050_hound",
+                "position": {
+                    "x": -4.71007,
+                    "y": 1.244227,
+                    "z": 18.41019
+                },
+                "rotation": {
+                    "x": 0.4839479,
+                    "y": 31.08567,
+                    "z": 0.6303952
+                }
+            },
+            {
+                "templateId": "npc_eny_0033_lbhunt",
+                "lookAt": 6,
+                "position": {
+                    "x": -0.5280296,
+                    "y": 1.216435,
+                    "z": 19.3091
+                },
+                "rotation": {
+                    "x": 0.6119695,
+                    "y": 298.951,
+                    "z": 359.4929
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [],
+                "actions": []
+            },
+            "_position": {
+                "x": -1691.239,
+                "y": 383.2949
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e6m2_6_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "timelineFinishNums": [],
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -1498.791,
+                "y": 421.6047
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -1193.005,
+                "y": 456.3532
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -1292.835,
+            "y": 274.0715,
+            "z": 68.982
+        },
+        "rootRot": {
+            "y": 75.53304
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 3,
+                "position": {
+                    "y": 0.008453369
+                },
+                "slotInPosTemplate": "P1"
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "lookAt": 3,
+                "position": {
+                    "x": 0.7629395,
+                    "y": 0.008453369,
+                    "z": -0.1449966
+                },
+                "rotation": {
+                    "y": 350.0
+                },
+                "slotInPosTemplate": "P2"
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.7600098,
+                    "y": 0.008453369,
+                    "z": -0.1920013
+                },
+                "rotation": {
+                    "y": 9.999994
+                },
+                "slotInPosTemplate": "P3"
+            },
+            {
+                "templateId": "npc_lady_hsteacher_a_03",
+                "lookAt": 0,
+                "position": {
+                    "y": 0.008453369,
+                    "z": 1.546997
+                },
+                "rotation": {
+                    "y": 180.0
+                },
+                "slotInPosTemplate": "T1"
+            },
+            {
+                "templateId": "npc_chr_0015_lifeng",
+                "lookAt": 0,
+                "position": {
+                    "x": -0.8120117,
+                    "y": 0.008453369,
+                    "z": 1.804001
+                },
+                "rotation": {
+                    "y": 168.8
+                },
+                "slotInPosTemplate": "T2"
+            },
+            {
+                "templateId": "npc_girl_hsstudent_a_01",
+                "lookAt": 0,
+                "position": {
+                    "x": 0.8120117,
+                    "y": 0.008453369,
+                    "z": 1.804001
+                },
+                "rotation": {
+                    "y": 191.2
+                },
+                "slotInPosTemplate": "T3"
+            }
+        ],
+        "posTemplateActorCount": 6,
+        "posTemplateId": "3_3_new1",
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

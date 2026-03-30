@@ -1,0 +1,69 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "panelType": 22,
+                "param": "{ \"activityId\": \"activity_high_difficulty_1\"}",
+                "duration": -1.0,
+                "actionEnum": 57,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogOpenUIAction"
+            },
+            "additionalWidth": 198.0,
+            "_position": {
+                "x": 4780.0,
+                "y": -700.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOpenUINode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 5180.0,
+                "y": -700.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_useBlackScreen": false,
+        "needNpcTurnTo": false,
+        "startAfterTurn": false,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

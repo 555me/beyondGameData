@@ -1,0 +1,121 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_c13m2_4_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -160.0,
+                "y": -240.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 120.0,
+                "y": -240.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -1.2,
+            "z": 5.1
+        },
+        "hideFacBuildingDesc": {
+            "useCustomHideFacCenter": true,
+            "customHideFacBuildingCenter": {
+                "x": -31.2053,
+                "y": 92.8645,
+                "z": -538.0222
+            },
+            "customHideFacBuildingRadius": 20.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [
+            {
+                "actorType": 256,
+                "actorId": "migeerRobe_map01",
+                "npcProxyId": "migeerRobe_map01_c13m2HospitalOffice",
+                "useNpcProxy": true
+            }
+        ],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0013_aglina",
+                "position": {
+                    "x": -30.00532,
+                    "y": 92.86448,
+                    "z": -543.1222
+                },
+                "rotation": {
+                    "y": 22.70157
+                }
+            },
+            {
+                "templateId": "npc_chr_0002_endminm",
+                "position": {
+                    "x": -29.08,
+                    "y": 92.86448,
+                    "z": -545.065
+                },
+                "rotation": {
+                    "y": 16.70862
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

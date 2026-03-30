@@ -1,0 +1,255 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 2.0
+                    },
+                    "_trunkId": "dlg_e1m10_1_020",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "duration": -1.0,
+                    "actionEnum": 307
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "posName": "4_2_2_1",
+                        "modeId": "2v2_Close_up_RS",
+                        "overrideTrans": true,
+                        "pos": {
+                            "x": 0.1493893,
+                            "y": 1.291198,
+                            "z": 0.8920364
+                        },
+                        "rot": {
+                            "x": 350.1175,
+                            "y": 343.6376,
+                            "z": -4.766481E-06
+                        },
+                        "fov": 32.0,
+                        "translationPos": {
+                            "x": -0.02,
+                            "y": 1.197,
+                            "z": 1.553
+                        },
+                        "translationRot": {
+                            "x": 352.9987,
+                            "y": 197.0418,
+                            "z": -0.0009905059
+                        },
+                        "translationTime": 10.0,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "4_2_2_1",
+                        "modeId": "2v2_Close_up_RS",
+                        "overrideTrans": true,
+                        "pos": {
+                            "x": -0.094,
+                            "y": 1.453,
+                            "z": 1.499
+                        },
+                        "rot": {
+                            "x": 355.8953,
+                            "y": 199.5273,
+                            "z": 5.349808E-08
+                        },
+                        "fov": 33.0,
+                        "translationPos": {
+                            "x": -0.02,
+                            "y": 1.197,
+                            "z": 1.553
+                        },
+                        "translationRot": {
+                            "x": 352.9987,
+                            "y": 197.0418,
+                            "z": -0.0009905059
+                        },
+                        "translationTime": 10.0,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 0,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/VirtualChr/introduction",
+                                "tagId": 1175534780
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "seraph_base01_lv001",
+                            "proxyId": "seraph_base01_lv001_001"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "seraph_base01_lv001",
+                            "proxyId": "seraph_base01_lv001_001"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "farFocusStart": 5.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        },
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 1178.395,
+                "y": 611.064
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1577.143,
+                "y": 641.6741
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 1,
+        "_useBlackScreen": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeOutDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "y": 0.9,
+            "z": 42.91
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "useNpcProxy": true,
+        "actors": [
+            {
+                "actorType": 256,
+                "actorId": "seraph_base01_lv001",
+                "npcProxyId": "seraph_base01_lv001_001",
+                "useNpcProxy": true
+            }
+        ],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

@@ -1,0 +1,1167 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": -14.52665,
+                "y": 522.3232
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e4m1d5_2_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 250.6029,
+                "y": 569.2058
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 573.9085,
+                "y": 607.858
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "actions": []
+                    }
+                ],
+                "actions": [
+                    {
+                        "camDescriptor": {
+                            "modeNum": -1,
+                            "camType": 2,
+                            "pos": {
+                                "x": 2.436602,
+                                "y": 9.260353,
+                                "z": -121.6226
+                            },
+                            "rot": {
+                                "x": 352.5876,
+                                "y": 179.7393,
+                                "z": 0.003945138
+                            },
+                            "fov": 50.0,
+                            "dofDescriptor": {
+                                "dofData": {
+
+                                }
+                            }
+                        },
+                        "mCamDescriptor": {
+                            "modeNum": -1,
+                            "camType": 2,
+                            "dofDescriptor": {
+                                "dofData": {
+
+                                }
+                            }
+                        },
+                        "delay": 0.0,
+                        "actionEnum": 51,
+                        "$type": "Beyond.Gameplay.DialogCamActData"
+                    },
+                    {
+                        "noiseDescriptor": {
+                            "enableNoise": true,
+                            "noiseType": 2,
+                            "amplitudeGain": 0.5,
+                            "frequencyGain": 0.4
+                        },
+                        "$type": "Beyond.Gameplay.DialogCamNoiseActionData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": -31.46785,
+                "y": 212.5343
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "3"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_e4m1d5_2_1_001",
+                    "logicId": 1196
+                },
+                {
+                    "_optionId": "option_dlg_e4m1d5_2_1_002",
+                    "index": 1,
+                    "logicId": 46
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 130.1321,
+                "y": 206.9341
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "4"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 4.0,
+                        "actions": [
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "farFocusStart": 3.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 5.0
+                                    },
+                                    "enable": true,
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
+                                    }
+                                },
+                                "delay": 2.7,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "enableVolume": true,
+                                "charLightVolumeData": {
+                                    "charMainLightControl": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightMultiplier": {
+                                        "m_Value": 0.79,
+                                        "overrideState": true
+                                    },
+                                    "charEnvLightMultiplier": {
+                                        "m_Value": 0.7,
+                                        "overrideState": true
+                                    },
+                                    "charEnvShadowMultiplier": {
+                                        "m_Value": 1.0,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightRangeBias": {
+                                        "m_Value": -0.24,
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreMainLightShadow": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightMode": {
+                                        "overrideState": true
+                                    },
+                                    "charCustomMainLightDir": {
+                                        "m_Value": {
+                                            "x": 30.0,
+                                            "y": -56.16
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charMainLightOverrideColor": {
+                                        "m_Value": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charSkinMainLightOverrideColor": {
+                                        "m_Value": {
+                                            "r": 0.9773585,
+                                            "g": 0.9423211,
+                                            "b": 0.9529846,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charLightDialogMode": {
+                                        "overrideState": true
+                                    },
+                                    "charShadowTintControl": {
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimEnable": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimColor": {
+                                        "m_Value": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimDir": {
+                                        "m_Value": 0.515,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimIntensity": {
+                                        "m_Value": 5.47,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimWidth": {
+                                        "m_Value": 0.563,
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreSceneAdditionalLights": {
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreSceneEnv": {
+                                        "overrideState": true
+                                    }
+                                },
+                                "hideLights": [],
+                                "showLights": [],
+                                "delay": 2.7,
+                                "$type": "Beyond.Gameplay.DialogOperateLightActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "fadeType": 1,
+                        "fadeTime": 0.0,
+                        "curve": {
+                            "keys": [],
+                            "preWrapMode": 8,
+                            "postWrapMode": 8
+                        },
+                        "texts": [],
+                        "audioBehaviour": {
+                            "presetBehaviour": 2,
+                            "customRetainFlags": 2
+                        },
+                        "duration": 0.0,
+                        "$type": "Beyond.Gameplay.DialogMaskActionData"
+                    },
+                    {
+                        "fadeType": 2,
+                        "fadeTime": 1.0,
+                        "curve": {
+                            "keys": [],
+                            "preWrapMode": 8,
+                            "postWrapMode": 8
+                        },
+                        "texts": [],
+                        "audioBehaviour": {
+                            "presetBehaviour": 2,
+                            "customRetainFlags": 2
+                        },
+                        "delay": 0.6,
+                        "duration": 1.0,
+                        "$type": "Beyond.Gameplay.DialogMaskActionData"
+                    },
+                    {
+                        "fadeType": 2,
+                        "fadeTime": 1.0,
+                        "curve": {
+                            "keys": [],
+                            "preWrapMode": 8,
+                            "postWrapMode": 8
+                        },
+                        "texts": [],
+                        "audioBehaviour": {
+                            "presetBehaviour": 2,
+                            "customRetainFlags": 2
+                        },
+                        "delay": 3.0,
+                        "duration": 1.0,
+                        "$type": "Beyond.Gameplay.DialogMaskActionData"
+                    },
+                    {
+                        "vfxPPRadialBlurDescriptor": {
+                            "radialBlurData": {
+                                "priority": 300
+                            }
+                        },
+                        "operateVFXPPVignette": true,
+                        "vfxPPVignetteDescriptor": {
+                            "vignetteData": {
+                                "intensity": 1.0,
+                                "smoothness": 1.0,
+                                "priority": 300
+                            },
+                            "enable": true,
+                            "tweenTime": 0.8
+                        },
+                        "vfxPPChromaticAberrationDescriptor": {
+                            "chromaticAberrationData": {
+                                "priority": 300
+                            }
+                        },
+                        "vfxPPCutsceneEffectDescriptor": {
+                            "cutsceneEffectData": {
+                                "effectList": [],
+                                "priority": 300
+                            }
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                    },
+                    {
+                        "vfxPPRadialBlurDescriptor": {
+                            "radialBlurData": {
+                                "priority": 300
+                            }
+                        },
+                        "operateVFXPPVignette": true,
+                        "vfxPPVignetteDescriptor": {
+                            "vignetteData": {
+                                "intensity": 0.507,
+                                "smoothness": 1.0,
+                                "priority": 300
+                            },
+                            "enable": true,
+                            "tweenTime": 1.0
+                        },
+                        "vfxPPChromaticAberrationDescriptor": {
+                            "chromaticAberrationData": {
+                                "priority": 300
+                            }
+                        },
+                        "vfxPPCutsceneEffectDescriptor": {
+                            "cutsceneEffectData": {
+                                "effectList": [],
+                                "priority": 300
+                            }
+                        },
+                        "delay": 3.2,
+                        "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                    },
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "nearFocusEnd": 10.0,
+                                "nearRadius": 25.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 25.0
+                            },
+                            "enable": true
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "nearFocusEnd": 10.0,
+                                "nearRadius": 5.0,
+                                "farFocusStart": 10.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 5.0
+                            },
+                            "enable": true,
+                            "tweenTime": 1.0,
+                            "curve": {
+                                "keys": [
+                                    {
+                                        "time": 0.0,
+                                        "value": 0.0,
+                                        "tangentMode": 0,
+                                        "inTangent": 0.0,
+                                        "outTangent": 0.0
+                                    },
+                                    {
+                                        "time": 1.0,
+                                        "value": 1.0,
+                                        "tangentMode": 0,
+                                        "inTangent": 2.0,
+                                        "outTangent": 2.0
+                                    }
+                                ],
+                                "preWrapMode": 8,
+                                "postWrapMode": 8
+                            }
+                        },
+                        "delay": 3.7,
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "noiseDescriptor": {
+                            "enableNoise": true,
+                            "noiseType": 2,
+                            "amplitudeGain": 0.3,
+                            "frequencyGain": 0.3
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamNoiseActionData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 437.8655,
+                "y": 207.3351
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "5"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 2.0,
+                        "actions": [
+                            {
+                                "vfxPPRadialBlurDescriptor": {
+                                    "radialBlurData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "operateVFXPPVignette": true,
+                                "vfxPPVignetteDescriptor": {
+                                    "vignetteData": {
+                                        "intensity": 1.0,
+                                        "smoothness": 1.0,
+                                        "priority": 300
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "vfxPPChromaticAberrationDescriptor": {
+                                    "chromaticAberrationData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "vfxPPCutsceneEffectDescriptor": {
+                                    "cutsceneEffectData": {
+                                        "effectList": [],
+                                        "priority": 300
+                                    }
+                                },
+                                "delay": 0.1,
+                                "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 10.0,
+                                        "nearRadius": 8.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 8.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 10.0,
+                                        "nearRadius": 3.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 3.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "delay": 0.5,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 15.0,
+                                        "nearRadius": 8.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 8.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.0
+                                },
+                                "delay": 1.0,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 4.0
+                                },
+                                "delay": 1.0,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "fadeType": 2,
+                                "curve": {
+                                    "keys": [],
+                                    "preWrapMode": 8,
+                                    "postWrapMode": 8
+                                },
+                                "texts": [],
+                                "audioBehaviour": {
+                                    "presetBehaviour": 2,
+                                    "customRetainFlags": 2
+                                },
+                                "delay": 1.0,
+                                "duration": 0.5,
+                                "$type": "Beyond.Gameplay.DialogMaskActionData"
+                            },
+                            {
+                                "vfxPPRadialBlurDescriptor": {
+                                    "radialBlurData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "operateVFXPPVignette": true,
+                                "vfxPPVignetteDescriptor": {
+                                    "vignetteData": {
+                                        "priority": 300
+                                    },
+                                    "tweenTime": 2.0
+                                },
+                                "vfxPPChromaticAberrationDescriptor": {
+                                    "chromaticAberrationData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "vfxPPCutsceneEffectDescriptor": {
+                                    "cutsceneEffectData": {
+                                        "effectList": [],
+                                        "priority": 300
+                                    }
+                                },
+                                "delay": 1.2,
+                                "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 575.6655,
+                "y": 207.9352
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "6"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_e4m1d5_2_2_001",
+                    "logicId": 47
+                },
+                {
+                    "_optionId": "option_dlg_e4m1d5_2_2_002",
+                    "index": 1,
+                    "logicId": 48
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 1000.0,
+                "y": 200.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "7"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 4.0,
+                        "actions": [
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "farFocusStart": 3.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 5.0
+                                    },
+                                    "enable": true,
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
+                                    }
+                                },
+                                "delay": 2.7,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "enableVolume": true,
+                                "charLightVolumeData": {
+                                    "charMainLightControl": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightMultiplier": {
+                                        "m_Value": 0.79,
+                                        "overrideState": true
+                                    },
+                                    "charEnvLightMultiplier": {
+                                        "m_Value": 0.7,
+                                        "overrideState": true
+                                    },
+                                    "charEnvShadowMultiplier": {
+                                        "m_Value": 1.0,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightRangeBias": {
+                                        "m_Value": -0.24,
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreMainLightShadow": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charMainLightMode": {
+                                        "overrideState": true
+                                    },
+                                    "charCustomMainLightDir": {
+                                        "m_Value": {
+                                            "x": 30.0,
+                                            "y": -56.16
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charMainLightOverrideColor": {
+                                        "m_Value": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charSkinMainLightOverrideColor": {
+                                        "m_Value": {
+                                            "r": 0.9773585,
+                                            "g": 0.9423211,
+                                            "b": 0.9529846,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charLightDialogMode": {
+                                        "overrideState": true
+                                    },
+                                    "charShadowTintControl": {
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimEnable": {
+                                        "m_Value": true,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimColor": {
+                                        "m_Value": {
+                                            "r": 1.0,
+                                            "g": 1.0,
+                                            "b": 1.0,
+                                            "a": 1.0
+                                        },
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimDir": {
+                                        "m_Value": 0.515,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimIntensity": {
+                                        "m_Value": 5.47,
+                                        "overrideState": true
+                                    },
+                                    "charAutoRimWidth": {
+                                        "m_Value": 0.563,
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreSceneAdditionalLights": {
+                                        "overrideState": true
+                                    },
+                                    "charIgnoreSceneEnv": {
+                                        "overrideState": true
+                                    }
+                                },
+                                "hideLights": [],
+                                "showLights": [],
+                                "delay": 2.7,
+                                "$type": "Beyond.Gameplay.DialogOperateLightActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "fadeType": 2,
+                        "fadeTime": 1.0,
+                        "curve": {
+                            "keys": [],
+                            "preWrapMode": 8,
+                            "postWrapMode": 8
+                        },
+                        "texts": [],
+                        "audioBehaviour": {
+                            "presetBehaviour": 2,
+                            "customRetainFlags": 2
+                        },
+                        "delay": 3.0,
+                        "duration": 1.0,
+                        "$type": "Beyond.Gameplay.DialogMaskActionData"
+                    },
+                    {
+                        "vfxPPRadialBlurDescriptor": {
+                            "radialBlurData": {
+                                "priority": 300
+                            }
+                        },
+                        "operateVFXPPVignette": true,
+                        "vfxPPVignetteDescriptor": {
+                            "vignetteData": {
+                                "intensity": 1.0,
+                                "smoothness": 1.0,
+                                "priority": 300
+                            },
+                            "enable": true,
+                            "tweenTime": 0.8
+                        },
+                        "vfxPPChromaticAberrationDescriptor": {
+                            "chromaticAberrationData": {
+                                "priority": 300
+                            }
+                        },
+                        "vfxPPCutsceneEffectDescriptor": {
+                            "cutsceneEffectData": {
+                                "effectList": [],
+                                "priority": 300
+                            }
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                    },
+                    {
+                        "vfxPPRadialBlurDescriptor": {
+                            "radialBlurData": {
+                                "priority": 300
+                            }
+                        },
+                        "operateVFXPPVignette": true,
+                        "vfxPPVignetteDescriptor": {
+                            "vignetteData": {
+                                "intensity": 0.507,
+                                "smoothness": 1.0,
+                                "priority": 300
+                            },
+                            "enable": true,
+                            "tweenTime": 1.0
+                        },
+                        "vfxPPChromaticAberrationDescriptor": {
+                            "chromaticAberrationData": {
+                                "priority": 300
+                            }
+                        },
+                        "vfxPPCutsceneEffectDescriptor": {
+                            "cutsceneEffectData": {
+                                "effectList": [],
+                                "priority": 300
+                            }
+                        },
+                        "delay": 3.2,
+                        "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                    },
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "nearFocusEnd": 10.0,
+                                "nearRadius": 25.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 25.0
+                            },
+                            "enable": true
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "nearFocusEnd": 10.0,
+                                "nearRadius": 5.0,
+                                "farFocusStart": 10.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 5.0
+                            },
+                            "enable": true,
+                            "tweenTime": 1.0,
+                            "curve": {
+                                "keys": [
+                                    {
+                                        "time": 0.0,
+                                        "value": 0.0,
+                                        "tangentMode": 0,
+                                        "inTangent": 0.0,
+                                        "outTangent": 0.0
+                                    },
+                                    {
+                                        "time": 1.0,
+                                        "value": 1.0,
+                                        "tangentMode": 0,
+                                        "inTangent": 2.0,
+                                        "outTangent": 2.0
+                                    }
+                                ],
+                                "preWrapMode": 8,
+                                "postWrapMode": 8
+                            }
+                        },
+                        "delay": 3.7,
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "noiseDescriptor": {
+                            "enableNoise": true,
+                            "noiseType": 2,
+                            "amplitudeGain": 0.3,
+                            "frequencyGain": 0.3
+                        },
+                        "delay": 2.7,
+                        "$type": "Beyond.Gameplay.DialogCamNoiseActionData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 1667.983,
+                "y": 238.9309
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "8"
+        },
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 2.0,
+                        "actions": [
+                            {
+                                "vfxPPRadialBlurDescriptor": {
+                                    "radialBlurData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "operateVFXPPVignette": true,
+                                "vfxPPVignetteDescriptor": {
+                                    "vignetteData": {
+                                        "intensity": 1.0,
+                                        "smoothness": 1.0,
+                                        "priority": 300
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "vfxPPChromaticAberrationDescriptor": {
+                                    "chromaticAberrationData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "vfxPPCutsceneEffectDescriptor": {
+                                    "cutsceneEffectData": {
+                                        "effectList": [],
+                                        "priority": 300
+                                    }
+                                },
+                                "delay": 0.1,
+                                "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 10.0,
+                                        "nearRadius": 8.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 8.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 10.0,
+                                        "nearRadius": 3.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 3.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.5
+                                },
+                                "delay": 0.5,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+                                        "nearFocusEnd": 15.0,
+                                        "nearRadius": 8.0,
+                                        "farFocusStart": 10.0,
+                                        "farFocusEnd": 20.0,
+                                        "farRadius": 8.0
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 1.0
+                                },
+                                "delay": 1.0,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "cameraDOFDescriptor": {
+                                    "dofData": {
+
+                                    },
+                                    "enable": true,
+                                    "tweenTime": 4.0
+                                },
+                                "delay": 1.0,
+                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                            },
+                            {
+                                "fadeType": 2,
+                                "curve": {
+                                    "keys": [],
+                                    "preWrapMode": 8,
+                                    "postWrapMode": 8
+                                },
+                                "texts": [],
+                                "audioBehaviour": {
+                                    "presetBehaviour": 2,
+                                    "customRetainFlags": 2
+                                },
+                                "delay": 1.0,
+                                "duration": 0.5,
+                                "$type": "Beyond.Gameplay.DialogMaskActionData"
+                            },
+                            {
+                                "vfxPPRadialBlurDescriptor": {
+                                    "radialBlurData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "operateVFXPPVignette": true,
+                                "vfxPPVignetteDescriptor": {
+                                    "vignetteData": {
+                                        "priority": 300
+                                    },
+                                    "tweenTime": 2.0
+                                },
+                                "vfxPPChromaticAberrationDescriptor": {
+                                    "chromaticAberrationData": {
+                                        "priority": 300
+                                    }
+                                },
+                                "vfxPPCutsceneEffectDescriptor": {
+                                    "cutsceneEffectData": {
+                                        "effectList": [],
+                                        "priority": 300
+                                    }
+                                },
+                                "delay": 1.2,
+                                "$type": "Beyond.Gameplay.DialogCamPPActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 1806.583,
+                "y": 239.531
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "9"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1959.999,
+                "y": 243.7329
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "10"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "3"
+            },
+            "_targetNode": {
+                "$ref": "4"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "4"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "4"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "6"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "6"
+            },
+            "_targetNode": {
+                "$ref": "7"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "7"
+            },
+            "_targetNode": {
+                "$ref": "8"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "7"
+            },
+            "_targetNode": {
+                "$ref": "8"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "8"
+            },
+            "_targetNode": {
+                "$ref": "9"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "9"
+            },
+            "_targetNode": {
+                "$ref": "10"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "beforeMaskBlendData": {
+            "fadeOutDuration": 0.0
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0,
+            "fadeOutDuration": 0.0
+        },
+        "isSpaceshipDialog": true,
+        "hideCharNpc": true,
+        "hideCharNpcRadius": 10.0,
+        "hideSquad": true,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [
+            {
+                "sceneName": "base01_lv001",
+                "decoId": 9800000037
+            }
+        ],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

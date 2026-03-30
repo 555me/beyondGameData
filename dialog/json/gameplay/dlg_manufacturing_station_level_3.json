@@ -1,0 +1,179 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [
+                    {
+                        "duration": 3.0,
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 6.636524,
+                                        "y": -2.988157,
+                                        "z": 6.757538
+                                    },
+                                    "rot": {
+                                        "x": 348.3614,
+                                        "y": 212.6334,
+                                        "z": 0.0001418686
+                                    },
+                                    "fov": 35.0,
+                                    "useTranslation": true,
+                                    "translationPos": {
+                                        "x": 6.636507,
+                                        "y": -2.988153,
+                                        "z": 6.757546
+                                    },
+                                    "translationRot": {
+                                        "x": 349.7365,
+                                        "y": 218.8213,
+                                        "z": 0.0001412112
+                                    },
+                                    "translationTime": 3.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    },
+                    {
+                        "duration": 3.0,
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 6.994986,
+                                        "y": -2.876791,
+                                        "z": -0.1525949
+                                    },
+                                    "rot": {
+                                        "x": 352.2116,
+                                        "y": 272.1752,
+                                        "z": 0.0001439077
+                                    },
+                                    "fov": 35.0,
+                                    "useTranslation": true,
+                                    "translationPos": {
+                                        "x": 7.953,
+                                        "y": -3.008,
+                                        "z": -0.189
+                                    },
+                                    "translationRot": {
+                                        "x": 352.2116,
+                                        "y": 272.1752,
+                                        "z": 0.0001439077
+                                    },
+                                    "translationTime": 3.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 854.6392,
+                "y": 122.0913
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1442.668,
+                "y": 97.28719
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 1,
+        "_useBlackScreen": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "rootPos": {
+            "x": 12.043,
+            "y": 4.9,
+            "z": 130.0
+        },
+        "rootRot": {
+            "y": 90.0
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

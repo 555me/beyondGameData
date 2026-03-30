@@ -1,0 +1,182 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e1m4_1_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 300.0,
+                "y": 220.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 580.0,
+                "y": 240.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0,
+            "fadeOutDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -469.11,
+            "y": 116.13,
+            "z": -190.96
+        },
+        "rootRot": {
+            "y": 315.9
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "inAudioEvent": "au_music_dlg_e1m4_1",
+        "outAudioEvent": "au_music_dlg_empty",
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0005_chen",
+                "position": {
+                    "x": -0.7119998,
+                    "y": 0.3488235,
+                    "z": 0.6589963
+                },
+                "rotation": {
+                    "y": 348.4887
+                }
+            },
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "position": {
+                    "x": -0.3440156,
+                    "y": 0.5607986,
+                    "z": 1.321005
+                },
+                "rotation": {
+                    "y": 340.8
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "position": {
+                    "x": 0.5289892,
+                    "y": 0.2542343,
+                    "z": 0.3320053
+                },
+                "rotation": {
+                    "y": 331.0
+                }
+            },
+            {
+                "templateId": "npc_eny_0029_lbmob",
+                "position": {
+                    "x": -22.67004,
+                    "y": 5.207581,
+                    "z": 37.3705
+                },
+                "rotation": {
+                    "y": 141.5799
+                }
+            },
+            {
+                "templateId": "npc_eny_0029_lbmob",
+                "position": {
+                    "x": -24.67999,
+                    "y": 5.156136,
+                    "z": 52.68999
+                },
+                "rotation": {
+                    "y": 44.10001
+                }
+            },
+            {
+                "templateId": "npc_eny_0033_lbhunt",
+                "position": {
+                    "x": -28.75002,
+                    "y": 5.064903,
+                    "z": 38.90002
+                },
+                "rotation": {
+                    "y": 74.16981
+                }
+            },
+            {
+                "templateId": "npc_eny_0033_lbhunt",
+                "position": {
+                    "x": -18.90913,
+                    "y": 5.204369,
+                    "z": 40.55074
+                },
+                "rotation": {
+                    "y": 129.7417
+                }
+            },
+            {
+                "templateId": "npc_eny_0033_lbhunt",
+                "position": {
+                    "x": -16.59296,
+                    "y": 5.213478,
+                    "z": 38.9081
+                },
+                "rotation": {
+                    "y": 133.9786
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

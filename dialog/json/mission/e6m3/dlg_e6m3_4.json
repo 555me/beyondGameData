@@ -1,0 +1,156 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "_actionGroups": [],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 575.9869,
+                "y": 1431.968
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e6m3_4_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "timelineFinishNums": [],
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 931.9789,
+                "y": 1447.967
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 1270.339,
+                "y": 1510.708
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -1416.88,
+            "y": 323.0065,
+            "z": -377.7822
+        },
+        "rootRot": {
+            "y": 25.90906
+        },
+        "showDevWaterMark": true,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [
+            {
+                "decoId": 22800100001
+            }
+        ],
+        "hideNpcDesc": {
+
+        },
+        "voiceType": 4,
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0030_zhuangfy",
+                "lookAt": 2,
+                "position": {
+                    "x": -0.501,
+                    "z": 1.032
+                },
+                "rotation": {
+                    "y": 231.2142
+                },
+                "slotInPosTemplate": "P1"
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 2,
+                "position": {
+                    "x": -0.67,
+                    "z": 0.04
+                },
+                "rotation": {
+                    "y": 308.8003
+                },
+                "slotInPosTemplate": "P2"
+            },
+            {
+                "templateId": "npc_gentleman_hsteacher_02",
+                "lookAt": 0,
+                "position": {
+                    "z": 1.096
+                },
+                "rotation": {
+                    "y": 180.0
+                },
+                "slotInPosTemplate": "T1"
+            }
+        ],
+        "posTemplateActorCount": 3,
+        "posTemplateId": "2_1_1",
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

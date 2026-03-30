@@ -1,0 +1,152 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_f1m9d4_5_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 10951.07,
+                "y": -770.4077
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 11392.98,
+                "y": -835.5826
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 753.2156,
+            "y": 66.0584,
+            "z": -55.565
+        },
+        "rootRot": {
+            "y": 228.8106
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_grandpa_unionscholar_a_01",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.07,
+                    "z": -0.47
+                }
+            },
+            {
+                "templateId": "npc_lady_unionscholar_a_18",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.5176409,
+                    "z": 0.9364637
+                },
+                "rotation": {
+                    "y": 33.41423
+                }
+            },
+            {
+                "templateId": "npc_strongm_unionminer_a_03",
+                "lookAt": 3,
+                "position": {
+                    "x": 0.74,
+                    "z": 0.12
+                },
+                "rotation": {
+                    "y": 329.25
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 0,
+                "position": {
+                    "x": -0.582,
+                    "z": 2.936
+                },
+                "rotation": {
+                    "y": 123.83
+                }
+            },
+            {
+                "templateId": "npc_gentleman_unionminer_a_26",
+                "lookAt": 0,
+                "position": {
+                    "x": 0.4111283,
+                    "z": 2.964749
+                },
+                "rotation": {
+                    "y": 195.9761
+                }
+            },
+            {
+                "templateId": "npc_chr_0018_dapan",
+                "position": {
+                    "x": 1.232,
+                    "y": -0.1080017,
+                    "z": 2.23
+                },
+                "rotation": {
+                    "y": 225.543
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

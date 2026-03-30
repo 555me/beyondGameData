@@ -1,0 +1,170 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_c17m2_13_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -63.72342,
+                "y": 618.7106
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 296.8805,
+                "y": 600.897
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        },
+        {
+            "_exPerformanceData": {
+                "noiseDescriptor": {
+
+                },
+                "dofDescriptor": {
+                    "dofData": {
+
+                    }
+                },
+                "vfxPPRadialBlurDescriptor": {
+                    "radialBlurData": {
+
+                    }
+                },
+                "vfxPPVignetteDescriptor": {
+                    "vignetteData": {
+
+                    }
+                },
+                "vfxPPChromaticAberrationDescriptor": {
+                    "chromaticAberrationData": {
+
+                    }
+                },
+                "vfxPPCutsceneEffectDescriptor": {
+                    "cutsceneEffectData": {
+                        "effectList": []
+                    }
+                },
+                "$type": "Beyond.Gameplay.DTExCameraData"
+            },
+            "_position": {
+                "x": 200.0,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExCameraNode"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 14.2649,
+            "y": 202.772,
+            "z": 178.1384
+        },
+        "rootRot": {
+            "y": 16.8032
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 25.0,
+            "hideFacBuildingRadiusDialogRoot": 25.0,
+            "useCustomHideFacCenter": true,
+            "customHideFacBuildingCenter": {
+                "x": -7.0,
+                "y": 207.0,
+                "z": 208.0
+            },
+            "customHideFacBuildingRadius": 50.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_gentleman_unionscholar_a_38",
+                "lookAt": 1,
+                "position": {
+                    "x": -30.29,
+                    "z": 30.71
+                },
+                "rotation": {
+                    "y": 132.5
+                }
+            },
+            {
+                "templateId": "npc_chr_0017_yvonne",
+                "lookAt": 0,
+                "position": {
+                    "x": -26.44,
+                    "z": 25.62
+                },
+                "rotation": {
+                    "y": 127.5
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 0,
+                "position": {
+                    "x": -25.7,
+                    "z": 26.71
+                },
+                "rotation": {
+                    "y": 125.04
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

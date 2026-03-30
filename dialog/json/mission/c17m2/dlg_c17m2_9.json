@@ -1,0 +1,152 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_c17m2_9_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -350.3726,
+                "y": -433.795
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -126.3267,
+                "y": -219.1921
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 582.831,
+            "y": 36.485,
+            "z": 290.764
+        },
+        "rootRot": {
+            "y": 127.6618
+        },
+        "hideFacBuildingDesc": {
+            "useCustomHideFacCenter": true,
+            "customHideFacBuildingCenter": {
+                "x": 568.54,
+                "y": 36.95,
+                "z": 284.82
+            },
+            "customHideFacBuildingRadius": 30.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+            "hideNpcInRadius": true,
+            "hideNpcRadius": 15.0
+        },
+        "actors": [],
+        "npcVisibleRuleType": 1,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_kidf_rfg_a_01",
+                "lookAt": 4,
+                "position": {
+                    "x": 0.021,
+                    "z": 0.129
+                },
+                "rotation": {
+                    "y": 12.6615
+                }
+            },
+            {
+                "templateId": "npc_kidm_rfg_a_01",
+                "lookAt": 4,
+                "position": {
+                    "x": -0.606,
+                    "z": -0.575
+                },
+                "rotation": {
+                    "y": 27.18876
+                }
+            },
+            {
+                "templateId": "npc_kidf_rfg_a_03",
+                "lookAt": 4,
+                "position": {
+                    "x": 0.825,
+                    "z": -0.854
+                },
+                "rotation": {
+                    "y": 352.8262
+                }
+            },
+            {
+                "templateId": "npc_kidm_rfg_a_04",
+                "lookAt": 4,
+                "position": {
+                    "x": 0.09480858,
+                    "z": -1.91523
+                },
+                "rotation": {
+                    "y": 5.176028
+                }
+            },
+            {
+                "templateId": "npc_chr_0017_yvonne",
+                "lookAt": 0,
+                "position": {
+                    "x": 0.515,
+                    "z": 1.797
+                },
+                "rotation": {
+                    "y": 186.6625
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

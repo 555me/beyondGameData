@@ -1,0 +1,6058 @@
+{
+  "globalConst": {
+    "regionOutcomeStepInterval": 60,
+    "tickBasedTotalProgress": 60000,
+    "machineCrafterBufferSlotCount": 4,
+    "packMergeDistance": 2.0,
+    "packPickDistance": 3.0,
+    "packDropDistance": 2.0,
+    "traderDefaultOrderType": "order_type_0",
+    "statisticBucketSteps": 600,
+    "statisticBucketCount": 60,
+    "gridCargoMinDistance": 60000
+  },
+  "mineData": [
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_originium_ore",
+      "id": "originium_mine_01"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_iron_ore",
+      "id": "iron_mine_01"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_iron_ore",
+      "id": "iron_mine_02"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_quartz_sand",
+      "id": "quartz_mine_01"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_originium_ore",
+      "id": "originium_mine_02"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_quartz_sand",
+      "id": "quartz_mine_02"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_originium_ore",
+      "id": "originium_mine_03"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "itemId": "item_originium_ore",
+      "id": "originium_mine_04"
+    }
+  ],
+  "regionData": [
+    {
+      "buildableRanges": [
+        {
+          "range": {
+            "x": 23,
+            "y": 0,
+            "width": 25,
+            "height": 23,
+            "xMin": 23,
+            "xMax": 48,
+            "yMin": 0,
+            "yMax": 23,
+            "position": {
+              "x": 23,
+              "y": 0
+            }
+          },
+          "regionLevel": 1
+        },
+        {
+          "range": {
+            "x": 23,
+            "y": 23,
+            "width": 25,
+            "height": 25,
+            "xMin": 23,
+            "xMax": 48,
+            "yMin": 23,
+            "yMax": 48,
+            "position": {
+              "x": 23,
+              "y": 23
+            }
+          },
+          "regionLevel": 2
+        },
+        {
+          "range": {
+            "x": 0,
+            "y": 0,
+            "width": 23,
+            "height": 48,
+            "xMin": 0,
+            "xMax": 23,
+            "yMin": 0,
+            "yMax": 48,
+            "position": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          "regionLevel": 3
+        }
+      ],
+      "mines": [
+        {
+          "position": {
+            "x": 4,
+            "y": 5
+          },
+          "face": 2,
+          "id": "originium_mine_01"
+        },
+        {
+          "position": {
+            "x": 9,
+            "y": 4
+          },
+          "face": 2,
+          "id": "iron_mine_01"
+        },
+        {
+          "position": {
+            "x": 16,
+            "y": 5
+          },
+          "face": 2,
+          "id": "iron_mine_02"
+        },
+        {
+          "position": {
+            "x": 22,
+            "y": 4
+          },
+          "face": 2,
+          "id": "quartz_mine_01"
+        },
+        {
+          "position": {
+            "x": 28,
+            "y": 5
+          },
+          "face": 2,
+          "id": "originium_mine_02"
+        },
+        {
+          "position": {
+            "x": 33,
+            "y": 4
+          },
+          "face": 2,
+          "id": "quartz_mine_02"
+        },
+        {
+          "position": {
+            "x": 40,
+            "y": 5
+          },
+          "face": 2,
+          "id": "originium_mine_03"
+        },
+        {
+          "position": {
+            "x": 45,
+            "y": 4
+          },
+          "face": 2,
+          "id": "originium_mine_04"
+        }
+      ],
+      "initialBuilding": [
+        {
+          "position": {
+            "x": 24,
+            "y": 46
+          },
+          "face": 2,
+          "id": "hub"
+        }
+      ],
+      "roads": [
+        {
+          "x": 48,
+          "y": -80
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": -80,
+          "y": 48
+        }
+      ],
+      "wilds": [],
+      "powerStorageCapacity": 5000000,
+      "id": "region_101"
+    }
+  ],
+  "buildingData": [
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 2,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 2,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 1,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "coal_coke",
+          "count": 10
+        }
+      ],
+      "name": "煤采掘机",
+      "id": "miner_0"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 1,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "coal_coke",
+          "count": 10
+        }
+      ],
+      "name": "电力采掘机",
+      "id": "miner_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5,
+        "xMin": 0,
+        "xMax": 5,
+        "yMin": 0,
+        "yMax": 5,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 4
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "燃料电厂",
+      "id": "power_station_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 2,
+        "xMin": 0,
+        "xMax": 2,
+        "yMin": 0,
+        "yMax": 2,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "风电厂",
+      "id": "power_station_2"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 2,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 0
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 0
+        }
+      ],
+      "outputPorts": [],
+      "limitType": 2,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "供货站",
+      "id": "loader_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 2,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 2,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 2,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "取货站",
+      "id": "unloader_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "基础配电杆",
+      "id": "power_pole_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1,
+        "xMin": 0,
+        "xMax": 1,
+        "yMin": 0,
+        "yMax": 1,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "储物箱",
+      "id": "storager_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 2
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "基础熔炼炉",
+      "id": "furnance_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 2
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "基础粉碎机",
+      "id": "grinder_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 5,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 5,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 4
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "细筛选器",
+      "id": "filter_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 6,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 6,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 100,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 5
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "基础浓缩机",
+      "id": "thickener_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5,
+        "xMin": 0,
+        "xMax": 5,
+        "yMin": 0,
+        "yMax": 5,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 4
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "建筑零件机",
+      "id": "component_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 4,
+        "xMin": 0,
+        "xMax": 5,
+        "yMin": 0,
+        "yMax": 4,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 3
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 3
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 3
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 3
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 3
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "卷线机",
+      "id": "winder_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 2
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 2
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "基础塑形机",
+      "id": "shaper_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 5,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 5,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 4
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "粉末灌装机",
+      "id": "filling_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 6,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 6,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 50,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 5
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "苔地种植机",
+      "id": "planter_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 5,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 5,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 20,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 4
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 4
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 0
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 0
+          },
+          "side": 2
+        }
+      ],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "苔地采种机",
+      "id": "seedcollector_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 6,
+        "height": 6,
+        "xMin": 0,
+        "xMax": 6,
+        "yMin": 0,
+        "yMax": 6,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [
+        {
+          "point": {
+            "x": 0,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 1,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 2,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 3,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 4,
+            "y": 5
+          },
+          "side": 2
+        },
+        {
+          "point": {
+            "x": 5,
+            "y": 5
+          },
+          "side": 2
+        }
+      ],
+      "outputPorts": [],
+      "limitType": 2,
+      "roadAttachSide": 2,
+      "upgradeData": {
+        "upgradeMaterials": [
+          {
+            "group": [
+              {
+                "id": "quartz_glass",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "group": [
+              {
+                "id": "iron_building_component",
+                "count": 10
+              }
+            ]
+          }
+        ]
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_glass",
+          "count": 10
+        }
+      ],
+      "name": "HUB",
+      "id": "hub"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 3,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 3,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_sand",
+          "count": 10
+        }
+      ],
+      "name": "工作台",
+      "id": "workshop_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 3,
+        "xMin": 0,
+        "xMax": 4,
+        "yMin": 0,
+        "yMax": 3,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": []
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_sand",
+          "count": 10
+        }
+      ],
+      "name": "贸易站",
+      "id": "trader_1"
+    },
+    {
+      "range": {
+        "x": 0,
+        "y": 0,
+        "width": 4,
+        "height": 4,
+        "xMin": 0,
+        "xMax": 4,
+        "yMin": 0,
+        "yMax": 4,
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "powerConsume": 0,
+      "inputPorts": [],
+      "outputPorts": [],
+      "limitType": 0,
+      "roadAttachSide": 0,
+      "upgradeData": {
+        "upgradeMaterials": [
+          {
+            "group": [
+              {
+                "id": "quartz_glass",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "group": [
+              {
+                "id": "iron_nugget",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "group": [
+              {
+                "id": "iron_building_component",
+                "count": 10
+              }
+            ]
+          }
+        ]
+      },
+      "repairRequireItems": [
+        {
+          "id": "quartz_sand",
+          "count": 10
+        }
+      ],
+      "name": "装备工坊",
+      "id": "equipworkshop_1"
+    }
+  ],
+  "specialBuildingData": [
+    {
+      "assignSlotCount": 1,
+      "id": "workshop_1"
+    },
+    {
+      "assignSlotCount": 3,
+      "id": "trader_1"
+    },
+    {
+      "assignSlotCount": 1,
+      "id": "equipworkshop_1"
+    }
+  ],
+  "hubData": [
+    {
+      "capacity": 100,
+      "id": "hub"
+    }
+  ],
+  "powerPoleData": [
+    {
+      "powerRangeSize": 3,
+      "id": "power_pole_1"
+    }
+  ],
+  "powerStationData": [
+    {
+      "powerProvide": 200,
+      "burnSpeed": 1000,
+      "id": "power_station_1"
+    },
+    {
+      "powerProvide": 50,
+      "burnSpeed": 0,
+      "id": "power_station_2"
+    }
+  ],
+  "storagerData": [
+    {
+      "capacity": 30,
+      "id": "storager_1"
+    }
+  ],
+  "machineCrafterData": [
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "furnance_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "grinder_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "filter_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "thickener_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "component_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "winder_1"
+    },
+    {
+      "signalCount": 2,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "shaper_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "filling_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "planter_1"
+    },
+    {
+      "signalCount": 1,
+      "canInsertMod": false,
+      "ingredientBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "outcomeBufferBinding": [
+        {
+          "bindingPortIndices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "speed": 100,
+      "id": "seedcollector_1"
+    }
+  ],
+  "specialCrafterData": [],
+  "workshopData": [
+    {
+      "groups": [
+        "manualBasic"
+      ],
+      "craftSpeed": 100,
+      "id": "sp_workshop_1"
+    },
+    {
+      "groups": [
+        "equipBasic"
+      ],
+      "craftSpeed": 100,
+      "id": "equipworkshop_1"
+    }
+  ],
+  "minerData": [
+    {
+      "speed": 500,
+      "minePosition": {
+        "x": 1,
+        "y": 0
+      },
+      "mineable": [
+        "coal_ore"
+      ],
+      "id": "miner_0"
+    },
+    {
+      "speed": 2000,
+      "minePosition": {
+        "x": 1,
+        "y": 1
+      },
+      "mineable": [
+        "coal_ore",
+        "quartz_sand",
+        "iron_ore"
+      ],
+      "id": "miner_1"
+    }
+  ],
+  "traderData": [
+    {
+      "orderGenerateBasicSpeed": 40,
+      "maxOrderCount": 5,
+      "id": "trader_1"
+    }
+  ],
+  "loaderData": [
+    {
+      "loadSpeed": 0,
+      "id": "loader_1"
+    }
+  ],
+  "unloaderData": [
+    {
+      "unloadSpeed": 0,
+      "id": "unloader_1"
+    }
+  ],
+  "beltData": [
+    {
+      "conveySpeed": 0.02,
+      "minCargoDistance": 0.8,
+      "itemId": "logistics_belt_01",
+      "id": "belt_01"
+    },
+    {
+      "conveySpeed": 0.08,
+      "minCargoDistance": 0.8,
+      "itemId": "logistics_belt_02",
+      "id": "belt_02"
+    },
+    {
+      "conveySpeed": 0.2,
+      "minCargoDistance": 0.8,
+      "itemId": "logistics_belt_03",
+      "id": "belt_03"
+    }
+  ],
+  "connecterData": [
+    {
+      "itemId": "logistics_connector",
+      "outputRate": 60,
+      "id": "connector_01"
+    }
+  ],
+  "routerData": [
+    {
+      "itemId": "logistics_router",
+      "outputRate": 60,
+      "id": "connector_01"
+    }
+  ],
+  "gridBeltData": [
+    {
+      "unitData": {
+        "conveySpeed": 1000,
+        "itemId": "logistics_belt_01"
+      },
+      "id": "grid_belt_01"
+    },
+    {
+      "unitData": {
+        "conveySpeed": 2000,
+        "itemId": "logistics_belt_02"
+      },
+      "id": "grid_belt_02"
+    },
+    {
+      "unitData": {
+        "conveySpeed": 4000,
+        "itemId": "logistics_belt_03"
+      },
+      "id": "grid_belt_03"
+    }
+  ],
+  "gridConnecterData": {
+    "conveySpeed": 1000,
+    "itemId": "logistics_connector"
+  },
+  "gridRouterData": {
+    "conveySpeed": 1000,
+    "itemId": "logistics_router"
+  },
+  "factoryObjectData": [],
+  "itemData": [
+    {
+      "name": "龙门币",
+      "desc": "世界流通的货币。",
+      "rarity": 1,
+      "obtainHint": "任务获取",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "gold",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "gold"
+    },
+    {
+      "name": "源石煤",
+      "desc": "直接开采出的源石煤资源。",
+      "rarity": 1,
+      "obtainHint": "【源石煤采掘机】或【电力采掘机】挖取；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "coal_ore",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "coal_ore"
+    },
+    {
+      "name": "石英岩",
+      "desc": "直接开采出的石英矿资源。",
+      "rarity": 1,
+      "obtainHint": "【源石煤采掘机】或【电力采掘机】挖取；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "quartz_ore",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "quartz_ore"
+    },
+    {
+      "name": "铁矿石",
+      "desc": "直接开采出的铁矿资源。",
+      "rarity": 1,
+      "obtainHint": "【电力采掘机】挖取；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "iron_ore",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "iron_ore"
+    },
+    {
+      "name": "普通土壤",
+      "desc": "含有矿物质的土壤",
+      "rarity": 1,
+      "obtainHint": "地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "soil",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "soil"
+    },
+    {
+      "name": "玻璃纤维",
+      "desc": "烧制的玻璃纤维。",
+      "rarity": 1,
+      "obtainHint": "【基础熔炼炉】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "quartz_glass",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "quartz_glass"
+    },
+    {
+      "name": "铁块",
+      "desc": "提纯后的铁块。",
+      "rarity": 1,
+      "obtainHint": "【基础熔炼炉】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "iron_nugget",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "iron_nugget"
+    },
+    {
+      "name": "源石余烬",
+      "desc": "源石煤燃烧后的源石余烬。",
+      "rarity": 1,
+      "obtainHint": "【基础熔炼炉】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "coal_coke",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "coal_coke"
+    },
+    {
+      "name": "石英砂",
+      "desc": "石英矿研磨后的细粉。",
+      "rarity": 1,
+      "obtainHint": "【源石煤采掘机】或【电力采掘机】挖取；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "quartz_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "quartz_sand"
+    },
+    {
+      "name": "源石煤粉",
+      "desc": "源石煤研磨后的细粉。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "coal_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "coal_sand"
+    },
+    {
+      "name": "源石余烬粉",
+      "desc": "源石余烬研磨后的细粉。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "coal_coke_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "coal_coke_sand"
+    },
+    {
+      "name": "铁矿粉",
+      "desc": "铁矿研磨后的细粉。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "iron_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "iron_sand"
+    },
+    {
+      "name": "浓缩石英砂",
+      "desc": "石英砂浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_quartz_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_quartz_sand"
+    },
+    {
+      "name": "浓缩源石煤粉",
+      "desc": "源石煤粉浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_coal_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_coal_sand"
+    },
+    {
+      "name": "浓缩源石余烬粉",
+      "desc": "源石余烬粉浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_coal_coke_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_coal_coke_sand"
+    },
+    {
+      "name": "浓缩铁矿粉",
+      "desc": "铁矿石浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_iron_sand",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_iron_sand"
+    },
+    {
+      "name": "铁质建筑零件",
+      "desc": "铁制的建筑零件。",
+      "rarity": 1,
+      "obtainHint": "【建筑零件机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "iron_building_component",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "iron_building_component"
+    },
+    {
+      "name": "铁质瓶",
+      "desc": "铁质的瓶子。",
+      "rarity": 1,
+      "obtainHint": "【基础塑形机】建筑（瓶状模具）生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "iron_bottle",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "iron_bottle"
+    },
+    {
+      "name": "玻璃瓶",
+      "desc": "玻璃质的瓶子。",
+      "rarity": 1,
+      "obtainHint": "【基础塑形机】建筑（瓶状模具）生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "glass_bottle",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "glass_bottle"
+    },
+    {
+      "name": "燃料块",
+      "desc": "可燃物压缩成的小方块。",
+      "rarity": 1,
+      "obtainHint": "【基础塑形机】建筑（块状模具）生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "fuel_block",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "fuel_block"
+    },
+    {
+      "name": "玻璃线圈",
+      "desc": "玻璃纤维与源石余烬卷制的线圈核心。",
+      "rarity": 1,
+      "obtainHint": "【卷线机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "glass_coil",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "glass_coil"
+    },
+    {
+      "name": "苔地植物",
+      "desc": "在苔地产出的植物。",
+      "rarity": 1,
+      "obtainHint": "【苔地种植机】建筑生产；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "tundra_plant",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "tundra_plant"
+    },
+    {
+      "name": "苔地植物种子",
+      "desc": "在苔地产出的植物的种子。",
+      "rarity": 1,
+      "obtainHint": "【苔地采种机】建筑生产；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "tundra_plant_seed",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "tundra_plant_seed"
+    },
+    {
+      "name": "苔地植物叶片",
+      "desc": "在苔地产出的植物的茎叶。",
+      "rarity": 1,
+      "obtainHint": "【细筛选器】建筑生产；地图中采集",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "tundra_plant_vane",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "tundra_plant_vane"
+    },
+    {
+      "name": "苔地植物粉末",
+      "desc": "苔地植物研磨后的细粉。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "tundra_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "tundra_plant_powder"
+    },
+    {
+      "name": "医用植物粉末",
+      "desc": "苔地植物粉末分离出的医用植物粉末。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "medical_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "medical_plant_powder"
+    },
+    {
+      "name": "食用植物粉末",
+      "desc": "苔地植物粉末分离出的食用植物粉末。",
+      "rarity": 1,
+      "obtainHint": "【基础粉碎机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "edible_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "edible_plant_powder"
+    },
+    {
+      "name": "浓缩苔地植物粉末",
+      "desc": "苔地植物粉末浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_tundra_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_tundra_plant_powder"
+    },
+    {
+      "name": "浓缩医用植物粉末",
+      "desc": "医用植物粉末浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_medical_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_medical_plant_powder"
+    },
+    {
+      "name": "浓缩食用植物粉末",
+      "desc": "食用植物粉末浓缩后的产物。",
+      "rarity": 1,
+      "obtainHint": "【基础浓缩机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "enr_edible_plant_powder",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "enr_edible_plant_powder"
+    },
+    {
+      "name": "生命药剂",
+      "desc": "生命药剂，1级。",
+      "rarity": 1,
+      "obtainHint": "【粉末灌装机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "life_potion_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "life_potion_1"
+    },
+    {
+      "name": "大容量生命药剂",
+      "desc": "生命药剂，2级。",
+      "rarity": 1,
+      "obtainHint": "【粉末灌装机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "life_potion_2",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "life_potion_2"
+    },
+    {
+      "name": "瓶装食品",
+      "desc": "瓶装食品，1级。",
+      "rarity": 1,
+      "obtainHint": "【粉末灌装机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "bottled_food_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "bottled_food_1"
+    },
+    {
+      "name": "大容量瓶装食品",
+      "desc": "瓶装食品，2级。",
+      "rarity": 1,
+      "obtainHint": "【粉末灌装机】建筑生产",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "bottled_food_2",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "bottled_food_2"
+    },
+    {
+      "name": "基础工具套组",
+      "desc": "可制造基础优质装备的工具套组",
+      "rarity": 1,
+      "obtainHint": "贸易站获取",
+      "buildingId": "",
+      "objectType": 0,
+      "spriteName": "basic_tool_set",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "basic_tool_set"
+    },
+    {
+      "name": "瓶状模具",
+      "desc": "可放置在基础塑形机上的瓶状模具，用以生产不同配方。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "",
+      "objectType": 3,
+      "spriteName": "mod_shaper_bottle",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "mod_shaper_bottle"
+    },
+    {
+      "name": "块状模具",
+      "desc": "可放置在基础塑形机上的块状模具，用以生产不同配方。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "",
+      "objectType": 3,
+      "spriteName": "mod_shaper_block",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "mod_shaper_block"
+    },
+    {
+      "name": "供货站",
+      "desc": "供货站可将物品运输至工厂总线。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "loader_1",
+      "objectType": 1,
+      "spriteName": "portable_loader_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_loader_1"
+    },
+    {
+      "name": "取货站",
+      "desc": "取货站可选择物品从工厂总线取出。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "unloader_1",
+      "objectType": 1,
+      "spriteName": "portable_unloader_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_unloader_1"
+    },
+    {
+      "name": "源石煤采掘机",
+      "desc": "可采掘源石煤矿，采掘时直接使用源石煤作为燃料，自给自足。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "miner_0",
+      "objectType": 1,
+      "spriteName": "portable_miner_0",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_miner_0"
+    },
+    {
+      "name": "电力采掘机",
+      "desc": "可采掘矿物，但需要用电。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "miner_1",
+      "objectType": 1,
+      "spriteName": "portable_miner_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_miner_1"
+    },
+    {
+      "name": "基础配电杆",
+      "desc": "配电杆范围内的建筑相当于接入电网。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "power_pole_1",
+      "objectType": 1,
+      "spriteName": "portable_power_pole_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_power_pole_1"
+    },
+    {
+      "name": "燃料电厂",
+      "desc": "需要燃料驱动的发电厂。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "power_station_1",
+      "objectType": 1,
+      "spriteName": "portable_power_station_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_power_station_1"
+    },
+    {
+      "name": "风电厂",
+      "desc": "只需要风驱动的发电厂",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "power_station_2",
+      "objectType": 1,
+      "spriteName": "portable_power_station_2",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_power_station_2"
+    },
+    {
+      "name": "储物箱",
+      "desc": "存储物品，后续工厂应该没有这个。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "storager_1",
+      "objectType": 1,
+      "spriteName": "portable_storager_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_storager_1"
+    },
+    {
+      "name": "基础熔炼炉",
+      "desc": "可将部分物质熔炼去除杂质变成基础材料。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "furnance_1",
+      "objectType": 1,
+      "spriteName": "portable_furnance_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_furnance_1"
+    },
+    {
+      "name": "基础粉碎机",
+      "desc": "可将部分固体物质粉碎。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "grinder_1",
+      "objectType": 1,
+      "spriteName": "portable_grinder_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_grinder_1"
+    },
+    {
+      "name": "细筛选器",
+      "desc": "筛选器可将物品筛选分类。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "filter_1",
+      "objectType": 1,
+      "spriteName": "portable_filter_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_filter_1"
+    },
+    {
+      "name": "基础浓缩机",
+      "desc": "可将固体粉末进行浓缩。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "thickener_1",
+      "objectType": 1,
+      "spriteName": "portable_thickener_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_thickener_1"
+    },
+    {
+      "name": "建筑零件机",
+      "desc": "可将金属制造成建筑零，是建造工厂建筑必不可少的材料。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "component_1",
+      "objectType": 1,
+      "spriteName": "portable_component_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_component_1"
+    },
+    {
+      "name": "基础塑形机",
+      "desc": "可将物品物理塑形成别的形状。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "shaper_1",
+      "objectType": 1,
+      "spriteName": "portable_shaper_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_shaper_1"
+    },
+    {
+      "name": "粉末灌装机",
+      "desc": "可将固体粉末灌装到瓶中。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "filling_1",
+      "objectType": 1,
+      "spriteName": "portable_filling_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_filling_1"
+    },
+    {
+      "name": "卷线机",
+      "desc": "可将两种物品卷制成线圈。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "winder_1",
+      "objectType": 1,
+      "spriteName": "portable_winder_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_winder_1"
+    },
+    {
+      "name": "苔地种植机",
+      "desc": "可使用苔地种子种植苔地植物作物。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "planter_1",
+      "objectType": 1,
+      "spriteName": "portable_planter_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_planter_1"
+    },
+    {
+      "name": "苔地采种机",
+      "desc": "可以将苔地植物的种子采集出来。",
+      "rarity": 1,
+      "obtainHint": "工作台制造",
+      "buildingId": "seedcollector_1",
+      "objectType": 1,
+      "spriteName": "portable_seedcollector_1",
+      "maxStackCount": 50,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_seedcollector_1"
+    },
+    {
+      "name": "HUB",
+      "desc": "工厂核心",
+      "rarity": 1,
+      "obtainHint": "终末地工业特殊资产",
+      "buildingId": "hub",
+      "objectType": 1,
+      "spriteName": "portable_hub",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_hub"
+    },
+    {
+      "name": "工作台",
+      "desc": "可使用工作台制造建筑或其他物品。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "workshop_1",
+      "objectType": 2,
+      "spriteName": "portable_workshop_1",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_workshop_1"
+    },
+    {
+      "name": "贸易站",
+      "desc": "可使用贸易站接单获得奖励。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "trader_1",
+      "objectType": 2,
+      "spriteName": "portable_trader_1",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_trader_1"
+    },
+    {
+      "name": "装备工坊",
+      "desc": "可使用装备工坊制造装备。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "equipworkshop_1",
+      "objectType": 2,
+      "spriteName": "portable_equipworkshop_1",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": true,
+      "id": "portable_equipworkshop_1"
+    },
+    {
+      "name": "慢速传送带",
+      "desc": "运输速度比较慢的传送带。",
+      "rarity": 1,
+      "obtainHint": "物流工具",
+      "buildingId": "",
+      "objectType": 6,
+      "spriteName": "logistics_belt_01",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "logistics_belt_01"
+    },
+    {
+      "name": "中速传送带",
+      "desc": "运输速度适中的传送带。",
+      "rarity": 1,
+      "obtainHint": "物流工具",
+      "buildingId": "",
+      "objectType": 6,
+      "spriteName": "logistics_belt_02",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "logistics_belt_02"
+    },
+    {
+      "name": "快速传送带",
+      "desc": "运输速度很快的传送带。",
+      "rarity": 1,
+      "obtainHint": "物流工具",
+      "buildingId": "",
+      "objectType": 6,
+      "spriteName": "logistics_belt_03",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "logistics_belt_03"
+    },
+    {
+      "name": "连接器",
+      "desc": "可让两条传送带交叉运输互不干扰。",
+      "rarity": 1,
+      "obtainHint": "物流工具",
+      "buildingId": "",
+      "objectType": 6,
+      "spriteName": "logistics_connector",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "logistics_connector"
+    },
+    {
+      "name": "路由器",
+      "desc": "可让1条传送带均匀传输到3条分支传送带。",
+      "rarity": 1,
+      "obtainHint": "物流工具",
+      "buildingId": "",
+      "objectType": 6,
+      "spriteName": "logistics_router",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "logistics_router"
+    },
+    {
+      "name": "石制头盔",
+      "desc": "装备等级5的头盔",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_helmet",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_helmet"
+    },
+    {
+      "name": "石制护甲",
+      "desc": "装备等级5的护甲",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_armor",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_armor"
+    },
+    {
+      "name": "石制靴子",
+      "desc": "装备等级5的靴子",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_boots",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_boots"
+    },
+    {
+      "name": "精制石制头盔",
+      "desc": "装备等级7的头盔",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_re_helmet",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_re_helmet"
+    },
+    {
+      "name": "精制石制护甲",
+      "desc": "装备等级7的护甲",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_re_armor",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_re_armor"
+    },
+    {
+      "name": "精制石制靴子",
+      "desc": "装备等级7的靴子",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_stone_re_boots",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_stone_re_boots"
+    },
+    {
+      "name": "铁制头盔",
+      "desc": "装备等级10的头盔",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_helmet",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_helmet"
+    },
+    {
+      "name": "铁制护甲",
+      "desc": "装备等级10的护甲",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_armor",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_armor"
+    },
+    {
+      "name": "铁制靴子",
+      "desc": "装备等级10的靴子",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_boots",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_boots"
+    },
+    {
+      "name": "精制铁制头盔",
+      "desc": "装备等级15的头盔",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_re_helmet",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_re_helmet"
+    },
+    {
+      "name": "精制铁制护甲",
+      "desc": "装备等级15的护甲",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_re_armor",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_re_armor"
+    },
+    {
+      "name": "精制铁制靴子",
+      "desc": "装备等级15的靴子",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_re_boots",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_re_boots"
+    },
+    {
+      "name": "百炼铁制头盔",
+      "desc": "装备等级17的头盔",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_ex_helmet",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_ex_helmet"
+    },
+    {
+      "name": "百炼铁制护甲",
+      "desc": "装备等级17的护甲",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_ex_armor",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_ex_armor"
+    },
+    {
+      "name": "百炼铁制靴子",
+      "desc": "装备等级17的靴子",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取；武器工坊制造",
+      "buildingId": "",
+      "objectType": 9,
+      "spriteName": "equip_iron_ex_boots",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "equip_iron_ex_boots"
+    },
+    {
+      "name": "绿色植物培育蓝图",
+      "desc": "可生产绿色植物相关建筑的蓝图。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "",
+      "objectType": 10,
+      "spriteName": "blueprint_green_plant",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "blueprint_green_plant"
+    },
+    {
+      "name": "供货站蓝图",
+      "desc": "可生产供货站建筑的蓝图。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "",
+      "objectType": 10,
+      "spriteName": "blueprint_loader_1",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "blueprint_loader_1"
+    },
+    {
+      "name": "取货站蓝图",
+      "desc": "可生产取货站建筑的蓝图。",
+      "rarity": 1,
+      "obtainHint": "冒险探索获取",
+      "buildingId": "",
+      "objectType": 10,
+      "spriteName": "blueprint_unloader_1",
+      "maxStackCount": 1,
+      "repoStackLimit": 10000,
+      "buildingBufferStackLimit": 50,
+      "showCount": false,
+      "id": "blueprint_unloader_1"
+    }
+  ],
+  "itemTypeFuelData": [
+    {
+      "fuelEnergy": 120000,
+      "id": "coal_ore"
+    },
+    {
+      "fuelEnergy": 480000,
+      "id": "fuel_block"
+    }
+  ],
+  "itemTypeBuildingData": [],
+  "itemTypeWeaponData": [
+    {
+      "slot": 0,
+      "battleEvaluation": 5,
+      "id": "equip_stone_helmet"
+    },
+    {
+      "slot": 1,
+      "battleEvaluation": 5,
+      "id": "equip_stone_armor"
+    },
+    {
+      "slot": 2,
+      "battleEvaluation": 5,
+      "id": "equip_stone_boots"
+    },
+    {
+      "slot": 0,
+      "battleEvaluation": 7,
+      "id": "equip_stone_re_helmet"
+    },
+    {
+      "slot": 1,
+      "battleEvaluation": 7,
+      "id": "equip_stone_re_armor"
+    },
+    {
+      "slot": 2,
+      "battleEvaluation": 7,
+      "id": "equip_stone_re_boots"
+    },
+    {
+      "slot": 0,
+      "battleEvaluation": 10,
+      "id": "equip_iron_helmet"
+    },
+    {
+      "slot": 1,
+      "battleEvaluation": 10,
+      "id": "equip_iron_armor"
+    },
+    {
+      "slot": 2,
+      "battleEvaluation": 10,
+      "id": "equip_iron_boots"
+    },
+    {
+      "slot": 0,
+      "battleEvaluation": 15,
+      "id": "equip_iron_re_helmet"
+    },
+    {
+      "slot": 1,
+      "battleEvaluation": 15,
+      "id": "equip_iron_re_armor"
+    },
+    {
+      "slot": 2,
+      "battleEvaluation": 15,
+      "id": "equip_iron_re_boots"
+    },
+    {
+      "slot": 0,
+      "battleEvaluation": 17,
+      "id": "equip_iron_ex_helmet"
+    },
+    {
+      "slot": 1,
+      "battleEvaluation": 17,
+      "id": "equip_iron_ex_armor"
+    },
+    {
+      "slot": 2,
+      "battleEvaluation": 17,
+      "id": "equip_iron_ex_boots"
+    }
+  ],
+  "characterData": [
+    {
+      "displayName": "陈",
+      "icon": "Assets/UI/UISprites/Formation/HeadBarIcon04.png",
+      "manualCraftSpeed": 100,
+      "manualCraftGroups": [
+        "manualBasic",
+        "manualAdvanced"
+      ],
+      "skills": [
+        "skill_test_1",
+        "skill_test_2"
+      ],
+      "id": "chen"
+    },
+    {
+      "displayName": "佩丽卡",
+      "icon": "Assets/UI/UISprites/Formation/HeadBarIcon02.png",
+      "manualCraftSpeed": 100,
+      "manualCraftGroups": [
+        "manualBasic",
+        "manualAdvanced"
+      ],
+      "skills": [
+        "skill_test_2"
+      ],
+      "id": "perlica"
+    },
+    {
+      "displayName": "军刃",
+      "icon": "Assets/UI/UISprites/Formation/HeadBarIcon03.png",
+      "manualCraftSpeed": 100,
+      "manualCraftGroups": [
+        "manualBasic",
+        "manualAdvanced"
+      ],
+      "skills": [
+        "skill_test_2"
+      ],
+      "id": "sword"
+    },
+    {
+      "displayName": "小狼",
+      "icon": "Assets/UI/UISprites/Formation/HeadBarIcon05.png",
+      "manualCraftSpeed": 100,
+      "manualCraftGroups": [
+        "manualBasic",
+        "manualAdvanced"
+      ],
+      "skills": [
+        "skill_test_2"
+      ],
+      "id": "wolf"
+    },
+    {
+      "displayName": "老人",
+      "icon": "Assets/UI/UISprites/Formation/HeadBarIcon01.png",
+      "manualCraftSpeed": 100,
+      "manualCraftGroups": [
+        "manualBasic",
+        "manualAdvanced"
+      ],
+      "skills": [
+        "skill_test_2"
+      ],
+      "id": "old"
+    }
+  ],
+  "characterSkillData": [
+    {
+      "name": "测试技能·占位1",
+      "desc": "后续的贸易站技能可以显著提升某一方向的制造能力",
+      "stringParameters": null,
+      "intParameters": null,
+      "id": "skill_test_1"
+    },
+    {
+      "name": "测试技能·占位2",
+      "desc": "后续的工作台技能不仅仅能提供特殊配方、也能提升整个工厂的产出",
+      "stringParameters": null,
+      "intParameters": null,
+      "id": "skill_test_2"
+    }
+  ],
+  "craftGroupData": [
+    {
+      "name": "普通建筑配方",
+      "desc": "普通建筑配方",
+      "spriteName": "missing_icon",
+      "id": "manualBasic"
+    },
+    {
+      "name": "普通装备配方",
+      "desc": "普通装备配方",
+      "spriteName": "missing_icon",
+      "id": "equipBasic"
+    }
+  ],
+  "specialCraftData": [],
+  "workshopCraftData": [
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "coal_ore",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_miner_0",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "1"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_miner_0"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "coal_ore",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_power_station_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "1"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_power_station_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "glass_coil",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_power_pole_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "1"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_power_pole_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "coal_ore",
+          "count": 5
+        },
+        {
+          "id": "quartz_sand",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_furnance_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "1"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_furnance_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_glass",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_winder_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "1"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_winder_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_miner_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_miner_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_power_station_2",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "portable_power_station_2"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_nugget",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_component_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_component_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_shaper_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_shaper_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 3
+        },
+        {
+          "id": "coal_ore",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "mod_shaper_block",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "mod_shaper_block"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_nugget",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_grinder_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_grinder_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 20
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_thickener_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "buildingLevel",
+          "unlockParam1": "hub",
+          "unlockParam2": "2"
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_thickener_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        },
+        {
+          "id": "quartz_glass",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_loader_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "gotItem",
+          "unlockParam1": "blueprint_loader_1",
+          "unlockParam2": ""
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_loader_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        },
+        {
+          "id": "quartz_glass",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_unloader_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "gotItem",
+          "unlockParam1": "blueprint_unloader_1",
+          "unlockParam2": ""
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_unloader_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 3
+        },
+        {
+          "id": "soil",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_planter_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "gotItem",
+          "unlockParam1": "blueprint_green_plant",
+          "unlockParam2": ""
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_planter_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_seedcollector_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "gotItem",
+          "unlockParam1": "blueprint_green_plant",
+          "unlockParam2": ""
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_seedcollector_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "manualBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "portable_filling_1",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 0,
+      "unlockConditions": [
+        {
+          "unlockType": "gotItem",
+          "unlockParam1": "blueprint_green_plant",
+          "unlockParam2": ""
+        }
+      ],
+      "spriteName": "missing_icon",
+      "id": "building_filling_1"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_sand",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_helmet",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 1,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_helmet"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_sand",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_armor",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 1,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_armor"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_sand",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_boots",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 1,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_boots"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_glass",
+          "count": 5
+        },
+        {
+          "id": "glass_coil",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_re_helmet",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 2,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_re_helmet"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_glass",
+          "count": 5
+        },
+        {
+          "id": "glass_coil",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_re_armor",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 2,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_re_armor"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "quartz_glass",
+          "count": 5
+        },
+        {
+          "id": "glass_coil",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_stone_re_boots",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 2,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_stone_re_boots"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_nugget",
+          "count": 5
+        },
+        {
+          "id": "tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_helmet",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 3,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_helmet"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_nugget",
+          "count": 5
+        },
+        {
+          "id": "tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_armor",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 3,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_armor"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_nugget",
+          "count": 5
+        },
+        {
+          "id": "tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_boots",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 3,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_boots"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        },
+        {
+          "id": "enr_tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_re_helmet",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_re_helmet"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        },
+        {
+          "id": "enr_tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_re_armor",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_re_armor"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 5
+        },
+        {
+          "id": "enr_tundra_plant_powder",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_re_boots",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "building_equip_iron_re_boots"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        },
+        {
+          "id": "basic_tool_set",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_ex_helmet",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "equip_iron_ex_helmet"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        },
+        {
+          "id": "basic_tool_set",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_ex_armor",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "equip_iron_ex_armor"
+    },
+    {
+      "rarity": 1,
+      "belongingGroupIds": [
+        "equipBasic"
+      ],
+      "ingredients": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        },
+        {
+          "id": "basic_tool_set",
+          "count": 5
+        }
+      ],
+      "outcomes": [
+        {
+          "id": "equip_iron_ex_boots",
+          "count": 1
+        }
+      ],
+      "totalProgress": 1,
+      "defaultUnlock": false,
+      "requireWorkshopLevel": 4,
+      "unlockConditions": [],
+      "spriteName": "missing_icon",
+      "id": "equip_iron_ex_boots"
+    }
+  ],
+  "machineCraftData": [
+    {
+      "machineId": "furnance_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "quartz_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "quartz_glass",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "furnance_quartz_glass_1"
+    },
+    {
+      "machineId": "furnance_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "enr_quartz_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "quartz_glass",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "furnance_quartz_glass_2"
+    },
+    {
+      "machineId": "furnance_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_ore",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "iron_nugget",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "furnance_iron_nugget_1"
+    },
+    {
+      "machineId": "furnance_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "iron_nugget",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "furnance_iron_nugget_2"
+    },
+    {
+      "machineId": "furnance_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_ore",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "coal_coke",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 6000,
+      "sortId": 0,
+      "id": "furnance_coal_coke_1"
+    },
+    {
+      "machineId": "grinder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_powder",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "totalProgress": 48000,
+      "sortId": 0,
+      "id": "grinder_tundra_plant_powder_1"
+    },
+    {
+      "machineId": "grinder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_seed",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_powder",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 48000,
+      "sortId": 0,
+      "id": "grinder_tundra_plant_powder_3"
+    },
+    {
+      "machineId": "grinder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_ore",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "iron_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "grinder_iron_sand_1"
+    },
+    {
+      "machineId": "grinder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_ore",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "coal_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "grinder_coal_sand_1"
+    },
+    {
+      "machineId": "grinder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_coke",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "coal_coke_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "grinder_coal_coke_sand_1"
+    },
+    {
+      "machineId": "component_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_nugget",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "iron_building_component",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "component_iron_building_component_1"
+    },
+    {
+      "machineId": "winder_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_coke",
+              "count": 2
+            },
+            {
+              "id": "quartz_glass",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "glass_coil",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "winder_glass_coil_1"
+    },
+    {
+      "machineId": "thickener_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "quartz_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "enr_quartz_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "thickener_enr_quartz_sand_1"
+    },
+    {
+      "machineId": "thickener_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "enr_coal_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "thickener_enr_coal_sand_1"
+    },
+    {
+      "machineId": "thickener_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_coke_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "enr_coal_coke_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "thickener_enr_coal_coke_sand_1"
+    },
+    {
+      "machineId": "thickener_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "enr_iron_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "thickener_enr_iron_sand_1"
+    },
+    {
+      "machineId": "thickener_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_powder",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "enr_tundra_plant_powder",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "thickener_enr_tundra_plant_powder_1"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "quartz_glass",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "glass_bottle",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_glass_bottle_1"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_nugget",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "iron_bottle",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_iron_bottle_1"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_coke_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_1"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "coal_sand",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_2"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_powder",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_3"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "enr_coal_coke_sand",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_4"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "enr_coal_sand",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_5"
+    },
+    {
+      "machineId": "shaper_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "enr_tundra_plant_powder",
+              "count": 5
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "fuel_block",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "shaper_fuel_block_6"
+    },
+    {
+      "machineId": "filling_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "glass_bottle",
+              "count": 1
+            },
+            {
+              "id": "tundra_plant_powder",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "life_potion_1",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "filling_life_potion_1_1"
+    },
+    {
+      "machineId": "filling_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_bottle",
+              "count": 1
+            },
+            {
+              "id": "tundra_plant_powder",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "life_potion_1",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "filling_life_potion_1_2"
+    },
+    {
+      "machineId": "filling_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "iron_bottle",
+              "count": 1
+            },
+            {
+              "id": "enr_tundra_plant_powder",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "life_potion_2",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "filling_life_potion_2_1"
+    },
+    {
+      "machineId": "planter_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_seed",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "totalProgress": 60000,
+      "sortId": 0,
+      "id": "planter_tundra_plant_1"
+    },
+    {
+      "machineId": "seedcollector_1",
+      "signalIndex": 0,
+      "modelId": "",
+      "ingredients": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "outcomes": [
+        {
+          "group": [
+            {
+              "id": "tundra_plant_seed",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "totalProgress": 12000,
+      "sortId": 0,
+      "id": "seedcollector_tundra_plant_1"
+    }
+  ],
+  "orderTypeData": [
+    {
+      "name": "食品药品",
+      "desc": "对食品药品的相关需求",
+      "itemValue": [
+        {
+          "itemId": "tundra_plant",
+          "val": 2
+        },
+        {
+          "itemId": "tundra_plant_seed",
+          "val": 1
+        },
+        {
+          "itemId": "life_potion_1",
+          "val": 10
+        },
+        {
+          "itemId": "life_potion_2",
+          "val": 20
+        }
+      ],
+      "id": "order_type_0"
+    },
+    {
+      "name": "居民安全",
+      "desc": "对居民安全的相关需求",
+      "itemValue": [
+        {
+          "itemId": "iron_bottle",
+          "val": 5
+        },
+        {
+          "itemId": "glass_bottle",
+          "val": 5
+        },
+        {
+          "itemId": "iron_building_component",
+          "val": 10
+        }
+      ],
+      "id": "order_type_1"
+    }
+  ],
+  "orderData": [
+    {
+      "typeId": "order_type_0",
+      "needValue": 100,
+      "rewardItems": [
+        {
+          "id": "basic_tool_set",
+          "count": 5
+        }
+      ],
+      "id": "order_1_1"
+    },
+    {
+      "typeId": "order_type_1",
+      "needValue": 100,
+      "rewardItems": [
+        {
+          "id": "basic_tool_set",
+          "count": 5
+        }
+      ],
+      "id": "order_2_1"
+    }
+  ],
+  "missionData": [
+    {
+      "title": "1、初入工厂",
+      "info": "玩家在外部进行最初的战斗与探索\n会捡到一些无法直接使用的物品——矿物、植物、工厂建筑、配电杆等\n玩家会知道，游戏中有个工厂区域，在此区域中，矿物和植物可以在工厂建筑中合成有用的物品\n配电杆放在要耗电的工厂建筑附近，如果区域中枢电网有点，则建筑就能正常工作\n玩家会获得【生命药剂】，并且在战斗中作为血药消耗，玩家会知道这个特别重要\n玩家会知道【生命药剂】是可以在工厂量产的\n因此，玩家经历了外部的战斗探索后，终于来到了工厂……",
+      "desc": "无任务",
+      "targets": [],
+      "rewards": [
+        {
+          "id": "portable_miner_0",
+          "count": 3
+        },
+        {
+          "id": "coal_ore",
+          "count": 50
+        },
+        {
+          "id": "tundra_plant",
+          "count": 200
+        },
+        {
+          "id": "life_potion_1",
+          "count": 1
+        },
+        {
+          "id": "portable_power_pole_1",
+          "count": 2
+        }
+      ],
+      "id": "guide_mission_1"
+    },
+    {
+      "title": "2、扩大生产",
+      "info": "为了更好的进行探索需要扩增血瓶产线，因为目前工厂内没有其他可玩内容，因此玩家需要离开工厂继续战斗探索\n离开工厂后，玩家持续进行探索与战斗\n路上打怪，捡拾道具\n在这次探索时捡拾了一些新的建筑和材料\n燃料电机，可以消耗燃料进行发电\n基础粉碎机，可以将大块物品粉碎为粉末\n基础塑形机，可以将物体塑形，默认带瓶装模具\n细筛选器，将物品进行细分，不改变性状\n经过了这段时间的战斗后，玩家回到了工厂",
+      "desc": "通过【粉末灌装机】生产10个生命药剂",
+      "targets": [
+        {
+          "type": 1,
+          "id": "life_potion_1",
+          "totalProgress": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "portable_power_station_1",
+          "count": 1
+        },
+        {
+          "id": "portable_grinder_1",
+          "count": 1
+        },
+        {
+          "id": "portable_power_pole_1",
+          "count": 2
+        },
+        {
+          "id": "portable_shaper_1",
+          "count": 1
+        },
+        {
+          "id": "tundra_plant",
+          "count": 100
+        }
+      ],
+      "id": "guide_mission_2"
+    },
+    {
+      "title": "3、制作建筑",
+      "info": "此时工厂又没有其他可玩内容了，玩家继续离开工厂进行战斗探索\n又踏上了冒险旅途，且有了源源不断的血瓶使得战斗探索更加顺利\n击败了精英怪或BOSS掉落了一个特种机器——工作台\n同时又获得了一些【铁矿石】和【铁块】，玩家可以发现【铁矿石】可以通过以下方式获得：\n在铁矿附近周期性获得（坐火后刷新或其他规则，待讨论）\n也可通过击败怪物掉落（掉落几率等待讨论）\n【铁块】可以通过【铁矿石】在【熔炉】里合成\n同时又沿途顺便采集了一些植物，回到了工厂",
+      "desc": "生命药剂产率达到6个/10S",
+      "targets": [
+        {
+          "type": 3,
+          "id": "life_potion_1",
+          "totalProgress": 6
+        }
+      ],
+      "rewards": [
+        {
+          "id": "iron_ore",
+          "count": 10
+        },
+        {
+          "id": "iron_nugget",
+          "count": 20
+        },
+        {
+          "id": "tundra_plant",
+          "count": 100
+        },
+        {
+          "id": "portable_furnance_1",
+          "count": 1
+        },
+        {
+          "id": "portable_workshop_1",
+          "count": 1
+        }
+      ],
+      "id": "guide_mission_3"
+    },
+    {
+      "title": "4、新产线",
+      "info": "玩家在制造完毕铁质建筑零件产线后，发现有多个建筑可以制造了\n而目前的目标是让铁矿进行自动化生产，在拥有足够的铁零件后可进行铁矿机的制造",
+      "desc": "通过【建筑零件机】生产5个铁质建筑零件",
+      "targets": [
+        {
+          "type": 1,
+          "id": "iron_building_component",
+          "totalProgress": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "iron_building_component",
+          "count": 10
+        }
+      ],
+      "id": "guide_mission_4"
+    },
+    {
+      "title": "5、产线自动化",
+      "info": "玩家发现，完全可以通过【苔地种植地】生产【苔地植物】，实现【生命药剂】的自动化，而不需要每次探索后添加【苔地植物植物】到工厂仓库中\n为了生产【苔地种植机】，需要在外部获取一些随处可见的土壤\n因此玩家在外部探索，获得了一些土壤后再次回到了工厂中",
+      "desc": "在任意矿点放置两个【电能采掘机】",
+      "targets": [
+        {
+          "type": 5,
+          "id": "miner_1",
+          "totalProgress": 2
+        }
+      ],
+      "rewards": [
+        {
+          "id": "soil",
+          "count": 20
+        }
+      ],
+      "id": "guide_mission_5"
+    },
+    {
+      "title": "6、模具",
+      "info": "随着产线的增加，电可能面临不足的情况，而此时能量块可以让煤炭在产量有限的情况下获得更多可燃物，从而能够提供给更多发电机从而增加总功率\n塑形机使用【块状模具】可以生产【燃料块】\n了解【模具】并对塑形机进行替换或者新增额外产线",
+      "desc": "通过【苔地种植机】生产10个苔地植物",
+      "targets": [
+        {
+          "type": 1,
+          "id": "tundra_plant",
+          "totalProgress": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "iron_building_component",
+          "count": 3
+        },
+        {
+          "id": "coal_ore",
+          "count": 10
+        }
+      ],
+      "id": "guide_mission_6"
+    },
+    {
+      "title": "7、居民订单",
+      "info": "此时工厂正常生产，会产生很多冗余物品，这些物品如何处理？\n此时玩家会知道要和当地城市取得联系，接收订单消耗这些物品，从而获得【养成材料】\n因此玩家继续进行战斗与探索，顺利与当地城市接洽后获得新的特种建筑——贸易站\n同时，在探索的过程中也获得了一些【大容量生命药剂】\n玩家会发现【大容量生命药剂】比【生命药剂】回血多，更好用\n因此如果能生产【大容量生命药剂】就好了\n而【大容量生命药剂】的相关内容需要居民的好感度（完成订单数量）到达一定程序才能解锁，因此我们需要多完成居民订单",
+      "desc": "通过【基础塑形机】生产10个燃料块",
+      "targets": [
+        {
+          "type": 1,
+          "id": "fuel_block",
+          "totalProgress": 10
+        }
+      ],
+      "rewards": [
+        {
+          "id": "portable_trader_1",
+          "count": 1
+        }
+      ],
+      "id": "guide_mission_7"
+    },
+    {
+      "title": "8、优化配方",
+      "info": "玩家完成了订单需求，获得了基础浓缩机\n浓缩机是所有的粉可以进行浓缩：【XX粉】*2 -》【浓缩XX粉】*1\n一般的效果是让原本需要2个【XX粉】的配方变为只需要1个【浓缩XX粉】，或者是产出更牛逼的效果\n【大容量生命药剂】之后可以在灌装机进行生产了",
+      "desc": "通过【贸易站】完成5个订单",
+      "targets": [
+        {
+          "type": 6,
+          "id": "",
+          "totalProgress": 5
+        }
+      ],
+      "rewards": [
+        {
+          "id": "portable_thickener_1",
+          "count": 1
+        }
+      ],
+      "id": "guide_mission_8"
+    },
+    {
+      "title": "9、DEMO2结束",
+      "info": "告知玩家后续可继续战斗与探索解锁更多的内容\n比如当前工厂有一个区块还没有开放，需要玩家完成外部任务后才解锁\n且外部战斗中需要的钥匙、炸弹等物品也能在工厂生产\n后续可以继续改造工厂\nDEMO2阶段流程结束！",
+      "desc": "通过【粉末灌装机】生产10个大容量生命药剂",
+      "targets": [
+        {
+          "type": 1,
+          "id": "life_potion_2",
+          "totalProgress": 10
+        }
+      ],
+      "rewards": [],
+      "id": "guide_mission_9"
+    }
+  ],
+  "stageData": [
+    {
+      "title": "1、裂地者营地",
+      "battleEvaluation": 0,
+      "initialClearReward": [
+        {
+          "id": "coal_ore",
+          "count": 5
+        },
+        {
+          "id": "quartz_sand",
+          "count": 5
+        },
+        {
+          "id": "equip_stone_helmet",
+          "count": 1
+        },
+        {
+          "id": "equip_stone_armor",
+          "count": 1
+        },
+        {
+          "id": "equip_stone_boots",
+          "count": 1
+        },
+        {
+          "id": "portable_power_pole_1",
+          "count": 5
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "coal_ore",
+          "count": 1
+        }
+      ],
+      "predecessor": "",
+      "id": "stage_1"
+    },
+    {
+      "title": "2-集成工业实验站",
+      "battleEvaluation": 20,
+      "initialClearReward": [
+        {
+          "id": "coal_ore",
+          "count": 20
+        },
+        {
+          "id": "quartz_sand",
+          "count": 10
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "coal_ore",
+          "count": 1
+        },
+        {
+          "id": "quartz_sand",
+          "count": 1
+        }
+      ],
+      "predecessor": "stage_1",
+      "id": "stage_2"
+    },
+    {
+      "title": "3-核心联盟废弃开采区",
+      "battleEvaluation": 60,
+      "initialClearReward": [
+        {
+          "id": "coal_ore",
+          "count": 30
+        },
+        {
+          "id": "quartz_sand",
+          "count": 20
+        },
+        {
+          "id": "tundra_plant",
+          "count": 20
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "coal_ore",
+          "count": 1
+        },
+        {
+          "id": "quartz_sand",
+          "count": 1
+        },
+        {
+          "id": "tundra_plant",
+          "count": 1
+        }
+      ],
+      "predecessor": "stage_2",
+      "id": "stage_3"
+    },
+    {
+      "title": "4-苔地入口哨站",
+      "battleEvaluation": 70,
+      "initialClearReward": [
+        {
+          "id": "quartz_sand",
+          "count": 50
+        },
+        {
+          "id": "iron_ore",
+          "count": 50
+        },
+        {
+          "id": "tundra_plant",
+          "count": 50
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "quartz_sand",
+          "count": 1
+        },
+        {
+          "id": "iron_ore",
+          "count": 1
+        },
+        {
+          "id": "tundra_plant",
+          "count": 1
+        }
+      ],
+      "predecessor": "stage_3",
+      "id": "stage_4"
+    },
+    {
+      "title": "5-南方平原",
+      "battleEvaluation": 84,
+      "initialClearReward": [
+        {
+          "id": "quartz_sand",
+          "count": 50
+        },
+        {
+          "id": "iron_ore",
+          "count": 50
+        },
+        {
+          "id": "tundra_plant",
+          "count": 50
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "quartz_sand",
+          "count": 1
+        },
+        {
+          "id": "iron_ore",
+          "count": 1
+        },
+        {
+          "id": "tundra_plant",
+          "count": 1
+        }
+      ],
+      "predecessor": "stage_4",
+      "id": "stage_5"
+    },
+    {
+      "title": "6-支线区域",
+      "battleEvaluation": 95,
+      "initialClearReward": [
+        {
+          "id": "quartz_sand",
+          "count": 50
+        },
+        {
+          "id": "iron_ore",
+          "count": 50
+        },
+        {
+          "id": "tundra_plant",
+          "count": 50
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "quartz_sand",
+          "count": 1
+        },
+        {
+          "id": "iron_ore",
+          "count": 1
+        },
+        {
+          "id": "tundra_plant",
+          "count": 1
+        }
+      ],
+      "predecessor": "stage_5",
+      "id": "stage_6"
+    },
+    {
+      "title": "7-侵蚀区",
+      "battleEvaluation": 120,
+      "initialClearReward": [
+        {
+          "id": "portable_trader_1",
+          "count": 1
+        },
+        {
+          "id": "blueprint_green_plant",
+          "count": 1
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "soil",
+          "count": 30
+        }
+      ],
+      "predecessor": "stage_6",
+      "id": "stage_7"
+    },
+    {
+      "title": "8-平原峡谷通道",
+      "battleEvaluation": 140,
+      "initialClearReward": [
+        {
+          "id": "tundra_plant",
+          "count": 50
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "tundra_plant",
+          "count": 5
+        },
+        {
+          "id": "soil",
+          "count": 5
+        }
+      ],
+      "predecessor": "stage_7",
+      "id": "stage_8"
+    },
+    {
+      "title": "9-大桥峡谷",
+      "battleEvaluation": 180,
+      "initialClearReward": [
+        {
+          "id": "quartz_sand",
+          "count": 50
+        }
+      ],
+      "normalReward": [
+        {
+          "id": "quartz_sand",
+          "count": 5
+        }
+      ],
+      "predecessor": "stage_8",
+      "id": "stage_9"
+    },
+    {
+      "title": "10-最终BOSS",
+      "battleEvaluation": 185,
+      "initialClearReward": [],
+      "normalReward": [],
+      "predecessor": "stage_9",
+      "id": "stage_10"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e3m2_2_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 5082.084,
+                "y": 1534.118
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 5394.945,
+                "y": 1585.347
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "_highLevelButStillHighFps": false,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0,
+            "fadeOutDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -89.774,
+            "y": 174.84,
+            "z": 665.114
+        },
+        "rootRot": {
+            "y": 145.1571
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 25.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "useNpcProxy": true,
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 3,
+                "position": {
+                    "x": -4.290129,
+                    "y": 0.9682007,
+                    "z": 4.520025
+                },
+                "rotation": {
+                    "y": 351.7
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 3,
+                "position": {
+                    "x": -5.110214,
+                    "y": 1.011902,
+                    "z": 4.808038
+                },
+                "rotation": {
+                    "y": 4.800001
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "lookAt": 3,
+                "position": {
+                    "x": -3.547189,
+                    "y": 1.011902,
+                    "z": 5.184083
+                },
+                "rotation": {
+                    "y": 320.4
+                }
+            },
+            {
+                "templateId": "npc_gentleman_unionscholar_a_38",
+                "position": {
+                    "x": -5.11,
+                    "y": 1.011902,
+                    "z": 6.53
+                },
+                "rotation": {
+                    "y": 165.4
+                }
+            },
+            {
+                "templateId": "npc_obj_car_02",
+                "position": {
+                    "x": 4.2,
+                    "y": -0.001174927,
+                    "z": -7.81
+                },
+                "rotation": {
+                    "y": 305.1105
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

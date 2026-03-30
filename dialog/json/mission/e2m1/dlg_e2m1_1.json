@@ -1,0 +1,160 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e2m1_1_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 8240.0,
+                "y": -240.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 8520.0,
+                "y": 40.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -391.49,
+            "y": 118.33,
+            "z": -104.07
+        },
+        "rootRot": {
+            "y": 47.7
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0004_pelica",
+                "lookAt": 3,
+                "position": {
+                    "x": 2.16,
+                    "y": -0.02590942,
+                    "z": 1.17
+                },
+                "rotation": {
+                    "y": 307.7
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 3,
+                "position": {
+                    "x": 1.12,
+                    "y": -0.02590942,
+                    "z": -0.19
+                },
+                "rotation": {
+                    "y": 333.2
+                }
+            },
+            {
+                "templateId": "npc_chr_0005_chen",
+                "lookAt": 3,
+                "position": {
+                    "x": -0.9,
+                    "y": -0.02590942,
+                    "z": 0.51
+                },
+                "rotation": {
+                    "y": 10.8
+                }
+            },
+            {
+                "templateId": "npc_spl_qinjc_01",
+                "lookAt": 1,
+                "position": {
+                    "x": -0.72,
+                    "y": -0.02590942,
+                    "z": 2.3
+                },
+                "rotation": {
+                    "y": 147.3
+                }
+            },
+            {
+                "templateId": "npc_spl_shawna_01",
+                "lookAt": 1,
+                "position": {
+                    "x": -0.15,
+                    "y": -0.02590942,
+                    "z": 2.67
+                },
+                "rotation": {
+                    "y": 157.8
+                }
+            },
+            {
+                "templateId": "npc_spl_andrew_01",
+                "position": {
+                    "x": 0.61,
+                    "y": -0.02590942,
+                    "z": 2.55
+                },
+                "rotation": {
+                    "y": 173.0
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

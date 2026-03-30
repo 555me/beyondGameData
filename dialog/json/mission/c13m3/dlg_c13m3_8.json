@@ -1,0 +1,120 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_c13m3_8_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": 8041.831,
+                "y": 66.43166
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 8140.0,
+                "y": 240.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+            "fadeInDuration": 0.0
+        },
+        "hideSquad": true,
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [
+            {
+                "actorType": 256,
+                "levelId": "map01_lv001",
+                "actorId": "npc_girl_unionscholar_a_01_g01_map01_lv001_c13m3_001"
+            }
+        ],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0013_aglina",
+                "lookAt": 2,
+                "position": {
+                    "x": -35.39929,
+                    "y": 92.93848,
+                    "z": -560.7025
+                },
+                "rotation": {
+                    "y": 257.8961
+                }
+            },
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 2,
+                "position": {
+                    "x": -35.38702,
+                    "y": 92.93848,
+                    "z": -561.6222
+                },
+                "rotation": {
+                    "y": 246.1276
+                }
+            },
+            {
+                "templateId": "npc_gentleman_efscholar_a_02",
+                "lookAt": 0,
+                "position": {
+                    "x": -36.154,
+                    "y": 93.67569,
+                    "z": -561.7792
+                }
+            }
+        ],
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}
