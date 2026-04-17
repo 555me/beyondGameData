@@ -159,6 +159,12 @@
                             "enable": true
                         },
                         "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "stopCurPlaying": true,
+                        "recoverTimeType": 2,
+                        "actorIndex": 3,
+                        "$type": "Beyond.Gameplay.DialogMuteAutoBlinkActData"
                     }
                 ],
                 "actionGroups": [],
@@ -325,6 +331,11 @@
         },
         {
             "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
                 "_actionGroups": [
                     {
                         "duration": 2.5,
@@ -334,7 +345,6 @@
                                 "$type": "Beyond.Gameplay.DialogTextFadeActionData"
                             },
                             {
-                                "fadeType": 1,
                                 "texts": [],
                                 "audioBehaviour": {
                                     "presetBehaviour": 2,
@@ -610,6 +620,12 @@
                         "actorIndex": 3,
                         "configSaveId": "548b5f30-c43c-4673-a551-f10b28d594cf",
                         "$type": "Beyond.Gameplay.DialogAudioActionData"
+                    },
+                    {
+                        "stopCurPlaying": true,
+                        "recoverTimeType": 2,
+                        "actorIndex": 3,
+                        "$type": "Beyond.Gameplay.DialogMuteAutoBlinkActData"
                     }
                 ],
                 "actionGroups": [
@@ -1039,6 +1055,11 @@
         },
         {
             "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
                 "_actionGroups": [
                     {
                         "actions": [
@@ -1335,7 +1356,7 @@
                 "summaryId": "summary_e1m3_9_001",
                 "$type": "Beyond.Gameplay.DialogSummaryActData"
             },
-            "additionalWidth": 7.0,
+            "additionalWidth": 9.0,
             "_position": {
                 "x": -220.0,
                 "y": 600.0
@@ -1500,10 +1521,10 @@
             "showFacBuildingTypes": []
         },
         "hideDecoConfigs": [],
+        "hideInteractive": [],
         "hideNpcDesc": {
 
         },
-        "useNpcProxy": true,
         "actors": [],
         "npcVisibleRuleType": 1,
         "npcBlackList": [
@@ -1569,6 +1590,7 @@
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
+        "useOldVersionEyeLookAt": true,
         "$type": "Beyond.Gameplay.DialogTreeData"
     }
 }

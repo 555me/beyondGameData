@@ -1,0 +1,138 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": -1025.728,
+                "y": 850.3764
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_actionData": {
+                "name": "dlgtl_e10m3_8_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "streamLoadMaskBlendData": {
+                    "fadeOutDuration": 0.0,
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "timelineFinishNums": [],
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -816.2373,
+                "y": 909.3441
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -582.7013,
+                "y": 899.3395
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -1479.461,
+            "y": 332.9,
+            "z": -514.0184
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [
+            {
+                "decoId": 22800220003
+            }
+        ],
+        "hideInteractive": [
+            {
+                "useSlotId": true,
+                "logicId": 22800780012,
+                "slotId": 40002
+            },
+            {
+                "useSlotId": true,
+                "logicId": 22800780012,
+                "slotId": 40003
+            }
+        ],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "posTemplateActorCount": 2,
+        "posTemplateId": "1_1_new1",
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_actionData": {
+                "name": "dlgtl_e9m2_14_sub_1",
+                "cinematicType": 2,
+                "cgExData": {
+
+                },
+                "hideAllActors": true,
+                "streamLoadMaskBlendData": {
+                    "fadeOutDuration": 0.0,
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "timelineFinishNums": [],
+                "duration": -1.0,
+                "actionEnum": 132,
+                "configSaveId": "",
+                "$type": "Beyond.Gameplay.DialogCinematicActData"
+            },
+            "additionalWidth": 76.0,
+            "_position": {
+                "x": -1370.0,
+                "y": 217.8
+            },
+            "$type": "Beyond.Gameplay.DialogTreeCinematicNode",
+            "$id": "0"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": -1124.702,
+                "y": 216.5461
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "1"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "_qualityLevel": 1,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -1620.846,
+            "y": 408.2343,
+            "z": -340.004
+        },
+        "rootRot": {
+            "y": 76.77626
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "posTemplateActorCount": 4,
+        "posTemplateId": "3_1_3",
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

@@ -807,7 +807,6 @@
                         "duration": 0.5,
                         "actions": [
                             {
-                                "fadeType": 1,
                                 "curve": {
                                     "keys": [],
                                     "preWrapMode": 8,
@@ -1761,7 +1760,18 @@
             "_actorNodeData": {
                 "_actorIndex": 0,
                 "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
 
+                        },
+                        "montageDesc": {
+                            "actorId": "npc_chr_0011_seraph"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_chr_0011_seraph"
+                        }
+                    },
+                    "actorIndex": 0
                 },
                 "emotionActData": {
                     "emotionDesc": {
@@ -1785,20 +1795,23 @@
                         "mouthTrackInfo": {
 
                         }
-                    }
+                    },
+                    "actorIndex": 0
                 },
                 "lookAtActData": {
                     "lookAtDescriptor": {
 
-                    }
+                    },
+                    "actorIndex": 0
                 },
                 "eyeLookAtActData": {
                     "lookAtDescriptor": {
 
-                    }
+                    },
+                    "actorIndex": 0
                 },
                 "turnToActData": {
-
+                    "actorIndex": 0
                 },
                 "actions": [
                     {
@@ -2210,10 +2223,10 @@
             "showFacBuildingTypes": []
         },
         "hideDecoConfigs": [],
+        "hideInteractive": [],
         "hideNpcDesc": {
 
         },
-        "useNpcProxy": true,
         "actors": [],
         "npcVisibleRuleType": 1,
         "npcBlackList": [
@@ -2261,6 +2274,7 @@
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
+        "useOldVersionEyeLookAt": true,
         "$type": "Beyond.Gameplay.DialogTreeData"
     }
 }

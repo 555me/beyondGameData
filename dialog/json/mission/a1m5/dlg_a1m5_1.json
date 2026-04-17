@@ -1666,8 +1666,7 @@
                                     "tweenTime": 1.0,
                                     "dofDescriptor": {
                                         "dofData": {
-                                            "mode": 1,
-                                            "scale": 1
+
                                         }
                                     }
                                 },
@@ -1680,39 +1679,12 @@
                                         }
                                     }
                                 },
-                                "delay": 0.0,
                                 "actionEnum": 51,
                                 "$type": "Beyond.Gameplay.DialogCamActData"
                             },
                             {
                                 "fadeTime": 0.0,
-                                "delay": 0.0,
                                 "$type": "Beyond.Gameplay.DialogTextFadeActionData"
-                            },
-                            {
-                                "cameraDOFDescriptor": {
-                                    "dofData": {
-
-                                    },
-                                    "enable": true,
-                                    "curve": {
-                                        "keys": [],
-                                        "preWrapMode": 8,
-                                        "postWrapMode": 8
-                                    }
-                                },
-                                "$type": "Beyond.Gameplay.DialogCamDOFActionData"
-                            },
-                            {
-                                "targetType": 2,
-                                "emptyTargetDescriptor": {
-
-                                },
-                                "lookAtDescriptor": {
-
-                                },
-                                "actorIndex": 0,
-                                "$type": "Beyond.Gameplay.DialogLookAtActData"
                             }
                         ]
                     }
@@ -1736,7 +1708,7 @@
                 "configSaveId": "",
                 "$type": "Beyond.Gameplay.DialogOpenUIAction"
             },
-            "additionalWidth": 136.0,
+            "additionalWidth": 135.0,
             "_position": {
                 "x": 7460.0,
                 "y": 240.0
@@ -3016,6 +2988,7 @@
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
+        "useOldVersionEyeLookAt": true,
         "$type": "Beyond.Gameplay.DialogTreeData"
     }
 }

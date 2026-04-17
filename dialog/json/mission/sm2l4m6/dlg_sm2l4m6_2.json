@@ -1,0 +1,2975 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "duration": 4.0,
+                        "actions": [
+                            {
+                                "texts": [
+                                    {
+                                        "key": "black_sm2l4m6_4_001"
+                                    }
+                                ],
+                                "curve": {
+                                    "keys": [],
+                                    "preWrapMode": 8,
+                                    "postWrapMode": 8
+                                },
+                                "duration": 5.0,
+                                "isMainAction": true,
+                                "configSaveId": "53552533-1047-45d7-9458-5d250f1532d4",
+                                "$type": "Beyond.Gameplay.DialogNarrativeMaskActionData"
+                            },
+                            {
+                                "fadeTime": 0.0,
+                                "delay": 0.0,
+                                "$type": "Beyond.Gameplay.DialogTextFadeActionData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "delay": 0.5,
+                        "configSaveId": "82e538bf-af03-49c7-a205-07a1e4dcdc02",
+                        "$type": "Beyond.Gameplay.DialogAudioActionData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": -200.6,
+                "y": 431.4
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "0"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "duration": 1.0,
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 1.031153,
+                                        "y": 1.657028,
+                                        "z": 2.682847
+                                    },
+                                    "rot": {
+                                        "x": 7.250472,
+                                        "y": 205.4286,
+                                        "z": 7.315572E-05
+                                    },
+                                    "fov": 22.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/VirtualEndmin/think1",
+                                    "tagId": -812929930
+                                },
+                                "actorId": "npc_chr_0003_endminf"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_chr_0003_endminf"
+                            }
+                        },
+                        "actorIndex": 0,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 6.399963,
+                "y": 431.2
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "1"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_1_001",
+                    "logicId": 59
+                },
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_1_002",
+                    "index": 1,
+                    "logicId": 60
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 200.0,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "2"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_001",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 1.037142,
+                            "y": 1.460815,
+                            "z": -1.322327
+                        },
+                        "rot": {
+                            "x": 2.300087,
+                            "y": 334.4128,
+                            "z": 7.102716E-06
+                        },
+                        "fov": 22.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mOverride": true,
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 0.7425106,
+                            "y": 1.55304,
+                            "z": -0.9351003
+                        },
+                        "rot": {
+                            "x": 1.887571,
+                            "y": 337.0255,
+                            "z": 1.20661E-05
+                        },
+                        "fov": 22.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/akimbo2",
+                                "tagId": -207775623
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "targetIndex": 0,
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "targetIndex": 0,
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 600.0,
+                "y": 397.6
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "3"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_002",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "pos": {
+                            "x": -0.7559998,
+                            "y": 1.355,
+                            "z": 0.07499981
+                        },
+                        "rot": {
+                            "x": 358.15,
+                            "y": 31.5,
+                            "z": 0.03320039
+                        },
+                        "fov": 24.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 3.0,
+                                "farFocusEnd": 6.0,
+                                "farRadius": 4.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "bKeepMontageBefore": true,
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/akimbo2",
+                                "tagId": -207775623
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 1001.6,
+                "y": 399.2
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "4"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_003",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "bKeepMontageBefore": true,
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/angrym",
+                            "tagId": 1634944678
+                        },
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/Virtual/idle_shake",
+                                    "tagId": -1169328119
+                                },
+                                "montageBodyMask": 5,
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            },
+                            "animEndType": 1
+                        },
+                        "actorIndex": 1,
+                        "delay": 1.0,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 1402.4,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "5"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 1.031146,
+                                        "y": 1.657028,
+                                        "z": 2.682824
+                                    },
+                                    "rot": {
+                                        "x": 7.250474,
+                                        "y": 205.4286,
+                                        "z": 7.32633E-05
+                                    },
+                                    "fov": 22.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+                                            "farFocusStart": 4.0,
+                                            "farFocusEnd": 8.0,
+                                            "farRadius": 2.0
+                                        },
+                                        "enable": true
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 1696.4,
+                "y": 271.2
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "6"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_2_001",
+                    "logicId": 61
+                },
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_2_002",
+                    "index": 1,
+                    "logicId": 62
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 1800.0,
+                "y": 399.2
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "7"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "duration": 2.0,
+                        "actions": [
+                            {
+                                "anim": {
+                                    "charMontageDesc": {
+
+                                    },
+                                    "montageDesc": {
+                                        "montageKeyTag": {
+                                            "tagName": "Montage/NPC/VirtualEndmin/idle_talkhands",
+                                            "tagId": 119650607
+                                        },
+                                        "actorId": "npc_chr_0003_endminf"
+                                    },
+                                    "maleMontageOverrideDesc": {
+                                        "actorId": "npc_chr_0003_endminf"
+                                    },
+                                    "animEndType": 1
+                                },
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogAnimActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/VirtualEndmin/idle_shake",
+                                    "tagId": -1546408199
+                                },
+                                "montageBodyMask": 5,
+                                "actorId": "npc_chr_0003_endminf"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_chr_0003_endminf"
+                            }
+                        },
+                        "actorIndex": 0,
+                        "delay": 0.2,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 2062.0,
+                "y": 312.0001
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "8"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_004",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 1.193899,
+                            "y": 1.438431,
+                            "z": -0.4085836
+                        },
+                        "rot": {
+                            "x": 358.7249,
+                            "y": 317.4991,
+                            "z": 5.417467E-06
+                        },
+                        "fov": 22.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 3.0,
+                                "farFocusEnd": 6.0,
+                                "farRadius": 4.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/fistangry",
+                                "tagId": 561570254
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "changeMontageState": true,
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/angrym",
+                            "tagId": 1634944678
+                        },
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/fistangry",
+                                    "tagId": 561570254
+                                },
+                                "changeMontageState": true,
+                                "stateMontage": 2,
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            },
+                            "animEndType": 1
+                        },
+                        "actorIndex": 1,
+                        "delay": 1.0,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 2200.8,
+                "y": 400.8
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "9"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_005",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 1.037142,
+                            "y": 1.460815,
+                            "z": -1.322327
+                        },
+                        "rot": {
+                            "x": 2.300086,
+                            "y": 334.4128,
+                            "z": 7.156119E-06
+                        },
+                        "fov": 22.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "farFocusStart": 5.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 1.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/introduction2",
+                                "tagId": 1826699887
+                            },
+                            "montageFadeInTransitionInfo": {
+                                "bIsFixedTransitionTime": true,
+                                "fixedTime": 0.3,
+                                "fixedTransitionDuration": 0.8
+                            },
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 2600.8,
+                "y": 396.8
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "10"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_006",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": 2,
+                        "posName": "1_1_new1",
+                        "pos": {
+                            "x": -0.953,
+                            "y": 1.355,
+                            "z": 2.455
+                        },
+                        "rot": {
+                            "x": -6.565102,
+                            "y": 148.9,
+                            "z": 0.03320058
+                        },
+                        "fov": 25.0,
+                        "focusModePath": "Character/dlg_2_1_1_npc2_RFA.prefab",
+                        "focusTargetIndex": 1,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": 2,
+                        "posName": "1_1_new1",
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 58
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 3000.0,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "11"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_3_001",
+                    "logicId": 63
+                },
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_3_002",
+                    "index": 1,
+                    "logicId": 64
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 3400.8,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "12"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_007",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 0.349924,
+                            "y": 1.483337,
+                            "z": -0.364867
+                        },
+                        "rot": {
+                            "x": 357.6248,
+                            "y": 349.4014,
+                            "z": 4.860013E-06
+                        },
+                        "fov": 18.0,
+                        "translationPos": {
+                            "x": 0.4218201,
+                            "y": 1.500046,
+                            "z": -0.08220997
+                        },
+                        "translationRot": {
+                            "x": 357.0747,
+                            "y": 341.1508,
+                            "z": 4.595021E-06
+                        },
+                        "translationTime": 5.0,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/chesthugging1",
+                                "tagId": -1243910145
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/seriousa",
+                            "tagId": 124344865
+                        },
+                        "emotionWeight": 0.912,
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "targetType": 2,
+                    "lookAtY": -0.415,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [
+                    {
+                        "resetEye": false,
+                        "targetType": 1,
+                        "emptyTargetDescriptor": {
+                            "position": {
+                                "x": -0.009,
+                                "y": 1.4916,
+                                "z": 1.1387
+                            },
+                            "curve": {
+                                "keys": [],
+                                "preWrapMode": 8,
+                                "postWrapMode": 8
+                            }
+                        },
+                        "lookAtDescriptor": {
+                            "blendTime": 0.3
+                        },
+                        "actorIndex": 1,
+                        "delay": 0.2,
+                        "$type": "Beyond.Gameplay.DialogLookAtActData"
+                    },
+                    {
+                        "emotionDesc": {
+                            "bPlayEmotion": true,
+                            "blinkImmediately": false,
+                            "emotionTag": {
+                                "tagName": "FacialMorph/Emotion/thinkcloseeyesa",
+                                "tagId": 362170382
+                            },
+                            "browsTrackInfo": {
+
+                            },
+                            "eyesTrackInfo": {
+
+                            },
+                            "mouthTrackInfo": {
+
+                            }
+                        },
+                        "mEmotionDesc": {
+                            "browsTrackInfo": {
+
+                            },
+                            "eyesTrackInfo": {
+
+                            },
+                            "mouthTrackInfo": {
+
+                            }
+                        },
+                        "actorIndex": 1,
+                        "delay": 0.1,
+                        "$type": "Beyond.Gameplay.DialogEmotionActData"
+                    },
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/Virtual/idle_shake",
+                                    "tagId": -1169328119
+                                },
+                                "montageBodyMask": 5,
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_gentleman_hsteacher_04"
+                            }
+                        },
+                        "actorIndex": 1,
+                        "delay": 0.7,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 3802.442,
+                "y": 397.5578
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "13"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_008",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": 2,
+                        "posName": "1_1_new1",
+                        "pos": {
+                            "x": 0.301,
+                            "y": 1.376,
+                            "z": 0.99
+                        },
+                        "rot": {
+                            "x": -15.25116,
+                            "y": 199.2,
+                            "z": 0.03316618
+                        },
+                        "fov": 22.0,
+                        "focusModePath": "Character/dlg_2_1_1_npc2_LCF.prefab",
+                        "focusTargetIndex": 1,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 3.0,
+                                "farFocusEnd": 6.0,
+                                "farRadius": 5.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": 2,
+                        "posName": "1_1_new1",
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 58
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "blinkImmediately": false,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/normala",
+                            "tagId": 1092875302
+                        },
+                        "emotionTransitionInfo": {
+                            "fixedTransitionDuration": 0.5,
+                            "fixedTransitionType": 1
+                        },
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "targetIndex": 0,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "targetIndex": 0,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [
+                    {
+                        "targetIndex": 0,
+                        "emptyTargetDescriptor": {
+                            "curve": {
+                                "keys": [],
+                                "preWrapMode": 8,
+                                "postWrapMode": 8
+                            }
+                        },
+                        "lookAtDescriptor": {
+                            "blendTime": 0.5
+                        },
+                        "actorIndex": 1,
+                        "delay": 0.3,
+                        "$type": "Beyond.Gameplay.DialogLookAtActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 4204.042,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "14"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_009",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "camType": 2,
+                        "pos": {
+                            "x": 1.037142,
+                            "y": 1.460815,
+                            "z": -1.322327
+                        },
+                        "rot": {
+                            "x": 2.300087,
+                            "y": 334.4128,
+                            "z": 7.102716E-06
+                        },
+                        "fov": 22.0,
+                        "focusModePath": "Character/dlg_2_1_1_npc1_LFA.prefab",
+                        "focusTargetIndex": 0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 2.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/chesthugging1_talk",
+                                "tagId": 1934493013
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 4605.599,
+                "y": 401.5576
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "15"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 1.031139,
+                                        "y": 1.657028,
+                                        "z": 2.682801
+                                    },
+                                    "rot": {
+                                        "x": 7.250475,
+                                        "y": 205.4286,
+                                        "z": 7.315572E-05
+                                    },
+                                    "fov": 22.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+                                            "farFocusStart": 4.0,
+                                            "farFocusEnd": 8.0,
+                                            "farRadius": 2.0
+                                        },
+                                        "enable": true
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "anim": {
+                            "charMontageDesc": {
+
+                            },
+                            "montageDesc": {
+                                "montageKeyTag": {
+                                    "tagName": "Montage/NPC/VirtualEndmin/idle_talkrighthand1",
+                                    "tagId": -446176689
+                                },
+                                "actorId": "npc_chr_0003_endminf"
+                            },
+                            "maleMontageOverrideDesc": {
+                                "actorId": "npc_chr_0003_endminf"
+                            }
+                        },
+                        "actorIndex": 0,
+                        "$type": "Beyond.Gameplay.DialogAnimActData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 5001.032,
+                "y": 419.8409
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "16"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_sm2l4m6_2_4_001",
+                    "logicId": 65
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_position": {
+                "x": 5174.336,
+                "y": 416.0019
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "17"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_010",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 0.8942602,
+                            "y": 1.478195,
+                            "z": -0.3475071
+                        },
+                        "rot": {
+                            "x": 358.1748,
+                            "y": 329.1874,
+                            "z": 4.804914E-06
+                        },
+                        "fov": 18.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/VirtualCrowd/think1",
+                                "tagId": 1167493937
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/thinklookside01",
+                            "tagId": -1961741544
+                        },
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 5579.701,
+                "y": 391.4935
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "18"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_011",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "pos": {
+                            "x": 0.4198261,
+                            "y": 1.488937,
+                            "z": -0.1920324
+                        },
+                        "rot": {
+                            "x": 358.0373,
+                            "y": 345.1385,
+                            "z": 4.751903E-06
+                        },
+                        "fov": 18.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "mode": 1,
+                                "scale": 1,
+                                "farFocusStart": 4.0,
+                                "farFocusEnd": 10.0,
+                                "farRadius": 3.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/Virtual/think1",
+                                "tagId": 808590063
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "changeMontageState": true,
+                            "stateMontage": 0,
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 5978.374,
+                "y": 392.2935
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "19"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "curve": {
+                        "keys": [],
+                        "preWrapMode": 8,
+                        "postWrapMode": 8
+                    },
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "duration": 3.0,
+                        "actions": [
+                            {
+                                "hideEffects": [],
+                                "showEffects": [
+                                    {
+                                        "effectIndex": 1,
+                                        "reset": true,
+                                        "position": {
+                                            "x": -2.38,
+                                            "y": 1.0,
+                                            "z": 0.45
+                                        },
+                                        "rotation": {
+                                            "y": 358.7
+                                        }
+                                    }
+                                ],
+                                "$type": "Beyond.Gameplay.DialogEffectActionData"
+                            },
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": 0.8284354,
+                                        "y": 1.422,
+                                        "z": -2.360531
+                                    },
+                                    "rot": {
+                                        "x": 5.187775,
+                                        "y": 310.486,
+                                        "z": -0.0001416664
+                                    },
+                                    "fov": 22.0,
+                                    "useTranslation": true,
+                                    "translationPos": {
+                                        "x": 0.8284354,
+                                        "y": 1.513901,
+                                        "z": -2.360531
+                                    },
+                                    "translationRot": {
+                                        "x": 5.187776,
+                                        "y": 310.486,
+                                        "z": -0.0001416664
+                                    },
+                                    "translationTime": 2.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "cameraDOFDescriptor": {
+                            "dofData": {
+                                "farFocusStart": 7.0,
+                                "farFocusEnd": 20.0,
+                                "farRadius": 5.0
+                            },
+                            "enable": true,
+                            "curve": {
+                                "keys": [],
+                                "preWrapMode": 8,
+                                "postWrapMode": 8
+                            }
+                        },
+                        "$type": "Beyond.Gameplay.DialogCamDOFActionData"
+                    },
+                    {
+                        "fadeTime": 0.0,
+                        "$type": "Beyond.Gameplay.DialogTextFadeActionData"
+                    }
+                ]
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 6286.4,
+                "y": 288.0
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "20"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_sm2l4m6_2_012",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "modeNum": -1,
+                        "camType": 2,
+                        "pos": {
+                            "x": 4.447342,
+                            "y": 2.667542,
+                            "z": -3.240103
+                        },
+                        "rot": {
+                            "x": 16.05108,
+                            "y": 305.8107,
+                            "z": 4.886242E-06
+                        },
+                        "fov": 22.0,
+                        "dofDescriptor": {
+                            "dofData": {
+                                "farFocusStart": 7.0,
+                                "farFocusEnd": 25.0,
+                                "farRadius": 2.0
+                            },
+                            "enable": true
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "modeNum": -1,
+                        "posName": "1_1_new1",
+                        "camType": 2,
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0,
+                    "actionEnum": 51
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/Crowd/talklefthandship",
+                                "tagId": -2099509152
+                            },
+                            "montageOverrideEntryTransitionInfo": [],
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_04"
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "useLookAt": true,
+                "lookAtActData": {
+                    "targetType": 2,
+                    "emptyTargetDescriptor": {
+                        "curve": {
+                            "keys": [],
+                            "preWrapMode": 8,
+                            "postWrapMode": 8
+                        }
+                    },
+                    "lookAtX": 0.5,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "targetType": 2,
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "emptyTargetDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 6434.905,
+                "y": 388.5602
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "21"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 7074.106,
+                "y": 409.3602
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "22"
+        },
+        {
+            "_actorNodeData": {
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "npc_chr_0003_endminf"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_chr_0003_endminf"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "useLookAt": true,
+                "lookAtActData": {
+                    "targetType": 2,
+                    "lookAtX": -0.4,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTExActorNodeData"
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 6545.527,
+                "y": 647.6055
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExActorNode",
+            "$id": "23"
+        },
+        {
+            "_actorNodeData": {
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "npc_chr_0003_endminf"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_chr_0003_endminf"
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [
+                    {
+                        "targetIndex": 1,
+                        "lookAtDescriptor": {
+
+                        },
+                        "actorIndex": 0,
+                        "delay": 0.27,
+                        "$type": "Beyond.Gameplay.DialogLookAtActData"
+                    }
+                ],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTExActorNodeData"
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 4204.042,
+                "y": 600.8
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExActorNode",
+            "$id": "24"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "curve": {
+                        "keys": [],
+                        "preWrapMode": 8,
+                        "postWrapMode": 8
+                    },
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "duration": 2.0,
+                        "actions": [
+                            {
+                                "anim": {
+                                    "charMontageDesc": {
+
+                                    },
+                                    "montageDesc": {
+                                        "montageKeyTag": {
+                                            "tagName": "Montage/NPC/VirtualEndmin/dizzy",
+                                            "tagId": 628675826
+                                        },
+                                        "actorId": "npc_chr_0003_endminf"
+                                    },
+                                    "maleMontageOverrideDesc": {
+                                        "actorId": "npc_chr_0003_endminf"
+                                    },
+                                    "animEndType": 1
+                                },
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogAnimActData"
+                            }
+                        ]
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 2052.2,
+                "y": 527.8
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "25"
+        },
+        {
+            "_actorNodeData": {
+                "_actorIndex": 0,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/VirtualEndmin/idle_nod",
+                                "tagId": 1355601593
+                            },
+                            "montageFadeInTransitionInfo": {
+                                "bIsFixedTransitionTime": true,
+                                "fixedTransitionDuration": 1.0
+                            },
+                            "actorId": "npc_chr_0003_endminf"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_chr_0003_endminf"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 0
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 0
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 0
+                },
+                "turnToActData": {
+                    "actorIndex": 0
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTExActorNodeData"
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": 1069.4,
+                "y": 616.2
+            },
+            "$type": "Beyond.Gameplay.DialogTreeExActorNode",
+            "$id": "26"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "3"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "2"
+            },
+            "_targetNode": {
+                "$ref": "3"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "3"
+            },
+            "_targetNode": {
+                "$ref": "4"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "4"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "4"
+            },
+            "_targetNode": {
+                "$ref": "26"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "6"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "6"
+            },
+            "_targetNode": {
+                "$ref": "7"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "7"
+            },
+            "_targetNode": {
+                "$ref": "8"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "7"
+            },
+            "_targetNode": {
+                "$ref": "25"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "8"
+            },
+            "_targetNode": {
+                "$ref": "9"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "9"
+            },
+            "_targetNode": {
+                "$ref": "10"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "10"
+            },
+            "_targetNode": {
+                "$ref": "11"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "11"
+            },
+            "_targetNode": {
+                "$ref": "12"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "12"
+            },
+            "_targetNode": {
+                "$ref": "13"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "12"
+            },
+            "_targetNode": {
+                "$ref": "13"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "13"
+            },
+            "_targetNode": {
+                "$ref": "14"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "14"
+            },
+            "_targetNode": {
+                "$ref": "15"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "14"
+            },
+            "_targetNode": {
+                "$ref": "24"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "15"
+            },
+            "_targetNode": {
+                "$ref": "16"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "16"
+            },
+            "_targetNode": {
+                "$ref": "17"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "17"
+            },
+            "_targetNode": {
+                "$ref": "18"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "18"
+            },
+            "_targetNode": {
+                "$ref": "19"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "19"
+            },
+            "_targetNode": {
+                "$ref": "20"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "20"
+            },
+            "_targetNode": {
+                "$ref": "21"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "21"
+            },
+            "_targetNode": {
+                "$ref": "22"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "21"
+            },
+            "_targetNode": {
+                "$ref": "23"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "25"
+            },
+            "_targetNode": {
+                "$ref": "9"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": 47.09,
+            "y": 128.07,
+            "z": -22.09
+        },
+        "rootRot": {
+            "y": 1.300513
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
+        "actors": [],
+        "npcVisibleRuleType": 2,
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_chr_0003_endminf",
+                "lookAt": 1,
+                "position": {
+                    "x": -0.01158091,
+                    "z": 0.01009857
+                },
+                "rotation": {
+                    "y": 358.2347
+                },
+                "slotInPosTemplate": "P1"
+            },
+            {
+                "templateId": "npc_gentleman_hsteacher_04",
+                "lookAt": 0,
+                "position": {
+                    "z": 1.452
+                },
+                "rotation": {
+                    "y": 180.0
+                },
+                "slotInPosTemplate": "T1"
+            }
+        ],
+        "posTemplateActorCount": 2,
+        "posTemplateId": "1_1_new1",
+        "exLights": [],
+        "exEffects": [
+            {
+                "path": "P_fxmap_map_butterfly_ink_guiding_single_2107"
+            },
+            {
+                "path": "P_fxmap_map_butterfly_ink_guiding_2107"
+            }
+        ],
+        "tmpGameObjects": [],
+        "useOldVersionEyeLookAt": true,
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}
