@@ -1670,6 +1670,45 @@
       }
     ]
   },
+  "item_dog_hsmob_corp_1": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_dog_hsmob_corp_1",
+    "itemUseDesc": {
+      "cn": "使用后，全队干员立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this for the entire team to instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "1",
+    "uiType": "1",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 592.04083,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.08,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "3"
+      }
+    ]
+  },
   "item_erhound_1_agmelee_1_moss_1_1": {
     "duration": "300",
     "effectType": "2",
@@ -1699,6 +1738,45 @@
             }
           ],
           "buffId": "buff_common_resis_up_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
+  "item_ethillu_1_wgslime_1_wgthorns_1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_ethillu_1_wgslime_1_wgthorns_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，连携技冷却时间缩减<@ba.vup>{1-value:0%}</>，持续<@ba.vup>{duration:0}</>秒。",
+      "en": "Use this to shorten Combo Skill CD by <@ba.vup>{1-value:0%}</>. Duration: <@ba.vup>{duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.74209356,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_cdr_buff_potion_1"
         },
         "skillBBData": {
           "blackboard": [],

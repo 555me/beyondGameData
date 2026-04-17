@@ -1,4 +1,78 @@
 {
+  "component_activity_xiranite_cmpt_1": {
+    "buffers": {
+      "item_activity_xiranite_cmpt": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤零件生产",
+      "en": "Experimental Xiranite Part Production"
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_activity_xiranite_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "6",
+    "totalProgress": "12000"
+  },
+  "component_activity_xiranite_enr_cmpt_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_cmpt": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验重息壤零件生产",
+      "en": "Experimental Heavy Xiranite Part Production"
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_activity_xiranite_enr_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_activity_xiranite_enr_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": "20",
+    "signal": "0",
+    "sortId": "7",
+    "totalProgress": "120000"
+  },
   "component_copper_cmpt_1": {
     "buffers": {
       "item_copper_cmpt": "0",
@@ -35,6 +109,43 @@
     "signal": "0",
     "sortId": "5",
     "totalProgress": "12000"
+  },
+  "component_copper_enr_cmpt_1": {
+    "buffers": {
+      "item_copper_enr": "0",
+      "item_copper_enr_cmpt": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜零件生产",
+      "en": "Hetonite Part Production"
+    },
+    "formulaGroupId": "group_component_normal",
+    "id": "component_copper_enr_cmpt_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "5",
+            "id": "item_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "5",
+    "totalProgress": "60000"
   },
   "component_glass_cmpt_1": {
     "buffers": {
@@ -182,6 +293,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "3",
+    "totalProgress": "12000"
+  },
+  "dismantler_copper_acid_1": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_acid": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜瓶生产",
+      "en": "Cuprium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copper_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "57",
+    "totalProgress": "12000"
+  },
+  "dismantler_copper_copper_1": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_copper": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜瓶生产",
+      "en": "Cuprium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copper_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "65",
+    "totalProgress": "12000"
+  },
+  "dismantler_copper_copper_enr_1": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_copper_enr": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜瓶生产",
+      "en": "Cuprium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copper_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "66",
     "totalProgress": "12000"
   },
   "dismantler_copper_grass_1_1": {
@@ -394,6 +631,48 @@
     "sortId": "61",
     "totalProgress": "12000"
   },
+  "dismantler_copper_xiranite_enr_1": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_xiranite_enr": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜瓶生产",
+      "en": "Cuprium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copper_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "62",
+    "totalProgress": "12000"
+  },
   "dismantler_copper_xiranite_lowpoly_1": {
     "buffers": {
       "item_copper_bottle": "0",
@@ -476,6 +755,594 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "63",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_acid_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_acid": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "68",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_copper_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_copper": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "76",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_copper_enr_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_copper_enr": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "77",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_grass_1_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_grass_1": "0",
+      "item_liquid_plant_grass_1": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_grass_1_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "70",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_grass_2_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_grass_2": "0",
+      "item_liquid_plant_grass_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_grass_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "71",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_sewage_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_sewage": "0",
+      "item_liquid_sewage": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_sewage_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_sewage"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "69",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_water_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_water": "0",
+      "item_liquid_water": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_water_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "67",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_xiranite_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite": "0",
+      "item_liquid_xiranite": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_xiranite_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "72",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_xiranite_enr_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_enr": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "73",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_xiranite_lowpoly_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_lowpoly": "0",
+      "item_liquid_xiranite_lowpoly": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_xiranite_lowpoly_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "75",
+    "totalProgress": "12000"
+  },
+  "dismantler_copperenr_xiranite_poly_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_poly": "0",
+      "item_liquid_xiranite_poly": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_copperenr_xiranite_poly_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_poly"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_poly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "74",
+    "totalProgress": "12000"
+  },
+  "dismantler_glass_acid_1": {
+    "buffers": {
+      "item_fbottle_glass_acid": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "紫晶质瓶生产",
+      "en": "Amethyst Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glass_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "12000"
+  },
+  "dismantler_glass_copper_1": {
+    "buffers": {
+      "item_fbottle_glass_copper": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "紫晶质瓶生产",
+      "en": "Amethyst Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glass_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "10",
+    "totalProgress": "12000"
+  },
+  "dismantler_glass_copper_enr_1": {
+    "buffers": {
+      "item_fbottle_glass_copper_enr": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "紫晶质瓶生产",
+      "en": "Amethyst Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glass_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "11",
     "totalProgress": "12000"
   },
   "dismantler_glass_grass_1_1": {
@@ -688,6 +1555,48 @@
     "sortId": "6",
     "totalProgress": "12000"
   },
+  "dismantler_glass_xiranite_enr_1": {
+    "buffers": {
+      "item_fbottle_glass_xiranite_enr": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "紫晶质瓶生产",
+      "en": "Amethyst Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glass_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "7",
+    "totalProgress": "12000"
+  },
   "dismantler_glass_xiranite_lowpoly_1": {
     "buffers": {
       "item_fbottle_glass_xiranite_lowpoly": "0",
@@ -770,6 +1679,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "8",
+    "totalProgress": "12000"
+  },
+  "dismantler_glassenr_acid_1": {
+    "buffers": {
+      "item_fbottle_glassenr_acid": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "高晶质瓶生产",
+      "en": "Cryston Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glassenr_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "13",
+    "totalProgress": "12000"
+  },
+  "dismantler_glassenr_copper_1": {
+    "buffers": {
+      "item_fbottle_glassenr_copper": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "高晶质瓶生产",
+      "en": "Cryston Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glassenr_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "21",
+    "totalProgress": "12000"
+  },
+  "dismantler_glassenr_copper_enr_1": {
+    "buffers": {
+      "item_fbottle_glassenr_copper_enr": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "高晶质瓶生产",
+      "en": "Cryston Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glassenr_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "22",
     "totalProgress": "12000"
   },
   "dismantler_glassenr_grass_1_1": {
@@ -982,6 +2017,48 @@
     "sortId": "17",
     "totalProgress": "12000"
   },
+  "dismantler_glassenr_xiranite_enr_1": {
+    "buffers": {
+      "item_fbottle_glassenr_xiranite_enr": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "高晶质瓶生产",
+      "en": "Cryston Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_glassenr_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "18",
+    "totalProgress": "12000"
+  },
   "dismantler_glassenr_xiranite_lowpoly_1": {
     "buffers": {
       "item_fbottle_glassenr_xiranite_lowpoly": "0",
@@ -1064,6 +2141,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "19",
+    "totalProgress": "12000"
+  },
+  "dismantler_iron_acid_1": {
+    "buffers": {
+      "item_fbottle_iron_acid": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "蓝铁瓶生产",
+      "en": "Ferrium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_iron_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "24",
+    "totalProgress": "12000"
+  },
+  "dismantler_iron_copper_1": {
+    "buffers": {
+      "item_fbottle_iron_copper": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "蓝铁瓶生产",
+      "en": "Ferrium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_iron_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "32",
+    "totalProgress": "12000"
+  },
+  "dismantler_iron_copper_enr_1": {
+    "buffers": {
+      "item_fbottle_iron_copper_enr": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "蓝铁瓶生产",
+      "en": "Ferrium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_iron_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "33",
     "totalProgress": "12000"
   },
   "dismantler_iron_grass_1_1": {
@@ -1276,6 +2479,48 @@
     "sortId": "28",
     "totalProgress": "12000"
   },
+  "dismantler_iron_xiranite_enr_1": {
+    "buffers": {
+      "item_fbottle_iron_xiranite_enr": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "蓝铁瓶生产",
+      "en": "Ferrium Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_iron_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "29",
+    "totalProgress": "12000"
+  },
   "dismantler_iron_xiranite_lowpoly_1": {
     "buffers": {
       "item_fbottle_iron_xiranite_lowpoly": "0",
@@ -1358,6 +2603,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "30",
+    "totalProgress": "12000"
+  },
+  "dismantler_ironenr_acid_1": {
+    "buffers": {
+      "item_fbottle_ironenr_acid": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "钢质瓶生产",
+      "en": "Steel Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_ironenr_acid_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "35",
+    "totalProgress": "12000"
+  },
+  "dismantler_ironenr_copper_1": {
+    "buffers": {
+      "item_fbottle_ironenr_copper": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "钢质瓶生产",
+      "en": "Steel Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_ironenr_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "43",
+    "totalProgress": "12000"
+  },
+  "dismantler_ironenr_copper_enr_1": {
+    "buffers": {
+      "item_fbottle_ironenr_copper_enr": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "钢质瓶生产",
+      "en": "Steel Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_ironenr_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "44",
     "totalProgress": "12000"
   },
   "dismantler_ironenr_grass_1_1": {
@@ -1570,6 +2941,48 @@
     "sortId": "39",
     "totalProgress": "12000"
   },
+  "dismantler_ironenr_xiranite_enr_1": {
+    "buffers": {
+      "item_fbottle_ironenr_xiranite_enr": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "钢质瓶生产",
+      "en": "Steel Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_ironenr_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "40",
+    "totalProgress": "12000"
+  },
   "dismantler_ironenr_xiranite_lowpoly_1": {
     "buffers": {
       "item_fbottle_ironenr_xiranite_lowpoly": "0",
@@ -1652,6 +3065,174 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "41",
+    "totalProgress": "12000"
+  },
+  "dismantler_xiranenr_grass_2_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_bottle": "0",
+      "item_fbottle_xiranenr_grass_2": "0",
+      "item_liquid_plant_grass_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验重息壤瓶生产",
+      "en": "Experimental Heavy Xiranite Bottle Production"
+    },
+    "formulaGroupId": "group_dismantler_liquid",
+    "id": "dismantler_xiranenr_grass_2_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_xiranenr_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "dismantler_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_bottle"
+          },
+          {
+            "count": "5",
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "78",
+    "totalProgress": "60000"
+  },
+  "filling_bottled_copper_acid": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_acid": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copper_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "57",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copper_copper": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_copper": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copper_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "65",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copper_copper_enr": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_copper_enr": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copper_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "66",
     "totalProgress": "12000"
   },
   "filling_bottled_copper_grass_1": {
@@ -1864,6 +3445,48 @@
     "sortId": "61",
     "totalProgress": "12000"
   },
+  "filling_bottled_copper_xiranite_enr": {
+    "buffers": {
+      "item_copper_bottle": "0",
+      "item_fbottle_copper_xiranite_enr": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copper_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copper_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "62",
+    "totalProgress": "12000"
+  },
   "filling_bottled_copper_xiranite_lowpoly": {
     "buffers": {
       "item_copper_bottle": "0",
@@ -1946,6 +3569,468 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "63",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_acid": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_acid": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "68",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_copper": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_copper": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "76",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_copper_enr": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_copper_enr": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "77",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_grass_1": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_grass_1": "0",
+      "item_liquid_plant_grass_1": "0"
+    },
+    "formulaDesc": {
+      "cn": "锦草溶液（灌装）",
+      "en": "Jincao Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_grass_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_grass_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "70",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_grass_2": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_grass_2": "0",
+      "item_liquid_plant_grass_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "芽针溶液（灌装）",
+      "en": "Yazhen Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_grass_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "71",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_sewage": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_sewage": "0",
+      "item_liquid_sewage": "0"
+    },
+    "formulaDesc": {
+      "cn": "污水（灌装）",
+      "en": "Sewage (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_sewage",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "69",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_water": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_water": "0",
+      "item_liquid_water": "0"
+    },
+    "formulaDesc": {
+      "cn": "清水（灌装）",
+      "en": "Clean Water (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_water",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_water"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "67",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_xiranite": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite": "0",
+      "item_liquid_xiranite": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化息壤（灌装）",
+      "en": "Liquid Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_xiranite",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "72",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_xiranite_enr": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_enr": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "73",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_xiranite_lowpoly": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_lowpoly": "0",
+      "item_liquid_xiranite_lowpoly": "0"
+    },
+    "formulaDesc": {
+      "cn": "惰性壤晶废液（灌装）",
+      "en": "Inert Xircon Effluent (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_xiranite_lowpoly",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "75",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_copperenr_xiranite_poly": {
+    "buffers": {
+      "item_copper_enr_bottle": "0",
+      "item_fbottle_copperenr_xiranite_poly": "0",
+      "item_liquid_xiranite_poly": "0"
+    },
+    "formulaDesc": {
+      "cn": "壤晶废液（灌装）",
+      "en": "Xircon Effluent (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_copperenr_xiranite_poly",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_poly"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_copperenr_xiranite_poly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "74",
     "totalProgress": "12000"
   },
   "filling_bottled_food_1_1": {
@@ -2073,6 +4158,132 @@
     "signal": "0",
     "sortId": "3",
     "totalProgress": "60000"
+  },
+  "filling_bottled_glass_acid": {
+    "buffers": {
+      "item_fbottle_glass_acid": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glass_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_glass_copper": {
+    "buffers": {
+      "item_fbottle_glass_copper": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glass_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "10",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_glass_copper_enr": {
+    "buffers": {
+      "item_fbottle_glass_copper_enr": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glass_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "11",
+    "totalProgress": "12000"
   },
   "filling_bottled_glass_grass_1": {
     "buffers": {
@@ -2284,6 +4495,48 @@
     "sortId": "6",
     "totalProgress": "12000"
   },
+  "filling_bottled_glass_xiranite_enr": {
+    "buffers": {
+      "item_fbottle_glass_xiranite_enr": "0",
+      "item_glass_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glass_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glass_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "7",
+    "totalProgress": "12000"
+  },
   "filling_bottled_glass_xiranite_lowpoly": {
     "buffers": {
       "item_fbottle_glass_xiranite_lowpoly": "0",
@@ -2366,6 +4619,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "8",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_glassenr_acid": {
+    "buffers": {
+      "item_fbottle_glassenr_acid": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glassenr_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "13",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_glassenr_copper": {
+    "buffers": {
+      "item_fbottle_glassenr_copper": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glassenr_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "21",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_glassenr_copper_enr": {
+    "buffers": {
+      "item_fbottle_glassenr_copper_enr": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glassenr_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "22",
     "totalProgress": "12000"
   },
   "filling_bottled_glassenr_grass_1": {
@@ -2578,6 +4957,48 @@
     "sortId": "17",
     "totalProgress": "12000"
   },
+  "filling_bottled_glassenr_xiranite_enr": {
+    "buffers": {
+      "item_fbottle_glassenr_xiranite_enr": "0",
+      "item_glass_enr_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_glassenr_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_glass_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_glassenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "18",
+    "totalProgress": "12000"
+  },
   "filling_bottled_glassenr_xiranite_lowpoly": {
     "buffers": {
       "item_fbottle_glassenr_xiranite_lowpoly": "0",
@@ -2660,6 +5081,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "19",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_iron_acid": {
+    "buffers": {
+      "item_fbottle_iron_acid": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_iron_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "24",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_iron_copper": {
+    "buffers": {
+      "item_fbottle_iron_copper": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_iron_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "32",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_iron_copper_enr": {
+    "buffers": {
+      "item_fbottle_iron_copper_enr": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_iron_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "33",
     "totalProgress": "12000"
   },
   "filling_bottled_iron_grass_1": {
@@ -2872,6 +5419,48 @@
     "sortId": "28",
     "totalProgress": "12000"
   },
+  "filling_bottled_iron_xiranite_enr": {
+    "buffers": {
+      "item_fbottle_iron_xiranite_enr": "0",
+      "item_iron_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_iron_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_iron_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "29",
+    "totalProgress": "12000"
+  },
   "filling_bottled_iron_xiranite_lowpoly": {
     "buffers": {
       "item_fbottle_iron_xiranite_lowpoly": "0",
@@ -2954,6 +5543,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "30",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_ironenr_acid": {
+    "buffers": {
+      "item_fbottle_ironenr_acid": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_acid": "0"
+    },
+    "formulaDesc": {
+      "cn": "沉积酸（灌装）",
+      "en": "Precipitation Acid (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_ironenr_acid",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "35",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_ironenr_copper": {
+    "buffers": {
+      "item_fbottle_ironenr_copper": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液（灌装）",
+      "en": "Cuprium Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_ironenr_copper",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "43",
+    "totalProgress": "12000"
+  },
+  "filling_bottled_ironenr_copper_enr": {
+    "buffers": {
+      "item_fbottle_ironenr_copper_enr": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液（灌装）",
+      "en": "Hetonite Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_ironenr_copper_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_copper_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "44",
     "totalProgress": "12000"
   },
   "filling_bottled_ironenr_grass_1": {
@@ -3166,6 +5881,48 @@
     "sortId": "39",
     "totalProgress": "12000"
   },
+  "filling_bottled_ironenr_xiranite_enr": {
+    "buffers": {
+      "item_fbottle_ironenr_xiranite_enr": "0",
+      "item_iron_enr_bottle": "0",
+      "item_liquid_xiranite_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤（灌装）",
+      "en": "Liquid Heavy Xiranite (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_ironenr_xiranite_enr",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_iron_enr_bottle"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_ironenr_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "40",
+    "totalProgress": "12000"
+  },
   "filling_bottled_ironenr_xiranite_lowpoly": {
     "buffers": {
       "item_fbottle_ironenr_xiranite_lowpoly": "0",
@@ -3374,6 +6131,48 @@
     "progressRound": "10",
     "signal": "0",
     "sortId": "9",
+    "totalProgress": "60000"
+  },
+  "filling_bottled_xiranenr_grass_2": {
+    "buffers": {
+      "item_activity_xiranite_enr_bottle": "0",
+      "item_fbottle_xiranenr_grass_2": "0",
+      "item_liquid_plant_grass_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "芽针溶液（灌装）",
+      "en": "Yazhen Solution (Bottled)"
+    },
+    "formulaGroupId": "group_filling_liquid",
+    "id": "filling_bottled_xiranenr_grass_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_bottle"
+          },
+          {
+            "count": "5",
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "machineId": "filling_powder_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_xiranenr_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "78",
     "totalProgress": "60000"
   },
   "furnance_carbon_enr_1": {
@@ -4792,6 +7591,98 @@
     "sortId": "3",
     "totalProgress": "12000"
   },
+  "liquid_purifier_copper_enr_1": {
+    "buffers": {
+      "item_liquid_acid": "1",
+      "item_liquid_copper": "0",
+      "item_liquid_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜溶液提纯",
+      "en": "Hetonite Solution Purification"
+    },
+    "formulaGroupId": "group_liquid_purifier_liquid",
+    "id": "liquid_purifier_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "4",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "machineId": "liquid_purifier_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_copper_enr"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "12000"
+  },
+  "liquid_purifier_xiranite_poly_1": {
+    "buffers": {
+      "item_liquid_water": "1",
+      "item_liquid_xiranite_lowpoly": "0",
+      "item_liquid_xiranite_poly": "0"
+    },
+    "formulaDesc": {
+      "cn": "壤晶废液提纯",
+      "en": "Xircon Effluent Purification"
+    },
+    "formulaGroupId": "group_liquid_purifier_liquid",
+    "id": "liquid_purifier_xiranite_poly_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "4",
+            "id": "item_liquid_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "machineId": "liquid_purifier_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_poly"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "1",
+    "totalProgress": "12000"
+  },
   "planter_plant_bbflower_1": {
     "buffers": {
       "item_plant_bbflower_1": "0",
@@ -5024,6 +7915,192 @@
     "sortId": "3",
     "totalProgress": "12000"
   },
+  "pool_copper_enr_1": {
+    "buffers": {
+      "item_copper_enr": "0",
+      "item_iron_powder": "0",
+      "item_liquid_copper_enr": "0",
+      "item_liquid_sewage": "1"
+    },
+    "formulaDesc": {
+      "cn": "赫铜块合成（液体）",
+      "en": "Hetonite Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_1_liquid",
+    "id": "pool_copper_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_liquid_copper_enr"
+          },
+          {
+            "count": "1",
+            "id": "item_iron_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "8",
+    "totalProgress": "12000"
+  },
+  "pool_copper_enr_2": {
+    "buffers": {
+      "item_copper_enr": "0",
+      "item_iron_powder": "0",
+      "item_liquid_copper_enr": "0",
+      "item_liquid_sewage": "1"
+    },
+    "formulaDesc": {
+      "cn": "赫铜块合成（液体）",
+      "en": "Hetonite Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_copper_enr_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_liquid_copper_enr"
+          },
+          {
+            "count": "1",
+            "id": "item_iron_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "8",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_copper_1": {
+    "buffers": {
+      "item_copper_powder": "0",
+      "item_liquid_acid": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液合成（液体）",
+      "en": "Cuprium Solution Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_1_liquid",
+    "id": "pool_liquid_copper_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_powder"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "5",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_copper_2": {
+    "buffers": {
+      "item_copper_powder": "0",
+      "item_liquid_acid": "0",
+      "item_liquid_copper": "0"
+    },
+    "formulaDesc": {
+      "cn": "赤铜溶液合成（液体）",
+      "en": "Cuprium Solution Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_copper_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_powder"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_copper"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "5",
+    "totalProgress": "12000"
+  },
   "pool_liquid_liquid_xiranite_1": {
     "buffers": {
       "item_liquid_water": "0",
@@ -5051,6 +8128,48 @@
       }
     ],
     "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "3",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_liquid_xiranite_2": {
+    "buffers": {
+      "item_liquid_water": "0",
+      "item_liquid_xiranite": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化息壤合成（液体）",
+      "en": "Liquid Xiranite Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_liquid_xiranite_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_powder"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
     "outcomes": [
       {
         "group": [
@@ -5108,6 +8227,48 @@
     "sortId": "1",
     "totalProgress": "12000"
   },
+  "pool_liquid_plant_grass_1_2": {
+    "buffers": {
+      "item_liquid_plant_grass_1": "0",
+      "item_liquid_water": "0",
+      "item_plant_grass_powder_1": "0"
+    },
+    "formulaDesc": {
+      "cn": "锦草溶液合成（液体）",
+      "en": "Jincao Solution Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_plant_grass_1_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_plant_grass_powder_1"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_1"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "1",
+    "totalProgress": "12000"
+  },
   "pool_liquid_plant_grass_2_1": {
     "buffers": {
       "item_liquid_plant_grass_2": "0",
@@ -5148,6 +8309,132 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "2",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_plant_grass_2_2": {
+    "buffers": {
+      "item_liquid_plant_grass_2": "0",
+      "item_liquid_water": "0",
+      "item_plant_grass_powder_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "芽针溶液合成（液体）",
+      "en": "Yazhen Solution Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_plant_grass_2_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_plant_grass_powder_2"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_water"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_plant_grass_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_xiranite_enr_1": {
+    "buffers": {
+      "item_liquid_acid": "0",
+      "item_liquid_xiranite_enr": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤合成（液体）",
+      "en": "Liquid Heavy Xiranite Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_1_liquid",
+    "id": "pool_liquid_xiranite_enr_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "4",
+    "totalProgress": "12000"
+  },
+  "pool_liquid_xiranite_enr_2": {
+    "buffers": {
+      "item_liquid_acid": "0",
+      "item_liquid_xiranite_enr": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "液化重息壤合成（液体）",
+      "en": "Liquid Heavy Xiranite Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_xiranite_enr_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_acid"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_enr"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "4",
     "totalProgress": "12000"
   },
   "pool_liquid_xiranite_poly_1": {
@@ -5201,6 +8488,57 @@
     "sortId": "6",
     "totalProgress": "12000"
   },
+  "pool_liquid_xiranite_poly_2": {
+    "buffers": {
+      "item_liquid_sewage": "0",
+      "item_liquid_xiranite": "0",
+      "item_liquid_xiranite_lowpoly": "1",
+      "item_liquid_xiranite_poly": "0"
+    },
+    "formulaDesc": {
+      "cn": "壤晶废液合成（液体）",
+      "en": "Xircon Effluent Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_liquid_xiranite_poly_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite"
+          },
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_poly"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_xiranite_lowpoly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "6",
+    "totalProgress": "12000"
+  },
   "pool_xiranite_poly_1": {
     "buffers": {
       "item_iron_powder": "0",
@@ -5229,6 +8567,57 @@
       }
     ],
     "machineId": "mix_pool_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_poly"
+          }
+        ]
+      },
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_liquid_sewage"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "7",
+    "totalProgress": "12000"
+  },
+  "pool_xiranite_poly_2": {
+    "buffers": {
+      "item_iron_powder": "0",
+      "item_liquid_sewage": "1",
+      "item_liquid_xiranite_poly": "0",
+      "item_xiranite_poly": "0"
+    },
+    "formulaDesc": {
+      "cn": "壤晶合成（液体）",
+      "en": "Xircon Production (Fluid)"
+    },
+    "formulaGroupId": "group_mix_pool_2_liquid",
+    "id": "pool_xiranite_poly_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_liquid_xiranite_poly"
+          },
+          {
+            "count": "1",
+            "id": "item_iron_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "mix_pool_2",
     "outcomes": [
       {
         "group": [
@@ -5622,6 +9011,80 @@
     "sortId": "10",
     "totalProgress": "12000"
   },
+  "shaper_activity_xiranite_bottle_1": {
+    "buffers": {
+      "item_activity_xiranite_bottle": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤瓶生产",
+      "en": "Experimental Xiranite Bottle Production"
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_activity_xiranite_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_xiranite_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "7",
+    "totalProgress": "12000"
+  },
+  "shaper_activity_xiranite_enr_bottle_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_bottle": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验重息壤瓶生产",
+      "en": "Experimental Heavy Xiranite Bottle Production"
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_activity_xiranite_enr_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_activity_xiranite_enr_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": "20",
+    "signal": "0",
+    "sortId": "8",
+    "totalProgress": "120000"
+  },
   "shaper_copper_bottle_1": {
     "buffers": {
       "item_copper_bottle": "0",
@@ -5657,6 +9120,43 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "5",
+    "totalProgress": "12000"
+  },
+  "shaper_copper_enr_bottle_1": {
+    "buffers": {
+      "item_copper_enr": "0",
+      "item_copper_enr_bottle": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜瓶生产",
+      "en": "Hetonite Bottle Production"
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "id": "shaper_copper_enr_bottle_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_copper_enr_bottle"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "6",
     "totalProgress": "12000"
   },
   "shaper_glass_bottle_1": {
@@ -6100,6 +9600,132 @@
     "signal": "0",
     "sortId": "2",
     "totalProgress": "12000"
+  },
+  "tools_proc_activity_xiranite_enr_hulu_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_hulu": "0",
+      "item_activity_xiranite_enr_tool": "0",
+      "item_fbottle_xiranenr_grass_2": "0"
+    },
+    "formulaDesc": {
+      "cn": "息壤玉葫芦合成",
+      "en": "Xiranite Jade Gourd Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_activity_xiranite_enr_hulu_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_fbottle_xiranenr_grass_2"
+          },
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_tool"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_hulu"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "13",
+    "totalProgress": "60000"
+  },
+  "tools_proc_activity_xiranite_enr_tool_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_cmpt": "0",
+      "item_activity_xiranite_enr_tool": "0",
+      "item_copper_enr": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验玉铜发散器合成",
+      "en": "Experimental Xiran-Hue Atomizer Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_activity_xiranite_enr_tool_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_cmpt"
+          },
+          {
+            "count": "1",
+            "id": "item_copper_enr"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_tool"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "11",
+    "totalProgress": "60000"
+  },
+  "tools_proc_activity_xiranite_hulu_1": {
+    "buffers": {
+      "item_activity_xiranite_bottle": "0",
+      "item_activity_xiranite_cmpt": "0",
+      "item_activity_xiranite_hulu": "0"
+    },
+    "formulaDesc": {
+      "cn": "息壤葫芦合成",
+      "en": "Xiranite Gourd Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "id": "tools_proc_activity_xiranite_hulu_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "5",
+            "id": "item_activity_xiranite_bottle"
+          },
+          {
+            "count": "5",
+            "id": "item_activity_xiranite_cmpt"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_hulu"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "12",
+    "totalProgress": "60000"
   },
   "tools_proc_battery_1_1": {
     "buffers": {
@@ -6731,6 +10357,48 @@
     "sortId": "4",
     "totalProgress": "60000"
   },
+  "winder_equip_script_4_2": {
+    "buffers": {
+      "item_copper_enr_cmpt": "0",
+      "item_equip_script_4_2": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "赫铜装备原件合成",
+      "en": "Hetonite Component Production"
+    },
+    "formulaGroupId": "group_winder_normal",
+    "id": "winder_equip_script_4_2",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_copper_enr_cmpt"
+          },
+          {
+            "count": "2",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "winder_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_equip_script_4_2"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "4",
+    "totalProgress": "60000"
+  },
   "xiranite_oven_muck_xiranite_1": {
     "buffers": {
       "item_liquid_xiranite": "0",
@@ -6772,6 +10440,48 @@
     "signal": "0",
     "sortId": "3",
     "totalProgress": "12000"
+  },
+  "xiranite_oven_xiranite_enr_powder_1": {
+    "buffers": {
+      "item_liquid_xiranite_poly": "0",
+      "item_xiranite_enr_powder": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "重息壤生产",
+      "en": "Heavy Xiranite Production"
+    },
+    "formulaGroupId": "group_xiranite_oven_liquid",
+    "id": "xiranite_oven_xiranite_enr_powder_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "10",
+            "id": "item_xiranite_powder"
+          },
+          {
+            "count": "5",
+            "id": "item_liquid_xiranite_poly"
+          }
+        ]
+      }
+    ],
+    "machineId": "xiranite_oven_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "60000"
   },
   "xiranite_oven_xiranite_powder_1": {
     "buffers": {

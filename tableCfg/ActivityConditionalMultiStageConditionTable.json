@@ -573,6 +573,301 @@
       }
     ]
   },
+  "activity_limited_formula_1_stage_1": {
+    "conditionList": [
+      {
+        "blockShow": true,
+        "compareOperator": "3",
+        "conditionId": "activity_limited_formula_1_stage_1_unlock_condition_1",
+        "conditionType": "5902",
+        "desc": {
+          "cn": "endstage未解锁时才能解锁阶段1",
+          "en": "Phase 1 will only be unlocked if ENDSTAGE is locked"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "activity_limited_formula_1_stage_4"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "stageId": "activity_limited_formula_1_stage_1"
+      }
+    ]
+  },
+  "activity_limited_formula_1_stage_2": {
+    "conditionList": [
+      {
+        "blockShow": true,
+        "compareOperator": "3",
+        "conditionId": "activity_limited_formula_1_stage_2_unlock_condition_1",
+        "conditionType": "5902",
+        "desc": {
+          "cn": "阶段1完成后解锁阶段2",
+          "en": "Complete Phase 1 to unlock Phase 2"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "activity_limited_formula_1_stage_1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "2"
+            ],
+            "valueIntList": [
+              "2"
+            ],
+            "valueStringList": [
+              "2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "stageId": "activity_limited_formula_1_stage_2"
+      }
+    ]
+  },
+  "activity_limited_formula_1_stage_3": {
+    "conditionList": [
+      {
+        "blockShow": true,
+        "compareOperator": "3",
+        "conditionId": "activity_limited_formula_1_stage_3_unlock_condition_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "任务3第一环完成以解锁阶段3",
+          "en": "Complete Mission 3 Cycle 1 to unlock Phase 3"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "a1m8d3_q#8"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "stageId": "activity_limited_formula_1_stage_3"
+      }
+    ]
+  },
+  "activity_phototaking_universe_stage_2": {
+    "conditionList": [
+      {
+        "blockShow": true,
+        "compareOperator": "3",
+        "conditionId": "activity_phototaking_universe_stage_2_unlock_condtion_1",
+        "conditionType": "5902",
+        "desc": {
+          "cn": "在「镌宇铭星·留影」活动中，完成第1个拍照任务",
+          "en": "In [Snapshot: Etchings of Our Cosmic Dreams], complete the 1st camera mission"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "activity_phototaking_universe_stage_1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "2"
+            ],
+            "valueIntList": [
+              "2"
+            ],
+            "valueStringList": [
+              "2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "stageId": "activity_phototaking_universe_stage_2"
+      }
+    ]
+  },
+  "activity_phototaking_universe_stage_3": {
+    "conditionList": [
+      {
+        "blockShow": true,
+        "compareOperator": "3",
+        "conditionId": "activity_phototaking_universe_stage_3_unlock_condtion_1",
+        "conditionType": "5902",
+        "desc": {
+          "cn": "在「镌宇铭星·留影」活动中，完成第2个拍照任务",
+          "en": "In [Snapshot: Etchings of Our Cosmic Dreams], complete the 2nd camera mission"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "activity_phototaking_universe_stage_2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "2"
+            ],
+            "valueIntList": [
+              "2"
+            ],
+            "valueStringList": [
+              "2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "stageId": "activity_phototaking_universe_stage_3"
+      }
+    ]
+  },
   "activity_submit_food_1_stage_hidden36": {
     "conditionList": [
       {

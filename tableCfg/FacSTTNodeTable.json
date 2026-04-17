@@ -462,8 +462,8 @@
       "2"
     ],
     "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.key>仓库存取线基段</>和<@tech.key>仓库存取线源桩</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.key>Depot Bus Sections</> and <@tech.key>Depot Bus Ports</>"
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>仓库存取线基段</>和<@tech.get>仓库存取线源桩</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Depot Bus Sections</> and <@tech.get>Depot Bus Ports</>"
     },
     "unlockReward": [
       {
@@ -981,8 +981,8 @@
       "2"
     ],
     "unlockDesc": {
-      "cn": "现在可以在武陵地区放置更多的<@tech.key>天有洪炉</>了",
-      "en": "More <@tech.key>Forges of the Sky</> can be placed in Wuling."
+      "cn": "现在可以在武陵地区放置更多的<@tech.get>天有洪炉</>了",
+      "en": "More <@tech.get>Forges of the Sky</> can be placed in Wuling."
     },
     "unlockReward": [
       {
@@ -1575,13 +1575,598 @@
       "4"
     ],
     "unlockDesc": {
-      "cn": "现在可以在武陵地区放置更多的<@tech.key>天有洪炉</>了",
-      "en": "More <@tech.key>Forges of the Sky</> can be placed in Wuling."
+      "cn": "现在可以在武陵地区放置更多的<@tech.get>天有洪炉</>了",
+      "en": "More <@tech.get>Forges of the Sky</> can be placed in Wuling."
     },
     "unlockReward": [
       {
         "count": "0",
         "itemId": "item_factech_wuling_oven_amount_2"
+      }
+    ]
+  },
+  "tech_jinlong_3_battle_debuff_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_battle_debuff_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_debuff_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>“酸洗”MK-Ⅰ</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，造成范围伤害及敌人防御降低效果。",
+      "en": "Research this to construct <@tech.key>Acid Soakers Mk I</>. \nWhen powered, the tower automatically attacks enemies within range to deal area DMG and apply DEF Reduction."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_battle_debuff_1",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "“酸洗”MK-Ⅰ",
+      "en": "Acid Soaker Mk I"
+    },
+    "preNode": [
+      "tech_jinlong_2_battle_jet_1"
+    ],
+    "sortId": "33",
+    "techId": "tech_jinlong_3_battle_debuff_1",
+    "uiPos": [
+      "8",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>“酸洗”MK-Ⅰ</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Acid Soakers Mk I</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_debuff_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_debuff_1"
+      }
+    ]
+  },
+  "tech_jinlong_3_battle_laser_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_battle_laser_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_laser_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>高能射线塔</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，攻击速度较慢。",
+      "en": "Research this to construct <@tech.key>Hyper Beam Towers</>. \nWhen powered, the tower automatically attacks enemies within range. It has a slower rate of attack."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_battle_laser_2",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "高能射线塔",
+      "en": "Hyper Beam Tower"
+    },
+    "preNode": [
+      "tech_jinlong_2_battle_trap_1"
+    ],
+    "sortId": "34",
+    "techId": "tech_jinlong_3_battle_laser_2",
+    "uiPos": [
+      "7",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>高能射线塔</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Hyper Beam Towers</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_laser_2"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_laser_2"
+      }
+    ]
+  },
+  "tech_jinlong_3_battle_rocket_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_battle_rocket_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_battle_rocket_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_explore",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>重锤迫击炮</>；\n在有能源供给的情况下会自动攻击附近范围内的敌人，造成范围伤害。",
+      "en": "Research this to construct <@tech.key>Sledgehammer Mortars</>. \nWhen powered, the tower automatically attacks enemies within range to deal area DMG."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_battle_rocket_1",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "重锤迫击炮",
+      "en": "Sledgehammer Mortar"
+    },
+    "preNode": [
+      "tech_jinlong_2_battle_trap_1"
+    ],
+    "sortId": "32",
+    "techId": "tech_jinlong_3_battle_rocket_1",
+    "uiPos": [
+      "6",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>重锤迫击炮</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Sledgehammer Mortars</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_battle_rocket_1"
+      },
+      {
+        "count": "1",
+        "itemId": "item_port_battle_rocket_1"
+      }
+    ]
+  },
+  "tech_jinlong_3_liquid_purifier_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_liquid_purifier_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_liquid_purifier_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_liquidpurifier_1"
+    ],
+    "category": "fac_team_jinlong_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>提纯机</>；提纯机可以将溶液提纯至更高纯度溶液，典型产物为<@tech.key>赫铜溶液</>。",
+      "en": "Research this to construct <@tech.key>Purification Units</>. The Purification Unit can purify solutions into purer products such as <@tech.key>Hetonite Solution</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_liquid_purifier_1",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "提纯技术",
+      "en": "Purification"
+    },
+    "preNode": [
+      "tech_jinlong_2_furnance_mode_1"
+    ],
+    "sortId": "26",
+    "techId": "tech_jinlong_3_liquid_purifier_1",
+    "uiPos": [
+      "5",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>提纯机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Purification Units</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_liquid_purifier_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_liquid_purifier_1"
+      }
+    ]
+  },
+  "tech_jinlong_3_mix_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_mix_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_mix_pool_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_mix_3"
+    ],
+    "category": "fac_team_jinlong_processing",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>扩容反应池</>；\n扩容反应池比反应池有更多的反应缓存，同一时间可<@tech.key>进行更多配方反应</>。",
+      "en": "Research this to construct <@tech.key>Expanded Crucibles</>. These AIC facilities have more reaction caches to <@tech.key>carry out more formula reactions</> at the same time."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_mix_2",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "扩容反应",
+      "en": "Expanded Reaction"
+    },
+    "preNode": [
+      "tech_jinlong_2_mix_1_unlock_1"
+    ],
+    "sortId": "27",
+    "techId": "tech_jinlong_3_mix_2",
+    "uiPos": [
+      "4",
+      "6"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>扩容反应池</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Expanded Crucibles</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_mix_pool_2"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_mix_pool_2"
+      }
+    ]
+  },
+  "tech_jinlong_3_pump_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_pump_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_pump_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_mining",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>二型耐酸水泵</>；\n二型耐酸水泵通电后，可<@tech.key>在液体源附近进行液体抽取</>。\n可抽取更稀有的液体，典型液体为<@tech.key>沉积酸</>。",
+      "en": "Research this to construct <@tech.key>Acid Resistant Pumps Mk II</>.\nOnce connected to the power grid, the Acid Resistant Pump Mk II can <@tech.key>pump fluids from nearby fluid bodies</>.\nThis facility can pump out rarer fluids such as <@tech.key>Precipitation Acid</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_pump_2",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "耐酸技术",
+      "en": "Acid Resistance"
+    },
+    "preNode": [
+      "tech_jinlong_2_miner_4"
+    ],
+    "sortId": "8",
+    "techId": "tech_jinlong_3_pump_2",
+    "uiPos": [
+      "0",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>二型耐酸水泵</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Acid Resistant Pumps MK II</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_pump_2"
+      },
+      {
+        "count": "5",
+        "itemId": "item_port_pump_2"
+      }
+    ]
+  },
+  "tech_jinlong_3_udpipe_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_udpipe_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "item_bp_udpipe_loader_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_logistics",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": false,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>多口暗管入口</>和<@tech.key>多口暗管出口</>；\n可将货物自动从多口暗管入口输送到对应的多口暗管出口。\n相较于暗管，单个多口暗管设备具有<@gd.key>更多的入口与出口</>。",
+      "en": "Research this to construct <@tech.key>Conduit Inlet Manifolds</> and <@tech.key>Conduit Outlet Manifolds</>.\nUse the Conduit Inlet Manifold to automatically deliver fluids to a corresponding Conduit Outlet Manifold.\nThe Conduit Manifold <@gd.key>provides more fluid inlets and outlets than Conduits</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_udpipe_2",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "多口暗管",
+      "en": "Conduit Manifolds"
+    },
+    "preNode": [
+      "tech_jinlong_2_udpipe_1"
+    ],
+    "sortId": "28",
+    "techId": "tech_jinlong_3_udpipe_2",
+    "uiPos": [
+      "1",
+      "6"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>多口暗管入口</>、<@tech.get>多口暗管出口</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Conduit Inlet Manifolds</> and <@tech.get>Conduit Outlet Manifolds</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_udpipe_loader_2"
+      },
+      {
+        "count": "0",
+        "itemId": "item_bp_udpipe_unloader_2"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_udpipe_loader_2"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_udpipe_unloader_2"
+      }
+    ]
+  },
+  "tech_jinlong_3_xiranite_enr_formula": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_xiranite_enr_formula_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "xiranite_oven_xiranite_enr_powder_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_xiraniteoven_2"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可使用<@tech.key>天有洪炉</>制造<@tech.key>重息壤</>，并且在武陵地区放置的<@tech.key>天有洪炉</>数量上限<@tech.key>+4</>",
+      "en": "Research this to let <@tech.key>Forges of the Sky</> produce <@tech.key>Heavy Xiranite</>, and raise the limit of <@tech.key>Forges of the Sky</> in the Wuling region to <@tech.key>+4</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_xiranite_enr_formula",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "扩容与重息壤",
+      "en": "Expansion and Heavy Xiranite"
+    },
+    "preNode": [
+      "tech_jinlong_2_xiranite_oven_amount_2"
+    ],
+    "sortId": "25",
+    "techId": "tech_jinlong_3_xiranite_enr_formula",
+    "uiPos": [
+      "9",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以用<@tech.get>天有洪炉</>制造<@tech.get>重息壤</>，并且在武陵地区放置更多的<@tech.get>天有洪炉</>了",
+      "en": "<@tech.get>Forges of the Sky</> can now produce <@tech.get>Heavy Xiranite</>. More <@tech.get>Forges of the Sky</> can also be placed in Wuling."
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_factech_wuling_xiranite_enr_formula"
+      },
+      {
+        "count": "0",
+        "itemId": "item_factech_wuling_oven_amount_3"
+      }
+    ]
+  },
+  "tech_jinlong_3_xiranite_oven_amount_3": {
+    "action": {
+      "actionId": "act_tech_jinlong_3_xiranite_oven_amount_3_3",
+      "actionType": "5123",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "domain_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "xiranite_oven_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "4"
+          ],
+          "valueIntList": [
+            "4"
+          ],
+          "valueStringList": [
+            "4"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "2",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可在武陵地区放置的<@tech.key>天有洪炉</>数量上限<@tech.key>+4</>。",
+      "en": "Research this to raise the limit of <@tech.key>Forges of the Sky</> in Wuling by <@tech.key>+4</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_3_xiranite_oven_amount_4",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "洪炉扩容IV",
+      "en": "Forge Expansion IV"
+    },
+    "preNode": [
+      "tech_jinlong_3_xiranite_enr_formula"
+    ],
+    "sortId": "27",
+    "techId": "tech_jinlong_3_xiranite_oven_amount_3",
+    "uiPos": [
+      "9",
+      "6"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在武陵地区放置更多的<@tech.get>天有洪炉</>了",
+      "en": "More <@tech.get>Forges of the Sky</> can be placed in Wuling."
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_factech_wuling_oven_amount_4"
       }
     ]
   },

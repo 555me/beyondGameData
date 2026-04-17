@@ -1,4 +1,60 @@
 {
+  "air_dancer_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "都认真点，教授要传授工业知识了！",
+      "en": "Focus! The professor is going to lay down some serious factory know-how!"
+    },
+    "iconOnPanel": "icon_port_decorate_1",
+    "id": "air_dancer_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_decorate_air_dancer_1",
+    "modelHeight": "7",
+    "name": {
+      "cn": "充气教授",
+      "en": "Tube Professor"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "2",
+      "height": "7",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "air_dancer_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "air_dancer_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "42"
+  },
   "battle_cannon_1": {
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_cannon_1",
@@ -6,6 +62,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -41,6 +98,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_cannon_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_cannon_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -51,6 +118,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -86,6 +154,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_cannon_1_dg002",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_cannon_dg002_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -96,6 +174,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -131,6 +210,72 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_cannon_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_cannon_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "21"
+  },
+  "battle_debuff_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_battle_debuff_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "<b>攻击力</b>：<@ba.key>12375</>\n<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：发射特制酸液弹，酸液弹会在敌人附近地面爆炸并造成范围<@ba.natur>自然伤害</>，同时降低范围内敌人的防御力。",
+      "en": "<b>ATK</b>: <@ba.key>12375</>\n<b>Attack Interval</b>: <@ba.key>5</>s\n<b>Mode of Attack</b>: Launches special acid grenades that detonate above ground near enemies to deal <@ba.natur>Nature DMG</> and apply DEF Reduction to enemies in the area of effect."
+    },
+    "iconOnPanel": "icon_port_battle_debuff_1",
+    "id": "battle_debuff_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_debuff_1",
+    "modelHeight": "4",
+    "name": {
+      "cn": "“酸洗”MK-Ⅰ",
+      "en": "Acid Soaker Mk I"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": "2",
+      "height": "4",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_debuff_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_debuff_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -141,6 +286,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -176,6 +322,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_fog_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_fog_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -186,6 +342,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -221,6 +378,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_frost_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_frost_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -231,6 +398,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -266,6 +434,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_jet_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_jet_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -276,6 +454,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -311,6 +490,72 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_laser_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_laser_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "21"
+  },
+  "battle_laser_2": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_battle_laser_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "<b>攻击力</b>：<@ba.key>45375</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射强力射线，优先锁定范围内威胁更高的敌人，对敌人造成高额<@ba.pulse>电磁伤害</>。",
+      "en": "<b>ATK</b>: <@ba.key>45375</>\n<b>Attack Interval</b>: <@ba.key>8</>s\n<b>Mode of Attack</b>: Consumes vast amounts of energy to emit a powerful beam to deal massive <@ba.pulse>Electric DMG</> to enemies. This tower prioritizes its attacks at high threat targets within range."
+    },
+    "iconOnPanel": "icon_port_battle_laser_2",
+    "id": "battle_laser_2",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_laser_2",
+    "modelHeight": "6",
+    "name": {
+      "cn": "高能射线塔",
+      "en": "Hyper Beam Tower"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": "2",
+      "height": "6",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_laser_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_laser_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -321,6 +566,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -356,6 +602,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_lightning_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_lightning_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -366,6 +622,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -401,6 +658,72 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_medic_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_medic_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "21"
+  },
+  "battle_rocket_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_battle_rocket_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "<b>攻击力</b>：<@ba.key>33000</>\n<b>攻击间隔</b>：<@ba.key>8</>秒\n<b>攻击方式</b>：消耗大量充能向目标发射威力极大的炮弹，对范围内敌人造成高额<@ba.phy>物理伤害</>。",
+      "en": "<b>ATK</b>: <@ba.key>33000</>\n<b>Attack Interval</b>: <@ba.key>8</>s\n<b>Mode of Attack</b>: Consumes vast amounts of energy to fire an extremely powerful shell. The shell deals massive <@ba.phy>Physical DMG</> to enemies in the area of effect."
+    },
+    "iconOnPanel": "icon_port_battle_rocket_1",
+    "id": "battle_rocket_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_rocket_1",
+    "modelHeight": 5.7,
+    "name": {
+      "cn": "重锤迫击炮",
+      "en": "Sledgehammer Mortar"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": "3",
+      "height": "6",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_rocket_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_rocket_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -411,6 +734,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -446,6 +770,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_shockwave_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_shockwave_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -456,6 +790,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -491,6 +826,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_sniper_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_sniper_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -501,6 +846,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -536,6 +882,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_trap_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_trap_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -546,6 +902,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -581,6 +938,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_turret_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_turret_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -591,6 +958,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -626,6 +994,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_turret_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_turret_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "21"
   },
@@ -636,6 +1014,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -671,8 +1050,74 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "carrier_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "carrier_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "36"
+  },
+  "chubby_lung_stone_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "“从入库单上判断，这应该是额外定制的工艺品……”\n“你确定这不是直接从武陵街头搬回来的吗？”",
+      "en": "\"According to our inventory, these are pieces of public art made to custom specifications...\" \n\"Are you sure we didn't just nick them from the streets of Wuling?\""
+    },
+    "iconOnPanel": "icon_port_decorate_1",
+    "id": "chubby_lung_stone_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_decorate_chubby_lung_stone_1",
+    "modelHeight": "2",
+    "name": {
+      "cn": "龙泡泡石墩",
+      "en": "Chubby Lung Bollard"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "2",
+      "height": "2",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "chubby_lung_stone_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "chubby_lung_stone_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "42"
   },
   "component_mc_1": {
     "bandwidth": "2",
@@ -681,6 +1126,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -820,6 +1266,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "component_mc_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "component_mc_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -830,6 +1286,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -1090,6 +1547,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "dismantler_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "dismantler_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -1100,6 +1567,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -1155,6 +1623,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "dumper_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "dumper_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "26"
   },
@@ -1165,6 +1643,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -1220,6 +1699,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "dumper_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "dumper_nop_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04b"
+      }
+    },
     "roadAttachSide": "0",
     "type": "26"
   },
@@ -1230,6 +1719,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -1488,6 +1978,24 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "filling_powder_mc_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "filling_powder_mc_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      },
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "filling_powder_mc_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "filling_powder_mc_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -1498,13 +2006,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "使用高温熔炼其他材料的设备。",
-      "en": "A facility that performs high temperature smelting of various materials."
+      "cn": "使用高温精炼其他材料的设备。",
+      "en": "A facility that performs high temperature refining of various materials."
     },
     "iconOnPanel": "icon_port_furnance_1",
     "id": "furnance_1",
@@ -1671,6 +2180,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "furnance_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "furnance_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -1681,13 +2200,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "使用高温熔炼其他材料的设备。",
-      "en": "A facility that performs high temperature smelting of various materials."
+      "cn": "使用高温精炼其他材料的设备。",
+      "en": "A facility that performs high temperature refining of various materials."
     },
     "iconOnPanel": "icon_port_furnance_1",
     "id": "furnance_nop_1",
@@ -1820,6 +2340,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "furnance_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "furnance_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -1830,6 +2360,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -1969,8 +2500,92 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "grinder_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "grinder_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
+  },
+  "liquid_clean_gate_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_liquid_clean_gate_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": false,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "武陵净水节点的污水处理接入口，可在此端口通入污水，进行高效污水处理。",
+      "en": "An inlet of the Wuling Purification Node. Connect a Sewage pipeline to it for some high performance water treatment."
+    },
+    "iconOnPanel": "icon_port_liquid_clean_gate_1",
+    "id": "liquid_clean_gate_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": "5",
+    "name": {
+      "cn": "污水接入口",
+      "en": "Sewage Inlet"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "10",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "liquid_clean_gate_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_clean_gate_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "37"
   },
   "liquid_cleaner_1": {
     "bandwidth": "2",
@@ -1979,6 +2594,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2034,8 +2650,220 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "machineId": "liquid_cleaner_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_cleaner_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "28"
+  },
+  "liquid_purifier_1": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_liquid_purifier_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "用于将溶液提纯至更高纯度溶液的设备。",
+      "en": "A facility for raising the purity of various solutions."
+    },
+    "iconOnPanel": "icon_port_liquid_purifier_1",
+    "id": "liquid_purifier_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_liquid_purifier_1",
+    "modelHeight": 4.4,
+    "name": {
+      "cn": "提纯机",
+      "en": "Purification Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "50",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_03",
+        "machineId": "liquid_purifier_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_purifier_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "liquid_recycle_gate_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "bg_port_liquid_recycle_gate_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": false,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "武陵净水节点的产物排出口，可在此端口获取污水处理产物——壤晶废液。",
+      "en": "A byproduct outlet of the Wuling Purification Node. It can dispense a Sewage treatment byproduct known as Xircon Effluent."
+    },
+    "iconOnPanel": "icon_port_liquid_recycle_gate_1",
+    "id": "liquid_recycle_gate_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": "5",
+    "name": {
+      "cn": "产物排出口",
+      "en": "Byproduct Outlet"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "270",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "10",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "liquid_recycle_gate_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_recycle_gate_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "38"
   },
   "liquid_storager_1": {
     "bandwidth": "2",
@@ -2044,6 +2872,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2117,6 +2946,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "liquid_storager_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_storager_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "24"
   },
@@ -2127,6 +2966,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2200,6 +3040,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "liquid_storager_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "liquid_storager_nop_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_05"
+      }
+    },
     "roadAttachSide": "0",
     "type": "24"
   },
@@ -2210,6 +3060,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2263,6 +3114,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "loader_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "loader_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "2",
     "type": "10"
   },
@@ -2273,6 +3134,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2312,6 +3174,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "log_hongs_bus",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "log_hongs_bus",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "32"
   },
@@ -2322,6 +3194,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2361,6 +3234,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "log_hongs_bus_source",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "log_hongs_bus_source",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "31"
   },
@@ -2371,6 +3254,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2406,6 +3290,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "marker_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "marker_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "35"
   },
@@ -2416,6 +3310,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": false,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2505,6 +3400,16 @@
     "recommendDomains": [
       "domain_1"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "miner_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "miner_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "8"
   },
@@ -2515,13 +3420,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": false,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "在通电状态下，可以用来开采源矿、类晶石的机械设备。",
-      "en": "Requires power. This mining rig can mine Originium Ore and Krystallite."
+      "cn": "在通电状态下，可以用来开采源矿、紫晶矿的机械设备。",
+      "en": "Requires power. This mining rig can mine Originium Ore and Amethyst Ore."
     },
     "iconOnPanel": "icon_port_miner_2",
     "id": "miner_2",
@@ -2602,6 +3508,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "miner_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "miner_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "8"
   },
@@ -2612,6 +3528,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": false,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2699,6 +3616,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "miner_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "miner_3",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "8"
   },
@@ -2709,6 +3636,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": false,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -2816,6 +3744,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "miner_4",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "miner_4",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "8"
   },
@@ -2826,6 +3764,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3001,8 +3940,338 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_04",
+        "machineId": "mix_pool_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "mix_pool_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "27"
+  },
+  "mix_pool_2": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_mix_pool_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "进行固液体化学反应的设备，拥有更多的端口并可同时进行更多的化学反应。",
+      "en": "A facility for running solid or liquid-state chemical reactions. It also comes with additional input and output ports and the ability to run multiple reactions simultaneously."
+    },
+    "iconOnPanel": "icon_port_mix_pool_2",
+    "id": "mix_pool_2",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_mix_pool_1",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "扩容反应池",
+      "en": "Expanded Crucible"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "5",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "100",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "6",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_002_06x05_01",
+        "machineId": "mix_pool_2",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "mix_pool_2",
+        "nonLogisticBaseUnit": "pedestal+1_002_06x05_02"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "27"
+  },
+  "pear_blossom_bonsai_1": {
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "景存知春盛，人杳非此时。",
+      "en": "Verdant spring wakes upon the enduring land, yet friends have gone and times have changed."
+    },
+    "iconOnPanel": "icon_port_decorate_1",
+    "id": "pear_blossom_bonsai_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_decorate_pear_blossom_bonsai_1",
+    "modelHeight": 1.9,
+    "name": {
+      "cn": "山樆小景",
+      "en": "Miniature Tree on a Hill"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "1",
+      "height": "2",
+      "width": "1",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_01x01_01",
+        "machineId": "pear_blossom_bonsai_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "pear_blossom_bonsai_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_01x01_01"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "42"
   },
   "planter_1": {
     "bandwidth": "2",
@@ -3011,6 +4280,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3235,6 +4505,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_01",
+        "machineId": "planter_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "planter_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -3245,6 +4525,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3280,6 +4561,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_02x02_04",
+        "machineId": "power_diffuser_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_diffuser_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "23"
   },
@@ -3290,6 +4581,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3329,6 +4621,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_02x02_04",
+        "machineId": "power_diffuser_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_diffuser_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "23"
   },
@@ -3339,6 +4641,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3374,6 +4677,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "machineId": "power_pole_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_pole_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "2"
   },
@@ -3384,6 +4697,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3423,6 +4737,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "machineId": "power_pole_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_pole_3",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "2"
   },
@@ -3433,13 +4757,14 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "作为电路末端的终端中继器。",
-      "en": "An electric nexus is usually deployed at the end of a power transmission line."
+      "cn": "作为电路末端的终端设备，可接入电网为其他场所供电。",
+      "en": "Electric Nexuses are usually placed at the end of power transmission lines. Connect them to the power grid to supply power to nearby facilities."
     },
     "iconOnPanel": "icon_power_port_1",
     "id": "power_port_1",
@@ -3468,6 +4793,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_02x02_07",
+        "machineId": "power_port_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_port_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_07"
+      }
+    },
     "roadAttachSide": "0",
     "type": "18"
   },
@@ -3478,13 +4813,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
-      "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
+      "cn": "利用源矿或电池提供电能的设备，只有接入电网才能生效。",
+      "en": "A facility that converts Originium Ore or batteries into electrical power. It must be connected to the power grid to work."
     },
     "iconOnPanel": "icon_port_power_sta_1",
     "id": "power_station_1",
@@ -3548,6 +4884,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_02x02_02",
+        "machineId": "power_station_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_station_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "3"
   },
@@ -3555,9 +4901,10 @@
     "bandwidth": "1",
     "bgOnPanel": "bg_power_port_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
-    "canBatchModeTogglePower": false,
+    "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3593,6 +4940,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "power_terminal_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "power_terminal_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "17"
   },
@@ -3603,13 +4960,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "用于抽取液体的设备。",
-      "en": "A facility for pumping fluids."
+      "cn": "在通电状态下，用于抽取液体的设备。",
+      "en": "Requires power. A facility for pumping fluids."
     },
     "iconOnPanel": "icon_port_pump_1",
     "id": "pump_1",
@@ -3658,6 +5016,92 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "pump_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "pump_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "25"
+  },
+  "pump_2": {
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_pump_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "在通电状态下，用于抽取液体的设备，可以进行腐蚀性液体的抽取。",
+      "en": "Requires power. A facility for pumping fluids. It is also capable of pumping corrosive liquids."
+    },
+    "iconOnPanel": "icon_port_pump_2",
+    "id": "pump_2",
+    "inputPorts": [],
+    "limitType": "4",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_pump_2",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "二型耐酸水泵",
+      "en": "Acid Resistant Pump Mk II"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "pump_2",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "pump_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
     "roadAttachSide": "0",
     "type": "25"
   },
@@ -3668,6 +5112,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3875,6 +5320,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_01",
+        "machineId": "seedcollector_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "seedcollector_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -3885,6 +5340,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -3946,10 +5402,27 @@
             "z": "0"
           }
         }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
       }
     ],
     "limitType": "0",
-    "liquidEnabled": false,
+    "liquidEnabled": true,
     "markInfoId": "mark_bd_formula_shaper_1",
     "modelHeight": 3.2,
     "name": {
@@ -4024,6 +5497,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "shaper_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "shaper_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -4034,6 +5517,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4069,6 +5553,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4079,6 +5573,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4114,6 +5609,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4124,6 +5629,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4159,6 +5665,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_bbflower_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4169,6 +5685,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4208,6 +5725,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_grass_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4218,6 +5745,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4257,6 +5785,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_grass_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4267,6 +5805,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4304,6 +5843,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_grass_fast_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4314,6 +5863,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4351,6 +5901,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_grass_fast_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4361,6 +5921,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4396,6 +5957,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_moss_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4406,6 +5977,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4441,6 +6013,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_moss_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4451,6 +6033,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4486,6 +6069,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_moss_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4496,6 +6089,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4531,6 +6125,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4541,6 +6145,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4576,6 +6181,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4586,6 +6201,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4625,6 +6241,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4635,6 +6261,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4674,6 +6301,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_4",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4684,6 +6321,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4721,6 +6359,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_fast_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4731,6 +6379,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "回收时种植作物无法获取，确认回收吗？",
       "en": "Retrieve this plot and lose the crops planted on it?"
@@ -4768,6 +6417,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "soil_sp_fast_4",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "soil_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "15"
   },
@@ -4776,8 +6435,9 @@
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
     "canBatchModeTogglePower": false,
-    "canBatchSelect": false,
+    "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -5155,6 +6815,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal_hub+1_001_01",
+        "machineId": "sp_hub_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "sp_hub_1",
+        "nonLogisticBaseUnit": "pedestal_hub+1_001_02"
+      }
+    },
     "roadAttachSide": "0",
     "type": "1"
   },
@@ -5163,8 +6833,9 @@
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
     "canBatchModeTogglePower": false,
-    "canBatchSelect": false,
+    "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "normal__1",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -5542,6 +7213,40 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__1": {
+        "logisticBaseUnit": "pedestal_hub+2_001_01",
+        "machineId": "sp_sub_hub_1",
+        "machineLevel": "1",
+        "machineModeType": "normal",
+        "machineRenderId": "sp_sub_hub_1",
+        "nonLogisticBaseUnit": "pedestal_hub+2_001_02"
+      },
+      "normal__2": {
+        "logisticBaseUnit": "pedestal_hub+2_001_01",
+        "machineId": "sp_sub_hub_1",
+        "machineLevel": "2",
+        "machineModeType": "normal",
+        "machineRenderId": "sp_sub_hub_2",
+        "nonLogisticBaseUnit": "pedestal_hub+2_001_02"
+      },
+      "normal__3": {
+        "logisticBaseUnit": "pedestal_hub+2_001_03",
+        "machineId": "sp_sub_hub_1",
+        "machineLevel": "3",
+        "machineModeType": "normal",
+        "machineRenderId": "sp_sub_hub_3",
+        "nonLogisticBaseUnit": "pedestal_hub+2_001_02"
+      },
+      "normal__4": {
+        "logisticBaseUnit": "pedestal_hub+2_001_03",
+        "machineId": "sp_sub_hub_1",
+        "machineLevel": "4",
+        "machineModeType": "normal",
+        "machineRenderId": "sp_sub_hub_4",
+        "nonLogisticBaseUnit": "pedestal_hub+2_001_02"
+      }
+    },
     "roadAttachSide": "0",
     "type": "22"
   },
@@ -5552,6 +7257,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -5607,6 +7313,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "squirter_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "squirter_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "29"
   },
@@ -5617,6 +7333,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -5672,6 +7389,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "squirter_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "squirter_nop_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_05"
+      }
+    },
     "roadAttachSide": "0",
     "type": "29"
   },
@@ -5682,13 +7409,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "拥有数个格子的储物设备，在通电状态下可将其中物品转移至仓库，也可作为物品输出端直接用于工厂内部。",
-      "en": "A storage facility with several item storage slots. When powered, it can transfer items to the Depot. It can also be used as a point to unload items in the AIC."
+      "cn": "拥有多个容纳格的储物设备，由于在通电状态下可将其中物品转移至仓库，因此多用于产线末端。",
+      "en": "A storage facility with several item storage slots. Once connected to the power grid and given enough power, it can teleport items to the Depot. Hence, the stash is often placed at the end of production lines."
     },
     "iconOnPanel": "icon_port_storager_1",
     "id": "storager_1",
@@ -5821,6 +7549,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "storager_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "storager_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "4"
   },
@@ -5831,13 +7569,14 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
     },
     "desc": {
-      "cn": "拥有数个格子的储物设备，在通电状态下可将其中物品转移至仓库，也可作为物品输出端直接用于工厂内部。",
-      "en": "A storage facility with several item storage slots. When powered, it can transfer items to the Depot. It can also be used as a point to unload items in the AIC."
+      "cn": "拥有多个容纳格的储物设备，由于在通电状态下可将其中物品转移至仓库，因此多用于产线末端。",
+      "en": "A storage facility with several item storage slots. Once connected to the power grid and given enough power, it can teleport items to the Depot. Hence, the stash is often placed at the end of production lines."
     },
     "iconOnPanel": "icon_port_storager_1",
     "id": "storager_nop_1",
@@ -5970,6 +7709,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "storager_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "storager_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "4"
   },
@@ -5980,6 +7729,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6221,6 +7971,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "thickener_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "thickener_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -6231,6 +7991,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6472,6 +8233,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "tools_assebling_mc_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "tools_assebling_mc_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -6482,6 +8253,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6517,6 +8289,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04",
+        "machineId": "travel_pole_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "travel_pole_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "16"
   },
@@ -6527,6 +8309,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6562,6 +8345,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04",
+        "machineId": "travel_pole_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "travel_pole_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "16"
   },
@@ -6572,6 +8365,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6607,6 +8401,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04",
+        "machineId": "travel_pole_nop_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "travel_pole_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04"
+      }
+    },
     "roadAttachSide": "0",
     "type": "16"
   },
@@ -6617,6 +8421,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6672,6 +8477,109 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "machineId": "udpipe_loader_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "udpipe_loader_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "33"
+  },
+  "udpipe_loader_2": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_udpipe_loader_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "地下暗管的大型入口，可与多口暗管出口进行配对连接，传输管道中的货物。",
+      "en": "A large inlet facility for an underground pipeline. Connect this to a matching Conduit Outlet Manifold to transport fluids through it."
+    },
+    "iconOnPanel": "icon_pot_udpipe_loader_2",
+    "id": "udpipe_loader_2",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_underpipe_pro_1",
+    "modelHeight": 3.6,
+    "name": {
+      "cn": "多口暗管入口",
+      "en": "Conduit Inlet Manifold"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "udpipe_loader_2",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "udpipe_loader_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x05_01"
+      }
+    },
     "roadAttachSide": "0",
     "type": "33"
   },
@@ -6682,6 +8590,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6737,6 +8646,109 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "machineId": "udpipe_unloader_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "udpipe_unloader_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a"
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "34"
+  },
+  "udpipe_unloader_2": {
+    "bandwidth": "1",
+    "bgOnPanel": "bg_port_udpipe_unloader_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "地下暗管的大型出口，可与多口暗管入口进行配对连接，传输管道中的货物。",
+      "en": "A large outlet facility for an underground pipeline. Connect this to a matching Conduit Inlet Manifold to transport fluids through it."
+    },
+    "iconOnPanel": "icon_pot_udpipe_unloader_2",
+    "id": "udpipe_unloader_2",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_underpipe_pro_2",
+    "modelHeight": 3.6,
+    "name": {
+      "cn": "多口暗管出口",
+      "en": "Conduit Outlet Manifold"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "udpipe_unloader_2",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "udpipe_unloader_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x05_01"
+      }
+    },
     "roadAttachSide": "0",
     "type": "34"
   },
@@ -6747,6 +8759,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6800,6 +8813,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "unloader_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "unloader_1",
+        "nonLogisticBaseUnit": ""
+      }
+    },
     "roadAttachSide": "0",
     "type": "11"
   },
@@ -6810,6 +8833,7 @@
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": false,
+    "defaultRendererTemplate": "",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -6845,6 +8869,7 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {},
     "roadAttachSide": "0",
     "type": "30"
   },
@@ -6855,6 +8880,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -7096,6 +9122,16 @@
       "z": "0"
     },
     "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "winder_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "winder_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   },
@@ -7106,6 +9142,7 @@
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
     "delConfirmText": {
       "cn": "",
       "en": ""
@@ -7336,6 +9373,16 @@
     "recommendDomains": [
       "domain_2"
     ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_01",
+        "machineId": "xiranite_oven_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "xiranite_oven_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03"
+      }
+    },
     "roadAttachSide": "0",
     "type": "6"
   }

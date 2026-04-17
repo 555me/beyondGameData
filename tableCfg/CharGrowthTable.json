@@ -23191,8 +23191,8 @@
       },
       "chr_0016_laevat_UltimateSkill": {
         "desc": {
-          "cn": "召唤烈焰魔剑并切换为主控角色。\n一段时间内，普通攻击得到强化，烈焰魔剑会协同莱万汀发动攻击，每次攻击造成<@ba.fire>灼热伤害</>。此外，普通攻击第3段会施加<#ba.fireinflict>灼热附着</>。",
-          "en": "Laevatain summons her Sviga Lævi and becomes the controlled operator. \nFor a certain duration, her basic attacks (BATK) are enhanced and the Sviga Lævi strikes together with Laevatain, with each attack dealing <@ba.fire>Heat DMG</>. BATK sequence 3 also applies <#ba.fireinflict>Heat Infliction</>."
+          "cn": "召唤烈焰魔剑并切换为主控角色。\n一段时间内，普通攻击得到强化，烈焰魔剑会协同莱万汀发动攻击，每次攻击造成<@ba.fire>灼热伤害</>。此外，普通攻击第3段会施加<#ba.fireinflict>灼热附着</>。\n<@ba.info>施放战技焚灭或连携技沸腾期间，终结技黄昏的持续时间不会减少。</>",
+          "en": "Laevatain summons her Sviga Lævi and becomes the controlled operator. \nFor a certain duration, her basic attacks (BATK) are enhanced and the Sviga Lævi strikes together with Laevatain, with each attack dealing <@ba.fire>Heat DMG</>. BATK sequence 3 also applies <#ba.fireinflict>Heat Infliction</>.\n<@ba.info>Casting the battle skill, Smouldering Fire, or the combo skill, Seethe, does not shorten the duration of the ultimate, Twilight.</>"
         },
         "icon": "icon_ultimate_skill_laevat_01",
         "name": {
@@ -50251,6 +50251,1963 @@
       }
     },
     "weaponType": "1"
+  },
+  "chr_0030_zhuangfy": {
+    "charBreakCostMap": {
+      "charBreak20": {
+        "breakStage": "1",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至40级",
+          "en": "Activate this to raise operator level cap to 40"
+        },
+        "equipTierLimit": "2",
+        "name": {
+          "cn": "精英化·一",
+          "en": "Promotion I"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "breakStage": "2",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至60级",
+          "en": "Activate this to raise operator level cap to 60"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "精英化·二",
+          "en": "Promotion II"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "breakStage": "3",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至80级",
+          "en": "Activate this to raise operator level cap to 80"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "精英化·三",
+          "en": "Promotion III"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "breakStage": "4",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至90级",
+          "en": "Activate this to raise operator level cap to 90"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "精英化·四",
+          "en": "Promotion IV"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_2"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "breakStage": "1",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，允许干员穿戴蓝色品质装备",
+          "en": "Activate this to let the operator equip blue quality gear"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "装备适配·一",
+          "en": "Outfitting I"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "breakStage": "2",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，允许干员穿戴紫色品质装备",
+          "en": "Activate this to let the operator equip purple quality gear"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "装备适配·二",
+          "en": "Outfitting II"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "breakStage": "3",
+        "charId": "chr_0030_zhuangfy",
+        "description": {
+          "cn": "激活后，允许干员穿戴金色品质装备",
+          "en": "Activate this to let the operator equip gold quality gear"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "装备适配·三",
+          "en": "Outfitting III"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "charId": "chr_0030_zhuangfy",
+    "charTypeId": "Pulse",
+    "defaultWeaponId": "wpn_funnel_0002",
+    "engName": "Zhuang Fangyi",
+    "mainAttrType": "42",
+    "name": {
+      "cn": "庄方宜",
+      "en": "Zhuang Fangyi"
+    },
+    "profession": "8",
+    "rarity": "6",
+    "skillGroupMap": {
+      "chr_0030_zhuangfy_ComboSkill": {
+        "desc": {
+          "cn": "主控干员的<#ba.lastcombo>重击</>或处决，命中处于<#ba.pulseinflict>电磁附着</>状态的敌人后可以发动。\n构造息雷阵法攻击敌人，造成<@ba.pulse>电磁伤害</>。命中处于<#ba.pulseinflict>电磁附着</>的敌人时，<#ba.consume>消耗</>其<#ba.pulseinflict>电磁附着</>，强制施加<#ba.conduct>导电</>，并基于<#ba.consume>消耗</>的层数额外获得终结技能量。\n若强制施加<#ba.conduct>导电</>时，敌人已处于<#ba.conduct>导电</>状态，则所施加<#ba.conduct>导电</>的<#ba.statuslevel>异常等级</>+1。",
+          "en": "COMBO TRIGGER: When the controlled operator's <#ba.lastcombo>Final Strike</> or Finisher hits an enemy with <#ba.pulseinflict>Electric Infliction</>.\nZhuang Fangyi creates a Xiranblitz Array that attacks the enemy and deals <@ba.pulse>Electric DMG</>. If the Array hits an enemy that has <#ba.pulseinflict>Electric Infliction</> stack(s), then it will <#ba.consume>consume</> the said <#ba.pulseinflict>Electric Infliction</> stack(s), forcibly apply <#ba.conduct>Electrification</>, and give Ultimate Energy based on the number of stacks <#ba.consume>consumed</>.\nIf <#ba.conduct>Electrification</> is forcibly applied to an enemy that already has <#ba.conduct>Electrification</>, then apply <#ba.statuslevel>Status Level</> +1 to the enemy's <#ba.conduct>Electrification</>."
+        },
+        "icon": "icon_combo_skill_zhuangfy_01",
+        "name": {
+          "cn": "一息万变",
+          "en": "Breath of Transformation"
+        },
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill",
+        "skillGroupType": "3",
+        "skillIdList": [
+          "chr_0030_zhuangfy_combo_skill",
+          "chr_0030_zhuangfy_combo_skill_ult"
+        ]
+      },
+      "chr_0030_zhuangfy_NormalAttack": {
+        "desc": {
+          "cn": "普通攻击：\n对敌人进行至多5段攻击，造成<@ba.pulse>电磁伤害</>。作为主控干员时，<#ba.lastcombo>重击</>会造成<@ba.poise>{poise:0}</>点失衡。\n\n下落攻击：\n处于空中时使用普通攻击，会下落并攻击附近敌人，造成<@ba.pulse>电磁伤害</>。\n\n处决攻击：\n附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量<@ba.pulse>电磁伤害</>并恢复一定技力。",
+          "en": "BASIC ATTACK: \nAn attack with up to 5 sequences that deals <@ba.pulse>Electric DMG</>. As the controlled operator, <#ba.lastcombo>Final Strike</> also deals <@ba.poise>{poise:0}</> Stagger. \n\nDIVE ATTACK: \nBasic attack performed in mid-air becomes a dive attack that deals <@ba.pulse>Electric DMG</> to nearby enemies. \n\nFINISHER: \nBasic attack performed near a Staggered enemy becomes a finisher that deals massive <@ba.pulse>Electric DMG</> and recovers some SP."
+        },
+        "icon": "icon_attack_funnel",
+        "name": {
+          "cn": "疾电法",
+          "en": "Jolting Arts"
+        },
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack",
+        "skillGroupType": "0",
+        "skillIdList": [
+          "chr_0030_zhuangfy_attack1",
+          "chr_0030_zhuangfy_attack2",
+          "chr_0030_zhuangfy_attack3",
+          "chr_0030_zhuangfy_attack4",
+          "chr_0030_zhuangfy_attack5",
+          "chr_0030_zhuangfy_power_attack",
+          "chr_0030_zhuangfy_plunging_attack_end"
+        ]
+      },
+      "chr_0030_zhuangfy_NormalSkill": {
+        "desc": {
+          "cn": "<#ba.consume>消耗</>目标的<#ba.conduct>导电</>状态，使本次战技伤害倍率提高，并生成相当于所<#ba.consume>消耗</><#ba.conduct>导电</>的<#ba.statuslevel>异常等级</><@ba.key>+1</>柄<@ba.key>青霆剑</>，若现存的<@ba.key>青霆剑</>少于{free_sword_limit:0}柄，即使未<#ba.consume>消耗</>目标的<#ba.conduct>导电</>状态仍能生成1柄<@ba.key>青霆剑</>。\n随后引导附近的<@ba.key>青霆剑</>依次雷击目标，造成<@ba.pulse>电磁伤害</>并额外获得终结技能量，最后一次雷击造成{final_rate:0}倍伤害。\n<@ba.info>一次战技最多生成{max_conduct_sword:0}柄青霆剑。</>",
+          "en": "<#ba.consume>Consumes</> the target's <#ba.conduct>Electrification</> to increase the DMG multiplier of this battle skill and create [<#ba.statuslevel>Status Level</> of <#ba.conduct>Electrification</> <#ba.consume>consumed</> <@ba.key>+1</>] <@ba.key>Sunderblades</>. If the battlefield has fewer than {free_sword_limit:0} <@ba.key>Sunderblades</>, Mantra of Sundering can still create 1 <@ba.key>Sunderblade</>, even if it does not <#ba.consume>consume</> any target's <#ba.conduct>Electrification</>.\nZhuang Fangyi then channels all <@ba.key>Sunderblades</> nearby to successively unleash Thunder Strikes on the target, dealing <@ba.pulse>Electric DMG</> and giving bonus Ultimate Energy, with the final Thunder Strike dealing {final_rate:0} times the DMG.\n<@ba.info>A single battle skill casting can only create a max of {max_conduct_sword:0} Sunderblades.</>"
+        },
+        "icon": "icon_skill_zhuangfy_01",
+        "name": {
+          "cn": "惊霆诀",
+          "en": "Mantra of Sundering"
+        },
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill",
+        "skillGroupType": "1",
+        "skillIdList": [
+          "chr_0030_zhuangfy_normal_skill",
+          "chr_0030_zhuangfy_normal_skill_ult"
+        ]
+      },
+      "chr_0030_zhuangfy_UltimateSkill": {
+        "desc": {
+          "cn": "进入<@ba.key>天理合真</>状态：\n普通攻击得到强化。自身行动更不容易被打断。\n战技<@ba.key>惊霆诀</>伤害倍率提高，伤害范围扩大，最后一次雷击命中时施加<#ba.pulseinflict>电磁附着</>。\n连携技<@ba.key>一息万变</>对一定范围内的敌人生效，伤害倍率提高，冷却恢复速度提升至原本的{combo_cd_rate:0}倍。\n首次施放战技<@ba.key>惊霆诀</>不消耗技力与<#ba.conduct>导电</>，若存在目标，则无论其是否处于<#ba.conduct>导电</>状态，必定生成3柄<@ba.key>青霆剑</>。",
+          "en": "Transforms into the <@ba.key>Empyrean of Truth</> that grants these enhancements:\nZhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;\nBattle skill <@ba.key>Mantra of Sundering</> gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies <#ba.pulseinflict>Electric Infliction</> to the target hit.\nCombo skill <@ba.key>Breath of Transformation</> gains a higher DMG multiplier, cooldown becomes {combo_cd_rate:0} times faster, and effects are applied to enemies within a small area.\nThe first casting of the battle skill <@ba.key>Mantra of Sundering</> on an available target does not consume SP nor <#ba.conduct>Electrification</>, and is guaranteed to create 3 <@ba.key>Sunderblades</> even if the target has no <#ba.conduct>Electrification</>."
+        },
+        "icon": "icon_ultimate_skill_zhuangfy_01",
+        "name": {
+          "cn": "万钧风雷",
+          "en": "Smiting Tempest"
+        },
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill",
+        "skillGroupType": "2",
+        "skillIdList": [
+          "chr_0030_zhuangfy_ultimate_skill",
+          "chr_0030_zhuangfy_attack1_ult",
+          "chr_0030_zhuangfy_attack2_ult",
+          "chr_0030_zhuangfy_attack3_ult"
+        ]
+      }
+    },
+    "skillLevelUp": [
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0030_zhuangfy_NormalSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_3"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0030_zhuangfy_UltimateSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0030_zhuangfy_ComboSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0030_zhuangfy_NormalAttack"
+      }
+    ],
+    "subAttrType": "41",
+    "talentNodeMap": {
+      "charBreak20": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_2"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "42",
+            "attrValue": "10",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "1",
+          "desc": {
+            "cn": "干员意志能力值提升10。",
+            "en": "Operator Will +10."
+          },
+          "favorability": "60",
+          "title": {
+            "cn": "守誓",
+            "en": "Stalwart"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_1",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "5",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_3": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "42",
+            "attrValue": "15",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "2",
+          "desc": {
+            "cn": "干员意志能力值提升15。",
+            "en": "Operator Will +15."
+          },
+          "favorability": "150",
+          "title": {
+            "cn": "守誓",
+            "en": "Stalwart"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_3",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1800",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_5": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "42",
+            "attrValue": "15",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "3",
+          "desc": {
+            "cn": "干员意志能力值提升15。",
+            "en": "Operator Will +15."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "守誓",
+            "en": "Stalwart"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_5",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_7": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "42",
+            "attrValue": "20",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "4",
+          "desc": {
+            "cn": "干员意志能力值提升20。",
+            "en": "Operator Will +20."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "守誓",
+            "en": "Stalwart"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_7",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "12000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_passive_skill_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_passive_skill_0_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "1",
+          "iconId": "icon_talent_zhuangfy_01",
+          "index": "0",
+          "level": "1",
+          "name": {
+            "cn": "天地造化",
+            "en": "Force of Nature"
+          },
+          "talentEffectId": "chr_0030_zhuangfy_talent_1_1"
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2400",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_passive_skill_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_passive_skill_0_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "2",
+          "iconId": "icon_talent_zhuangfy_01",
+          "index": "0",
+          "level": "2",
+          "name": {
+            "cn": "天地造化",
+            "en": "Force of Nature"
+          },
+          "talentEffectId": "chr_0030_zhuangfy_talent_1_2"
+        },
+        "requiredItem": [
+          {
+            "count": "40",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "8600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_passive_skill_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_passive_skill_1_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "2",
+          "iconId": "icon_talent_zhuangfy_02",
+          "index": "1",
+          "level": "1",
+          "name": {
+            "cn": "承天之佑",
+            "en": "Ordained by Heaven"
+          },
+          "talentEffectId": "chr_0030_zhuangfy_talent_2_1"
+        },
+        "requiredItem": [
+          {
+            "count": "48",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "10000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0030_zhuangfy_passive_skill_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0030_zhuangfy_passive_skill_1_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "3",
+          "iconId": "icon_talent_zhuangfy_02",
+          "index": "1",
+          "level": "2",
+          "name": {
+            "cn": "承天之佑",
+            "en": "Ordained by Heaven"
+          },
+          "talentEffectId": "chr_0030_zhuangfy_talent_2_2"
+        },
+        "requiredItem": [
+          {
+            "count": "28",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "24000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0030_zhuangfy_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "1",
+          "index": "0",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0030_zhuangfy_0_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0030_zhuangfy_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "3",
+          "index": "0",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0030_zhuangfy_0_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "8000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0030_zhuangfy_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "2",
+          "index": "1",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0030_zhuangfy_1_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "3000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0030_zhuangfy_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "4",
+          "index": "1",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0030_zhuangfy_1_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "20000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "weaponType": "2"
   },
   "chr_9000_endmin": {
     "charBreakCostMap": {

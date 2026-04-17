@@ -384,7 +384,7 @@
   "achv_adv_wuling_box_1": {
     "achieveId": "achv_adv_wuling_box_1",
     "applyRareEffect": false,
-    "canBePlated": false,
+    "canBePlated": true,
     "canBeUpgraded": false,
     "desc": {
       "cn": "",
@@ -406,15 +406,7 @@
               "cn": "于景玉谷和武陵城开启227个储藏箱",
               "en": "Open 227 storage crates in Jingyu Valley and Wuling City"
             },
-            "progressToCompare": "44"
-          },
-          {
-            "conditionId": "achv_adv_wuling_box_1_3_cond_2",
-            "desc": {
-              "cn": "于景玉谷和武陵城开启227个储藏箱",
-              "en": "Open 227 storage crates in Jingyu Valley and Wuling City"
-            },
-            "progressToCompare": "183"
+            "progressToCompare": "227"
           }
         ]
       }
@@ -424,7 +416,16 @@
       "en": "Wuling Crate Master Ⅰ"
     },
     "order": "3",
-    "plateConditions": []
+    "plateConditions": [
+      {
+        "conditionId": "achv_adv_wuling_box_1_plating_cond_1",
+        "desc": {
+          "cn": "于景玉谷和武陵城开启242个储藏箱",
+          "en": "Open 242 storage crates in Jingyu Valley and Wuling City"
+        },
+        "progressToCompare": "242"
+      }
+    ]
   },
   "achv_adv_wuling_campfire_1": {
     "achieveId": "achv_adv_wuling_campfire_1",
@@ -540,7 +541,7 @@
   "achv_adv_wuling_ether_1": {
     "achieveId": "achv_adv_wuling_ether_1",
     "applyRareEffect": false,
-    "canBePlated": false,
+    "canBePlated": true,
     "canBeUpgraded": false,
     "desc": {
       "cn": "",
@@ -562,15 +563,7 @@
               "cn": "于景玉谷和武陵城收集74个醚质",
               "en": "Gather 74 Aurylenes in Jingyu Valley and Wuling City"
             },
-            "progressToCompare": "20"
-          },
-          {
-            "conditionId": "achv_adv_wuling_ether_1_3_cond_2",
-            "desc": {
-              "cn": "于景玉谷和武陵城收集74个醚质",
-              "en": "Gather 74 Aurylenes in Jingyu Valley and Wuling City"
-            },
-            "progressToCompare": "54"
+            "progressToCompare": "74"
           }
         ]
       }
@@ -580,7 +573,16 @@
       "en": "\"Re-Congregated Fragments\" Ⅰ"
     },
     "order": "2",
-    "plateConditions": []
+    "plateConditions": [
+      {
+        "conditionId": "achv_adv_wuling_ether_1_plating_cond_1",
+        "desc": {
+          "cn": "于景玉谷和武陵城收集81个醚质",
+          "en": "Gather 81 Aurylenes in Jingyu Valley and Wuling City"
+        },
+        "progressToCompare": "81"
+      }
+    ]
   },
   "achv_adv_wuling_floor_1": {
     "achieveId": "achv_adv_wuling_floor_1",
@@ -656,6 +658,43 @@
     "order": "6",
     "plateConditions": []
   },
+  "achv_adv_wuling_watergun_1": {
+    "achieveId": "achv_adv_wuling_watergun_1",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_adv_wuling",
+    "initLevel": "1",
+    "levelInfos": {
+      "1": {
+        "achieveLevel": "1",
+        "completeDesc": {
+          "cn": "您已调试好了多个息壤导流轨道系统。",
+          "en": "You have adjusted and restored multiple Xiranflow Track Systems."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_adv_wuling_watergun_1_1_cond_1",
+            "desc": {
+              "cn": "复位武陵城的8组息壤导流轨道系统",
+              "en": "Restore 8 Xiranflow Track Systems in Wuling City"
+            },
+            "progressToCompare": "8"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“轨道激流”\n",
+      "en": "\"Track Sprayer\""
+    },
+    "order": "13",
+    "plateConditions": []
+  },
   "achv_bat_charged": {
     "achieveId": "achv_bat_charged",
     "applyRareEffect": false,
@@ -725,6 +764,43 @@
       "en": "Master Interceptor"
     },
     "order": "7",
+    "plateConditions": []
+  },
+  "achv_bat_charged_hsbear": {
+    "achieveId": "achv_bat_charged_hsbear",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_bat_skill",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "您成功扼住了雷鸣的咽喉。",
+          "en": "You successfully grabbed the thunderous peal by its throat."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_bat_charged_hsbear_2_cond_1",
+            "desc": {
+              "cn": "于战斗中打断天鼓的咆哮声波",
+              "en": "Interrupt the Skydrummer's roaring shockwave during combat"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“截雷”",
+      "en": "\"Interceptor of Thunder\""
+    },
+    "order": "16",
     "plateConditions": []
   },
   "achv_bat_comboskill": {
@@ -841,6 +917,126 @@
           "en": "Complete \"Crisis Calamity: Triaggelos\" in 240s"
         },
         "progressToCompare": "240"
+      }
+    ]
+  },
+  "achv_bat_defeat_ethillu": {
+    "achieveId": "achv_bat_defeat_ethillu",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_bat_skill",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "您看破了表象，驱散了不稳定之物。",
+          "en": "You saw through the Æthillu and dispelled the unstable material."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_bat_defeat_ethillu_2_cond_1",
+            "desc": {
+              "cn": "于战斗中，在“表象”重生后的2秒内将其击败",
+              "en": "During battle, defeat an \"Æthillu\" within 2s of its revival"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“不稳定表象”",
+      "en": "\"Unstable Æthillu\""
+    },
+    "order": "17",
+    "plateConditions": []
+  },
+  "achv_bat_defeat_hsbear": {
+    "achieveId": "achv_bat_defeat_hsbear",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_bat_skill",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "您已使野性的大旗折断，已使轰鸣的大鼓息声。",
+          "en": "You broke the feral banner and silenced the deafening drum."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_bat_defeat_hsbear_2_cond_1",
+            "desc": {
+              "cn": "击败天鼓",
+              "en": "Defeat the Skydrummer"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“偃旗息鼓”",
+      "en": "\"Silencing the Drum\""
+    },
+    "order": "15",
+    "plateConditions": []
+  },
+  "achv_bat_defeat_nefarp": {
+    "achieveId": "achv_bat_defeat_nefarp",
+    "applyRareEffect": false,
+    "canBePlated": true,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_bat_skill",
+    "initLevel": "3",
+    "levelInfos": {
+      "3": {
+        "achieveLevel": "3",
+        "completeDesc": {
+          "cn": "在协议空间的幻影中，她癫狂的野心与轻蔑的笑声就此消散。",
+          "en": "Her insane ambition and disdainful laughter finally dissipated in the phantoms of the Protocol Space."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_bat_defeat_nefarp_3_cond_1",
+            "desc": {
+              "cn": "通关“危境祸影·聂菲斯”",
+              "en": "Complete \"Crisis Calamity: Nefarith\""
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“征服者的遗恨”",
+      "en": "\"Conqueror's Grief\""
+    },
+    "order": "14",
+    "plateConditions": [
+      {
+        "conditionId": "achv_bat_defeat_nefarp_plating_cond_1",
+        "desc": {
+          "cn": "在200秒内通关“危境祸影·聂菲斯”",
+          "en": "Complete \"Crisis Calamity: Nefarith\" in 200s"
+        },
+        "progressToCompare": "200"
       }
     ]
   },
@@ -1147,8 +1343,8 @@
           {
             "conditionId": "achv_bat_enemyspawner_2_cond_1",
             "desc": {
-              "cn": "探索等级达到7级时，通关5个不同的重度能量淤积点",
-              "en": "Reach Exploration Level 7 and complete 5 different Severe Energy Alluvium sites"
+              "cn": "探索等级达到7级后，通关5个不同的重度能量淤积点",
+              "en": "Reach Exploration Level 7, then complete 5 different Severe Energy Alluvium sites"
             },
             "progressToCompare": "5"
           }
@@ -1578,6 +1774,132 @@
       }
     ]
   },
+  "achv_bat_hard_4": {
+    "achieveId": "achv_bat_hard_4",
+    "applyRareEffect": false,
+    "canBePlated": true,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_bat_dung",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "您在淹没一切的恐怖浊流中屹立不倒，您再一次于丰碑上刻下了自己的名字。",
+          "en": "You survived the terrifying and turbid tide that threatened to drown everything, and once again you etched your name upon the great monument."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_1",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          },
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_2",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          },
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_3",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          },
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_4",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          },
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_5",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          },
+          {
+            "conditionId": "achv_bat_hard_4_2_cond_6",
+            "desc": {
+              "cn": "在「影拓丰碑」中，通关普通模式“浊流具现”的所有关卡",
+              "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Normal mode"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“浊流具现”",
+      "en": "\"Turbidity Manifest\""
+    },
+    "order": "8",
+    "plateConditions": [
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_1",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_2",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_3",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_4",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_5",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_bat_hard_4_plating_cond_6",
+        "desc": {
+          "cn": "在「影拓丰碑」中，通关苦难模式“浊流具现”的所有关卡",
+          "en": "In [Umbral Monument], complete all \"Turbidity Manifest\" stages at Agony mode"
+        },
+        "progressToCompare": "1"
+      }
+    ]
+  },
   "achv_bat_magical_AS": {
     "achieveId": "achv_bat_magical_AS",
     "applyRareEffect": false,
@@ -1950,6 +2272,52 @@
           "en": "Complete \"Final Assessment\" in 120s"
         },
         "progressToCompare": "120"
+      }
+    ]
+  },
+  "achv_event_formula": {
+    "achieveId": "achv_event_formula",
+    "applyRareEffect": false,
+    "canBePlated": true,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_event_default",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "您在集成援助环节提供的小葫芦广受欢迎。",
+          "en": "The little gourds you supplied during AIC Support are very popular."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_event_formula_2_cond_1",
+            "desc": {
+              "cn": "于「集成援助·掌中救星」期间累计获得800,000张援助成果券",
+              "en": "During [AIC Support: Palm-Top Savior], acquire 800,000 Fruits of Altruism Certs"
+            },
+            "progressToCompare": "800000"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“掌中大救星”",
+      "en": "\"Palm Top Deliverer\""
+    },
+    "order": "5",
+    "plateConditions": [
+      {
+        "conditionId": "achv_event_formula_plating_cond_1",
+        "desc": {
+          "cn": "于「集成援助·掌中救星」期间累计获得800,000张援助成果券，且累计提交20,000个息壤玉葫芦",
+          "en": "During [AIC Support: Palm-Top Savior], earn 800,000 Fruits of Altruism Certs and submit 20,000 Xiranite Jade Gourds"
+        },
+        "progressToCompare": "20000"
       }
     ]
   },
@@ -2346,7 +2714,7 @@
           {
             "conditionId": "achv_fac_coupon_tundra_1_cond_1",
             "desc": {
-              "cn": "累计获得20000000张谷地调度券",
+              "cn": "累计获得20,000,000张谷地调度券",
               "en": "Earn 20,000,000 Valley Stock Bills"
             },
             "progressToCompare": "20000000"
@@ -2363,7 +2731,7 @@
           {
             "conditionId": "achv_fac_coupon_tundra_2_cond_1",
             "desc": {
-              "cn": "累计获得40000000张谷地调度券",
+              "cn": "累计获得40,000,000张谷地调度券",
               "en": "Earn 40,000,000 Valley Stock Bills"
             },
             "progressToCompare": "40000000"
@@ -2380,7 +2748,7 @@
           {
             "conditionId": "achv_fac_coupon_tundra_3_cond_1",
             "desc": {
-              "cn": "累计获得80000000张谷地调度券",
+              "cn": "累计获得80,000,000张谷地调度券",
               "en": "Earn 80,000,000 Valley Stock Bills"
             },
             "progressToCompare": "80000000"
@@ -2417,7 +2785,7 @@
           {
             "conditionId": "achv_fac_coupon_wuling_1_1_cond_1",
             "desc": {
-              "cn": "累计获得2000000张武陵调度券",
+              "cn": "累计获得2,000,000张武陵调度券",
               "en": "Earn 2,000,000 Wuling Stock Bills"
             },
             "progressToCompare": "2000000"
@@ -2466,7 +2834,44 @@
       "cn": "武陵调度专家奖章·Ⅱ",
       "en": "Wuling Stock Redistributor Ⅱ"
     },
-    "order": "12",
+    "order": "11",
+    "plateConditions": []
+  },
+  "achv_fac_coupon_wuling_3": {
+    "achieveId": "achv_fac_coupon_wuling_3",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_fac_factory",
+    "initLevel": "3",
+    "levelInfos": {
+      "3": {
+        "achieveLevel": "3",
+        "completeDesc": {
+          "cn": "您已获得了大量武陵调度券。\n越多的票券出现在您手中，就代表着越多的人获得了急需的物资，您厥功至伟。",
+          "en": "You have acquired quite a lot of Wuling Stock Bills. \nEarning more stock bills means that you have delivered desperately needed supplies to more people. You have done monumental work."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_fac_coupon_wuling_3_3_cond_1",
+            "desc": {
+              "cn": "累计获得25,000,000张武陵调度券",
+              "en": "Earn 25,000,000 Wuling Stock Bills"
+            },
+            "progressToCompare": "25000000"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "武陵调度专家奖章·Ⅲ",
+      "en": "Wuling Stock Redistributor Ⅲ"
+    },
+    "order": "14",
     "plateConditions": []
   },
   "achv_fac_domain_depot": {
@@ -2508,8 +2913,8 @@
       {
         "conditionId": "achv_fac_domain_depot_plating_cond_1",
         "desc": {
-          "cn": "在不受到伤害的情况下，累计完成20次工业材料包裹的运送",
-          "en": "Pack and deliver 20 Factory Goods packages without taking any damage"
+          "cn": "在不损失货物完整度的情况下，累计完成20次精密制品货箱（极易损）的运送",
+          "en": "Pack and deliver 20 Factory Goods (Super Fragile) packages without reducing Goods Integrity."
         },
         "progressToCompare": "20"
       }
@@ -2554,8 +2959,8 @@
       {
         "conditionId": "achv_fac_domain_shop_plating_cond_1",
         "desc": {
-          "cn": "在1次物资出售中，对应货物的卖出价格大于等于持有均价的500%",
-          "en": "In 1 single cargo selling action, achieve a cargo selling price that is at least 500% of the average holding price"
+          "cn": "在1次物资出售中，对应货物的卖出收益率大于等于500%",
+          "en": "In 1 selling action of Elastic Goods, achieve a selling price that is at least 500% better than the average holding price."
         },
         "progressToCompare": "1"
       }
@@ -2564,7 +2969,7 @@
   "achv_fac_kite_station": {
     "achieveId": "achv_fac_kite_station",
     "applyRareEffect": false,
-    "canBePlated": false,
+    "canBePlated": true,
     "canBeUpgraded": false,
     "desc": {
       "cn": "",
@@ -2596,7 +3001,136 @@
       "en": "Environment Monitor"
     },
     "order": "9",
-    "plateConditions": []
+    "plateConditions": [
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_1",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_2",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_3",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_4",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_5",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_6",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_7",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_8",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_9",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_10",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_11",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_12",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_13",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_14",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_15",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      },
+      {
+        "conditionId": "achv_fac_kite_station_plating_cond_16",
+        "desc": {
+          "cn": "完成武陵城郊监测终端的生态总录进度",
+          "en": "Complete Ecology Overview Progress of the Wuling Outskirts Monitoring Terminal"
+        },
+        "progressToCompare": "1"
+      }
+    ]
   },
   "achv_fac_recycle_station": {
     "achieveId": "achv_fac_recycle_station",
@@ -2678,6 +3212,52 @@
           "en": "Raise all Valley IV outposts to the highest level"
         },
         "progressToCompare": "12"
+      }
+    ]
+  },
+  "achv_fac_settlement_wuling_1": {
+    "achieveId": "achv_fac_settlement_wuling_1",
+    "applyRareEffect": false,
+    "canBePlated": true,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_fac_factory",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "武陵的部分据点已在您的支援计划之中。\n授人以钓鳞竿，您的支援方针无比正确。",
+          "en": "A number of Wuling outposts are now part of your support program. \nGive them angling rods and teach them to fin. Your support program is proving to be absolutely on track."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_fac_settlement_wuling_1_2_cond_1",
+            "desc": {
+              "cn": "将天王坪援建点和心脏修缮站纳入支援计划",
+              "en": "Add Sky King Flats Construction Site and Cardiac Remediation Station into the Endfield support program"
+            },
+            "progressToCompare": "2"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "武陵据点开拓奖章·Ⅰ",
+      "en": "Wuling Outpost Builder Ⅰ"
+    },
+    "order": "12",
+    "plateConditions": [
+      {
+        "conditionId": "achv_fac_settlement_wuling_1_plating_cond_1",
+        "desc": {
+          "cn": "将天王坪援建点和心脏修缮站的等级提升到最高级",
+          "en": "Raise Sky King Flats Construction Site and Cardiac Remediation Station to the highest level"
+        },
+        "progressToCompare": "2"
       }
     ]
   },
@@ -2931,7 +3511,44 @@
       "cn": "武陵工业先驱奖章·Ⅱ",
       "en": "Wuling Factory Pioneer Ⅱ"
     },
-    "order": "11",
+    "order": "10",
+    "plateConditions": []
+  },
+  "achv_fac_techtree_jinlong_3": {
+    "achieveId": "achv_fac_techtree_jinlong_3",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_fac_factory",
+    "initLevel": "1",
+    "levelInfos": {
+      "1": {
+        "achieveLevel": "1",
+        "completeDesc": {
+          "cn": "您已实现了武陵工业计划的更多内容。\n您正走向塔卫二技术最前列。",
+          "en": "You have successfully researched more technologies in the Wuling AIC Plan.\nYou are now at the very forefront of technology in Talos-II."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_fac_techtree_jinlong_3_1_cond_1",
+            "desc": {
+              "cn": "完成武陵工业计划的34个技术研究",
+              "en": "Research 34 technologies in the Wuling AIC Plan"
+            },
+            "progressToCompare": "34"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "武陵工业先驱奖章·Ⅲ",
+      "en": "Wuling Factory Pioneer Ⅲ"
+    },
+    "order": "13",
     "plateConditions": []
   },
   "achv_fac_techtree_tundra": {
@@ -3591,6 +4208,43 @@
     "order": "5",
     "plateConditions": []
   },
+  "achv_hide_paralyze": {
+    "achieveId": "achv_hide_paralyze",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_hide_default",
+    "initLevel": "2",
+    "levelInfos": {
+      "2": {
+        "achieveLevel": "2",
+        "completeDesc": {
+          "cn": "她的野心与狂妄令人恐惧，但您仍不惮于在绝望的封锁中全方位展示自己的勇气。",
+          "en": "Her wild ambitions are terrifying, but fearlessly you displayed your courage in her lockdown of despair."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_hide_paralyze_2_cond_1",
+            "desc": {
+              "cn": "在「聂菲斯，“征服者”」静止住周遭时，主控干员被定在半空",
+              "en": "Let [Nefarith, \"Conqueror\"] hold the place in stasis and lock your controlled operator in mid-air"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“全位显现”",
+      "en": "\"Fully Revealed\""
+    },
+    "order": "9",
+    "plateConditions": []
+  },
   "achv_hide_rebellious": {
     "achieveId": "achv_hide_rebellious",
     "applyRareEffect": false,
@@ -3626,6 +4280,43 @@
       "en": "\"We Built the Southern Bastion\""
     },
     "order": "4",
+    "plateConditions": []
+  },
+  "achv_hide_root": {
+    "achieveId": "achv_hide_root",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_hide_default",
+    "initLevel": "1",
+    "levelInfos": {
+      "1": {
+        "achieveLevel": "1",
+        "completeDesc": {
+          "cn": "您在试验园区的天师桩息壤结构上捡到了那朵尚未盛放的“花苞”，这份跨越枯寂，走向新生的景色由您见证。",
+          "en": "From the Xiranite structure of the Test Area Tianshi Pillar, you picked up the \"flower bud\" that has yet to bloom. A vision of new birth beyond senescence is yours to witness."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_hide_root_1_cond_1",
+            "desc": {
+              "cn": "探寻丙型天师桩的根部",
+              "en": "Explore the base of Type-C Tianshi Pillar"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“寓于枯荣”",
+      "en": "\"Dwelling Upon Wilted Glory\""
+    },
+    "order": "8",
     "plateConditions": []
   },
   "achv_hide_ruanyi": {
@@ -3813,6 +4504,43 @@
     "order": "1",
     "plateConditions": []
   },
+  "achv_quest_e10m3": {
+    "achieveId": "achv_quest_e10m3",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_quest_main",
+    "initLevel": "3",
+    "levelInfos": {
+      "3": {
+        "achieveLevel": "3",
+        "completeDesc": {
+          "cn": "庄方宜等到了您。",
+          "en": "Zhuang Fangyi waited, and you finally arrived."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_quest_e10m3_3_cond_1",
+            "desc": {
+              "cn": "完成主线任务「第二章 - 进程Ⅵ - 终则有始」",
+              "en": "Complete the main mission [Chapter Ⅱ Process Ⅵ: Forged at the Very Beginning]"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“轻舟已过”",
+      "en": "\"Gently Down the Stream\""
+    },
+    "order": "12",
+    "plateConditions": []
+  },
   "achv_quest_e1m2": {
     "achieveId": "achv_quest_e1m2",
     "applyRareEffect": false,
@@ -3983,8 +4711,8 @@
           {
             "conditionId": "achv_quest_e3m5_3_cond_1",
             "desc": {
-              "cn": "完成主线任务「未熄火种」",
-              "en": "Complete the main mission [Undying Cinders]"
+              "cn": "完成主线任务「第一章 - 进程Ⅳ - 未熄火种」",
+              "en": "Complete the main mission [Chapter Ⅰ Process Ⅳ: Undying Cinders]"
             },
             "progressToCompare": "1"
           }
@@ -4107,6 +4835,80 @@
       "en": "\"Drowning in Water\""
     },
     "order": "9",
+    "plateConditions": []
+  },
+  "achv_quest_e8m4": {
+    "achieveId": "achv_quest_e8m4",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_quest_main",
+    "initLevel": "3",
+    "levelInfos": {
+      "3": {
+        "achieveLevel": "3",
+        "completeDesc": {
+          "cn": "阿达希尔看向您，所见的是您不可见的，遗忘了的光景。",
+          "en": "Ardashir looks at you. He sees what you cannot, visions that you have forgotten."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_quest_e8m4_3_cond_1",
+            "desc": {
+              "cn": "在某处要地，与阿达希尔分道扬镳",
+              "en": "Part ways with Ardashir at a certain key location"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“我最后侍奉的王”",
+      "en": "\"The Final Lord I Served\""
+    },
+    "order": "10",
+    "plateConditions": []
+  },
+  "achv_quest_e9m3": {
+    "achieveId": "achv_quest_e9m3",
+    "applyRareEffect": false,
+    "canBePlated": false,
+    "canBeUpgraded": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "groupId": "achv_group_quest_main",
+    "initLevel": "3",
+    "levelInfos": {
+      "3": {
+        "achieveLevel": "3",
+        "completeDesc": {
+          "cn": "被野心之火点燃，欲以万千生命为代价窥伺绝境的征服者，聂菲斯的恶意被您粉碎。",
+          "en": "She is a conqueror whose heart was ignited by ambition, who seeks to sacrifice tens of thousands for a glimpse into the forbidden realm. You have crushed the malice of Nefarith."
+        },
+        "conditions": [
+          {
+            "conditionId": "achv_quest_e9m3_3_cond_1",
+            "desc": {
+              "cn": "完成主线任务「第二章 - 进程Ⅴ - 决战总桩」",
+              "en": "Complete the main mission [Chapter Ⅱ Process Ⅴ: Battle of the Main Pillar]"
+            },
+            "progressToCompare": "1"
+          }
+        ]
+      }
+    },
+    "name": {
+      "cn": "“征服者之死”",
+      "en": "\"Conqueror's Fall\""
+    },
+    "order": "11",
     "plateConditions": []
   },
   "achv_quest_laevat": {
