@@ -11,7 +11,7 @@
                 },
                 "_actionGroups": [
                     {
-                        "duration": 2.4,
+                        "duration": 3.5,
                         "actions": [
                             {
                                 "overrideAllActorPos": true,
@@ -70,29 +70,29 @@
                                     "modeNum": -1,
                                     "camType": 2,
                                     "pos": {
-                                        "x": -20.26945,
-                                        "y": 1.166107,
-                                        "z": 26.28674
+                                        "x": -21.4265,
+                                        "y": 0.35,
+                                        "z": 23.56804
                                     },
                                     "rot": {
-                                        "x": 356.6306,
-                                        "y": 178.6205,
-                                        "z": 0.001760703
+                                        "x": 2.818571,
+                                        "y": 180.4083,
+                                        "z": 0.001760292
                                     },
-                                    "fov": 30.0,
+                                    "fov": 35.0,
                                     "useTranslation": true,
                                     "translationPos": {
-                                        "x": -19.53122,
-                                        "y": 1.166077,
-                                        "z": 26.29486
+                                        "x": -17.17644,
+                                        "y": 0.3499756,
+                                        "z": 23.53781
                                     },
                                     "translationRot": {
-                                        "x": 356.7681,
-                                        "y": 179.8581,
-                                        "z": 0.001760108
+                                        "x": 2.818571,
+                                        "y": 180.4083,
+                                        "z": 0.001760292
                                     },
-                                    "translationTime": 3.0,
-                                    "translationStyle": 6,
+                                    "translationTime": 3.6,
+                                    "translationStyle": 2,
                                     "dofDescriptor": {
                                         "dofData": {
 
@@ -108,6 +108,7 @@
                                         }
                                     }
                                 },
+                                "delay": 0.0,
                                 "actionEnum": 51,
                                 "$type": "Beyond.Gameplay.DialogCamActData"
                             },
@@ -167,45 +168,7 @@
                         ]
                     },
                     {
-                        "duration": 3.0,
-                        "actions": [
-                            {
-                                "camDescriptor": {
-                                    "modeNum": -1,
-                                    "camType": 2,
-                                    "pos": {
-                                        "x": -12.94588,
-                                        "y": 1.922791,
-                                        "z": 24.24256
-                                    },
-                                    "rot": {
-                                        "x": 21.49247,
-                                        "y": 230.7965,
-                                        "z": 2.583991
-                                    },
-                                    "fov": 17.0,
-                                    "dofDescriptor": {
-                                        "dofData": {
-
-                                        }
-                                    }
-                                },
-                                "mCamDescriptor": {
-                                    "modeNum": -1,
-                                    "camType": 2,
-                                    "dofDescriptor": {
-                                        "dofData": {
-
-                                        }
-                                    }
-                                },
-                                "actionEnum": 51,
-                                "$type": "Beyond.Gameplay.DialogCamActData"
-                            }
-                        ]
-                    },
-                    {
-                        "duration": 1.2,
+                        "duration": 2.0,
                         "actions": [
                             {
                                 "camDescriptor": {
@@ -219,9 +182,22 @@
                                     "rot": {
                                         "x": 359.9308,
                                         "y": 171.4703,
-                                        "z": 0.001775656
+                                        "z": 0.001775666
                                     },
                                     "fov": 15.0,
+                                    "useTranslation": true,
+                                    "translationPos": {
+                                        "x": -16.98439,
+                                        "y": 1.635529,
+                                        "z": 22.15478
+                                    },
+                                    "translationRot": {
+                                        "x": 359.9308,
+                                        "y": 171.4703,
+                                        "z": 0.00177566
+                                    },
+                                    "translationTime": 0.8,
+                                    "translationStyle": 6,
                                     "dofDescriptor": {
                                         "dofData": {
 
@@ -237,6 +213,7 @@
                                         }
                                     }
                                 },
+                                "delay": 3.2,
                                 "actionEnum": 51,
                                 "$type": "Beyond.Gameplay.DialogCamActData"
                             },
@@ -257,17 +234,23 @@
                                     }
                                 },
                                 "actorIndex": 1,
+                                "delay": 3.2,
                                 "$type": "Beyond.Gameplay.DialogAnimActData"
                             },
                             {
                                 "targetIndex": 0,
                                 "emptyTargetDescriptor": {
-
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
+                                    }
                                 },
                                 "lookAtDescriptor": {
                                     "blendTime": 0.0
                                 },
                                 "actorIndex": 1,
+                                "delay": 3.2,
                                 "$type": "Beyond.Gameplay.DialogLookAtActData"
                             },
                             {
@@ -281,6 +264,7 @@
                                 },
                                 "keepClothTransform": true,
                                 "actorIndex": 1,
+                                "delay": 3.2,
                                 "$type": "Beyond.Gameplay.DialogTeleportEntityActionData"
                             },
                             {
@@ -288,15 +272,17 @@
                                 "hideActors": [
                                     1
                                 ],
+                                "delay": 3.2,
                                 "$type": "Beyond.Gameplay.ShowOrHideActorActionData"
                             },
                             {
                                 "emotionDesc": {
                                     "bPlayEmotion": true,
                                     "emotionTag": {
-                                        "tagName": "FacialMorph/Emotion/normala",
-                                        "tagId": 1092875302
+                                        "tagName": "FacialMorph/Emotion/seriousa",
+                                        "tagId": 124344865
                                     },
+                                    "emotionWeight": 0.848,
                                     "browsTrackInfo": {
 
                                     },
@@ -319,6 +305,7 @@
                                     }
                                 },
                                 "actorIndex": 0,
+                                "delay": 3.2,
                                 "$type": "Beyond.Gameplay.DialogEmotionActData"
                             }
                         ]
@@ -336,6 +323,7 @@
                                     "y": 337.928
                                 },
                                 "actorIndex": 0,
+                                "delay": 4.4,
                                 "$type": "Beyond.Gameplay.DialogTeleportEntityActionData"
                             },
                             {
@@ -345,6 +333,7 @@
                                 "hideActors": [
                                     0
                                 ],
+                                "delay": 4.4,
                                 "$type": "Beyond.Gameplay.ShowOrHideActorActionData"
                             },
                             {
@@ -352,14 +341,14 @@
                                     "modeNum": -1,
                                     "camType": 2,
                                     "pos": {
-                                        "x": -14.30589,
-                                        "y": 1.602753,
-                                        "z": 21.37393
+                                        "x": -14.14472,
+                                        "y": 1.587341,
+                                        "z": 21.26234
                                     },
                                     "rot": {
-                                        "x": 357.1807,
-                                        "y": 313.793,
-                                        "z": 0.001803966
+                                        "x": 354.4305,
+                                        "y": 315.7181,
+                                        "z": 0.001811079
                                     },
                                     "fov": 15.0,
                                     "translationPos": {
@@ -388,6 +377,7 @@
                                         }
                                     }
                                 },
+                                "delay": 4.4,
                                 "actionEnum": 51,
                                 "$type": "Beyond.Gameplay.DialogCamActData"
                             },
@@ -425,6 +415,7 @@
                                     }
                                 },
                                 "actorIndex": 1,
+                                "delay": 4.4,
                                 "$type": "Beyond.Gameplay.DialogEmotionActData"
                             }
                         ]
@@ -455,6 +446,7 @@
                                     }
                                 },
                                 "actorIndex": 1,
+                                "delay": 5.0,
                                 "$type": "Beyond.Gameplay.DialogAnimActData"
                             },
                             {
@@ -462,6 +454,7 @@
                                     0
                                 ],
                                 "hideActors": [],
+                                "delay": 5.0,
                                 "$type": "Beyond.Gameplay.ShowOrHideActorActionData"
                             }
                         ]
@@ -482,6 +475,7 @@
                                     },
                                     "enable": true
                                 },
+                                "delay": 6.5,
                                 "$type": "Beyond.Gameplay.DialogCamDOFActionData"
                             },
                             {
@@ -527,6 +521,7 @@
                                         }
                                     }
                                 },
+                                "delay": 6.5,
                                 "actionEnum": 51,
                                 "$type": "Beyond.Gameplay.DialogCamActData"
                             },
@@ -564,6 +559,7 @@
                                         }
                                     }
                                 ],
+                                "delay": 6.5,
                                 "$type": "Beyond.Gameplay.DialogTeleportAllEntityActData"
                             },
                             {
@@ -575,6 +571,7 @@
                                     "blendTime": 0.5
                                 },
                                 "actorIndex": 1,
+                                "delay": 6.5,
                                 "$type": "Beyond.Gameplay.DialogLookAtActData"
                             },
                             {
@@ -592,6 +589,7 @@
                                     }
                                 },
                                 "actorIndex": 0,
+                                "delay": 6.5,
                                 "$type": "Beyond.Gameplay.DialogMoveToActData"
                             },
                             {
@@ -600,6 +598,7 @@
 
                                 },
                                 "actorIndex": 0,
+                                "delay": 6.5,
                                 "$type": "Beyond.Gameplay.DialogLookAtActData"
                             }
                         ]
@@ -623,9 +622,15 @@
                                     },
                                     "rotation": {
                                         "y": 129.418
+                                    },
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
                                     }
                                 },
                                 "actorIndex": 1,
+                                "delay": 7.8,
                                 "$type": "Beyond.Gameplay.DialogMoveToActData"
                             }
                         ]
@@ -2105,6 +2110,9 @@
                             },
                             {
                                 "targetIndex": 0,
+                                "emptyTargetDescriptor": {
+
+                                },
                                 "lookAtDescriptor": {
                                     "blendTime": 0.0
                                 },
@@ -2452,6 +2460,11 @@
                                     },
                                     "rotation": {
                                         "y": 69.92801
+                                    },
+                                    "curve": {
+                                        "keys": [],
+                                        "preWrapMode": 8,
+                                        "postWrapMode": 8
                                     }
                                 },
                                 "actorIndex": 0,

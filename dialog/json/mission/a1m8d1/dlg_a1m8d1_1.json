@@ -159,7 +159,18 @@
                         "$type": "Beyond.Gameplay.DialogTeleportAllEntityActData"
                     }
                 ],
-                "actionGroups": [],
+                "actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "stopCurPlaying": true,
+                                "recoverTimeType": 2,
+                                "actorIndex": 2,
+                                "$type": "Beyond.Gameplay.DialogMuteAutoBlinkActData"
+                            }
+                        ]
+                    }
+                ],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
             },
             "additionalWidth": 207.0,
@@ -2731,7 +2742,7 @@
             "z": -435.641
         },
         "rootRot": {
-            "y": 8.890537
+            "y": 8.890536
         },
         "syncMainCharacterPosition": true,
         "hideFacBuildingDesc": {
