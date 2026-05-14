@@ -1636,6 +1636,40 @@
       }
     ]
   },
+  "item_corp4_spc": {
+    "duration": "0",
+    "effectType": "0",
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_corp4_spc",
+    "itemUseDesc": {
+      "cn": "使用后，立刻恢复<@ba.vup>{value:0%}</>终结技能量。",
+      "en": "Use this to instantly gain <@ba.vup>{value:0%}</> Ultimate Energy."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "5",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.4,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ultsp_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_dog_1_slimeml_1_1": {
     "duration": "0",
     "effectType": "0",

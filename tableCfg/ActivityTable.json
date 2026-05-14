@@ -830,6 +830,46 @@
     "themeColor": "",
     "type": "2"
   },
+  "activity_checkin_brilliance": {
+    "bgImg": "",
+    "bubbleSortId": "8307",
+    "bubbleText": {
+      "cn": "「流光庆时签到」活动已开放",
+      "en": "[Shimmering Moment Sign-In] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取流光庆时寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Shimmering Moment HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_brilliance",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_brilliance",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "流光庆时签到",
+      "en": "Shimmering Moment Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "3",
+    "redDotName": "",
+    "rewardId": "",
+    "showRewardCnt": false,
+    "sortId": "8307",
+    "tabImg": "activity_tab_character_trial_brilliance",
+    "tabImgColor": "#eb4721",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "type": "2"
+  },
   "activity_checkin_laevat": {
     "bgImg": "",
     "bubbleSortId": "8300",
@@ -2682,6 +2722,163 @@
     "sortId": "6011",
     "tabImg": "activity_tab_bg_materialsupply",
     "tabImgColor": "#DBF121",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_item_submission"
+    ],
+    "themeColor": "",
+    "type": "12"
+  },
+  "activity_submit_food_2": {
+    "bgImg": "activity_bg_materialsupply_2",
+    "bubbleSortId": "6015",
+    "bubbleText": {
+      "cn": "「物资供给·武陵特厨」活动已开放",
+      "en": "[Supply: Wuling Super Chef] event now available"
+    },
+    "bubbleType": "White",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_submit_food_2_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程II - 东风就绪",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅱ: Ready the Easterlies]"
+        },
+        "jumpId": "jump_mission_main",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e6m2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      },
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_submit_food_2_unlock_condition_2",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成探索任务：科学兴农",
+          "en": "Complete the exploration mission [Innovate to Cultivate]"
+        },
+        "jumpId": "jump_mission_f1m10d1",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m10d1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "完成探索任务「据点部署·基建前站」和「稼穑不易」后可接取",
+          "en": "Complete the exploration mission [Outpost: Infra-Station] and [Farming Toils] to unlock"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "世上烟火最抚人心，武陵风波还需美食安抚，请和大家一起做些美食吧，管理员。",
+      "en": "Cooking and great food provide the ultimate therapy, and they are much needed after the crisis at Wuling. Time to cook up a storm with your fellow chefs, Endministrator."
+    },
+    "detailJumpId": "jump_submit_map_mark_a2",
+    "id": "activity_submit_food_2",
+    "immediateClose": false,
+    "instructionId": "activity_submit_food_2_info",
+    "introMissionJumpId": "jump_mission_activity_submit_food_2",
+    "introMissionQuestId": "a1m9_q#5",
+    "name": {
+      "cn": "物资供给·武陵特厨",
+      "en": "Supply: Wuling Super Chef"
+    },
+    "panelId": "ActivityMaterialSupply",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_submit_food_a2_overview",
+    "showRewardCnt": false,
+    "sortId": "6015",
+    "tabImg": "activity_tab_bg_materialsupply_2",
+    "tabImgColor": "#ECFF4F",
     "tabImgGender": false,
     "tagIds": [
       "activity_tag_item_submission"
