@@ -142,7 +142,7 @@
       {
         "desc": {
           "cn": "火雾源石虫死亡时会<@gd.key>吸附周围的敌人</>，善加利用可显著提升战斗效率。",
-          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby</> enemies. Use this well to boost your combat efficiency."
+          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby enemies</>. Use this well to boost your combat efficiency."
         },
         "id": "dung01_actmonster02",
         "imagePath": "Guide/guide_pic_dungeon_fighting_03",
@@ -202,7 +202,7 @@
       {
         "desc": {
           "cn": "火雾源石虫死亡时会<@gd.key>吸附周围的敌人</>，善加利用可显著提升战斗效率。",
-          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby</> enemies. Use this well to boost your combat efficiency."
+          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby enemies</>. Use this well to boost your combat efficiency."
         },
         "id": "dung01_actmonster04",
         "imagePath": "Guide/guide_pic_dungeon_fighting_03",
@@ -262,7 +262,7 @@
       {
         "desc": {
           "cn": "火雾源石虫死亡时会<@gd.key>吸附周围的敌人</>，善加利用可显著提升战斗效率。",
-          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby</> enemies. Use this well to boost your combat efficiency."
+          "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby enemies</>. Use this well to boost your combat efficiency."
         },
         "id": "dung01_actmonster06",
         "imagePath": "Guide/guide_pic_dungeon_fighting_03",
@@ -312,8 +312,8 @@
     "dataArray": [
       {
         "desc": {
-          "cn": "通过装备精锻系统，可提升金色品质装备的各项初始属性。\n精锻成功后，将固定提升属性数值。每项属性都有精锻强化成功次数上限。",
-          "en": "Use Gear Artificing to improve various base stats of gold-quality gear. \nSuccessful artificing provides a fixed increase to the stats. Every stat has a limit to the number of successful artificing attempts."
+          "cn": "通过装备精锻系统，可提升金色品质装备的各项初始属性。\n精锻强化成功后，将固定提升属性数值。每项属性都有精锻强化成功次数上限。",
+          "en": "Use Gear Artificing to improve various base stats of gold-quality gear. \nSuccessful artificing gives a fixed stat increase. Every stat has a limit to the number of successful artificing attempts."
         },
         "id": "equip_enhance",
         "imagePath": "Guide/guide_pic_equip_enhance_1",
@@ -351,8 +351,8 @@
       },
       {
         "desc": {
-          "cn": "当装备作为精锻耗费材料时，必须与待精锻装备<@gd.key>所属部位类型</>相同。",
-          "en": "The gear used as the artificing material must share the <@gd.key>type (armor, gloves, or kits)</> of the target gear to be artificed. For example, only armor can be used to artifice another armor."
+          "cn": "当装备作为精锻耗材时，必须与待精锻装备<@gd.key>所属部位类型</>相同。",
+          "en": "The gear used as artificing material must share the <@gd.key>type (armor, gloves, or kits)</> of the target gear to be artificed. For example, only armor can be used to artifice another armor."
         },
         "id": "equip_enhance",
         "imagePath": "Guide/guide_pic_equip_enhance_4",
@@ -364,8 +364,8 @@
       },
       {
         "desc": {
-          "cn": "当装备作为精锻耗费材料时，该装备必须<@gd.key>含有待精锻属性</>，且该属性未强化前的初始值<@gd.key>不小于</>待精锻装备对应属性的初始值。",
-          "en": "The gear to be spent for artificing must have <@gd.key>artifice-able stats</>, and the base value (pre-artificing) of such stats <@gd.key>cannot be smaller</> than those of the gear to be artificed."
+          "cn": "当装备作为精锻耗材时，该装备必须<@gd.key>含有待精锻属性</>，且该属性未强化前的初始值<@gd.key>不小于</>待精锻装备对应属性的初始值。",
+          "en": "The gear used as artificing material must have <@gd.key>artifice-able stats</>, and the base value (pre-artificing) of such stats <@gd.key>cannot be smaller</> than those of the target gear to be artificed."
         },
         "id": "equip_enhance",
         "imagePath": "Guide/guide_pic_equip_enhance_5",
@@ -377,12 +377,51 @@
       },
       {
         "desc": {
+          "cn": "单次精锻中，可<@gd.key>批量选择</>多件装备作为精锻耗材（至多25件）。\n精锻开始后，将按照<@gd.key>选择次序</>依次耗费所选装备。若精锻强化提前成功，则会返还本次精锻未耗费的装备和装备精锻助剂。",
+          "en": "For an artificing attempt, you can <@gd.key>bulk-select</> up to 25 pieces of gear as artificing materials. Making the artificing attempt will consume the selected pieces of gear, <@gd.key>one at a time, in the order of selection</>. Upon successful artificing, you will receive any piece of gear not consumed as well as Gear Artificing Catalyst made during that artificing attempt."
+        },
+        "id": "equip_enhance",
+        "imagePath": "Guide/guide_pic_equip_enhance_6",
+        "pageIndex": "6",
+        "title": {
+          "cn": "精锻耗费 - 五",
+          "en": "Gear Artificing: Costs (5)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "通过<@gd.key>一键填充</>功能，可以将多件<@gd.key>未精锻装备</>，按照默认顺序批量选择为精锻耗材。",
+          "en": "Use the <@gd.key>Auto-Fill</> feature to select multiple pieces of <@gd.key>unartificed gear</> according to a default sequence as the artificing materials."
+        },
+        "id": "equip_enhance",
+        "imagePath": "Guide/guide_pic_equip_enhance_6",
+        "pageIndex": "7",
+        "title": {
+          "cn": "精锻耗费 - 六",
+          "en": "Gear Artificing: Costs (6)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "若需要将已精锻过的装备作为精锻耗材，仍需在列表中主动选择。\n干员穿戴中的装备无法选择为精锻耗材。",
+          "en": "Artificed gear must be manually selected from the list to be used as artificing material. Gear being equipped by an operator cannot be selected as artificing material."
+        },
+        "id": "equip_enhance",
+        "imagePath": "Guide/guide_pic_equip_enhance_7",
+        "pageIndex": "8",
+        "title": {
+          "cn": "精锻耗费 - 七",
+          "en": "Gear Artificing: Costs (7)"
+        }
+      },
+      {
+        "desc": {
           "cn": "每次对装备属性进行精锻时，将积累精锻进度，积累达到上限时，下一次该装备属性精锻强化将<@gd.key>必定成功</>。\n不同装备和属性的精锻积累上限略有不同。",
           "en": "Performing gear artificing of a particular gear stat builds up artificing progress. Reaching the progress limit <@gd.key>guarantees success</> for the next artificing attempt of this gear stat. Different gear and gear stats have different artificing progress limits."
         },
         "id": "equip_enhance",
-        "imagePath": "Guide/guide_pic_equip_enhance_7",
-        "pageIndex": "6",
+        "imagePath": "Guide/guide_pic_equip_enhance_8",
+        "pageIndex": "9",
         "title": {
           "cn": "精锻积累 - 一",
           "en": "Gear Artificing: Progress (1)"
@@ -390,15 +429,110 @@
       },
       {
         "desc": {
-          "cn": "装备精锻有较小可能直接强化成功，且清空当前精锻积累。\n耗费装备的属性初始值<@gd.key>高于</>待精锻装备初始值时，直接完成精锻强化的可能性略有<@gd.key>提升</>。",
-          "en": "Gear artificing attempts have a small chance of direct success. A successful attempt also resets the current artificing progress. Chance of direct success is slightly <@gd.key>improved</> when the gear used as the artificing material has <@gd.key>higher</> base stats than those of the gear to be artificed."
+          "cn": "装备精锻有较小可能直接强化成功，且清空当前精锻积累。\n耗费装备的属性初始值<@gd.key>高于</>待精锻装备初始值时，直接完成精锻强化的可能性略有<@gd.key>提升</>，这些装备将会标记为“<@gd.key>较好适配</>”。",
+          "en": "Gear artificing attempts have a small chance of direct success. A successful attempt also resets the current artificing progress. Chance of direct success is slightly <@gd.key>improved</> when the gear used as the artificing material has <@gd.key>higher</> base stats than those of the gear to be artificed. Such gear will be given the tag: <@gd.key>Good Match</>."
         },
         "id": "equip_enhance",
-        "imagePath": "Guide/guide_pic_equip_enhance_6",
-        "pageIndex": "7",
+        "imagePath": "Guide/guide_pic_equip_enhance_9",
+        "pageIndex": "10",
         "title": {
           "cn": "精锻积累 - 二",
           "en": "Gear Artificing: Progress (2)"
+        }
+      }
+    ]
+  },
+  "simulation_training": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "每张数据铭牌记录了不同的敌人信息，包括敌人类型、数量、等级。且记录了该铭牌对应的战力点。\n战力点代表该数据铭牌的演算难度。",
+          "en": "Each Dataplate contains different data on enemies, including enemy type, quantity, and levels, as well as the corresponding Battle Point(s). Battle Points represent the difficulty of the Dataplate in the Trial."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_6",
+        "pageIndex": "1",
+        "title": {
+          "cn": "选剑演武 - 数据铭牌与战力点",
+          "en": "Trial of Swordmancy: Dataplate and Battle Point"
+        }
+      },
+      {
+        "desc": {
+          "cn": "挑战开始前，可抽取多张数据铭牌。\n已抽取铭牌的战力点之和，决定了当局演算成功后可获得的演算奖励。",
+          "en": "Before starting the challenge, you can draw multiple Dataplates. The sum of Battle Points of the Dataplates you draw determines the amount of rewards earned by successfully completing the Trial."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_1",
+        "pageIndex": "2",
+        "title": {
+          "cn": "选剑演武 - 演算奖励",
+          "en": "Trial of Swordmancy: Rewards"
+        }
+      },
+      {
+        "desc": {
+          "cn": "当战力点之和超过10点时，会导致数据溢出。\n演算奖励回滚，挑战难度增加。\n请谨慎抽取铭牌，避免数据溢出。",
+          "en": "Data Overflow happens when the total Battle Points go over 10. This lowers the amount of Trial rewards and makes the Trial more difficult. Make your draws carefully to avoid Data Overflow."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_2",
+        "pageIndex": "3",
+        "title": {
+          "cn": "选剑演武 - 数据溢出",
+          "en": "Trial of Swordmancy: Data Overflow"
+        }
+      },
+      {
+        "desc": {
+          "cn": "在抽取第三张数据铭牌前，可以开启奖励翻倍。开启后若挑战成功，本局战斗会获得双倍演算奖励。\n放弃当前抽取结果，不会消耗本日奖励演算次数，但每日放弃次数有限。",
+          "en": "You can activate Rewards Doubling before making the third draw. Activating this feature and successfully completing the Trial will double the Trial rewards earned. You can abandon the draw without using up a daily rewarded trial attempt, but there is a daily limit on abandons you can perform."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_3",
+        "pageIndex": "4",
+        "title": {
+          "cn": "选剑演武 -奖励翻倍与放弃",
+          "en": "Trial of Swordmancy: Rewards Doubling & Abandon"
+        }
+      },
+      {
+        "desc": {
+          "cn": "铭牌库由1~5战力点的数据铭牌构成，可在界面右侧查看铭牌数量。\n在抽取过程中可随时查看牌库剩余，得知牌库剩余铭牌情况。",
+          "en": "The Dataplate deck includes Dataplates with 1 to 5 Battle Points. The right side of the screen shows the number of Dataplates in the deck to keep track of Dataplates left in the deck while drawing."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_4",
+        "pageIndex": "5",
+        "title": {
+          "cn": "选剑演武 -铭牌库",
+          "en": "Trial of Swordmancy: Dataplate Deck"
+        }
+      },
+      {
+        "desc": {
+          "cn": "铭牌库将每隔三天轮换一次。\n轮换后，数据铭牌的数量以及敌人类型会发生变化。",
+          "en": "The Dataplate deck resets once every 3 days. Resetting changes the size of the Dataplate deck and the enemy types on the Dataplates."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_4",
+        "pageIndex": "6",
+        "title": {
+          "cn": "选剑演武 - 铭牌库轮换",
+          "en": "Trial of Swordmancy: Deck Reset"
+        }
+      },
+      {
+        "desc": {
+          "cn": "在自由演算模式下，演算次数将不受限制，但演算成功后不会获得任何奖励。\n每日自由演算超过一定次数后，选剑演武挑战中敌人掉落的奖励将大幅减少。该效果将会在次日重置。",
+          "en": "Free Trial Mode imposes no limit on the number of Trials you attempt, but completing the trial does not give you any rewards. After completing a certain number of Free Trials in a day, enemy drops in the Trial of Swordmancy will be greatly reduced. This effect is reset on the following day."
+        },
+        "id": "simulation_training",
+        "imagePath": "Guide/guide_pic_simulation_training_enhance_5",
+        "pageIndex": "7",
+        "title": {
+          "cn": "选剑演武 -自由演算模式",
+          "en": "Trial of Swordmancy: Free Trial Mode"
         }
       }
     ]

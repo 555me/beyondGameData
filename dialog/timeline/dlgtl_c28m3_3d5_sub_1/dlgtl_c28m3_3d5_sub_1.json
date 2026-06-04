@@ -9,12 +9,16 @@
         "entityId": "npc_chr_0028_wulfa",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Loli/Wulfa/Models/SK_actor_wulfa_01.fbx",
         "avatarHash": 155009275321726830,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": true,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 1
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -25,12 +29,16 @@
         "entityId": "npc_chr_0003_endminf",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Endminf/Models/SK_actor_endminf_01.fbx",
         "avatarHash": 714774044687045084,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -41,12 +49,16 @@
         "entityId": "npc_chr_0002_endminm",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Boy/Endminm/Models/SK_actor_endminm_01.fbx",
         "avatarHash": 105262779132463679,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     }
   ],
   "audioEvents": [
@@ -76,9 +88,11 @@
   },
   "animClipData": {},
   "cutsceneName": "dlgtl_c28m3_3d5_sub_1",
+  "targetFrameRate": 60,
   "needSelfVersionControl": false,
   "version": "",
   "path": "Assets/Beyond/DynamicAssets/Gameplay/Dialog/Timeline/dlgtl_c28m3_3d5_sub_1/Prefab/dlgtl_c28m3_3d5_sub_1",
+  "interruptCharHenshin": false,
   "useBlackScreen": true,
   "beforeCutsceneUseFadeIn": false,
   "beforeCutsceneFadeInDuration": 0.5,
@@ -98,19 +112,21 @@
   },
   "afterCutsceneUseFadeOut": false,
   "afterCutsceneFadeOutDuration": 0.5,
-  "canSkip": false,
   "skipType": 1,
   "hideSquad": true,
   "isTransition": false,
+  "isDitherFacBuilding": false,
+  "hideInteractive": [],
+  "hideDeco": [],
   "showDevWaterMark": false,
   "fadeInDuration": 0.0,
   "farCameraPosition": false,
   "keepCameraPath": "",
   "lockLOD0Paths": [],
+  "tickBeforeChar": false,
   "playInSameFrame": false,
   "processExistingEntitiesInSameFrame": false,
-  "cutsceneGroupId": "",
-  "disableOtherCutsceneInGroup": false,
+  "preprocessEntityInSync": false,
   "disableKeepCameras": false,
   "noUIDispatch": false,
   "tagGroup": {
@@ -126,5 +142,12 @@
     "y": 0.0,
     "z": 0.0
   },
-  "summaryId": ""
+  "summaryId": "",
+  "envFollowCamera": false,
+  "keepStateOnChangeActive": false,
+  "rainMaxImmediate": true,
+  "overrideDryDrenchedAfterSeconds": true,
+  "dryDrenchedAfterSeconds": 0.0,
+  "overrideDryDrenchedSmoothTime": true,
+  "dryDrenchedSmoothTime": 1.0
 }

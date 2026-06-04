@@ -279,6 +279,26 @@
     "cn": "创建订单失败，登录状态失效，请重新登录",
     "en": "Failed to create order due to invalid login state, please log in again"
   },
+  "CS_SIMULATION_TRAINING_CHECK_LEVEL": {
+    "cn": "查看等级",
+    "en": "View Level"
+  },
+  "CS_SIMULATION_TRAINING_INTERACTIVE_UNLOCK_TEXT": {
+    "cn": "启动",
+    "en": "Activate"
+  },
+  "CS_SIMULATION_TRAINING_INTERCEPT_UPGRADE_PANEL": {
+    "cn": "有进行中的演算，请先结束当前演算",
+    "en": "Finish the ongoing Trial first"
+  },
+  "CS_SIMULATION_TRAINING_START": {
+    "cn": "进入演算",
+    "en": "Start Trial"
+  },
+  "CS_SIMULATION_TRAINING_UNLIMITED_START": {
+    "cn": "进入自由演算",
+    "en": "Start Free Trial"
+  },
   "CS_SNAPSHOT_MISSION_CONFLICT_TOAST": {
     "cn": "存在任务冲突，需追踪任务「{0}」",
     "en": "Mission conflict. Must track mission [{0}]."
@@ -293,7 +313,7 @@
   },
   "CS_SS_CLUE_FULL_ONE_KEY_HARVEST_TOAST": {
     "cn": "<color=#E54545>[{0}]</color>自有线索库已达容量上限，无法领取线索，需要手动清理",
-    "en": "<color=#E54545>[{0}]</color> local clue library is full and no more clues can be claimed; manual clean up is required"
+    "en": "<color=#E54545>[{0}]</color> local clue library is full and no more clues can be claimed; manual clean-up is required"
   },
   "CS_SS_CLUE_ONE_KEY_HARVEST_SUCCESS_TOAST": {
     "cn": "<color=#ffcc00>[{0}]</color>已领取会客室线索，并自动填入所需线索",
@@ -413,7 +433,7 @@
   },
   "DungeonCommon_receive": {
     "cn": "领取奖励",
-    "en": "Claim Rewards"
+    "en": "Claim"
   },
   "DungeonCommon_rechallenge": {
     "cn": "再次挑战",
@@ -590,6 +610,18 @@
   "LUA_ACTIVITY_CLEANING_STAGE_REMAIN_TIME_TEXT": {
     "cn": "%s后解锁",
     "en": "%s to Unlock"
+  },
+  "LUA_ACTIVITY_CONTINGENCY_CONTRACT_NO_HISTORY_RECORD": {
+    "cn": "--",
+    "en": "--"
+  },
+  "LUA_ACTIVITY_CONTINGENCY_CONTRACT_SETTLEMENT_RETRY_ON_CLOSE": {
+    "cn": "活动已结束",
+    "en": "Event has ended"
+  },
+  "LUA_ACTIVITY_CONTINGENCY_CONTRACT_SETTLEMENT_SHOW_PANEL_ON_CLOSE": {
+    "cn": "活动已结束，当前挑战将不会更新记录",
+    "en": "Event has ended, current challenge will not update records"
   },
   "LUA_ACTIVITY_CULTIVATION_REFUND_SERIES_1": {
     "cn": "干员等级",
@@ -1233,7 +1265,7 @@
   },
   "LUA_BLUEPRINT_SHARE_COPY_TIPS": {
     "cn": "《明日方舟：终末地》蓝图 [%1$s]分享码%2$s 请复制后前往游戏中使用。",
-    "en": "Arknights: Endfield Blueprint Sharing Code: [%s]%2$s Copy it and use it in the game."
+    "en": "Arknights: Endfield Blueprint Sharing Code: [%1$s]%2$s Copy it and use it in the game."
   },
   "LUA_BUILDING_COMMON_POWER_OFF": {
     "cn": "关闭设备",
@@ -2289,7 +2321,7 @@
   },
   "LUA_COMMON_FILTER_CANCEL_SELECT_KEY_HINT": {
     "cn": "取消选择",
-    "en": "Unselect"
+    "en": "Cancel Selection"
   },
   "LUA_COMMON_FILTER_END_STATE_NO": {
     "cn": "未读",
@@ -2787,6 +2819,18 @@
     "cn": "%s货物一览",
     "en": "%s Goods Overview"
   },
+  "LUA_DOMAIN_DEPOT_REMIND_DELIVER_AVAILABLE": {
+    "cn": "仓储节点有待接取委托",
+    "en": "Depot Node has available job"
+  },
+  "LUA_DOMAIN_DEPOT_REMIND_DELIVER_LOCKED": {
+    "cn": "尚未接入物流网络",
+    "en": "Not yet connected to logistics network"
+  },
+  "LUA_DOMAIN_DEPOT_REMIND_DELIVER_PREPARING": {
+    "cn": "今日委托已完成",
+    "en": "Daily job completed"
+  },
   "LUA_DOMAIN_DEPOT_SUB_TITLE_DELIVER": {
     "cn": "货物运送网络",
     "en": "Goods Delivery Network"
@@ -2882,6 +2926,74 @@
   "LUA_DOMAIN_ITEM_TRANSMISSION_PAUSE": {
     "cn": "当前传输已暂停",
     "en": "Transfer Paused"
+  },
+  "LUA_DOMAIN_POI_COMMON_LOCK": {
+    "cn": "设施待解锁",
+    "en": "Facility is still locked"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_DOMAIN_SHOP_NORMAL": {
+    "cn": "可购买物资数量增加中",
+    "en": "Purchasable quantities are increasing"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_DOMAIN_SHOP_NO_RANDOM": {
+    "cn": "弹性需求物资未解锁",
+    "en": "Elastic Goods are still locked"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_DOMAIN_SHOP_OVERFLOW": {
+    "cn": "可购买物资数量即将溢出",
+    "en": "Purchasables are about to reach limit"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_KITE_STATION_ENTRUST_ALL_COMPLETED": {
+    "cn": "已完成当前所有监测委托，等待委托刷新",
+    "en": "All monitoring jobs completed; waiting for job refresh"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_KITE_STATION_ENTRUST_AVAILABLE": {
+    "cn": "待完成监测委托数量:%s",
+    "en": "Ongoing monitoring job(s): %s"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_KITE_STATION_ENTRUST_FULL": {
+    "cn": "待完成监测委托已满",
+    "en": "Ongoing monitoring jobs maxed"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_KITE_STATION_NO_UNCOLLECTED_RESOURCES": {
+    "cn": "委托已完成",
+    "en": "Job completed"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_KITE_STATION_UNCOLLECTED_RESOURCES": {
+    "cn": "监测终端待接取委托数量：%s",
+    "en": "Monitoring Terminal job(s) available: %s"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_MAX": {
+    "cn": "MAX",
+    "en": "MAX"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_RECYCLE_BIN_CANT_PICK": {
+    "cn": "资源已回收",
+    "en": "Resource collected"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_RECYCLE_BIN_CAN_PICK": {
+    "cn": "站点资源未回收",
+    "en": "Resources at station not yet collected"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_SETTLEMENT_MAX_MONEY": {
+    "cn": "当前据点调度券储量达到上限",
+    "en": "Outpost has reached max stock bill savings"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_SETTLEMENT_WAIT_EXP": {
+    "cn": "据点发展中",
+    "en": "Outpost is developing"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_SETTLEMENT_WAIT_MONEY": {
+    "cn": "调度券存储中",
+    "en": "Saving stock bills"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_TITLE": {
+    "cn": "%s事务总览",
+    "en": "%s Regional Overview"
+  },
+  "LUA_DOMAIN_POI_OVERVIEW_VERSION_MAX": {
+    "cn": "已达当前版本上限",
+    "en": "Version limit reached"
   },
   "LUA_DOMAIN_SHOP_BULK_SELL_CANCEL_CELL_KEY_HINT": {
     "cn": "取消选中",
@@ -3175,6 +3287,30 @@
     "cn": "全属性",
     "en": "All attributes"
   },
+  "LUA_EQUIP_ENHANCE_AUTO_SELECT_NO_UNENHANCED_TOAST": {
+    "cn": "未精锻装备数量不足，请制造装备后再一键填充",
+    "en": "Insufficient pieces of unartificed gear; assemble more gear to use the Auto-Fill option"
+  },
+  "LUA_EQUIP_ENHANCE_INGREDIENT_BATCH_LIMIT_TOAST": {
+    "cn": "已选装备数量已达上限",
+    "en": "Max pieces of gear already selected"
+  },
+  "LUA_EQUIP_ENHANCE_INGREDIENT_COST_NOT_ENOUGH_TOAST": {
+    "cn": "精锻助剂数量不足",
+    "en": "Insufficient Artificing Catalysts"
+  },
+  "LUA_EQUIP_ENHANCE_INGREDIENT_GUARANTEED_TOAST": {
+    "cn": "已选装备数量已达到精锻必然成功条件",
+    "en": "Selection is enough to guarantee artificing success"
+  },
+  "LUA_EQUIP_ENHANCE_MATERIALS_ENHANCED_TITLE": {
+    "cn": "已精锻装备",
+    "en": "Artificed Gear"
+  },
+  "LUA_EQUIP_ENHANCE_MATERIALS_TITLE": {
+    "cn": "未精锻装备",
+    "en": "Unartificed Gear"
+  },
   "LUA_EQUIP_ENHANCE_MATERIAL_EQUIPPED_POPUP_TITLE": {
     "cn": "此装备已被干员装备，是否消耗此装备进行精锻？",
     "en": "Gear is already equipped. Spend it for artificing anyway?"
@@ -3186,6 +3322,18 @@
   "LUA_EQUIP_ENHANCE_MATERIAL_POPUP_TITLE": {
     "cn": "此装备已精锻，是否消耗此装备进行精锻？",
     "en": "Spend an already artificed piece of gear as artificing material?"
+  },
+  "LUA_EQUIP_ENHANCE_MATERIAL_SELECT": {
+    "cn": "选择",
+    "en": "Select"
+  },
+  "LUA_EQUIP_ENHANCE_MATERIAL_UNSELECT": {
+    "cn": "取消选择",
+    "en": "Cancel Selection"
+  },
+  "LUA_EQUIP_ENHANCE_SORT_OPTION_CHAR": {
+    "cn": "干员已装备",
+    "en": "Equipped by Operator"
   },
   "LUA_EQUIP_FILTER_GROUP_TITLE_RARITY": {
     "cn": "品质",
@@ -3339,6 +3487,10 @@
     "cn": "研发材料不足",
     "en": "Insufficient research materials"
   },
+  "LUA_EQUIP_TECH_EQUIP_DEPOT_FULL": {
+    "cn": "装备数量过多，贵重物品库储存空间将超出上限",
+    "en": "Number of gear will exceed Valuables Stash storage limit"
+  },
   "LUA_EQUIP_TECH_LOCKED": {
     "cn": "当前配方无法研发",
     "en": "This formula cannot be researched"
@@ -3462,6 +3614,34 @@
   "LUA_FAC_ASSIGN_CHAR_TOAST_1": {
     "cn": "进驻人数已满",
     "en": "Max operators assigned"
+  },
+  "LUA_FAC_BACKUP_POWER_AUTO_USE_SECOND_CONFIRM_HINT": {
+    "cn": "已勾选断电时自动启用备用电源，关闭界面后将启用备用电源",
+    "en": "The option to auto-activate Backup Power upon power outage has been checked; Backup Power will activate after closing this screen"
+  },
+  "LUA_FAC_BACKUP_POWER_ENOUGH_REAL_POWER_HINT": {
+    "cn": "该地区自身供电充足，备用电源供电结束后可恢复正常",
+    "en": "This region has sufficient power output and facilities will resume work normally once Backup Power ends"
+  },
+  "LUA_FAC_BACKUP_POWER_IN_USE_TOAST": {
+    "cn": "%s备用电源已启用",
+    "en": "%s Backup Power has been activated"
+  },
+  "LUA_FAC_BACKUP_POWER_NO_REAL_POWER_HINT": {
+    "cn": "该地区自身供电不足，备用电源供电结束后会进入断电状态",
+    "en": "This region has insufficient power output and will suffer a power outage once Backup Power ends"
+  },
+  "LUA_FAC_BACKUP_POWER_RECOVER_CONSUME_HINT": {
+    "cn": "备用电源电量耗尽后，需要%s恢复",
+    "en": "Once Backup Power is exhausted, you must wait %s for it to recover"
+  },
+  "LUA_FAC_BACKUP_POWER_USE_HINT": {
+    "cn": "%s内使该地区所有设备可正常供电工作，是否立即使用",
+    "en": "Use this now and keep all facilities powered and working normally for %s?"
+  },
+  "LUA_FAC_BACKUP_POWER_USE_UP_TOAST": {
+    "cn": "%s备用电源供电已结束",
+    "en": "%s Backup Power has ended"
   },
   "LUA_FAC_BAN_SIGN_IN_TOP_VIEW": {
     "cn": "当前在俯瞰模式，该设备无法在俯瞰模式放置",
@@ -3847,6 +4027,10 @@
     "cn": "所在位置被遮挡无法放置",
     "en": "Cannot place due to objects in the environment"
   },
+  "LUA_FAC_BUILD_MODE_BLOCK_BY_LOOT": {
+    "cn": "范围内存在掉落物",
+    "en": "Item(s) present in the vicinity"
+  },
   "LUA_FAC_BUILD_MODE_BLOCK_WITH_EROSION": {
     "cn": "无法建造在侵蚀区域上",
     "en": "Cannot construct on Blighted Zones"
@@ -3966,10 +4150,6 @@
   "LUA_FAC_BUILD_MODE_DUMP_MUST_REACH_LIQUID": {
     "cn": "给水器的给水管没有接触液体或容器",
     "en": "Fluid Supply Unit inlet is not in contact with any fluids or containers"
-  },
-  "LUA_FAC_BUILD_MODE_END_NODE_PIPE_MODE_LIMITED": {
-    "cn": "管道终点的设备未处于液体模式",
-    "en": "Facility at the end of the pipeline is not set to Fluid Mode"
   },
   "LUA_FAC_BUILD_MODE_END_NODE_PIPE_PORT_LIMITED": {
     "cn": "此设备没有管道输入端口",
@@ -4706,6 +4886,10 @@
   "LUA_FAC_SEWAGE_TREAT_LOCK_DESC_TEXT": {
     "cn": "未解锁",
     "en": "Locked"
+  },
+  "LUA_FAC_SEWAGE_TREAT_POI_REMIND_DEFAULT_TEXT": {
+    "cn": "净水节点运作中",
+    "en": "Purification Node is working"
   },
   "LUA_FAC_SHARE_SOCIAL_BUILDING_STATE_NOT_NORMAL": {
     "cn": "设备未正常运行，无法分享",
@@ -5563,6 +5747,10 @@
     "cn": "现有武库配额不足，是否消耗 衍质源石×%1$d 兑换 武库配额×%2$d 并进行申领？",
     "en": "Insufficient Arsenal Tickets. Spend Origeometry×%d for Arsenal Ticket×%d for the Issue?"
   },
+  "LUA_GACHA_WEAPON_EXTRA_POP_UP_TEXT": {
+    "cn": "贵重品库中的武器库存已满，无法继续申领，请先分解武器以空出栏位。是否前往分解？",
+    "en": "No more issues can be performed as your Valuables Stash has reached its weapons storage limit. Disassemble weapons now to free up some space?"
+  },
   "LUA_GACHA_WEAPON_LOOP_REWARD_BOX_TAG": {
     "cn": "武库赠礼",
     "en": "Arms Offering"
@@ -5718,6 +5906,22 @@
   "LUA_GAME_SETTING_MEMORY_LOAD_MEDIUM": {
     "cn": "接近超载",
     "en": "Approaching overload"
+  },
+  "LUA_GAME_SETTING_MOBILE_NOTIFICATION_CANCEL_TEXT": {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  "LUA_GAME_SETTING_MOBILE_NOTIFICATION_CONFIRM_TEXT": {
+    "cn": "前往查看",
+    "en": "Go and Check"
+  },
+  "LUA_GAME_SETTING_MOBILE_NOTIFICATION_CONTENT": {
+    "cn": "开启推送消息需要获取您的应用通知权限",
+    "en": "To switch ON notifications, you must enable app notifications on your device"
+  },
+  "LUA_GAME_SETTING_MOBILE_NOTIFICATION_TITLE": {
+    "cn": "提示",
+    "en": "Notifications"
   },
   "LUA_GAME_SETTING_QUALITY_LOAD_CRITICAL": {
     "cn": "过载，建议调整",
@@ -5967,6 +6171,18 @@
     "cn": "提炼成功",
     "en": "Refine Successful"
   },
+  "LUA_GEM_WISHLIST_MAX_TOAST": {
+    "cn": "基质愿望单已选数量达到上限",
+    "en": "Essence Wishlist selection maxed"
+  },
+  "LUA_GEM_WISHLIST_QUIT_NO_SAVE_CONFIRM": {
+    "cn": "当前基质愿望单尚未保存, 是否确认退出？",
+    "en": "Exit without saving Essence Wishlist selection?"
+  },
+  "LUA_GEM_WISHLIST_SAVE_TOAST": {
+    "cn": "基质愿望单已保存",
+    "en": "Essence Wishlist saved"
+  },
   "LUA_GENERAL_ABILITY_DOMAIN_FORBIDDEN": {
     "cn": "当前区域无法使用",
     "en": "Cannot use in this region"
@@ -6061,11 +6277,11 @@
   },
   "LUA_HONGS_BUS_POPUP_UNLOCK_TIPS": {
     "cn": "当前集成核心区域现在可以建造%s",
-    "en": "Current Core AIC Area can now construct %s"
+    "en": "Construction for %s in Core AIC Area is now available"
   },
   "LUA_HONGS_BUS_POPUP_UPLEVEL_TIPS": {
     "cn": "当前集成核心区域现在可以建造更多的%s",
-    "en": "Current Core AIC Area can now construct more %s"
+    "en": "Construction limit for %s in Core AIC Area is now increased"
   },
   "LUA_HUB_DATA_COST_ITEM_SPEED": {
     "cn": "消耗：%1$d/分钟",
@@ -7463,6 +7679,10 @@
     "cn": "机制特性",
     "en": "Mechanics"
   },
+  "LUA_QUICK_MENU_ITEM_HUB_DATA_NAME": {
+    "cn": "工业简报",
+    "en": "AIC Report"
+  },
   "LUA_QUICK_MENU_ITEM_HUB_NAME": {
     "cn": "协议核心",
     "en": "Protocol Automation-Core"
@@ -7867,6 +8087,258 @@
     "cn": "放置顺序",
     "en": "Time Placed"
   },
+  "LUA_SIMULATION_TRAINING_CHANGE_POOL_TOAST": {
+    "cn": "当前铭牌库已更换，请重新开启演算",
+    "en": "Dataplate deck updated, please reset the Trial"
+  },
+  "LUA_SIMULATION_TRAINING_CHAR_FORMATION_CHALLENGE_BTN": {
+    "cn": "开始演算",
+    "en": "Start Trial"
+  },
+  "LUA_SIMULATION_TRAINING_CHAR_FORMATION_TITLE": {
+    "cn": "选剑演武",
+    "en": "Trial of Swordmancy"
+  },
+  "LUA_SIMULATION_TRAINING_CLICK_DOUBLE_NO_CARD_TOAST": {
+    "cn": "请先抽取一张数据铭牌",
+    "en": "Draw a Dataplate"
+  },
+  "LUA_SIMULATION_TRAINING_CLICK_DOUBLE_TOAST": {
+    "cn": "奖励翻倍仅在第3抽前可使用",
+    "en": "Rewards Doubling can only be used before the 3rd draw"
+  },
+  "LUA_SIMULATION_TRAINING_CLOSE_TIP_POPUP_TITLE": {
+    "cn": "关闭界面将会保留当前数据铭牌抽取状态，是否关闭?",
+    "en": "Close this screen and retain the current draw of the Dataplates?"
+  },
+  "LUA_SIMULATION_TRAINING_DOUBLE_CNT_ZERO_TOAST": {
+    "cn": "本日奖励翻倍次数已用完",
+    "en": "Daily Rewards Doubling attempts used up"
+  },
+  "LUA_SIMULATION_TRAINING_DOUBLE_LEVEL_1_TOAST": {
+    "cn": "请先提升演武平台操作等级，解锁奖励翻倍",
+    "en": "Upgrade Trial Arena operations level to unlock Rewards Doubling"
+  },
+  "LUA_SIMULATION_TRAINING_DOUBLE_TIP_POPUP_TITLE": {
+    "cn": "仅可在第三抽之前调整奖励翻倍选项，第三次抽取后将无法更改，是否确认抽取?",
+    "en": "Draw now? Rewards Doubling option can only be adjusted before the 3rd draw, and cannot be changed after the 3rd draw."
+  },
+  "LUA_SIMULATION_TRAINING_DRAW_5_TOAST": {
+    "cn": "数据铭牌已抽满，无法继续抽取",
+    "en": "Dataplates maxed, no more can be drawn"
+  },
+  "LUA_SIMULATION_TRAINING_ENEMY_POPUP_TITLE": {
+    "cn": "敌人详情",
+    "en": "Enemy Details"
+  },
+  "LUA_SIMULATION_TRAINING_ENEMY_SHOW_NAME_AND_COUNT": {
+    "cn": "%s×%s",
+    "en": "%s×%s"
+  },
+  "LUA_SIMULATION_TRAINING_GIVE_UP_POPUP_HAVE_EXIT": {
+    "cn": "本日剩余放弃次数%s次，放弃将扣除，但不会扣除奖励演算次数，是否确认放弃？",
+    "en": "Consume an abandon attempt to abandon this run and retain the rewarded trial attempt? Daily abandon(s) left: %s."
+  },
+  "LUA_SIMULATION_TRAINING_GIVE_UP_POPUP_NO_EXIT": {
+    "cn": "本日放弃次数已用完，放弃将扣除1次奖励演算次数，是否确认放弃？",
+    "en": "Daily abandons used up. Abandon anyway and consume 1 rewarded trial attempt?"
+  },
+  "LUA_SIMULATION_TRAINING_HUD_EXIT_POPUP_TEXT": {
+    "cn": "是否确认退出当前演算？",
+    "en": "Exit current Trial?"
+  },
+  "LUA_SIMULATION_TRAINING_HUD_GOAL_NUMBER": {
+    "cn": "%s/%s",
+    "en": "%s/%s"
+  },
+  "LUA_SIMULATION_TRAINING_HUD_GOAL_TEXT": {
+    "cn": "击败所有敌人",
+    "en": "Defeat all enemies"
+  },
+  "LUA_SIMULATION_TRAINING_HUD_REWARD_NUMBER": {
+    "cn": "奖励数额:%s",
+    "en": "Rewards: %s"
+  },
+  "LUA_SIMULATION_TRAINING_INTERACT_NO_PLAY_TIMES": {
+    "cn": "本日奖励演算次数已用完",
+    "en": "Daily rewarded trials used up"
+  },
+  "LUA_SIMULATION_TRAINING_INTERACT_PLAYING": {
+    "cn": "有进行中的演算，请先结束当前演算",
+    "en": "Finish the ongoing Trial first"
+  },
+  "LUA_SIMULATION_TRAINING_LEVEL_UP_BANNER": {
+    "cn": "演武平台已提升操作等级",
+    "en": "Trial Arena operational level increased"
+  },
+  "LUA_SIMULATION_TRAINING_LEVEL_UP_TIP_DOUBLE_TITLE": {
+    "cn": "奖励翻倍次数",
+    "en": "Rewards Doubling Attempts"
+  },
+  "LUA_SIMULATION_TRAINING_LEVEL_UP_TIP_REWARD_TITLE": {
+    "cn": "奖励变化",
+    "en": "Reward Change"
+  },
+  "LUA_SIMULATION_TRAINING_LEVEL_UP_TIP_UNLIMITED_TITLE": {
+    "cn": "自由演算模式开放",
+    "en": "Free Trial Mode Available"
+  },
+  "LUA_SIMULATION_TRAINING_LIMITED_ACTIVITY_END_POP_UP": {
+    "cn": "活动已结束，请重新查看",
+    "en": "Event has ended, please check again"
+  },
+  "LUA_SIMULATION_TRAINING_MAP_MARK_SHOW_PLAY_COUNT": {
+    "cn": "%s/%s",
+    "en": "%s / %s"
+  },
+  "LUA_SIMULATION_TRAINING_MID_TIP_10_POINT": {
+    "cn": "战力点之和达到最高",
+    "en": "Total Battle Points Maxed"
+  },
+  "LUA_SIMULATION_TRAINING_MID_TIP_DOUBLE": {
+    "cn": "奖励翻倍已开启",
+    "en": "Rewards Doubling is ON"
+  },
+  "LUA_SIMULATION_TRAINING_NEVER_TIP_CONTROLLER_TEXT": {
+    "cn": "不再提醒",
+    "en": "Don't remind again"
+  },
+  "LUA_SIMULATION_TRAINING_NEVER_TIP_TEXT": {
+    "cn": "不再提醒",
+    "en": "Don't remind again"
+  },
+  "LUA_SIMULATION_TRAINING_NO_ENEMY_TOAST": {
+    "cn": "暂无敌人信息",
+    "en": "No enemy data"
+  },
+  "LUA_SIMULATION_TRAINING_NUMBER_OF_DOUBLE_LEFT": {
+    "cn": "（剩余%s次）",
+    "en": "(Attempt(s) left: %s)"
+  },
+  "LUA_SIMULATION_TRAINING_NUMBER_OF_GAMES_LEFT": {
+    "cn": "本日剩余奖励演算次数：%s",
+    "en": "Daily Rewarded Trial(s) Left: %s"
+  },
+  "LUA_SIMULATION_TRAINING_PLAY_CNT_EXHAUSTED_TOAST": {
+    "cn": "今日奖励演算次数已用完，暂未开启自由演算模式",
+    "en": "Daily rewarded trials used up; Free Trial Mode is still locked"
+  },
+  "LUA_SIMULATION_TRAINING_POI_OVERVIEW_DESC": {
+    "cn": "今日奖励演算次数已用完",
+    "en": "Daily rewarded trials used up"
+  },
+  "LUA_SIMULATION_TRAINING_POI_OVERVIEW_PLAY_DESC": {
+    "cn": "今日剩余奖励演算次数：%s",
+    "en": "Daily Rewarded Trial(s) Left: %s"
+  },
+  "LUA_SIMULATION_TRAINING_POOL_LEFT_TIME": {
+    "cn": "铭牌库轮换时间：%s",
+    "en": "Dataplate deck refresh time: %s"
+  },
+  "LUA_SIMULATION_TRAINING_POPUP_CANCEL_TEXT": {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  "LUA_SIMULATION_TRAINING_POPUP_CONFIRM_TEXT": {
+    "cn": "确认",
+    "en": "Confirm"
+  },
+  "LUA_SIMULATION_TRAINING_PRE_ATTACK_TIP": {
+    "cn": "怪物等级:%s, 挑战时间：%02d:%02d",
+    "en": "Enemy levels: %s; Challenge time: %02d:%02d"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_10_BTN_TEXT": {
+    "cn": "数据溢出，开启惩罚",
+    "en": "Data overflow; penalty activated"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_10_POPUP_CONTENT": {
+    "cn": " - 演算奖励重置\n - 所有敌人等级+30",
+    "en": "- Trial rewards reset\n- Enemy levels: +30"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_10_POPUP_TITLE": {
+    "cn": "数据溢出惩罚",
+    "en": "Data Overflow Penalty"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_10_POPUP_UNLIMITED_CONTENT": {
+    "cn": " - 所有敌人等级+30",
+    "en": "- Enemy levels: +30"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_20_BTN_TEXT": {
+    "cn": "数据溢出2次，惩罚加强",
+    "en": "Data has overflowed 2 times; penalty has been increased"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_20_POPUP_CONTENT": {
+    "cn": " - 演算奖励重置\n - 所有敌人等级+30\n - 演算时间减少至180秒",
+    "en": " - Trial rewards reset\n - Enemy levels: +30\n - Trial timer reduced to 180s"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_20_POPUP_TITLE": {
+    "cn": "数据溢出惩罚",
+    "en": "Data Overflow Penalty"
+  },
+  "LUA_SIMULATION_TRAINING_PUNISHMENT_20_POPUP_UNLIMITED_CONTENT": {
+    "cn": " - 所有敌人等级+30\n - 演算时间减少至180秒",
+    "en": " - Enemy levels: +30\n - Trial timer reduced to 180s"
+  },
+  "LUA_SIMULATION_TRAINING_QUEST_UNLOCK_DESC": {
+    "cn": "推进任务「选剑演武」后解锁",
+    "en": "Progress through the mission [Trial of Swordmancy] to unlock"
+  },
+  "LUA_SIMULATION_TRAINING_QUEST_UNLOCK_TOAST": {
+    "cn": "请推进任务「选剑演武」",
+    "en": "Progress through the mission [Trial of Swordmancy]"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_DOUBLE_CONTENT_LEVEL_UP": {
+    "cn": "每日奖励翻倍次数增加",
+    "en": "Daily Rewards Doubling Attempts increase"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_DOUBLE_CONTENT_NORMAL": {
+    "cn": "每日奖励翻倍次数",
+    "en": "Daily Rewards Doubling Attempts"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_REWARD_CONTENT_LEVEL_UP": {
+    "cn": "不同战力点对应奖励变化，奖励数额上限增加",
+    "en": "Rewards for different Battle Points change and reward limit increases"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_REWARD_CONTENT_NORMAL": {
+    "cn": "不同战力点对应奖励变化，奖励数额上限增加",
+    "en": "Rewards for different Battle Points change and reward limit increases"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_UNLIMITED_CONTENT": {
+    "cn": "每日完成三次奖励演算后，可进入自由演算模式，该模式无演算次数限制，且不获得演算奖励。\n每日自由演算超过一定次数后，选剑演武挑战中敌人掉落的奖励将大幅减少。该效果将会在次日重置。",
+    "en": "Completing 3 rewarded trials in the same day makes the Free Trial Mode available. This mode has no trial limits, but gives no trial rewards.\nAfter completing a certain number of Free Trials in a day, enemy drops in the Trial of Swordmancy will be greatly reduced. This effect is reset on the following day."
+  },
+  "LUA_SIMULATION_TRAINING_TIP_UNLIMITED_POPUP_CANCEL_TEXT": {
+    "cn": "取消",
+    "en": "Cancel"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_UNLIMITED_POPUP_CONFIRM_TEXT": {
+    "cn": "确认",
+    "en": "Confirm"
+  },
+  "LUA_SIMULATION_TRAINING_TIP_UNLIMITED_POPUP_TITLE": {
+    "cn": "即将进入自由演算模式，该模式无演算奖励，是否继续？",
+    "en": "The Free Trial mode gives no trial rewards. Start it anyway?"
+  },
+  "LUA_SIMULATION_TRAINING_TITLE": {
+    "cn": "演武平台",
+    "en": "Trial Arena"
+  },
+  "LUA_SIMULATION_TRAINING_UNLOCK_LEVEL_DESC_1_2": {
+    "cn": "推进任务「选剑演武」以提升演武平台操作等级",
+    "en": "Progress in [Trial of Swordmancy] to level up Arena"
+  },
+  "LUA_SIMULATION_TRAINING_UNLOCK_LEVEL_TOAST_1_2": {
+    "cn": "请继续推进任务「选剑演武」",
+    "en": "Keep progressing through the mission [Trial of Swordmancy]"
+  },
+  "LUA_SIMULATION_TRAINING_UNLOCK_UNLIMITED_TIME": {
+    "cn": "{0} 后解锁",
+    "en": "{0} to Unlock"
+  },
+  "LUA_SIMULATION_TRAINING_ZERO_LEVEL_DESC": {
+    "cn": "提供调度券启动演武平台，开启战斗演算",
+    "en": "Spend stock bills to activate the Trial Arena and start combat trials"
+  },
   "LUA_SKILL_BUTTON_TOAST_1": {
     "cn": "当前技能所需能量点不足, 无法释放",
     "en": "Cannot cast skill. More Skill Point (SP) required."
@@ -7905,7 +8377,7 @@
   },
   "LUA_SNAPSHOT_FILTER_UNLOCK_TOAST": {
     "cn": "该滤镜尚未解锁",
-    "en": "Filter Locked"
+    "en": "Filter is still locked"
   },
   "LUA_SNAPSHOT_FIRST_PERSON_MODE_FORBID_TOAST": {
     "cn": "第一人称视角下无法调整",
@@ -7957,7 +8429,7 @@
   },
   "LUA_SNAPSHOT_STICKER_UNLOCK_TOAST": {
     "cn": "该贴纸尚未解锁",
-    "en": "Sticker Not Yet Unlocked"
+    "en": "Sticker is still locked"
   },
   "LUA_SNAPSHOT_SWITCH_FIRST_PERSON_MODE": {
     "cn": "已切换至第一人称视角",
@@ -8749,7 +9221,7 @@
   },
   "LUA_SPACESHIP_SUMMON_FOCUS_SELECT_TIP": {
     "cn": "取消选择",
-    "en": "Unselect"
+    "en": "Cancel Selection"
   },
   "LUA_SPACESHIP_SUMMON_FORBID_TOAST": {
     "cn": "干员暂时无法前往当前位置",
@@ -8842,6 +9314,10 @@
   "LUA_SPACESHIP_VISIT_LEAVE_FRIEND_TIPS": {
     "cn": "是否要结束本次拜访？",
     "en": "End this visit?"
+  },
+  "LUA_SPACESHIP_VISIT_LEAVE_RETURN_FRIEND_TIPS": {
+    "cn": "是否结束本次拜访并返回帝江号？",
+    "en": "End this visit and return to Dijiang?"
   },
   "LUA_SPACESHIP_VISIT_MISSION_CLUE_COLLECTION": {
     "cn": "参与情报交流",
@@ -10447,6 +10923,22 @@
     "cn": "环卫标兵·其七",
     "en": "Sanitation Elite VII"
   },
+  "a1m7_desc_001": {
+    "cn": "工人之家的卡莉随运输车队来到了武陵城，想要见管理员一面。前往方兴衢，了解具体发生了什么。",
+    "en": "Carly from the Worker Dorms hitched a ride with a supply caravan and arrived at Wuling City. She wants to meet the Endmin. Go to Fangxing Avenue and find out what is going on."
+  },
+  "a1m7_desc_002": {
+    "cn": "卡莉想要画一本全新的故事书。帮助她完成故事书。",
+    "en": "Carly wants to draw a new storybook. Help her complete it."
+  },
+  "a1m7_desc_003": {
+    "cn": "帮卡莉完成故事书后，和卡莉聊一聊。",
+    "en": "You helped Carly complete her storybook and decide to have a chat with her."
+  },
+  "a1m7_name": {
+    "cn": "童心速绘·寻旅",
+    "en": "Sketches of Innocence: Discovery"
+  },
   "a1m8d1_desc_001": {
     "cn": "管理员在天师府学院遇见了正在苦恼的彦宁，询问她发生了什么事。",
     "en": "The Endministrator encounters a troubled Yan Ning at the Tianshi Bureau Academy and asks if anything has happened."
@@ -10530,6 +11022,10 @@
   "activity_dung01_cdg012_toast_04": {
     "cn": "战斗模拟",
     "en": "Combat Drills"
+  },
+  "activity_update_info": {
+    "cn": "新内容更新",
+    "en": "New Content Update"
   },
   "adventure_common_focus_reward_list": {
     "cn": "奖励详情",
@@ -10678,6 +11174,42 @@
   "black_c28m2_1_001": {
     "cn": "“风铃公爵”取下了剑上的花环，递给哭泣的小男孩",
     "en": "The \"Duchess of Windbell\" takes the floral wreath from the sword and gives it to the crying boy."
+  },
+  "black_c31m1_1_001": {
+    "cn": "你和弭弗为了准备比武而训练到了深夜……",
+    "en": "You and Mi Fu stay up late, training hard for the upcoming competition..."
+  },
+  "black_c31m1_2_001": {
+    "cn": "第二日 清晨",
+    "en": "The next morning"
+  },
+  "black_c31m1_3_001": {
+    "cn": "一段时间前  总桩办公室",
+    "en": "A short while ago at the Main Pillar Office"
+  },
+  "black_c31m2_1_001": {
+    "cn": "你和弭弗回到了昨日练武的地方。",
+    "en": "You and Mi Fu return to the place where you trained yesterday."
+  },
+  "black_c31m2_2_001": {
+    "cn": "许久之后……",
+    "en": "After a long time..."
+  },
+  "black_c31m2_4_001": {
+    "cn": "你跟随这个人，来到居民区一角……",
+    "en": "You follow this person to a quiet corner of the Residential Area..."
+  },
+  "black_c31m2_5_001": {
+    "cn": "你和弭弗为了准备与二师父的比武而展开切磋……",
+    "en": "You and Mi Fu engage in sparring sessions to prepare for the fight against Senior Master..."
+  },
+  "black_c31m2_6_001": {
+    "cn": "第四日 登擂迎战大师父前",
+    "en": "Day four, before ascending the arena to fight the Grand Master"
+  },
+  "black_c31m3_1_001": {
+    "cn": "比武结束后",
+    "en": "The competition ends"
   },
   "black_c6m1_2_001": {
     "cn": "之后，你与狼卫一同跟随乔万尼前往谷地通道。",
@@ -11235,6 +11767,14 @@
     "cn": "一段时间后……",
     "en": "A while later..."
   },
+  "black_sm2l6m1_3_001": {
+    "cn": "你们将在此处的发现告诉大家，并带他们领略了这座人文艺术的宝库。",
+    "en": "You tell everyone about the discovery, and show them the vault of fine arts."
+  },
+  "black_sm2l6m1_4_001": {
+    "cn": "一番闪转腾挪之后，你们一行顺利通过。",
+    "en": "After some maneuvering, you successfully pass through."
+  },
   "block_quest_level_unlock": {
     "cn": "需解锁区域：{0}",
     "en": "Unlock the region: {0}"
@@ -11571,6 +12111,42 @@
     "cn": "国王与骑士",
     "en": "The King and the Knight"
   },
+  "c31m1_desc_001": {
+    "cn": "管理员收到弭弗发来的消息，准备动身前往总桩办公室与她会合。",
+    "en": "The Endmin receives a message from Mi Fu, and goes off to meet her at the Main Pillar Office."
+  },
+  "c31m1_desc_002": {
+    "cn": "庄方宜被掳走，总桩办公室中只留下了一封战书，循着这唯一的线索，管理员与弭弗一同前往迷踪林赴约。",
+    "en": "Zhuang Fangyi has been kidnapped. A written invitation to a fight is the only thing left in the Main Pillar Office. The Endmin and Mi Fu take their only lead and head to Stragglers Grove for battle."
+  },
+  "c31m1_name": {
+    "cn": "疑云",
+    "en": "The Captain's Mystery"
+  },
+  "c31m2_desc_001": {
+    "cn": "备战演练后，管理员与弭弗一起前往擂台，为救出庄方宜而与三位师父展开对决。",
+    "en": "After the preparation and training, the Endmin and Mi Fu head to the arena. There, they must defeat her three masters to save Zhuang Fangyi."
+  },
+  "c31m2_desc_002": {
+    "cn": "为了准备与二师父的对决，弭弗分身乏术，于是将自己巡逻武陵城的职责暂时交给了管理员。",
+    "en": "Mi Fu must prepare for her fight against Senior Master and cannot be at two places at once. She thus asks the Endministrator to perform her duties of patrolling Wuling City."
+  },
+  "c31m2_desc_003": {
+    "cn": "掳走庄方宜的人用她的终端发来信息，管理员决定前去一探究竟。",
+    "en": "Zhuang Fangyi's kidnappers have toasted the Endministrator with her handyterm. The Endministrator decides to go along."
+  },
+  "c31m2_name": {
+    "cn": "挑战",
+    "en": "The Pugilist's Challenge"
+  },
+  "c31m3_desc_001": {
+    "cn": "前往擂台，和弭弗一同面对与大师父的最终对决。",
+    "en": "Go to the arena, join Mi Fu, and face the Grand Master in the final challenge."
+  },
+  "c31m3_name": {
+    "cn": "拳心",
+    "en": "The Warrior's Ambition"
+  },
   "c6m1_desc_001": {
     "cn": "管理员接到洛茜发来的通信，得知她似乎有件要紧事要找自己帮忙。",
     "en": "The Endministrator receives a message from Rossi, learning that she seemed to have something urgent and needed their help."
@@ -11670,6 +12246,14 @@
   "chr_0028_wulfa_title": {
     "cn": "洛茜",
     "en": "Rossi"
+  },
+  "chr_0031_ep1_name": {
+    "cn": "以拳问心",
+    "en": "A Fistful of Reflections"
+  },
+  "chr_0031_mifu_title": {
+    "cn": "弭弗",
+    "en": "Mi Fu"
   },
   "chr_ep_num1": {
     "cn": "篇章Ⅰ",
@@ -12026,6 +12610,10 @@
   "cutscene_c28m3_1_04": {
     "cn": "赤红色的 英雄……",
     "en": "The Red Caped Hero...!"
+  },
+  "cutscene_c31m3_1_01": {
+    "cn": "生死随流！",
+    "en": "To live or die is the river's way!"
   },
   "cutscene_c6m1_1_02": {
     "cn": "我不接受！！！",
@@ -13759,6 +14347,10 @@
     "cn": "",
     "en": ""
   },
+  "dung02_rdg007_placebet": {
+    "cn": "下注",
+    "en": "Place a Bet"
+  },
   "dungeon_blackscreen_text": {
     "cn": "已启动紧急撤离",
     "en": "Emergency Extraction Activated"
@@ -13891,6 +14483,22 @@
     "cn": "危境祸影·聂菲斯",
     "en": "Crisis Calamity: Nefarith"
   },
+  "dungeon_bossrush_02_minibossrush01_01_text_01": {
+    "cn": "击败巨山犼兽",
+    "en": "Defeat the Craghowler"
+  },
+  "dungeon_bossrush_02_minibossrush01_01_title": {
+    "cn": "碎片遗影·巨山犼兽",
+    "en": "Fragment Reflection: Craghowler"
+  },
+  "dungeon_bossrush_02_minibossrush01_02_text_01": {
+    "cn": "击败巨山犼兽",
+    "en": "Defeat the Craghowler"
+  },
+  "dungeon_bossrush_02_minibossrush01_02_title": {
+    "cn": "碎片延影·巨山犼兽",
+    "en": "Fragment Extension: Craghowler"
+  },
   "dungeon_bossrush_text_1": {
     "cn": "击败罗丹",
     "en": "Defeat Rhodagn"
@@ -13922,6 +14530,14 @@
   "dungeon_bossrush_title_3": {
     "cn": "危境祸影·白垩界卫",
     "en": "Crisis Calamity: Marble Aggelomoirai"
+  },
+  "dungeon_cc_common_text": {
+    "cn": "触摸光点",
+    "en": "Touch the light"
+  },
+  "dungeon_cc_indie_contract001_text": {
+    "cn": "击败所有敌人",
+    "en": "Defeat all enemies"
   },
   "dungeon_challenge_01_puzzle01_text_01": {
     "cn": "抵达终点",
@@ -14170,6 +14786,14 @@
   "dungeon_chartrial_laevat_chartrial_title": {
     "cn": "莱万汀的作战演练",
     "en": "Laevatain's Combat Drills"
+  },
+  "dungeon_chartrial_mifu_chartrial_text_01": {
+    "cn": "击败所有敌人",
+    "en": "Defeat all enemies"
+  },
+  "dungeon_chartrial_mifu_chartrial_title": {
+    "cn": "弭弗的作战演练",
+    "en": "Combat Drills: Mi Fu"
   },
   "dungeon_chartrial_tangtang_chartrial_text_01": {
     "cn": "击败所有敌人",
@@ -14658,6 +15282,54 @@
   "dungeon_chartutorial_lifeng_chartrain01_title": {
     "cn": "干员教学·黎风",
     "en": "Operator Guide: Lifeng"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_01": {
+    "cn": "连续普通攻击，发动重击",
+    "en": "Keep performing basic attacks to unleash the Final Strike"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_02_1": {
+    "cn": "使用弭弗的战技，将敌人拉取至自身附近",
+    "en": "Use Mi Fu's battle skill to pull the enemy to her"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_02_2": {
+    "cn": "使用弭弗的二段战技，对敌人施加破防",
+    "en": "Use Move 2 of Mi Fu's battle skill to apply Vulnerability on the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_03_1": {
+    "cn": "与陈千语配合，对敌人造成破防",
+    "en": "Cooperate with Chen Qianyu to apply Vulnerability on the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_03_2": {
+    "cn": "使用弭弗的二段战技，对敌人造成猛击",
+    "en": "Use Move 2 of Mi Fu's battle skill to apply Crush on the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_04_1": {
+    "cn": "使用弭弗的二段战技对敌人造成猛击，消耗3层破防",
+    "en": "Use Mi Fu's Battle Skill Move 2 to apply Crush on the enemy and consume 3 Vulnerability stacks"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_04_2": {
+    "cn": "使用弭弗的三段战技，对敌人造成高额伤害",
+    "en": "Use Move 3 of Mi Fu's battle skill to deal massive DMG to the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_05_1": {
+    "cn": "对敌人施加3层破防，触发弭弗的连携技",
+    "en": "Apply 3 Vulnerability stacks on the enemy to trigger Mi Fu's combo skill"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_05_2": {
+    "cn": "使用弭弗的连携技对敌人施加物理脆弱，使用三段战技对敌人造成高额伤害",
+    "en": "Use Mi Fu's combo skill to apply Physical Susceptibility on the enemy, and use her Battle Skill Move 3 to deal massive DMG to the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_06_1": {
+    "cn": "使用弭弗的终结技，对敌人强制造成击飞",
+    "en": "Use Mi Fu's ultimate to forcibly apply Lift"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_text_06_2": {
+    "cn": "使用弭弗的三段战技战技对敌人造成高额伤害",
+    "en": "Use Mi Fu's Battle Skill Move 3 to deal massive DMG to the enemy"
+  },
+  "dungeon_chartutorial_mifu_chartrain01_title": {
+    "cn": "干员教学·弭弗",
+    "en": "Operator Guide: Mi Fu"
   },
   "dungeon_chartutorial_pelica_chartrain01_text_01": {
     "cn": "连续普通攻击，发动重击",
@@ -17515,6 +18187,42 @@
     "cn": "据点建设·天王坪援建点·二",
     "en": "OD Project: Sky King Flats II"
   },
+  "f1m18d3_desc_001": {
+    "cn": "复合式农场即将完成建设，庄方宜委派弭弗进行验收。前往天王坪援建点，参与验收环节。",
+    "en": "The farm complex is near completion. Zhuang Fangyi assigns Mi Fu to the task of final validation. Go to the Sky King Flats Construction Site and support the validation work."
+  },
+  "f1m18d3_desc_002": {
+    "cn": "浪头在弭弗验收工程时不见了踪影。找到浪头，确认他在做什么。",
+    "en": "Lang Tou went missing while Mi Fu was validating the work. Find Lang Tou and check what he is doing."
+  },
+  "f1m18d3_desc_003": {
+    "cn": "浪头发现的兽群可能已经威胁到了清波寨。返回清波寨外寨，确认现场的安全。",
+    "en": "The stampede discovered by Lang Tou may pose a threat to Qingbo Stockade. Return to Qingbo Bailey and make sure the place is safe."
+  },
+  "f1m18d3_desc_004": {
+    "cn": "清波寨防卫战已经打响。前往指定位置，击退来路上的所有兽群并坚守此地。",
+    "en": "The Defense of Qingbo Stockade is on. Go to the marked location, defeat all attacking beasts, and hold the position."
+  },
+  "f1m18d3_desc_005": {
+    "cn": "兽群被顺利击退，浪头和洪波将要按约结拜为兄弟。前往现场见证这一时刻。",
+    "en": "The stampede has been defeated. Hong Bo and Lang Tou must swear oaths of brotherhood to fulfill their promises. Go and witness the ceremony."
+  },
+  "f1m18d3_desc_006": {
+    "cn": "洪波与浪头负责的防御方向告急。前往两人的位置，提供支援。",
+    "en": "Hong Bo and Lang Tou are barely holding on to their positions. Go to their location and offer support."
+  },
+  "f1m18d3_desc_007": {
+    "cn": "为天王坪援建点供应所需物资，提升它的发展值。",
+    "en": "Give supplies to the Sky King Flats Construction Site to help it develop."
+  },
+  "f1m18d3_desc_008": {
+    "cn": "查看庄方宜发来的消息，确认发生了什么事。",
+    "en": "Read the messages from Zhuang Fangyi to verify the situation."
+  },
+  "f1m18d3_name": {
+    "cn": "据点建设·天王坪援建点·三",
+    "en": "OD Project: Sky King Flats III"
+  },
   "f1m19d1_desc_001": {
     "cn": "为心脏修缮站供应所需物资，提升它的发展值。",
     "en": "Give supplies to the Cardiac Remediation Station to help it develop."
@@ -18618,6 +19326,22 @@
   "gm02m14_name": {
     "cn": "分忧解难",
     "en": "Divvy Up the Trouble"
+  },
+  "gm02m15_desc_001": {
+    "cn": "管理员与沃尔顿不期而遇，他似乎有些事情需要帮助。",
+    "en": "The Endministrator runs into Walton unexpectedly. The man seems to need help in something."
+  },
+  "gm02m15_name": {
+    "cn": "古崖论剑",
+    "en": "Cliffside Riddles of Steel"
+  },
+  "gm02m16_desc_001": {
+    "cn": "天师林瑚发来消息，邀请管理员帮忙测试一下他研发的“演武平台”。",
+    "en": "Tianshi Lin Hu has sent the Endministrator an invitation to test the \"Trial Arena\" he has developed."
+  },
+  "gm02m16_name": {
+    "cn": "选剑演武",
+    "en": "Trial of Swordmancy"
   },
   "gm02m1_desc_001": {
     "cn": "",
@@ -19839,6 +20563,54 @@
     "cn": "余烬的终结技",
     "en": "Ember: Ultimate"
   },
+  "guide_text_backup_power_1": {
+    "cn": "在备用电源启用状态下，该地区所有设备将正常运转。",
+    "en": "While Backup Power is active, all facilities in the region will work normally."
+  },
+  "guide_text_backup_power_2": {
+    "cn": "当前已自动启用备用电源，如需关闭请在此处取消勾选。",
+    "en": "Backup Power is currently active. To switch it off, uncheck this box."
+  },
+  "guide_text_backup_power_3": {
+    "cn": "请关注当前集成工业系统的供电状态，以确保其在备用电源耗尽后能正常运转。",
+    "en": "Please monitor your Automated Industry Complex (AIC) power supply so that AIC facilities can still work normally after Backup Power runs out."
+  },
+  "guide_text_backup_power_4": {
+    "cn": "备用电源已耗尽，当前正在恢复中。",
+    "en": "Backup Power has been exhausted and is currently being charged up again."
+  },
+  "guide_text_backup_power_5": {
+    "cn": "备用电源将于玩家在线且存电耗尽时自动启用，如需关闭请取消勾选。",
+    "en": "Backup Power will be auto-activated once power reserves are depleted while the player is online. To switch it off, uncheck this box."
+  },
+  "guide_text_backup_power_desc_1": {
+    "cn": "备用电源启用后，可在<@gd.key>30分钟</>内维持该地区设备的正常运转。\n若协议核心自身的供电不足，则在备用电源持续时间结束后，仍会进入断电状态。",
+    "en": "Activating Backup Power keeps all AIC Factory facilities running normally for <@gd.key>30 minutes</>. However, if PAC power output is still insufficient, a power outage will still occur once the Backup Power duration ends."
+  },
+  "guide_text_backup_power_desc_2": {
+    "cn": "备用电源供电结束后，需要12小时恢复，恢复完成后可再次使用。",
+    "en": "After Backup Power duration ends, the feature will undergo a 12-hour cooldown before it can be used again."
+  },
+  "guide_text_backup_power_desc_3": {
+    "cn": "在线且某个地区断电时，将自动启用备用电源。备用电源默认自动启用，可手动取消自动启用功能。",
+    "en": "When a region experiences power outage while the Endministrator is online, Backup Power will be automatically activated by default. This auto-activation can be manually switched OFF."
+  },
+  "guide_text_backup_power_hint": {
+    "cn": "当前协议核心存电已耗尽，可在此处启用<@gd.key>备用电源</>。",
+    "en": "PAC power grid reserves have been depleted. <@gd.key>Backup Power</> can be activated here."
+  },
+  "guide_text_backup_power_title_1": {
+    "cn": "备用电源",
+    "en": "Backup Power"
+  },
+  "guide_text_backup_power_title_2": {
+    "cn": "备用电源的恢复",
+    "en": "Backup Power: Restoration"
+  },
+  "guide_text_backup_power_title_3": {
+    "cn": "备用电源的自动启用",
+    "en": "Backup Power: Auto-Activation"
+  },
   "guide_text_bag_full_1": {
     "cn": "背包已满时，将暂时无法获取新物品，您可以考虑在安全区将多余物品<@gd.key>存入仓库</>，或<@gd.key>销毁</>不需要的物品。",
     "en": "No new items can be acquired when the Backpack is full. Go to a safe zone and move extra items to the <@gd.key>Depot</> or <@gd.key>destroy</> items no longer required."
@@ -19862,6 +20634,14 @@
   "guide_text_balloon_title_2": {
     "cn": "定位协议采录桩",
     "en": "Finding Protocol Dataloggers"
+  },
+  "guide_text_banana_peel_desc": {
+    "cn": "似乎是野兽扔在地上的<@gd.key>陷阱</>，踩到就会摔倒。",
+    "en": "A beast threw these to the ground to create a <@gd.key>trap</>. Anyone who steps on them will slip and fall."
+  },
+  "guide_text_banana_peel_title": {
+    "cn": "香蕉皮",
+    "en": "Banana Peels"
   },
   "guide_text_bandwidth_des_1": {
     "cn": "每个地区设有独立的<@gd.key>协议容量</>上限。\n在<@gd.key>集成核心区域外</>放置设备会消耗协议容量。\n不同类型的设备，消耗的协议容量也会有所不同。\n当某个地区的协议容量达到上限时，该地区将无法放置新的设备。",
@@ -20368,8 +21148,8 @@
     "en": "Tap <@gd.key>Confirm Ending Point</> to complete placing the transport belt."
   },
   "guide_text_belt2_e1m6_5": {
-    "cn": "晶体外壳将被输送回仓库。请使用<image=\"KeyIcon/icon_key_esc_and_right_mouse\" scale=1.3>退出传送带的放置，并打开<@gd.key>精炼炉</>的面板。",
-    "en": "The Origocrusts are being moved back to the Depot. Use <image=\"KeyIcon/icon_key_esc_and_right_mouse\" scale=1.3> to exit transport belt placement mode, then open the <@gd.key>Refining Unit</> panel."
+    "cn": "晶体外壳将被输送回仓库。请使用<image=\"KeyIcon/icon_key_mouse1\" scale=1.3>/<action=fac_build_cancel scale=1.3>退出传送带的放置，并打开<@gd.key>精炼炉</>的面板。",
+    "en": "The Origocrusts are being moved back to the Depot. Use <image=\"KeyIcon/icon_key_mouse1\" scale=1.3>/<action=fac_build_cancel scale=1.3> to exit transport belt placement mode, then open the <@gd.key>Refining Unit</> panel."
   },
   "guide_text_belt2_e1m6_5_ct": {
     "cn": "晶体外壳将被输送回仓库。请按下<action=fac_build_cancel_alter>退出传送带的放置，并打开<@gd.key>精炼炉</>的面板。",
@@ -20392,8 +21172,8 @@
     "en": "<@gd.key>Tap the [Confirm] button </> to start placing the transport belt. <@gd.key>Move and adjust the view</> to follow the guiding lines and connect the belt to the destination. Finally, <@gd.key>tap [Confirm] again</> to complete transport belt placement."
   },
   "guide_text_belt2_e1m6_hint_1": {
-    "cn": "这样一条完整的产线就建设好了，请使用<image=\"KeyIcon/icon_key_esc_and_right_mouse\" scale=1.3>退出传送带的放置，打开<@gd.key>精炼炉</>的面板。",
-    "en": "The production line is now complete. Use <image=\"KeyIcon/icon_key_esc_and_right_mouse\" scale=1.3> to exit transport belt placement mode, then open the <@gd.key>Refining Unit</> panel."
+    "cn": "这样一条完整的产线就建设好了，请使用<image=\"KeyIcon/icon_key_mouse1\" scale=1.3>/<action=fac_build_cancel scale=1.3>退出传送带的放置，打开<@gd.key>精炼炉</>的面板。",
+    "en": "The production line is now complete. Use <image=\"KeyIcon/icon_key_mouse1\" scale=1.3>/<action=fac_build_cancel scale=1.3> to exit transport belt placement mode, then open the <@gd.key>Refining Unit</> panel."
   },
   "guide_text_belt2_e1m6_hint_1_ct": {
     "cn": "这样一条完整的产线就建设好了，请按下<action=fac_build_cancel_alter>退出传送带的放置，打开<@gd.key>精炼炉</>的面板。",
@@ -25040,8 +25820,8 @@
     "en": "Tap here to jump."
   },
   "guide_text_control_move": {
-    "cn": "使用<image=\"KeyIcon/icon_key_w\" scale=1.45> <image=\"KeyIcon/icon_key_a\" scale=1.45> <image=\"KeyIcon/icon_key_s\" scale=1.45> <image=\"KeyIcon/icon_key_d\" scale=1.45>进行移动。",
-    "en": "Use <image=\"KeyIcon/icon_key_w\" scale=1.45> <image=\"KeyIcon/icon_key_a\" scale=1.45> <image=\"KeyIcon/icon_key_s\" scale=1.45> <image=\"KeyIcon/icon_key_d\" scale=1.45> to move."
+    "cn": "使用<action=fac_top_view_move scale=1.45>进行移动。",
+    "en": "Use <action=fac_top_view_move scale=1.45> to move."
   },
   "guide_text_control_move_ct": {
     "cn": "推动<image=\"KeyIcon/Playstation/icon_playstation_leftstick\" scale=1.6>操作杆，进行移动。",
@@ -25192,8 +25972,8 @@
     "en": "Da Pan: Ultimate"
   },
   "guide_text_decorate_item_desc_1": {
-    "cn": "装饰物品是一类可用于放置的物品。可在背包仓库中打开对应物品详情页并放置。",
-    "en": "Ornamentals are items that can be placed in the environment. In the Backpack or Depot panels, open the ornamental's details and select Place to place it."
+    "cn": "装饰物品是一类可用于放置的物品。可在背包仓库中打开对应物品详情页进行放置，或放入快捷栏并自由摆放。",
+    "en": "Ornamentals are items that can be placed in the environment. To place an ornamental, go to the Backpack or Depot panels, open the ornamental's details, then select Place; or drag it to the hotbar first and use hotkeys instead."
   },
   "guide_text_decorate_item_desc_2": {
     "cn": "可通过物资调度、完成主线任务等多种渠道获取<@gd.key>装饰物品</>。",
@@ -25547,6 +26327,14 @@
     "cn": "除了向据点供给货品，还有其他方式可获得地区建设值，管理员可以自行探索。",
     "en": "Regional Development Metrics can be earned by supplying outposts with goods. Other ways for raising regional development await discovery, Endministrator."
   },
+  "guide_text_domain_development_list_1": {
+    "cn": "现在可以在事务总览中查看当前地区的建设待办事务了。",
+    "en": "Regional Overview can now be used to check development tasks in the current region."
+  },
+  "guide_text_domain_development_list_2": {
+    "cn": "通过事务总览列表，可以快捷跳转到据点供货等界面，也可以查看建设事务所在地点。",
+    "en": "Use the Regional Overview list to quickly go to the Outpost Supplies screen and view the location of the Development Task."
+  },
   "guide_text_domain_shop_soldout_1": {
     "cn": "已售罄的物品统一收纳在<@gd.key>已售罄</>分类里",
     "en": "Sold out items will be moved to the <@gd.key>Sold Out</> category"
@@ -25853,7 +26641,7 @@
   },
   "guide_text_dungeon_fighting_2_desc_3": {
     "cn": "火雾源石虫死亡时会<@gd.key>吸附周围的敌人</>，善加利用可显著提升战斗效率。",
-    "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby</> enemies. Use this well to boost your combat efficiency."
+    "en": "When killed, the Firemist Originium Slug <@gd.key>pulls in nearby enemies</>. Use this well to boost your combat efficiency."
   },
   "guide_text_dungeon_fighting_2_title": {
     "cn": "生存特训 - 爆破练习",
@@ -26404,8 +27192,8 @@
     "en": "Click here to perform artificing."
   },
   "guide_text_equip_enhance_9_ct": {
-    "cn": "请按下<action=equip_tech_enhance_click>，进行精锻。",
-    "en": "Press <action=equip_tech_enhance_click> to perform the artificing."
+    "cn": "请长按<action=equip_tech_enhance_click>，进行精锻。",
+    "en": "Press and hold <action=equip_tech_enhance_click> to artifice."
   },
   "guide_text_equip_enhance_desc_1": {
     "cn": "<@gd.key>装备精锻</>可通过消耗材料来提升<@gd.key>金色品质装备</>的属性。\n可对金色品质装备的各初始属性进行精锻，成功后将<@gd.key>固定提升属性数值</>，每项属性都有可精锻次数的上限。",
@@ -26424,8 +27212,8 @@
     "en": "Performing gear artificing of a particular gear stat builds up artificing progress. After reaching max progress, <@gd.key>success is guaranteed</> for the next artificing attempt of this gear stat. Different gear and gear stats have different artificing progress limits."
   },
   "guide_text_equip_enhance_desc_5": {
-    "cn": "装备精锻有较小可能直接强化成功，且清空当前精锻积累。 耗费装备的属性初始值<@gd.key>高于</>待精锻装备初始值时，直接完成精锻强化的可能性略有<@gd.key>提升</>。",
-    "en": "Gear artificing attempts have a small chance of direct success. A successful attempt also resets the current artificing progress. Chance of direct success is slightly <@gd.key>improved</> when the gear used as the artificing material has a <@gd.key>higher</> base stat than that of the gear to be artificed."
+    "cn": "装备精锻有较小可能直接强化成功，且清空当前精锻积累。\n耗费装备的属性初始值<@gd.key>高于</>待精锻装备初始值时，直接完成精锻强化的可能性略有<@gd.key>提升</>，这些装备将会标记为“较好适配”。",
+    "en": "Gear artificing attempts have a small chance of direct success. A successful attempt also resets the current artificing progress. Chance of direct success is slightly <@gd.key>improved</> when the gear used as the artificing material has <@gd.key>higher</> base stats than those of the gear to be artificed. Such gear will be given the tag: Good Match."
   },
   "guide_text_equip_enhance_title_1": {
     "cn": "装备精锻",
@@ -26946,6 +27734,26 @@
   "guide_text_gem_enhance_title_4": {
     "cn": "金色基质的获取",
     "en": "Source of Gold Essences"
+  },
+  "guide_text_gem_wishlist_1": {
+    "cn": "已解锁<@gd.key>基质愿望单</>功能，可在此处进入。",
+    "en": "<@gd.key>Essence Wishlist</> is now unlocked. Access this feature here."
+  },
+  "guide_text_gem_wishlist_2": {
+    "cn": "基质愿望单可用于自动标记属性与武器技能<@gd.key>“完美搭配”</>的金色基质。",
+    "en": "An essence <@gd.key>perfectly matches</> a weapon when it has all the stats of the said weapon. The Essence Wishlist can be used to auto-tag gold (flawless) essences with a perfect match."
+  },
+  "guide_text_gem_wishlist_3": {
+    "cn": "可在愿望单中勾选多件武器，确认保存后，贵重品库中已有的<@gd.key>“完美搭配”</>基质和新获取的<@gd.key>“完美搭配”</>基质，将<@gd.key>自动上锁</>并被特殊标记。",
+    "en": "After selecting multiple weapons in the Essence Wishlist and saving the selection, any essences in the Valuables Stash and any new essences acquired thereafter with a <@gd.key>perfect match</> will be <@gd.key>auto-locked</> and given a special tag."
+  },
+  "guide_text_gem_wishlist_4": {
+    "cn": "通过筛选，可以定向查看特定种类或品质的武器。",
+    "en": "Use the filter to find weapons by type or quality."
+  },
+  "guide_text_gem_wishlist_5": {
+    "cn": "若持有当前版本的<@gd.key>六星武器</>，则会自动勾选并保存这些武器。\n可在后续自行尝试勾选其他武器。",
+    "en": "If you have a <@gd.key>6★ weapon</> of the current version, it will be auto-selected and saved to the Essence Wishlist. Other weapons can still be selected and added to the wishlist."
   },
   "guide_text_general_bomb_1": {
     "cn": "可<@gd.key>长按</><action=general_ability_press>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>后<@gd.key>长按</>此处切换便捷工具。",
@@ -29071,6 +29879,134 @@
     "cn": "战术物品的使用",
     "en": "Tacticals: Usage"
   },
+  "guide_text_mifu_c31m1d5": {
+    "cn": "可<@gd.key>连续短按</><action=battle_use_char_skill_1>，施放弭弗的<@gd.key>多段战技</>。",
+    "en": "<@gd.key>Keep pressing</> <action=battle_use_char_skill_1> to perform the <@gd.key>different moves of Mi Fu's battle skill</>."
+  },
+  "guide_text_mifu_c31m1d5_ct": {
+    "cn": "可按住<action=common_indicator_start>并<@gd.key>连续短按</><action=battle_use_char_skill_hint_2>，施放弭弗的<@gd.key>多段战技</>。",
+    "en": "Press and hold <action=common_indicator_start> and <@gd.key>keep pressing</> <action=battle_use_char_skill_hint_2> to perform the <@gd.key>different moves of Mi Fu's battle skill</>."
+  },
+  "guide_text_mifu_c31m1d5_desc": {
+    "cn": "弭弗和管理员救人心切。在后续的剧情战斗中，主控干员的<@ba.key>重击</>将会对目标施加<@ba.key>4层破防</>。",
+    "en": "The Endministrator and Mi Fu are eager to save the VIP. For battles of this story mission, the controlled operator's <@ba.key>Final Strike</> will apply <@ba.key>4 Vulnerability stacks</> on the target."
+  },
+  "guide_text_mifu_c31m1d5_mb": {
+    "cn": "可<@gd.key>连续点击此处</>，施放弭弗的<@gd.key>多段战技</>。",
+    "en": "<@gd.key>Keep tapping here</> to perform the <@gd.key>different moves of Mi Fu's battle skill</>."
+  },
+  "guide_text_mifu_c31m1d5_title": {
+    "cn": "行动增益",
+    "en": "Mission Bonus"
+  },
+  "guide_text_mifu_chartrain01_02_1": {
+    "cn": "弭弗的战技可以连续施放打出三段不同招式。第一段可以抓取远处范围的敌人，随后可衔接二段战技对目标造成<#ba.crush>猛击</>。",
+    "en": "Mi Fu's battle skill includes 3 different consecutive moves. Move 1 lets her grab an enemy a good distance away. This can be followed up with Battle Skill Move 2 that applies <#ba.crush>Crush</> on the target."
+  },
+  "guide_text_mifu_chartrain01_02_title": {
+    "cn": "弭弗的战技",
+    "en": "Mi Fu: Battle Skill"
+  },
+  "guide_text_mifu_chartrain01_03_1": {
+    "cn": "弭弗的战技可以连续施放打出三段不同招式。第一段可以抓取远处范围的敌人，随后可衔接二段战技对目标造成<#ba.crush>猛击</>。",
+    "en": "Mi Fu's battle skill includes 3 different consecutive moves. Move 1 lets her grab an enemy a good distance away. This can be followed up with Battle Skill Move 2 that applies <#ba.crush>Crush</> on the target."
+  },
+  "guide_text_mifu_chartrain01_03_title": {
+    "cn": "弭弗的战技",
+    "en": "Mi Fu: Battle Skill"
+  },
+  "guide_text_mifu_chartrain01_04_1": {
+    "cn": "如果弭弗的二段战技猛击<#ba.consume>消耗</>的最大<#ba.noguard>破防</>层数不少于3层，则可衔接三段战技对前方范围造成巨量伤害。",
+    "en": "If the Crush of Mi Fu's Battle Skill Move 2 <#ba.consume>consumes</> at least 3 <#ba.noguard>Vulnerability</> stacks from a single target, she can follow up with Battle Skill Move 3 to deal massive DMG to a specified area in front of her."
+  },
+  "guide_text_mifu_chartrain01_04_title": {
+    "cn": "弭弗的战技",
+    "en": "Mi Fu: Battle Skill"
+  },
+  "guide_text_mifu_chartrain01_05_1": {
+    "cn": "当有敌人达到3层<#ba.noguard>破防</>后可以发动弭弗的连携技，弭弗将目标击向空中随后将其狠狠击向地面，造成伤害并施加一定时间的<#ba.physicalvul>物理脆弱</>。",
+    "en": "Mi Fu's combo skill is triggered when an enemy reaches 3 <#ba.noguard>Vulnerability</> stacks. Mi Fu launches the target into mid-air before slamming the target into the ground, dealing DMG and applying temporary <#ba.physicalvul>Physical Susceptibility</>."
+  },
+  "guide_text_mifu_chartrain01_05_title": {
+    "cn": "弭弗的连携技",
+    "en": "Mi Fu: Combo Skill"
+  },
+  "guide_text_mifu_chartrain01_06_1": {
+    "cn": "弭弗的终结技会对目标强制造成<#ba.airborne>击飞</>并造成大量伤害。",
+    "en": "Mi Fu's ultimate can forcibly <#ba.airborne>Lift</> the target and deal massive DMG."
+  },
+  "guide_text_mifu_chartrain01_06_title": {
+    "cn": "弭弗的终结技",
+    "en": "Mi Fu: Ultimate"
+  },
+  "guide_text_mifu_chartrial01_00": {
+    "cn": "使用<@ba.key>战技断云</>拉取远处的敌人，配合队友施加<@ba.phy>破防</>状态触发弭弗的连携技。",
+    "en": "Use Mi Fu's <@ba.key>battle skill Cloudtrapper</> to pull a far-away enemy closer to her. Cooperate with teammates to apply <@ba.phy>Vulnerability</> and trigger Mi Fu's combo skill."
+  },
+  "guide_text_mifu_chartrial01_01_1": {
+    "cn": "弭弗是一名物理属性的近卫干员。她可以对目标施加<#ba.physicalvul>物理脆弱</>并造成<#ba.crush>猛击</>，打出不俗的伤害。如果<#ba.crush>猛击</>消耗了足够的<#ba.noguard>破防</>层数，她还可以再次发动战技追加高额伤害。",
+    "en": "Mi Fu is a Physical guard who can apply <#ba.physicalvul>Physical Susceptibility</> and <#ba.crush>Crush</> to achieve a good DMG output. If her <#ba.crush>Crush</> consumes enough <#ba.noguard>Vulnerability</> stacks, she can cast her battle skill again to deal an additional hit of massive DMG."
+  },
+  "guide_text_mifu_chartrial01_02_1": {
+    "cn": "弭弗的战技可以连续施放打出三段不同招式。第一段可以抓取远处范围的敌人，随后可衔接二段战技对目标造成<#ba.crush>猛击</>，如果本次猛击<#ba.consume>消耗</>的最大<#ba.noguard>破防</>层数不少于3层，则可衔接三段战技对前方范围造成巨量伤害。",
+    "en": "Mi Fu's battle skill includes 3 different consecutive moves. Move 1 lets her grab an enemy from a good distance away. This can be followed up with Battle Skill Move 2 that applies <#ba.crush>Crush</> on the target. If this <#ba.consume>Crush</> consumes at least 3 <#ba.noguard>Vulnerability</> stacks, it can be followed up by Battle Skill Move 3 that deals massive DMG to a specified area in front of Mi Fu."
+  },
+  "guide_text_mifu_chartrial01_03_1": {
+    "cn": "当有敌人达到3层<#ba.noguard>破防</>后可以发动弭弗的连携技，弭弗将目标击向空中随后将其狠狠击向地面，造成伤害并施加一定时间的<#ba.physicalvul>物理脆弱</>。",
+    "en": "Mi Fu's combo skill is triggered when an enemy reaches 3 <#ba.noguard>Vulnerability</> stacks. Mi Fu launches the target into mid-air before slamming the target into the ground, dealing DMG and applying temporary <#ba.physicalvul>Physical Susceptibility</>."
+  },
+  "guide_text_mifu_chartrial01_04_1": {
+    "cn": "弭弗的终结技会对目标强制造成<#ba.airborne>击飞</>并造成大量伤害。",
+    "en": "Mi Fu's ultimate can forcibly <#ba.airborne>Lift</> the target and deal massive DMG."
+  },
+  "guide_text_mifu_chartrial01_05_1": {
+    "cn": "和施加<#ba.noguard>破防</>的干员进行配合，使敌人达到3层及以上<#ba.noguard>破防</>后，弭弗可以发动连携技并衔接二段战技造成<#ba.crush>猛击</>，随后打出三段战技造成成巨量伤害。",
+    "en": "Cooperate with operators who can deal <#ba.noguard>Vulnerability</>. Apply 3 or more <#ba.noguard>Vulnerability</> stacks on an enemy, trigger and perform Mi Fu's combo skill, then follow up with Battle Skill Move 2 to apply <#ba.crush>Crush</>. If this Crush consumes enough stacks, Mi Fu can follow up with Battle Skill Move 3 to deal massive DMG."
+  },
+  "guide_text_mifu_chartrial01_title": {
+    "cn": "干员介绍",
+    "en": "Operator Description"
+  },
+  "guide_text_mifu_chartrial01_title2": {
+    "cn": "战技介绍",
+    "en": "Battle Skill Description"
+  },
+  "guide_text_mifu_chartrial01_title3": {
+    "cn": "连携技介绍",
+    "en": "Combo Skill Description"
+  },
+  "guide_text_mifu_chartrial01_title4": {
+    "cn": "终结技介绍",
+    "en": "Ultimate Description"
+  },
+  "guide_text_mifu_chartrial01_title5": {
+    "cn": "作战方式",
+    "en": "Combat Tips"
+  },
+  "guide_text_mifu_ultimate": {
+    "cn": "可<@gd.key>长按</><action=battle_use_char_skill_1>，施放弭弗的<@gd.key>终结技</>。",
+    "en": "<@gd.key>Long-press</> <action=battle_use_char_skill_1> to cast Mi Fu's <@gd.key>ultimate</>."
+  },
+  "guide_text_mifu_ultimate1": {
+    "cn": "可<@gd.key>长按</><action=battle_use_char_skill_1>，施放<@gd.key>终结技“绝心”</>。",
+    "en": "<@gd.key>Long-press</> <action=battle_use_char_skill_1> to cast the <@gd.key>ultimate: Pile of No Mercy</>."
+  },
+  "guide_text_mifu_ultimate1_ct": {
+    "cn": "可按住<action=common_indicator_start>并长按<action=battle_use_char_skill_hint_2>，施放<@gd.key>终结技“绝心”</>。",
+    "en": "While holding down <action=common_indicator_start>, press and hold <action=battle_use_char_skill_hint_2> to cast the <@gd.key>ultimate: Pile of No Mercy</>."
+  },
+  "guide_text_mifu_ultimate1_mb": {
+    "cn": "可<@gd.key>长按</>此处，或将战技键<@gd.key>拖动至终结技区域</>，施放<@gd.key>终结技“绝心”</>。",
+    "en": "<@gd.key>Tap and hold</> this, or <@gd.key>drag the battle skill button to the ultimate zone</> to cast the <@gd.key>ultimate: Pile of No Mercy</>."
+  },
+  "guide_text_mifu_ultimate_ct": {
+    "cn": "可按住<action=common_indicator_start>并长按<action=battle_use_char_skill_hint_2>，施放弭弗的<@gd.key>终结技</>。",
+    "en": "While holding down <action=common_indicator_start>, press and hold <action=battle_use_char_skill_hint_2> to cast Mi Fu's <@gd.key>ultimate</>."
+  },
+  "guide_text_mifu_ultimate_mb": {
+    "cn": "可<@gd.key>长按</>此处，或将战技键<@gd.key>拖动至终结技区域</>，施放弭弗的<@gd.key>终结技</>。",
+    "en": "<@gd.key>Tap and hold</> this, or <@gd.key>drag the battle skill button to the ultimate zone</> to cast Mi Fu's <@gd.key>ultimate</>."
+  },
   "guide_text_mine_hint_desc_1": {
     "cn": "塔卫二分布着诸多矿点，可以通过探索发现更多的矿点，从而开采更多矿物，提高生产效率。",
     "en": "Mining spots are scattered throughout Talos-II. Explore the world to discover them, rig them up, and mine more minerals to boost production."
@@ -30468,16 +31404,16 @@
     "en": "Electric Pylon"
   },
   "guide_text_power_wuling_desc_1": {
-    "cn": "<@gd.key>息壤中继器</>在集成核心区域外时，可<@gd.key>自动连接</>80m范围内的协议核心与全部息壤电力设备，但无法连接核心区域内的其他电力设备。\n在集成核心区域内时，仅会自动连接协议核心。可进行电力传输与小范围供电。",
-    "en": "A <@gd.key>Xiranite Relay</> placed outside the Core AIC Area <@gd.key>auto-connects</> to the PAC and any Xiranite power facilities within an 80-meter radius, but cannot connect to other power facilities within the Core AIC Area. When placed inside the Core AIC Area, it only auto-connects to the PAC. The Xiranite Relay can be used for power transmission and powering facilities within a short range."
+    "cn": "<@gd.key>息壤中继器</>可<@gd.key>自动连接</>80m范围内的协议核心与全部息壤电力设备。\n在集成核心区域内可<@gd.key>无视距离限制</>自动连接协议核心。可进行电力传输与小范围供电。",
+    "en": "<@gd.key>Xiranite Relays</> can <@gd.key>auto-connect</> to the Protocol Automation-Core (PAC) and any type of Xiranite power facilities within 80 meters. When placed inside the Core AIC Area, they can auto-connect to the PAC <@gd.key>regardless of distance</>. Xiranite Relays can be used for power transmission and can supply power to nearby facilities."
   },
   "guide_text_power_wuling_desc_2": {
-    "cn": "<@gd.key>息壤供电桩</>在集成核心区域外时，可<@gd.key>自动连接</>80m范围内的协议核心与息壤中继器。",
-    "en": "A <@gd.key>Xiranite Pylon</> placed outside the Core AIC Area <@gd.key>auto-connects</> to the PAC and Xiranite Relay within an 80-meter radius."
+    "cn": "<@gd.key>息壤供电桩</>可<@gd.key>自动连接</>80m范围内的协议核心与息壤中继器。",
+    "en": "A <@gd.key>Xiranite Pylon</> <@gd.key>auto-connects</> to any Protocol Automation-Core (PAC) and Xiranite Relay within 80 meters."
   },
   "guide_text_power_wuling_desc_3": {
-    "cn": "<@gd.key>息壤供电桩</>在集成核心区域外时，也可<@gd.key>自动连接</>30m范围内的息壤供电桩以及其他电力设备，但无法连接核心区域内的其他电力设备。\n在集成核心区域内时，仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
-    "en": "A <@gd.key>Xiranite Pylon</> placed outside the Core AIC Area also <@gd.key>auto-connects</> to other Xiranite Pylons within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When placed inside the Core AIC Area, it only auto-connects to the PAC. The Xiranite Pylon can be used for powering facilities within range and power transmission across short distances."
+    "cn": "<@gd.key>息壤供电桩</>也可<@gd.key>自动连接</>30m范围内的息壤供电桩以及其他电力设备。\n在集成核心区域内可<@gd.key>无视距离限制</>自动连接协议核心。可进行范围供电与短距离电力传输。",
+    "en": "<@gd.key>Xiranite Pylons</> can also <@gd.key>auto-connect</> to other Xiranite Pylons within 30 meters. When placed inside the Core AIC Area, they can auto-connect to the PAC <@gd.key>regardless of distance</>. Xiranite Pylons can be used to supply power to facilities within range and transmit power across short distances."
   },
   "guide_text_power_wuling_title_1": {
     "cn": "息壤中继器",
@@ -30931,6 +31867,14 @@
     "cn": "源石电路修复 - 二",
     "en": "Originium Circuitry: Repairs (2)"
   },
+  "guide_text_rolling_stone_desc": {
+    "cn": "沉重巨石是山犼兽阻碍探索者前进的手段，一旦<@gd.key>撞到就会被击倒</>。",
+    "en": "Rockhowlers will roll heavy rocks down the slopes to disrupt explorers trying to get through their territory. These rocks will <@gd.key>knock down anyone they hit</>."
+  },
+  "guide_text_rolling_stone_title": {
+    "cn": "滚石",
+    "en": "Rolling Rock"
+  },
   "guide_text_rope_desc_1": {
     "cn": "靠近并进行<@gd.key>交互</>后，即可搭乘绳索，<@gd.key>前往高处</>。",
     "en": "Approach and <@gd.key>interact</> with a rope to use it to <@gd.key>reach higher places</>."
@@ -30962,6 +31906,30 @@
   "guide_text_rotate_bridge_title_1": {
     "cn": "可旋转桥梁",
     "en": "Rotating Bridge"
+  },
+  "guide_text_rune_tablet_1_desc": {
+    "cn": "古老的机关柱，当所有<@gd.key>机关柱都与符文匹配</>时，受其影响的锁会被解开。",
+    "en": "An ancient pillar with special mechanisms. When <@gd.key>all the mechanism pillars match the rune</>, the lock linked to them will be disengaged."
+  },
+  "guide_text_rune_tablet_1_title": {
+    "cn": "机关柱",
+    "en": "Mechanism Pillar"
+  },
+  "guide_text_rune_tablet_2_desc": {
+    "cn": "机关柱受到山谷中的响声影响时，符文会<@gd.key>短暂消失</>。",
+    "en": "When affected by the loud sounds of the valley, the runes of the mechanism pillar will <@gd.key>temporarily disappear</>."
+  },
+  "guide_text_rune_tablet_2_title": {
+    "cn": "机关柱的符文",
+    "en": "Mechanism Pillar: Rune"
+  },
+  "guide_text_rune_tablet_3_desc": {
+    "cn": "机关柱未锁定在正确位置时，受到强烈震动会<@gd.key>向低处滑落</>。",
+    "en": "When subjected to violent vibrations, a mechanism pillar not locked to its correct position will <@gd.key>slide downwards</>."
+  },
+  "guide_text_rune_tablet_3_title": {
+    "cn": "机关柱的滑动",
+    "en": "Mechanism Pillar: Movement"
   },
   "guide_text_scan_des_1": {
     "cn": "在探索中，可按下<action=general_ability_release><@gd.key>扫描</>按键进行扫描，获得周围事物的信息。",
@@ -31200,8 +32168,8 @@
     "en": "Press <@gd.key>Confirm</> to complete the battle."
   },
   "guide_text_settlement_defense_minimap_1": {
-    "cn": "这里是据点区域的实时动态地图，按下<image=\"KeyIcon/icon_key_m\" scale=1.3>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击此处可打开详细地图。",
-    "en": "This is the dynamic map of this outpost. Press <image=\"KeyIcon/icon_key_m\" scale=1.3> or hold <image=\"KeyIcon/icon_key_alt\" scale=1.3> and click here to open the detailed map."
+    "cn": "这里是据点区域的实时动态地图，按下<action=common_open_map scale=1.3>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击此处可打开详细地图。",
+    "en": "This is the dynamic map of this outpost. Press <action=common_open_map scale=1.3> or hold <image=\"KeyIcon/icon_key_alt\" scale=1.3> and click here to open the detailed map."
   },
   "guide_text_settlement_defense_minimap_1_ct": {
     "cn": "这里是据点区域的实时动态地图，按下<action=common_open_map>可打开详细地图。",
@@ -31220,8 +32188,8 @@
     "en": "<@gd.key>Operators cannot intervene</> in this defense battle but more combat facilities can be placed in this outpost. Complete this battle with just combat facilities."
   },
   "guide_text_settlement_defense_prepare_1": {
-    "cn": "参考敌人的入侵路线，活用作战设备，做好防守准备后，按下<image=\"KeyIcon/icon_key_enter\" scale=1.3>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击<@gd.key>开始作战</>。",
-    "en": "Study the enemy's attack route, prepare outpost defenses with combat facilities, then press <image=\"KeyIcon/icon_key_enter\" scale=1.3> or hold <image=\"KeyIcon/icon_key_alt\" scale=1.3> and click <@gd.key>Start Battle</>."
+    "cn": "参考敌人的入侵路线，活用作战设备，做好防守准备后，按下<action=settlement_defense_start_battle scale=1.3>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击<@gd.key>开始作战</>。",
+    "en": "Study the enemy's attack route, prepare outpost defenses with combat facilities, then press <action=settlement_defense_start_battle scale=1.3> or hold <image=\"KeyIcon/icon_key_alt\" scale=1.3> and click <@gd.key>Start Battle</>."
   },
   "guide_text_settlement_defense_prepare_1_ct": {
     "cn": "参考敌人的入侵路线，活用作战设备，做好防守准备后，按下<action=settlement_defense_start_battle><@gd.key>开始作战</>。",
@@ -31750,6 +32718,102 @@
   "guide_text_signal_tower_title": {
     "cn": "协议通讯信号塔",
     "en": "Protocom Signal Tower"
+  },
+  "guide_text_simulation_traning_1": {
+    "cn": "演武平台已启动，现在可以进行演算了。",
+    "en": "The Arena has been activated. The Trial may begin."
+  },
+  "guide_text_simulation_traning_10": {
+    "cn": "每次演算共有<@gd.key>5次</>抽取机会，可以随时停手开始演算挑战。",
+    "en": "You can make <@gd.key>5</> draws per Trial. You can also stop drawing and challenge the Trial anytime you want."
+  },
+  "guide_text_simulation_traning_11": {
+    "cn": "进入演算挑战后还可以进行编队替换，现在请按下此处<@gd.key>开始挑战</>。",
+    "en": "Once a Trial begins, you can also change your team composition. Press this to <@gd.key>start the challenge</>."
+  },
+  "guide_text_simulation_traning_11_ct": {
+    "cn": "进入演算挑战后还可以进行编队替换，现在请按下<action=simulation_training_main_start_challenge><@gd.key>开始挑战</>。",
+    "en": "Once a Trial begins, the team composition can still be changed. Press <action=simulation_training_main_start_challenge> to <@gd.key>start the challenge</>."
+  },
+  "guide_text_simulation_traning_12": {
+    "cn": "数据铭牌上的所有敌人会同时发起进攻，将他们全部击败后，即可获得奖励。",
+    "en": "Every enemy listed on the Dataplate(s) will attack at once. Defeat them all to earn the rewards."
+  },
+  "guide_text_simulation_traning_13": {
+    "cn": "数据溢出后，演算奖励回滚，并且开启惩罚使得挑战难度增加",
+    "en": "Data Overflow will roll back Trial rewards and apply a penalty that makes the battle more difficult."
+  },
+  "guide_text_simulation_traning_2": {
+    "cn": "请先按下此处，从牌库中抽取一张<@gd.key>数据铭牌</>。",
+    "en": "Press here to draw a <@gd.key>Dataplate</> from the deck."
+  },
+  "guide_text_simulation_traning_2_ct": {
+    "cn": "请先按下<action=simulation_training_main_draw>，从牌库中抽取一张<@gd.key>数据铭牌</>。",
+    "en": "Press <action=simulation_training_main_draw> to draw a <@gd.key>Dataplate</> from the deck."
+  },
+  "guide_text_simulation_traning_3": {
+    "cn": "每张数据铭牌上都包含一组敌人，以及敌人对应的<@gd.key>战力点</>。",
+    "en": "Every Dataplate includes an enemy set and its matching <@gd.key>Battle Points</>."
+  },
+  "guide_text_simulation_traning_4": {
+    "cn": "数据铭牌的<@gd.key>战力点数之和</>，决定了本次演算成功后获取的奖励数额。",
+    "en": "The <@gd.key>sum of Battle Points</> on the Dataplates determines the amount of rewards earned from a successfully completed Trial."
+  },
+  "guide_text_simulation_traning_5": {
+    "cn": "当战力点数达到<@gd.key>10点</>时，奖励数额最高！",
+    "en": "Rewards are maxed at <@gd.key>10</> Battle Points!"
+  },
+  "guide_text_simulation_traning_6": {
+    "cn": "但请注意，铭牌上的战力点数之和超过10点时，会触发<@gd.key>数据溢出</>。",
+    "en": "Be warned: <@gd.key>Data Overflow</> happens when total Dataplate Battle Points exceeds 10."
+  },
+  "guide_text_simulation_traning_7": {
+    "cn": "数据溢出后战力点数回滚，不仅会导致奖励数额减少，还会增加惩罚，使得战斗难度大幅上升。",
+    "en": "Data Overflow will roll back the Battle Points, reduce the amount of rewards that can be earned, and apply a penalty that makes the battle a lot more difficult."
+  },
+  "guide_text_simulation_traning_8": {
+    "cn": "所以请谨慎判断，是否要进行下一张数据铭牌的抽取。",
+    "en": "So think carefully before drawing the next Dataplate."
+  },
+  "guide_text_simulation_traning_9": {
+    "cn": "当前的战力点之和还远不到溢出的状态，请再按下此处进行一次抽取。",
+    "en": "Current sum of Battle Points is far from the Data Overflow limit. Press this to draw again."
+  },
+  "guide_text_simulation_traning_9_ct": {
+    "cn": "当前的战力点之和还远不到溢出的状态，请再按下<action=simulation_training_main_draw>进行一次抽取。",
+    "en": "Current sum of Battle Points is far from the Data Overflow limit. Press <action=simulation_training_main_draw> to draw again."
+  },
+  "guide_text_simulation_traning_double_1": {
+    "cn": "升级演武平台操作等级到2级后，可以使用<@gd.key>“奖励翻倍”</>使得该局演算的奖励翻倍。",
+    "en": "Upgrading the Trial Arena to operations level 2 adds the <@gd.key>Rewards Doubling</> feature that can double the rewards of a Trial attempt."
+  },
+  "guide_text_simulation_traning_double_2": {
+    "cn": "“奖励翻倍”次数每日有限，在抽取至少一张铭牌后可使用，且仅能在<@gd.key>第三次抽取铭牌前</>使用，请管理员仔细思考判断使用时机，最大化收益。",
+    "en": "There is a daily usage limit for \"Rewards Doubling\", and it can only be used after drawing at least 1 Dataplate and <@gd.key>before drawing the 3rd Dataplate</>. Think carefully on its use to maximize the rewards."
+  },
+  "guide_text_simulation_traning_double_3": {
+    "cn": "对抽牌结果不满意时，也可以按下此处<@gd.key>放弃</>当前抽出的数据铭牌。",
+    "en": "If the draw is unsatisfactory, click <@gd.key>Abandon</> to abandon the current Dataplate(s) drawn."
+  },
+  "guide_text_simulation_traning_double_3_ct": {
+    "cn": "对抽牌结果不满意时，也可以按下<action=simulation_training_main_give_up><@gd.key>放弃</>当前抽出的数据铭牌。",
+    "en": "If the draw is unsatisfactory, press <action=simulation_training_main_give_up> to <@gd.key>abandon</> the current Dataplate(s) drawn."
+  },
+  "guide_text_simulation_traning_double_4": {
+    "cn": "“放弃”次数每日有限，使用后再次放弃将会<@gd.key>消耗本日的奖励演算次数</>。",
+    "en": "There is a daily usage limit for \"Abandon\". Once used up, abandoning again will <@gd.key>consume your daily rewarded trial attempts</>."
+  },
+  "guide_text_simulation_traning_double_5": {
+    "cn": "每日的奖励演算次数用完后，会进入<@gd.key>自由演算模式</>。",
+    "en": "Using up daily rewarded trials activates <@gd.key>Free Trial Mode</>."
+  },
+  "guide_text_simulation_traning_unlimited": {
+    "cn": "每日的奖励演算次数用完后，会进入<@gd.key>自由演算模式</>。该模式无调度券演算奖励，可无限次游玩。",
+    "en": "Using up daily rewarded trials activates <@gd.key>Free Trial Mode</>. There is no limit for attempting Free Trial Mode but it rewards no stock bills upon successful completion."
+  },
+  "guide_text_simulationtraining_tower_1": {
+    "cn": "这片高台区域已经过处理，可放置作战设备，请试试使用作战设备辅助战斗吧。",
+    "en": "This elevated area has been engineered to accommodate combat facilities. Try placing them to support the battle."
   },
   "guide_text_snapshot_formation_1": {
     "cn": "在拍照模式中，可在此处查看并编辑<@gd.key>合影站位</>。",
@@ -32572,12 +33636,12 @@
     "en": "To <@gd.key>visit other friends</>, simply select them from this list, then press <action=friend_cell_select> to visit their ship."
   },
   "guide_text_spaceship_receptionroom_visitor_visitlist_3": {
-    "cn": "如果希望返回自己的飞船，则可以直接点击<@gd.key>结束拜访</>按钮。",
-    "en": "To return to your own ship, simply click the <@gd.key>End Visit</> button."
+    "cn": "如果希望离开好友的飞船，则可以直接点击<@gd.key>结束拜访</>或<@gd.key>返回帝江号</>按钮。",
+    "en": "To leave a friend's ship, either click the <@gd.key>End Visit</> button or the <@gd.key>Return to Dijiang</> button."
   },
   "guide_text_spaceship_receptionroom_visitor_visitlist_3_ct": {
-    "cn": "如果希望返回自己的飞船，则可以按下<action=friend_new_friend_request>来<@gd.key>结束拜访</>。",
-    "en": "To return to your own ship, press <action=friend_new_friend_request> to <@gd.key>end the visit</>."
+    "cn": "如果希望离开好友的飞船，则可以直接按下<@gd.key>结束拜访</>或<@gd.key>返回帝江号</>按钮。",
+    "en": "To leave a friend's ship, either press the <@gd.key>End Visit</> button or the <@gd.key>Return to Dijiang</> button."
   },
   "guide_text_spaceship_recyclestation_desc_1": {
     "cn": "建造和升级“帝江号”中的功能舱室都需要使用<@gd.key>航天建材</>。",
@@ -34688,8 +35752,8 @@
     "en": "Derangement: Natural Increase"
   },
   "guide_text_weekly_raid_area_title_2": {
-    "cn": " 稳定区",
-    "en": " Stable Area"
+    "cn": "稳定区",
+    "en": "Stable Area"
   },
   "guide_text_weekly_raid_area_title_3": {
     "cn": "不同区域的紊乱值",
@@ -35449,19 +36513,19 @@
   },
   "guide_text_xiranite_ppole_2_4": {
     "cn": "<@gd.key>息壤供电桩</>会<@gd.key>自动与附近的电力设备连接</>，请放置在水泵和给水器旁为其供电。",
-    "en": "The <@gd.key>Xiranite Pylon</> will <@gd.key>automatically connect with nearby power facilities</>. Place it near the Fluid Pump and Fluid Supply Unit to power them."
+    "en": "The <@gd.key>Xiranite Pylon</> will <@gd.key>auto-connect with nearby power facilities</>. Place it near the Fluid Pump and Fluid Supply Unit to power them."
   },
   "guide_text_xiranite_ppole_3_1_weak": {
     "cn": "背包已满，<@gd.key>息壤供电桩</>等设备已放入<@gd.key>仓库</>，请前往集成核心区域从仓库中取出。",
     "en": "Backpack is full. The <@gd.key>Xiranite Pylon</> has been placed in the <@gd.key>Depot</>. Go to the Core AIC Area to retrieve the facility from the Depot."
   },
   "guide_text_xiranite_ppole_desc_1": {
-    "cn": "息壤中继器是武陵地区特有的设备。在集成核心区域外可<@gd.key>自动连接</>协议核心与全部息壤电力设备（80m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行电力传输与小范围供电。",
-    "en": "Xiranite Relays are exclusive to the region of Wuling. When placed outside the Core AIC Area, they <@gd.key>auto-connect</> to the PAC and any Xiranite power facilities within an 80-meter radius, but cannot connect to other power facilities within the Core AIC Area. When placed inside the Core AIC Area, they only auto-connect to the PAC. Xiranite Relays can be used for power transmission and powering facilities within a short range."
+    "cn": "息壤中继器是武陵地区特有的设备。可<@gd.key>自动连接</>协议核心与全部息壤电力设备（80m内）。在集成核心区域内可<@gd.key>无视距离限制</>自动连接协议核心。可进行电力传输与小范围供电。",
+    "en": "Xiranite Relays are exclusive to the region of Wuling. They can <@gd.key>auto-connect</> to the Protocol Automation-Core (PAC) and any type of Xiranite power facilities within 80 meters. When placed inside the Core AIC Area, they can auto-connect to the PAC <@gd.key>regardless of distance</>. Xiranite Relays can be used for power transmission and can supply power to nearby facilities."
   },
   "guide_text_xiranite_ppole_desc_2": {
-    "cn": "息壤供电桩也是武陵地区特有的设备。在集成核心区域外可<@gd.key>自动连接</>协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
-    "en": "Xiranite Pylons are exclusive to the region of Wuling. When placed outside the Core AIC Area, they <@gd.key>auto-connect</> to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, they cannot connect to other power facilities within the Core AIC Area. When placed inside the Core AIC Area, they only auto-connect to the PAC. Xiranite Pylons can be used for powering facilities within range and power transmission across short distances."
+    "cn": "息壤供电桩也是武陵地区特有的设备。可<@gd.key>自动连接</>协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内）。在集成核心区域内可<@gd.key>无视距离限制</>自动连接协议核心。可进行范围供电与短距离电力传输。",
+    "en": "Xiranite Pylons are also exclusive to the region of Wuling. They can <@gd.key>auto-connect</> to the Protocol Automation-Core (PAC) and Xiranite Relays within 80 meters; and to Xiranite Pylons and other power facilities within 30 meters. When placed inside the Core AIC Area, they can auto-connect to the PAC <@gd.key>regardless of distance</>. Xiranite Pylons can be used to supply power to facilities within range and transmit power across short distances."
   },
   "guide_text_xiranite_ppole_intro_1": {
     "cn": "背包里已经放有<@gd.key>息壤供电桩</>，请按下快捷键<action=common_open_inventory>或按住<image=\"KeyIcon/icon_key_alt\" scale=1.3>点击此处，打开背包。",
@@ -35585,7 +36649,7 @@
   },
   "guide_text_xiranite_trail_hint": {
     "cn": "息壤滑块的运动方向，由它与主控干员之间的<@gd.key>相对位置</>决定；发现滑块无法推动，不妨走到滑块的另一侧试试。",
-    "en": "The direction of the Xiranite Sliding Block's movement is determined by its <@gd.key>position relative</> to that of the controlled operator."
+    "en": "The direction of the Xiranite Sliding Block's movement is based on the <@gd.key>relative position</> of the controlled operator. If the block does not move, walk to the other side of the Xiranite Sliding Block and spray again."
   },
   "guide_text_xiranite_trail_hint_2": {
     "cn": "某些息壤导流轨道两端都有导流扣，不妨尝试将停在轨道一端导流扣中的滑块<@gd.key>再次推出</>。",
@@ -35707,6 +36771,50 @@
     "cn": "点击此处，协同庄方宜使用<@gd.key>惊霆诀</>，大范围攻击附近敌人！",
     "en": "Tap here to team up with Zhuang Fangyi and cast <@gd.key>Mantra of Sundering</> that attacks nearby enemies in a large area!"
   },
+  "guide_text_zhuangfy_chartrain01_02_1": {
+    "cn": "庄方宜的战技会在附近位置生成1柄<@ba.key>青霆剑</>。",
+    "en": "Zhuang Fangyi's battle skill creates 1 <@ba.key>Sunderblade</> nearby."
+  },
+  "guide_text_zhuangfy_chartrain01_02_2": {
+    "cn": "庄方宜的战技会引导目标周围一定范围内的<@ba.key>青霆剑</>依次雷击目标。",
+    "en": "Zhuang Fangyi's battle skill will channel <@ba.key>Sunderblades</> within range and unleash one Thunder Strike after another upon the target."
+  },
+  "guide_text_zhuangfy_chartrain01_02_3": {
+    "cn": "庄方宜的战技会消耗目标的<#ba.conduct>导电</>，使战技伤害提升，并基于消耗的<#ba.statuslevel>异常等级</>额外生成<@ba.key>青霆剑</>。",
+    "en": "Zhuang Fangyi's battle skill consumes the target's <#ba.conduct>Electrification</> to increase DMG dealt by the battle skill. It also creates <@ba.key>Sunderblades</> based on the <#ba.statuslevel>Status Level</> of the Electrification consumed."
+  },
+  "guide_text_zhuangfy_chartrain01_02_title": {
+    "cn": "庄方宜的战技",
+    "en": "Zhuang Fangyi: Battle Skill"
+  },
+  "guide_text_zhuangfy_chartrain01_04_1": {
+    "cn": "主控干员<#ba.lastcombo>重击</>或处决命中处于<#ba.pulseinflict>电磁附着</>的目标后可以触发庄方宜的连携技。",
+    "en": "Zhuang Fangyi's combo skill is triggered when the controlled operator performs a <#ba.lastcombo>Final Strike</> or Finisher on a target with <#ba.pulseinflict>Electric Infliction</>."
+  },
+  "guide_text_zhuangfy_chartrain01_04_2": {
+    "cn": "庄方宜的连携技会造成<@ba.pulse>电磁伤害</>，<#ba.consume>消耗</>敌人的<#ba.pulseinflict>电磁附着</>并强制施加<#ba.conduct>导电</>。",
+    "en": "Zhuang Fangyi's combo skill deals <@ba.pulse>Electric DMG</>, <#ba.consume>consumes</> the enemy's <#ba.pulseinflict>Electric Infliction</>, and forcibly applies <#ba.conduct>Electrification</>."
+  },
+  "guide_text_zhuangfy_chartrain01_04_title": {
+    "cn": "庄方宜的连携技",
+    "en": "Zhuang Fangyi: Combo Skill"
+  },
+  "guide_text_zhuangfy_chartrain01_05_1": {
+    "cn": "庄方宜的终结技会进入<@ba.key>天理合真</>状态，普通攻击获得强化，自身行动更不容易被打断。",
+    "en": "Zhuang Fangyi's ultimate transforms her into the <@ba.key>Empyrean of Truth</> that enhances her Basic Attacks. All her actions also become harder to interrupt."
+  },
+  "guide_text_zhuangfy_chartrain01_05_2": {
+    "cn": "<@ba.key>天理合真</>状态下强化战技<@ba.key>惊霆诀</>，并在最后一击命中时施加<#ba.pulseinflict>电磁附着</>。首次施放战技不消耗技力并生成3柄<@ba.key>青霆剑</>。",
+    "en": "As the <@ba.key>Empyrean of Truth</>, Zhuang Fangyi's battle skill <@ba.key>Mantra of Sundering</> becomes enhanced and its last hit applies <#ba.pulseinflict>Electric Infliction</>. The first casting of her battle skill after transformation also costs no SP and is guaranteed to create 3 <@ba.key>Sunderblades</>."
+  },
+  "guide_text_zhuangfy_chartrain01_05_3": {
+    "cn": "<@ba.key>天理合真</>状态下强化连携技<@ba.key>一息万变</>，且冷却恢复速度提升。",
+    "en": "As the <@ba.key>Empyrean of Truth</>, Zhuang Fangyi's combo skill <@ba.key>Breath of Transformation</> is enhanced and gains a faster cooldown."
+  },
+  "guide_text_zhuangfy_chartrain01_05_title": {
+    "cn": "庄方宜的终结技",
+    "en": "Zhuang Fangyi: Ultimate"
+  },
   "guide_text_zhuangfy_chartrial01_01_1": {
     "cn": "庄方宜是一名能持续造成大量<@ba.pulse>电磁伤害</>的突击干员。她可以通过战技不断生成<@ba.key>青霆剑</>雷击敌人，使用终结技后，还能大幅提升战斗性能。",
     "en": "Zhuang Fangyi is a striker who can deal continuous and massive <@ba.pulse>Electric DMG</>. Her battle skills can create <@ba.key>Sunderblades</> that unleash Thunder Strikes on the enemy. Her ultimate also greatly enhances her combat capabilities."
@@ -35746,50 +36854,6 @@
   "guide_text_zhuangfy_chartrial01_title5": {
     "cn": "作战方式",
     "en": "Combat Tips"
-  },
-  "guide_text_zhuangfy_chartrian01_02_1": {
-    "cn": "庄方宜的战技会在附近位置生成1柄<@ba.key>青霆剑</>。",
-    "en": "Zhuang Fangyi's battle skill creates 1 <@ba.key>Sunderblade</> nearby."
-  },
-  "guide_text_zhuangfy_chartrian01_02_2": {
-    "cn": "庄方宜的战技会引导目标周围一定范围内的<@ba.key>青霆剑</>依次雷击目标。",
-    "en": "Zhuang Fangyi's battle skill will channel <@ba.key>Sunderblades</> within range and unleash one Thunder Strike after another upon the target."
-  },
-  "guide_text_zhuangfy_chartrian01_02_3": {
-    "cn": "庄方宜的战技会消耗目标的<#ba.conduct>导电</>，使战技伤害提升，并基于消耗的<#ba.statuslevel>异常等级</>额外生成<@ba.key>青霆剑</>。",
-    "en": "Zhuang Fangyi's battle skill consumes the target's <#ba.conduct>Electrification</> to increase DMG dealt by the battle skill. It also creates <@ba.key>Sunderblades</> based on the <#ba.statuslevel>Status Level</> of the Electrification consumed."
-  },
-  "guide_text_zhuangfy_chartrian01_02_title": {
-    "cn": "庄方宜的战技",
-    "en": "Zhuang Fangyi: Battle Skill"
-  },
-  "guide_text_zhuangfy_chartrian01_04_1": {
-    "cn": "主控干员<#ba.lastcombo>重击</>或处决命中处于<#ba.pulseinflict>电磁附着</>的目标后可以触发庄方宜的连携技。",
-    "en": "Zhuang Fangyi's combo skill is triggered when the controlled operator performs a <#ba.lastcombo>Final Strike</> or Finisher on a target with <#ba.pulseinflict>Electric Infliction</>."
-  },
-  "guide_text_zhuangfy_chartrian01_04_2": {
-    "cn": "庄方宜的连携技会造成<@ba.pulse>电磁伤害</>，<#ba.consume>消耗</>敌人的<#ba.pulseinflict>电磁附着</>并强制施加<#ba.conduct>导电</>。",
-    "en": "Zhuang Fangyi's combo skill deals <@ba.pulse>Electric DMG</>, <#ba.consume>consumes</> the enemy's <#ba.pulseinflict>Electric Infliction</>, and forcibly applies <#ba.conduct>Electrification</>."
-  },
-  "guide_text_zhuangfy_chartrian01_04_title": {
-    "cn": "庄方宜的连携技",
-    "en": "Zhuang Fangyi: Combo Skill"
-  },
-  "guide_text_zhuangfy_chartrian01_05_1": {
-    "cn": "庄方宜的终结技会进入<@ba.key>天理合真</>状态，普通攻击获得强化，自身行动更不容易被打断。",
-    "en": "Zhuang Fangyi's ultimate transforms her into the <@ba.key>Empyrean of Truth</> that enhances her Basic Attacks. All her actions also become harder to interrupt."
-  },
-  "guide_text_zhuangfy_chartrian01_05_2": {
-    "cn": "<@ba.key>天理合真</>状态下强化战技<@ba.key>惊霆诀</>，并在最后一击命中时施加<#ba.pulseinflict>电磁附着</>。首次施放战技不消耗技力并生成3柄<@ba.key>青霆剑</>。",
-    "en": "As the <@ba.key>Empyrean of Truth</>, Zhuang Fangyi's battle skill <@ba.key>Mantra of Sundering</> becomes enhanced and its last hit applies <#ba.pulseinflict>Electric Infliction</>. The first casting of her battle skill after transformation also costs no SP and is guaranteed to create 3 <@ba.key>Sunderblades</>."
-  },
-  "guide_text_zhuangfy_chartrian01_05_3": {
-    "cn": "<@ba.key>天理合真</>状态下强化连携技<@ba.key>一息万变</>，且冷却恢复速度提升。",
-    "en": "As the <@ba.key>Empyrean of Truth</>, Zhuang Fangyi's combo skill <@ba.key>Breath of Transformation</> is enhanced and gains a faster cooldown."
-  },
-  "guide_text_zhuangfy_chartrian01_05_title": {
-    "cn": "庄方宜的终结技",
-    "en": "Zhuang Fangyi: Ultimate"
   },
   "guide_title_battle_building_energy_1": {
     "cn": "作战设备充能 - 一",
@@ -35850,6 +36914,14 @@
   "guide_title_domain_development_9": {
     "cn": "提升地区建设值",
     "en": "Regional Development Metric: Source"
+  },
+  "guide_title_domain_development_list_1": {
+    "cn": "事务总览",
+    "en": "Regional Overview"
+  },
+  "guide_title_domain_development_list_2": {
+    "cn": "事务处理",
+    "en": "Regional Tasks"
   },
   "guide_title_domain_transport_1": {
     "cn": "地区仓库",
@@ -35946,6 +37018,14 @@
   "guide_title_settlement_defense_sum_3": {
     "cn": "自动防御与长期安全",
     "en": "Auto-Defense & Fully Secure"
+  },
+  "guide_title_simulation_traning": {
+    "cn": "数据溢出",
+    "en": "Data Overflow"
+  },
+  "guide_title_simulation_traning_unlimited": {
+    "cn": "自由演算",
+    "en": "Free Trial"
   },
   "guide_title_subhub_1": {
     "cn": "次级核心运转",
@@ -36345,7 +37425,7 @@
   },
   "key_hint_activity_freemonthlypass_popup_confirm": {
     "cn": "确认今日焕新月卡奖励",
-    "en": "Confirm Daily Pristine Monthly Pass Reward"
+    "en": "Confirm Daily Pristine Monthly Pass Rewards"
   },
   "key_hint_activity_gacha_beginner_cancel_focus": {
     "cn": "返回",
@@ -36373,7 +37453,7 @@
   },
   "key_hint_activity_stamina_receive_all": {
     "cn": "一键领取",
-    "en": "Collect All"
+    "en": "Claim All"
   },
   "key_hint_add_stamina_yuanshi_detail": {
     "cn": "查看详情",
@@ -36414,6 +37494,14 @@
   "key_hint_adventure_stage_focus_top_reward_list": {
     "cn": "节点奖励预览",
     "en": "Node Rewards Preview"
+  },
+  "key_hint_backup_power_toggle_off": {
+    "cn": "取消自动启用",
+    "en": "Cancel Auto-Activate"
+  },
+  "key_hint_backup_power_toggle_on": {
+    "cn": "自动启用",
+    "en": "Auto-Activate"
   },
   "key_hint_battle_throw_mode_rotate_show_only": {
     "cn": "调整方向",
@@ -36783,6 +37871,10 @@
     "cn": "基质预览",
     "en": "Essence Preview"
   },
+  "key_hint_common_get_item_reward": {
+    "cn": "领取奖励",
+    "en": "Claim"
+  },
   "key_hint_common_help_btn": {
     "cn": "说明",
     "en": "Info"
@@ -36873,7 +37965,7 @@
   },
   "key_hint_common_switch_area_prev": {
     "cn": "切换选区",
-    "en": "Switch Area"
+    "en": "Switch Selection"
   },
   "key_hint_common_touch_panel_menu": {
     "cn": "信用说明",
@@ -36886,6 +37978,26 @@
   "key_hint_common_view_item": {
     "cn": "查看",
     "en": "View"
+  },
+  "key_hint_contingency_analyze_share_text": {
+    "cn": "导入",
+    "en": "Import"
+  },
+  "key_hint_contingency_clear_all_tag": {
+    "cn": "清空选择",
+    "en": "Clear All"
+  },
+  "key_hint_contingency_copy_share_text": {
+    "cn": "复制",
+    "en": "Copy"
+  },
+  "key_hint_contingency_delete_tag_effect_cell": {
+    "cn": "移除指标",
+    "en": "Remove Test Criteria"
+  },
+  "key_hint_contingency_share_code_input_field": {
+    "cn": "输入分享码",
+    "en": "Enter Sharing Code"
   },
   "key_hint_dialog_auto_play": {
     "cn": "自动播放",
@@ -36926,6 +38038,10 @@
   "key_hint_domain_grade_focus_reward_list": {
     "cn": "查看里程碑奖励",
     "en": "View Milestone Rewards"
+  },
+  "key_hint_domain_overview_goto_main_page": {
+    "cn": "前往处理",
+    "en": "Go to Task"
   },
   "key_hint_domain_trans_select_cancel_select": {
     "cn": "取消选中",
@@ -37002,6 +38118,10 @@
   "key_hint_entry_reward_info": {
     "cn": "奖励预览",
     "en": "Rewards Preview"
+  },
+  "key_hint_equip_tech_clear_selected_materials": {
+    "cn": "重置",
+    "en": "Reset"
   },
   "key_hint_equip_tech_enhance_target_detail": {
     "cn": "装备详情",
@@ -37683,6 +38803,26 @@
     "cn": "切换开关",
     "en": "Switch ON/OFF"
   },
+  "key_hint_gem_wishlist_confirm_btn": {
+    "cn": "保存愿望单",
+    "en": "Save Wishlist"
+  },
+  "key_hint_gem_wishlist_entrance_btn": {
+    "cn": "基质愿望单",
+    "en": "Essence Wishlist"
+  },
+  "key_hint_gem_wishlist_reset_btn": {
+    "cn": "清空重置",
+    "en": "Clear Selection"
+  },
+  "key_hint_gem_wishlist_select_all": {
+    "cn": "全选",
+    "en": "Select All"
+  },
+  "key_hint_gem_wishlist_select_cell": {
+    "cn": "选择",
+    "en": "Select"
+  },
   "key_hint_gemcustomizationbox_confirm": {
     "cn": "确认开启",
     "en": "Confirm Open"
@@ -38043,6 +39183,30 @@
     "cn": "物品详情",
     "en": "Item Details"
   },
+  "key_hint_simulation_training_main_bg_btn_close_punish_popup": {
+    "cn": "返回",
+    "en": "Back"
+  },
+  "key_hint_simulation_training_main_double": {
+    "cn": "奖励翻倍",
+    "en": "Rewards Doubling"
+  },
+  "key_hint_simulation_training_main_draw": {
+    "cn": "抽取铭牌",
+    "en": "Draw Dataplate"
+  },
+  "key_hint_simulation_training_main_enemy_info": {
+    "cn": "敌人信息",
+    "en": "Enemy Intel"
+  },
+  "key_hint_simulation_training_main_give_up": {
+    "cn": "放弃",
+    "en": "Abandon"
+  },
+  "key_hint_simulation_training_main_start_challenge": {
+    "cn": "开始演算",
+    "en": "Start Trial"
+  },
   "key_hint_snapshot_camera_move": {
     "cn": "移动镜头",
     "en": "Move Camera"
@@ -38341,7 +39505,7 @@
   },
   "key_hint_watch_change_right": {
     "cn": "切换选区",
-    "en": "Switch Area"
+    "en": "Switch Selection"
   },
   "key_hint_watch_exchange": {
     "cn": "恢复理智",
@@ -38398,6 +39562,10 @@
   "key_hint_water_drone_attack_start": {
     "cn": "喷洒",
     "en": "Sprinkle"
+  },
+  "key_hint_weapon_gem_enhance_show_gem_tips": {
+    "cn": "基质详情",
+    "en": "Essence Details"
   },
   "key_hint_weapon_upgrade_auto_fill": {
     "cn": "自动填充",
@@ -38574,6 +39742,18 @@
   "lang_int_c27m3_wait": {
     "cn": "在此等待汤汤",
     "en": "Wait for Tangtang"
+  },
+  "lang_int_c31m3_bet": {
+    "cn": "下注",
+    "en": "Place a Bet"
+  },
+  "lang_int_c31m3_walkthrough": {
+    "cn": "穿过竹林",
+    "en": "Pass Through the Grove"
+  },
+  "lang_int_c33m2": {
+    "cn": "观察蝙蝠？",
+    "en": "Observe the Bats(?)"
   },
   "lang_int_campfire_option_1": {
     "cn": "激活",
@@ -39190,6 +40370,14 @@
   "lang_int_pickup_doc": {
     "cn": "拿取文件",
     "en": "Take the Document"
+  },
+  "lang_int_push_column": {
+    "cn": "推动",
+    "en": "Push"
+  },
+  "lang_int_push_column_fail": {
+    "cn": "无法向当前方向推动",
+    "en": "Cannot Push in Current Direction"
   },
   "lang_int_rangxinyu_back": {
     "cn": "归位",
@@ -40276,8 +41464,8 @@
     "en": "Photo: \"Tree of the Old Courtyard\""
   },
   "m1m62_desc_001": {
-    "cn": "关注到蓄水站顶部的垂藤近日出现了过度生长的问题，请拍下它的现状，交由观测站分析。",
-    "en": "The hanging vines atop the Reservoir Station seem to exhibit signs of excessive growth. Please photograph its current state so that the monitoring center can analyze it."
+    "cn": "完成任务「致后来人」后可到达拍摄地。关注到蓄水站顶部的垂藤近日出现了过度生长的问题，请拍下它的现状，交由观测站分析。",
+    "en": "Complete the mission [To Posterity] to reach the site of photography. The hanging vines atop the Reservoir Station seem to exhibit signs of excessive growth. Please photograph its current state so that the monitoring center can analyze it."
   },
   "m1m62_name": {
     "cn": "拍摄垂藤",
@@ -40391,13 +41579,25 @@
     "cn": "当前主线任务进度：",
     "en": "Current main mission progress: "
   },
+  "notify_stamina_drug_expire_content": {
+    "cn": "管理员，您所持有的限时理智药剂于72小时后到期失效，请及时使用。",
+    "en": "Endministrator, your Sanity meds will be expiring in 72 hours. Please use them promptly."
+  },
+  "notify_stamina_drug_expire_title": {
+    "cn": "限时理智药剂即将失效",
+    "en": "LTO Sanity Meds Expiring"
+  },
   "notify_stamina_recover_content": {
-    "cn": "管理员，当前理智已恢复到上限！",
-    "en": "Endmin, your Sanity has been restored to its limits!"
+    "cn": "管理员，您的理智已完全回复，请及时查看。",
+    "en": "Endministrator, your Sanity is fully restored. Check your status now."
   },
   "notify_stamina_recover_title": {
-    "cn": "理智恢复已满",
-    "en": "Sanity fully recovered"
+    "cn": "理智已完全回复",
+    "en": "Sanity Fully Restored"
+  },
+  "npcName_a1m14hebote": {
+    "cn": "赫伯特",
+    "en": "Herbert"
   },
   "npcName_a1m6d1hsfarmer1": {
     "cn": "严肃的武陵人",
@@ -40823,6 +42023,62 @@
     "cn": "“风铃公爵”",
     "en": "\"Duchess of Windbell\""
   },
+  "npcName_c31disciple1": {
+    "cn": "接引弟子",
+    "en": "Guiding Disciple"
+  },
+  "npcName_c31disciple2": {
+    "cn": "守门弟子",
+    "en": "Gatekeeping Disciple"
+  },
+  "npcName_c31disciple3": {
+    "cn": "自信的弟子",
+    "en": "Confident Disciple"
+  },
+  "npcName_c31informant": {
+    "cn": "线人",
+    "en": "Informant"
+  },
+  "npcName_c31m1riverbandits3": {
+    "cn": "守门弟子",
+    "en": "Gatekeeping Disciple"
+  },
+  "npcName_c31m1riverbandits4": {
+    "cn": "守门弟子",
+    "en": "Gatekeeping Disciple"
+  },
+  "npcName_c31m1riverbandits5": {
+    "cn": "守门弟子",
+    "en": "Gatekeeping Disciple"
+  },
+  "npcName_c31m2riverbandits1": {
+    "cn": "激动的弟子",
+    "en": "Excited Disciple"
+  },
+  "npcName_c31m3riverbandits6": {
+    "cn": "排队的寨民",
+    "en": "Stockader in Queue"
+  },
+  "npcName_c31master1": {
+    "cn": "大师父",
+    "en": "Grand Master"
+  },
+  "npcName_c31master2": {
+    "cn": "二师父",
+    "en": "Senior Master"
+  },
+  "npcName_c31master3": {
+    "cn": "三师父",
+    "en": "Master"
+  },
+  "npcName_c33m1eny1": {
+    "cn": "裂地者",
+    "en": "Landbreaker"
+  },
+  "npcName_c33m1unionminer2": {
+    "cn": "温和的工人",
+    "en": "Gentle Crew Mate"
+  },
   "npcName_c6m1Unionminer2": {
     "cn": "疲惫的工团人员",
     "en": "Exhausted UWST Crew Mate"
@@ -40850,6 +42106,10 @@
   "npcName_cageman": {
     "cn": "王玖",
     "en": "Wang Jiu"
+  },
+  "npcName_camille": {
+    "cn": "卡缪",
+    "en": "Camille"
   },
   "npcName_carly": {
     "cn": "卡莉",
@@ -40918,6 +42178,26 @@
   "npcName_dengen": {
     "cn": "邓恩",
     "en": "Dean"
+  },
+  "npcName_depot_jiana": {
+    "cn": "嘉娜",
+    "en": "Jana"
+  },
+  "npcName_depot_mataiao": {
+    "cn": "马泰奥",
+    "en": "Matteo"
+  },
+  "npcName_depot_pulimo": {
+    "cn": "普里莫·林德",
+    "en": "Primo Linde"
+  },
+  "npcName_depot_subaiyi": {
+    "cn": "苏白易",
+    "en": "Su Baiyi"
+  },
+  "npcName_depot_yushi": {
+    "cn": "于施",
+    "en": "Yu Shi"
   },
   "npcName_difu": {
     "cn": "笛福",
@@ -41239,6 +42519,10 @@
     "cn": "纪炳",
     "en": "Ji Bing"
   },
+  "npcName_jiefuli": {
+    "cn": "杰弗里",
+    "en": "Jeffrey"
+  },
   "npcName_jieyunke": {
     "cn": "截云客",
     "en": "Cloud Stalker"
@@ -41282,6 +42566,10 @@
   "npcName_kalebu": {
     "cn": "卡勒布",
     "en": "Kreb"
+  },
+  "npcName_kali-paizhaoerqi": {
+    "cn": "卡莉",
+    "en": "Carly"
   },
   "npcName_karin": {
     "cn": "秋栗",
@@ -41434,6 +42722,10 @@
   "npcName_lingyue": {
     "cn": "菱月",
     "en": "Ling Yue"
+  },
+  "npcName_linhu": {
+    "cn": "林瑚",
+    "en": "Lin Hu"
   },
   "npcName_linke": {
     "cn": "林轲",
@@ -42023,6 +43315,10 @@
     "cn": "埃特拉",
     "en": "Estella"
   },
+  "npcName_woerdun": {
+    "cn": "沃尔顿",
+    "en": "Walton"
+  },
   "npcName_wolfgd": {
     "cn": "狼卫",
     "en": "Wulfgard"
@@ -42447,6 +43743,14 @@
     "cn": "环卫工人",
     "en": "Urban Sanitation Worker"
   },
+  "npcTitle_065": {
+    "cn": "温和的工人",
+    "en": "Gentle Crew Mate"
+  },
+  "npcTitle_068": {
+    "cn": "卡莉",
+    "en": "Carly"
+  },
   "objective_a1m10_1_001": {
     "cn": "查看<@qu.key>佩丽卡</>发来的消息",
     "en": "Read <@qu.key>Perlica's</> messages"
@@ -42690,6 +43994,22 @@
   "objective_a1m6d7_2_001": {
     "cn": "与<@qu.key>比赛工作人员</>交谈",
     "en": "Talk to the <@qu.key>tournament staff</>"
+  },
+  "objective_a1m7_1_001": {
+    "cn": "查看<@qu.key>菲奥娜</>发来的消息",
+    "en": "Read <@qu.key>Fiona's</> messages"
+  },
+  "objective_a1m7_2_001": {
+    "cn": "前往<@qu.key>方兴衢</>，与卡莉交谈",
+    "en": "Go to <@qu.key>Fangxing Avenue</> and talk to Carly"
+  },
+  "objective_a1m7_3_001": {
+    "cn": "帮助卡莉完成<@qu.key>故事书</>",
+    "en": "Help Carly complete her <@qu.key>storybook</>"
+  },
+  "objective_a1m7_4_001": {
+    "cn": "和<@qu.key>卡莉</>聊一聊",
+    "en": "Talk to <@qu.key>Carly</>"
   },
   "objective_a1m8d1_1_001": {
     "cn": "与<@qu.key>彦宁</>交谈",
@@ -43768,7 +45088,7 @@
     "en": "Check the clues"
   },
   "objective_c28m2_1_001": {
-    "cn": "寻找“<@qu.key>风铃公爵”</>",
+    "cn": "寻找<@qu.key>“风铃公爵”</>",
     "en": "Find the <@qu.key>\"Duchess of Windbell\"</>"
   },
   "objective_c28m2_2_001": {
@@ -43894,6 +45214,198 @@
   "objective_c28m3_24_001": {
     "cn": "追上“红宝石大盗”，拿到<@qu.key>钥匙</>",
     "en": "Chase down the \"Ruby Rogue\" and get the <@qu.key>key</>"
+  },
+  "objective_c31m1_10_001": {
+    "cn": "向<@qu.key>弭弗</>打听当年的事",
+    "en": "Ask <@qu.key>Mi Fu</> about the past"
+  },
+  "objective_c31m1_11_001": {
+    "cn": "与弭弗讨论想法后出发",
+    "en": "Share your thoughts with Mi Fu before setting off"
+  },
+  "objective_c31m1_1_001": {
+    "cn": "查看<@qu.key>弭弗</>发来的消息",
+    "en": "Read <@qu.key>Mi Fu</>'s messages"
+  },
+  "objective_c31m1_2_001": {
+    "cn": "前往<@qu.key>总桩办公室</>，与弭弗会合",
+    "en": "Meet Mi Fu at the <@qu.key>Main Pillar Office</>"
+  },
+  "objective_c31m1_3_001": {
+    "cn": "进入<@qu.key>总桩办公室</>",
+    "en": "Enter the <@qu.key>Main Pillar Office</>"
+  },
+  "objective_c31m1_4_001": {
+    "cn": "前往<@qu.key>迷踪林</>",
+    "en": "Go to the <@qu.key>Stragglers Grove</>"
+  },
+  "objective_c31m1_5_001": {
+    "cn": "击败<@qu.key>围攻者</>",
+    "en": "Defeat the <@qu.key>ambushers</>"
+  },
+  "objective_c31m1_6_001": {
+    "cn": "与幕后主使对峙",
+    "en": "Face off against the ones behind it all"
+  },
+  "objective_c31m1_7_001": {
+    "cn": "与<@qu.key>弭弗</>聊一聊",
+    "en": "Talk to <@qu.key>Mi Fu</>"
+  },
+  "objective_c31m1_8_001": {
+    "cn": "与弭弗一起进入<@qu.key>竹林</>",
+    "en": "Enter the <@qu.key>Stragglers Grove</> with Mi Fu"
+  },
+  "objective_c31m1_9_001": {
+    "cn": "跟随<@qu.key>弭弗</>",
+    "en": "Follow <@qu.key>Mi Fu</>"
+  },
+  "objective_c31m2_10_001": {
+    "cn": "向<@qu.key>弭弗</>回报情况",
+    "en": "Report to <@qu.key>Mi Fu</>"
+  },
+  "objective_c31m2_11_001": {
+    "cn": "前往参与第二场挑战",
+    "en": "Go and face the second challenge"
+  },
+  "objective_c31m2_12_001": {
+    "cn": "前往<@qu.key>擂台</>",
+    "en": "Head to the <@qu.key>arena</>"
+  },
+  "objective_c31m2_13_001": {
+    "cn": "与二师父的<@qu.key>弟子</>交手",
+    "en": "Spar with Senior Master's <@qu.key>disciples</>"
+  },
+  "objective_c31m2_14_001": {
+    "cn": "坚持通过<@qu.key>铳斗术</>的考验",
+    "en": "Survive and pass the trial of the <@qu.key>Blast Fist Technique</>"
+  },
+  "objective_c31m2_15_001": {
+    "cn": "击败<@qu.key>二师父</>",
+    "en": "Defeat <@qu.key>Senior Master</>"
+  },
+  "objective_c31m2_17_001": {
+    "cn": "与<@qu.key>弭弗</>交谈",
+    "en": "Talk to <@qu.key>Mi Fu</>"
+  },
+  "objective_c31m2_18_001": {
+    "cn": "离开这里，让弭弗静一静",
+    "en": "Leave the place and give Mi Fu some room to think"
+  },
+  "objective_c31m2_19_001": {
+    "cn": "前往<@qu.key>约定地点</>",
+    "en": "Head to the <@qu.key>rendezvous site</>"
+  },
+  "objective_c31m2_1_001": {
+    "cn": "与弭弗一起前往<@qu.key>渡口</>",
+    "en": "Go to the <@qu.key>ferry point</> with Mi Fu"
+  },
+  "objective_c31m2_20_001": {
+    "cn": "与<@qu.key>三位师父</>聊一聊",
+    "en": "Talk to the <@qu.key>three masters</>"
+  },
+  "objective_c31m2_21_001": {
+    "cn": "查看消息",
+    "en": "View the message"
+  },
+  "objective_c31m2_22_001": {
+    "cn": "与<@qu.key>守门者</>交谈",
+    "en": "Talk to the <@qu.key>gatekeeper</>"
+  },
+  "objective_c31m2_23_001": {
+    "cn": "跟随<@qu.key>神秘人</>",
+    "en": "Follow the <@qu.key>mysterious stranger</>"
+  },
+  "objective_c31m2_24_001": {
+    "cn": "找到<@qu.key>三师父</>",
+    "en": "Find <@qu.key>Master</>"
+  },
+  "objective_c31m2_25_001": {
+    "cn": "前往参与挑战",
+    "en": "Go and start the challenge"
+  },
+  "objective_c31m2_26_001": {
+    "cn": "四处逛逛，替弭弗确认武陵城的治安状况",
+    "en": "Patrol Wuling City and keep the peace for Mi Fu"
+  },
+  "objective_c31m2_27_001": {
+    "cn": "向弭弗了解她的三位师父",
+    "en": "Ask Mi Fu about her three masters"
+  },
+  "objective_c31m2_2_001": {
+    "cn": "跟随<@qu.key>守门弟子</>",
+    "en": "Follow the <@qu.key>Gatekeeping Disciple</>"
+  },
+  "objective_c31m2_3_001": {
+    "cn": "击败<@qu.key>三师父</>",
+    "en": "Defeat <@qu.key>Master</>"
+  },
+  "objective_c31m2_4_001": {
+    "cn": "在备战间隙与<@qu.key>弭弗</>聊一聊",
+    "en": "Talk to <@qu.key>Mi Fu</> between training sessions"
+  },
+  "objective_c31m2_5_001": {
+    "cn": "替弭弗回<@qu.key>武陵城</>看看",
+    "en": "Check the situation at <@qu.key>Wuling City</> for Mi Fu"
+  },
+  "objective_c31m2_6_001": {
+    "cn": "跟随<@qu.key>线人</>，寻找可疑者",
+    "en": "Follow the <@qu.key>informant</> and look for any suspicious person"
+  },
+  "objective_c31m3_10_001": {
+    "cn": "准备完成后，与<@qu.key>汤汤</>交谈",
+    "en": "When fully prepared, Talk to <@qu.key>Tangtang</>"
+  },
+  "objective_c31m3_11_001": {
+    "cn": "四处逛逛",
+    "en": "Walk around"
+  },
+  "objective_c31m3_12_001": {
+    "cn": "回去劝说弭弗",
+    "en": "Go back and persuade Mi Fu"
+  },
+  "objective_c31m3_13_001": {
+    "cn": "查看庄方宜发来的消息",
+    "en": "Read the message from Zhuang Fangyi"
+  },
+  "objective_c31m3_14_001": {
+    "cn": "拳出，无悔",
+    "en": "Unleash the Fists of No Regrets"
+  },
+  "objective_c31m3_1_001": {
+    "cn": "询问<@qu.key>弭弗</>的去向",
+    "en": "Ask about <@qu.key>Mi Fu</>'s whereabouts"
+  },
+  "objective_c31m3_2_001": {
+    "cn": "前往参与第三场挑战",
+    "en": "Go and face the third challenge"
+  },
+  "objective_c31m3_3_001": {
+    "cn": "与<@qu.key>汤汤</>聊一聊",
+    "en": "Talk to <@qu.key>Tangtang</>"
+  },
+  "objective_c31m3_4_001": {
+    "cn": "寻找<@qu.key>弭弗</>",
+    "en": "Find <@qu.key>Mi Fu</>"
+  },
+  "objective_c31m3_5_001": {
+    "cn": "去找<@qu.key>汤汤</>",
+    "en": "Find <@qu.key>Tangtang</>"
+  },
+  "objective_c31m3_6_001": {
+    "cn": "登台通过<@qu.key>最后一场挑战</>",
+    "en": "Step onto the stage for the <@qu.key>final challenge</>"
+  },
+  "objective_c31m3_7_001": {
+    "cn": "通过最后一场挑战",
+    "en": "Pass the final challenge"
+  },
+  "objective_c31m3_8_001": {
+    "cn": "挑战<@qu.key>庄方宜</>",
+    "en": "Challenge <@qu.key>Zhuang Fangyi</>"
+  },
+  "objective_c31m3_9_001": {
+    "cn": "与<@qu.key>弭弗</>聊一聊",
+    "en": "Talk to <@qu.key>Mi Fu</>"
   },
   "objective_c6m1_10_001": {
     "cn": "跟随乔万尼，前往<@qu.key>谷地通道</>",
@@ -47439,6 +48951,70 @@
     "cn": "调整参数",
     "en": "Adjust the parameters"
   },
+  "objective_f1m18d3_10_001": {
+    "cn": "查看<@qu.key>浪头</>的情况",
+    "en": "Check on <@qu.key>Lang Tou's</> conditions"
+  },
+  "objective_f1m18d3_11_001": {
+    "cn": "见证结拜仪式",
+    "en": "Witness the brotherhood"
+  },
+  "objective_f1m18d3_12_001": {
+    "cn": "提升<@qu.key>据点发展值</>至当前上限",
+    "en": "Raise <@qu.key>Outpost Prosperity</> to the current limit"
+  },
+  "objective_f1m18d3_13_001": {
+    "cn": "与<@qu.key>洪波</>对话",
+    "en": "Talk to <@qu.key>Hong Bo</>"
+  },
+  "objective_f1m18d3_14_001": {
+    "cn": "守住阵线",
+    "en": "Hold the line"
+  },
+  "objective_f1m18d3_15_001": {
+    "cn": "支援浪头与洪波",
+    "en": "Support Lang Tou and Hong Bo"
+  },
+  "objective_f1m18d3_16_001": {
+    "cn": "击败“<@qu.key>黑风</>”",
+    "en": "Defeat <@qu.key>Blackwind</>"
+  },
+  "objective_f1m18d3_1_001": {
+    "cn": "前往<@qu.key>天王坪援建点</>",
+    "en": "Go to the <@qu.key>Sky King Flats Construction Site</>"
+  },
+  "objective_f1m18d3_2_001": {
+    "cn": "寻找<@qu.key>浪头</>的踪迹",
+    "en": "Find <@qu.key>Lang Tou's</> whereabouts"
+  },
+  "objective_f1m18d3_3_001": {
+    "cn": "寻找<@qu.key>浪头</>",
+    "en": "Find <@qu.key>Lang Tou</>"
+  },
+  "objective_f1m18d3_4_001": {
+    "cn": "击败<@qu.key>兽群</>",
+    "en": "Defeat the <@qu.key>stampede</>"
+  },
+  "objective_f1m18d3_5_001": {
+    "cn": "返回清波寨外寨",
+    "en": "Return to Qingbo Bailey"
+  },
+  "objective_f1m18d3_6_001": {
+    "cn": "击败来犯的<@qu.key>猛兽</>",
+    "en": "Defeat the attacking <@qu.key>beasts</>"
+  },
+  "objective_f1m18d3_7_001": {
+    "cn": "与众人交谈",
+    "en": "Talk to the people"
+  },
+  "objective_f1m18d3_8_001": {
+    "cn": "前往指定位置，迎战<@qu.key>兽群</>",
+    "en": "Fight the <@qu.key>stampede</> at the designated location"
+  },
+  "objective_f1m18d3_9_001": {
+    "cn": "查看庄方宜发来的<@qu.key>消息</>",
+    "en": "Read the <@qu.key>message</> from Zhuang Fangyi"
+  },
   "objective_f1m19d1_10_001": {
     "cn": "前往<@qu.key>方兴衢</>",
     "en": "Go to <@qu.key>Fangxing Avenue</>"
@@ -49275,6 +50851,78 @@
     "cn": "前往<@qu.key>水质检测室</>",
     "en": "Go to the <@qu.key>Water Quality Testing Room</>"
   },
+  "objective_gm02m15_1_001": {
+    "cn": "与<@qu.key>沃尔顿</>交谈",
+    "en": "Talk to <@qu.key>Walton</>"
+  },
+  "objective_gm02m15_2_001": {
+    "cn": "前往沃尔顿指示的<@qu.key>地点</>",
+    "en": "Go to the <@qu.key>location</> marked by Walton"
+  },
+  "objective_gm02m15_3_001": {
+    "cn": "登上崖壁",
+    "en": "Ascend the Cliff"
+  },
+  "objective_gm02m15_4_001": {
+    "cn": "调查三座<@qu.key>剑桩</>",
+    "en": "Investigate the three <@qu.key>sword steles</>"
+  },
+  "objective_gm02m15_5_001": {
+    "cn": "前往<@qu.key>高处</>拍摄全景照",
+    "en": "Photograph the entire place from a <@qu.key>vantage point</>"
+  },
+  "objective_gm02m15_6_001": {
+    "cn": "<@qu.key>拍照</>记录三座剑桩和小机灵",
+    "en": "<@qu.key>Photograph</> the three sword steles and Smartie"
+  },
+  "objective_gm02m15_7_001": {
+    "cn": "向<@qu.key>沃尔顿</>回报情况",
+    "en": "Tell <@qu.key>Walton</> about the survey"
+  },
+  "objective_gm02m15_8_001": {
+    "cn": "阅读<@qu.key>碑文</>",
+    "en": "Read the <@qu.key>inscriptions</>"
+  },
+  "objective_gm02m16_10_001": {
+    "cn": "启动演武平台",
+    "en": "Activate Trial Arena"
+  },
+  "objective_gm02m16_1_001": {
+    "cn": "前往林瑚所在的位置",
+    "en": "Go to Lin Hu's location"
+  },
+  "objective_gm02m16_2_001": {
+    "cn": "完成一次演武平台的测试",
+    "en": "Complete Trial Arena 1 time"
+  },
+  "objective_gm02m16_3_001": {
+    "cn": "与林瑚交谈",
+    "en": "Talk to Lin Hu"
+  },
+  "objective_gm02m16_4_001": {
+    "cn": "将演武平台等级提升至上限",
+    "en": "Upgrade the Trial Arena to its max level"
+  },
+  "objective_gm02m16_5_001": {
+    "cn": "与林瑚交谈",
+    "en": "Talk to Lin Hu"
+  },
+  "objective_gm02m16_6_001": {
+    "cn": "查看林瑚发来的消息",
+    "en": "View Lin Hu's message"
+  },
+  "objective_gm02m16_7_001": {
+    "cn": "提升演武平台的操作等级",
+    "en": "Upgrade Trial Arena Operations Level"
+  },
+  "objective_gm02m16_8_001": {
+    "cn": "向林瑚了解更多测试内容",
+    "en": "Talk to Lin Hu to learn more about the trials"
+  },
+  "objective_gm02m16_9_001": {
+    "cn": "放置作战设备",
+    "en": "Place combat facilities"
+  },
   "objective_gm02m1_1_001": {
     "cn": "",
     "en": ""
@@ -49321,7 +50969,7 @@
   },
   "objective_gm02m4_11_001": {
     "cn": "调查<@qu.key>天师桩</>",
-    "en": "Investigate <@qu.key> Tianshi Pillar </>"
+    "en": "Investigate <@qu.key>Tianshi Pillar </>"
   },
   "objective_gm02m4_12_001": {
     "cn": "按照顺序启动<@qu.key>辅桩</>",
@@ -52211,6 +53859,118 @@
     "cn": "<@qu.key>升级</>净水节点",
     "en": "<@qu.key>Upgrade</> the Purification Node"
   },
+  "objective_sm2l6m1_11_001": {
+    "cn": "解救<@qu.key>红色山犼兽</>",
+    "en": "Rescue the <@qu.key>Red Rockhowler</>"
+  },
+  "objective_sm2l6m1_12_001": {
+    "cn": "继续前往第二座<@qu.key>遗迹剑桩</>",
+    "en": "Keep going and reach the second <@qu.key>Ancient Sword Stele</>"
+  },
+  "objective_sm2l6m1_13_001": {
+    "cn": "找到<@qu.key>沃尔顿</>",
+    "en": "Find <@qu.key>Walton</>"
+  },
+  "objective_sm2l6m1_14_001": {
+    "cn": "解开第二座遗迹剑桩的<@qu.key>机关</>",
+    "en": "Solve the <@qu.key>mechanisms</> of the second Ancient Sword Stele"
+  },
+  "objective_sm2l6m1_15_001": {
+    "cn": "向藏剑谷深处继续前进",
+    "en": "Keep going deeper into Sword Vault Dale"
+  },
+  "objective_sm2l6m1_16_001": {
+    "cn": "击败盘踞在此的<@qu.key>猛兽</>",
+    "en": "Defeat the <@qu.key>fearsome beasts</> blocking the way"
+  },
+  "objective_sm2l6m1_17_001": {
+    "cn": "向第三座<@qu.key>遗迹剑桩</>前进",
+    "en": "Go to the third <@qu.key>Ancient Sword Stele</>"
+  },
+  "objective_sm2l6m1_18_001": {
+    "cn": "前往第三座<@qu.key>遗迹剑桩</>",
+    "en": "Go to the third <@qu.key>Ancient Sword Stele</>"
+  },
+  "objective_sm2l6m1_19_001": {
+    "cn": "解开第三座遗迹剑桩的<@qu.key>机关</>",
+    "en": "Solve the <@qu.key>mechanisms</> of the third Ancient Sword Stele"
+  },
+  "objective_sm2l6m1_1_001": {
+    "cn": "查看<@qu.key>连晓雾</>发来的消息",
+    "en": "Read <@qu.key>Lian Xiaowu</>'s message"
+  },
+  "objective_sm2l6m1_20_001": {
+    "cn": "前往<@qu.key>谷底</>，揭开秘密",
+    "en": "Reach the <@qu.key>bottom of the dale</> and uncover the secret"
+  },
+  "objective_sm2l6m1_21_001": {
+    "cn": "击败巨大的<@qu.key>山犼兽</>",
+    "en": "Defeat the giant <@qu.key>Rockhowler</>"
+  },
+  "objective_sm2l6m1_23_001": {
+    "cn": "进入<@qu.key>宝库</>",
+    "en": "Enter the <@qu.key>treasure vault</>"
+  },
+  "objective_sm2l6m1_26_001": {
+    "cn": "离开这里",
+    "en": "Leave the place"
+  },
+  "objective_sm2l6m1_27_001": {
+    "cn": "击败凶猛的<@qu.key>山犼兽</>",
+    "en": "Defeat the fearsome <@qu.key>Rockhowler</>"
+  },
+  "objective_sm2l6m1_28_001": {
+    "cn": "调查附近的<@qu.key>石碑</>",
+    "en": "Investigate the <@qu.key>stone tablet</> nearby"
+  },
+  "objective_sm2l6m1_29_001": {
+    "cn": "查看<@qu.key>“赤霄”</>的检索结果",
+    "en": "Check the search results for <@qu.key>\"Chi Xiao\"</>"
+  },
+  "objective_sm2l6m1_2_001": {
+    "cn": "去选剑局找<@qu.key>连晓雾</>聊聊",
+    "en": "Go to the Bureau of Swordmancers and talk to <@qu.key>Lian Xiaowu</>"
+  },
+  "objective_sm2l6m1_30_001": {
+    "cn": "击败拦路的<@qu.key>寨民</>",
+    "en": "Defeat the <@qu.key>stockade residents</> blocking the way"
+  },
+  "objective_sm2l6m1_31_001": {
+    "cn": "击败拦路的<@qu.key>凶悍寨民</>",
+    "en": "Defeat the <@qu.key>furious stockade residents</> blocking the way"
+  },
+  "objective_sm2l6m1_32_001": {
+    "cn": "击败<@qu.key>野兽</>",
+    "en": "Defeat the <@qu.key>beasts</>"
+  },
+  "objective_sm2l6m1_33_001": {
+    "cn": "跟随<@qu.key>红色山犼兽</>",
+    "en": "Follow the <@qu.key>Red Rockhowler</>"
+  },
+  "objective_sm2l6m1_34_001": {
+    "cn": "离开<@qu.key>山洞</>",
+    "en": "Leave the <@qu.key>cave</>"
+  },
+  "objective_sm2l6m1_3_001": {
+    "cn": "前往<@qu.key>藏剑谷</>",
+    "en": "Go to <@qu.key>Sword Vault Dale</>"
+  },
+  "objective_sm2l6m1_4_001": {
+    "cn": "打开前进的道路",
+    "en": "Open up the path ahead"
+  },
+  "objective_sm2l6m1_5_001": {
+    "cn": "前往第一座<@qu.key>遗迹剑桩</>",
+    "en": "Go to the first <@qu.key>Ancient Sword Stele</>"
+  },
+  "objective_sm2l6m1_8_001": {
+    "cn": "解开第一座遗迹剑桩的<@qu.key>机关</>",
+    "en": "Solve the <@qu.key>mechanisms</> of the first Ancient Sword Stele"
+  },
+  "objective_sm2l6m1_9_001": {
+    "cn": "前往第二座<@qu.key>遗迹剑桩</>",
+    "en": "Go to the second <@qu.key>Ancient Sword Stele</>"
+  },
   "quit_challenge_btn_name": {
     "cn": "中止挑战",
     "en": "End Challenge"
@@ -54043,6 +55803,82 @@
     "cn": "试验园区",
     "en": "Test Area"
   },
+  "scene_map02_lv006_regiontoast_deep_1": {
+    "cn": "深度 0.1282±0.0571",
+    "en": "Depth: 0.1282±0.0571"
+  },
+  "scene_map02_lv006_regiontoast_deep_2": {
+    "cn": "深度 0.1247±0.0508",
+    "en": "Depth: 0.1247±0.0508"
+  },
+  "scene_map02_lv006_regiontoast_deep_3": {
+    "cn": "深度 0.1396±0.0489",
+    "en": "Depth: 0.1396±0.0489"
+  },
+  "scene_map02_lv006_regiontoast_deep_4": {
+    "cn": "深度 0.1327±0.0165",
+    "en": "Depth: 0.1327±0.0165"
+  },
+  "scene_map02_lv006_regiontoast_deep_5": {
+    "cn": "深度 0.1404±0.0610",
+    "en": "Depth: 0.1404±0.0610"
+  },
+  "scene_map02_lv006_regiontoast_deep_6": {
+    "cn": "深度 0.1566±0.0272",
+    "en": "Depth: 0.1566±0.0272"
+  },
+  "scene_map02_lv006_regiontoast_deep_7": {
+    "cn": "深度 0.0385±0.0014",
+    "en": "Depth: 0.0385±0.0014"
+  },
+  "scene_map02_lv006_regiontoast_deep_8": {
+    "cn": "深度 0.1683±0.0393",
+    "en": "Depth: 0.1683±0.0393"
+  },
+  "scene_map02_lv006_regiontoast_deep_9": {
+    "cn": "深度 0.1219±0.0173",
+    "en": "Depth: 0.1219±0.0173"
+  },
+  "scene_map02_lv006_regiontoast_tips_1": {
+    "cn": "山后小径",
+    "en": "Leeward Trail"
+  },
+  "scene_map02_lv006_regiontoast_tips_2": {
+    "cn": "西谷峡道",
+    "en": "West Gorge Path"
+  },
+  "scene_map02_lv006_regiontoast_tips_3": {
+    "cn": "南谷旧垣",
+    "en": "South Gorge Rampart"
+  },
+  "scene_map02_lv006_regiontoast_tips_4": {
+    "cn": "东谷遗迹",
+    "en": "East Gorge Ruins"
+  },
+  "scene_map02_lv006_regiontoast_tips_5": {
+    "cn": "幽径隧洞",
+    "en": "Shadow Tunnel"
+  },
+  "scene_map02_lv006_regiontoast_tips_6": {
+    "cn": "北谷浮崖",
+    "en": "North Gorge Crag"
+  },
+  "scene_map02_lv006_regiontoast_tips_7": {
+    "cn": "谷底秘库",
+    "en": "Deep Gorge Vault"
+  },
+  "scene_map02_lv006_regiontoast_tips_8": {
+    "cn": "古剑崖",
+    "en": "Old Blade Precipice"
+  },
+  "scene_map02_lv006_regiontoast_tips_9": {
+    "cn": "悬谷台",
+    "en": "Gorge Overhang"
+  },
+  "scene_map02_lv006_tips_1": {
+    "cn": "藏剑谷",
+    "en": "Sword Vault Dale"
+  },
   "settlement_td_battle_desc_1": {
     "cn": "保护所有指挥核心并击败全部入侵的敌人",
     "en": "Protect all Command Cores and defeat all enemies"
@@ -54871,9 +56707,93 @@
     "cn": "再引春来·其三",
     "en": "Spring's Return III"
   },
+  "sm2l6m1_desc_001": {
+    "cn": "连晓雾忽然请管理员到武陵城的选剑局见一面。",
+    "en": "Lian Xiaowu has suddenly requested to meet the Endministrator at the Bureau of Swordmancers in Wuling City."
+  },
+  "sm2l6m1_desc_003": {
+    "cn": "管理员和陈千语答应帮连晓雾寻找被埋藏的炎国科技遗产，二人向藏剑谷出发。",
+    "en": "The Endministrator and Chen Qianyu agree to help Lian Xiaowu find buried Yanese relics and technologies. The two set off for Sword Vault Dale."
+  },
+  "sm2l6m1_desc_004": {
+    "cn": "一道封闭的门拦住了去路，要打开它，似乎要解开眼前的机关。",
+    "en": "A sealed door bars the way. You may need to fix the mechanism in order to open it."
+  },
+  "sm2l6m1_desc_005": {
+    "cn": "管理员和陈千语看到了藏剑谷中的旧日遗迹，勘察地形后，决定先前往第一座遗迹剑桩。",
+    "en": "The Endministrator and Chen Qianyu see the ancient ruins hidden within Sword Vault Dale. After surveying the surroundings, they decide to head to the first Ancient Sword Stele."
+  },
+  "sm2l6m1_desc_006": {
+    "cn": "管理员和陈千语到达了第一座遗迹剑桩处，但前进的道路被挡住了。需要从附近的机关上想想办法。",
+    "en": "The Endministrator and Chen Qianyu arrive at the first Ancient Sword Stele but the path forward has been blocked. The nearby mechanisms may offer a solution."
+  },
+  "sm2l6m1_desc_007": {
+    "cn": "在解开第一座遗迹剑桩的机关之后，管理员和陈千语继续向第二座遗迹剑桩前进。",
+    "en": "After solving the mechanisms of the first Ancient Sword Stele, the Endministrator and Chen Qianyu continue toward the second Ancient Sword Stele."
+  },
+  "sm2l6m1_desc_009": {
+    "cn": "一群凶猛的山犼兽，正在欺负之前见过的那只红色小山犼兽。管理员和陈千语决定搭救它。",
+    "en": "A fearsome rockhowler pack is bullying the little red rockhowler that the Endministrator and Chen Qianyu encountered before. They decide to rescue it."
+  },
+  "sm2l6m1_desc_010": {
+    "cn": "搭救了红色的小山犼兽后，在它的陪伴下，管理员和陈千语继续前往第二座遗迹剑桩。",
+    "en": "The Endministrator and Chen Qianyu rescue the little red rockhowler. Together, the three of them continue toward the second Ancient Sword Stele."
+  },
+  "sm2l6m1_desc_011": {
+    "cn": "管理员和陈千语驱散了凶猛的山犼兽。找到躲藏起来的沃尔顿，询问情况。",
+    "en": "The Endministrator and Chen Qianyu chase out the fearsome rockhowler and find Walton cowering in his hiding spot. They ask him about the situation."
+  },
+  "sm2l6m1_desc_012": {
+    "cn": "在与沃尔顿达成合作后，管理员和陈千语在第二座遗迹剑桩处，又被拦住了去路。看来要想办法解开这里的机关，才能继续前进。",
+    "en": "The Endministrator and Chen Qianyu agree to work with Walton. Together, they reach the second Ancient Sword Stele and find the way blocked again. The mechanisms nearby must be used to open up a way forward."
+  },
+  "sm2l6m1_desc_013": {
+    "cn": "离开第二座遗迹剑桩后，管理员和陈千语在山犼兽“小机灵”的陪伴下，继续向山谷深处前进。",
+    "en": "After leaving the second Ancient Sword Stele, the Endministrator, Chen Qianyu, and \"Smartie\" the Rockhowler make their way deeper into the dale."
+  },
+  "sm2l6m1_desc_014": {
+    "cn": "作为必经之路的山洞被猛兽盘踞，必须打败它们才能继续前进。",
+    "en": "Fearsome beasts have blocked the cave and it is the only way. Defeat them to keep going."
+  },
+  "sm2l6m1_desc_015": {
+    "cn": "告别了“小机灵”之后，管理员和陈千语继续向第三座遗迹剑桩前进。",
+    "en": "After saying goodbye to \"Smartie\", the Endministrator and Chen Qianyu continue to make their way toward the third Ancient Sword Stele."
+  },
+  "sm2l6m1_desc_016": {
+    "cn": "管理员和陈千语需要穿过危险地带，才能继续前往最后一座遗迹剑桩。",
+    "en": "The Endministrator and Chen Qianyu must traverse a dangerous area to reach the last Ancient Sword Stele."
+  },
+  "sm2l6m1_desc_017": {
+    "cn": "在最后一座遗迹剑桩，管理员和陈千语需要设法解开这里的机关，以前往谷底。",
+    "en": "The Endministrator and Chen Qianyu must solve the mechanism of the final Ancient Sword Stele to reach the bottom of the dale."
+  },
+  "sm2l6m1_desc_018": {
+    "cn": "遗迹剑桩的机关均已解开，通向谷底的道路出现在眼前，前往探查藏剑谷深处的秘密。",
+    "en": "All Ancient Sword Stele mechanisms have been solved. The path to the bottom of the dale has been revealed. Now, go and reveal the secrets at the heart of Sword Vault Dale."
+  },
+  "sm2l6m1_desc_019": {
+    "cn": "管理员和陈千语在谷底发现了炎国留下的宝库，但一只巨大的山犼兽忽然出现，挡在面前。",
+    "en": "The Endministrator and Chen Qianyu discover a Yanese vault at the bottom of the dale, but a giant rockhowler suddenly leaps out and blocks the way."
+  },
+  "sm2l6m1_desc_021": {
+    "cn": "进入宝库，一窥泰拉留给塔卫二人们的遗产。",
+    "en": "Enter the vault to gaze upon the relics that the Terrans have left for the people of Talos-II."
+  },
+  "sm2l6m1_desc_024": {
+    "cn": "发现了宝库里真正藏着的“宝藏”之后，管理员和陈千语走出这里，向连晓雾、沃尔顿说明情况。",
+    "en": "After discovering the actual \"treasure\" buried in the vault, the Endministrator and Chen Qianyu leave the facility and relate the discovery to Lian Xiaowu and Walton."
+  },
+  "sm2l6m1_name": {
+    "cn": "藏剑于谷",
+    "en": "Deep Vaulted Steel"
+  },
   "snapshot_open_drop_down": {
     "cn": "打开选项列表",
     "en": "Open List of Options"
+  },
+  "stone_skipping_interact": {
+    "cn": "投出",
+    "en": "Throw"
   },
   "target_activity_qingxi_3_1": {
     "cn": "解息壤堰于倒悬",
@@ -55803,9 +57723,45 @@
     "cn": "咦？有什么东西聚集起来，组装到一起了！",
     "en": "Wait! Are those things coming together? Are they assembling themselves?"
   },
+  "toast_c31m1d5_buffHint_1": {
+    "cn": "你与弭弗救庄方宜心切。",
+    "en": "You and Mi Fu are desperate to save Zhuang Fangyi."
+  },
+  "toast_c31m1d5_buffHint_2": {
+    "cn": "在后续<@qu.key>剧情战斗</>中，主控角色重击命中后将对目标额外施加<@qu.key>破防</>。",
+    "en": "In this <@qu.key>story battle</>, the controlled character's Final Strike will also apply <@qu.key>Vulnerability</> to the target hit."
+  },
   "toast_dung01_rdg003_text_doorCantOpen": {
     "cn": "",
     "en": ""
+  },
+  "toast_dung02_rdg007_mifuAttackInspired_1": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>攻击力</>提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and increased her <@qu.key>ATK</>!"
+  },
+  "toast_dung02_rdg007_mifuAttackInspired_2": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>攻击力</>进一步提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and further increased her <@qu.key>ATK</>!"
+  },
+  "toast_dung02_rdg007_mifuDamageInspired_1": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>物理伤害</>提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and increased her <@qu.key>Physical DMG Dealt</>!"
+  },
+  "toast_dung02_rdg007_mifuDamageInspired_2": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>物理伤害</>进一步提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and further increased her <@qu.key>Physical DMG Dealt</>!"
+  },
+  "toast_dung02_rdg007_mifuDefenseInspired_1": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>防御力</>提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and increased her <@qu.key>DEF</>!"
+  },
+  "toast_dung02_rdg007_mifuDefenseInspired_2": {
+    "cn": "亲友的鼓励坚定了弭弗的决心。弭弗的<@qu.key>防御力</>进一步提升了！",
+    "en": "Encouragement from close friends steeled Mi Fu's resolve and further increased her <@qu.key>DEF</>!"
+  },
+  "toast_dung02_rdg007_mifuInspiredmax": {
+    "cn": "弭弗不再犹豫。",
+    "en": "Mi Fu is no longer hesitant."
   },
   "toast_feces_livstock_already_pet": {
     "cn": "这只驮兽今天已经被拍过了，让它休息一天吧。",
@@ -55942,6 +57898,10 @@
   "ui_AdventureDungeonPanel_title_enemyspawner": {
     "cn": "能量淤积点",
     "en": "Energy Alluvium"
+  },
+  "ui_AdventureDungeonPanel_title_miniBoss": {
+    "cn": "危境碎片",
+    "en": "Crisis Fragment"
   },
   "ui_AdventureDungeonPanel_title_specialResource": {
     "cn": "危境预演",
@@ -56278,6 +58238,14 @@
   "ui_BattlePassRecommendPanel_title": {
     "cn": "奖励预览",
     "en": "Rewards Preview"
+  },
+  "ui_BattlePassWeaponCasePanel_toggle_listview": {
+    "cn": "列表展示",
+    "en": "List View"
+  },
+  "ui_BattlePassWeaponCasePanel_toggle_tileview": {
+    "cn": "平铺展示",
+    "en": "Tile View"
   },
   "ui_CharInfo_init": {
     "cn": "初始",
@@ -57031,6 +58999,26 @@
     "cn": "供给记录",
     "en": "Supply Log"
   },
+  "ui_activity_simulation_training_get_reward": {
+    "cn": "一键领取",
+    "en": "Claim All"
+  },
+  "ui_activity_simulation_training_task": {
+    "cn": "集算任务",
+    "en": "Algorithmic Tasks"
+  },
+  "ui_activity_simulation_training_task_in_progress": {
+    "cn": "进行中",
+    "en": "In Progress"
+  },
+  "ui_activity_simulation_training_task_no_reward": {
+    "cn": "暂无可领取",
+    "en": "Nothing to Claim"
+  },
+  "ui_activity_simulation_training_task_unlock": {
+    "cn": "自由演算模式开启后解锁",
+    "en": "Unlocked after activating Free Trial Mode"
+  },
   "ui_activity_snapshot_mission_block": {
     "cn": "请推进主线任务以解锁任务区域",
     "en": "Unlock mission area with main mission progress"
@@ -57201,7 +59189,7 @@
   },
   "ui_adventure_dungeoncell_stamina_discount_times": {
     "cn": "今日剩余理智减耗次数",
-    "en": "Daily Sanity Discounts Left"
+    "en": "Daily Sanity Discount(s) Left"
   },
   "ui_bat_action_cancel_skill": {
     "cn": "退出瞄准状态",
@@ -57242,6 +59230,10 @@
   "ui_bat_cancel_skill": {
     "cn": "取消释放",
     "en": "Cancel cast"
+  },
+  "ui_bat_contingency_contract_cryst": {
+    "cn": "冻结",
+    "en": "Solidified"
   },
   "ui_bat_critical_dmg": {
     "cn": "暴击",
@@ -58651,6 +60643,10 @@
     "cn": "/",
     "en": " / "
   },
+  "ui_characterguide_tip": {
+    "cn": "该任务为常驻任务，活动结束后仍可继续完成。",
+    "en": "This is a permanent mission, and can still be completed after the event ends."
+  },
   "ui_common_a": {
     "cn": "a",
     "en": "a"
@@ -58808,7 +60804,7 @@
     "en": "Switch the Endministrator's form?"
   },
   "ui_common_character_gender_change_time": {
-    "cn": "%s后可以可进行切换",
+    "cn": "%s后可进行切换",
     "en": "Switch available after %s"
   },
   "ui_common_character_gender_change_tips": {
@@ -59537,7 +61533,7 @@
   },
   "ui_common_shop_locked": {
     "cn": "未解锁",
-    "en": "Not yet unlocked"
+    "en": "Not Yet Unlocked"
   },
   "ui_common_shop_sold_out": {
     "cn": "售罄",
@@ -59822,6 +61818,10 @@
   "ui_common_watch_shop": {
     "cn": "采购中心",
     "en": "Acquisition Center"
+  },
+  "ui_common_watch_survey": {
+    "cn": "问卷中心",
+    "en": "Survey Center"
   },
   "ui_common_watch_team": {
     "cn": "编队",
@@ -61129,7 +63129,7 @@
   },
   "ui_dung_energyp_stamina_discount_today": {
     "cn": "今日剩余理智减耗次数",
-    "en": "Daily Sanity Discount(s) Left "
+    "en": "Daily Sanity Discount(s) Left"
   },
   "ui_dung_energyp_target": {
     "cn": "属性选择",
@@ -61459,6 +63459,10 @@
     "cn": "暂存能量淤积点",
     "en": "Temporary Energy Alluvium"
   },
+  "ui_equip_enhance_panel_btn_auto_full": {
+    "cn": "一键填充",
+    "en": "Auto-Fill"
+  },
   "ui_equip_enhance_panel_btn_confirm": {
     "cn": "确认精锻",
     "en": "Confirm"
@@ -61479,6 +63483,14 @@
     "cn": "精锻",
     "en": "Artifice"
   },
+  "ui_equip_enhance_panel_cost_list_empty": {
+    "cn": "暂无可用作精锻耗材的装备",
+    "en": "No gear can be used as artificing material"
+  },
+  "ui_equip_enhance_panel_enhanced_group": {
+    "cn": "已精锻装备",
+    "en": "Artificed Gear"
+  },
   "ui_equip_enhance_panel_enhanced_level": {
     "cn": "已精锻次数",
     "en": "Artificing Attempts Made"
@@ -61488,8 +63500,8 @@
     "en": "Artificing Cost"
   },
   "ui_equip_enhance_panel_equip_cost_select": {
-    "cn": "选择精锻耗费装备",
-    "en": "Select Gear to Consume for Artificing"
+    "cn": "请依次选择精锻耗费装备",
+    "en": "Select Pieces of Gear to Consume for Artificing"
   },
   "ui_equip_enhance_panel_guaranteed_time": {
     "cn": "精锻积累",
@@ -61519,6 +63531,10 @@
     "cn": "标准适配",
     "en": "Standard Match"
   },
+  "ui_equip_enhance_panel_prob_selected": {
+    "cn": "如果提前精锻成功，剩余材料将返还",
+    "en": "Upon successful artificing, any unused pieces of gear will be returned"
+  },
   "ui_equip_enhance_panel_prob_unselected": {
     "cn": "选择精锻耗费装备",
     "en": "Select Gear to Consume for Artificing"
@@ -61531,6 +63547,14 @@
     "cn": "未选择装备",
     "en": "No gear selected"
   },
+  "ui_equip_enhance_panel_selected_count": {
+    "cn": "已选装备",
+    "en": "Selected Gear"
+  },
+  "ui_equip_enhance_panel_unenhanced_group": {
+    "cn": "未精锻装备",
+    "en": "Unartificed Gear"
+  },
   "ui_equip_enhance_result_continue": {
     "cn": "点击屏幕继续",
     "en": "Click to continue"
@@ -61542,6 +63566,10 @@
   "ui_equip_enhance_result_failed": {
     "cn": "精锻积累完成，已储存进度",
     "en": "Artificing progress completed and saved"
+  },
+  "ui_equip_enhance_result_refund": {
+    "cn": "返还本次未耗费的装备",
+    "en": "Unused Piece(s) of Gear Returned"
   },
   "ui_equip_enhance_result_success": {
     "cn": "精锻强化成功",
@@ -62635,6 +64663,42 @@
     "cn": "可升级",
     "en": "Upgradeable"
   },
+  "ui_fac_domaindev_summary_blank": {
+    "cn": "尚未在当前地区发现可建设的设施",
+    "en": "No facility construction options found in this region"
+  },
+  "ui_fac_domaindev_summary_discovery": {
+    "cn": "请继续探索",
+    "en": "Keep Exploring"
+  },
+  "ui_fac_domaindev_summary_poi_level": {
+    "cn": "等级详情",
+    "en": "Level Details"
+  },
+  "ui_fac_domaindev_summary_poi_location": {
+    "cn": "所在位置",
+    "en": "Location"
+  },
+  "ui_fac_domaindev_summary_poi_location_check": {
+    "cn": "查看位置",
+    "en": "View Location"
+  },
+  "ui_fac_domaindev_summary_poi_mission_check": {
+    "cn": "查看对应任务",
+    "en": "View Associated Mission"
+  },
+  "ui_fac_domaindev_summary_poi_name": {
+    "cn": "设施名称",
+    "en": "Facility Name"
+  },
+  "ui_fac_domaindev_summary_poi_state": {
+    "cn": "当前状态",
+    "en": "Current Status"
+  },
+  "ui_fac_domaindev_summary_title": {
+    "cn": "事务总览",
+    "en": "Regional Overview"
+  },
   "ui_fac_domaindev_title": {
     "cn": "地区建设",
     "en": "Regional Development"
@@ -62645,7 +64709,7 @@
   },
   "ui_fac_domaindev_version_control_title": {
     "cn": "地区建设新内容解锁",
-    "en": "Regional Development contents added"
+    "en": "Regional Development Content Added"
   },
   "ui_fac_hdwork_chosennum_mention": {
     "cn": "请选择制作数量以生产物品",
@@ -63015,6 +65079,34 @@
     "cn": "收纳模式",
     "en": "Stash Mode"
   },
+  "ui_fac_mainhud_factory_backup_power_auto": {
+    "cn": "在线且断电时，自动启用备用电源",
+    "en": "When online and power outage occurs, auto-activate Backup Power"
+  },
+  "ui_fac_mainhud_factory_backup_power_recover_time_title": {
+    "cn": "剩余恢复时间",
+    "en": "Recovery Time Left"
+  },
+  "ui_fac_mainhud_factory_backup_power_recover_title": {
+    "cn": "恢复中",
+    "en": "Recovering"
+  },
+  "ui_fac_mainhud_factory_backup_power_title": {
+    "cn": "备用电源",
+    "en": "Backup Power"
+  },
+  "ui_fac_mainhud_factory_backup_power_use_button": {
+    "cn": "启用",
+    "en": "Activate"
+  },
+  "ui_fac_mainhud_factory_backup_power_working_time_title": {
+    "cn": "剩余供电时间",
+    "en": "Power Duration Left"
+  },
+  "ui_fac_mainhud_factory_backup_power_working_title": {
+    "cn": "启用中",
+    "en": "Activated"
+  },
   "ui_fac_mainhud_factory_operating_domain_toast": {
     "cn": "集成工业系统运转变化",
     "en": "Changes to the AIC Factory"
@@ -63138,6 +65230,26 @@
   "ui_fac_mini_power_hud_fac_mode": {
     "cn": "工业模式",
     "en": "AIC Mode"
+  },
+  "ui_fac_mix_pool_auto_clear_desc": {
+    "cn": "若当前扩容反应池的缓存区中，同时进行反应的配方大于等于2个，且均处在阻塞状态时，将自动清空缓存区内的全部物品，保证反应的正常进行。",
+    "en": "When an Expanded Crucible cache is simultaneously running more than 2 production formulas and all of them are clogged, this option will automatically remove all items from the cache to fix the multi-clogging and let production proceed normally."
+  },
+  "ui_fac_mix_pool_auto_clear_off": {
+    "cn": "取消自动处理复数配方阻塞",
+    "en": "Switch Multi-Clog Auto-Fix OFF"
+  },
+  "ui_fac_mix_pool_auto_clear_on": {
+    "cn": "激活自动处理复数配方阻塞",
+    "en": "Switch Multi-Clog Auto-Fix ON"
+  },
+  "ui_fac_mix_pool_auto_clear_show_hint": {
+    "cn": "查看自动处理复数配方阻塞的说明",
+    "en": "View details of Multi-Clog Auto-Fix"
+  },
+  "ui_fac_mix_pool_btn_switch_mode_text": {
+    "cn": "自动处理复数配方阻塞",
+    "en": "Multi-Clog Auto-Fix"
   },
   "ui_fac_mix_pool_choose_direction_mention": {
     "cn": "所选产物会在当前端口沿物流设备输送",
@@ -63759,9 +65871,17 @@
     "cn": "<@toast.key>刚角天使</>的砸地攻击会使一定范围内的作战设备失效",
     "en": "The ground slam attack of the <@toast.key>Heavy Ram</> will disable combat facilities nearby"
   },
+  "ui_fac_settlement_defence_eny_toast_firebat": {
+    "cn": "每隔一段时间，<@toast.key>碾骨清道夫</>会攻击面前的敌人，使其快速向前位移",
+    "en": "Every now and then, the <@toast.key>Bonekrusher Arsonist</> can attack targets before him and teleport forward quickly"
+  },
   "ui_fac_settlement_defence_eny_toast_hscrane": {
     "cn": "<@toast.key>劫云客</>受到攻击时，会在自身附近释放烟雾，烟雾范围内的敌人会大幅提升防御力",
     "en": "When the <@toast.key>Cloud Stalker</> is attacked, it unleashes smoke around itself. Its allies within the smoke will gain a massive DEF buff."
+  },
+  "ui_fac_settlement_defence_eny_toast_hsmino": {
+    "cn": "<@toast.key>摧山将</>拥有跨越地形的能力，可以直接跃向高处",
+    "en": "<@toast.key>Hill Smasher</> can leap over obstacles or to elevated positions"
   },
   "ui_fac_settlement_defence_eny_toast_lbshamman": {
     "cn": "<@toast.key>碾骨焰术师</>受到攻击时，会沿路径向前传送一段距离",
@@ -65235,6 +67355,10 @@
     "cn": "可拜访的好友",
     "en": "Visitable Friends"
   },
+  "ui_friendlist_spaceshipvisit_returnbtn_text": {
+    "cn": "返回帝江号",
+    "en": "Return to Dijiang"
+  },
   "ui_friendlist_spaceshipvisit_topleftnode_tiltletext": {
     "cn": "拜访好友",
     "en": "Visit Friends"
@@ -65440,8 +67564,8 @@
     "en": " headhunting attempt(s) to get "
   },
   "ui_gacha_special_videotip": {
-    "cn": "干员演示中，干员及其所持武器均为满潜能。",
-    "en": "The operator showcase displays max potential operator and max tuned weapon"
+    "cn": "干员演示仅作效果展示，具体请以实际情况为准。",
+    "en": "Operator showcases are for demo purposes only; refer to the actual operators for their actual performances."
   },
   "ui_gacha_weapon_pool_allweapon": {
     "cn": "全部可能获得的武器",
@@ -65666,6 +67790,30 @@
   "ui_gem_term_MAX": {
     "cn": "MAX",
     "en": "MAX"
+  },
+  "ui_gem_tips_perfect_tag": {
+    "cn": "完美搭配",
+    "en": "Perfect Match"
+  },
+  "ui_gem_tips_perfect_weapon": {
+    "cn": "基质愿望单所选武器",
+    "en": "Weapons on Essence Wishlist"
+  },
+  "ui_gem_wishlist_hint": {
+    "cn": "若金色品质基质与愿望单中所选武器的所有属性“完美搭配”，保存愿望单后将会被自动锁定",
+    "en": "If a gold (flawless) essence has a perfect match (where all the stats match those on the weapon) of any weapon selected and saved on the wishlist, the said essence will be auto-locked."
+  },
+  "ui_gem_wishlist_save": {
+    "cn": "保存愿望单",
+    "en": "Save Wishlist"
+  },
+  "ui_gem_wishlist_select_hint": {
+    "cn": "请选择加入愿望单的武器",
+    "en": "Select weapon(s) to add to wishlist"
+  },
+  "ui_gem_wishlist_title": {
+    "cn": "基质愿望单",
+    "en": "Essence Wishlist"
   },
   "ui_generalability_cancel": {
     "cn": "取消操作",
@@ -66233,11 +68381,11 @@
   },
   "ui_mappanel_udpipe_noconnect_in": {
     "cn": "未连接入口",
-    "en": "Unconnected Inlet"
+    "en": "No Inlet Connected"
   },
   "ui_mappanel_udpipe_noconnect_out": {
     "cn": "未连接出口",
-    "en": "Unconnected Outlet"
+    "en": "No Outlet Connected"
   },
   "ui_media_guide_hint_ct": {
     "cn": "按下<action=guide_media_prev><action=guide_media_next>进行翻页，可在阅读完毕后关闭",
@@ -66402,6 +68550,10 @@
   "ui_mis_panel_conflict_list_notice": {
     "cn": "与其他任务冲突",
     "en": "Conflicts with another mission"
+  },
+  "ui_mis_panel_featured_tag": {
+    "cn": "版本推荐",
+    "en": "Recommended"
   },
   "ui_mis_panel_key_plot_tag": {
     "cn": "重要剧情",
@@ -68963,6 +71115,82 @@
     "cn": "重要",
     "en": "Important"
   },
+  "ui_simulationtraining_battle_target": {
+    "cn": "挑战目标",
+    "en": "Challenge Target"
+  },
+  "ui_simulationtraining_main_card_num": {
+    "cn": "铭牌库剩余",
+    "en": "Deck"
+  },
+  "ui_simulationtraining_main_double_reward": {
+    "cn": "奖励翻倍",
+    "en": "Rewards Doubling"
+  },
+  "ui_simulationtraining_main_draw": {
+    "cn": "抽取铭牌",
+    "en": "Draw"
+  },
+  "ui_simulationtraining_main_enemy_info": {
+    "cn": "敌人信息",
+    "en": "Enemy Intel"
+  },
+  "ui_simulationtraining_main_giveup": {
+    "cn": "放弃",
+    "en": "Abandon"
+  },
+  "ui_simulationtraining_main_no_limit": {
+    "cn": "自由演算模式",
+    "en": "Free Trial Mode"
+  },
+  "ui_simulationtraining_main_no_limit_no_reward": {
+    "cn": "自由演算模式无演算奖励",
+    "en": "Free Trial Mode gives no trial rewards"
+  },
+  "ui_simulationtraining_main_no_reward": {
+    "cn": "战力点之和归0，无演算奖励",
+    "en": "Total Battle Points reset to ZERO; no trial rewards"
+  },
+  "ui_simulationtraining_main_point_num": {
+    "cn": "战力点",
+    "en": "Battle Pts"
+  },
+  "ui_simulationtraining_main_punish_info": {
+    "cn": "数据溢出惩罚",
+    "en": "Data Overflow Penalty"
+  },
+  "ui_simulationtraining_main_reward": {
+    "cn": "演算奖励",
+    "en": "Trial Rewards"
+  },
+  "ui_simulationtraining_main_start": {
+    "cn": "开始演算",
+    "en": "Start Trial"
+  },
+  "ui_simulationtraining_main_title": {
+    "cn": "选剑演武",
+    "en": "Trial of Swordmancy"
+  },
+  "ui_simulationtraining_no_play_chance": {
+    "cn": "本日奖励演算次数已用完",
+    "en": "Daily Rewarded Trials Used Up"
+  },
+  "ui_simulationtraining_play_again": {
+    "cn": "再次演算",
+    "en": "Try Again"
+  },
+  "ui_simulationtraining_play_chance": {
+    "cn": "本日剩余奖励演算次数",
+    "en": "Daily Rewarded Trials Left"
+  },
+  "ui_simulationtraining_unlock_mainhud_toast": {
+    "cn": "演武平台已启动",
+    "en": "Trial Arena has been activated"
+  },
+  "ui_simulationtraining_upgrade_mainhud_toast": {
+    "cn": "演算奖励提升",
+    "en": "Trial rewards have been increased"
+  },
   "ui_skill_tip_present": {
     "cn": "当前选择",
     "en": "Selected"
@@ -69309,7 +71537,7 @@
   },
   "ui_spaceship_controlcenter_assithintnode_swaptimestext": {
     "cn": "今日可情报交流次数",
-    "en": "Clue Exchange(s) Today"
+    "en": "Clue Exchanges Today"
   },
   "ui_spaceship_controlcenter_friendassitnode_assitbtn_friendtext": {
     "cn": "生产助力",
@@ -70643,6 +72871,46 @@
     "cn": "请勾选想要分解的武器基质",
     "en": "Mark the weapon essences to disassemble"
   },
+  "ui_valuabledepot_gem_wishlist_entrance": {
+    "cn": "基质愿望单",
+    "en": "Essence Wishlist"
+  },
+  "ui_valuabledepot_weapon_lock_all": {
+    "cn": "一键锁定",
+    "en": "Lock All"
+  },
+  "ui_valuabledepot_weapon_lock_all_fivestar": {
+    "cn": "全部5星武器",
+    "en": "All 5★ weapons"
+  },
+  "ui_valuabledepot_weapon_lock_management": {
+    "cn": "锁定管理",
+    "en": "Manage Locks"
+  },
+  "ui_valuabledepot_weapon_select_hint": {
+    "cn": "请勾选想要分解的武器（部分无法分解的武器已从列表中隐藏）",
+    "en": "Select weapons to disassemble (auto-excludes some non-disassemblable weapons)"
+  },
+  "ui_valuabledepot_weapon_unlock_all": {
+    "cn": "一键解锁",
+    "en": "Unlock All"
+  },
+  "ui_valuabledepot_weapon_unlock_all_fivestar": {
+    "cn": "全部5星武器",
+    "en": "All 5★ weapons"
+  },
+  "ui_valuabledepot_weapon_unlock_confirm": {
+    "cn": "确认",
+    "en": "Confirm"
+  },
+  "ui_valuabledepot_weapon_unlock_hint": {
+    "cn": "注：解锁超出满潜数量的5星武器，指仅锁定同一武器的最大潜能的数量，超出的部分会解锁",
+    "en": "NOTE: Unlock all 5★ weapons that exceed max potential means only weapons of the same name needed for reaching max potential will be locked. The excess weapons will be unlocked."
+  },
+  "ui_valuabledepot_weapon_unlock_maxpotential": {
+    "cn": "超出满潜数量的5星武器",
+    "en": "5★ weapon(s) exceeding max potential"
+  },
   "ui_value_depot_limit_time": {
     "cn": "失效时间",
     "en": "Expiration Time"
@@ -71369,23 +73637,23 @@
   },
   "ui_wiki_enemy_defense_cold": {
     "cn": "寒冷抗性",
-    "en": "Cryo Resistance"
+    "en": "Cryo RES"
   },
   "ui_wiki_enemy_defense_fire": {
     "cn": "灼热抗性",
-    "en": "Heat Resistance"
+    "en": "Heat RES"
   },
   "ui_wiki_enemy_defense_nature": {
     "cn": "自然抗性",
-    "en": "Nature Resistance"
+    "en": "Nature RES"
   },
   "ui_wiki_enemy_defense_phy": {
     "cn": "物理抗性",
-    "en": "Physical Resist"
+    "en": "Physical RES"
   },
   "ui_wiki_enemy_defense_pulse": {
     "cn": "电磁抗性",
-    "en": "Electric Resistance"
+    "en": "Electric RES"
   },
   "ui_wiki_enemy_detail": {
     "cn": "敌人详情",

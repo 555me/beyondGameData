@@ -43,6 +43,50 @@
     "visibleInMist": true,
     "visibleLayer": "1"
   },
+  "mark_activity_contingency_contract_0": {
+    "activeIcon": "icon_map_activity_contract",
+    "defaultVisible": false,
+    "desc": {
+      "cn": "赫伯特于此等待，他期待着与您一同探索未知的“危机合约”。",
+      "en": "Herbert has been waiting. He hopes to explore the mysterious Contingency Contract with you."
+    },
+    "inActiveIcon": "icon_map_activity_contract_unactive",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_activity_contingency_contract_0",
+    "markInfoType": "45",
+    "markType": "1300",
+    "name": {
+      "cn": "危机合约",
+      "en": "Contingency Contract"
+    },
+    "sortOrder": "2",
+    "visibleDist": "50",
+    "visibleInMist": true,
+    "visibleLayer": "1"
+  },
+  "mark_activity_snapshot_new": {
+    "activeIcon": "icon_map_activity_photograph",
+    "defaultVisible": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "inActiveIcon": "icon_map_activity_photograph",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_activity_snapshot_new",
+    "markInfoType": "45",
+    "markType": "74",
+    "name": {
+      "cn": "新·拍照活动",
+      "en": "NEW Camera Event"
+    },
+    "sortOrder": "2",
+    "visibleDist": "50",
+    "visibleInMist": true,
+    "visibleLayer": "1"
+  },
   "mark_activity_submit_1": {
     "activeIcon": "icon_map_activity_manualcraft",
     "defaultVisible": false,
@@ -796,7 +840,7 @@
     "defaultVisible": true,
     "desc": {
       "cn": "装饰物品，无实际功能。",
-      "en": "A decorative item with no practical features."
+      "en": "An ornamental with no practical features."
     },
     "inActiveIcon": "icon_map_decorate",
     "isStatic": false,
@@ -818,7 +862,7 @@
     "defaultVisible": true,
     "desc": {
       "cn": "装饰物品，无实际功能。",
-      "en": "A decorative item with no practical features."
+      "en": "An ornamental with no practical features."
     },
     "inActiveIcon": "icon_map_decorate",
     "isStatic": false,
@@ -840,7 +884,7 @@
     "defaultVisible": true,
     "desc": {
       "cn": "装饰物品，无实际功能。",
-      "en": "A decorative item with no practical features."
+      "en": "An ornamental with no practical features."
     },
     "inActiveIcon": "icon_map_decorate",
     "isStatic": false,
@@ -857,12 +901,34 @@
     "visibleInMist": false,
     "visibleLayer": "3"
   },
+  "mark_bd_decorate_jail_1": {
+    "activeIcon": "icon_map_decorate",
+    "defaultVisible": true,
+    "desc": {
+      "cn": "装饰物品，无实际功能。",
+      "en": "An ornamental with no practical features."
+    },
+    "inActiveIcon": "icon_map_decorate",
+    "isStatic": false,
+    "isVisibleActive": true,
+    "markInfoId": "mark_bd_decorate_jail_1",
+    "markInfoType": "1210",
+    "markType": "1",
+    "name": {
+      "cn": "虎·牢·关",
+      "en": "Tiger Cage"
+    },
+    "sortOrder": "1",
+    "visibleDist": "50",
+    "visibleInMist": false,
+    "visibleLayer": "3"
+  },
   "mark_bd_decorate_pear_blossom_bonsai_1": {
     "activeIcon": "icon_map_decorate",
     "defaultVisible": true,
     "desc": {
       "cn": "装饰物品，无实际功能。",
-      "en": "A decorative item with no practical features."
+      "en": "An ornamental with no practical features."
     },
     "inActiveIcon": "icon_map_decorate",
     "isStatic": false,
@@ -1411,8 +1477,8 @@
     "activeIcon": "icon_map_pole_wuling",
     "defaultVisible": true,
     "desc": {
-      "cn": "在集成核心区域外可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行范围供电与短距离电力传输。",
-      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and Xiranite Relays within an 80-meter radius; and to Xiranite Pylons and other power facilities within a 30-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for powering facilities within range and power transmission across short distances."
+      "cn": "可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行范围供电与短距离电力传输。",
+      "en": "The Xiranite Pylon can auto-connect to the Protocol Automation-Core (PAC) and Xiranite Relays within 80 meters; and to Xiranite Pylons and other power facilities within 30 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This pylon can be used to supply power to facilities within range and transmit power across short distances."
     },
     "inActiveIcon": "icon_map_pole_wuling",
     "isStatic": false,
@@ -1477,8 +1543,8 @@
     "activeIcon": "icon_map_big_pole_wuling",
     "defaultVisible": true,
     "desc": {
-      "cn": "在集成核心区域外可自动连接协议核心与全部息壤电力设备（80m内），但无法连接核心区域内的其他电力设备。在集成核心区域内仅会自动连接协议核心。可进行电力传输与小范围供电。",
-      "en": "When outside the Core AIC Area, this facility auto-connects to the PAC and any Xiranite power facilities within an 80-meter radius. However, it cannot connect to other power facilities within the Core AIC Area. When inside the Core AIC Area, it only auto-connects to the PAC. This facility can be used for power transmission and powering facilities within a short range."
+      "cn": "可自动连接协议核心与全部息壤电力设备（80m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行电力传输与小范围供电。",
+      "en": "The Xiranite Relay can auto-connect to the Protocol Automation-Core (PAC) and any type of Xiranite power facilities within 80 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This relay can be used for power transmission and can supply power to nearby facilities."
     },
     "inActiveIcon": "icon_map_big_pole_wuling",
     "isStatic": false,
@@ -2441,6 +2507,28 @@
     "visibleInMist": true,
     "visibleLayer": "1"
   },
+  "mark_dg_mini_bossrush": {
+    "activeIcon": "icon_map_mini_boss",
+    "defaultVisible": false,
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "inActiveIcon": "icon_map_mini_boss",
+    "isStatic": true,
+    "isVisibleActive": true,
+    "markInfoId": "mark_dg_mini_bossrush",
+    "markInfoType": "16",
+    "markType": "17",
+    "name": {
+      "cn": "危境碎片",
+      "en": "Crisis Fragment"
+    },
+    "sortOrder": "2",
+    "visibleDist": "50",
+    "visibleInMist": true,
+    "visibleLayer": "1"
+  },
   "mark_dg_resource": {
     "activeIcon": "icon_map_dungeon",
     "defaultVisible": false,
@@ -3095,6 +3183,28 @@
     "name": {
       "cn": "物资调度终端",
       "en": "Stock Redistribution Terminal"
+    },
+    "sortOrder": "2",
+    "visibleDist": "50",
+    "visibleInMist": false,
+    "visibleLayer": "1"
+  },
+  "mark_p_domain_simulationTraining": {
+    "activeIcon": "icon_map_simulation_training",
+    "defaultVisible": false,
+    "desc": {
+      "cn": "某种战斗演算装置，能够支持放置作战设备以提供辅助。",
+      "en": "A battle simulation device that can support the deployment of combat facilities."
+    },
+    "inActiveIcon": "icon_map_simulation_training_unactive",
+    "isStatic": true,
+    "isVisibleActive": false,
+    "markInfoId": "mark_p_domain_simulationTraining",
+    "markInfoType": "47",
+    "markType": "55",
+    "name": {
+      "cn": "演武平台",
+      "en": "Trial Arena"
     },
     "sortOrder": "2",
     "visibleDist": "50",

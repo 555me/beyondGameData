@@ -14,7 +14,7 @@
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-镌宇铭星签到",
-      "en": "Event: Etchings of Our Cosmic Dreams Sign-In"
+      "en": "Event: [Etchings of Our Cosmic Dreams Sign-In]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_checkin_universe",
@@ -25,18 +25,29 @@
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-净流涤尘",
-      "en": "Event: Cleanse and Rinse"
+      "en": "Event: [Cleanse and Rinse]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_cleaning_test",
     "phaseArgs": "{\r\n  \"activityId\": \"cleaning_test\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
+  "item_obtain_activity_contingency_contract_0": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "活动-危机合约 重燃测试作战",
+      "en": "Event: [Contingency Contract: Re-Ignition Experimental Operation]"
+    },
+    "iconId": "icon_tips_activity",
+    "id": "item_obtain_activity_contingency_contract_0",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_contingency_contract_0\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
   "item_obtain_activity_dungeon_fighting": {
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-生存特训",
-      "en": "Event: Survival Training"
+      "en": "Event: [Survival Training]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_dungeon_fighting",
@@ -69,18 +80,29 @@
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-卡莉的谷地童话",
-      "en": "Event: Carly's Fairytale of the Valley"
+      "en": "Event: [Carly's Fairytale of the Valley]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_photo_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_conditional_multistage_1\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
+  "item_obtain_activity_phototaking_carly_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "活动-卡莉的武陵童话",
+      "en": "Event: [Carly's Fairytale of Wuling]"
+    },
+    "iconId": "icon_tips_activity",
+    "id": "item_obtain_activity_phototaking_carly_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
   "item_obtain_activity_phototaking_universe": {
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-镌宇铭星·留影",
-      "en": "Event: Snapshot: Etchings of Our Cosmic Dreams"
+      "en": "Event: [Snapshot: Etchings of Our Cosmic Dreams]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_phototaking_universe",
@@ -91,7 +113,7 @@
     "bindSystem": "1100",
     "desc": {
       "cn": "活动-物资供给·开拓节",
-      "en": "Event: Supply: Exploration Day"
+      "en": "Event: [Supply: Exploration Day]"
     },
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_submit_food_1",
@@ -436,6 +458,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0001",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_exp01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0001_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·干员经验",
+      "en": "Protocol Space: Operator EXP"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0001_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource200001663\"\r\n}",
     "phaseId": "Map"
   },
@@ -447,6 +480,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0002",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_wpexp01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0002_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·武器经验",
+      "en": "Protocol Space: Weapon EXP"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0002_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource2100320002\"\r\n}",
     "phaseId": "Map"
   },
@@ -458,6 +502,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0003",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_wpbreak01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0003_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·武器进阶",
+      "en": "Protocol Space: Weapon Tune"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0003_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource2100320003\"\r\n}",
     "phaseId": "Map"
   },
@@ -469,6 +524,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0004",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_charbreak01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0004_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·干员进阶",
+      "en": "Protocol Space: Promotions"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0004_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource2100320000\"\r\n}",
     "phaseId": "Map"
   },
@@ -480,6 +546,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0005",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_gold01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0005_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·钱币收集",
+      "en": "Protocol Space: T-Creds"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0005_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource200001631\"\r\n}",
     "phaseId": "Map"
   },
@@ -491,6 +568,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_0006",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung01_group_skill01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_0006_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·技能提升",
+      "en": "Protocol Space: Skill Up"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_0006_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_resource2100320001\"\r\n}",
     "phaseId": "Map"
   },
@@ -568,6 +656,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_ss01",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung_group_ss01\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_ss01_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·高危材料填埋场",
+      "en": "Protocol Space: Hazardous Material Landfill"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_ss01_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_ss2800004023\"\r\n}",
     "phaseId": "Map"
   },
@@ -579,6 +678,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_ss02",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung_group_ss02\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_ss02_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·高危材料收集处",
+      "en": "Protocol Space: Hazardous Material Collection Site"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_ss02_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_ss3500031334\"\r\n}",
     "phaseId": "Map"
   },
@@ -590,6 +700,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_ss03",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung_group_ss03\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_ss03_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·高危材料管理室",
+      "en": "Protocol Space: Hazardous Material Management Room"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_ss03_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_ss10100033017\"\r\n}",
     "phaseId": "Map"
   },
@@ -601,6 +722,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_ss04",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung_group_ss04\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_ss04_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·高危材料研究所",
+      "en": "Protocol Space: Hazardous Material Institute"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_ss04_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_ss22800020012\"\r\n}",
     "phaseId": "Map"
   },
@@ -612,6 +744,17 @@
     },
     "iconId": "icon_tips_dungeon",
     "id": "item_obtain_dungeon_ss05",
+    "phaseArgs": "{\r\n  \"dungeonSeriesId\": \"dung_group_ss05\"\r\n}",
+    "phaseId": "DungeonEntry"
+  },
+  "item_obtain_dungeon_ss05_untouched": {
+    "bindSystem": "52",
+    "desc": {
+      "cn": "协议空间·高危材料封存库",
+      "en": "Protocol Space: Hazardous Material Containment Vault"
+    },
+    "iconId": "icon_tips_dungeon",
+    "id": "item_obtain_dungeon_ss05_untouched",
     "phaseArgs": "{\r\n  \"instId\": \"mark_dg_ss22800020013\"\r\n}",
     "phaseId": "Map"
   },
@@ -921,6 +1064,28 @@
     "iconId": "icon_tips_monster",
     "id": "item_obtain_eny_0095_ethillu",
     "phaseArgs": "{\r\n  \"monsterId\": \"eny_0095_ethillu\"\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_eny_0112_jzmonk": {
+    "bindSystem": "55",
+    "desc": {
+      "cn": "击败山犼兽有概率掉落",
+      "en": "Chance Drop: Rockhowler"
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_eny_0112_jzmonk",
+    "phaseArgs": "{\r\n  \"monsterId\": \"eny_0112_jzmonk\"\r\n}",
+    "phaseId": "Wiki"
+  },
+  "item_obtain_eny_0113_jzogre": {
+    "bindSystem": "55",
+    "desc": {
+      "cn": "击败披甲裂兽有概率掉落",
+      "en": "Chance Drop: Armored Manglerbeast"
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_eny_0113_jzogre",
+    "phaseArgs": "{\r\n  \"monsterId\": \"eny_0113_jzogre\"\r\n}",
     "phaseId": "Wiki"
   },
   "item_obtain_equip": {
@@ -1669,6 +1834,17 @@
     "iconId": "icon_tips_doodad",
     "id": "item_obtain_hdwk_item_drop_hvybow_1",
     "phaseArgs": "{\r\n  \"jumpItem\": \"item_drop_hvybow_1\"\r\n}",
+    "phaseId": "ManualCraftPopups"
+  },
+  "item_obtain_hdwk_item_drop_jzmonk_1": {
+    "bindSystem": "10000000",
+    "desc": {
+      "cn": "收集足够数量<@obt.key>百年陈皮</>以解锁配方",
+      "en": "Gather <@obt.key>Century Rind</> to unlock formula"
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_hdwk_item_drop_jzmonk_1",
+    "phaseArgs": "{\r\n  \"jumpItem\": \"item_drop_jzmonk_1\"\r\n}",
     "phaseId": "ManualCraftPopups"
   },
   "item_obtain_hdwk_item_drop_lbmob_1": {
@@ -3508,6 +3684,28 @@
     "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"sm2l5m1\",\r\n    \"sm2l5m2\"\r\n  ]\r\n}",
     "phaseId": "Mission"
   },
+  "jump_activity_guide_zhujiangu_01": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_activity_guide_zhujiangu_01",
+    "phaseArgs": "{\r\n  \"levelId\": \"map02_lv006\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_activity_guide_zhujiangu_02": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_activity_guide_zhujiangu_02",
+    "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"sm2l6m1\"\r\n  ]\r\n}",
+    "phaseId": "Mission"
+  },
   "jump_activity_newplayer_benefits_AdventureBook": {
     "bindSystem": "1100",
     "desc": {
@@ -3562,6 +3760,17 @@
     "id": "jump_activity_newplayer_benefits_level",
     "phaseArgs": "{}",
     "phaseId": "AdventureReward"
+  },
+  "jump_activity_phototaking_carly_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_activity_phototaking_carly_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\"\r\n}",
+    "phaseId": "SnapshotChallenge"
   },
   "jump_activity_phototaking_universe": {
     "bindSystem": "1100",
@@ -3761,6 +3970,28 @@
     "phaseArgs": "{\r\n  \"activityId\": \"activity_char_trial_v1d2_1\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
+  "jump_center_activity_char_trial_1_3_1": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_char_trial_1_3_1",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_char_trial_v1d3_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
+  "jump_center_activity_char_trial_1_3_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_char_trial_1_3_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_char_trial_v1d3_2\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
   "jump_center_activity_char_trial_2": {
     "bindSystem": "1100",
     "desc": {
@@ -3792,6 +4023,17 @@
     "iconId": "",
     "id": "jump_center_activity_conditional_multistage_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_conditional_multistage_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
+  "jump_center_activity_contingency_contract_0": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_contingency_contract_0",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_contingency_contract_0\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
   "jump_center_activity_gacha_beginner": {
@@ -3827,6 +4069,17 @@
     "phaseArgs": "{\r\n  \"activityId\": \"activity_high_difficulty_v1d2\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
+  "jump_center_activity_high_difficulty_v1d3": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_high_difficulty_v1d3",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_high_difficulty_v1d3\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
   "jump_center_activity_level_rewards": {
     "bindSystem": "1100",
     "desc": {
@@ -3847,6 +4100,17 @@
     "iconId": "",
     "id": "jump_center_activity_limited_formula_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_limited_formula_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter"
+  },
+  "jump_center_activity_phototaking_carly_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_phototaking_carly_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter"
   },
   "jump_center_activity_phototaking_universe": {
@@ -3936,6 +4200,116 @@
     "id": "jump_cleaning_details",
     "phaseArgs": "{\r\n  \"activityId\": \"cleaning_test\"\r\n}",
     "phaseId": "ActivityCleaningDetails"
+  },
+  "jump_contingency_contract_shop": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_shop",
+    "phaseArgs": "{\r\n  \"shopGroupId\": \"shop_activity_contingency_contract_0\",\r\n  \"shopId\": \"shop_activity_contingency_contract_0_1\",\r\n  \"activityMoneyId\": \"item_activity_contract_gold_0\"\r\n}",
+    "phaseId": "Shop"
+  },
+  "jump_contingency_contract_tag_select": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_tag_select",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\"\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_contingency_contract_0\"\r\n}",
+    "phaseId": "ContingencyContractTask"
+  },
+  "jump_contingency_contract_task_1_1": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_1",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    100201,\r\n    900101,\r\n    101301\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_2",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    100003,\r\n    100302,\r\n    100402,\r\n    101603\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_3": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_3",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    103203,\r\n    102302,\r\n    103302,\r\n    101402\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_4": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_4",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    100003,\r\n    900101,\r\n    102302,\r\n    101501,\r\n    101101,\r\n    102201\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_5": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_5",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    103203,\r\n    100202,\r\n    100602,\r\n    102002,\r\n    101402\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_6": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_6",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    100003,\r\n    100901,\r\n    103102,\r\n    100301,\r\n    100401\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
+  },
+  "jump_contingency_contract_task_1_7": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_contingency_contract_task_1_7",
+    "phaseArgs": "{\r\n  \"gameId\": \"indie_contract001\",\r\n  \"tagIds\": [\r\n    103203,\r\n    101303,\r\n    101201\r\n  ]\r\n}",
+    "phaseId": "ContingencySelectTag"
   },
   "jump_domain_depot_tundra": {
     "bindSystem": "503",
@@ -4278,6 +4652,17 @@
     "phaseArgs": "{\r\n  \"poolId\": \"joint_1_2_2\"\r\n}",
     "phaseId": "GachaPool"
   },
+  "jump_gacha_lt_1_3_1": {
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_lt_1_3_1",
+    "phaseArgs": "{\r\n  \"poolId\": \"special_1_3_1\"\r\n}",
+    "phaseId": "GachaPool"
+  },
   "jump_gem_enhance": {
     "bindSystem": "3",
     "desc": {
@@ -4542,6 +4927,17 @@
     "phaseArgs": "{\r\n  \"levelId\": \"map02_lv005\"\r\n}",
     "phaseId": "Map"
   },
+  "jump_map02_lv006": {
+    "bindSystem": "0",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_map02_lv006",
+    "phaseArgs": "{\r\n  \"levelId\": \"map02_lv006\"\r\n}",
+    "phaseId": "Map"
+  },
   "jump_map_camp_fire": {
     "bindSystem": "10000000",
     "desc": {
@@ -4685,6 +5081,17 @@
     "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c13m1\",\r\n    \"c13m2\",\r\n    \"c13m2d5\",\r\n    \"c13m3\"\r\n  ]\r\n}",
     "phaseId": "Mission"
   },
+  "jump_mission_activity_CharacterGuide_camille": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_CharacterGuide_camille",
+    "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c33m1\",\r\n    \"c33m1d5\",\r\n    \"c33m2\",\r\n    \"c33m3\"\r\n  ]\r\n}",
+    "phaseId": "Mission"
+  },
   "jump_mission_activity_CharacterGuide_laevat": {
     "bindSystem": "1100",
     "desc": {
@@ -4694,6 +5101,17 @@
     "iconId": "",
     "id": "jump_mission_activity_CharacterGuide_laevat",
     "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c16m1\",\r\n    \"c16m1d5\",\r\n    \"c16m2\",\r\n    \"c16m2d5\",\r\n    \"c16m3\",\r\n    \"c16m3d5\",\r\n    \"c16m4\",\r\n    \"c16m4d5\"\r\n  ]\r\n}",
+    "phaseId": "Mission"
+  },
+  "jump_mission_activity_CharacterGuide_mifu": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_CharacterGuide_mifu",
+    "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c31m1\",\r\n    \"c31m1d5\",\r\n    \"c31m2\",\r\n    \"c31m2d3\",\r\n    \"c31m2d6\",\r\n    \"c31m3\",\r\n    \"c31m3d5\"\r\n  ]\r\n}",
     "phaseId": "Mission"
   },
   "jump_mission_activity_CharacterGuide_wolfgd": {
@@ -4784,6 +5202,17 @@
     "phaseArgs": "{}",
     "phaseId": "Mission"
   },
+  "jump_mission_activity_phototaking_carly_2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_phototaking_carly_2",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m7\"\r\n}",
+    "phaseId": "Mission"
+  },
   "jump_mission_activity_puzzle_1": {
     "bindSystem": "1100",
     "desc": {
@@ -4837,6 +5266,28 @@
     "iconId": "",
     "id": "jump_mission_bp_sm2l5m3",
     "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"sm2l5m1\",\r\n    \"sm2l5m2\",\r\n    \"sm2l5m3\"\r\n  ]\r\n}",
+    "phaseId": "Mission"
+  },
+  "jump_mission_bp_sm2l6m1": {
+    "bindSystem": "10000000",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_bp_sm2l6m1",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"sm2l6m1\"\r\n}",
+    "phaseId": "Mission"
+  },
+  "jump_mission_contingency_contract_0": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_contingency_contract_0",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m14\"\r\n}",
     "phaseId": "Mission"
   },
   "jump_mission_daily": {
@@ -5168,6 +5619,17 @@
     "id": "jump_settlement_activity_limited_formula_1",
     "phaseArgs": "{\r\n  \"domainId\": \"domain_2\"\r\n}",
     "phaseId": "SettlementMain"
+  },
+  "jump_simulation_training_mission": {
+    "bindSystem": "10000000",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_simulation_training_mission",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"gm02m16\"\r\n}",
+    "phaseId": "Mission"
   },
   "jump_sm1l1m2_1": {
     "bindSystem": "56",
@@ -5609,6 +6071,160 @@
     "phaseArgs": "{\r\n  \"instId\": \"mark_snapshot9800220006\"\r\n}",
     "phaseId": "Map"
   },
+  "jump_snap_shot_carly_a2_stage1": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage1",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_1\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_2\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage3": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage3",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_3\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage4": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage4",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_4\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage5": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage5",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_5\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage6": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage6",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_6\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2_stage7": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2_stage7",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_phototaking_carly_2\",\r\n  \"stageId\": \"activity_phototaking_carly_2_stage_7\"\r\n}",
+    "phaseId": "SnapshotChallenge"
+  },
+  "jump_snap_shot_carly_a2c1": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c1",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new10100580001\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c2": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c2",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new22800990002\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c3": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c3",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new22800990005\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c4": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c4",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new22800990007\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c5": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c5",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new22800990009\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c6": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c6",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new23300230002\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_snap_shot_carly_a2c7": {
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_snap_shot_carly_a2c7",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_activity_snapshot_new23300230004\"\r\n}",
+    "phaseId": "Map"
+  },
   "jump_spaceship_manu": {
     "bindSystem": "404",
     "desc": {
@@ -5785,6 +6401,17 @@
     "phaseArgs": "{\r\n  \"shopGroupId\": \"shop_pay_weapon\",\r\n  \"goodsId\": \"shop_weponbox_1_2_3\"\r\n}",
     "phaseId": "CashShop"
   },
+  "jump_weapon_gacha_lt_1_3_1": {
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_weapon_gacha_lt_1_3_1",
+    "phaseArgs": "{\r\n  \"shopGroupId\": \"shop_pay_weapon\",\r\n  \"goodsId\": \"shop_weponbox_1_3_1\"\r\n}",
+    "phaseId": "CashShop"
+  },
   "jump_weapon_gacha_lt_2": {
     "bindSystem": "51",
     "desc": {
@@ -5948,6 +6575,28 @@
     "iconId": "",
     "id": "jump_world_energy_point08",
     "phaseArgs": "{\r\n  \"instId\": \"mark_p_enemyspawnerworld_energy_point_group08\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_world_energy_point09": {
+    "bindSystem": "70",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_world_energy_point09",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_p_enemyspawnerworld_energy_point_group09\"\r\n}",
+    "phaseId": "Map"
+  },
+  "jump_world_simulation_training": {
+    "bindSystem": "73",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_world_simulation_training",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_p_domain_simulationTrainingSIMULATION_TRAINING_INST_ID\"\r\n}",
     "phaseId": "Map"
   }
 }

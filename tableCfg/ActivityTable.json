@@ -1,12 +1,7 @@
 {
   "CharacterGuide_aglina": {
     "bgImg": "",
-    "bubbleSortId": "3001",
-    "bubbleText": {
-      "cn": "「信使的信」活动已开放",
-      "en": "[Letter From a Messenger] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -87,7 +82,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "CharacterGuide_aglina_reward",
-    "showRewardCnt": false,
     "sortId": "3001",
     "tabImg": "bg_activity_tab_char_guide_aglina",
     "tabImgColor": "#EE1F1F",
@@ -96,16 +90,12 @@
       "activity_tag_story"
     ],
     "themeColor": "",
+    "timeId": "time_CharacterGuide_aglina",
     "type": "10"
   },
   "CharacterGuide_laevat": {
     "bgImg": "",
-    "bubbleSortId": "3003",
-    "bubbleText": {
-      "cn": "「燃尽记忆之灰」活动已开放",
-      "en": "[Let Fire Consume the Ashen Past] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -186,7 +176,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "CharacterGuide_laevat_reward",
-    "showRewardCnt": false,
     "sortId": "3003",
     "tabImg": "bg_activity_tab_char_guide_laevat",
     "tabImgColor": "#d80030",
@@ -195,16 +184,106 @@
       "activity_tag_story"
     ],
     "themeColor": "",
+    "timeId": "time_CharacterGuide_laevat",
+    "type": "10"
+  },
+  "CharacterGuide_mifu": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "CharacterGuide_mifu_unlock1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程Ⅵ - 志同道合",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅵ: Kindred Souls Who Share a Vision]"
+        },
+        "jumpId": "jump_mission_CharacterGuide",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e10m4"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "弭弗忽然约你前往总桩办公室会合。她似乎有点焦急，不复平日里的沉着——武陵到底发生了什么？",
+      "en": "Mi Fu invites you to meet her at the Main Pillar Office. The Watchguard Captain is not her usual calm self and actually looks a little worried — has something happened in Wuling?"
+    },
+    "detailJumpId": "jump_mission_activity_CharacterGuide_mifu",
+    "id": "CharacterGuide_mifu",
+    "immediateClose": true,
+    "instructionId": "CharacterGuide_mifu",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "以拳问心",
+      "en": "A Fistful of Reflections"
+    },
+    "panelId": "ActivityCharacterGuideLine",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_CharacterGuide_mifu",
+    "sortId": "3006",
+    "tabImg": "bg_activity_tab_char_guide_mifu",
+    "tabImgColor": "#e3245c",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_story"
+    ],
+    "themeColor": "",
+    "timeId": "time_CharacterGuide_mifu",
     "type": "10"
   },
   "CharacterGuide_wolfgd": {
     "bgImg": "",
-    "bubbleSortId": "3000",
-    "bubbleText": {
-      "cn": "「离群之狼」活动已开放",
-      "en": "[Lone Wolf] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -301,7 +380,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "CharacterGuide_wolfgd_reward",
-    "showRewardCnt": false,
     "sortId": "3000",
     "tabImg": "bg_activity_tab_char_guide_wolfgd",
     "tabImgColor": "#FF2D4B",
@@ -310,16 +388,12 @@
       "activity_tag_story"
     ],
     "themeColor": "",
+    "timeId": "time_CharacterGuide_wolfgd",
     "type": "10"
   },
   "CharacterGuide_wulfa": {
     "bgImg": "",
-    "bubbleSortId": "3005",
-    "bubbleText": {
-      "cn": "「红骑士」活动已开放",
-      "en": "[The Red Knight] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -400,7 +474,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_CharacterGuide_wulfa",
-    "showRewardCnt": false,
     "sortId": "3005",
     "tabImg": "bg_activity_tab_char_guide_wulfa",
     "tabImgColor": "#cc0e1b",
@@ -409,16 +482,12 @@
       "activity_tag_story"
     ],
     "themeColor": "",
+    "timeId": "time_CharacterGuide_wulfa",
     "type": "10"
   },
   "CharacterGuide_yvonne": {
     "bgImg": "",
-    "bubbleSortId": "3002",
-    "bubbleText": {
-      "cn": "「爱，呐喊和原型机」活动已开放",
-      "en": "[Love, Scream & The Prototype] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -499,7 +568,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "CharacterGuide_yvonne_reward",
-    "showRewardCnt": false,
     "sortId": "3002",
     "tabImg": "bg_activity_tab_char_guide_yvonne",
     "tabImgColor": "#FF638C",
@@ -508,16 +576,12 @@
       "activity_tag_story"
     ],
     "themeColor": "",
+    "timeId": "time_CharacterGuide_yvonne",
     "type": "10"
   },
   "activity_char_trial_1": {
     "bgImg": "activity_bg_character_trial_caiwanting",
-    "bubbleSortId": "5000",
-    "bubbleText": {
-      "cn": "「莱万汀的作战演练」活动已开放",
-      "en": "[Combat Drills: Laevatain] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "莱万汀是一名拥有强大群体输出能力的突击干员。她可以通过重击吸收附近敌人的灼热附着，触发强力战技和连携技，并使用终结技横扫大量敌人。",
@@ -539,7 +603,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5000",
     "tabImg": "activity_tab_character_trial_caiwanting",
     "tabImgColor": "#fff078",
@@ -548,16 +611,12 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_1",
     "type": "9"
   },
   "activity_char_trial_2": {
     "bgImg": "activity_bg_character_trial_yvonne",
-    "bubbleSortId": "5002",
-    "bubbleText": {
-      "cn": "「伊冯的作战演练」活动已开放",
-      "en": "[Combat Drills: Yvonne] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "伊冯是一名通过暴击造成大量输出的干员。施放终结技后，能获得强力的单体输出能力。",
@@ -579,7 +638,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5002",
     "tabImg": "activity_tab_character_trial_yvonne",
     "tabImgColor": "#fff078",
@@ -588,16 +646,12 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_2",
     "type": "9"
   },
   "activity_char_trial_3": {
     "bgImg": "activity_bg_character_trial_jieerpeta",
-    "bubbleSortId": "5003",
-    "bubbleText": {
-      "cn": "「洁尔佩塔的作战演练」活动已开放",
-      "en": "[Combat Drills: Gilberta] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "洁尔佩塔是兼具法术和物理能力的辅助干员。她可以在触发法术异常后快速造成击飞，并且施放终结技后可以对大范围内的敌人施加法术脆弱效果。",
@@ -619,7 +673,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5003",
     "tabImg": "activity_tab_character_trial_jieerpeta",
     "tabImgColor": "#fff078",
@@ -628,16 +681,12 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_3",
     "type": "9"
   },
   "activity_char_trial_v1d1_1": {
     "bgImg": "activity_bg_character_trial_tangtang",
-    "bubbleSortId": "5001",
-    "bubbleText": {
-      "cn": "「汤汤的作战演练」活动已开放",
-      "en": "[Combat Drills: Tangtang] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -659,7 +708,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5001",
     "tabImg": "activity_tab_character_trial_tangtang",
     "tabImgColor": "#fff078",
@@ -668,16 +716,12 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_1_1",
     "type": "9"
   },
   "activity_char_trial_v1d1_2": {
     "bgImg": "activity_bg_character_trial_wulfa",
-    "bubbleSortId": "5001",
-    "bubbleText": {
-      "cn": "「洛茜的作战演练」活动已开放",
-      "en": "[Combat Drills: Rossi] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -699,7 +743,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5001",
     "tabImg": "activity_tab_character_trial_wulfa",
     "tabImgColor": "#fff078",
@@ -708,16 +751,12 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_1_2",
     "type": "9"
   },
   "activity_char_trial_v1d2_1": {
     "bgImg": "activity_bg_character_trial_zhuangfy",
-    "bubbleSortId": "5001",
-    "bubbleText": {
-      "cn": "「庄方宜的作战演练」活动已开放",
-      "en": "[Combat Drills: Zhuang Fangyi] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -739,7 +778,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_activity_char_trial_overview",
-    "showRewardCnt": true,
     "sortId": "5001",
     "tabImg": "activity_tab_character_trial_zhuangfy",
     "tabImgColor": "#fff078",
@@ -748,16 +786,47 @@
       "activity_tag_chartrial"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_2_1",
+    "type": "9"
+  },
+  "activity_char_trial_v1d3_1": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_char_trial_v1d3_1",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_activity_char_trial_overview",
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_mifu",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_3_1",
     "type": "9"
   },
   "activity_checkin_1": {
     "bgImg": "",
-    "bubbleSortId": "10100",
-    "bubbleText": {
-      "cn": "「唤醒签到」活动已开放",
-      "en": "[Awakening Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -779,7 +848,6 @@
     "popUpSortId": "1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10100",
     "tabImg": "activity_tab_bg_temp_2",
     "tabImgColor": "#FF3B86",
@@ -788,16 +856,12 @@
       "activity_tag_novice"
     ],
     "themeColor": "",
+    "timeId": "time_activity_checkin_1",
     "type": "2"
   },
   "activity_checkin_agline": {
     "bgImg": "",
-    "bubbleSortId": "8302",
-    "bubbleText": {
-      "cn": "「灵动信使签到」活动已开放",
-      "en": "[Messenger Express Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取灵动信使寻访凭证×5等丰富奖励。",
@@ -819,7 +883,6 @@
     "popUpSortId": "4",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8302",
     "tabImg": "bg_activity_tab_char_sign_aglina",
     "tabImgColor": "#cc2b02",
@@ -828,16 +891,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_3",
     "type": "2"
   },
   "activity_checkin_brilliance": {
     "bgImg": "",
-    "bubbleSortId": "8307",
-    "bubbleText": {
-      "cn": "「流光庆时签到」活动已开放",
-      "en": "[Shimmering Moment Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取流光庆时寻访凭证×5等丰富奖励。",
@@ -859,7 +918,6 @@
     "popUpSortId": "3",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8307",
     "tabImg": "activity_tab_character_trial_brilliance",
     "tabImgColor": "#eb4721",
@@ -868,16 +926,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_joint_1_2_2",
     "type": "2"
   },
   "activity_checkin_laevat": {
     "bgImg": "",
-    "bubbleSortId": "8300",
-    "bubbleText": {
-      "cn": "「行火留烬签到」活动已开放",
-      "en": "[Firewalker's Trail Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取行火留烬寻访凭证×5等丰富奖励。",
@@ -899,7 +953,6 @@
     "popUpSortId": "2",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8300",
     "tabImg": "bg_activity_tab_char_sign_laevat",
     "tabImgColor": "#ea0235",
@@ -908,16 +961,47 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_1",
+    "type": "2"
+  },
+  "activity_checkin_mifu": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取拳与心合寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [One with Her Fists HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_mifu",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_mifu",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "拳与心合签到",
+      "en": "One with Her Fists Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "2",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "8309",
+    "tabImg": "bg_activity_tab_char_sign_mifu",
+    "tabImgColor": "#e3245c",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_3_1",
     "type": "2"
   },
   "activity_checkin_tangtang": {
     "bgImg": "",
-    "bubbleSortId": "8304",
-    "bubbleText": {
-      "cn": "「清波静流签到」活动已开放",
-      "en": "[Gently Flows Qingbo Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取清波静流寻访凭证×5等丰富奖励。",
@@ -939,7 +1023,6 @@
     "popUpSortId": "2",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8304",
     "tabImg": "bg_activity_tab_char_sign_tangtang",
     "tabImgColor": "#0083f4",
@@ -948,16 +1031,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_1_1",
     "type": "2"
   },
   "activity_checkin_universe": {
     "bgImg": "",
-    "bubbleSortId": "8301",
-    "bubbleText": {
-      "cn": "「镌宇铭星签到」活动已开放",
-      "en": "[Etchings of Our Cosmic Dreams Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取贴纸·启明、佩丽卡的信物、联动头像框「铭星」以及嵌晶玉×500等奖励。",
@@ -979,7 +1058,6 @@
     "popUpSortId": "5",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8301",
     "tabImg": "activity_tab_bg_universe_checkin",
     "tabImgColor": "#fafa1f",
@@ -988,16 +1066,12 @@
       "activity_tag_universe"
     ],
     "themeColor": "",
+    "timeId": "time_activity_universe",
     "type": "2"
   },
   "activity_checkin_v1d0_end": {
     "bgImg": "",
-    "bubbleSortId": "8303",
-    "bubbleText": {
-      "cn": "「清波将起签到」活动已开放",
-      "en": "[Qingbo Rising Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "「新潮起，故渊离」版本即将开放，参与签到累计可领取奖励基础寻访凭证×2和嵌晶玉×500。",
@@ -1019,7 +1093,6 @@
     "popUpSortId": "5",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8303",
     "tabImg": "activity_tab_bg_v1d0_end_checkin",
     "tabImgColor": "#41cfac",
@@ -1028,16 +1101,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_activity_checkin_v1d0_end",
     "type": "2"
   },
   "activity_checkin_v1d1_end": {
     "bgImg": "",
-    "bubbleSortId": "8306",
-    "bubbleText": {
-      "cn": "「潮起武陵签到」活动已开放",
-      "en": "[Rising Tide of Wuling Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "「春晓时」版本即将开放，参与签到累计可领取奖励基础寻访凭证×2和嵌晶玉×500。",
@@ -1059,7 +1128,6 @@
     "popUpSortId": "4",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8306",
     "tabImg": "activity_tab_bg_v1d1_end_checkin",
     "tabImgColor": "#61ca00",
@@ -1068,16 +1136,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_activity_checkin_v1d1_end",
     "type": "2"
   },
   "activity_checkin_v1d2_end": {
     "bgImg": "",
-    "bubbleSortId": "8309",
-    "bubbleText": {
-      "cn": "「寻奇探幽签到」活动已开放",
-      "en": "[Curios and Myths Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "「寻遗散记」版本即将开放，参与签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。",
@@ -1099,7 +1163,6 @@
     "popUpSortId": "6",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8309",
     "tabImg": "activity_tab_bg_v1d2_end_checkin",
     "tabImgColor": "#ee0c4c",
@@ -1108,16 +1171,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_activity_checkin_v1d2_end",
     "type": "2"
   },
   "activity_checkin_wulfa": {
     "bgImg": "",
-    "bubbleSortId": "8305",
-    "bubbleText": {
-      "cn": "「狼群瑰宝签到」活动已开放",
-      "en": "[Pearl of the Pack Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取狼群瑰宝寻访凭证×5等丰富奖励。",
@@ -1139,7 +1198,6 @@
     "popUpSortId": "3",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8305",
     "tabImg": "bg_activity_tab_char_sign_rossina",
     "tabImgColor": "#ee1b2e",
@@ -1148,16 +1206,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_1_2",
     "type": "2"
   },
   "activity_checkin_yvonne": {
     "bgImg": "",
-    "bubbleSortId": "8301",
-    "bubbleText": {
-      "cn": "「异彩斑斓签到」活动已开放",
-      "en": "[Spectral Splendor Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取异彩斑斓寻访凭证×5等丰富奖励。",
@@ -1179,7 +1233,6 @@
     "popUpSortId": "3",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8301",
     "tabImg": "bg_activity_tab_char_sign_yvonne",
     "tabImgColor": "#f23973",
@@ -1188,16 +1241,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_0_2",
     "type": "2"
   },
   "activity_checkin_zhuangfangy": {
     "bgImg": "",
-    "bubbleSortId": "8308",
-    "bubbleText": {
-      "cn": "「春雷醒物签到」活动已开放",
-      "en": "[Blitz of Verdance Sign-In] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "参与签到累计可领取春雷醒物寻访凭证×5等丰富奖励。",
@@ -1219,7 +1268,6 @@
     "popUpSortId": "2",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8308",
     "tabImg": "bg_activity_tab_char_sign_zhuangfy",
     "tabImgColor": "#a5d530",
@@ -1228,16 +1276,12 @@
       "activity_tag_checkin_time"
     ],
     "themeColor": "",
+    "timeId": "time_special_1_2_1",
     "type": "2"
   },
   "activity_conditional_multistage_1": {
     "bgImg": "activity_bg_temp",
-    "bubbleSortId": "6000",
-    "bubbleText": {
-      "cn": "「卡莉的谷地童话」活动已开放",
-      "en": "[Carly's Fairytale of the Valley] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1318,7 +1362,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_snapshot_a1_overview",
-    "showRewardCnt": false,
     "sortId": "6000",
     "tabImg": "activity_tab_bg_temp",
     "tabImgColor": "#fff078",
@@ -1327,16 +1370,12 @@
       "activity_tag_snapshot"
     ],
     "themeColor": "",
+    "timeId": "time_activity_conditional_multistage_1",
     "type": "4"
   },
   "activity_cultivation_refund": {
     "bgImg": "activity_bg_develop_return",
-    "bubbleSortId": "10095",
-    "bubbleText": {
-      "cn": "「干员培养助力」活动已开放",
-      "en": "[Operator Progression Booster] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -1358,7 +1397,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10095",
     "tabImg": "activity_tab_bg_develop_return",
     "tabImgColor": "#fff100",
@@ -1367,16 +1405,12 @@
       "activity_tag_novice"
     ],
     "themeColor": "",
+    "timeId": "time_activity_cultivation_refund",
     "type": "27"
   },
   "activity_gacha_beginner": {
     "bgImg": "",
-    "bubbleSortId": "10099",
-    "bubbleText": {
-      "cn": "「于此启程」活动已开放",
-      "en": "[New Horizons] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "推进主线任务可获得十连启程寻访凭证，可在启程寻访中获得强力6星干员和自选6星武器。",
@@ -1398,7 +1432,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10099",
     "tabImg": "activity_tab_bg_gachabegin",
     "tabImgColor": "#fff078",
@@ -1407,16 +1440,12 @@
       "activity_tag_novice"
     ],
     "themeColor": "",
+    "timeId": "time_activity_gacha_beginner",
     "type": "6"
   },
   "activity_guide_wuling": {
     "bgImg": "",
-    "bubbleSortId": "8000",
-    "bubbleText": {
-      "cn": "「烟光武陵」活动已开放",
-      "en": "[Glittering Life at Wuling] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1497,7 +1526,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "activity_guide_wuling_reward",
-    "showRewardCnt": true,
     "sortId": "8000",
     "tabImg": "activity_tab_bg_guidewuling",
     "tabImgColor": "#18aca8",
@@ -1506,16 +1534,12 @@
       "activity_tag_guide"
     ],
     "themeColor": "",
+    "timeId": "time_activity_guide_wuling",
     "type": "13"
   },
   "activity_high_difficulty_1": {
     "bgImg": "activity_bg_highdifficulty",
-    "bubbleSortId": "6010",
-    "bubbleText": {
-      "cn": "「丰碑留名·旧创」活动已开放",
-      "en": "[Monumental Etching: Old Wounds] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1554,7 +1578,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "6010",
     "tabImg": "activity_tab_bg_highdifficulty",
     "tabImgColor": "#ff3632",
@@ -1563,16 +1586,12 @@
       "activity_tag_high_difficulty"
     ],
     "themeColor": "",
+    "timeId": "time_activity_high_difficulty_1",
     "type": "8"
   },
   "activity_high_difficulty_v1d1": {
     "bgImg": "activity_bg_highdifficulty",
-    "bubbleSortId": "6010",
-    "bubbleText": {
-      "cn": "「丰碑留名·炽痕」活动已开放",
-      "en": "[Monumental Etching: Scorch Mark] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1611,7 +1630,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "6010",
     "tabImg": "activity_tab_bg_highdifficulty_v1d1",
     "tabImgColor": "#ff3632",
@@ -1620,16 +1638,12 @@
       "activity_tag_high_difficulty"
     ],
     "themeColor": "",
+    "timeId": "time_activity_high_difficulty_v1d1",
     "type": "8"
   },
   "activity_high_difficulty_v1d2": {
     "bgImg": "activity_bg_highdifficulty",
-    "bubbleSortId": "6010",
-    "bubbleText": {
-      "cn": "「丰碑留名·秽流」活动已开放",
-      "en": "[Monumental Etching: Corrupting Surge] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1668,7 +1682,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "6010",
     "tabImg": "activity_tab_bg_highdifficulty_v1d2",
     "tabImgColor": "#ff3632",
@@ -1677,16 +1690,64 @@
       "activity_tag_high_difficulty"
     ],
     "themeColor": "",
+    "timeId": "time_activity_high_difficulty_v1d2",
+    "type": "8"
+  },
+  "activity_high_difficulty_v1d3": {
+    "bgImg": "activity_bg_highdifficulty",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_high_difficulty_unlock_condition_v1d3",
+        "conditionType": "5023",
+        "desc": {
+          "cn": "管理员权限等阶到达30级",
+          "en": "Reach Endministrator Authority Level 30"
+        },
+        "jumpId": "jump_adventure_book",
+        "parameters": [],
+        "progressToCompare": "30",
+        "tips": {
+          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
+          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_high_difficulty",
+    "id": "activity_high_difficulty_v1d3",
+    "immediateClose": false,
+    "instructionId": "activity_high_difficulty",
+    "introMissionJumpId": "jump_mission_unlock_high_difficulty",
+    "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "name": {
+      "cn": "丰碑留名·忿声",
+      "en": "Monumental Etching: Dirge of Grief"
+    },
+    "panelId": "ActivityHighDifficulty",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "6010",
+    "tabImg": "activity_tab_bg_highdifficulty_v1d3",
+    "tabImgColor": "#ff3632",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_high_difficulty"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_high_difficulty_v1d3",
     "type": "8"
   },
   "activity_level_rewards": {
     "bgImg": "",
-    "bubbleSortId": "10097",
-    "bubbleText": {
-      "cn": "「权限等阶奖励」活动已开放",
-      "en": "[Authority Level Rewards] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "提升权限等阶，领取丰厚奖励。",
@@ -1708,7 +1769,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10097",
     "tabImg": "activity_tab_bg_level",
     "tabImgColor": "#fff100",
@@ -1717,16 +1777,12 @@
       "activity_tag_novice"
     ],
     "themeColor": "",
+    "timeId": "time_activity_level_rewards",
     "type": "3"
   },
   "activity_limited_formula_1": {
     "bgImg": "activity_bg_temp",
-    "bubbleSortId": "6014",
-    "bubbleText": {
-      "cn": "「集成援助·掌中救星」活动已开放",
-      "en": "[AIC Support: Palm-Top Savior] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1807,7 +1863,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_limited_fomula_overview",
-    "showRewardCnt": false,
     "sortId": "6014",
     "tabImg": "activity_tab_bg_timelimit",
     "tabImgColor": "#0da9a9",
@@ -1816,16 +1871,12 @@
       "activity_tag_limited_formula"
     ],
     "themeColor": "00ffff",
+    "timeId": "time_activity_limited_formula_1",
     "type": "25"
   },
   "activity_map02_guide_003": {
     "bgImg": "",
-    "bubbleSortId": "8001",
-    "bubbleText": {
-      "cn": "「泉流无声」活动已开放",
-      "en": "[Quietly Flows the Spring] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -1906,7 +1957,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_guide_qingbo_overview",
-    "showRewardCnt": true,
     "sortId": "8001",
     "tabImg": "activity_tab_bg_v1d1_qingbovillage",
     "tabImgColor": "#41cfac",
@@ -1915,16 +1965,12 @@
       "activity_tag_guide"
     ],
     "themeColor": "",
+    "timeId": "time_activity_guide_qingbo",
     "type": "13"
   },
   "activity_map02_guide_004": {
     "bgImg": "",
-    "bubbleSortId": "8002",
-    "bubbleText": {
-      "cn": "「镇绥蚀海」活动已开放",
-      "en": "[Subduer of the Blighted Sea] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2005,7 +2051,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_guide_shoudun_overview",
-    "showRewardCnt": true,
     "sortId": "8002",
     "tabImg": "activity_tab_bg_guideshoudun",
     "tabImgColor": "#3c9db5",
@@ -2014,16 +2059,12 @@
       "activity_tag_guide"
     ],
     "themeColor": "",
+    "timeId": "time_activity_guide_shoudun",
     "type": "13"
   },
   "activity_map02_guide_005": {
     "bgImg": "",
-    "bubbleSortId": "8003",
-    "bubbleText": {
-      "cn": "「息壤妙用」活动已开放",
-      "en": "[Curious Use of Xiranite] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2104,7 +2145,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_guide_xirang_overview",
-    "showRewardCnt": true,
     "sortId": "8003",
     "tabImg": "activity_tab_bg_guidexirang",
     "tabImgColor": "#a0efb2",
@@ -2113,16 +2153,106 @@
       "activity_tag_guide"
     ],
     "themeColor": "",
+    "timeId": "time_activity_guide_xirang",
+    "type": "13"
+  },
+  "activity_map02_guide_006": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_guide_zhujiangu_unlockmain",
+        "conditionType": "18",
+        "desc": {
+          "cn": "在支线任务「藏剑于谷」中，完成「前往藏剑谷」（完成主线任务「第二章 - 进程Ⅲ - 旧泉涸处新潮生」后可开启对应任务）",
+          "en": "In the side mission [Deep Vaulted Steel], complete the objective [Go to Sword Vault Dale] (complete main mission [Chapter Ⅱ Process Ⅲ: Surging From a Withered Spring] to unlock the specified mission)"
+        },
+        "jumpId": "jump_activity_guide_zhujiangu_02",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "sm2l6m1_q#3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "大潮退去，失落之物重现于世，青山之中或有机巧重器，又或有剑光射斗……拨云见日，就在此时。",
+      "en": "The great tide has retreated, and what was once lost has been revealed. The forested mountains may hide great artifacts, technologies, or even shimmering weapons... The time has come to unveil the mystery."
+    },
+    "detailJumpId": "",
+    "id": "activity_map02_guide_006",
+    "immediateClose": false,
+    "instructionId": "activity_guide_zhujiangu",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "寻剑幽谷",
+      "en": "Search for Sword Vault Dale"
+    },
+    "panelId": "ActivityVersionGuide",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_guide_zhujiangu_overview",
+    "sortId": "8004",
+    "tabImg": "activity_tab_bg_guidezhujiangu",
+    "tabImgColor": "#4fd28a",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_guide"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_guide_zhujiangu",
     "type": "13"
   },
   "activity_more": {
     "bgImg": "activity_bg_more",
-    "bubbleSortId": "100",
-    "bubbleText": {
-      "cn": "",
-      "en": ""
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "推进主线任务以解锁更多活动",
@@ -2144,23 +2274,18 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "100",
     "tabImg": "activity_tab_bg_more",
     "tabImgColor": "#fff100",
     "tabImgGender": false,
     "tagIds": [],
     "themeColor": "",
+    "timeId": "time_activity_more",
     "type": "1"
   },
   "activity_newplayer_benefits_display": {
     "bgImg": "",
-    "bubbleSortId": "10096",
-    "bubbleText": {
-      "cn": "「启程福利展览板」活动已开放",
-      "en": "[New Horizons Giveaway EXPO Panel] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -2182,7 +2307,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10096",
     "tabImg": "activity_tab_bg_benefits",
     "tabImgColor": "#fff078",
@@ -2191,16 +2315,12 @@
       "activity_tag_benefits"
     ],
     "themeColor": "",
+    "timeId": "time_activity_benefits_display",
     "type": "1"
   },
   "activity_newplayer_mission_reward": {
     "bgImg": "",
-    "bubbleSortId": "10098",
-    "bubbleText": {
-      "cn": "「新手特许赠礼」活动已开放",
-      "en": "[Beginner's Chartered Tribute] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -2222,7 +2342,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "10098",
     "tabImg": "activity_tab_bg_mission_reward",
     "tabImgColor": "#fff100",
@@ -2231,16 +2350,106 @@
       "activity_tag_novice"
     ],
     "themeColor": "",
+    "timeId": "time_activity_newplayer_mission_reward",
     "type": "19"
+  },
+  "activity_phototaking_carly_2": {
+    "bgImg": "activity_bg_carly2",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_phototaking_carly_2_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程II - 无患之患",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅱ: Where Danger Sleeps]"
+        },
+        "jumpId": "jump_mission_main",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e6m5"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "创作不会停止，卡莉又有了新的奇思妙想，请帮她完成故事书吧。",
+      "en": "Creativity never ends. Carly has acquired new fantasies and imaginations. Help her complete her storybook."
+    },
+    "detailJumpId": "jump_activity_phototaking_carly_2",
+    "id": "activity_phototaking_carly_2",
+    "immediateClose": false,
+    "instructionId": "activity_phototaking_carly_2",
+    "introMissionJumpId": "jump_mission_activity_phototaking_carly_2",
+    "introMissionQuestId": "a1m7_q#IntroDialog",
+    "name": {
+      "cn": "卡莉的武陵童话",
+      "en": "Carly's Fairytale of Wuling"
+    },
+    "panelId": "ActivityPhotoTaking",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_snapshot_carly_a2_overview",
+    "sortId": "6018",
+    "tabImg": "activity_tab_bg_carly2",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_snapshot"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_phototaking_carly_2",
+    "type": "4"
   },
   "activity_phototaking_universe": {
     "bgImg": "activity_bg_universe",
-    "bubbleSortId": "8300",
-    "bubbleText": {
-      "cn": "「镌宇铭星·留影」活动已开放",
-      "en": "[Snapshot: Etchings of Our Cosmic Dreams] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2321,7 +2530,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_phototaking_universe_overview",
-    "showRewardCnt": false,
     "sortId": "8300",
     "tabImg": "activity_tab_bg_universe",
     "tabImgColor": "#fff078",
@@ -2330,16 +2538,12 @@
       "activity_tag_universe"
     ],
     "themeColor": "",
+    "timeId": "time_activity_universe",
     "type": "4"
   },
   "activity_pristine_access_v1d2": {
     "bgImg": "",
-    "bubbleSortId": "8306",
-    "bubbleText": {
-      "cn": "「焕新月卡赠礼」活动已开放",
-      "en": "[Pristine Monthly Pass Tribute] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -2361,7 +2565,6 @@
     "popUpSortId": "4",
     "redDotName": "",
     "rewardId": "",
-    "showRewardCnt": false,
     "sortId": "8306",
     "tabImg": "activity_tab_bg_freemonthlypass",
     "tabImgColor": "#ff5400",
@@ -2370,16 +2573,12 @@
       "activity_tag_pristine_access"
     ],
     "themeColor": "",
+    "timeId": "time_activity_pristine_access",
     "type": "28"
   },
   "activity_puzzle_1": {
     "bgImg": "activity_bg_dungeon",
-    "bubbleSortId": "2001",
-    "bubbleText": {
-      "cn": "「密境行者」活动已开放",
-      "en": "[Delver of the Cryptic] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "随着管理员醒来，终末地工业重启了对这些小型、多变协议空间的探索计划。",
@@ -2401,7 +2600,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_puzzle_overview",
-    "showRewardCnt": false,
     "sortId": "2001",
     "tabImg": "activity_tab_bg_dungeon",
     "tabImgColor": "#fff078",
@@ -2410,16 +2608,106 @@
       "activity_tag_puzzle"
     ],
     "themeColor": "",
+    "timeId": "time_activity_puzzle_1",
     "type": "7"
+  },
+  "activity_simulation_training_1": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_typhoea_archery_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成支线任务「藏剑于谷」（完成主线任务「第二章 - 进程Ⅲ - 旧泉涸处新潮生」后可开启对应任务）",
+          "en": "Complete the side mission [Deep Vaulted Steel] (complete main mission [Chapter Ⅱ Process Ⅲ: Surging From a Withered Spring] to unlock the specified mission)"
+        },
+        "jumpId": "jump_mission_bp_sm2l6m1",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "sm2l6m1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "以数字与光影勾勒出的演武场，等待着您的选择与旺盛的斗志。",
+      "en": "An arena fashioned using digital data and realistic light and shadow rendering effects. It awaits your choices and eagerness for battle."
+    },
+    "detailJumpId": "jump_world_simulation_training",
+    "id": "activity_simulation_training_1",
+    "immediateClose": false,
+    "instructionId": "instru_activity_simulation_training_1",
+    "introMissionJumpId": "jump_simulation_training_mission",
+    "introMissionQuestId": "gm02m16_q#3",
+    "name": {
+      "cn": "演武集算",
+      "en": "Trial Algorithmics"
+    },
+    "panelId": "ActivitySimulationTrainingTask",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_simulation_training_1_overview",
+    "sortId": "6016",
+    "tabImg": "activity_tab_simulation_training_task",
+    "tabImgColor": "#3ff4bc",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_high_difficulty"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_simulation_training_1",
+    "type": "31"
   },
   "activity_stamina_reduce_1": {
     "bgImg": "activity_bg_stamina_discount",
-    "bubbleSortId": "4000",
-    "bubbleText": {
-      "cn": "「理智减耗」活动已开放",
-      "en": "[Sanity Discount] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "药剂、按摩，甚至一顿大餐……帮助您舒缓精神压力的方式多种多样。",
@@ -2441,7 +2729,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_doodad_crylplant_1_1",
-    "showRewardCnt": false,
     "sortId": "4000",
     "tabImg": "activity_tab_stamina_discount",
     "tabImgColor": "#fff078",
@@ -2450,16 +2737,12 @@
       "activity_tag_stamina"
     ],
     "themeColor": "",
+    "timeId": "time_stamina_reduce_1",
     "type": "5"
   },
   "activity_stamina_reduce_v1d1_1": {
     "bgImg": "activity_bg_stamina_discount",
-    "bubbleSortId": "4000",
-    "bubbleText": {
-      "cn": "「理智减耗」活动已开放",
-      "en": "[Sanity Discount] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "药剂、按摩，甚至一顿大餐……帮助您舒缓精神压力的方式多种多样。",
@@ -2481,7 +2764,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_doodad_crylplant_1_1",
-    "showRewardCnt": false,
     "sortId": "4000",
     "tabImg": "activity_tab_stamina_discount",
     "tabImgColor": "#fff078",
@@ -2490,16 +2772,12 @@
       "activity_tag_stamina"
     ],
     "themeColor": "",
+    "timeId": "time_activity_stamina_reduce_v1d1_1",
     "type": "5"
   },
   "activity_stamina_reduce_v1d1_2": {
     "bgImg": "activity_bg_stamina_discount",
-    "bubbleSortId": "4000",
-    "bubbleText": {
-      "cn": "「理智减耗」活动已开放",
-      "en": "[Sanity Discount] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "药剂、按摩，甚至一顿大餐……帮助您舒缓精神压力的方式多种多样。",
@@ -2521,7 +2799,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_doodad_crylplant_1_1",
-    "showRewardCnt": false,
     "sortId": "4000",
     "tabImg": "activity_tab_stamina_discount",
     "tabImgColor": "#fff078",
@@ -2530,16 +2807,12 @@
       "activity_tag_stamina"
     ],
     "themeColor": "",
+    "timeId": "time_activity_stamina_reduce_v1d1_2",
     "type": "5"
   },
   "activity_stamina_refund_1d2d1": {
     "bgImg": "activity_bg_stamina_discount",
-    "bubbleSortId": "4000",
-    "bubbleText": {
-      "cn": "「理智补给」活动已开放",
-      "en": "[Sanity Supply] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -2561,7 +2834,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_stamina_return_stage_3",
-    "showRewardCnt": false,
     "sortId": "4000",
     "tabImg": "activity_tab_bg_stamina",
     "tabImgColor": "#fff100",
@@ -2570,16 +2842,12 @@
       "activity_tag_time_limited"
     ],
     "themeColor": "",
+    "timeId": "time_activity_stamina_refund_1d2d1",
     "type": "29"
   },
   "activity_stamina_refund_1d2d2": {
     "bgImg": "activity_bg_stamina_discount",
-    "bubbleSortId": "4000",
-    "bubbleText": {
-      "cn": "「理智补给」活动已开放",
-      "en": "[Sanity Supply] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -2601,7 +2869,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_activity_stamina_return_stage_3",
-    "showRewardCnt": false,
     "sortId": "4000",
     "tabImg": "activity_tab_bg_stamina",
     "tabImgColor": "#fff100",
@@ -2610,16 +2877,82 @@
       "activity_tag_time_limited"
     ],
     "themeColor": "",
+    "timeId": "time_activity_stamina_refund_1d2d2",
+    "type": "29"
+  },
+  "activity_stamina_refund_1d3d2": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_stamina_reduce_1",
+    "id": "activity_stamina_refund_1d3d2",
+    "immediateClose": false,
+    "instructionId": "instru_activity_stamina_refund",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "理智补给",
+      "en": "Sanity Supply"
+    },
+    "panelId": "ActivityStaminaDiscount",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_stamina_return_stage_3",
+    "sortId": "4000",
+    "tabImg": "activity_tab_bg_stamina",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_time_limited"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_stamina_refund_1d3d2",
+    "type": "29"
+  },
+  "activity_stamina_refund_special": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_stamina_reduce_1",
+    "id": "activity_stamina_refund_special",
+    "immediateClose": false,
+    "instructionId": "instru_activity_stamina_refund_special",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "危机筹备",
+      "en": "Contingency Readiness"
+    },
+    "panelId": "ActivityStaminaDiscount",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_stamina_return_stage_3",
+    "sortId": "4000",
+    "tabImg": "activity_tab_bg_stamina_special",
+    "tabImgColor": "#ee0023",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_time_limited"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_stamina_refund_special",
     "type": "29"
   },
   "activity_submit_food_1": {
     "bgImg": "activity_bg_materialsupply",
-    "bubbleSortId": "6011",
-    "bubbleText": {
-      "cn": "「物资供给·开拓节」活动已开放",
-      "en": "[Supply: Exploration Day] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2734,7 +3067,7 @@
         "progressToCompare": "1",
         "tips": {
           "cn": "完成探索任务「据点部署·基建前站」后可接取",
-          "en": "Complete exploration mission [Outpost: Infra-Station] to unlock"
+          "en": "Complete the exploration mission [Outpost: Infra-Station] to unlock"
         }
       }
     ],
@@ -2758,7 +3091,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_submit_food_a1_overview",
-    "showRewardCnt": false,
     "sortId": "6011",
     "tabImg": "activity_tab_bg_materialsupply",
     "tabImgColor": "#DBF121",
@@ -2767,16 +3099,12 @@
       "activity_tag_item_submission"
     ],
     "themeColor": "",
+    "timeId": "time_activity_submit_food_1",
     "type": "12"
   },
   "activity_submit_food_2": {
     "bgImg": "activity_bg_materialsupply_2",
-    "bubbleSortId": "6015",
-    "bubbleText": {
-      "cn": "「物资供给·武陵特厨」活动已开放",
-      "en": "[Supply: Wuling Super Chef] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2915,7 +3243,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_submit_food_a2_overview",
-    "showRewardCnt": false,
     "sortId": "6015",
     "tabImg": "activity_tab_bg_materialsupply_2",
     "tabImgColor": "#ECFF4F",
@@ -2924,16 +3251,12 @@
       "activity_tag_item_submission"
     ],
     "themeColor": "",
+    "timeId": "time_activity_submit_food_2",
     "type": "12"
   },
   "activity_weekly_task_1": {
     "bgImg": "",
-    "bubbleSortId": "4999",
-    "bubbleText": {
-      "cn": "「每周事务」活动已开放",
-      "en": "[Weekly Routine] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -2972,8 +3295,7 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_weekly_mission_preview",
-    "showRewardCnt": false,
-    "sortId": "4999",
+    "sortId": "2999",
     "tabImg": "activity_tab_bg_weeklytask",
     "tabImgColor": "#fff100",
     "tabImgGender": false,
@@ -2981,16 +3303,12 @@
       "activity_tag_weekly_task"
     ],
     "themeColor": "",
+    "timeId": "time_weekly_mission_activity",
     "type": "16"
   },
   "cleaning_test": {
     "bgImg": "",
-    "bubbleSortId": "6012",
-    "bubbleText": {
-      "cn": "「净流涤尘」活动已开放",
-      "en": "[Cleanse and Rinse] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -3071,7 +3389,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_cleaning_overview",
-    "showRewardCnt": false,
     "sortId": "6012",
     "tabImg": "activity_tab_bg_cleaning",
     "tabImgColor": "#fff078",
@@ -3080,16 +3397,12 @@
       "activity_tag_cleaning"
     ],
     "themeColor": "",
+    "timeId": "time_activity_cleaning",
     "type": "18"
   },
   "dungeon_fighting": {
     "bgImg": "",
-    "bubbleSortId": "6013",
-    "bubbleText": {
-      "cn": "「生存特训」活动已开放",
-      "en": "[Survival Training] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [
       {
         "compareOperator": "3",
@@ -3097,7 +3410,7 @@
         "conditionType": "19",
         "desc": {
           "cn": "完成主线任务：第一章 - 进程II - 开拓前路",
-          "en": "Complete the main mission [Chapter Ⅰ Process Ⅱ: Paving the Way]"
+          "en": "Complete the main mission [Chapter I Process II: Paving the Way]"
         },
         "jumpId": "jump_mission_main",
         "parameters": [
@@ -3170,7 +3483,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_dungeon_fighting_overview",
-    "showRewardCnt": false,
     "sortId": "6013",
     "tabImg": "activity_tab_bg_dungeon_survival_1",
     "tabImgColor": "#ffffff",
@@ -3179,16 +3491,12 @@
       "activity_tag_dungeon_fighting"
     ],
     "themeColor": "",
+    "timeId": "time_activity_dungeon_fighting",
     "type": "17"
   },
   "web_activity_arknights_birth": {
     "bgImg": "activity_bg_springfestival",
-    "bubbleSortId": "1002",
-    "bubbleText": {
-      "cn": "「共贺庆典」活动已开放",
-      "en": "[Party Together] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "",
@@ -3210,7 +3518,6 @@
     "popUpSortId": "10",
     "redDotName": "",
     "rewardId": "reward_web_activity_spring01",
-    "showRewardCnt": false,
     "sortId": "1002",
     "tabImg": "activity_tab_bg_celebration",
     "tabImgColor": "#019ad2",
@@ -3219,16 +3526,12 @@
       "activity_tag_instru_arkbirth"
     ],
     "themeColor": "",
+    "timeId": "time_activity_arkbirth",
     "type": "26"
   },
   "web_activity_v1d0_01_returnback": {
     "bgImg": "activity_bg_webreflow",
-    "bubbleSortId": "20000",
-    "bubbleText": {
-      "cn": "「协议重连」活动已开放",
-      "en": "[Protocol Reconnection] event now available"
-    },
-    "bubbleType": "Yellow",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "欢迎回归塔卫二，管理员。",
@@ -3250,7 +3553,6 @@
     "popUpSortId": "-1",
     "redDotName": "ActivityDaily",
     "rewardId": "reward_reflow_overview",
-    "showRewardCnt": false,
     "sortId": "20000",
     "tabImg": "activity_tab_bg_webreflow",
     "tabImgColor": "#fff078",
@@ -3259,16 +3561,12 @@
       "activity_tag_return"
     ],
     "themeColor": "",
+    "timeId": "time_activity_return",
     "type": "11"
   },
   "web_activity_v1d0_02_springfest": {
     "bgImg": "activity_bg_springfestival",
-    "bubbleSortId": "1000",
-    "bubbleText": {
-      "cn": "「暖笺贺春」活动已开放",
-      "en": "[A Spring Note, Warmly Crafted] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "此时此刻，干员们为您送上了祝福。这些喜悦与温暖，关怀与注视，请您见证。",
@@ -3290,7 +3588,6 @@
     "popUpSortId": "-1",
     "redDotName": "ActivitySpringFest",
     "rewardId": "reward_web_activity_spring01",
-    "showRewardCnt": false,
     "sortId": "1000",
     "tabImg": "activity_tab_bg_springfestival",
     "tabImgColor": "#A52B17",
@@ -3299,16 +3596,12 @@
       "activity_tag_springfest"
     ],
     "themeColor": "",
+    "timeId": "time_activity_springfest",
     "type": "1"
   },
   "web_web_activity_v1d1_fest_01": {
     "bgImg": "activity_bg_fool",
-    "bubbleSortId": "1001",
-    "bubbleText": {
-      "cn": "「长耳兽之旅」活动已开放",
-      "en": "[Journey of the Long-Ear] event now available"
-    },
-    "bubbleType": "White",
+    "bgm": "",
     "conditions": [],
     "desc": {
       "cn": "多么伟大的旅程，您已是被选中的长耳兽，万众瞩目，冉冉升起的新星。",
@@ -3330,7 +3623,6 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_web_activity_webfool_overview",
-    "showRewardCnt": false,
     "sortId": "1001",
     "tabImg": "activity_tab_fool",
     "tabImgColor": "#85b9e8",
@@ -3339,6 +3631,7 @@
       "activity_tag_webfool"
     ],
     "themeColor": "",
+    "timeId": "time_activity_webfool",
     "type": "1"
   }
 }

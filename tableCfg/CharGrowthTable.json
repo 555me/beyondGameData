@@ -30998,7 +30998,7 @@
       "chr_0020_meurs_UltimateSkill": {
         "desc": {
           "cn": "挥动大剑快速向前斩击2次，造成<@ba.pd>物理伤害</>并施加<#ba.weak>虚弱</>。最后向下猛砸，对目标范围内的所有敌人造成大量<@ba.pd>物理伤害</>并造成<#ba.knockdown>倒地</>。",
-          "en": "Swings the greatsword to perform 2 consecutive slashes to deal <@ba.pd>Physical DMG</> and apply <#ba.weak>Weaken</>, followed by a powerful downward slam that deals massive <@ba.pd>Physical DMG</> and applies <#ba.knockdown>Knock Down</> to all enemies within the area of effect."
+          "en": "Swings the greatsword to perform 2 consecutive slashes to deal <@ba.pd>Physical DMG</> and apply <#ba.weak>Weakness</>, followed by a powerful downward slam that deals massive <@ba.pd>Physical DMG</> and applies <#ba.knockdown>Knock Down</> to all enemies within the area of effect."
         },
         "icon": "icon_ultimate_skill_meurs_01",
         "name": {
@@ -48501,7 +48501,7 @@
       "chr_0029_pograni_ComboSkill": {
         "desc": {
           "cn": "当有敌人被<#ba.crush>猛击</>或者<#ba.fracture>碎甲</><#ba.consume>消耗</><#ba.noguard>破防</>层数后可以发动。\n根据<#ba.consume>消耗</>的最高<#ba.noguard>破防</>层数，对敌人进行相同段数的斩击（最多3段），造成<@ba.pd>物理伤害</>并恢复一定技力，每一击的伤害和技力恢复效果都更强。\n<@ba.info>若消耗4层破防，第3段斩击将获得强化。</>",
-          "en": "COMBO TRIGGER: When <#ba.crush>Crush</> or <#ba.fracture>Breach</> <#ba.consume>consumes</> the enemy's <#ba.noguard>Vulnerability</> stack(s). \nPerforms a number of slash sequences (up to 3) based on the max number of <#ba.noguard>Vulnerability</> stacks <#ba.consume>consumed</>, dealing <@ba.pd>Physical DMG</> and recovering some SP. Each slash deals more DMG and gives better SP recovery. \n<@ba.info>Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.</>"
+          "en": "COMBO TRIGGER: When <#ba.crush>Crush</> or <#ba.fracture>Breach</> <#ba.consume>consumes</> the enemy's <#ba.noguard>Vulnerability</> stack(s). \nPerforms a number of slash sequences (up to 3) based on the max number of <#ba.noguard>Vulnerability</> stacks <#ba.consume>consumed</> from one enemy, dealing <@ba.pd>Physical DMG</> and recovering some SP. Each slash deals more DMG and gives better SP recovery. \n<@ba.info>Consuming 4 stacks of Vulnerability enhances the 3rd slash sequence.</>"
         },
         "icon": "icon_combo_skill_pograni_01",
         "name": {
@@ -50509,7 +50509,7 @@
       "chr_0030_zhuangfy_UltimateSkill": {
         "desc": {
           "cn": "进入<@ba.key>天理合真</>状态：\n普通攻击得到强化。自身行动更不容易被打断。\n战技<@ba.key>惊霆诀</>伤害倍率提高，伤害范围扩大，最后一次雷击命中时施加<#ba.pulseinflict>电磁附着</>。\n连携技<@ba.key>一息万变</>对一定范围内的敌人生效，伤害倍率提高，冷却恢复速度提升至原本的{combo_cd_rate:0}倍。\n首次施放战技<@ba.key>惊霆诀</>不消耗技力与<#ba.conduct>导电</>，若存在目标，则无论其是否处于<#ba.conduct>导电</>状态，必定生成3柄<@ba.key>青霆剑</>。",
-          "en": "Transforms into the <@ba.key>Empyrean of Truth</> that grants these enhancements:\nZhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;\nBattle skill <@ba.key>Mantra of Sundering</> gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies <#ba.pulseinflict>Electric Infliction</> to the target hit.\nCombo skill <@ba.key>Breath of Transformation</> gains a higher DMG multiplier, cooldown becomes {combo_cd_rate:0} times faster, and effects are applied to enemies within a small area.\nThe first casting of the battle skill <@ba.key>Mantra of Sundering</> on an available target does not consume SP nor <#ba.conduct>Electrification</>, and is guaranteed to create 3 <@ba.key>Sunderblades</> even if the target has no <#ba.conduct>Electrification</>."
+          "en": "Transforms into the <@ba.key>Empyrean of Truth</> that grants these enhancements:\nZhuang Fangyi's basic attacks are enhanced and her actions are harder to interrupt;\nBattle skill <@ba.key>Mantra of Sundering</> gains a higher DMG multiplier and an increased effect range, and the final Thunder Strike also applies <#ba.pulseinflict>Electric Infliction</> to the target hit.\nCombo skill <@ba.key>Breath of Transformation</> gains a higher DMG multiplier, cooldown becomes {combo_cd_rate:0} times faster, and effects are applied to enemies within a small area.\nThe first casting of the battle skill <@ba.key>Mantra of Sundering</> does not consume SP nor <#ba.conduct>Electrification</>, and if a target is available, the battle skill is guaranteed to create 3 <@ba.key>Sunderblades</> even if the target has no <#ba.conduct>Electrification</>."
         },
         "icon": "icon_ultimate_skill_zhuangfy_01",
         "name": {
@@ -52208,6 +52208,1959 @@
       }
     },
     "weaponType": "2"
+  },
+  "chr_0031_mifu": {
+    "charBreakCostMap": {
+      "charBreak20": {
+        "breakStage": "1",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至40级",
+          "en": "Activate this to raise operator level cap to 40"
+        },
+        "equipTierLimit": "2",
+        "name": {
+          "cn": "精英化·一",
+          "en": "Promotion I"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "breakStage": "2",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至60级",
+          "en": "Activate this to raise operator level cap to 60"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "精英化·二",
+          "en": "Promotion II"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "breakStage": "3",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至80级",
+          "en": "Activate this to raise operator level cap to 80"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "精英化·三",
+          "en": "Promotion III"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "breakStage": "4",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至90级",
+          "en": "Activate this to raise operator level cap to 90"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "精英化·四",
+          "en": "Promotion IV"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_1"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "breakStage": "1",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，允许干员穿戴蓝色品质装备",
+          "en": "Activate this to let the operator equip blue quality gear"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "装备适配·一",
+          "en": "Outfitting I"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "breakStage": "2",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，允许干员穿戴紫色品质装备",
+          "en": "Activate this to let the operator equip purple quality gear"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "装备适配·二",
+          "en": "Outfitting II"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "breakStage": "3",
+        "charId": "chr_0031_mifu",
+        "description": {
+          "cn": "激活后，允许干员穿戴金色品质装备",
+          "en": "Activate this to let the operator equip gold quality gear"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "装备适配·三",
+          "en": "Outfitting III"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "charId": "chr_0031_mifu",
+    "charTypeId": "Physical",
+    "defaultWeaponId": "wpn_claym_0010",
+    "engName": "Mifu",
+    "mainAttrType": "39",
+    "name": {
+      "cn": "弭弗",
+      "en": "Mi Fu"
+    },
+    "profession": "0",
+    "rarity": "6",
+    "skillGroupMap": {
+      "chr_0031_mifu_ComboSkill": {
+        "desc": {
+          "cn": "当有敌人达到3层及以上<#ba.noguard>破防</>时可以发动。\n使用上勾拳痛击前方的敌人，对其造成<@ba.pd>物理伤害</>，同时施加一定时间的<#ba.physicalvul>物理脆弱</>。施放后战技在一段时间内替换为<@ba.key>追形</>。",
+          "en": "COMBO TRIGGER: When an enemy has 3 or more <#ba.noguard>Vulnerability</> stacks.\nMi Fu unleashes a devastating uppercut at the enemy, dealing <@ba.pd>Physical DMG</> and applying temporary <#ba.physicalvul>Physical Susceptibility</>. After casting this skill, the next battle skill is temporarily replaced with <@ba.key>Trail and Mangle</>."
+        },
+        "icon": "icon_combo_skill_mifu_01",
+        "name": {
+          "cn": "拳出无悔",
+          "en": "Fists of No Regrets"
+        },
+        "skillGroupId": "chr_0031_mifu_ComboSkill",
+        "skillGroupType": "3",
+        "skillIdList": [
+          "chr_0031_mifu_combo_skill"
+        ]
+      },
+      "chr_0031_mifu_NormalAttack": {
+        "desc": {
+          "cn": "普通攻击：\n对敌人进行至多4段攻击，造成<@ba.pd>物理伤害</>。作为主控干员时，<#ba.lastcombo>重击</>会造成<@ba.poise>{poise:0}</>点失衡。\n\n下落攻击：\n处于空中时使用普通攻击，会下落并攻击附近敌人，造成<@ba.pd>物理伤害</>。\n\n处决攻击：\n附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量<@ba.pd>物理伤害</>并恢复一定技力。",
+          "en": "BASIC ATTACK: \nAn attack with up to 4 sequences that deals <@ba.pd>Physical DMG</>. As the controlled operator, <#ba.lastcombo>Final Strike</> also deals <@ba.poise>{poise:0}</> Stagger. \n\nDIVE ATTACK: \nBasic attack performed in mid-air becomes a dive attack that deals <@ba.pd>Physical DMG</> to nearby enemies. \n\nFINISHER: \nBasic attack performed near a Staggered enemy becomes a finisher that deals massive <@ba.pd>Physical DMG</> and recovers some SP."
+        },
+        "icon": "icon_attack_claym",
+        "name": {
+          "cn": "剑行拳意",
+          "en": "Fistmancer of Blades"
+        },
+        "skillGroupId": "chr_0031_mifu_NormalAttack",
+        "skillGroupType": "0",
+        "skillIdList": [
+          "chr_0031_mifu_attack1",
+          "chr_0031_mifu_attack2",
+          "chr_0031_mifu_attack3",
+          "chr_0031_mifu_attack4",
+          "chr_0031_mifu_plunging_attack_end",
+          "chr_0031_mifu_powerattack"
+        ]
+      },
+      "chr_0031_mifu_NormalSkill": {
+        "desc": {
+          "cn": "连续施放可最多施放3段不同招式，初始战技为<@ba.key>断云</>。\n<@ba.key>断云</>：消耗<@ba.vup>100</>技力，施放后<#ba.return>返还</><@ba.vup>50</>技力。从拳套中发射出拘束索，对目标及其附近敌人造成<@ba.pd>物理伤害</>并尝试将其拉取至自身附近。施放后战技在一段时间内替换为<@ba.key>追形</>。\n<@ba.key>追形</>：消耗<@ba.vup>50</>技力。朝前方连续挥拳造成<@ba.pd>物理伤害</>，最后一拳额外造成<#ba.crush>猛击</>。如果本次猛击<#ba.consume>消耗</>的最大<#ba.noguard>破防</>层数不少于3层，战技在一段时间内替换为<@ba.key>开天</>。\n<@ba.key>开天</>：消耗<@ba.vup>50</>技力，朝前方范围造成大量<@ba.pd>物理伤害</>。本次伤害类型不属于战技伤害，而是视为<#ba.crush>猛击</>伤害。",
+          "en": "Keep casting Mi Fu's battle skill to unleash 3 different moves. The first battle skill cast is <@ba.key>Cloudtrapper</>.\n<@ba.key>MOVE 1 - Cloudtrapper</>: Costs <@ba.vup>100</> SP and <#ba.return>returns</><@ba.vup> 50</> SP after casting; Mi Fu fires a grappling chain from her gauntlets that deals <@ba.pd>Physical DMG</> to the target and nearby enemies, then attempts to pull the target and nearby enemies towards her. After casting MOVE 1, the next battle skill will be temporarily replaced with <@ba.key>Trail and Mangle</>.\n<@ba.key>MOVE 2 - Trail and Mangle</>: Costs <@ba.vup>50</> SP; Mi Fu unleashes a flurry of punches that deals <@ba.pd>Physical DMG</> with the final punch applying <#ba.crush>Crush</>. If this Crush <#ba.consume>consumes</> at least 3 <#ba.noguard>Vulnerability</> stacks from a single target, then the next battle skill will be temporarily replaced with <@ba.key>World Splitter</>.\n<@ba.key>MOVE 3 - World Splitter</>: Costs <@ba.vup>50</> SP; Mi Fu deals massive <@ba.pd>Physical DMG</> to a specified area; this DMG is not treated as Battle Skill DMG, but as <#ba.crush>Crush</> DMG."
+        },
+        "icon": "icon_skill_mifu_01",
+        "name": {
+          "cn": "清波三艺",
+          "en": "Qingbo Triplex"
+        },
+        "skillGroupId": "chr_0031_mifu_NormalSkill",
+        "skillGroupType": "1",
+        "skillIdList": [
+          "chr_0031_mifu_normalskill_1",
+          "chr_0031_mifu_normalskill_2",
+          "chr_0031_mifu_normalskill_3"
+        ]
+      },
+      "chr_0031_mifu_UltimateSkill": {
+        "desc": {
+          "cn": "短暂蓄力后朝前方冲刺，对身前目标强制造成<#ba.airborne>击飞</>，随后将其砸向地面造成<@ba.pd>物理伤害</>。施放后战技在一段时间内替换为<@ba.key>追形</>。",
+          "en": "After a short power up, Mi Fu dashes forward to forcibly <#ba.airborne>Lift</> a target into mid-air, then slams the said target to deal <@ba.pd>Physical DMG</>. After casting this skill, the next battle skill is temporarily replaced with <@ba.key>Trail and Mangle</>."
+        },
+        "icon": "icon_ultimate_skill_mifu_01",
+        "name": {
+          "cn": "绝心",
+          "en": "Pile of No Mercy"
+        },
+        "skillGroupId": "chr_0031_mifu_UltimateSkill",
+        "skillGroupType": "2",
+        "skillIdList": [
+          "chr_0031_mifu_ultimate_skill"
+        ]
+      }
+    },
+    "skillLevelUp": [
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0031_mifu_NormalSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_4"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0031_mifu_UltimateSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0031_mifu_ComboSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0031_mifu_NormalAttack"
+      }
+    ],
+    "subAttrType": "42",
+    "talentNodeMap": {
+      "charBreak20": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_2"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_1"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "39",
+            "attrValue": "10",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "1",
+          "desc": {
+            "cn": "干员力量能力值提升10。",
+            "en": "Operator Strength +10."
+          },
+          "favorability": "60",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_1",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "5",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_3": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "39",
+            "attrValue": "15",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "2",
+          "desc": {
+            "cn": "干员力量能力值提升15。",
+            "en": "Operator Strength +15."
+          },
+          "favorability": "150",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_3",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1800",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_5": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "39",
+            "attrValue": "15",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "3",
+          "desc": {
+            "cn": "干员力量能力值提升15。",
+            "en": "Operator Strength +15."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_5",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_7": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "39",
+            "attrValue": "20",
+            "modifierType": "5",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "4",
+          "desc": {
+            "cn": "干员力量能力值提升20。",
+            "en": "Operator Strength +20."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_7",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "12000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_passive_skill_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_passive_skill_0_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "1",
+          "iconId": "icon_talent_mifu_01",
+          "index": "0",
+          "level": "1",
+          "name": {
+            "cn": "冷面无情",
+            "en": "Stern Crackdown"
+          },
+          "talentEffectId": "chr_0031_mifu_talent_1_1"
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2400",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_passive_skill_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_passive_skill_0_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "2",
+          "iconId": "icon_talent_mifu_01",
+          "index": "0",
+          "level": "2",
+          "name": {
+            "cn": "冷面无情",
+            "en": "Stern Crackdown"
+          },
+          "talentEffectId": "chr_0031_mifu_talent_1_2"
+        },
+        "requiredItem": [
+          {
+            "count": "40",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "8600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_passive_skill_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_passive_skill_1_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "2",
+          "iconId": "icon_talent_mifu_02",
+          "index": "1",
+          "level": "1",
+          "name": {
+            "cn": "怒意留心",
+            "en": "Vigilant Fury"
+          },
+          "talentEffectId": "chr_0031_mifu_talent_2_1"
+        },
+        "requiredItem": [
+          {
+            "count": "48",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "10000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0031_mifu_passive_skill_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0031_mifu_passive_skill_1_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "3",
+          "iconId": "icon_talent_mifu_02",
+          "index": "1",
+          "level": "2",
+          "name": {
+            "cn": "怒意留心",
+            "en": "Vigilant Fury"
+          },
+          "talentEffectId": "chr_0031_mifu_talent_2_2"
+        },
+        "requiredItem": [
+          {
+            "count": "28",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "24000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0031_mifu_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "1",
+          "index": "0",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0031_mifu_0_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0031_mifu_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "3",
+          "index": "0",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0031_mifu_0_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "8000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0031_mifu_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "2",
+          "index": "1",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0031_mifu_1_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "3000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0031_mifu_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifier": {
+            "attrType": "0",
+            "attrValue": "0",
+            "modifierType": "0",
+            "modifyAttributeType": "0"
+          },
+          "breakStage": "0",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "4",
+          "index": "1",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0031_mifu_1_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "20000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "weaponType": "3"
   },
   "chr_9000_endmin": {
     "charBreakCostMap": {

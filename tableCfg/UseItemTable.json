@@ -2162,6 +2162,68 @@
       }
     ]
   },
+  "item_jzmonk_1_hsmob_1_1": {
+    "duration": "300",
+    "effectType": "2",
+    "isPersistentBuff": true,
+    "isValuableDepot": false,
+    "itemId": "item_jzmonk_1_hsmob_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，增加<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>暴击率，降低<@ba.vup>{-buff_common_def_buff_potion_3\\value:0%}</>防御力，持续<@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>秒。",
+      "en": "Use this to grant Critical Rate +<@ba.vup>{buff_common_ctr_buff_potion_1\\value:0%}</>, but at the cost of DEF -<@ba.vup>{-buff_common_def_buff_potion_3\\value:0%}</>. Duration: <@ba.vup>{buff_common_ctr_buff_potion_1\\duration:0}</>s."
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.2547061,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_ctr_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": -0.04929796,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "300",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_def_buff_potion_3"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_lbmob_1_dog_1_moss_1_1": {
     "duration": "300",
     "effectType": "2",
