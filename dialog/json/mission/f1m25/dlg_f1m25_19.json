@@ -9,13 +9,16 @@
                         "_disableClickTime": 1.0
                     },
                     "_trunkId": "dlg_f1m25_19_001",
+                    "customText": "",
                     "voiceConfig": {
 
                     },
                     "microExpressionDesc": {
 
                     },
+                    "enableEmotionVoice": true,
                     "overrideActorNameIdValue": "",
+                    "overrideEmotionVoiceId": "",
                     "duration": -1.0,
                     "actionEnum": 307,
                     "configSaveId": ""
@@ -50,18 +53,32 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "yanning_map02",
-                            "proxyId": "yanning_map02_default"
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Lady/Crowd/wave1",
+                                "tagId": -619536970
+                            },
+                            "montageFadeInTransitionInfo": {
+                                "bIsFixedTransitionTime": true,
+                                "fixedTransitionDuration": 0.5
+                            },
+                            "actorId": "depot_subaiyi_map02",
+                            "proxyId": "depot_subaiyi_map02_v1d3d0_002"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "yanning_map02",
-                            "proxyId": "yanning_map02_default"
-                        }
+                            "actorId": "depot_subaiyi_map02",
+                            "proxyId": "depot_subaiyi_map02_v1d3d0_002"
+                        },
+                        "animEndType": 1
                     },
                     "actorIndex": 0
                 },
                 "emotionActData": {
                     "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/thinkcloseeyesa",
+                            "tagId": 362170382
+                        },
                         "browsTrackInfo": {
 
                         },
@@ -104,8 +121,9 @@
                 "actionGroups": [],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
             },
+            "additionalWidth": 207.0,
             "_position": {
-                "x": 200.0,
+                "x": 199.2,
                 "y": 200.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
@@ -118,13 +136,16 @@
                         "_disableClickTime": 1.0
                     },
                     "_trunkId": "dlg_f1m25_19_002",
+                    "customText": "",
                     "voiceConfig": {
 
                     },
                     "microExpressionDesc": {
 
                     },
+                    "enableEmotionVoice": true,
                     "overrideActorNameIdValue": "",
+                    "overrideEmotionVoiceId": "",
                     "duration": -1.0,
                     "actionEnum": 307,
                     "configSaveId": ""
@@ -159,18 +180,32 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "yanning_map02",
-                            "proxyId": "yanning_map02_default"
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Lady/VIP/Virtual/idle_talklefthand1",
+                                "tagId": -1939445174
+                            },
+                            "montageFadeInTransitionInfo": {
+                                "bIsFixedTransitionTime": true,
+                                "fixedTransitionDuration": 0.5
+                            },
+                            "actorId": "depot_subaiyi_map02",
+                            "proxyId": "depot_subaiyi_map02_v1d3d0_002"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "yanning_map02",
-                            "proxyId": "yanning_map02_default"
-                        }
+                            "actorId": "depot_subaiyi_map02",
+                            "proxyId": "depot_subaiyi_map02_v1d3d0_002"
+                        },
+                        "animEndType": 1
                     },
                     "actorIndex": 0
                 },
                 "emotionActData": {
                     "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/happysquinta",
+                            "tagId": -816658101
+                        },
                         "browsTrackInfo": {
 
                         },
@@ -213,6 +248,7 @@
                 "actionGroups": [],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
             },
+            "additionalWidth": 207.0,
             "_position": {
                 "x": 600.0,
                 "y": 200.0
@@ -221,6 +257,7 @@
             "$id": "1"
         },
         {
+            "additionalWidth": 214.0,
             "_position": {
                 "x": 1000.0,
                 "y": 200.0
@@ -266,6 +303,7 @@
         },
         "hideSquad": true,
         "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
             "showFacBuildingTypes": []
         },
         "hideDecoConfigs": [],
@@ -276,8 +314,8 @@
         "actors": [
             {
                 "actorType": 256,
-                "actorId": "yanning_map02",
-                "npcProxyId": "yanning_map02_default",
+                "actorId": "depot_subaiyi_map02",
+                "npcProxyId": "depot_subaiyi_map02_v1d3d0_002",
                 "useNpcProxy": true
             }
         ],
@@ -287,7 +325,6 @@
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
-        "useOldVersionEyeLookAt": true,
         "$type": "Beyond.Gameplay.DialogTreeData"
     }
 }

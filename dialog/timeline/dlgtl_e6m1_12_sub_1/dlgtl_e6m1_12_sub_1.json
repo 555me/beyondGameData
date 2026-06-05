@@ -4,17 +4,21 @@
       "descriptor": {
         "$type": "Beyond.Gameplay.CutsceneNpcDescriptor, Gameplay.Beyond",
         "hierarchyParentPath": "Actor/offset/Common/zhuangfy",
-        "name": "P_npc_npc_chr_0030_zhuangfy",
+        "name": "P_actor_zhuangfy_01",
         "objectType": 2,
         "entityId": "npc_chr_0030_zhuangfy",
-        "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Lady/Ladynpc/Models/SK_actor_ladynpc_01.fbx",
-        "avatarHash": 74149002045496646,
+        "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Lady/Zhuangfy/Models/SK_actor_zhuangfy_01.fbx",
+        "avatarHash": 694372421353142911,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -25,12 +29,16 @@
         "entityId": "npc_chr_0005_chen",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Chen/Models/SK_actor_chen_01.fbx",
         "avatarHash": 657222699660519815,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -41,12 +49,16 @@
         "entityId": "npc_chr_0004_pelica",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Pelica/Models/SK_actor_pelica_01.fbx",
         "avatarHash": 553549390624209505,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -57,12 +69,16 @@
         "entityId": "npc_chr_0003_endminf",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Endminf/Models/SK_actor_endminf_01.fbx",
         "avatarHash": 714774044687045084,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false,
         "needShaderSync": false,
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "shaderEmotionType": 0
-      }
+      },
+      "addonComponents": []
     },
     {
       "descriptor": {
@@ -72,8 +88,12 @@
         "objectType": 2,
         "entityId": "npc_chr_0002_endminm",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Boy/Endminm/Models/SK_actor_endminm_01.fbx",
-        "avatarHash": 105262779132463679
-      }
+        "avatarHash": 105262779132463679,
+        "isModifyLodGroupObjectSizeScale": false,
+        "modifiedLodGroupObjectSizeScale": 1.0,
+        "modifiedLodGroupUsePlatformLODS": false
+      },
+      "addonComponents": []
     }
   ],
   "audioEvents": [],
@@ -82,6 +102,7 @@
     "hideAllBuildingUI": false,
     "hideFacFence": true,
     "hideFacBuilding": false,
+    "hideSocialFac": true,
     "hideFacBuildingRadius": 5.0,
     "hideFacBuildingRadiusDialogRoot": 0.0,
     "useCustomHideFacCenter": false,
@@ -97,8 +118,10 @@
   },
   "animClipData": {},
   "cutsceneName": "dlgtl_e6m1_12_sub_1",
+  "targetFrameRate": 60,
   "needSelfVersionControl": false,
   "path": "Assets/Beyond/DynamicAssets/Gameplay/Dialog/Timeline/dlgtl_e6m1_12_sub_1/Prefab/dlgtl_e6m1_12_sub_1",
+  "interruptCharHenshin": false,
   "useBlackScreen": true,
   "beforeCutsceneUseFadeIn": false,
   "beforeCutsceneFadeInDuration": 0.5,
@@ -118,19 +141,21 @@
   },
   "afterCutsceneUseFadeOut": false,
   "afterCutsceneFadeOutDuration": 0.5,
-  "canSkip": false,
   "skipType": 1,
   "hideSquad": true,
   "isTransition": false,
+  "isDitherFacBuilding": false,
+  "hideInteractive": [],
+  "hideDeco": [],
   "showDevWaterMark": false,
   "fadeInDuration": 0.0,
   "farCameraPosition": false,
   "keepCameraPath": "",
   "lockLOD0Paths": [],
+  "tickBeforeChar": false,
   "playInSameFrame": false,
   "processExistingEntitiesInSameFrame": false,
-  "cutsceneGroupId": "",
-  "disableOtherCutsceneInGroup": false,
+  "preprocessEntityInSync": false,
   "disableKeepCameras": false,
   "noUIDispatch": false,
   "tagGroup": {
@@ -148,5 +173,12 @@
     "y": 409.587,
     "z": -337.746
   },
-  "summaryId": "summary_e6m1_12_001"
+  "summaryId": "summary_e6m1_12_001",
+  "envFollowCamera": false,
+  "keepStateOnChangeActive": false,
+  "rainMaxImmediate": true,
+  "overrideDryDrenchedAfterSeconds": true,
+  "dryDrenchedAfterSeconds": 0.0,
+  "overrideDryDrenchedSmoothTime": true,
+  "dryDrenchedSmoothTime": 1.0
 }

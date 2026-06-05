@@ -406,6 +406,11 @@
         },
         {
             "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
                 "_actionGroups": [
                     {
                         "duration": 2.5,
@@ -647,8 +652,8 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/Virtual/akimbo1",
-                                "tagId": 964101944
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/confidence",
+                                "tagId": -1206909865
                             },
                             "montageFadeInTransitionInfo": {
                                 "bIsFixedTransitionTime": true,
@@ -774,6 +779,7 @@
 
                         },
                         "montageDesc": {
+                            "bKeepMontageBefore": true,
                             "montageKeyTag": {
                                 "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/Crowd/akimbolaugh",
                                 "tagId": 660020830
@@ -851,15 +857,14 @@
                                     },
                                     "montageDesc": {
                                         "montageKeyTag": {
-                                            "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/Crowd/akimbolaugh",
-                                            "tagId": 660020830
+                                            "tagName": "Montage/NPC/Humanoid/CommonForm/Gentleman/VIP/highlight",
+                                            "tagId": -1511769585
                                         },
                                         "montageFadeInTransitionInfo": {
                                             "bIsFixedTransitionTime": true,
-                                            "fixedTransitionDuration": 0.6
+                                            "fixedTransitionDuration": 0.4
                                         },
                                         "montageOverrideEntryTransitionInfo": [],
-                                        "changeMontageState": true,
                                         "stateMontage": 0,
                                         "actorId": "weiermolin_map02",
                                         "proxyId": "weiermolin_map02_default"
@@ -867,7 +872,8 @@
                                     "maleMontageOverrideDesc": {
                                         "actorId": "weiermolin_map02",
                                         "proxyId": "weiermolin_map02_default"
-                                    }
+                                    },
+                                    "animEndType": 1
                                 },
                                 "actorIndex": 1,
                                 "$type": "Beyond.Gameplay.DialogAnimActData"
@@ -894,7 +900,8 @@
                 },
                 {
                     "_optionId": "option_dlg_f1m10d1_4_3_002",
-                    "index": 1
+                    "index": 1,
+                    "logicId": 13
                 }
             ],
             "additionalWidth": 139.0,
@@ -1240,6 +1247,11 @@
         },
         {
             "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
                 "_actionGroups": [
                     {
                         "duration": 2.5,

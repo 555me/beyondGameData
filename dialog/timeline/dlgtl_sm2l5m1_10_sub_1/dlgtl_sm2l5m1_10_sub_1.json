@@ -114,6 +114,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -134,6 +135,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -154,6 +156,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -174,6 +177,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -194,6 +198,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -214,6 +219,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -234,6 +240,7 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
+        "disableBipedIK": false,
         "shaderEmotionType": 0
       },
       "addonComponents": []
@@ -276,7 +283,11 @@
   "beforeCutsceneMaskType": 1,
   "beforeMaskAudioBehaviour": {
     "presetBehaviour": 1,
-    "customRetainFlags": 2
+    "customRetainFlags": 2,
+    "isOverrideFadeInTime": false,
+    "overrideFadeInTimeSeconds": 0.0,
+    "isOverrideFadeOutTime": false,
+    "overrideFadeOutTimeSeconds": 0.0
   },
   "beforeCutsceneUseFadeOut": false,
   "beforeCutsceneFadeOutDuration": 0.5,
@@ -285,7 +296,11 @@
   "afterCutsceneMaskType": 1,
   "afterMaskAudioBehaviour": {
     "presetBehaviour": 1,
-    "customRetainFlags": 2
+    "customRetainFlags": 2,
+    "isOverrideFadeInTime": false,
+    "overrideFadeInTimeSeconds": 0.0,
+    "isOverrideFadeOutTime": false,
+    "overrideFadeOutTimeSeconds": 0.0
   },
   "afterCutsceneUseFadeOut": false,
   "afterCutsceneFadeOutDuration": 0.5,
@@ -293,6 +308,8 @@
   "hideSquad": true,
   "isTransition": false,
   "isDitherFacBuilding": false,
+  "hideInteractive": [],
+  "hideDeco": [],
   "showDevWaterMark": false,
   "fadeInDuration": 0.0,
   "farCameraPosition": false,
@@ -300,8 +317,10 @@
   "tickBeforeChar": false,
   "playInSameFrame": false,
   "processExistingEntitiesInSameFrame": false,
+  "preprocessEntityInSync": false,
   "disableKeepCameras": false,
   "noUIDispatch": false,
+  "noCrossFrameJob": false,
   "tagGroup": {
     "tags": [
       "创建模板"
@@ -314,5 +333,12 @@
     "y": 0.0,
     "z": 0.0
   },
-  "summaryId": "summary_sm2l5m1_10_001"
+  "summaryId": "summary_sm2l5m1_10_001",
+  "envFollowCamera": false,
+  "keepStateOnChangeActive": false,
+  "rainMaxImmediate": true,
+  "overrideDryDrenchedAfterSeconds": true,
+  "dryDrenchedAfterSeconds": 0.0,
+  "overrideDryDrenchedSmoothTime": true,
+  "dryDrenchedSmoothTime": 1.0
 }

@@ -161,11 +161,6 @@
                         "actions": [
                             {
                                 "cueName": "music_sm2l2m1_1_begin",
-                                "paramCfg": {
-                                    "behaviourType": 1,
-                                    "intParam": 14,
-                                    "volume0To10": 10.0
-                                },
                                 "configSaveId": "f7235c2c-a9f8-48d0-8104-10d2d50e2cd8",
                                 "$type": "Beyond.Gameplay.DialogPostAudioCueActionData"
                             }
@@ -845,7 +840,12 @@
                     },
                     "actorIndex": 1
                 },
-                "actions": [],
+                "actions": [
+                    {
+                        "duration": 2.0,
+                        "$type": "Beyond.Gameplay.DialogSetDisableClickActionData"
+                    }
+                ],
                 "actionGroups": [],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
             },
@@ -1104,6 +1104,11 @@
         },
         {
             "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
                 "_actionGroups": [
                     {
                         "duration": 2.5,
@@ -1391,6 +1396,7 @@
 
                         },
                         "montageDesc": {
+                            "bKeepMontageBefore": true,
                             "montageKeyTag": {
                                 "tagName": "Montage/NPC/Humanoid/Particular/Littleboy/Lifeng/cough",
                                 "tagId": -285386783

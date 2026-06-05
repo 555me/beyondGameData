@@ -9,13 +9,16 @@
                         "_disableClickTime": 1.0
                     },
                     "_trunkId": "dlg_f1m25_22_001",
+                    "customText": "",
                     "voiceConfig": {
 
                     },
                     "microExpressionDesc": {
 
                     },
+                    "enableEmotionVoice": true,
                     "overrideActorNameIdValue": "",
+                    "overrideEmotionVoiceId": "",
                     "duration": -1.0,
                     "actionEnum": 307,
                     "configSaveId": ""
@@ -50,18 +53,32 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "changgeng_map02",
-                            "proxyId": "changgeng_map02_default"
+                            "montageKeyTag": {
+                                "tagName": "Montage/NPC/Humanoid/CommonForm/Boy/Crowd/pray",
+                                "tagId": 1351194492
+                            },
+                            "montageFadeInTransitionInfo": {
+                                "bIsFixedTransitionTime": true,
+                                "fixedTransitionDuration": 0.5
+                            },
+                            "actorId": "depot_pulimo_map02",
+                            "proxyId": "depot_pulimo_map02_v1d3d0_002"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "changgeng_map02",
-                            "proxyId": "changgeng_map02_default"
-                        }
+                            "actorId": "depot_pulimo_map02",
+                            "proxyId": "depot_pulimo_map02_v1d3d0_002"
+                        },
+                        "animEndType": 1
                     },
                     "actorIndex": 0
                 },
                 "emotionActData": {
                     "emotionDesc": {
+                        "bPlayEmotion": true,
+                        "emotionTag": {
+                            "tagName": "FacialMorph/Emotion/happym",
+                            "tagId": 174472183
+                        },
                         "browsTrackInfo": {
 
                         },
@@ -104,6 +121,7 @@
                 "actionGroups": [],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
             },
+            "additionalWidth": 207.0,
             "_position": {
                 "x": 200.0,
                 "y": 200.0
@@ -112,6 +130,7 @@
             "$id": "0"
         },
         {
+            "additionalWidth": 214.0,
             "_position": {
                 "x": 600.0,
                 "y": 200.0
@@ -148,6 +167,7 @@
         },
         "hideSquad": true,
         "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
             "showFacBuildingTypes": []
         },
         "hideDecoConfigs": [],
@@ -158,8 +178,8 @@
         "actors": [
             {
                 "actorType": 256,
-                "actorId": "changgeng_map02",
-                "npcProxyId": "changgeng_map02_default",
+                "actorId": "depot_pulimo_map02",
+                "npcProxyId": "depot_pulimo_map02_v1d3d0_002",
                 "useNpcProxy": true
             }
         ],
@@ -169,7 +189,6 @@
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
-        "useOldVersionEyeLookAt": true,
         "$type": "Beyond.Gameplay.DialogTreeData"
     }
 }
