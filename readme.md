@@ -1,13 +1,13 @@
-# beyond game data (TableCfg data)
+# beyond game data
 
 gamedata for arknights: endfield.<br/>
-only tableCfg now. no json or lua data.<br/>
+we have: Table Cfg, LuaScript, dialogue json only, no json data now.<br/>
 
 credits: bydtools.<br/>
 
-本仓库亮点：
-* table文本直接展示，且同时提供简中和英文
-* 更改简洁，通常仅包括新增内容和改动内容，不包括实际顺序调换
+Feature:
+* you can read simpilied chinese or english text in each table, don't need seach key in i18n table.
+* we sort all data, so all diffs in this repo are only new or modified line, order adjustments in orginal data will not in this repo. 
 
 ——————————————<br/>
 meme：<br/>
