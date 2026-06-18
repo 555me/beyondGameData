@@ -60,6 +60,8 @@ ActivityContingencyContractCtrl.OnCreate = HL.Override(HL.Any) << function(self,
     local gameData = GameInstance.player.contingencyContractSystem:GetCcGameData(self.m_gameId)
     if gameData then
         AudioManager.SetRtpc("au_music_rtpc_cc_v1d3_history_highest_stars", gameData.historyBestScore);
+    else
+        AudioManager.SetRtpc("au_music_rtpc_cc_v1d3_history_highest_stars", 0);
     end
 
     self:_ActivityUpdate()

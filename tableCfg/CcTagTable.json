@@ -1,1 +1,1147 @@
-{}
+{
+  "100003": {
+    "desc": {
+      "cn": "干员连携技冷却时间<color=#cc9900>-{1-cd_scale:0%}</color>，战技伤害<color=#cc9900>-{-dmg_scale:0%}</color>",
+      "en": "Length of Operator Combo Skill Cooldown <color=#cc9900>-{1-cd_scale:0%}</color>; Battle Skill DMG Dealt <color=#cc9900>-{-dmg_scale:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_201",
+    "name": {
+      "cn": "环境：过速",
+      "en": "Ambient: Overclock"
+    },
+    "romanNumSuffix": "",
+    "score": "3",
+    "tagId": "100003",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "cd_scale",
+            "value": 0.4,
+            "valueStr": ""
+          },
+          {
+            "key": "dmg_scale",
+            "value": -0.6,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_combo_special_cc0",
+        "termType": "2"
+      }
+    ]
+  },
+  "100201": {
+    "desc": {
+      "cn": "敌人造成伤害<color=#cc9900>+{dmg_up:0%}</color>/+{@100202@dmg_up:0%}",
+      "en": "DMG Dealt by enemies <color=#cc9900>+{dmg_up:0%}</color>/+{@100202@dmg_up:0%}."
+    },
+    "icon": "icon_activity_contract_tag_101",
+    "name": {
+      "cn": "改写：刺激",
+      "en": "Edit: Thrill"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100201",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_up",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_dmg_up",
+        "termType": "1"
+      }
+    ]
+  },
+  "100202": {
+    "desc": {
+      "cn": "敌人造成伤害+{@100201@dmg_up:0%}/<color=#cc9900>+{dmg_up:0%}</color>",
+      "en": "DMG Dealt by enemies +{@100201@dmg_up:0%}/<color=#cc9900>+{dmg_up:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_102",
+    "name": {
+      "cn": "改写：刺激",
+      "en": "Edit: Thrill"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100202",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_up",
+            "value": 0.8,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_dmg_up",
+        "termType": "1"
+      }
+    ]
+  },
+  "100301": {
+    "desc": {
+      "cn": "干员每施放<color=#cc9900>{times:0}</color>/{@100302@times:0}次战技，主控干员获得一层<color=#009cad>寒冷附着</color>。每名干员3秒冷却时间",
+      "en": "Whenever operators cast battle skill <color=#cc9900>{times:0}</color>/{@100302@times:0} time(s), apply 1 stack of <color=#009cad>Cryo Infliction</color> to the controlled operator. Effect trigger cooldown for each operator: 3s."
+    },
+    "icon": "icon_activity_contract_tag_203",
+    "name": {
+      "cn": "队列：失温",
+      "en": "Team: Battle Chill"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100301",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "times",
+            "value": "2",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_normal_skill_cryst_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "100302": {
+    "desc": {
+      "cn": "干员每施放{@100301@times:0}/<color=#cc9900>{times:0}</color>次战技，主控干员获得一层<color=#009cad>寒冷附着</color>。每名干员3秒冷却时间",
+      "en": "Whenever operators cast battle skill {@100301@times:0}/<color=#cc9900>{times:0}</color> time(s), apply 1 stack of <color=#009cad>Cryo Infliction</color> to the controlled operator. Effect trigger cooldown for each operator: 3s."
+    },
+    "icon": "icon_activity_contract_tag_204",
+    "name": {
+      "cn": "队列：失温",
+      "en": "Team: Battle Chill"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100302",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "times",
+            "value": "1",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_normal_skill_cryst_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "100401": {
+    "desc": {
+      "cn": "干员每施放<color=#cc9900>{times:0}</color>/{@100402@times:0}次连携技，主控干员获得一层<color=#009cad>寒冷附着</color>。每名干员3秒冷却时间",
+      "en": "Whenever operators cast combo skill <color=#cc9900>{times:0}</color>/{@100402@times:0} time(s), apply 1 stack of <color=#009cad>Cryo Infliction</color> to the controlled operator. Effect trigger cooldown for each operator: 3s."
+    },
+    "icon": "icon_activity_contract_tag_205",
+    "name": {
+      "cn": "队列：热流失",
+      "en": "Team: Heat Loss"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100401",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "times",
+            "value": "2",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_combo_skill_cryst_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "100402": {
+    "desc": {
+      "cn": "干员每施放{@100401@times:0}/<color=#cc9900>{times:0}</color>次连携技，主控干员获得一层<color=#009cad>寒冷附着</color>。每名干员3秒冷却时间",
+      "en": "Whenever operators cast combo skill {@100401@times:0}/<color=#cc9900>{times:0}</color> time(s), apply 1 stack of <color=#009cad>Cryo Infliction</color> to the controlled operator. Effect trigger cooldown for each operator: 3s."
+    },
+    "icon": "icon_activity_contract_tag_206",
+    "name": {
+      "cn": "队列：热流失",
+      "en": "Team: Heat Loss"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100402",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "times",
+            "value": "1",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_combo_skill_cryst_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "100501": {
+    "desc": {
+      "cn": "干员每施放一次终结技，该干员之后的终结技伤害<color=#cc9900>-{-dmg_scale_per_layer:0%}</color>/-{@100502@-dmg_scale_per_layer:0%}",
+      "en": "Whenever an operator casts an ultimate, Ultimate DMG Dealt by the said operator's subsequent ultimates <color=#cc9900>-{-dmg_scale_per_layer:0%}</color>/-{@100502@-dmg_scale_per_layer:0%}."
+    },
+    "icon": "icon_activity_contract_tag_207",
+    "name": {
+      "cn": "队列：折刃",
+      "en": "Team: Bent Edges"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100501",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale_per_layer",
+            "value": -0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_ult_dmg_down_gradual",
+        "termType": "2"
+      }
+    ]
+  },
+  "100502": {
+    "desc": {
+      "cn": "干员每施放一次终结技，该干员之后的终结技伤害-{@100501@-dmg_scale_per_layer:0%}/<color=#cc9900>-{-dmg_scale_per_layer:0%}</color>",
+      "en": "Whenever an operator casts an ultimate, Ultimate DMG Dealt by the said operator's subsequent ultimates -{@100501@-dmg_scale_per_layer:0%}/<color=#cc9900>-{-dmg_scale_per_layer:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_208",
+    "name": {
+      "cn": "队列：折刃",
+      "en": "Team: Bent Edges"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100502",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale_per_layer",
+            "value": "-1",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_ult_dmg_down_gradual",
+        "termType": "2"
+      }
+    ]
+  },
+  "100601": {
+    "desc": {
+      "cn": "主控干员受到伤害<color=#cc9900>+{dmg_scale:0%}</color>/+{@100602@dmg_scale:0%}",
+      "en": "DMG Taken by the controlled operator <color=#cc9900>+{dmg_scale:0%}</color>/+{@100602@dmg_scale:0%}."
+    },
+    "icon": "icon_activity_contract_tag_117",
+    "name": {
+      "cn": "队列：斩首",
+      "en": "Team: Decapitate"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100601",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": 0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_main_dmg_taken_up",
+        "termType": "2"
+      }
+    ]
+  },
+  "100602": {
+    "desc": {
+      "cn": "主控干员受到伤害+{@100601@dmg_scale:0%}/<color=#cc9900>+{dmg_scale:0%}</color>",
+      "en": "DMG Taken by the controlled operator +{@100601@dmg_scale:0%}/<color=#cc9900>+{dmg_scale:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_118",
+    "name": {
+      "cn": "队列：斩首",
+      "en": "Team: Decapitate"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100602",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": "1",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_main_dmg_taken_up",
+        "termType": "2"
+      }
+    ]
+  },
+  "100803": {
+    "desc": {
+      "cn": "干员普通攻击伤害<color=#cc9900>-{-dmg_scale:0%}</color>",
+      "en": "Operator's Basic Attack DMG Dealt <color=#cc9900>-{-dmg_scale:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_209",
+    "name": {
+      "cn": "队列：脱力",
+      "en": "Team: Poor Basics"
+    },
+    "romanNumSuffix": "",
+    "score": "3",
+    "tagId": "100803",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": -0.7,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_normal_attack_dmg_down",
+        "termType": "2"
+      }
+    ]
+  },
+  "100901": {
+    "desc": {
+      "cn": "干员使敌人的<color=#a68360>破防</color>或<color=#1da6e0>法术附着</color>层数增加后，该干员造成的对应类型伤害<color=#cc9900>-{-dmg_scale:0%}</color>/-{@100902@-dmg_scale:0%}，持续10秒",
+      "en": "When an operator applies <color=#a68360>Vulnerability</color> or <color=#1da6e0>Arts Infliction</color> stacks, DMG Dealt (of the corresponding type) by the said operator <color=#cc9900>-{-dmg_scale:0%}</color>/-{@100902@-dmg_scale:0%} for 10s."
+    },
+    "icon": "icon_activity_contract_tag_122",
+    "name": {
+      "cn": "队列：扼制",
+      "en": "Team: Restraint"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "100901",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": -0.45,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_dmg_down_after_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "100902": {
+    "desc": {
+      "cn": "干员使敌人的<color=#a68360>破防</color>或<color=#1da6e0>法术附着</color>层数增加后，该干员造成的对应类型伤害-{@100901@-dmg_scale:0%}/<color=#cc9900>-{-dmg_scale:0%}</color>，持续10秒",
+      "en": "When an operator applies <color=#a68360>Vulnerability</color> or <color=#1da6e0>Arts Infliction</color> stacks, DMG Dealt (of the corresponding type) by the said operator -{@100901@-dmg_scale:0%}/<color=#cc9900>-{-dmg_scale:0%}</color> for 10s."
+    },
+    "icon": "icon_activity_contract_tag_123",
+    "name": {
+      "cn": "队列：扼制",
+      "en": "Team: Restraint"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "100902",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": -0.9,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_dmg_down_after_inflict",
+        "termType": "2"
+      }
+    ]
+  },
+  "101001": {
+    "desc": {
+      "cn": "每个敌人每<color=#cc9900>{duration:0}</color>秒只能被施加一次<color=#a68360>破防</color>或同类型的<color=#1da6e0>法术附着</color>",
+      "en": "<color=#a68360>Vulnerability</color> or <color=#1da6e0>Arts Infliction</color> of the same element can only be applied to the same enemy once every <color=#cc9900>{duration:0}</color>s."
+    },
+    "icon": "icon_activity_contract_tag_124",
+    "name": {
+      "cn": "改写：屏障",
+      "en": "Edit: Effect Barrier"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "101001",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "duration",
+            "value": "5",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_periodic_inflict_resist",
+        "termType": "1"
+      }
+    ]
+  },
+  "101101": {
+    "desc": {
+      "cn": "敌人受到控制效果影响时，每秒回复<color=#cc9900>{hp_ratio:0%}</color>/{@101102@hp_ratio:0%}最大生命值",
+      "en": "An enemy under crowd control effects regenerates <color=#cc9900>{hp_ratio:0%}</color>/{@101102@hp_ratio:0%} Max HP per second."
+    },
+    "icon": "icon_activity_contract_tag_119",
+    "name": {
+      "cn": "改写：愈合",
+      "en": "Edit: Regeneration"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "101101",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.05,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_heal_under_control",
+        "termType": "1"
+      }
+    ]
+  },
+  "101102": {
+    "desc": {
+      "cn": "敌人受到控制效果影响时，每秒回复{@101101@hp_ratio:0%}/<color=#cc9900>{hp_ratio:0%}</color>最大生命值",
+      "en": "An enemy under crowd control effects regenerates {@101101@hp_ratio:0%}/<color=#cc9900>{hp_ratio:0%}</color> Max HP per second."
+    },
+    "icon": "icon_activity_contract_tag_120",
+    "name": {
+      "cn": "改写：愈合",
+      "en": "Edit: Regeneration"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "101102",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_ratio",
+            "value": 0.15,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_heal_under_control",
+        "termType": "1"
+      }
+    ]
+  },
+  "101201": {
+    "desc": {
+      "cn": "战斗开始后，禁止切换主控干员",
+      "en": "Cannot switch controlled operator once battle begins."
+    },
+    "icon": "icon_activity_contract_tag_125",
+    "name": {
+      "cn": "环境：分隔",
+      "en": "Ambient: Partition"
+    },
+    "romanNumSuffix": "",
+    "score": "2",
+    "tagId": "101201",
+    "tagTerms": [
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_level_mute_switch_player_pre",
+        "termType": "2"
+      }
+    ]
+  },
+  "101301": {
+    "desc": {
+      "cn": "体力恢复速度<color=#cc9900>-{-ratio:0%}</color>",
+      "en": "Stamina Regen Rate <color=#cc9900>-{-ratio:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_103",
+    "name": {
+      "cn": "环境：厌氧",
+      "en": "Ambient: Hypoxia"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "101301",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "ratio",
+            "value": -0.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_dash_recover_speed_down",
+        "termType": "2"
+      }
+    ]
+  },
+  "101303": {
+    "desc": {
+      "cn": "禁止闪避",
+      "en": "Dodge cannot be performed."
+    },
+    "icon": "icon_activity_contract_tag_104",
+    "name": {
+      "cn": "环境：禁锢",
+      "en": "Ambient: Mire"
+    },
+    "romanNumSuffix": "",
+    "score": "3",
+    "tagId": "101303",
+    "tagTerms": [
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_level_mute_evade",
+        "termType": "2"
+      }
+    ]
+  },
+  "101402": {
+    "desc": {
+      "cn": "近战干员受到伤害的<color=#cc9900>{hp_down_ratio_melee:0%}</color>会转为减少生命值上限，远程干员转化率为<color=#cc9900>{hp_down_ratio:0%}</color>",
+      "en": "When operators take DMG, part of that DMG will be converted to Max HP Reduction. Conversion rates: <color=#cc9900>{hp_down_ratio_melee:0%}</color> (for melee operators) / <color=#cc9900>{hp_down_ratio:0%}</color> (for ranged operators)"
+    },
+    "icon": "icon_activity_contract_tag_127",
+    "name": {
+      "cn": "队列：衰竭",
+      "en": "Team: Whittle Down"
+    },
+    "romanNumSuffix": "",
+    "score": "3",
+    "tagId": "101402",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_down_ratio",
+            "value": 0.5,
+            "valueStr": ""
+          },
+          {
+            "key": "hp_down_ratio_melee",
+            "value": 0.3,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_dmg_reduce_maxhp",
+        "termType": "2"
+      }
+    ]
+  },
+  "101501": {
+    "desc": {
+      "cn": "敌人被击败后会留下有毒物质，干员处于其中时每秒受到<color=#cc9900>{atk_scale:0%}</color>/{@101502@atk_scale:0%}最大生命值伤害",
+      "en": "A defeated enemy will leave a patch of toxins on the battlefield. Operators caught within the patch take <color=#cc9900>{atk_scale:0%}</color>/{@101502@atk_scale:0%} Max HP of DMG per second."
+    },
+    "icon": "icon_activity_contract_tag_129",
+    "name": {
+      "cn": "改写：遗毒",
+      "en": "Edit: Toxic Residue"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "101501",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.02,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_death_ground_area",
+        "termType": "1"
+      }
+    ]
+  },
+  "101502": {
+    "desc": {
+      "cn": "敌人被击败后会留下有毒物质，干员处于其中时每秒受到{@101501@atk_scale:0%}/<color=#cc9900>{atk_scale:0%}</color>最大生命值伤害",
+      "en": "A defeated enemy will leave a patch of toxins on the battlefield. Operators caught within the patch take {@101501@atk_scale:0%}/<color=#cc9900>{atk_scale:0%}</color> Max HP of DMG per second."
+    },
+    "icon": "icon_activity_contract_tag_130",
+    "name": {
+      "cn": "改写：遗毒",
+      "en": "Edit: Toxic Residue"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "101502",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 0.05,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_death_ground_area",
+        "termType": "1"
+      }
+    ]
+  },
+  "101701": {
+    "desc": {
+      "cn": "主控干员受到的<color=#009cad>冻结</color>时间增加至<color=#cc9900>{duration:0}</color>秒，施放<color=#f45511>灼热类型</color>技能可以解除<color=#009cad>冻结</color>",
+      "en": "Duration of <color=#009cad>Solidification</color> applied to the controlled operator is extended to <color=#cc9900>{duration:0}</color>s. Casting <color=#f45511>Heat-type</color> skills can dispel the <color=#009cad>Solidification</color>."
+    },
+    "icon": "icon_activity_contract_tag_132",
+    "name": {
+      "cn": "环境：融化",
+      "en": "Ambient: Thermolysis"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "101701",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "duration",
+            "value": "15",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_frozenonchar_extend",
+        "termType": "2"
+      },
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_chr_fire_skill_clear_frozenonchar",
+        "termType": "2"
+      }
+    ]
+  },
+  "101801": {
+    "desc": {
+      "cn": "主控干员受到的<color=#009cad>冻结</color>时间增加至<color=#cc9900>{duration:0}</color>秒，施放<color=#6d9a00>自然类型</color>技能可以解除<color=#009cad>冻结</color>",
+      "en": "Duration of <color=#009cad>Solidification</color> applied to the controlled operator is extended to <color=#cc9900>{duration:0}</color>s. Casting <color=#6d9a00>Nature-type</color> skills can dispel the <color=#009cad>Solidification</color>."
+    },
+    "icon": "icon_activity_contract_tag_133",
+    "name": {
+      "cn": "环境：升华",
+      "en": "Ambient: Biolysis"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "101801",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "duration",
+            "value": "15",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_frozenonchar_extend",
+        "termType": "2"
+      },
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_chr_natural_skill_clear_frozenonchar",
+        "termType": "2"
+      }
+    ]
+  },
+  "101901": {
+    "desc": {
+      "cn": "主控干员受到的<color=#009cad>冻结</color>时间增加至<color=#cc9900>{duration:0}</color>秒，施放<color=#cc9900>电磁类型</color>技能可以解除<color=#009cad>冻结</color>",
+      "en": "Duration of <color=#009cad>Solidification</color> applied to the controlled operator is extended to <color=#cc9900>{duration:0}</color>s. Casting <color=#cc9900>Electric-type</color> skills can dispel the <color=#009cad>Solidification</color>."
+    },
+    "icon": "icon_activity_contract_tag_134",
+    "name": {
+      "cn": "环境：电解",
+      "en": "Ambient: Electrolysis"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "101901",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "duration",
+            "value": "15",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_frozenonchar_extend",
+        "termType": "2"
+      },
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_chr_pulse_skill_clear_frozenonchar",
+        "termType": "2"
+      }
+    ]
+  },
+  "102001": {
+    "desc": {
+      "cn": "波次间隔只产生<color=#cc9900>1</color>个治愈团块",
+      "en": "Only <color=#cc9900>1</color> Healing Mass is generated between waves."
+    },
+    "icon": "icon_activity_contract_tag_107",
+    "name": {
+      "cn": "环境：枯萎",
+      "en": "Ambient: Withering"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "102001",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "num",
+            "value": "-2",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_level_reduce_heal_ball",
+        "termType": "2"
+      }
+    ]
+  },
+  "102002": {
+    "desc": {
+      "cn": "波次间隔不产生治愈团块",
+      "en": "No Healing Masses are generated between waves."
+    },
+    "icon": "icon_activity_contract_tag_108",
+    "name": {
+      "cn": "环境：枯萎",
+      "en": "Ambient: Withering"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "102002",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "num",
+            "value": "-3",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_level_reduce_heal_ball_2",
+        "termType": "2"
+      }
+    ]
+  },
+  "102101": {
+    "desc": {
+      "cn": "倒计时<color=#cc9900>-{-time:0}</color>/-{@102102@-time:0}秒",
+      "en": "Timer <color=#cc9900>-{-time:0}</color>s/-{@102102@-time:0}s"
+    },
+    "icon": "icon_activity_contract_tag_111",
+    "name": {
+      "cn": "环境：时限",
+      "en": "Ambient: Time Limit"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "102101",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "time",
+            "value": "-100",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_level_countdown_reduce",
+        "termType": "3"
+      }
+    ]
+  },
+  "102102": {
+    "desc": {
+      "cn": "倒计时-{@102101@-time:0}/<color=#cc9900>-{-time:0}</color>秒",
+      "en": "Timer -{@102101@-time:0}s/<color=#cc9900>-{-time:0}</color>s"
+    },
+    "icon": "icon_activity_contract_tag_112",
+    "name": {
+      "cn": "环境：时限",
+      "en": "Ambient: Time Limit"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "102102",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "time",
+            "value": "-200",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_level_countdown_reduce",
+        "termType": "3"
+      }
+    ]
+  },
+  "102302": {
+    "desc": {
+      "cn": "敌人移动速度<color=#cc9900>+{speedup_scale-1:0%}</color>，0.1秒内受到的伤害不会超过最大生命值的<color=#cc9900>{dmg_scale:0%}</color>",
+      "en": "Enemy movement speed <color=#cc9900>+{speedup_scale-1:0%}</color>. Enemies also do not suffer more than <color=#cc9900>{dmg_scale:0%}</color> Max HP of DMG within 0.1s."
+    },
+    "icon": "icon_activity_contract_tag_136",
+    "name": {
+      "cn": "改写：奔腾",
+      "en": "Edit: Rush"
+    },
+    "romanNumSuffix": "",
+    "score": "2",
+    "tagId": "102302",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "speedup_scale",
+            "value": "2",
+            "valueStr": ""
+          },
+          {
+            "key": "dmg_scale",
+            "value": 0.25,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_movespeedup",
+        "termType": "1"
+      }
+    ]
+  },
+  "102401": {
+    "desc": {
+      "cn": "主控干员受到的<color=#009cad>冻结</color>时间增加至<color=#cc9900>{duration:0}</color>秒，施放<color=#a68360>物理类型</color>技能可以解除<color=#009cad>冻结</color>",
+      "en": "Duration of <color=#009cad>Solidification</color> applied to the controlled operator is extended to <color=#cc9900>{duration:0}</color>s. Casting <color=#a68360>Physical-type</color> skills can dispel the <color=#009cad>Solidification</color>."
+    },
+    "icon": "icon_activity_contract_tag_210",
+    "name": {
+      "cn": "环境：切削",
+      "en": "Ambient: Physicolysis"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "102401",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "duration",
+            "value": "15",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_frozenonchar_extend",
+        "termType": "2"
+      },
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_chr_phy_skill_clear_frozenonchar",
+        "termType": "2"
+      }
+    ]
+  },
+  "102801": {
+    "desc": {
+      "cn": "干员主能力值<color=#cc9900>-{1-attr:0%}</color>/-{@102802@1-attr:0%}/-{@102803@1-attr:0%}",
+      "en": "Operator Attributes <color=#cc9900>-{1-attr:0%}</color>/-{@102802@1-attr:0%}/-{@102803@1-attr:0%}."
+    },
+    "icon": "icon_activity_contract_tag_302",
+    "name": {
+      "cn": "队列：萎缩",
+      "en": "Team: Weaken"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "102801",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "attr",
+            "value": 0.9,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_main_attribute_down",
+        "termType": "2"
+      }
+    ]
+  },
+  "102802": {
+    "desc": {
+      "cn": "干员主能力值-{@102801@1-attr:0%}/<color=#cc9900>-{1-attr:0%}</color>/-{@102803@1-attr:0%}",
+      "en": "Operator Attributes -{@102801@1-attr:0%}/<color=#cc9900>-{1-attr:0%}</color>/-{@102803@1-attr:0%}."
+    },
+    "icon": "icon_activity_contract_tag_303",
+    "name": {
+      "cn": "队列：萎缩",
+      "en": "Team: Weaken"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "102802",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "attr",
+            "value": 0.8,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_main_attribute_down",
+        "termType": "2"
+      }
+    ]
+  },
+  "102803": {
+    "desc": {
+      "cn": "干员主能力值-{@102801@1-attr:0%}/-{@102802@1-attr:0%}/<color=#cc9900>-{1-attr:0%}</color>",
+      "en": "Operator Attributes -{@102801@1-attr:0%}/-{@102802@1-attr:0%}/<color=#cc9900>-{1-attr:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_304",
+    "name": {
+      "cn": "队列：萎缩",
+      "en": "Team: Weaken"
+    },
+    "romanNumSuffix": "Ⅲ",
+    "score": "3",
+    "tagId": "102803",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "attr",
+            "value": 0.6,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_main_attribute_down",
+        "termType": "2"
+      }
+    ]
+  },
+  "103102": {
+    "desc": {
+      "cn": "每个敌人每有一层<color=#a68360>破防</color>或<color=#1da6e0>法术附着</color>，受到的对应类型伤害<color=#cc9900>-{-dmg_scale:0%}</color>。该效果会在<color=#a68360>破防</color>或<color=#1da6e0>法术附着</color>结束后延迟0.1秒消失",
+      "en": "For each <color=#a68360>Vulnerability</color> or <color=#1da6e0>Arts Infliction</color> stack that an enemy has, the said enemy receives DMG Taken (of the corresponding type) <color=#cc9900>-{-dmg_scale:0%}</color>. This effect is removed 0.1s after the <color=#a68360>Vulnerability</color> or <color=#1da6e0>Arts Infliction</color> ends."
+    },
+    "icon": "icon_activity_contract_tag_308",
+    "name": {
+      "cn": "改写：裹附",
+      "en": "Edit: Encasement"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "103102",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_scale",
+            "value": -0.1,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_inflict_stack_resist",
+        "termType": "1"
+      }
+    ]
+  },
+  "103203": {
+    "desc": {
+      "cn": "干员除普通攻击、战技、连携技和终结技以外的伤害<color=#cc9900>+{dmg_up:0%}</color>，战技伤害<color=#cc9900>-{-dmg_scale:0%}</color>",
+      "en": "Operators' DMG Dealt <color=#cc9900>+{dmg_up:0%}</color> for any DMG not dealt by Basic Attack, Battle Skill, Combo Skill, or Ultimate. Battle Skill DMG Dealt <color=#cc9900>-{-dmg_scale:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_306",
+    "name": {
+      "cn": "环境：震荡",
+      "en": "Ambient: Tremor"
+    },
+    "romanNumSuffix": "",
+    "score": "3",
+    "tagId": "103203",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "dmg_up",
+            "value": "1",
+            "valueStr": ""
+          },
+          {
+            "key": "dmg_scale",
+            "value": -0.6,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_physical_and_inflict_enhance_special_cc0",
+        "termType": "2"
+      }
+    ]
+  },
+  "103302": {
+    "desc": {
+      "cn": "主控干员每实际回复<color=#cc9900>{chr_heal_ratio:0%}</color>最大生命值或获得最大生命值<color=#cc9900>{chr_shield_ratio:0%}</color>的<color=#1da6e0>护盾</color>时，场上敌人回复<color=#cc9900>{eny_heal_ratio:0%}</color>最大生命值",
+      "en": "Whenever the controlled operator is restored for <color=#cc9900>{chr_heal_ratio:0%}</color> Max HP or acquires a <color=#1da6e0>shield</color> with <color=#cc9900>{chr_shield_ratio:0%}</color> Max HP, every enemy in the battlefield is also restored for <color=#cc9900>{eny_heal_ratio:0%}</color> Max HP."
+    },
+    "icon": "icon_activity_contract_tag_307",
+    "name": {
+      "cn": "环境：同步生长",
+      "en": "Ambient: Synced Growth"
+    },
+    "romanNumSuffix": "",
+    "score": "2",
+    "tagId": "103302",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "chr_heal_ratio",
+            "value": 0.1,
+            "valueStr": ""
+          },
+          {
+            "key": "eny_heal_ratio",
+            "value": 0.08,
+            "valueStr": ""
+          },
+          {
+            "key": "chr_shield_ratio",
+            "value": 0.2,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_heal_reflect_to_eny",
+        "termType": "2"
+      }
+    ]
+  },
+  "900101": {
+    "desc": {
+      "cn": "敌人生命值<color=#cc9900>+{hp_up-1:0%}</color>/+{@900102@hp_up-1:0%}/+{@900103@hp_up-1:0%}",
+      "en": "Enemy HP <color=#cc9900>+{hp_up-1:0%}</color>/+{@900102@hp_up-1:0%}/+{@900103@hp_up-1:0%}."
+    },
+    "icon": "icon_activity_contract_tag_114",
+    "name": {
+      "cn": "改写：活性",
+      "en": "Edit: Vitality"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "1",
+    "tagId": "900101",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_up",
+            "value": 1.5,
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_hp_up",
+        "termType": "1"
+      }
+    ]
+  },
+  "900102": {
+    "desc": {
+      "cn": "敌人生命值+{@900101@hp_up-1:0%}/<color=#cc9900>+{hp_up-1:0%}</color>/+{@900103@hp_up-1:0%}",
+      "en": "Enemy HP +{@900101@hp_up-1:0%}/<color=#cc9900>+{hp_up-1:0%}</color>/+{@900103@hp_up-1:0%}."
+    },
+    "icon": "icon_activity_contract_tag_115",
+    "name": {
+      "cn": "改写：活性",
+      "en": "Edit: Vitality"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "2",
+    "tagId": "900102",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_up",
+            "value": "2",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_hp_up",
+        "termType": "1"
+      }
+    ]
+  },
+  "900103": {
+    "desc": {
+      "cn": "敌人生命值+{@900101@hp_up-1:0%}/+{@900102@hp_up-1:0%}/<color=#cc9900>+{hp_up-1:0%}</color>",
+      "en": "Enemy HP +{@900101@hp_up-1:0%}/+{@900102@hp_up-1:0%}/<color=#cc9900>+{hp_up-1:0%}</color>."
+    },
+    "icon": "icon_activity_contract_tag_116",
+    "name": {
+      "cn": "改写：活性",
+      "en": "Edit: Vitality"
+    },
+    "romanNumSuffix": "Ⅲ",
+    "score": "3",
+    "tagId": "900103",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "hp_up",
+            "value": "3",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "buff_cc_enemy_common_hp_up",
+        "termType": "1"
+      }
+    ]
+  }
+}

@@ -214,6 +214,8 @@ MainHudCtrl.m_characterFootBar = HL.Field(HL.Table)
 
 MainHudCtrl.m_quickMenuBindingId = HL.Field(HL.Number) << -1
 
+MainHudCtrl.m_forbidAllTopBtn = HL.Field(HL.Boolean) << false
+
 
 
 
@@ -1054,6 +1056,9 @@ end
 
 
 MainHudCtrl._GetSingleTopBtnVisible = HL.Method(HL.Table).Return(HL.Boolean) << function(self, info)
+    if self.m_forbidAllTopBtn then
+        return false
+    end
     
     if Utils.isInSettlementDefenseDefending() then
         if not info.canStayInTowerDefenseDefending then
@@ -2352,6 +2357,11 @@ MainHudCtrl._UpdateWatchBtnBinding = HL.Method() << function(self)
     else
         self.view.topRightBtns.watchBtn.onClick:ChangeBindingPlayerAction("common_open_watch")
     end
+end
+
+MainHudCtrl.ForbidAllTopBtn = HL.Method(HL.Boolean) << function(self, isForbid)
+    self.m_forbidAllTopBtn = isForbid
+    self:UpdateAllTopBtnsVisible()
 end
 
 

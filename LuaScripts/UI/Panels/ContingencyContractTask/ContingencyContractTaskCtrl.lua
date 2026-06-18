@@ -409,11 +409,18 @@ ContingencyContractTaskCtrl._OnUpdateTaskList = HL.Method(HL.Any, HL.Number, HL.
             end
         end
     end
-    countdownState = groupData.canUpdate and (latestUnlockTime and "Countdown" or "Updated") or "None"
-    if latestUnlockTime then
-        cell.countDownText:InitCountDownText(latestUnlockTime, function()
-            self.m_needUpdateRefresh = true
-        end)
+    if groupData.canUpdate then
+        local allTaskCount = self.m_groupData[index].totalTaskNum
+        
+        local hideTip = currentTaskCount ~= allTaskCount and not latestUnlockTime
+        countdownState = hideTip and "None" or (latestUnlockTime and "Countdown" or "Updated")
+        if latestUnlockTime then
+            cell.countDownText:InitCountDownText(latestUnlockTime, function()
+                self.m_needUpdateRefresh = true
+            end)
+        end
+    else
+        countdownState = "None"
     end
     cell.titleNode:SetState(countdownState)
     table.sort(currentTasks, Utils.genSortFunction({ "completed", "inProgress", "sortId" }, true))

@@ -244,8 +244,7 @@ ContingencyContractHudCtrl._ToggleTopMainHud = HL.Method(HL.Boolean) << function
     
     local isOpen, ctrl = UIManager:IsOpen(PanelId.MainHud)
     if isOpen then
-        ctrl.view.topLeftBtns.gameObject:SetActive(isOn)
-        ctrl.view.topRightBtns.gameObject:SetActive(isOn)
+        ctrl:ForbidAllTopBtn(not isOn)
     end
 end
 

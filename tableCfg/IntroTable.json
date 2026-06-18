@@ -107,6 +107,62 @@
       }
     ]
   },
+  "contingency_contract": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "在危机合约中，“指标”是一系列会提升挑战难度的效果，分为3档难度等级。\n管理员可以自由选择指标组合，调节不同难度，进行战斗挑战。",
+          "en": "The Contingency Contract Test Criteria are a series of effects that make challenges more difficult. Test Criteria are divided into 3 difficulty tiers. Select any combination of Test Criteria to tweak the difficulty before starting the combat challenge."
+        },
+        "id": "contingency_contract",
+        "imagePath": "Guide/guide_pic_CC0_1",
+        "pageIndex": "1",
+        "title": {
+          "cn": "危机合约 - 指标",
+          "en": "Contingency Contract: Test Criterion"
+        }
+      },
+      {
+        "desc": {
+          "cn": "指标会存在一些选择上的限制。部分指标之间存在冲突关系，最多只能选择其中一个。\n同时还有部分指标，需要在达成特定指标等级后，或在特定时间后，才会开放。",
+          "en": "There may be selection limits for certain Test Criteria. Some Test Criteria conflict with another, forcing you to choose between one of them. Some are only available when Test Criteria Level is high enough, or after a specified date."
+        },
+        "id": "contingency_contract",
+        "imagePath": "Guide/guide_pic_CC0_2",
+        "pageIndex": "2",
+        "title": {
+          "cn": "危机合约 - 选择指标的限制",
+          "en": "Contingency Contract: Test Criterion Selection Limit"
+        }
+      },
+      {
+        "desc": {
+          "cn": "部分指标是特殊的「锁闭指标」，初始情况不可选择，必须先选择「密钥指标」才能解锁。",
+          "en": "Some Test Criteria are [Locked Criteria] that cannot be selected by default. Select the specified [Key Criteria] to unlock them."
+        },
+        "id": "contingency_contract",
+        "imagePath": "Guide/guide_pic_CC0_3",
+        "pageIndex": "3",
+        "title": {
+          "cn": "危机合约 - 锁闭指标与密钥指标",
+          "en": "Contingency Contract: Locked & Key Criteria"
+        }
+      },
+      {
+        "desc": {
+          "cn": "成功完成每项指标的首次挑战，可获得相应的晶化硬币奖励；更多晶化硬币奖励可通过完成合约任务获得。晶化硬币可用于在机密圣所兑换活动奖励。",
+          "en": "Successfully completing a challenge with a Test Criterion for the first time provides a reward of Vitrified Coins. More Vitrified Coins can be earned by completing Contract Missions. Vitrified Coins are exchangeable for event rewards at the Secret Sanctuary."
+        },
+        "id": "contingency_contract",
+        "imagePath": "Guide/guide_pic_CC0_4",
+        "pageIndex": "4",
+        "title": {
+          "cn": "危机合约 - 挑战奖励",
+          "en": "Contingency Contract: Challenge Rewards"
+        }
+      }
+    ]
+  },
   "dung01_actmonster01": {
     "dataArray": [
       {
@@ -485,8 +541,8 @@
       },
       {
         "desc": {
-          "cn": "在抽取第三张数据铭牌前，可以开启奖励翻倍。开启后若挑战成功，本局战斗会获得双倍演算奖励。\n放弃当前抽取结果，不会消耗本日奖励演算次数，但每日放弃次数有限。",
-          "en": "You can activate Rewards Doubling before making the third draw. Activating this feature and successfully completing the Trial will double the Trial rewards earned. You can abandon the draw without using up a daily rewarded trial attempt, but there is a daily limit on abandons you can perform."
+          "cn": "在抽取第三张数据铭牌前，可以开启<@gd.key>奖励翻倍</>。开启后若挑战成功，本局演算会获得双倍奖励。\n每日仅有<@gd.key>3次</>机会可以放弃当前抽取结果。若放弃次数耗尽后仍继续放弃，将<@gd.key>会扣除本日奖励演算次数</>。",
+          "en": "You can activate <@gd.key>Rewards Doubling</> before drawing the third Dataplate. Activating this feature and successfully completing the Trial will double the Trial rewards earned. \nYou have <@gd.key>3</> Abandon attempts per day to abandon your current draw(s). Choosing to Abandon after using up the daily Abandon attempts will <@gd.key>deduct a Rewarded Trial attempt instead</>."
         },
         "id": "simulation_training",
         "imagePath": "Guide/guide_pic_simulation_training_enhance_3",
