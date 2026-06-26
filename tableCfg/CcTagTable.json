@@ -618,6 +618,27 @@
       }
     ]
   },
+  "101603": {
+    "desc": {
+      "cn": "敌人对主控干员施加<color=#009cad>寒冷附着</color>时，转为直接施加<color=#009cad>冻结</color>",
+      "en": "If an enemy applies <color=#009cad>Cryo Infliction</color> to the controlled operator, directly convert the effect to <color=#009cad>Solidification</color> instead."
+    },
+    "icon": "icon_activity_contract_tag_135",
+    "name": {
+      "cn": "改写：热量汲取",
+      "en": "Edit: Flashfreeze"
+    },
+    "romanNumSuffix": "",
+    "score": "2",
+    "tagId": "101603",
+    "tagTerms": [
+      {
+        "blackboard": [],
+        "buffId": "buff_cc_enemy_cryst_inflict_to_frozen",
+        "termType": "1"
+      }
+    ]
+  },
   "101701": {
     "desc": {
       "cn": "主控干员受到的<color=#009cad>冻结</color>时间增加至<color=#cc9900>{duration:0}</color>秒，施放<color=#f45511>灼热类型</color>技能可以解除<color=#009cad>冻结</color>",
@@ -770,10 +791,10 @@
   },
   "102101": {
     "desc": {
-      "cn": "倒计时<color=#cc9900>-{-time:0}</color>/-{@102102@-time:0}秒",
-      "en": "Timer <color=#cc9900>-{-time:0}</color>s/-{@102102@-time:0}s"
+      "cn": "倒计时<color=#cc9900>-{-time:0}</color>/-{@102102@-time:0}/-{@102103@-time:0}秒",
+      "en": "Timer <color=#cc9900>-{-time:0}</color>s/-{@102102@-time:0}s/-{@102103@-time:0}s"
     },
-    "icon": "icon_activity_contract_tag_111",
+    "icon": "icon_activity_contract_tag_111_2",
     "name": {
       "cn": "环境：时限",
       "en": "Ambient: Time Limit"
@@ -797,10 +818,10 @@
   },
   "102102": {
     "desc": {
-      "cn": "倒计时-{@102101@-time:0}/<color=#cc9900>-{-time:0}</color>秒",
-      "en": "Timer -{@102101@-time:0}s/<color=#cc9900>-{-time:0}</color>s"
+      "cn": "倒计时-{@102101@-time:0}/<color=#cc9900>-{-time:0}</color>/-{@102103@-time:0}秒",
+      "en": "Timer -{@102101@-time:0}s/<color=#cc9900>-{-time:0}</color>s/-{@102103@-time:0}s"
     },
-    "icon": "icon_activity_contract_tag_112",
+    "icon": "icon_activity_contract_tag_112_2",
     "name": {
       "cn": "环境：时限",
       "en": "Ambient: Time Limit"
@@ -819,6 +840,75 @@
         ],
         "buffId": "global_buff_cc_level_countdown_reduce",
         "termType": "3"
+      }
+    ]
+  },
+  "102103": {
+    "desc": {
+      "cn": "倒计时-{@102101@-time:0}/-{@102102@-time:0}/<color=#cc9900>-{-time:0}</color>秒",
+      "en": "Timer -{@102101@-time:0}s/-{@102102@-time:0}s/<color=#cc9900>-{-time:0}</color>s"
+    },
+    "icon": "icon_activity_contract_tag_301",
+    "name": {
+      "cn": "环境：时限",
+      "en": "Ambient: Time Limit"
+    },
+    "romanNumSuffix": "Ⅲ",
+    "score": "3",
+    "tagId": "102103",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "time",
+            "value": "-300",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_level_countdown_reduce",
+        "termType": "3"
+      }
+    ]
+  },
+  "102201": {
+    "desc": {
+      "cn": "最终波次的“刚角天使”与“重刺天使”变为“刚角天使α”与“重刺天使α”",
+      "en": "Heavy Ram and Heavy Sting enemies in the final wave are replaced by Heavy Ram α and Heavy Sting α."
+    },
+    "icon": "icon_activity_contract_tag_310",
+    "name": {
+      "cn": "环境：再构成",
+      "en": "Ambient: RE-Construct"
+    },
+    "romanNumSuffix": "Ⅰ",
+    "score": "2",
+    "tagId": "102201",
+    "tagTerms": [
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_level_elite_levelup",
+        "termType": "2"
+      }
+    ]
+  },
+  "102202": {
+    "desc": {
+      "cn": "第三、四波次的“刚角天使”与“重刺天使”变为“刚角天使α”与“重刺天使α”",
+      "en": "Heavy Ram and Heavy Sting enemies in the third and fourth waves are replaced by Heavy Ram α and Heavy Sting α."
+    },
+    "icon": "icon_activity_contract_tag_311",
+    "name": {
+      "cn": "环境：再构成",
+      "en": "Ambient: RE-Construct"
+    },
+    "romanNumSuffix": "Ⅱ",
+    "score": "3",
+    "tagId": "102202",
+    "tagTerms": [
+      {
+        "blackboard": [],
+        "buffId": "global_buff_cc_level_elite_levelup_2",
+        "termType": "2"
       }
     ]
   },
@@ -1059,6 +1149,38 @@
           }
         ],
         "buffId": "global_buff_cc_chr_heal_reflect_to_eny",
+        "termType": "2"
+      }
+    ]
+  },
+  "103401": {
+    "desc": {
+      "cn": "主控干员12秒内未对敌人造成重击时，暂停技力自然恢复",
+      "en": "Natural SP Recovery is temporarily paused when the controlled operator has not dealt a Final Strike to the enemy for 12 seconds."
+    },
+    "icon": "icon_activity_contract_tag_312",
+    "name": {
+      "cn": "队列：重负",
+      "en": "Team: Encumbered"
+    },
+    "romanNumSuffix": "",
+    "score": "1",
+    "tagId": "103401",
+    "tagTerms": [
+      {
+        "blackboard": [
+          {
+            "key": "ratio",
+            "value": "-1",
+            "valueStr": ""
+          },
+          {
+            "key": "duration",
+            "value": "12",
+            "valueStr": ""
+          }
+        ],
+        "buffId": "global_buff_cc_chr_no_lastcombo_stop_atb_recover",
         "termType": "2"
       }
     ]

@@ -5676,6 +5676,631 @@
     "skipToFirstOption": false,
     "topicId": ""
   },
+  "sns_c33m1_1": {
+    "chatId": "sns_npc_fiona",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "13",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "管理员，我们收到了来自塞什卡的求助信息。",
+          "en": "Endmin, we received a request for help from Seš'qa."
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": "sns_npc_fiona"
+      },
+      "10": {
+        "content": {
+          "cn": "好，替我感谢一下他们的关心。",
+          "en": "That's good to hear. Help me thank them for their concerns and well wishes."
+        },
+        "contentId": "10",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "11": {
+        "content": {
+          "cn": "好，有空时我会去调查血液样本的情况。",
+          "en": "Alright. I'll investigate and hopefully find the blood sample once I have the time."
+        },
+        "contentId": "11",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "12": {
+        "content": {
+          "cn": "了解。我先把看护人的位置同步给你。",
+          "en": "Got it. I'll sync the Keeper's location with you."
+        },
+        "contentId": "12",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "13",
+        "optionType": "0",
+        "preContentId": "11",
+        "speaker": "sns_npc_fiona"
+      },
+      "13": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "13",
+        "contentParam": [
+          "c33m1"
+        ],
+        "contentParams": "",
+        "contentType": "12",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "c33m1",
+        "linkRewardId": "",
+        "nextContentId": "-1",
+        "optionType": "0",
+        "preContentId": "12",
+        "speaker": ""
+      },
+      "2": {
+        "content": {
+          "cn": "塞什卡希望你能为一名看护人提供协助，他正在追查一份于四号谷地失踪的特殊血液样本。",
+          "en": "Seš'qa hopes you can offer an Agaš'mekanaz, or Keeper of Wisdom, support. He's looking into a case involving a special blood sample that went missing in Valley IV."
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "3",
+        "optionType": "0",
+        "preContentId": "1",
+        "speaker": "sns_npc_fiona"
+      },
+      "3": {
+        "content": {
+          "cn": "关于塞什卡，他们是萨卡兹在塔卫二的代表机构，是终末地的长期盟友。",
+          "en": "A brief background on Seš'qa: The organization represents the Sarkaz on Talos-II, and they've been a long-term ally of Endfield."
+        },
+        "contentId": "3",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "4",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "sns_npc_fiona"
+      },
+      "4": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "4",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_c33m1_1_1_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "3",
+        "speaker": "endmin"
+      },
+      "5": {
+        "content": {
+          "cn": "失踪的血液样本？有没有更具体的情报？",
+          "en": "Missing blood sample? Do we have more details on that?"
+        },
+        "contentId": "5",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "6",
+        "optionType": "0",
+        "preContentId": "4",
+        "speaker": "endmin"
+      },
+      "6": {
+        "content": {
+          "cn": "对方正在工人之家等候，会当面向你解释详情，以及……",
+          "en": "The Keeper is waiting at the Worker Dorms. He'll give you the details himself. Also..."
+        },
+        "contentId": "6",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "7",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "sns_npc_fiona"
+      },
+      "7": {
+        "content": {
+          "cn": "这封信息附上了塞什卡领袖们对你身体的关心，与回归的喜悦。",
+          "en": "The leaders of Seš'qa also expressed their concerns regarding your health, and joy for your return."
+        },
+        "contentId": "7",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "6",
+        "speaker": "sns_npc_fiona"
+      },
+      "8": {
+        "content": {
+          "cn": "还有许多成员邀请你去悬空城做客。",
+          "en": "In fact, many of them have invited you as a guest to the Floating City."
+        },
+        "contentId": "8",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "9",
+        "optionType": "0",
+        "preContentId": "7",
+        "speaker": "sns_npc_fiona"
+      },
+      "9": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "9",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_c33m1_1_2_001",
+          "option_sns_c33m1_1_2_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "8",
+        "speaker": "endmin"
+      }
+    },
+    "dialogId": "sns_c33m1_1",
+    "dialogType": "1",
+    "noticeType": "1",
+    "relatedMissionId": "c33m1",
+    "skipToFirstOption": false,
+    "topicId": ""
+  },
+  "sns_c33m1_2": {
+    "chatId": "sns_npc_fiona",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "13",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "管理员，你与看护人会合了吗？是否顺利？",
+          "en": "Endmin, have you met the Keeper of Wisdom? How did it go?"
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": "sns_npc_fiona"
+      },
+      "10": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "10",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_c33m1_2_1_001",
+          "option_sns_c33m1_2_1_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "11": {
+        "content": {
+          "cn": "听上去好像是让我做主，可以随意指挥他的意思。",
+          "en": "Sounds like they're giving me command of this operation, and that I'm free to give him orders."
+        },
+        "contentId": "11",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "13",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "endmin"
+      },
+      "12": {
+        "content": {
+          "cn": "任何举措？那我知道怎么应对他了。",
+          "en": "Whatever that's necessary? Okay. I think I know how to handle Mr. Keeper."
+        },
+        "contentId": "12",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "13",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "endmin"
+      },
+      "13": {
+        "content": {
+          "cn": "另外，他们提到，如果卡缪不配合，可以跟他提提<@qu.key>“查尔”</>。",
+          "en": "They highlighted that, in the event Camille refuses to comply, try mentioning the name <@qu.key>\"Char\"</>."
+        },
+        "contentId": "13",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "-1",
+        "optionType": "0",
+        "preContentId": "12",
+        "speaker": "sns_npc_fiona"
+      },
+      "2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_c33m1_2_2_001",
+          "option_sns_c33m1_2_2_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "1",
+        "speaker": "endmin"
+      },
+      "3": {
+        "content": {
+          "cn": "那名看护人执意单独行动，不希望我协助他……能帮我问问塞什卡其中的缘由吗？",
+          "en": "The Keeper of Wisdom intends to act alone and does not want my involvement... Can you ask Seš'qa why he's doing this?"
+        },
+        "contentId": "3",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "5",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "endmin"
+      },
+      "4": {
+        "content": {
+          "cn": "塞什卡的说法并不准确，看护人拒绝了帮助。帮我问问是怎么回事？",
+          "en": "Mr. Keeper doesn't match what Seš'qa briefed us and rejected our assistance. Can you help me ask what's going on?"
+        },
+        "contentId": "4",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "5",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "endmin"
+      },
+      "5": {
+        "content": {
+          "cn": "稍等。",
+          "en": "Hold on."
+        },
+        "contentId": "5",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "6",
+        "optionType": "0",
+        "preContentId": "4",
+        "speaker": "sns_npc_fiona"
+      },
+      "6": {
+        "content": {
+          "cn": "[联络员菲奥娜]已离线",
+          "en": "[Fiona the Comms Officer] is offline"
+        },
+        "contentId": "6",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "7",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": ""
+      },
+      "7": {
+        "content": {
+          "cn": "[联络员菲奥娜]已上线",
+          "en": "[Fiona the Comms Officer] is online"
+        },
+        "contentId": "7",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "6",
+        "speaker": ""
+      },
+      "8": {
+        "content": {
+          "cn": "塞什卡回复了我们的疑问。",
+          "en": "Seš'qa responded to our inquiries."
+        },
+        "contentId": "8",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "9",
+        "optionType": "0",
+        "preContentId": "7",
+        "speaker": "sns_npc_fiona"
+      },
+      "9": {
+        "content": {
+          "cn": "看护人卡缪……有些特立独行。他们请求你确保他的安全，除此之外，可以对他采取任何举措。",
+          "en": "Keeper of Wisdom Camille is indeed interesting and prefers to act alone. They're asking you to keep Mr. Keeper safe. They also said you're free to do whatever that's necessary to achieve that."
+        },
+        "contentId": "9",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "10",
+        "optionType": "0",
+        "preContentId": "8",
+        "speaker": "sns_npc_fiona"
+      }
+    },
+    "dialogId": "sns_c33m1_2",
+    "dialogType": "2",
+    "noticeType": "1",
+    "relatedMissionId": "",
+    "skipToFirstOption": false,
+    "topicId": ""
+  },
+  "sns_c33m2_1": {
+    "chatId": "sns_chr_0033_camille",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": ""
+      },
+      "-2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "管理员，有空吗？我在最初见面的地方等你。",
+          "en": "Endmin, do you have time? I await you at the place of our first meeting."
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_c33m2_1_1_001",
+          "option_sns_c33m2_1_1_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "4",
+        "preContentId": "1",
+        "speaker": "endmin"
+      }
+    },
+    "dialogId": "sns_c33m2_1",
+    "dialogType": "2",
+    "noticeType": "1",
+    "relatedMissionId": "",
+    "skipToFirstOption": false,
+    "topicId": ""
+  },
   "sns_c6m1_1": {
     "chatId": "sns_chr_0028_wulfa",
     "dialogContentData": {
@@ -85924,6 +86549,2201 @@
     "relatedMissionId": "",
     "skipToFirstOption": false,
     "topicId": "topic_chr_0031_mifu_13003"
+  },
+  "sns_topic_chr_0033_kamiu_13001": {
+    "chatId": "sns_chr_0033_camille",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "32",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "[卡缪]已离线",
+          "en": "[Camille] is OFFLINE"
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": ""
+      },
+      "10": {
+        "content": {
+          "cn": "原来是这样。我听说，塞什卡会通过预言向看护人揭示案件？",
+          "en": "Is that so? I heard Seš'qa uses prophecies to reveal jobs to the Keepers of Wisdom."
+        },
+        "contentId": "10",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "11": {
+        "content": {
+          "cn": "原来是这样。说起来，我有些好奇看护人的工作。",
+          "en": "Is that so? I'm actually a little curious about the work of the Agaš'mekanaz."
+        },
+        "contentId": "11",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "12": {
+        "content": {
+          "cn": "看护人席位稀少，只会在涉及萨卡兹的恶性事件发生时行动。当然，主要负责肃清血亲的罪孽。",
+          "en": "The Agaš'mekanaz are few in number. We are only assigned to handle malicious incidents involving the Sarkaz. Of course, our main task is to expunge the sins of our kin."
+        },
+        "contentId": "12",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "13",
+        "optionType": "0",
+        "preContentId": "11",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "13": {
+        "content": {
+          "cn": "为了不让荒地军阀雅各布·迈森的事件重演，塞什卡成立了警戒部门，他们用巫术建立了预测模型，能窥见一些景象。",
+          "en": "We do not wish to see another Warlord of the Wilds like Jakub Meissen. So, Seš'qa founded a special office to preempt such events. Witchcraft was used to create a predictive model for revealing a few possibilities."
+        },
+        "contentId": "13",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "14",
+        "optionType": "0",
+        "preContentId": "12",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "14": {
+        "content": {
+          "cn": "如果观测到严重的罪行，在取得联合执法的许可后，案件会转交到看护人手中。",
+          "en": "If a terrible crime was observed, they would acquire a warrant for joint enforcement and transfer the case to an Agaš'mekanaz."
+        },
+        "contentId": "14",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "15",
+        "optionType": "0",
+        "preContentId": "13",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "15": {
+        "content": {
+          "cn": "但我们的行动并不受预言的支配——即使是过去的独眼巨人也并非全知全能，塞什卡更相信看护人的现场调查。",
+          "en": "But our actions are not dictated by the prophecy. Even the Cyclops of the past cannot claim omniscience nor omnipotence. Seš'qa has greater faith in field investigative work conducted by the Keepers of Wisdom."
+        },
+        "contentId": "15",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "16",
+        "optionType": "0",
+        "preContentId": "14",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "16": {
+        "content": {
+          "cn": "我也认为，如果一切昭然若揭，就不能称为命运。看护人正是因此而存在。",
+          "en": "I also believe that if everything can be revealed, then destiny has no say in it. This is why we Agaš'mekanaz exist."
+        },
+        "contentId": "16",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "17",
+        "optionType": "0",
+        "preContentId": "15",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "17": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "17",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_4_001",
+          "option_sns_topic_chr_0033_kamiu_13001_4_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "16",
+        "speaker": "endmin"
+      },
+      "18": {
+        "content": {
+          "cn": "原来是一种防患于未然……你们为塞什卡付出了很多努力。",
+          "en": "So it turns out to be a preemptive measure... You're really working hard for Seš'qa."
+        },
+        "contentId": "18",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "20",
+        "optionType": "0",
+        "preContentId": "17",
+        "speaker": "endmin"
+      },
+      "19": {
+        "content": {
+          "cn": "原来是预警与调查的结合，这样确实会更缜密。",
+          "en": "A combination of preemption and investigation. That approach does sound pretty thorough."
+        },
+        "contentId": "19",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "20",
+        "optionType": "0",
+        "preContentId": "17",
+        "speaker": "endmin"
+      },
+      "2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_1_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "1",
+        "speaker": "endmin"
+      },
+      "20": {
+        "content": {
+          "cn": "塞什卡建成不易，我们需要保持警觉。",
+          "en": "The raising and lifting of Seš'qa were not easy. We must exercise constant vigilance."
+        },
+        "contentId": "20",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "21",
+        "optionType": "0",
+        "preContentId": "19",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "21": {
+        "content": {
+          "cn": "最初它只是在天空中漂泊的“歇脚地”，但现在已经是萨卡兹在塔卫二的“家”了。",
+          "en": "The city was once \"The Stop\" floating in the sky, but it is now the \"home\" for the Sarkaz living on Talos-II."
+        },
+        "contentId": "21",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "22",
+        "optionType": "0",
+        "preContentId": "20",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "22": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "22",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_5_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "21",
+        "speaker": "endmin"
+      },
+      "23": {
+        "content": {
+          "cn": "重要的不是悬空城停在哪里，而是身边的人，对吧？",
+          "en": "Where the floating city is moored doesn't really matter. What matters are the people around you, right?"
+        },
+        "contentId": "23",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "24",
+        "optionType": "0",
+        "preContentId": "22",
+        "speaker": "endmin"
+      },
+      "24": {
+        "content": {
+          "cn": "嗯，家的意义千变万化。一切只取决于自己的想法。",
+          "en": "Yes. Home may mean many things, but it's based on one's personal opinions."
+        },
+        "contentId": "24",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "25",
+        "optionType": "0",
+        "preContentId": "23",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "25": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "25",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_6_001",
+          "option_sns_topic_chr_0033_kamiu_13001_6_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "24",
+        "speaker": "endmin"
+      },
+      "26": {
+        "content": {
+          "cn": "对你来说，塞什卡是你的家吗？",
+          "en": "So, do you treat Seš'qa as your home?"
+        },
+        "contentId": "26",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "28",
+        "optionType": "0",
+        "preContentId": "25",
+        "speaker": "endmin"
+      },
+      "27": {
+        "content": {
+          "cn": "那你的想法呢？哪里是你的家？",
+          "en": "What's your take on this? Which place would you call home?"
+        },
+        "contentId": "27",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "28",
+        "optionType": "0",
+        "preContentId": "25",
+        "speaker": "endmin"
+      },
+      "28": {
+        "content": {
+          "cn": "塞什卡是我的家，我从不怀疑这一点，但……",
+          "en": "Seš'qa is my home. I do not doubt that, but..."
+        },
+        "contentId": "28",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "29",
+        "optionType": "0",
+        "preContentId": "27",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "29": {
+        "content": {
+          "cn": "家人都离开后，我卖掉了房子。承接看护人的职责后，留在塞什卡的时间也越来越短。",
+          "en": "I sold my house when my family left. After I became an Agaš'mekanaz, I spent less and less time in Seš'qa."
+        },
+        "contentId": "29",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "30",
+        "optionType": "0",
+        "preContentId": "28",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "3": {
+        "content": {
+          "cn": "卡缪，你好几天没有上线了。",
+          "en": "Camille, haven't seen you on Baker for a while."
+        },
+        "contentId": "3",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "4",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "endmin"
+      },
+      "30": {
+        "content": {
+          "cn": "不去看一起生活过的痕迹，不去走童年时就熟悉的道路，我反而会……更平静。",
+          "en": "Staying away from the traces of my past, or the familiar roads I knew since my childhood ... actually gave me peace."
+        },
+        "contentId": "30",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "31",
+        "optionType": "0",
+        "preContentId": "29",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "31": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "31",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_7_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "4",
+        "preContentId": "30",
+        "speaker": "endmin"
+      },
+      "32": {
+        "content": {
+          "cn": "我这次离线造成了一些误会？之后……我会记得打个招呼的。",
+          "en": "Perhaps going off Baker caused a misunderstanding. Next time ... I will remember to toast you first."
+        },
+        "contentId": "32",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "-1",
+        "optionType": "0",
+        "preContentId": "31",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "4": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "4",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_2_001",
+          "option_sns_topic_chr_0033_kamiu_13001_2_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "3",
+        "speaker": "endmin"
+      },
+      "5": {
+        "content": {
+          "cn": "总后勤办事处的人说你的宿舍舱门一直没有进出记录，你还好吗？",
+          "en": "Chief Logistics Office told me that your dorm room door registered zero entries and exits. Are you doing alright?"
+        },
+        "contentId": "5",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "7",
+        "optionType": "0",
+        "preContentId": "4",
+        "speaker": "endmin"
+      },
+      "6": {
+        "content": {
+          "cn": "难道你出什么事了……",
+          "en": "Did something happen to you?"
+        },
+        "contentId": "6",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "7",
+        "optionType": "0",
+        "preContentId": "4",
+        "speaker": "endmin"
+      },
+      "7": {
+        "content": {
+          "cn": "[卡缪]已上线",
+          "en": "[Camille] is ONLINE"
+        },
+        "contentId": "7",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "6",
+        "speaker": ""
+      },
+      "8": {
+        "content": {
+          "cn": "刚看到消息。塞什卡发现了一起棘手的案件，转给我去处理了。",
+          "en": "Just saw your messages. Seš'qa found a difficult case. I had been assigned to it."
+        },
+        "contentId": "8",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "9",
+        "optionType": "0",
+        "preContentId": "7",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "9": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "9",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13001_3_001",
+          "option_sns_topic_chr_0033_kamiu_13001_3_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "8",
+        "speaker": "endmin"
+      }
+    },
+    "dialogId": "sns_topic_chr_0033_kamiu_13001",
+    "dialogType": "1",
+    "noticeType": "1",
+    "relatedMissionId": "",
+    "skipToFirstOption": false,
+    "topicId": "topic_chr_0033_kamiu_13401"
+  },
+  "sns_topic_chr_0033_kamiu_13002": {
+    "chatId": "sns_chr_0033_camille",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "41",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "[卡缪]已向人力资源事务部提交了一次休假申请",
+          "en": "[Camille] submitted a Leave Application to the HR Division"
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": ""
+      },
+      "10": {
+        "content": {
+          "cn": "不如邀请一位“高贵的王庭成员”来帝江号？",
+          "en": "How about inviting a prestigious member of a Royal Court to Dijiang?"
+        },
+        "contentId": "10",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "11",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "endmin"
+      },
+      "11": {
+        "content": {
+          "cn": "“高贵的王庭成员”？但塞什卡……",
+          "en": "A prestigious member of a Royal Court? But Seš'qa..."
+        },
+        "contentId": "11",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "12": {
+        "content": {
+          "cn": "你说的是别礼干员？我会尽快护送她返回帝江号。",
+          "en": "I understand. You are looking for Operator Last Rite. I shall escort Her Highness to Dijiang as soon as I can."
+        },
+        "contentId": "12",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "13",
+        "optionType": "0",
+        "preContentId": "11",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "13": {
+        "content": {
+          "cn": "等等！我开玩笑的，你别真的去抓她啊！",
+          "en": "Wait! I was just kidding. Don't actually do that!"
+        },
+        "contentId": "13",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "14",
+        "optionType": "0",
+        "preContentId": "12",
+        "speaker": "endmin"
+      },
+      "14": {
+        "content": {
+          "cn": "……已经在去的路上了。",
+          "en": "I'm already on my way..."
+        },
+        "contentId": "14",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "19",
+        "optionType": "0",
+        "preContentId": "13",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "15": {
+        "content": {
+          "cn": "塞什卡的开放日很有名，听说开幕和落幕的时候会放烟花……给我带一朵烟花吧！",
+          "en": "Seš'qa Open Day is really famous. I heard about the fireworks for the opening and closing ceremonies... Can I get some of those?"
+        },
+        "contentId": "15",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "16",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "endmin"
+      },
+      "16": {
+        "content": {
+          "cn": "行。",
+          "en": "Sure."
+        },
+        "contentId": "16",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "17",
+        "optionType": "0",
+        "preContentId": "15",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "17": {
+        "content": {
+          "cn": "我是开玩笑的……但真的能带吗？",
+          "en": "Wait. I was just kidding ... but you sure you can get your hands on the fireworks?"
+        },
+        "contentId": "17",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "18",
+        "optionType": "0",
+        "preContentId": "16",
+        "speaker": "endmin"
+      },
+      "18": {
+        "content": {
+          "cn": "可以买便携的烟花棒。如果你想要那种已经发射出去的，可以试试，但大概只能带回一捧明亮的灰烬。",
+          "en": "I can get a small sparkling stick. I can also try getting you something they fired off, but I doubt that I could get anything more than a handful of bright ash."
+        },
+        "contentId": "18",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "19",
+        "optionType": "0",
+        "preContentId": "17",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "19": {
+        "content": {
+          "cn": "如果没什么其他想要的，我带一幅巫术拼图回来？专业巫术工匠的作品很有趣。",
+          "en": "If there's nothing else, I can bring you a set of witchcraft puzzle. Our witch-crafters do make quite interesting things."
+        },
+        "contentId": "19",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "20",
+        "optionType": "0",
+        "preContentId": "18",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_1_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "1",
+        "speaker": "endmin"
+      },
+      "20": {
+        "content": {
+          "cn": "碰到拼图后，手指会暂时变得透明……又或者每拼错一格，就触发一个源石技艺……",
+          "en": "Touching a puzzle piece grants your fingertips temporary invisibility. Misplacing a piece might also trigger an Originium Arts..."
+        },
+        "contentId": "20",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "21",
+        "optionType": "0",
+        "preContentId": "19",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "21": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "21",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_3_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "20",
+        "speaker": "endmin"
+      },
+      "22": {
+        "content": {
+          "cn": "你的意思是……想送我一份礼物？",
+          "en": "Wait, are you saying that you're going to ... give me a present?"
+        },
+        "contentId": "22",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "23",
+        "optionType": "0",
+        "preContentId": "21",
+        "speaker": "endmin"
+      },
+      "23": {
+        "content": {
+          "cn": "我不确定该不该用“礼物”这个词。",
+          "en": "I'm unsure if \"present\" is a proper term for this."
+        },
+        "contentId": "23",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "24",
+        "optionType": "0",
+        "preContentId": "22",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "24": {
+        "content": {
+          "cn": "这个词语总是伴随着离别。送过我礼物的人，最后都踏上了离开我的路。",
+          "en": "This term is linked with departure and absence. Everyone who gave me a present eventually left."
+        },
+        "contentId": "24",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "25",
+        "optionType": "0",
+        "preContentId": "23",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "25": {
+        "content": {
+          "cn": "像是某种只有在我身上才会实现的预言，而我不希望哪一天，你跟我也会这样。",
+          "en": "It seems like a prophecy specific to my being. I do not wish to see a day when you'd do the same thing."
+        },
+        "contentId": "25",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "26",
+        "optionType": "0",
+        "preContentId": "24",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "26": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "26",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_4_001",
+          "option_sns_topic_chr_0033_kamiu_13002_4_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "25",
+        "speaker": "endmin"
+      },
+      "27": {
+        "content": {
+          "cn": "你担心总有一天，自己会选择离开终末地？",
+          "en": "Are you worried a day would come when you choose to leave Endfield?"
+        },
+        "contentId": "27",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "28",
+        "optionType": "0",
+        "preContentId": "26",
+        "speaker": "endmin"
+      },
+      "28": {
+        "content": {
+          "cn": "我说过，我的血与你同在。",
+          "en": "I have said this to you. My blood will always be with you."
+        },
+        "contentId": "28",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "31",
+        "optionType": "0",
+        "preContentId": "27",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "29": {
+        "content": {
+          "cn": "在帝江号上，我也送过你一些东西。",
+          "en": "Actually, I've already offered you quite a few gifts on Dijiang."
+        },
+        "contentId": "29",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "30",
+        "optionType": "0",
+        "preContentId": "26",
+        "speaker": "endmin"
+      },
+      "3": {
+        "content": {
+          "cn": "你的请假申请抄送给我了，这次也是看护人的工作？",
+          "en": "I got CC-d on your leave application. Keeper of Wisdom work?"
+        },
+        "contentId": "3",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "4",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "endmin"
+      },
+      "30": {
+        "content": {
+          "cn": "但我知道你……不会离开。",
+          "en": "But I know you ... will never leave."
+        },
+        "contentId": "30",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "31",
+        "optionType": "0",
+        "preContentId": "29",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "31": {
+        "content": {
+          "cn": "那就没关系了。",
+          "en": "This means everything's okay."
+        },
+        "contentId": "31",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "32",
+        "optionType": "0",
+        "preContentId": "30",
+        "speaker": "endmin"
+      },
+      "32": {
+        "content": {
+          "cn": "或许我想得太复杂了。我想送件东西给朋友，它就该被称为“礼物”。",
+          "en": "Perhaps I am over-complicating things. If I give a friend something, then \"present\" should be its proper name."
+        },
+        "contentId": "32",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "33",
+        "optionType": "0",
+        "preContentId": "31",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "33": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "33",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_5_001",
+          "option_sns_topic_chr_0033_kamiu_13002_5_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "32",
+        "speaker": "endmin"
+      },
+      "34": {
+        "content": {
+          "cn": "还是那句话，重要的是送你礼物的人，而不是赠送的行为。",
+          "en": "There's this saying: What's important is the person who gave you the present, and not the act of gifting itself."
+        },
+        "contentId": "34",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "36",
+        "optionType": "0",
+        "preContentId": "33",
+        "speaker": "endmin"
+      },
+      "35": {
+        "content": {
+          "cn": "即使某天会分离，礼物承载的心意也不是假的，不会只剩难过的回忆。",
+          "en": "Although people might go their separate ways, the intent carried by the gift is real. It won't fade away and leave only sadness behind."
+        },
+        "contentId": "35",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "36",
+        "optionType": "0",
+        "preContentId": "33",
+        "speaker": "endmin"
+      },
+      "36": {
+        "content": {
+          "cn": "每次我觉得足够了解你时，你都会给我带来全新的感受。",
+          "en": "Hmm. Every time I feel I learned enough about you, you'd surprise me with something entirely new."
+        },
+        "contentId": "36",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "37",
+        "optionType": "0",
+        "preContentId": "35",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "37": {
+        "content": {
+          "cn": "“紫闪”“苍白花冠”，或者最新款的“协议核心”……既然是礼物，我自己挑选图案吧。",
+          "en": "Purple Flash, Pale Laurel, or perhaps the latest Protocol Automation-Core... But since this is a present, I will pick the picture for the puzzle."
+        },
+        "contentId": "37",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "38",
+        "optionType": "0",
+        "preContentId": "36",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "38": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "38",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_6_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "37",
+        "speaker": "endmin"
+      },
+      "39": {
+        "content": {
+          "cn": "我会期待你的礼物的！",
+          "en": "I shall look forward to the present!"
+        },
+        "contentId": "39",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "40",
+        "optionType": "0",
+        "preContentId": "38",
+        "speaker": "endmin"
+      },
+      "4": {
+        "content": {
+          "cn": "不，我回塞什卡交接事务。有什么想要的吗？",
+          "en": "No. I'm heading to Seš'qa to transfer a few tasks. Need me bring you something?"
+        },
+        "contentId": "4",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "5",
+        "optionType": "0",
+        "preContentId": "3",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "40": {
+        "content": {
+          "cn": "今天内，我会返回帝江号。",
+          "en": "And I shall be back aboard Dijiang before this day ends."
+        },
+        "contentId": "40",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "41",
+        "optionType": "0",
+        "preContentId": "39",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "41": {
+        "content": {
+          "cn": "[卡缪]已离线",
+          "en": "[Camille] is OFFLINE"
+        },
+        "contentId": "41",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "-1",
+        "optionType": "0",
+        "preContentId": "40",
+        "speaker": ""
+      },
+      "5": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "5",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13002_2_001",
+          "option_sns_topic_chr_0033_kamiu_13002_2_002",
+          "option_sns_topic_chr_0033_kamiu_13002_2_003"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "4",
+        "speaker": "endmin"
+      },
+      "6": {
+        "content": {
+          "cn": "给我带个有萨卡兹风格的面具？有绷带跟枯枝那种。",
+          "en": "Can I get a Sarkazian mask? The one with special wrappings and withered branches?"
+        },
+        "contentId": "6",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "7",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "endmin"
+      },
+      "7": {
+        "content": {
+          "cn": "……想象不出你戴上的样子，但听你的。",
+          "en": "I can't imagine how you'd look in that, but sure."
+        },
+        "contentId": "7",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "6",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "8": {
+        "content": {
+          "cn": "等一下，我只是在开玩笑……",
+          "en": "Wait. I was just kidding..."
+        },
+        "contentId": "8",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "9",
+        "optionType": "0",
+        "preContentId": "7",
+        "speaker": "endmin"
+      },
+      "9": {
+        "content": {
+          "cn": "好吧，我正要问旁边的同僚，他的面具是哪位工匠打造的……",
+          "en": "Oh. Great. I was about to ask a fellow Keeper about the artisan who crafted his mask..."
+        },
+        "contentId": "9",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "19",
+        "optionType": "0",
+        "preContentId": "8",
+        "speaker": "sns_chr_0033_camille"
+      }
+    },
+    "dialogId": "sns_topic_chr_0033_kamiu_13002",
+    "dialogType": "1",
+    "noticeType": "1",
+    "relatedMissionId": "",
+    "skipToFirstOption": false,
+    "topicId": "topic_chr_0033_kamiu_13402"
+  },
+  "sns_topic_chr_0033_kamiu_13003": {
+    "chatId": "sns_chr_0033_camille",
+    "dialogContentData": {
+      "-1": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "40",
+        "speaker": ""
+      },
+      "-2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "-2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": true,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "0",
+        "preContentId": "40",
+        "speaker": ""
+      },
+      "1": {
+        "content": {
+          "cn": "[卡缪]输入中",
+          "en": "[Camille] is typing..."
+        },
+        "contentId": "1",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "2",
+        "optionType": "0",
+        "preContentId": "0",
+        "speaker": ""
+      },
+      "10": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "10",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_3_001",
+          "option_sns_topic_chr_0033_kamiu_13003_3_002",
+          "option_sns_topic_chr_0033_kamiu_13003_3_003"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "9",
+        "speaker": "endmin"
+      },
+      "11": {
+        "content": {
+          "cn": "难道是床睡着不舒服？要不要换成悬棺？",
+          "en": "Hmm. Maybe the bed isn't comfy enough for you. Want to swap it for a hanging coffin?"
+        },
+        "contentId": "11",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "12",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "endmin"
+      },
+      "12": {
+        "content": {
+          "cn": "有些血魔会这么做，但我从来没睡过悬棺。不过，帝江号的床确实更软一些。",
+          "en": "Some Vampires do sleep in those, but I have not tried it before. However, the bunks of Dijiang do lean towards the softer side."
+        },
+        "contentId": "12",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "17",
+        "optionType": "0",
+        "preContentId": "11",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "13": {
+        "content": {
+          "cn": "我记得你的听觉很灵敏，是机械运行的声音吵到你了？",
+          "en": "You got a very keen sense of hearing. The sound of operating machinery might be too noisy for you."
+        },
+        "contentId": "13",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "14",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "endmin"
+      },
+      "14": {
+        "content": {
+          "cn": "不，塞什卡飞行时，远比帝江号更嘈杂。",
+          "en": "No. Seš'qa is even louder when it cruises in the skies. It is far noisier than Dijiang."
+        },
+        "contentId": "14",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "17",
+        "optionType": "0",
+        "preContentId": "13",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "15": {
+        "content": {
+          "cn": "难道是其他干员太吵了？我记得有些人睡得很晚。",
+          "en": "Perhaps some operators are too noisy. I know a few of them who stay up really late."
+        },
+        "contentId": "15",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "16",
+        "optionType": "0",
+        "preContentId": "10",
+        "speaker": "endmin"
+      },
+      "16": {
+        "content": {
+          "cn": "没有，我想我是最晚的那一批了。",
+          "en": "No. I believe I am the one who stays up the longest."
+        },
+        "contentId": "16",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "17",
+        "optionType": "0",
+        "preContentId": "15",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "17": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "17",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_4_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "16",
+        "speaker": "endmin"
+      },
+      "18": {
+        "content": {
+          "cn": "等等，我才反应过来，从做噩梦到不做梦，你的睡眠质量是提高了啊。",
+          "en": "Wait. I just realized it. You used to have recurring nightmares. Not dreaming anymore means your sleep quality has improved."
+        },
+        "contentId": "18",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "19",
+        "optionType": "0",
+        "preContentId": "17",
+        "speaker": "endmin"
+      },
+      "19": {
+        "content": {
+          "cn": "有时我也会做奇怪的梦。但在帝江号上，我的睡眠质量会比其他地方更好。",
+          "en": "I get weird dreams every now and then, but sleeping on Dijiang does feel a lot better."
+        },
+        "contentId": "19",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "20",
+        "optionType": "0",
+        "preContentId": "18",
+        "speaker": "endmin"
+      },
+      "2": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "2",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_1_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "1",
+        "speaker": "endmin"
+      },
+      "20": {
+        "content": {
+          "cn": "因为这里是我的“家”，身处其中总是会更安心。帝江号给了你类似的感受吗？",
+          "en": "I guess it's because Dijiang is my \"home\" and makes me feel safer. Perhaps you're feeling the same thing on the ship."
+        },
+        "contentId": "20",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "21",
+        "optionType": "0",
+        "preContentId": "19",
+        "speaker": "endmin"
+      },
+      "21": {
+        "content": {
+          "cn": "成为看护人后，我总是在执行任务的路上，很少在某处停留超过一周。",
+          "en": "After I became an Agaš'mekanaz, I was constantly traveling to new mission sites. I hardly stayed in one place for more than a week."
+        },
+        "contentId": "21",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "22",
+        "optionType": "0",
+        "preContentId": "20",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "22": {
+        "content": {
+          "cn": "帝江号对我来说只是许多安全屋中的一处，我从没想过它也会对我产生意义。",
+          "en": "I treated Dijiang as one of my many safe houses. I never expected the place to become anything else."
+        },
+        "contentId": "22",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "23",
+        "optionType": "0",
+        "preContentId": "21",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "23": {
+        "content": {
+          "cn": "最开始我只是想回应你的信赖，抱着这种想法来到了终末地。",
+          "en": "At first, I came to Endfield because I wanted to repay your trust."
+        },
+        "contentId": "23",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "24",
+        "optionType": "0",
+        "preContentId": "22",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "24": {
+        "content": {
+          "cn": "但现在，我却有种难以离开……与想要回来的感受。",
+          "en": "But now, I hesitate whenever I leave ... and I feel a constant urge to return."
+        },
+        "contentId": "24",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "25",
+        "optionType": "0",
+        "preContentId": "23",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "25": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "25",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_5_001",
+          "option_sns_topic_chr_0033_kamiu_13003_5_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "24",
+        "speaker": "endmin"
+      },
+      "26": {
+        "content": {
+          "cn": "我想是因为帝江号上的大家，他们都是很好的人。",
+          "en": "I believe it's the Endfield community. They're good people and good people grow on you."
+        },
+        "contentId": "26",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "28",
+        "optionType": "0",
+        "preContentId": "25",
+        "speaker": "endmin"
+      },
+      "27": {
+        "content": {
+          "cn": "我想是因为你打开了心扉，主动融入了这里，而大家也给予了你回应。",
+          "en": "I think it's you. You learned how to open up and join the community, and the community responded in kind."
+        },
+        "contentId": "27",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "28",
+        "optionType": "0",
+        "preContentId": "25",
+        "speaker": "endmin"
+      },
+      "28": {
+        "content": {
+          "cn": "重要的不是地点，而是身边的人？",
+          "en": "So it's not the location, but the people who matter?"
+        },
+        "contentId": "28",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "29",
+        "optionType": "0",
+        "preContentId": "27",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "29": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "29",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_6_001"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "28",
+        "speaker": "endmin"
+      },
+      "3": {
+        "content": {
+          "cn": "感觉我有一段时间没有收到你的请假申请了。",
+          "en": "Got a feeling you haven't submitted leave applications for quite a while."
+        },
+        "contentId": "3",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "4",
+        "optionType": "0",
+        "preContentId": "2",
+        "speaker": "endmin"
+      },
+      "30": {
+        "content": {
+          "cn": "我很开心这里能成为你的另一个“歇脚地”，一个能回来的家。",
+          "en": "I'm glad that we have become another \"stop\" for you, a home that you can return."
+        },
+        "contentId": "30",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "31",
+        "optionType": "0",
+        "preContentId": "29",
+        "speaker": "endmin"
+      },
+      "31": {
+        "content": {
+          "cn": "……",
+          "en": "......"
+        },
+        "contentId": "31",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "32",
+        "optionType": "0",
+        "preContentId": "30",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "32": {
+        "content": {
+          "cn": "我卖掉塞什卡的房子时，曾以为自己不再需要一个能回去的地方。",
+          "en": "When I sold the house at Seš'qa, I believed that I no longer required a place to head back to."
+        },
+        "contentId": "32",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "33",
+        "optionType": "0",
+        "preContentId": "31",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "33": {
+        "content": {
+          "cn": "但你让我明白，承认自己觉得孤独，想跟其他人待在一起……没想象中那么难。",
+          "en": "You taught me otherwise. I learned to admit the existence of my loneliness and my preference for good company... It proved easier than I thought."
+        },
+        "contentId": "33",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "34",
+        "optionType": "0",
+        "preContentId": "32",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "34": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "34",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_7_001",
+          "option_sns_topic_chr_0033_kamiu_13003_7_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "33",
+        "speaker": "endmin"
+      },
+      "35": {
+        "content": {
+          "cn": "那你下次再离开帝江号，不要一声不吭。然后，早点回来。",
+          "en": "When you got a mission to run, toast me on Baker. Don't just run off without a sound. And try to get back quickly."
+        },
+        "contentId": "35",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "37",
+        "optionType": "0",
+        "preContentId": "34",
+        "speaker": "endmin"
+      },
+      "36": {
+        "content": {
+          "cn": "终末地会一直欢迎你回来的。",
+          "en": "Endfield is always here for you."
+        },
+        "contentId": "36",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "37",
+        "optionType": "0",
+        "preContentId": "34",
+        "speaker": "endmin"
+      },
+      "37": {
+        "content": {
+          "cn": "[卡缪]已离线",
+          "en": "[Camille] is OFFLINE"
+        },
+        "contentId": "37",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "38",
+        "optionType": "0",
+        "preContentId": "36",
+        "speaker": ""
+      },
+      "38": {
+        "content": {
+          "cn": "[卡缪]已上线",
+          "en": "[Camille] is ONLINE"
+        },
+        "contentId": "38",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "7",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "39",
+        "optionType": "0",
+        "preContentId": "37",
+        "speaker": ""
+      },
+      "39": {
+        "content": {
+          "cn": "嗯，我会回来的。",
+          "en": "Of course. I will be back."
+        },
+        "contentId": "39",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "40",
+        "optionType": "0",
+        "preContentId": "38",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "4": {
+        "content": {
+          "cn": "请假？不，我在给你发消息。",
+          "en": "Leave? No. I'm actually trying to type something."
+        },
+        "contentId": "4",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "5",
+        "optionType": "0",
+        "preContentId": "3",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "40": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "40",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_8_001",
+          "option_sns_topic_chr_0033_kamiu_13003_8_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "4",
+        "preContentId": "39",
+        "speaker": "endmin"
+      },
+      "5": {
+        "content": {
+          "cn": "",
+          "en": ""
+        },
+        "contentId": "5",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [
+          "option_sns_topic_chr_0033_kamiu_13003_2_001",
+          "option_sns_topic_chr_0033_kamiu_13003_2_002"
+        ],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "0",
+        "optionType": "1",
+        "preContentId": "4",
+        "speaker": "endmin"
+      },
+      "6": {
+        "content": {
+          "cn": "我都没注意到是输入中，还以为你又离线了。",
+          "en": "I didn't notice you're typing a toast. I thought you went offline again."
+        },
+        "contentId": "6",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "endmin"
+      },
+      "7": {
+        "content": {
+          "cn": "很少见你主动给我发消息，有事想说？",
+          "en": "You're toasting me? You hardly do that. You want to tell me something?"
+        },
+        "contentId": "7",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "8",
+        "optionType": "0",
+        "preContentId": "5",
+        "speaker": "endmin"
+      },
+      "8": {
+        "content": {
+          "cn": "有件事让我很困惑，想跟你聊聊。",
+          "en": "I am confused about something. I want to discuss it with you."
+        },
+        "contentId": "8",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "9",
+        "optionType": "0",
+        "preContentId": "7",
+        "speaker": "sns_chr_0033_camille"
+      },
+      "9": {
+        "content": {
+          "cn": "最近……我一直没有做梦。之前一阖上眼帘，我就会梦到自己被困在年幼时的家里，找不到出口。",
+          "en": "I ... I have not been dreaming recently. In the past, whenever I close my eyes, I would dream about being trapped in my childhood home with no exit in sight."
+        },
+        "contentId": "9",
+        "contentParam": [],
+        "contentParams": "",
+        "contentType": "1",
+        "dialogOptionIds": [],
+        "isEnd": false,
+        "linkMissionId": "",
+        "linkRewardId": "",
+        "nextContentId": "10",
+        "optionType": "0",
+        "preContentId": "8",
+        "speaker": "sns_chr_0033_camille"
+      }
+    },
+    "dialogId": "sns_topic_chr_0033_kamiu_13003",
+    "dialogType": "1",
+    "noticeType": "1",
+    "relatedMissionId": "",
+    "skipToFirstOption": false,
+    "topicId": "topic_chr_0033_kamiu_13403"
   },
   "sns_topic_map01_lv001_1": {
     "chatId": "sns_npc_andrew",

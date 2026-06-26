@@ -93,6 +93,100 @@
     "timeId": "time_CharacterGuide_aglina",
     "type": "10"
   },
+  "CharacterGuide_camille": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "CharacterGuide_camille_unlock1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第一章 - 进程IV - 四方会议",
+          "en": "Complete the main mission [Chapter Ⅰ Process Ⅳ: Conference of the Four]"
+        },
+        "jumpId": "jump_mission_CharacterGuide",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e4m1d5"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "塞什卡发来信息，请求你协助看护人卡缪破获一起血液样本失踪的案件。萨卡兹们可不会随便劳烦你，或许，案件下掩藏着更深的秘密？",
+      "en": "Seš'qa has sent a message requesting your support for Camille the Agaš'mekanaz, who is trying to solve a case involving a missing blood sample. The Sarkaz do not call for favors lightly. Perhaps untold secrets lay deeper within this case."
+    },
+    "detailJumpId": "jump_mission_activity_CharacterGuide_camille",
+    "id": "CharacterGuide_camille",
+    "immediateClose": true,
+    "instructionId": "CharacterGuide_camille",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "亡者之舞",
+      "en": "Danse Macabre"
+    },
+    "panelId": "ActivityCharacterGuideLine",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_CharacterGuide_camille",
+    "sortId": "3007",
+    "tabImg": "bg_activity_tab_char_guide_camille",
+    "tabImgColor": "#cc0e1b",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_story"
+    ],
+    "themeColor": "",
+    "timeId": "time_CharacterGuide_camille",
+    "type": "10"
+  },
   "CharacterGuide_laevat": {
     "bgImg": "",
     "bgm": "",
@@ -824,6 +918,41 @@
     "timeId": "time_special_1_3_1",
     "type": "9"
   },
+  "activity_char_trial_v1d3_2": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_char_trial_v1d3_2",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_activity_char_trial_overview",
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_camille",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_3_2",
+    "type": "9"
+  },
   "activity_checkin_1": {
     "bgImg": "",
     "bgm": "",
@@ -927,6 +1056,41 @@
     ],
     "themeColor": "",
     "timeId": "time_joint_1_2_2",
+    "type": "2"
+  },
+  "activity_checkin_camille": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取夜趋逐罪寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Peacekeeper's Nocturne HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_camille",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_camille",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "夜趋逐罪签到",
+      "en": "Peacekeeper's Nocturne Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "3",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "8310",
+    "tabImg": "bg_activity_tab_char_sign_camille",
+    "tabImgColor": "#b91f1f",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_3_2",
     "type": "2"
   },
   "activity_checkin_laevat": {
