@@ -2,160 +2,6 @@
   "1": {
     "typeList": [
       {
-        "activeIcon": "icon_map_storager_box",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "拥有数个格子的储物设备，在通电状态下可将其中物品转移至仓库，也可作为物品输出端直接用于工厂内部。",
-          "en": "A storage facility with several item storage slots. When powered, it can transfer items to the Depot. It can also be used as a point to unload items in the Factory."
-        },
-        "inActiveIcon": "icon_map_storager_box",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_storebox",
-        "markInfoType": "0",
-        "markType": "1",
-        "name": {
-          "cn": "协议储存箱",
-          "en": "Protocol Stash"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_storager_box",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "存储液体的设备。",
-          "en": "A facility for storing fluids."
-        },
-        "inActiveIcon": "icon_map_storager_box",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_liquid_storebox",
-        "markInfoType": "0",
-        "markType": "1",
-        "name": {
-          "cn": "储液罐",
-          "en": "Fluid Tank"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_pole",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "通电后可给较大范围内的终末地设备无线供电。完成后续工业计划研发后可进行30m内短距离电力运输。",
-          "en": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area. Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability."
-        },
-        "inActiveIcon": "icon_map_pole",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_powerpole",
-        "markInfoType": "3",
-        "markType": "1",
-        "name": {
-          "cn": "供电桩",
-          "en": "Electric Pylon"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "1"
-      },
-      {
-        "activeIcon": "icon_map_big_pole",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "可以在80m范围内完成电力配给的中继设备，只能进行电力传输。完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
-          "en": "This relay can be used to transmit power to other facilities within an 80-meter radius. Researching certain AIC Factory Plan technologies also lets this facility wirelessly supply power to other Endfield facilities within a small area."
-        },
-        "inActiveIcon": "icon_map_big_pole",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_powerpole_2",
-        "markInfoType": "3",
-        "markType": "1",
-        "name": {
-          "cn": "中继器",
-          "en": "Relay Tower"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "1"
-      },
-      {
-        "activeIcon": "icon_map_pole_wuling",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行范围供电与短距离电力传输。",
-          "en": "The Xiranite Pylon can auto-connect to the Protocol Automation-Core (PAC) and Xiranite Relays within 80 meters; and to Xiranite Pylons and other power facilities within 30 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This pylon can be used to supply power to facilities within range and transmit power across short distances."
-        },
-        "inActiveIcon": "icon_map_pole_wuling",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_powerdiffuser_2",
-        "markInfoType": "3",
-        "markType": "1",
-        "name": {
-          "cn": "息壤供电桩",
-          "en": "Xiranite Pylon"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "1"
-      },
-      {
-        "activeIcon": "icon_map_big_pole_wuling",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "可自动连接协议核心与全部息壤电力设备（80m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行电力传输与小范围供电。",
-          "en": "The Xiranite Relay can auto-connect to the Protocol Automation-Core (PAC) and any type of Xiranite power facilities within 80 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This relay can be used for power transmission and can supply power to nearby facilities."
-        },
-        "inActiveIcon": "icon_map_big_pole_wuling",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_powerpole_3",
-        "markInfoType": "3",
-        "markType": "1",
-        "name": {
-          "cn": "息壤中继器",
-          "en": "Xiranite Relay"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "1"
-      },
-      {
-        "activeIcon": "icon_map_miner",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "",
-          "en": ""
-        },
-        "inActiveIcon": "icon_map_miner",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_minemachine",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "矿机",
-          "en": "Mining Rig"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
         "activeIcon": "icon_map_terminal",
         "defaultVisible": true,
         "desc": {
@@ -164,6 +10,7 @@
         },
         "inActiveIcon": "icon_map_terminal",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_powerterminal",
         "markInfoType": "3",
@@ -172,6 +19,7 @@
           "cn": "供电终端",
           "en": "Electric Nexus"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -186,6 +34,7 @@
         },
         "inActiveIcon": "icon_map_terminal",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_powerport",
         "markInfoType": "3",
@@ -194,450 +43,11 @@
           "cn": "供电终端",
           "en": "Electric Nexus"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
         "visibleLayer": "1"
-      },
-      {
-        "activeIcon": "icon_map_water_pump",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于抽取液体的设备。",
-          "en": "A facility for pumping bulk fluids."
-        },
-        "inActiveIcon": "icon_map_water_pump",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_pump",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "水泵",
-          "en": "Fluid Pump"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_water_pump",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于抽取液体的设备，可以进行腐蚀性液体的抽取。",
-          "en": "A facility for pumping fluids. It is also capable of pumping corrosive liquids."
-        },
-        "inActiveIcon": "icon_map_water_pump",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_pump_2",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "二型耐酸水泵",
-          "en": "Acid Resistant Pump Mk II"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_water_supply",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于供给液体的设备。",
-          "en": "A facility for dispensing fluids."
-        },
-        "inActiveIcon": "icon_map_water_supply",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_dumper",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "给水器",
-          "en": "Fluid Supply Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
-          "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_power_station_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "热能池",
-          "en": "Thermal Bank"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "使用高温熔炼其他材料的设备。",
-          "en": "A facility that performs high temperature smelting of various materials."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_furnance_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "精炼炉",
-          "en": "Refining Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能粉碎各种材料的重型设备。",
-          "en": "A heavy facility that shreds and pulverizes various materials."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_grinder_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "粉碎机",
-          "en": "Shredding Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够将不同材料嵌合加工成装备原件的设备。",
-          "en": "A facility that laminates different materials together to create gear components."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_winder_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "装备原件机",
-          "en": "Gearing Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够加工各式零件的平台。",
-          "en": "A facility capable of processing various parts."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_component_mc_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "配件机",
-          "en": "Fitting Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够冲压各种容器的设备。",
-          "en": "A facility that produces various containers via stamp moulding."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_shaper_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "塑形机",
-          "en": "Moulding Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够将原料灌装到容器的设备。",
-          "en": "A facility capable of filling containers with various materials."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_filling_powder_mc_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "灌装机",
-          "en": "Filling Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "可以对粉末材料进行细致研磨处理的设备。",
-          "en": "A facility that performs fine grinding of powdered materials."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_thickener_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "研磨机",
-          "en": "Grinding Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于封装部分能量元件的设备。",
-          "en": "A facility for packaging certain power components."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "封装机",
-          "en": "Packaging Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够采集普通植物种子的设备。",
-          "en": "A facility that extracts seeds from common crops."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_seedcollector_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "采种机",
-          "en": "Seed-Picking Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "能够培育各类普通植物的仓形设备。",
-          "en": "A cultivating silo for growing various common plants and crops."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_planter_1",
-        "markInfoType": "26",
-        "markType": "1",
-        "name": {
-          "cn": "种植机",
-          "en": "Planting Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "进行固液体化学反应的设备。",
-          "en": "A facility for running solid or liquid-state chemical reactions."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_mix_pool_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "反应池",
-          "en": "Reactor Crucible"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "向固定位置喷洒液体的设备。",
-          "en": "A facility that sprays fluids in a fixed direction."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_squirter_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "洒水机",
-          "en": "Sprinkler"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
-          "en": "A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_liquid_cleaner_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "废水处理机",
-          "en": "Water Treatment Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于息壤相关产物合成的设备。",
-          "en": "A facility for making Xiranite-based products."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_xiranite_oven_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "天有洪炉",
-          "en": "Forge of the Sky"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于将溶液提纯至更高纯度溶液的设备。",
-          "en": "A facility for raising the purity of various solutions."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_liquid_purifier_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "提纯机",
-          "en": "Purification Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_general_architecture",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "用于进行物理分拆的设备。",
-          "en": "A facility that physically separates various items."
-        },
-        "inActiveIcon": "icon_map_general_architecture",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_formula_dismantler_1",
-        "markInfoType": "27",
-        "markType": "1",
-        "name": {
-          "cn": "拆解机",
-          "en": "Separating Unit"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
       },
       {
         "activeIcon": "icon_map_fields",
@@ -648,6 +58,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_1",
         "markInfoType": "26",
@@ -656,6 +67,7 @@
           "cn": "",
           "en": ""
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -670,6 +82,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_2",
         "markInfoType": "26",
@@ -678,6 +91,7 @@
           "cn": "",
           "en": ""
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -692,6 +106,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_moss_1",
         "markInfoType": "26",
@@ -700,6 +115,7 @@
           "cn": "荞花田块",
           "en": "Buckflower Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -714,6 +130,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_moss_2",
         "markInfoType": "26",
@@ -722,6 +139,7 @@
           "cn": "柑实田块",
           "en": "Citrome Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -736,6 +154,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_moss_3",
         "markInfoType": "26",
@@ -744,6 +163,7 @@
           "cn": "砂叶田块",
           "en": "Sandleaf Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -758,6 +178,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_bbflower_1",
         "markInfoType": "26",
@@ -766,6 +187,7 @@
           "cn": "酮化灌木田块",
           "en": "Aketine Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -780,6 +202,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_grass_1",
         "markInfoType": "26",
@@ -788,6 +211,7 @@
           "cn": "锦草田块",
           "en": "Jincao Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -802,6 +226,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_grass_2",
         "markInfoType": "26",
@@ -810,6 +235,7 @@
           "cn": "芽针田块",
           "en": "Yazhen Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -824,6 +250,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_1",
         "markInfoType": "26",
@@ -832,6 +259,7 @@
           "cn": "灰芦麦田块",
           "en": "Reed Rye Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -846,6 +274,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_2",
         "markInfoType": "26",
@@ -854,6 +283,7 @@
           "cn": "苦叶椒田块",
           "en": "Tartpepper Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -868,6 +298,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_3",
         "markInfoType": "26",
@@ -876,6 +307,7 @@
           "cn": "琼叶参田块",
           "en": "Redjade Ginseng Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -890,6 +322,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_4",
         "markInfoType": "26",
@@ -898,6 +331,7 @@
           "cn": "金石稻田块",
           "en": "Amber Rice Plot"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -912,6 +346,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_grass_fast_1",
         "markInfoType": "26",
@@ -920,6 +355,7 @@
           "cn": "模拟锦草田块",
           "en": "Jincao Plot (SIM)"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -934,6 +370,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_grass_fast_2",
         "markInfoType": "26",
@@ -942,6 +379,7 @@
           "cn": "模拟芽针田块",
           "en": "Yazhen Plot (SIM)"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -956,6 +394,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_fast_3",
         "markInfoType": "26",
@@ -964,6 +403,7 @@
           "cn": "模拟琼叶参田块",
           "en": "Redjade Ginseng Plot (SIM)"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -978,6 +418,7 @@
         },
         "inActiveIcon": "icon_map_fields",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_soil_sp_fast_4",
         "markInfoType": "26",
@@ -986,138 +427,7 @@
           "cn": "模拟金石稻田块",
           "en": "Amber Rice Plot (SIM)"
         },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_air_dancer_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "充气教授",
-          "en": "Tube Professor"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_chubby_lung_stone_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "龙泡泡石墩",
-          "en": "Chubby Lung Bollard"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_chubby_lung_balloon_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "龙泡泡气球",
-          "en": "Chubby Lung Balloon"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_pear_blossom_bonsai_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "山樆小景",
-          "en": "Miniature Tree on a Hill"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_jail_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "虎·牢·关",
-          "en": "Tiger Cage"
-        },
-        "sortOrder": "1",
-        "visibleDist": "50",
-        "visibleInMist": false,
-        "visibleLayer": "3"
-      },
-      {
-        "activeIcon": "icon_map_decorate",
-        "defaultVisible": true,
-        "desc": {
-          "cn": "装饰物品，无实际功能。",
-          "en": "An ornamental with no practical features."
-        },
-        "inActiveIcon": "icon_map_decorate",
-        "isStatic": false,
-        "isVisibleActive": true,
-        "markInfoId": "mark_bd_decorate_photo_frame_1",
-        "markInfoType": "1210",
-        "markType": "1",
-        "name": {
-          "cn": "猩红记忆",
-          "en": "Sanguine Memories"
-        },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1136,6 +446,7 @@
         },
         "inActiveIcon": "icon_map_mission_main_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_main_high",
         "markInfoType": "36",
@@ -1144,6 +455,7 @@
           "cn": "主线任务",
           "en": "Main Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "4",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1158,6 +470,7 @@
         },
         "inActiveIcon": "icon_map_mission_main_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_main_mid",
         "markInfoType": "36",
@@ -1166,6 +479,7 @@
           "cn": "主线任务",
           "en": "Main Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "4",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1180,6 +494,7 @@
         },
         "inActiveIcon": "icon_map_mission_main_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_main_low",
         "markInfoType": "36",
@@ -1188,6 +503,7 @@
           "cn": "主线任务",
           "en": "Main Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "4",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1202,6 +518,7 @@
         },
         "inActiveIcon": "icon_map_mission_side_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_side_high",
         "markInfoType": "36",
@@ -1210,6 +527,7 @@
           "cn": "支线任务",
           "en": "Side Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1224,6 +542,7 @@
         },
         "inActiveIcon": "icon_map_mission_side_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_side_mid",
         "markInfoType": "36",
@@ -1232,6 +551,7 @@
           "cn": "支线任务",
           "en": "Side Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1246,6 +566,7 @@
         },
         "inActiveIcon": "icon_map_mission_side_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_side_low",
         "markInfoType": "36",
@@ -1254,6 +575,7 @@
           "cn": "支线任务",
           "en": "Side Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1268,6 +590,7 @@
         },
         "inActiveIcon": "icon_map_mission_activity_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_activity_high",
         "markInfoType": "36",
@@ -1276,6 +599,7 @@
           "cn": "活动任务",
           "en": "Event Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1290,6 +614,7 @@
         },
         "inActiveIcon": "icon_map_mission_activity_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_activity_mid",
         "markInfoType": "36",
@@ -1298,6 +623,7 @@
           "cn": "活动任务",
           "en": "Event Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1312,6 +638,7 @@
         },
         "inActiveIcon": "icon_map_mission_activity_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_activity_low",
         "markInfoType": "36",
@@ -1320,6 +647,7 @@
           "cn": "活动任务",
           "en": "Event Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1334,6 +662,7 @@
         },
         "inActiveIcon": "icon_map_mission_discovery_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_discovery_high",
         "markInfoType": "36",
@@ -1342,6 +671,7 @@
           "cn": "探索任务",
           "en": "Exploration Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1356,6 +686,7 @@
         },
         "inActiveIcon": "icon_map_mission_discovery_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_discovery_mid",
         "markInfoType": "36",
@@ -1364,6 +695,7 @@
           "cn": "探索任务",
           "en": "Exploration Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1378,6 +710,7 @@
         },
         "inActiveIcon": "icon_map_mission_discovery_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_discovery_low",
         "markInfoType": "36",
@@ -1386,6 +719,7 @@
           "cn": "探索任务",
           "en": "Exploration Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1400,6 +734,7 @@
         },
         "inActiveIcon": "icon_map_mission_other_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_other_high",
         "markInfoType": "36",
@@ -1408,6 +743,7 @@
           "cn": "委派任务",
           "en": "Commission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1422,6 +758,7 @@
         },
         "inActiveIcon": "icon_map_mission_other_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_other_mid",
         "markInfoType": "36",
@@ -1430,6 +767,7 @@
           "cn": "委派任务",
           "en": "Commission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1444,6 +782,7 @@
         },
         "inActiveIcon": "icon_map_mission_other_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_other_low",
         "markInfoType": "36",
@@ -1452,6 +791,7 @@
           "cn": "委派任务",
           "en": "Commission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "3",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1470,6 +810,7 @@
         },
         "inActiveIcon": "icon_map_ship_teleport",
         "isStatic": true,
+        "isTpRelatedMark": true,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_reception_teleport",
         "markInfoType": "37",
@@ -1478,6 +819,7 @@
           "cn": "传送台",
           "en": "TP Platform"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1496,6 +838,7 @@
         },
         "inActiveIcon": "icon_map_region_shop_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_reception_dispatch",
         "markInfoType": "37",
@@ -1504,6 +847,7 @@
           "cn": "物资调度终端",
           "en": "Stock Redistribution Terminal"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1522,6 +866,7 @@
         },
         "inActiveIcon": "icon_map_ship_terminal",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_reception_visitor",
         "markInfoType": "37",
@@ -1530,6 +875,7 @@
           "cn": "访客终端",
           "en": "Guest Terminal"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1548,6 +894,7 @@
         },
         "inActiveIcon": "icon_map_ship_contact",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_contact_center",
         "markInfoType": "37",
@@ -1556,6 +903,7 @@
           "cn": "干员联络台",
           "en": "Operator Contact Panel"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1574,6 +922,7 @@
         },
         "inActiveIcon": "icon_map_ship_display",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_display_center",
         "markInfoType": "37",
@@ -1582,6 +931,7 @@
           "cn": "行迹高塔",
           "en": "Tower of Trails"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1600,6 +950,7 @@
         },
         "inActiveIcon": "icon_map_ship_gender",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_gender_change",
         "markInfoType": "37",
@@ -1608,6 +959,7 @@
           "cn": "协议奇点",
           "en": "Protocol Singularity"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1626,6 +978,7 @@
         },
         "inActiveIcon": "icon_map_activity_dungeon_fighting",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_actmonster",
         "markInfoType": "45",
@@ -1634,6 +987,7 @@
           "cn": "生存特训",
           "en": "Survival Training"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1652,6 +1006,7 @@
         },
         "inActiveIcon": "icon_map_room_reception_display",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_guest_room_display_area",
         "markInfoType": "37",
@@ -1660,9 +1015,38 @@
           "cn": "展示区",
           "en": "Display Section"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "109": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_activity_takestwo_fighting",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "前进吧！相信吧！为了英雄们！传说中的战术在向您招手！点燃自己的灵魂，品尝战斗的美妙！",
+          "en": "GO FOR IT! HAVE FAITH IN YOURSELF! DO IT FOR THE HEROES! The legendary tactics are calling out to you! Ignite your burning soul and savor the magnificent arts of TRUE BATTLE!"
+        },
+        "inActiveIcon": "icon_map_activity_takestwo_fighting",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_activity_double_battle",
+        "markInfoType": "45",
+        "markType": "109",
+        "name": {
+          "cn": "炽燃！竞技大会！",
+          "en": "HEAT RAGE! MEGA ARENA!"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "50",
+        "visibleInMist": true,
         "visibleLayer": "1"
       }
     ]
@@ -1678,6 +1062,7 @@
         },
         "inActiveIcon": "icon_map_fixablerobot",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_fixablerobot",
         "markInfoType": "22",
@@ -1686,6 +1071,7 @@
           "cn": "Delta型机器人",
           "en": "Delta Bot"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "30",
         "visibleInMist": false,
@@ -1704,6 +1090,7 @@
         },
         "inActiveIcon": "icon_map_settlement",
         "isStatic": false,
+        "isTpRelatedMark": true,
         "isVisibleActive": true,
         "markInfoId": "mark_sp_settlement",
         "markInfoType": "14",
@@ -1712,6 +1099,7 @@
           "cn": "据点",
           "en": "Outpost"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1730,6 +1118,7 @@
         },
         "inActiveIcon": "icon_map_sewage_treat_plant",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_domain_sewage_treat_plant",
         "markInfoType": "1200",
@@ -1738,6 +1127,7 @@
           "cn": "净水节点",
           "en": "Purification Node"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1756,6 +1146,7 @@
         },
         "inActiveIcon": "icon_map_controlcenter_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_ss_controlcenter",
         "markInfoType": "37",
@@ -1764,6 +1155,7 @@
           "cn": "总控中枢",
           "en": "Control Nexus"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1782,6 +1174,7 @@
         },
         "inActiveIcon": "icon_map_activity_contract_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_contingency_contract_0",
         "markInfoType": "45",
@@ -1790,6 +1183,7 @@
           "cn": "危机合约",
           "en": "Contingency Contract"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1808,6 +1202,7 @@
         },
         "inActiveIcon": "icon_map_room_growcabin",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_room_growcabin",
         "markInfoType": "37",
@@ -1816,6 +1211,7 @@
           "cn": "培养舱",
           "en": "Growth Chamber"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1830,6 +1226,7 @@
         },
         "inActiveIcon": "icon_map_room_manufacturingstation",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_room_manufacturingstation",
         "markInfoType": "37",
@@ -1838,6 +1235,7 @@
           "cn": "制造舱",
           "en": "Manufacturing Cabin"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1852,6 +1250,7 @@
         },
         "inActiveIcon": "icon_map_room_empty",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_room_empty_a",
         "markInfoType": "37",
@@ -1860,6 +1259,7 @@
           "cn": "待建舱室（小型）",
           "en": "Empty Cabin [S]"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1874,6 +1274,7 @@
         },
         "inActiveIcon": "icon_map_room_empty",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_ss_room_empty_b",
         "markInfoType": "37",
@@ -1882,6 +1283,1179 @@
           "cn": "待建舱室（中型）",
           "en": "Empty Cabin [M]"
         },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "1400": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_mine_gas",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能自动开采气体矿物资源的区域。",
+          "en": "Gas resources can be mined here."
+        },
+        "inActiveIcon": "icon_map_mine_gas",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_p_gasmine_point_team",
+        "markInfoType": "17",
+        "markType": "1400",
+        "name": {
+          "cn": "气矿",
+          "en": "Gas Vent"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "1401": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_seasontower",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "希金斯于此等待，他能够让您在想象中的战场上磨砺自己的锋刃。",
+          "en": "Higgins is waiting here. He can hone your weapons and combat techniques in simulated battlefields."
+        },
+        "inActiveIcon": "icon_map_seasontower_unactive",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_season_tower",
+        "markInfoType": "1401",
+        "markType": "1401",
+        "name": {
+          "cn": "战争回响",
+          "en": "Echoes of War"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "1403": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "拥有数个格子的储物设备，在通电状态下可将其中物品转移至仓库，也可作为物品输出端直接用于工厂内部。",
+          "en": "A storage facility with several item storage slots. When powered, it can transfer items to the Depot. It can also be used as a point to unload items in the Factory."
+        },
+        "inActiveIcon": "icon_map_storager_box",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_storebox",
+        "markInfoType": "0",
+        "markType": "1403",
+        "name": {
+          "cn": "协议储存箱",
+          "en": "Protocol Stash"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "存储液体的设备。",
+          "en": "A facility for storing fluids."
+        },
+        "inActiveIcon": "icon_map_storager_box",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_liquid_storebox",
+        "markInfoType": "0",
+        "markType": "1403",
+        "name": {
+          "cn": "储液罐",
+          "en": "Fluid Tank"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通电后可给较大范围内的终末地设备无线供电。完成后续工业计划研发后可进行30m内短距离电力运输。",
+          "en": "Once connected to the power grid, this pylon can wirelessly power all Endfield facilities within a sizable area. Researching certain AIC Factory Plan technologies also gives this facility a 30-meter power transmission capability."
+        },
+        "inActiveIcon": "icon_map_pole",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole",
+        "markInfoType": "3",
+        "markType": "1403",
+        "name": {
+          "cn": "供电桩",
+          "en": "Electric Pylon"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_big_pole",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以在80m范围内完成电力配给的中继设备，只能进行电力传输。完成后续工业计划研发后可给小范围内的终末地设备无线供电。",
+          "en": "This relay can be used to transmit power to other facilities within an 80-meter radius. Researching certain AIC Factory Plan technologies also lets this facility wirelessly supply power to other Endfield facilities within a small area."
+        },
+        "inActiveIcon": "icon_map_big_pole",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole_2",
+        "markInfoType": "3",
+        "markType": "1403",
+        "name": {
+          "cn": "中继器",
+          "en": "Relay Tower"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_pole_wuling",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可自动连接协议核心与息壤中继器（80m内）、息壤供电桩以及其他电力设备（30m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行范围供电与短距离电力传输。",
+          "en": "The Xiranite Pylon can auto-connect to the Protocol Automation-Core (PAC) and Xiranite Relays within 80 meters; and to Xiranite Pylons and other power facilities within 30 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This pylon can be used to supply power to facilities within range and transmit power across short distances."
+        },
+        "inActiveIcon": "icon_map_pole_wuling",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerdiffuser_2",
+        "markInfoType": "3",
+        "markType": "1403",
+        "name": {
+          "cn": "息壤供电桩",
+          "en": "Xiranite Pylon"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_big_pole_wuling",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可自动连接协议核心与全部息壤电力设备（80m内）。在集成核心区域内可无视距离限制自动连接协议核心。可进行电力传输与小范围供电。",
+          "en": "The Xiranite Relay can auto-connect to the Protocol Automation-Core (PAC) and any type of Xiranite power facilities within 80 meters. When placed inside the Core AIC Area, it can auto-connect to the PAC regardless of distance. This relay can be used for power transmission and can supply power to nearby facilities."
+        },
+        "inActiveIcon": "icon_map_big_pole_wuling",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_powerpole_3",
+        "markInfoType": "3",
+        "markType": "1403",
+        "name": {
+          "cn": "息壤中继器",
+          "en": "Xiranite Relay"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_miner",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_miner",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_minemachine",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "矿机",
+          "en": "Mining Rig"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_water_pump",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于抽取液体的设备。",
+          "en": "A facility for pumping bulk fluids."
+        },
+        "inActiveIcon": "icon_map_water_pump",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_pump",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "水泵",
+          "en": "Fluid Pump"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_water_pump",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于抽取液体的设备，可以进行腐蚀性液体的抽取。",
+          "en": "A facility for pumping fluids. It is also capable of pumping corrosive liquids."
+        },
+        "inActiveIcon": "icon_map_water_pump",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_pump_2",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "二型耐酸水泵",
+          "en": "Acid Resistant Pump Mk II"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_water_supply",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于供给液体的设备。",
+          "en": "A facility for dispensing fluids."
+        },
+        "inActiveIcon": "icon_map_water_supply",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_dumper",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "给水器",
+          "en": "Fluid Supply Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "提供电能的热能转化设备，只有接入电网才能生效。",
+          "en": "The Thermal Bank converts heat into electrical power. It must be connected to the power grid to work."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_power_station_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "热能池",
+          "en": "Thermal Bank"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "使用高温熔炼其他材料的设备。",
+          "en": "A facility that performs high temperature smelting of various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_furnance_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "精炼炉",
+          "en": "Refining Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能粉碎各种材料的重型设备。",
+          "en": "A heavy facility that shreds and pulverizes various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_grinder_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "粉碎机",
+          "en": "Shredding Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够将不同材料嵌合加工成装备原件的设备。",
+          "en": "A facility that laminates different materials together to create gear components."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_winder_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "装备原件机",
+          "en": "Gearing Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够加工各式零件的平台。",
+          "en": "A facility capable of processing various parts."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_component_mc_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "配件机",
+          "en": "Fitting Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够冲压各种容器的设备。",
+          "en": "A facility that produces various containers via stamp moulding."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_shaper_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "塑形机",
+          "en": "Moulding Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够将原料灌装到容器的设备。",
+          "en": "A facility capable of filling containers with various materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_filling_powder_mc_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "灌装机",
+          "en": "Filling Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以对粉末材料进行细致研磨处理的设备。",
+          "en": "A facility that performs fine grinding of powdered materials."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_thickener_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "研磨机",
+          "en": "Grinding Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于封装部分能量元件的设备。",
+          "en": "A facility for packaging certain power components."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_tools_assebling_mc_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "封装机",
+          "en": "Packaging Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够采集普通植物种子的设备。",
+          "en": "A facility that extracts seeds from common crops."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_seedcollector_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "采种机",
+          "en": "Seed-Picking Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够培育各类普通植物的仓形设备。",
+          "en": "A cultivating silo for growing various common plants and crops."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_planter_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "种植机",
+          "en": "Planting Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "进行固液体化学反应的设备。",
+          "en": "A facility for running solid or liquid-state chemical reactions."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_mix_pool_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "反应池",
+          "en": "Reactor Crucible"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "进行固液体化学反应的设备，拥有更多的端口并可同时进行更多的化学反应。",
+          "en": "A facility for running solid or liquid-state chemical reactions. It also comes with additional input and output ports and the ability to run multiple reactions simultaneously."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_mix_pool_2",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "扩容反应池",
+          "en": "Expanded Crucible"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "向固定位置喷洒液体的设备。",
+          "en": "A facility that sprays fluids in a fixed direction."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_squirter_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "洒水机",
+          "en": "Sprinkler"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
+          "en": "A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_liquid_cleaner_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "废水处理机",
+          "en": "Water Treatment Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于息壤相关产物合成的设备。",
+          "en": "A facility for making Xiranite-based products."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_xiranite_oven_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "天有洪炉",
+          "en": "Forge of the Sky"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于将溶液提纯至更高纯度溶液的设备。",
+          "en": "A facility for raising the purity of various solutions."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_liquid_purifier_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "提纯机",
+          "en": "Purification Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "用于进行物理分拆的设备。",
+          "en": "A facility that physically separates various items."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_dismantler_1",
+        "markInfoType": "27",
+        "markType": "1403",
+        "name": {
+          "cn": "拆解机",
+          "en": "Separating Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以将持续通入的气体散布到自身周围，从而改变周围环境状态的设备。",
+          "en": "A facility that can disperse a steady input of gas into the surroundings and change the gaseous environment around itself."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_vaporizer_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "气体散布机",
+          "en": "Gas Dispersing Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通过持续通入液化息壤激活，可以将物品的物质形态在气态和液态之间进行转化的设备。",
+          "en": "When activated by a steady input of Liquid Xiranite, this facility can transmute fluid materials into gas, and vice versa."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_transmuter_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "液气转化机",
+          "en": "Fluid-Gas Transmuting Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通过持续通入息壤气激活，可以将物品的物质形态在气态和固态之间进行转化的设备。",
+          "en": "When activated by a steady input of Xiragen, this facility can transmute solid materials into gas, and vice versa."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_transmuter_2",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "固气转化机",
+          "en": "Solid-Gas Transmuting Unit"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "能够进行气体与气体间反应的设备。",
+          "en": "A facility for performing gas-phase reactions."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_formula_gas_reactor_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "气体反应炉",
+          "en": "Gas Reactor Globe"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "存储气体的设备。",
+          "en": "A facility for storing gases."
+        },
+        "inActiveIcon": "icon_map_storager_box",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_gas_storebox",
+        "markInfoType": "0",
+        "markType": "1403",
+        "name": {
+          "cn": "储气罐",
+          "en": "Gas Tank"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_air_dancer_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "充气教授",
+          "en": "Tube Professor"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_chubby_lung_stone_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "龙泡泡石墩",
+          "en": "Chubby Lung Bollard"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_chubby_lung_balloon_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "龙泡泡气球",
+          "en": "Chubby Lung Balloon"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_pear_blossom_bonsai_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "山樆小景",
+          "en": "Miniature Tree on a Hill"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_jail_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "虎·牢·关",
+          "en": "Tiger Cage"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_photo_frame_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "猩红记忆",
+          "en": "Sanguine Memories"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_signboard_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "震撼美味！",
+          "en": "Shockingly Delish!"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_cat_tree_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "咆兽活动架",
+          "en": "Howlerbeast Playground"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_microphone_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "“缎带之声”麦克风",
+          "en": "\"Ribbon Voice\" Microphone"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_display_stand_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "“偶像的身姿”立牌",
+          "en": "\"Idol Pose\" Ad Stand"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "装饰物品，无实际功能。",
+          "en": "An ornamental with no practical features."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_doll_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "陪伴款“晨星”玩偶",
+          "en": "\"Morning Star\" Companion-Type Figurine"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      }
+    ]
+  },
+  "1405": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_shop_star",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "使用探针探测出的塔晶。",
+          "en": "Talosite is a crystal that can be detected with a suitable probe."
+        },
+        "inActiveIcon": "icon_map_shop_star",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_detector_star",
+        "markInfoType": "1403",
+        "markType": "1405",
+        "name": {
+          "cn": "塔晶",
+          "en": "Talosite"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "5",
+        "visibleDist": "50",
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "1406": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_rift",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "重叠的超域空间与现实空间之间的阻碍破溃后形成的空间通道即为裂隙，其附近为动态侵蚀高发地点，危险程度极高。",
+          "en": "When the barrier between Ætherside overlapping with realspace is ruptured, the spatial portal or opening created thereby is known as a rift. The areas near a rift tend to be extremely dangerous and have high incidence of Active Blight."
+        },
+        "inActiveIcon": "icon_map_rift",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_map_rift",
+        "markInfoType": "1404",
+        "markType": "1406",
+        "name": {
+          "cn": "裂隙",
+          "en": "Rift"
+        },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -1900,6 +2474,7 @@
         },
         "inActiveIcon": "icon_map_settlement",
         "isStatic": false,
+        "isTpRelatedMark": true,
         "isVisibleActive": true,
         "markInfoId": "mark_sp_sub_hub",
         "markInfoType": "14",
@@ -1908,6 +2483,7 @@
           "cn": "次级核心",
           "en": "Sub-PAC"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1922,6 +2498,7 @@
         },
         "inActiveIcon": "icon_map_HUB",
         "isStatic": false,
+        "isTpRelatedMark": true,
         "isVisibleActive": true,
         "markInfoId": "mark_sp_hub",
         "markInfoType": "5",
@@ -1930,6 +2507,7 @@
           "cn": "协议核心",
           "en": "PAC"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1948,6 +2526,7 @@
         },
         "inActiveIcon": "icon_map_pazzle",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_pazzle",
         "markInfoType": "23",
@@ -1956,6 +2535,7 @@
           "cn": "维修灵感点",
           "en": "Repair Logic"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1974,6 +2554,7 @@
         },
         "inActiveIcon": "icon_map_boss",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_dg_bossrush",
         "markInfoType": "16",
@@ -1982,6 +2563,7 @@
           "cn": "危境再现",
           "en": "RE-Crisis"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -1996,6 +2578,7 @@
         },
         "inActiveIcon": "icon_map_mini_boss",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_dg_mini_bossrush",
         "markInfoType": "16",
@@ -2004,6 +2587,7 @@
           "cn": "危境碎片",
           "en": "Crisis Fragment"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2022,6 +2606,7 @@
         },
         "inActiveIcon": "icon_map_dungeon_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_dg_resource",
         "markInfoType": "12",
@@ -2030,6 +2615,7 @@
           "cn": "协议空间",
           "en": "Protocol Space"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2048,6 +2634,7 @@
         },
         "inActiveIcon": "icon_map_pipe_loader",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_underpipe_1",
         "markInfoType": "42",
@@ -2056,10 +2643,11 @@
           "cn": "暗管入口",
           "en": "Conduit Inlet"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
-        "visibleLayer": "3"
+        "visibleLayer": "2"
       },
       {
         "activeIcon": "icon_map_pipe_loader",
@@ -2070,6 +2658,7 @@
         },
         "inActiveIcon": "icon_map_pipe_loader",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_underpipe_pro_1",
         "markInfoType": "42",
@@ -2078,10 +2667,11 @@
           "cn": "多口暗管入口",
           "en": "Conduit Inlet Manifold"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
-        "visibleLayer": "3"
+        "visibleLayer": "2"
       }
     ]
   },
@@ -2096,6 +2686,7 @@
         },
         "inActiveIcon": "icon_map_enemyspawner_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_enemyspawner",
         "markInfoType": "15",
@@ -2104,6 +2695,7 @@
           "cn": "能量淤积点",
           "en": "Energy Alluvium"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2122,6 +2714,7 @@
         },
         "inActiveIcon": "icon_map_pipe_unloader",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_underpipe_2",
         "markInfoType": "42",
@@ -2130,10 +2723,11 @@
           "cn": "暗管出口",
           "en": "Conduit Outlet"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
-        "visibleLayer": "3"
+        "visibleLayer": "2"
       },
       {
         "activeIcon": "icon_map_pipe_unloader",
@@ -2144,6 +2738,7 @@
         },
         "inActiveIcon": "icon_map_pipe_unloader",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_underpipe_pro_2",
         "markInfoType": "42",
@@ -2152,10 +2747,11 @@
           "cn": "多口暗管出口",
           "en": "Conduit Outlet Manifold"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
-        "visibleLayer": "3"
+        "visibleLayer": "2"
       }
     ]
   },
@@ -2170,6 +2766,7 @@
         },
         "inActiveIcon": "icon_map_dungeon_worldlevel",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_dg_worldlevel",
         "markInfoType": "12",
@@ -2178,6 +2775,7 @@
           "cn": "协议空间·探索等级",
           "en": "Protocol Space: Exploration Level"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2196,6 +2794,7 @@
         },
         "inActiveIcon": "icon_map_travel_pole",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_simple_transtower",
         "markInfoType": "2",
@@ -2204,6 +2803,7 @@
           "cn": "像差滑索架",
           "en": "Aberrant Zipline Pylon"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2222,6 +2822,7 @@
         },
         "inActiveIcon": "icon_map_dungeon_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_dg_ss",
         "markInfoType": "12",
@@ -2230,6 +2831,7 @@
           "cn": "协议空间",
           "en": "Protocol Space"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2248,6 +2850,7 @@
         },
         "inActiveIcon": "icon_map_room_reception_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_ss_guest_room_clue",
         "markInfoType": "37",
@@ -2256,10 +2859,39 @@
           "cn": "会客室",
           "en": "Reception Room"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
         "visibleLayer": "1"
+      }
+    ]
+  },
+  "25": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_balloon",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "有些东西在此处等待浮空回收。",
+          "en": "There is something here that can be salvaged."
+        },
+        "inActiveIcon": "icon_map_balloon",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_minigame_balloon",
+        "markInfoType": "50",
+        "markType": "25",
+        "name": {
+          "cn": "待回收物品",
+          "en": "Salvageable"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "30",
+        "visibleInMist": false,
+        "visibleLayer": "2"
       }
     ]
   },
@@ -2274,6 +2906,7 @@
         },
         "inActiveIcon": "icon_map_ship_shop_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_npc_ss_shop",
         "markInfoType": "37",
@@ -2282,6 +2915,7 @@
           "cn": "协议交换",
           "en": "Protocol Exchange"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2300,6 +2934,7 @@
         },
         "inActiveIcon": "icon_map_trainingroom_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_npc_ss_trainingroom",
         "markInfoType": "37",
@@ -2308,6 +2943,7 @@
           "cn": "战术训练",
           "en": "Tactical Training Cabin"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2326,6 +2962,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_1",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_1",
         "markInfoType": "31",
@@ -2334,6 +2971,7 @@
           "cn": "自定义标记模板1",
           "en": "CUSTOM TAG TEMPLATE 1"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2348,6 +2986,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_2",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_2",
         "markInfoType": "31",
@@ -2356,6 +2995,7 @@
           "cn": "自定义标记模板2",
           "en": "CUSTOM TAG TEMPLATE 2"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2370,6 +3010,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_3",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_3",
         "markInfoType": "31",
@@ -2378,6 +3019,7 @@
           "cn": "自定义标记模板3",
           "en": "CUSTOM TAG TEMPLATE 3"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2392,6 +3034,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_4",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_4",
         "markInfoType": "31",
@@ -2400,6 +3043,7 @@
           "cn": "自定义标记模板4",
           "en": "CUSTOM TAG TEMPLATE 4"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2414,6 +3058,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_5",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_5",
         "markInfoType": "31",
@@ -2422,6 +3067,7 @@
           "cn": "自定义标记模板5",
           "en": "CUSTOM TAG TEMPLATE 5"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2436,6 +3082,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_6",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_6",
         "markInfoType": "31",
@@ -2444,6 +3091,7 @@
           "cn": "自定义标记模板6",
           "en": "CUSTOM TAG TEMPLATE 6"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2458,6 +3106,7 @@
         },
         "inActiveIcon": "icon_map_custom_mark_shadow_7",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_7",
         "markInfoType": "31",
@@ -2466,6 +3115,7 @@
           "cn": "自定义标记模板7",
           "en": "CUSTOM TAG TEMPLATE 7"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2484,6 +3134,7 @@
         },
         "inActiveIcon": "icon_map_mission_track",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_cus_select",
         "markInfoType": "31",
@@ -2492,6 +3143,7 @@
           "cn": "自定义标记选中",
           "en": "CUSTOM TAG SELECTED"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "6",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2510,6 +3162,7 @@
         },
         "inActiveIcon": "icon_map_coin",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_detector_coin",
         "markInfoType": "44",
@@ -2518,6 +3171,7 @@
           "cn": "醚质",
           "en": "Aurylene"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2536,6 +3190,7 @@
         },
         "inActiveIcon": "icon_map_chest",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_detector_treasur_chest",
         "markInfoType": "43",
@@ -2544,6 +3199,7 @@
           "cn": "储藏箱",
           "en": "Crate"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2562,6 +3218,7 @@
         },
         "inActiveIcon": "icon_map_blackbox",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_dg_blackbox",
         "markInfoType": "21",
@@ -2570,6 +3227,7 @@
           "cn": "协议采录桩",
           "en": "Protocol Datalogger"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2588,6 +3246,7 @@
         },
         "inActiveIcon": "icon_map_equipment_blueprints",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_equip_formula_chest",
         "markInfoType": "33",
@@ -2596,6 +3255,7 @@
           "cn": "装备模板箱",
           "en": "Gear Template Crate"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -2614,6 +3274,7 @@
         },
         "inActiveIcon": "icon_map_settlement_terminal",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_settlement_defense_terminal",
         "markInfoType": "35",
@@ -2622,6 +3283,7 @@
           "cn": "预警终端",
           "en": "Early Warning Terminal"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2640,6 +3302,7 @@
         },
         "inActiveIcon": "icon_map_general_shop",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_common_shop",
         "markInfoType": "24",
@@ -2648,6 +3311,7 @@
           "cn": "通用商店",
           "en": "General Shop"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2666,6 +3330,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_lightning_1",
         "markInfoType": "25",
@@ -2674,6 +3339,7 @@
           "cn": "电涌塔",
           "en": "Surge Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2688,6 +3354,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_cannon_1",
         "markInfoType": "25",
@@ -2696,6 +3363,7 @@
           "cn": "榴弹塔",
           "en": "Grenade Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2710,6 +3378,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_cannon_2",
         "markInfoType": "25",
@@ -2718,6 +3387,7 @@
           "cn": "高爆榴弹塔",
           "en": "HE Grenade Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2732,6 +3402,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_turret_1",
         "markInfoType": "25",
@@ -2740,6 +3411,7 @@
           "cn": "铳械塔",
           "en": "Gun Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2754,6 +3426,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_turret_2",
         "markInfoType": "25",
@@ -2762,6 +3435,7 @@
           "cn": "扩装铳械塔",
           "en": "Heavy Gun Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2776,6 +3450,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_shockwave_1",
         "markInfoType": "25",
@@ -2784,6 +3459,7 @@
           "cn": "全向声波塔",
           "en": "Omnidirectional Sonic Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2798,6 +3474,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_frost_1",
         "markInfoType": "25",
@@ -2806,6 +3483,7 @@
           "cn": "液氮塔",
           "en": "LN Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2820,6 +3498,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_sniper_1",
         "markInfoType": "25",
@@ -2828,6 +3507,7 @@
           "cn": "哨戒塔",
           "en": "Sentry Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2842,6 +3522,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_laser_1",
         "markInfoType": "25",
@@ -2850,6 +3531,7 @@
           "cn": "射线塔",
           "en": "Beam Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2864,6 +3546,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_laser_2",
         "markInfoType": "25",
@@ -2872,6 +3555,7 @@
           "cn": "高能射线塔",
           "en": "Hyper Beam Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2886,6 +3570,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_medtower",
         "markInfoType": "25",
@@ -2894,6 +3579,7 @@
           "cn": "医疗塔",
           "en": "Medical Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2908,6 +3594,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_jet_1",
         "markInfoType": "25",
@@ -2916,6 +3603,7 @@
           "cn": "激流塔",
           "en": "Deluge Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2930,6 +3618,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_trap_1",
         "markInfoType": "25",
@@ -2938,6 +3627,7 @@
           "cn": "AF1“熔甲者”",
           "en": "AF1 Armor Fragger"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2952,6 +3642,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_fog_1",
         "markInfoType": "25",
@@ -2960,6 +3651,7 @@
           "cn": "“毒沼”MK-Ⅰ",
           "en": "Marsh Gas Mk I"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2974,6 +3666,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_debuff_1",
         "markInfoType": "25",
@@ -2982,6 +3675,7 @@
           "cn": "“酸洗”MK-Ⅰ",
           "en": "Acid Soaker Mk I"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -2996,6 +3690,7 @@
         },
         "inActiveIcon": "icon_map_combat_architecture",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_battle_rocket_1",
         "markInfoType": "25",
@@ -3004,6 +3699,55 @@
           "cn": "重锤迫击炮",
           "en": "Sledgehammer Mortar"
         },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "持续发射Ⅲ级能量弹，对敌人造成物理伤害，每第6次攻击会发射强力能量弹对范围内的敌人造成物理伤害。",
+          "en": "Continuously fires Mk Ⅲ energy bolts and an empowered energy bolt for every 6th attack at enemies within range. The bolts deal Physical DMG."
+        },
+        "inActiveIcon": "icon_map_combat_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_turret_3",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "“暴雨”铳械塔",
+          "en": "Torrent Gun Tower"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_combat_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成电磁伤害，并在敌人附近留下电球，持续对附近敌人造成电磁伤害。",
+          "en": "Releases electrical arcs that attack enemies. The arc chains to nearby enemies (up to 2) and deals Electric DMG. The arc also leaves an electric orb close to the enemy. The orb continuously deals Electric DMG to nearby enemies."
+        },
+        "inActiveIcon": "icon_map_combat_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_battle_lightning_2",
+        "markInfoType": "25",
+        "markType": "44",
+        "name": {
+          "cn": "甲二型“电荷”",
+          "en": "Electrocharger Model A-2"
+        },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3018,6 +3762,7 @@
         },
         "inActiveIcon": "icon_map_travel_pole",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_transtower",
         "markInfoType": "2",
@@ -3026,6 +3771,7 @@
           "cn": "滑索架",
           "en": "Zipline Pylon"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3040,6 +3786,7 @@
         },
         "inActiveIcon": "icon_map_travel_pole",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_transtower_2",
         "markInfoType": "2",
@@ -3048,6 +3795,7 @@
           "cn": "长距滑索架",
           "en": "Zipline Tower"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3062,6 +3810,7 @@
         },
         "inActiveIcon": "icon_map_beacon",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_carrier_1",
         "markInfoType": "40",
@@ -3070,6 +3819,7 @@
           "cn": "便捷存取站",
           "en": "Easy Stash"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3084,6 +3834,7 @@
         },
         "inActiveIcon": "icon_map_message",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_bd_marker_1",
         "markInfoType": "41",
@@ -3092,6 +3843,7 @@
           "cn": "留言信标",
           "en": "Memo Beacon"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "1",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3110,6 +3862,7 @@
         },
         "inActiveIcon": "icon_map_weekraid",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_week_raid",
         "markInfoType": "37",
@@ -3118,6 +3871,7 @@
           "cn": "蚀像寻遗",
           "en": "Etchspace Salvage"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3136,6 +3890,7 @@
         },
         "inActiveIcon": "icon_map_mine",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_minepoint_team",
         "markInfoType": "17",
@@ -3144,6 +3899,7 @@
           "cn": "集中矿点",
           "en": "Mineral Bed"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3162,6 +3918,7 @@
         },
         "inActiveIcon": "icon_map_region_shop_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_p_domain_shop",
         "markInfoType": "39",
@@ -3170,6 +3927,7 @@
           "cn": "物资调度终端",
           "en": "Stock Redistribution Terminal"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3188,6 +3946,7 @@
         },
         "inActiveIcon": "icon_map_region_warehouse_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_p_domain_depot",
         "markInfoType": "34",
@@ -3196,6 +3955,7 @@
           "cn": "仓储节点",
           "en": "Depot Node"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3214,6 +3974,7 @@
         },
         "inActiveIcon": "icon_map_depot_receiving",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_domain_depot_deliver_target",
         "markInfoType": "46",
@@ -3222,6 +3983,7 @@
           "cn": "运送目标",
           "en": "Delivery Destination"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3240,6 +4002,7 @@
         },
         "inActiveIcon": "icon_map_kite_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_p_domain_kiteStation",
         "markInfoType": "38",
@@ -3248,6 +4011,7 @@
           "cn": "环境监测终端",
           "en": "Environment Monitoring Terminal"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3266,6 +4030,7 @@
         },
         "inActiveIcon": "icon_map_simulation_training_unactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_p_domain_simulationTraining",
         "markInfoType": "47",
@@ -3274,6 +4039,7 @@
           "cn": "演武平台",
           "en": "Trial Arena"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3292,6 +4058,7 @@
         },
         "inActiveIcon": "icon_map_special_plant",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_doodad_tundranest",
         "markInfoType": "18",
@@ -3300,6 +4067,7 @@
           "cn": "稀有采集物区",
           "en": "Rare Growths"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3314,6 +4082,7 @@
         },
         "inActiveIcon": "icon_map_special_mine",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_p_doodad_spcstone",
         "markInfoType": "19",
@@ -3322,6 +4091,7 @@
           "cn": "稀有矿物区",
           "en": "Rare Ores"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3340,6 +4110,7 @@
         },
         "inActiveIcon": "icon_map_recycle_inactive",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": false,
         "markInfoId": "mark_p_recycler",
         "markInfoType": "20",
@@ -3348,6 +4119,7 @@
           "cn": "资源回收站",
           "en": "Recycling Station"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3366,6 +4138,7 @@
         },
         "inActiveIcon": "icon_map_activity_photograph",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_snapshot",
         "markInfoType": "45",
@@ -3374,6 +4147,7 @@
           "cn": "拍照活动（1.3及后续版本已废弃）",
           "en": "Camera Event (Obsolete from v1.3 onwards)"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3392,6 +4166,7 @@
         },
         "inActiveIcon": "icon_map_high_difficulty",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_high_difficulty_enter",
         "markInfoType": "45",
@@ -3400,6 +4175,7 @@
           "cn": "影拓丰碑",
           "en": "Umbral Monument"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": false,
@@ -3418,6 +4194,7 @@
         },
         "inActiveIcon": "icon_map_activity_manualcraft",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_submit_1",
         "markInfoType": "45",
@@ -3426,6 +4203,7 @@
           "cn": "物资供给·开拓节",
           "en": "Supply: Exploration Day"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3440,6 +4218,7 @@
         },
         "inActiveIcon": "icon_map_activity_manualcraft",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_submit_2",
         "markInfoType": "45",
@@ -3448,6 +4227,7 @@
           "cn": "物资供给·武陵特厨",
           "en": "Supply: Wuling Super Chef"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3466,6 +4246,7 @@
         },
         "inActiveIcon": "icon_map_activity_cleaning",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_cleaning",
         "markInfoType": "45",
@@ -3474,6 +4255,7 @@
           "cn": "净流涤尘",
           "en": "Cleanse and Rinse"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3492,6 +4274,7 @@
         },
         "inActiveIcon": "icon_map_activity_photograph",
         "isStatic": true,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_activity_snapshot_new",
         "markInfoType": "45",
@@ -3500,6 +4283,35 @@
           "cn": "新·拍照活动",
           "en": "NEW Camera Event"
         },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "50",
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "75": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_activity_racingdungeon",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "小小的“干员”正在警戒着，要不要去看看他发现了通往何处的入口？",
+          "en": "A young \"operator\" is standing guard. Let's take a look at the mysterious Protocol Space portal he found."
+        },
+        "inActiveIcon": "icon_map_activity_racingdungeon",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_activity_racingdungeon",
+        "markInfoType": "45",
+        "markType": "75",
+        "name": {
+          "cn": "根脉奇境",
+          "en": "The Rooted Realm"
+        },
+        "showJumpTpBtn": true,
         "sortOrder": "2",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3518,6 +4330,7 @@
         },
         "inActiveIcon": "icon_map_campfire_unactive",
         "isStatic": true,
+        "isTpRelatedMark": true,
         "isVisibleActive": false,
         "markInfoId": "mark_sp_campfire",
         "markInfoType": "10",
@@ -3526,6 +4339,7 @@
           "cn": "协议传送点",
           "en": "TP Point"
         },
+        "showJumpTpBtn": false,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3544,6 +4358,7 @@
         },
         "inActiveIcon": "icon_mission_track_high",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_tracking_high",
         "markInfoType": "30",
@@ -3552,6 +4367,7 @@
           "cn": "追踪中任务",
           "en": "Tracked Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3566,6 +4382,7 @@
         },
         "inActiveIcon": "icon_mission_track_mid",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_tracking_mid",
         "markInfoType": "30",
@@ -3574,6 +4391,7 @@
           "cn": "追踪中任务",
           "en": "Tracked Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,
@@ -3588,6 +4406,7 @@
         },
         "inActiveIcon": "icon_mission_track_low",
         "isStatic": false,
+        "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_tracking_low",
         "markInfoType": "30",
@@ -3596,6 +4415,7 @@
           "cn": "追踪中任务",
           "en": "Tracked Mission"
         },
+        "showJumpTpBtn": true,
         "sortOrder": "5",
         "visibleDist": "50",
         "visibleInMist": true,

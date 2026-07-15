@@ -131,11 +131,21 @@
       "dung_blackbox_mix_1"
     ]
   },
-  "dung_blackbox_filling_5": {
+  "dung_blackbox_gaspump_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_2",
-    "preDependencies": []
+    "preDependencies": [
+      "dung_blackbox_udpipe_1"
+    ]
+  },
+  "dung_blackbox_gasreactor_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_vaporizer_1"
+    ]
   },
   "dung_blackbox_grinder_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
@@ -241,12 +251,6 @@
       "dung_blackbox_filling_4"
     ]
   },
-  "dung_blackbox_power_1": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
-  },
   "dung_blackbox_powerstation_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
@@ -261,6 +265,20 @@
     "domainId": "domain_1",
     "preDependencies": [
       "dung_blackbox_hub_1"
+    ]
+  },
+  "dung_blackbox_shaper_2": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": []
+  },
+  "dung_blackbox_speedlimit_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_transmuter_1"
     ]
   },
   "dung_blackbox_splitter_1": {
@@ -294,11 +312,35 @@
       "dung_blackbox_hub_1"
     ]
   },
+  "dung_blackbox_transmuter_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_shaper_2"
+    ]
+  },
+  "dung_blackbox_transmuter_2": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_transmuter_1"
+    ]
+  },
   "dung_blackbox_udpipe_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_2",
     "preDependencies": []
+  },
+  "dung_blackbox_vaporizer_1": {
+    "afterDirectlyGetRewardGuideGroupId": "",
+    "canDirectlyGetRewardForBlackbox": true,
+    "domainId": "domain_2",
+    "preDependencies": [
+      "dung_blackbox_transmuter_2"
+    ]
   },
   "dung_blackbox_winder_1": {
     "afterDirectlyGetRewardGuideGroupId": "",
@@ -318,22 +360,12 @@
     "domainId": "domain_2",
     "preDependencies": []
   },
-  "dung_demo_blackbox02": {
+  "dung_blackbox_xiraniteoven_3": {
     "afterDirectlyGetRewardGuideGroupId": "",
     "canDirectlyGetRewardForBlackbox": true,
     "domainId": "domain_2",
-    "preDependencies": []
-  },
-  "dung_test_blackbox_01": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
-  },
-  "dung_test_factory": {
-    "afterDirectlyGetRewardGuideGroupId": "",
-    "canDirectlyGetRewardForBlackbox": true,
-    "domainId": "domain_1",
-    "preDependencies": []
+    "preDependencies": [
+      "dung_blackbox_vaporizer_1"
+    ]
   }
 }

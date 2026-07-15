@@ -8,7 +8,8 @@
       "component_copper_cmpt_1",
       "component_copper_enr_cmpt_1",
       "component_activity_xiranite_cmpt_1",
-      "component_activity_xiranite_enr_cmpt_1"
+      "component_activity_xiranite_enr_cmpt_1",
+      "component_copper_enr2_cmpt_1"
     ],
     "formulaGroupIdGroup": "group_component_normal",
     "ingredientBufferBinding": [
@@ -17,7 +18,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -27,11 +29,130 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
     "pipeOutcomeBufferBinding": []
+  },
+  "group_dismantler_gasliquid": {
+    "craftList": [
+      "dismantler_copperjar_gas_water_1",
+      "dismantler_copperjar_gas_acid_1",
+      "dismantler_copperjar_gas_xiranite_1",
+      "dismantler_copperjar_gas_xiranite_enr_1",
+      "dismantler_copperjar_gas_inert_1",
+      "dismantler_copperjar_gas_copper_1",
+      "dismantler_copperjar_gas_copper_enr_1",
+      "dismantler_copperjar_gas_copper_enr2_1",
+      "dismantler_glass_water_1",
+      "dismantler_glass_acid_1",
+      "dismantler_glass_sewage_1",
+      "dismantler_glass_grass_1_1",
+      "dismantler_glass_grass_2_1",
+      "dismantler_glass_xiranite_1",
+      "dismantler_glass_xiranite_enr_1",
+      "dismantler_glass_xiranite_poly_1",
+      "dismantler_glass_xiranite_lowpoly_1",
+      "dismantler_glass_copper_1",
+      "dismantler_glass_copper_enr_1",
+      "dismantler_glassenr_water_1",
+      "dismantler_glassenr_acid_1",
+      "dismantler_glassenr_sewage_1",
+      "dismantler_glassenr_grass_1_1",
+      "dismantler_glassenr_grass_2_1",
+      "dismantler_glassenr_xiranite_1",
+      "dismantler_glassenr_xiranite_enr_1",
+      "dismantler_glassenr_xiranite_poly_1",
+      "dismantler_glassenr_xiranite_lowpoly_1",
+      "dismantler_glassenr_copper_1",
+      "dismantler_glassenr_copper_enr_1",
+      "dismantler_iron_water_1",
+      "dismantler_iron_acid_1",
+      "dismantler_iron_sewage_1",
+      "dismantler_iron_grass_1_1",
+      "dismantler_iron_grass_2_1",
+      "dismantler_iron_xiranite_1",
+      "dismantler_iron_xiranite_enr_1",
+      "dismantler_iron_xiranite_poly_1",
+      "dismantler_iron_xiranite_lowpoly_1",
+      "dismantler_iron_copper_1",
+      "dismantler_iron_copper_enr_1",
+      "dismantler_ironenr_water_1",
+      "dismantler_ironenr_acid_1",
+      "dismantler_ironenr_sewage_1",
+      "dismantler_ironenr_grass_1_1",
+      "dismantler_ironenr_grass_2_1",
+      "dismantler_ironenr_xiranite_1",
+      "dismantler_ironenr_xiranite_enr_1",
+      "dismantler_ironenr_xiranite_poly_1",
+      "dismantler_ironenr_xiranite_lowpoly_1",
+      "dismantler_ironenr_copper_1",
+      "dismantler_ironenr_copper_enr_1",
+      "dismantler_copper_water_1",
+      "dismantler_copper_acid_1",
+      "dismantler_copper_sewage_1",
+      "dismantler_copper_grass_1_1",
+      "dismantler_copper_grass_2_1",
+      "dismantler_copper_xiranite_1",
+      "dismantler_copper_xiranite_enr_1",
+      "dismantler_copper_xiranite_poly_1",
+      "dismantler_copper_xiranite_lowpoly_1",
+      "dismantler_copper_copper_1",
+      "dismantler_copper_copper_enr_1",
+      "dismantler_copperenr_water_1",
+      "dismantler_copperenr_acid_1",
+      "dismantler_copperenr_sewage_1",
+      "dismantler_copperenr_grass_1_1",
+      "dismantler_copperenr_grass_2_1",
+      "dismantler_copperenr_xiranite_1",
+      "dismantler_copperenr_xiranite_enr_1",
+      "dismantler_copperenr_xiranite_poly_1",
+      "dismantler_copperenr_xiranite_lowpoly_1",
+      "dismantler_copperenr_copper_1",
+      "dismantler_copperenr_copper_enr_1"
+    ],
+    "formulaGroupIdGroup": "group_dismantler_gasliquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "6"
+        ],
+        "pipePortPhaseType": [
+          "4",
+          "2"
+        ]
+      }
+    ]
   },
   "group_dismantler_liquid": {
     "craftList": [
@@ -113,7 +234,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -126,7 +248,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
@@ -134,9 +257,131 @@
       {
         "bindingPortIndices": [
           "6"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]
+  },
+  "group_filling_gasliquid": {
+    "craftList": [
+      "filling_copperjar_gas_water_1",
+      "filling_copperjar_gas_acid_1",
+      "filling_copperjar_gas_xiranite_1",
+      "filling_copperjar_gas_xiranite_enr_1",
+      "filling_copperjar_gas_inert_1",
+      "filling_copperjar_gas_copper_1",
+      "filling_copperjar_gas_copper_enr_1",
+      "filling_copperjar_copper_enr2_1",
+      "filling_bottled_glass_water",
+      "filling_bottled_glass_acid",
+      "filling_bottled_glass_sewage",
+      "filling_bottled_glass_grass_1",
+      "filling_bottled_glass_grass_2",
+      "filling_bottled_glass_xiranite",
+      "filling_bottled_glass_xiranite_enr",
+      "filling_bottled_glass_xiranite_poly",
+      "filling_bottled_glass_xiranite_lowpoly",
+      "filling_bottled_glass_copper",
+      "filling_bottled_glass_copper_enr",
+      "filling_bottled_glassenr_water",
+      "filling_bottled_glassenr_acid",
+      "filling_bottled_glassenr_sewage",
+      "filling_bottled_glassenr_grass_1",
+      "filling_bottled_glassenr_grass_2",
+      "filling_bottled_glassenr_xiranite",
+      "filling_bottled_glassenr_xiranite_enr",
+      "filling_bottled_glassenr_xiranite_poly",
+      "filling_bottled_glassenr_xiranite_lowpoly",
+      "filling_bottled_glassenr_copper",
+      "filling_bottled_glassenr_copper_enr",
+      "filling_bottled_iron_water",
+      "filling_bottled_iron_acid",
+      "filling_bottled_iron_sewage",
+      "filling_bottled_iron_grass_1",
+      "filling_bottled_iron_grass_2",
+      "filling_bottled_iron_xiranite",
+      "filling_bottled_iron_xiranite_enr",
+      "filling_bottled_iron_xiranite_poly",
+      "filling_bottled_iron_xiranite_lowpoly",
+      "filling_bottled_iron_copper",
+      "filling_bottled_iron_copper_enr",
+      "filling_bottled_ironenr_water",
+      "filling_bottled_ironenr_acid",
+      "filling_bottled_ironenr_sewage",
+      "filling_bottled_ironenr_grass_1",
+      "filling_bottled_ironenr_grass_2",
+      "filling_bottled_ironenr_xiranite",
+      "filling_bottled_ironenr_xiranite_enr",
+      "filling_bottled_ironenr_xiranite_poly",
+      "filling_bottled_ironenr_xiranite_lowpoly",
+      "filling_bottled_ironenr_copper",
+      "filling_bottled_ironenr_copper_enr",
+      "filling_bottled_copper_water",
+      "filling_bottled_copper_acid",
+      "filling_bottled_copper_sewage",
+      "filling_bottled_copper_grass_1",
+      "filling_bottled_copper_grass_2",
+      "filling_bottled_copper_xiranite",
+      "filling_bottled_copper_xiranite_enr",
+      "filling_bottled_copper_xiranite_poly",
+      "filling_bottled_copper_xiranite_lowpoly",
+      "filling_bottled_copper_copper",
+      "filling_bottled_copper_copper_enr",
+      "filling_bottled_copperenr_water",
+      "filling_bottled_copperenr_acid",
+      "filling_bottled_copperenr_sewage",
+      "filling_bottled_copperenr_grass_1",
+      "filling_bottled_copperenr_grass_2",
+      "filling_bottled_copperenr_xiranite",
+      "filling_bottled_copperenr_xiranite_enr",
+      "filling_bottled_copperenr_xiranite_poly",
+      "filling_bottled_copperenr_xiranite_lowpoly",
+      "filling_bottled_copperenr_copper",
+      "filling_bottled_copperenr_copper_enr",
+      "filling_bottled_xiranenr_grass_2"
+    ],
+    "formulaGroupIdGroup": "group_filling_gasliquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "6"
+        ],
+        "pipePortPhaseType": [
+          "4",
+          "2"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": []
   },
   "group_filling_liquid": {
     "craftList": [
@@ -218,7 +463,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -231,13 +477,17 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
       {
         "bindingPortIndices": [
           "6"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -262,7 +512,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -275,7 +526,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
@@ -292,7 +544,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -302,13 +555,17 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
       {
         "bindingPortIndices": [
           "3"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -316,6 +573,9 @@
       {
         "bindingPortIndices": [
           "3"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]
@@ -355,7 +615,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -365,11 +626,43 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
     "pipeOutcomeBufferBinding": []
+  },
+  "group_gas_reactor_gas": {
+    "craftList": [
+      "gas_reactor_gas_copper_enr2_1"
+    ],
+    "formulaGroupIdGroup": "group_gas_reactor_gas",
+    "ingredientBufferBinding": [],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ]
   },
   "group_grinder_normal": {
     "craftList": [
@@ -393,7 +686,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -403,11 +697,56 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
     "pipeOutcomeBufferBinding": []
+  },
+  "group_liquid_purifier_gas": {
+    "craftList": [
+      "liquid_purifier_gas_xiranite_enr_1",
+      "liquid_purifier_gas_xiranite_enr_2",
+      "liquid_purifier_gas_copper_enr_1",
+      "liquid_purifier_gas_copper_enr_2"
+    ],
+    "formulaGroupIdGroup": "group_liquid_purifier_gas",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "3",
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "2"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ]
   },
   "group_liquid_purifier_liquid": {
     "craftList": [
@@ -423,6 +762,9 @@
         "bindingPortIndices": [
           "0",
           "1"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -430,11 +772,17 @@
       {
         "bindingPortIndices": [
           "0"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       },
       {
         "bindingPortIndices": [
           "1"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]
@@ -456,7 +804,8 @@
         "bindingPortIndices": [
           "0",
           "1"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -465,7 +814,8 @@
         "bindingPortIndices": [
           "0",
           "1"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
@@ -473,6 +823,9 @@
         "bindingPortIndices": [
           "2",
           "3"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -480,11 +833,17 @@
       {
         "bindingPortIndices": [
           "2"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       },
       {
         "bindingPortIndices": [
           "3"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]
@@ -508,7 +867,8 @@
           "1",
           "2",
           "3"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -519,7 +879,8 @@
           "1",
           "2",
           "3"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
@@ -527,6 +888,9 @@
         "bindingPortIndices": [
           "4",
           "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -534,11 +898,17 @@
       {
         "bindingPortIndices": [
           "4"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       },
       {
         "bindingPortIndices": [
           "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]
@@ -557,7 +927,8 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -569,13 +940,17 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
       {
         "bindingPortIndices": [
           "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -597,7 +972,8 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -609,7 +985,8 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
@@ -637,7 +1014,8 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -649,10 +1027,49 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_shaper_gas": {
+    "craftList": [
+      "shaper_gas_copper_jar_1"
+    ],
+    "formulaGroupIdGroup": "group_shaper_gas",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "3"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ],
     "pipeOutcomeBufferBinding": []
   },
   "group_shaper_normal": {
@@ -673,7 +1090,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -683,7 +1101,8 @@
           "0",
           "1",
           "2"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
@@ -709,7 +1128,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -722,7 +1142,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
@@ -740,9 +1161,10 @@
       "tools_proc_food_5_1",
       "tools_proc_battery_4_1",
       "tools_proc_battery_5_1",
-      "tools_proc_activity_xiranite_enr_tool_1",
       "tools_proc_activity_xiranite_hulu_1",
-      "tools_proc_activity_xiranite_enr_hulu_1"
+      "tools_proc_activity_xiranite_enr_hulu_1",
+      "tools_proc_activity_xiranite_enr_tool_1",
+      "tools_proc_filter_core_2"
     ],
     "formulaGroupIdGroup": "group_tools_normal",
     "ingredientBufferBinding": [
@@ -754,7 +1176,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -767,10 +1190,149 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": []
+  },
+  "group_transmuter_1_gastrans": {
+    "craftList": [
+      "liquid_transmuter_1_gas_gas_water_1",
+      "liquid_transmuter_1_gas_gas_acid_1",
+      "liquid_transmuter_1_gas_gas_xiranite_1",
+      "liquid_transmuter_1_gas_gas_xiranite_enr_1",
+      "liquid_transmuter_1_gas_gas_copper_1",
+      "liquid_transmuter_1_gas_gas_copper_enr_1"
+    ],
+    "formulaGroupIdGroup": "group_transmuter_1_gastrans",
+    "ingredientBufferBinding": [],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "2"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ]
+  },
+  "group_transmuter_1_liquidtrans": {
+    "craftList": [
+      "liquid_transmuter_1_liquid_liquid_water_1",
+      "liquid_transmuter_1_liquid_liquid_acid_1",
+      "liquid_transmuter_1_liquid_liquid_xiranite_1",
+      "liquid_transmuter_1_liquid_liquid_xiranite_enr_1",
+      "liquid_transmuter_1_liquid_liquid_copper_1",
+      "liquid_transmuter_1_liquid_liquid_copper_enr_1"
+    ],
+    "formulaGroupIdGroup": "group_transmuter_1_liquidtrans",
+    "ingredientBufferBinding": [],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "2"
+        ]
+      }
+    ]
+  },
+  "group_transmuter_2_gastrans": {
+    "craftList": [
+      "liquid_transmuter_2_gas_gas_xiranite_1",
+      "liquid_transmuter_2_gas_gas_xiranite_enr_1",
+      "liquid_transmuter_2_gas_gas_copper_1",
+      "liquid_transmuter_2_gas_gas_copper_enr_1",
+      "liquid_transmuter_2_gas_gas_copper_enr2_1"
+    ],
+    "formulaGroupIdGroup": "group_transmuter_2_gastrans",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "3",
+          "4"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [],
+    "pipeIngredientBufferBinding": [],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ]
+  },
+  "group_transmuter_2_solidtrans": {
+    "craftList": [
+      "liquid_transmuter_2_solid_xiranite_powder_1",
+      "liquid_transmuter_2_solid_xiranite_enr_powder_1",
+      "liquid_transmuter_2_solid_copper_nugget_1",
+      "liquid_transmuter_2_solid_copper_enr_1",
+      "liquid_transmuter_2_solid_copper_enr2_1"
+    ],
+    "formulaGroupIdGroup": "group_transmuter_2_solidtrans",
+    "ingredientBufferBinding": [],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "2",
+          "3"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1"
+        ],
+        "pipePortPhaseType": [
+          "4"
+        ]
+      }
+    ],
     "pipeOutcomeBufferBinding": []
   },
   "group_winder_normal": {
@@ -780,7 +1342,8 @@
       "winder_equip_script_3",
       "winder_equip_script_4",
       "winder_equip_script_4_1",
-      "winder_equip_script_4_2"
+      "winder_equip_script_4_2",
+      "winder_equip_script_4_3"
     ],
     "formulaGroupIdGroup": "group_winder_normal",
     "ingredientBufferBinding": [
@@ -792,7 +1355,8 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -805,11 +1369,66 @@
           "3",
           "4",
           "5"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [],
     "pipeOutcomeBufferBinding": []
+  },
+  "group_xiranite_oven_gasliquid": {
+    "craftList": [
+      "xiranite_oven_xiranite_powder_1",
+      "xiranite_oven_xiranite_powder_2",
+      "xiranite_oven_xiranite_enr_powder_1",
+      "xiranite_oven_muck_xiranite_1"
+    ],
+    "formulaGroupIdGroup": "group_xiranite_oven_gasliquid",
+    "ingredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "msPerRound": "1000",
+    "outcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "pipePortPhaseType": []
+      }
+    ],
+    "pipeIngredientBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
+        ]
+      }
+    ],
+    "pipeOutcomeBufferBinding": [
+      {
+        "bindingPortIndices": [
+          "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
+        ]
+      }
+    ]
   },
   "group_xiranite_oven_liquid": {
     "craftList": [
@@ -826,7 +1445,8 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "msPerRound": "1000",
@@ -838,13 +1458,17 @@
           "2",
           "3",
           "4"
-        ]
+        ],
+        "pipePortPhaseType": []
       }
     ],
     "pipeIngredientBufferBinding": [
       {
         "bindingPortIndices": [
           "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ],
@@ -852,6 +1476,9 @@
       {
         "bindingPortIndices": [
           "5"
+        ],
+        "pipePortPhaseType": [
+          "2"
         ]
       }
     ]

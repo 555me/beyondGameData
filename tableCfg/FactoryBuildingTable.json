@@ -1,5 +1,6 @@
 {
   "air_dancer_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -57,6 +58,7 @@
     "type": "42"
   },
   "battle_cannon_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_cannon_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -114,6 +116,7 @@
     "type": "21"
   },
   "battle_cannon_1_dg002": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_battle_cannon_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -171,6 +174,7 @@
     "type": "21"
   },
   "battle_cannon_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_cannon_2",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -228,6 +232,7 @@
     "type": "21"
   },
   "battle_debuff_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_debuff_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -285,6 +290,7 @@
     "type": "21"
   },
   "battle_fog_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_fog_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -342,6 +348,7 @@
     "type": "21"
   },
   "battle_frost_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_frost_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -399,6 +406,7 @@
     "type": "21"
   },
   "battle_jet_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_jet_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -456,6 +464,7 @@
     "type": "21"
   },
   "battle_laser_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_laser_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -513,6 +522,7 @@
     "type": "21"
   },
   "battle_laser_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_laser_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -570,6 +580,7 @@
     "type": "21"
   },
   "battle_lightning_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_lightning_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -626,7 +637,66 @@
     "roadAttachSide": "0",
     "type": "21"
   },
+  "battle_lightning_2": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_battle_lightning_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "<b>攻击力</b>：<@ba.key>20625</>\n<b>攻击间隔</b>：<@ba.key>5</>秒\n<b>攻击方式</b>：释放电能攻击敌人，攻击会弹射到附近敌人（至多2次），造成<@ba.pulse>电磁伤害</>，并在敌人附近留下电球，持续对附近敌人造成<@ba.pulse>电磁伤害</>。",
+      "en": "<b>ATK</b>: <@ba.key>20625</>\n<b>Attack Interval</b>: <@ba.key>5</>s\n<b>Mode of Attack</b>: Releases electrical arcs that attack enemies. The arc chains to nearby enemies (up to 2) and deals <@ba.pulse>Electric DMG</>. The arc also leaves an electric orb close to the enemy. The orb continuously deals <@ba.pulse>Electric DMG</> to nearby enemies."
+    },
+    "iconOnPanel": "icon_port_battle_lightning_2",
+    "id": "battle_lightning_2",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_lightning_2",
+    "modelHeight": 4.6,
+    "name": {
+      "cn": "甲二型“电荷”",
+      "en": "Electrocharger Model A-2"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": "2",
+      "height": "5",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_lightning_2",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_lightning_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "21"
+  },
   "battle_medic_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_medic_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -684,6 +754,7 @@
     "type": "21"
   },
   "battle_rocket_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_rocket_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -741,6 +812,7 @@
     "type": "21"
   },
   "battle_shockwave_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_shockwave_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -798,6 +870,7 @@
     "type": "21"
   },
   "battle_sniper_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_sniper_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -855,6 +928,7 @@
     "type": "21"
   },
   "battle_trap_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_trap_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -912,6 +986,7 @@
     "type": "21"
   },
   "battle_turret_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_turret_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -969,6 +1044,7 @@
     "type": "21"
   },
   "battle_turret_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_battle_turret_2",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1025,7 +1101,66 @@
     "roadAttachSide": "0",
     "type": "21"
   },
+  "battle_turret_3": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_battle_turret_3",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "<b>攻击力</b>：<@ba.key>10310</>\n<b>攻击间隔</b>：<@ba.key>2</>秒\n<b>攻击方式</b>：持续发射Ⅲ级能量弹，对敌人造成<@ba.phy>物理伤害</>，每第6次攻击会发射强力能量弹对范围内的敌人造成<@ba.phy>物理伤害</>。",
+      "en": "<b>ATK</b>: <@ba.key>10310</>\n<b>Attack Interval</b>: <@ba.key>2</>s\n<b>Mode of Attack</b>: Continuously fires Mk Ⅲ energy bolts and an empowered energy bolt for every 6th attack at enemies within range. The bolts deal <@ba.phy>Physical DMG</>."
+    },
+    "iconOnPanel": "icon_port_battle_turret_3",
+    "id": "battle_turret_3",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_battle_turret_3",
+    "modelHeight": "4",
+    "name": {
+      "cn": "“暴雨”铳械塔",
+      "en": "Torrent Gun Tower"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "20",
+    "quickBarType": "battle_machine",
+    "range": {
+      "depth": "2",
+      "height": "4",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "battle_turret_3",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "battle_turret_3",
+        "nonLogisticBaseUnit": "pedestal+1_001_02x02_04",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "21"
+  },
   "carrier_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1082,10 +1217,69 @@
     "roadAttachSide": "0",
     "type": "36"
   },
-  "chubby_lung_balloon_1": {
+  "cat_tree_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "诀喜欢小动物，也喜欢看着它们发呆。这个活动架是她为数不多“为了自己”购买的商品。她能连续看着小动物们嬉闹三个小时。",
+      "en": "Arcane likes small critters and easily zones out when she spots them. This critter playground is one of the very few things she has purchased for herself. She once spent three hours watching them play."
+    },
+    "iconOnPanel": "icon_port_decorate_1",
+    "id": "cat_tree_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_decorate_cat_tree_1",
+    "modelHeight": 2.3,
+    "name": {
+      "cn": "小咆兽活动架",
+      "en": "Howlerbeast Playground"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "1",
+      "height": "3",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "pedestal+1_001_01x02_01",
+        "machineId": "cat_tree_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "cat_tree_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_01x02_01",
+        "suppressExternalDither": true
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "42"
+  },
+  "chubby_lung_balloon_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
@@ -1140,9 +1334,10 @@
     "type": "42"
   },
   "chubby_lung_stone_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
@@ -1197,6 +1392,7 @@
     "type": "42"
   },
   "component_mc_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_cmpt_mc_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1358,6 +1554,7 @@
     "type": "6"
   },
   "dismantler_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_dismantler_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1626,6 +1823,15 @@
       "domain_2"
     ],
     "rendererTemplateMap": {
+      "gasliquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "dismantler_1",
+        "machineLevel": "0",
+        "machineModeType": "gasliquid",
+        "machineRenderId": "dismantler_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03",
+        "suppressExternalDither": false
+      },
       "liquid__0": {
         "logisticBaseUnit": "pedestal+1_001_04x06_01",
         "machineId": "dismantler_1",
@@ -1640,6 +1846,7 @@
     "type": "6"
   },
   "dumper_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_dumper_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1717,6 +1924,7 @@
     "type": "26"
   },
   "dumper_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_dumper_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -1794,6 +2002,7 @@
     "type": "26"
   },
   "filling_powder_mc_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_filling_pd_mc_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -2060,6 +2269,15 @@
     },
     "recommendDomains": [],
     "rendererTemplateMap": {
+      "gasliquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_04x06_01",
+        "machineId": "filling_powder_mc_1",
+        "machineLevel": "0",
+        "machineModeType": "gasliquid",
+        "machineRenderId": "filling_powder_mc_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_04x06_03",
+        "suppressExternalDither": false
+      },
       "liquid__0": {
         "logisticBaseUnit": "pedestal+1_001_04x06_01",
         "machineId": "filling_powder_mc_1",
@@ -2083,6 +2301,7 @@
     "type": "6"
   },
   "furnance_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_furnance_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -2278,6 +2497,7 @@
     "type": "6"
   },
   "furnance_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_furnance_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -2438,7 +2658,312 @@
     "roadAttachSide": "0",
     "type": "6"
   },
+  "gas_pump_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_gas_pump_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": false,
+    "canDelete": true,
+    "defaultRendererTemplate": "gas__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "无需通电即可工作，可用来开采惰气等多种气体的机械设备。",
+      "en": "A facility that can extract Inergen and other gases. It does not require power to work."
+    },
+    "iconOnPanel": "icon_port_gas_pump_1",
+    "id": "gas_pump_1",
+    "inputPorts": [],
+    "limitType": "1",
+    "liquidEnabled": true,
+    "markInfoId": "",
+    "modelHeight": 6.1,
+    "name": {
+      "cn": "气体收集泵",
+      "en": "Gas Extractor"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "source_machine",
+    "range": {
+      "depth": "3",
+      "height": "6",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "gas__0": {
+        "logisticBaseUnit": "",
+        "machineId": "gas_pump_1",
+        "machineLevel": "0",
+        "machineModeType": "gas",
+        "machineRenderId": "gas_pump_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04a",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "41"
+  },
+  "gas_reactor_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_gas_reactor_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "gas__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "能够进行气体与气体间反应的设备。",
+      "en": "A facility for performing gas-phase reactions."
+    },
+    "iconOnPanel": "icon_port_gas_reactor_1",
+    "id": "gas_reactor_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_gas_reactor_1",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "气体反应炉",
+      "en": "Gas Reactor Globe"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "50",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "gas__0": {
+        "logisticBaseUnit": "",
+        "machineId": "gas_reactor_1",
+        "machineLevel": "0",
+        "machineModeType": "gas",
+        "machineRenderId": "gas_reactor_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "6"
+  },
+  "gas_storager_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_gas_storager_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "gas__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "存储气体的设备。",
+      "en": "A facility for storing gases."
+    },
+    "iconOnPanel": "icon_port_gas_storager_1",
+    "id": "gas_storager_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_gas_storebox",
+    "modelHeight": 4.1,
+    "name": {
+      "cn": "储气罐",
+      "en": "Gas Tank"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "storage",
+    "range": {
+      "depth": "3",
+      "height": "4",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "gas__0": {
+        "logisticBaseUnit": "",
+        "machineId": "gas_storager_1",
+        "machineLevel": "0",
+        "machineModeType": "gas",
+        "machineRenderId": "gas_storager_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_04",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "24"
+  },
   "grinder_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_grinder_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -2600,9 +3125,10 @@
     "type": "6"
   },
   "jail_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "buildCamState": "Factory/CCS_Fac_Building_Medium",
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
@@ -2657,6 +3183,7 @@
     "type": "42"
   },
   "liquid_clean_gate_1": {
+    "allowPlayerMove": false,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_liquid_clean_gate_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -2732,6 +3259,7 @@
     "type": "37"
   },
   "liquid_cleaner_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_liquid_cleaner_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -2809,9 +3337,10 @@
     "type": "28"
   },
   "liquid_purifier_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_liquid_purifier_1",
-    "buildCamState": "Factory/CCS_Fac_Building_Medium",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
     "canBatchModeTogglePower": true,
     "canBatchSelect": true,
     "canDelete": true,
@@ -2821,8 +3350,8 @@
       "en": ""
     },
     "desc": {
-      "cn": "用于将溶液提纯至更高纯度溶液的设备。",
-      "en": "A facility for raising the purity of various solutions."
+      "cn": "用于将溶液或气体提纯至更高纯度溶液或气体的设备。",
+      "en": "A facility for raising the purity of various solutions or gases."
     },
     "iconOnPanel": "icon_port_liquid_purifier_1",
     "id": "liquid_purifier_1",
@@ -2860,12 +3389,114 @@
             "z": "0"
           }
         }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "2"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "5",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "6",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "7",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
       }
     ],
     "limitType": "0",
     "liquidEnabled": true,
     "markInfoId": "mark_bd_formula_liquid_purifier_1",
-    "modelHeight": 4.4,
+    "modelHeight": 5.1,
     "name": {
       "cn": "提纯机",
       "en": "Purification Unit"
@@ -2924,6 +3555,15 @@
       "domain_2"
     ],
     "rendererTemplateMap": {
+      "gas__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_07",
+        "machineId": "liquid_purifier_1",
+        "machineLevel": "0",
+        "machineModeType": "gas",
+        "machineRenderId": "liquid_purifier_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      },
       "liquid__0": {
         "logisticBaseUnit": "pedestal+1_001_05x05_03",
         "machineId": "liquid_purifier_1",
@@ -2938,6 +3578,7 @@
     "type": "6"
   },
   "liquid_recycle_gate_1": {
+    "allowPlayerMove": false,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_liquid_recycle_gate_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -3013,6 +3654,7 @@
     "type": "38"
   },
   "liquid_storager_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_liquid_storager_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3108,6 +3750,7 @@
     "type": "24"
   },
   "liquid_storager_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_liquid_storager_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3203,6 +3846,7 @@
     "type": "24"
   },
   "loader_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_loader_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -3278,6 +3922,7 @@
     "type": "10"
   },
   "log_hongs_bus": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_log_hongs_bus",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -3339,6 +3984,7 @@
     "type": "32"
   },
   "log_hongs_bus_source": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_log_hongs_bus_source",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3400,6 +4046,7 @@
     "type": "31"
   },
   "marker_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -3457,6 +4104,7 @@
     "type": "35"
   },
   "miner_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_miner_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -3568,6 +4216,7 @@
     "type": "8"
   },
   "miner_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_miner_2",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3677,6 +4326,7 @@
     "type": "8"
   },
   "miner_3": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_miner_3",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3786,6 +4436,7 @@
     "type": "8"
   },
   "miner_4": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_miner_4",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -3915,6 +4566,7 @@
     "type": "8"
   },
   "mix_pool_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_mix_pool_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -4112,6 +4764,7 @@
     "type": "27"
   },
   "mix_pool_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_mix_pool_2",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -4235,7 +4888,7 @@
     ],
     "limitType": "0",
     "liquidEnabled": true,
-    "markInfoId": "mark_bd_formula_mix_pool_1",
+    "markInfoId": "mark_bd_formula_mix_pool_2",
     "modelHeight": 5.1,
     "name": {
       "cn": "扩容反应池",
@@ -4377,9 +5030,10 @@
     "type": "27"
   },
   "pear_blossom_bonsai_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
@@ -4434,9 +5088,10 @@
     "type": "42"
   },
   "photo_frame_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
-    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
     "canBatchModeTogglePower": false,
     "canBatchSelect": true,
     "canDelete": true,
@@ -4491,6 +5146,7 @@
     "type": "42"
   },
   "planter_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_planter_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -4737,6 +5393,7 @@
     "type": "6"
   },
   "power_diffuser_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_power_diffuser_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -4794,6 +5451,7 @@
     "type": "23"
   },
   "power_diffuser_2": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_power_diffuser_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -4855,6 +5513,7 @@
     "type": "23"
   },
   "power_pole_2": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_power_pole_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -4912,6 +5571,7 @@
     "type": "2"
   },
   "power_pole_3": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_power_pole_3",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -4973,6 +5633,7 @@
     "type": "2"
   },
   "power_port_1": {
+    "allowPlayerMove": false,
     "bandwidth": "0",
     "bgOnPanel": "bg_power_port_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -5030,6 +5691,7 @@
     "type": "18"
   },
   "power_station_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_power_sta_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5122,6 +5784,7 @@
     "type": "3"
   },
   "power_terminal_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_power_port_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -5179,6 +5842,7 @@
     "type": "17"
   },
   "pump_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_pump_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -5256,6 +5920,7 @@
     "type": "25"
   },
   "pump_2": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_pump_2",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -5333,6 +5998,7 @@
     "type": "25"
   },
   "seedcollector_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_seedcol_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -5562,6 +6228,7 @@
     "type": "6"
   },
   "shaper_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_shaper_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -5726,6 +6393,15 @@
     },
     "recommendDomains": [],
     "rendererTemplateMap": {
+      "gas__0": {
+        "logisticBaseUnit": "pedestal+1_001_03x03_01",
+        "machineId": "shaper_1",
+        "machineLevel": "0",
+        "machineModeType": "gas",
+        "machineRenderId": "shaper_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03",
+        "suppressExternalDither": false
+      },
       "normal__0": {
         "logisticBaseUnit": "pedestal+1_001_03x03_01",
         "machineId": "shaper_1",
@@ -5739,7 +6415,66 @@
     "roadAttachSide": "0",
     "type": "6"
   },
+  "signboard_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "0",
+    "bgOnPanel": "",
+    "buildCamState": "Factory/CCS_Fac_Building_Small",
+    "canBatchModeTogglePower": false,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "normal__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "无论是心灵还是物质，毫无疑问，这代表着塔卫二最高程度的认可。",
+      "en": "Unquestionably the highest form of approval in Talos-II for both spiritual and material needs."
+    },
+    "iconOnPanel": "icon_port_decorate_1",
+    "id": "signboard_1",
+    "inputPorts": [],
+    "limitType": "0",
+    "liquidEnabled": false,
+    "markInfoId": "mark_bd_decorate_signboard_1",
+    "modelHeight": 1.3,
+    "name": {
+      "cn": "震撼美味！",
+      "en": "Shockingly Delish!"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "",
+    "range": {
+      "depth": "2",
+      "height": "2",
+      "width": "2",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [],
+    "rendererTemplateMap": {
+      "normal__0": {
+        "logisticBaseUnit": "",
+        "machineId": "signboard_1",
+        "machineLevel": "0",
+        "machineModeType": "normal",
+        "machineRenderId": "signboard_1",
+        "nonLogisticBaseUnit": "",
+        "suppressExternalDither": true
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "42"
+  },
   "soil_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5766,7 +6501,7 @@
       "cn": "",
       "en": ""
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -5797,6 +6532,7 @@
     "type": "15"
   },
   "soil_2": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5823,7 +6559,7 @@
       "cn": "",
       "en": ""
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -5854,6 +6590,7 @@
     "type": "15"
   },
   "soil_bbflower_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5880,7 +6617,7 @@
       "cn": "酮化灌木田块",
       "en": "Aketine Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -5911,6 +6648,7 @@
     "type": "15"
   },
   "soil_grass_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5937,7 +6675,7 @@
       "cn": "锦草田块",
       "en": "Jincao Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -5972,6 +6710,7 @@
     "type": "15"
   },
   "soil_grass_2": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -5998,7 +6737,7 @@
       "cn": "芽针田块",
       "en": "Yazhen Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6033,6 +6772,7 @@
     "type": "15"
   },
   "soil_grass_fast_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6059,7 +6799,7 @@
       "cn": "模拟锦草田块",
       "en": "Jincao Plot (SIM)"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6092,6 +6832,7 @@
     "type": "15"
   },
   "soil_grass_fast_2": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6118,7 +6859,7 @@
       "cn": "模拟芽针田块",
       "en": "Yazhen Plot (SIM)"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6151,6 +6892,7 @@
     "type": "15"
   },
   "soil_moss_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6177,7 +6919,7 @@
       "cn": "荞花田块",
       "en": "Buckflower Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6208,6 +6950,7 @@
     "type": "15"
   },
   "soil_moss_2": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6234,7 +6977,7 @@
       "cn": "柑实田块",
       "en": "Citrome Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6265,6 +7008,7 @@
     "type": "15"
   },
   "soil_moss_3": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6291,7 +7035,7 @@
       "cn": "砂叶田块",
       "en": "Sandleaf Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6322,6 +7066,7 @@
     "type": "15"
   },
   "soil_sp_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6348,7 +7093,7 @@
       "cn": "灰芦麦田块",
       "en": "Reed Rye Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6379,6 +7124,7 @@
     "type": "15"
   },
   "soil_sp_2": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6405,7 +7151,7 @@
       "cn": "苦叶椒田块",
       "en": "Tartpepper Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6436,6 +7182,7 @@
     "type": "15"
   },
   "soil_sp_3": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6462,7 +7209,7 @@
       "cn": "琼叶参田块",
       "en": "Redjade Ginseng Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6497,6 +7244,7 @@
     "type": "15"
   },
   "soil_sp_4": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6523,7 +7271,7 @@
       "cn": "金石稻田块",
       "en": "Amber Rice Plot"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6558,6 +7306,7 @@
     "type": "15"
   },
   "soil_sp_fast_3": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6584,7 +7333,7 @@
       "cn": "模拟琼叶参田块",
       "en": "Redjade Ginseng Plot (SIM)"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6617,6 +7366,7 @@
     "type": "15"
   },
   "soil_sp_fast_4": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_soil_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -6643,7 +7393,7 @@
       "cn": "模拟金石稻田块",
       "en": "Amber Rice Plot (SIM)"
     },
-    "needPower": true,
+    "needPower": false,
     "onlyShowOnMain": false,
     "outputPorts": [],
     "placeDomainLimitCnt": [],
@@ -6676,6 +7426,7 @@
     "type": "15"
   },
   "sp_hub_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -7075,6 +7826,7 @@
     "type": "1"
   },
   "sp_sub_hub_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -7501,6 +8253,7 @@
     "type": "22"
   },
   "squirter_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_squirter_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -7578,6 +8331,7 @@
     "type": "29"
   },
   "squirter_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_squirter_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -7655,6 +8409,7 @@
     "type": "29"
   },
   "storager_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_storager_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -7816,6 +8571,7 @@
     "type": "4"
   },
   "storager_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_storager_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -7977,6 +8733,7 @@
     "type": "4"
   },
   "thickener_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_thickener_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -8240,6 +8997,7 @@
     "type": "6"
   },
   "tools_assebling_mc_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_tools_asm_mc_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -8502,7 +9260,388 @@
     "roadAttachSide": "0",
     "type": "6"
   },
+  "transmuter_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_transmuter_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "gastrans__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "通过持续通入液化息壤激活，可以将物品的物质形态在气态和液态之间进行转化的设备。",
+      "en": "When activated by a steady input of Liquid Xiranite, this facility can transmute fluid materials into gas, and vice versa."
+    },
+    "iconOnPanel": "icon_port_transmuter_1",
+    "id": "transmuter_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_transmuter_1",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "液气转化机",
+      "en": "Fluid-Gas Transmuting Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "50",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "gastrans__0": {
+        "logisticBaseUnit": "",
+        "machineId": "transmuter_1",
+        "machineLevel": "0",
+        "machineModeType": "gastrans",
+        "machineRenderId": "transmuter_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      },
+      "liquidtrans__0": {
+        "logisticBaseUnit": "",
+        "machineId": "transmuter_1",
+        "machineLevel": "0",
+        "machineModeType": "liquidtrans",
+        "machineRenderId": "transmuter_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "39"
+  },
+  "transmuter_2": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_transmuter_2",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "gastrans__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "通过持续通入息壤气激活，可以将物品的物质形态在气态和固态之间进行转化的设备。",
+      "en": "When activated by a steady input of Xiragen, this facility can transmute solid materials into gas, and vice versa."
+    },
+    "iconOnPanel": "icon_port_transmuter_2",
+    "id": "transmuter_2",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "2",
+            "y": "3",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "4",
+        "isOutput": "0",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "4"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_transmuter_2",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "固气转化机",
+      "en": "Solid-Gas Transmuting Unit"
+    },
+    "needPower": true,
+    "onlyShowOnMain": false,
+    "outputPorts": [
+      {
+        "index": "0",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "1",
+        "isOutput": "1",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "4",
+            "y": "3",
+            "z": "3"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "2",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "1",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      },
+      {
+        "index": "3",
+        "isOutput": "1",
+        "isPipe": false,
+        "trans": {
+          "position": {
+            "x": "3",
+            "y": "0",
+            "z": "0"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "180",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "50",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "5",
+      "height": "5",
+      "width": "5",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "gastrans__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_06",
+        "machineId": "transmuter_2",
+        "machineLevel": "0",
+        "machineModeType": "gastrans",
+        "machineRenderId": "transmuter_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      },
+      "solidtrans__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_05",
+        "machineId": "transmuter_2",
+        "machineLevel": "0",
+        "machineModeType": "solidtrans",
+        "machineRenderId": "transmuter_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "39"
+  },
   "travel_pole_1": {
+    "allowPlayerMove": true,
     "bandwidth": "3",
     "bgOnPanel": "bg_port_travel_pole_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8560,6 +9699,7 @@
     "type": "16"
   },
   "travel_pole_2": {
+    "allowPlayerMove": true,
     "bandwidth": "3",
     "bgOnPanel": "bg_port_travel_pole_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8617,6 +9757,7 @@
     "type": "16"
   },
   "travel_pole_nop_1": {
+    "allowPlayerMove": true,
     "bandwidth": "3",
     "bgOnPanel": "bg_port_travel_pole_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8674,6 +9815,7 @@
     "type": "16"
   },
   "udpipe_loader_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_udpipe_loader_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8751,6 +9893,7 @@
     "type": "33"
   },
   "udpipe_loader_2": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_udpipe_loader_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8845,6 +9988,7 @@
     "type": "33"
   },
   "udpipe_unloader_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_udpipe_unloader_1",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -8922,6 +10066,7 @@
     "type": "34"
   },
   "udpipe_unloader_2": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_udpipe_unloader_2",
     "buildCamState": "Factory/CCS_Fac_Building_Large",
@@ -9016,6 +10161,7 @@
     "type": "34"
   },
   "unloader_1": {
+    "allowPlayerMove": true,
     "bandwidth": "1",
     "bgOnPanel": "bg_port_unloader_1",
     "buildCamState": "Factory/CCS_Fac_Building_Small",
@@ -9091,6 +10237,7 @@
     "type": "11"
   },
   "v_fluid_container_1": {
+    "allowPlayerMove": true,
     "bandwidth": "0",
     "bgOnPanel": "bg_port_liquid_storager_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -9137,7 +10284,86 @@
     "roadAttachSide": "0",
     "type": "30"
   },
+  "vaporizer_1": {
+    "allowPlayerMove": true,
+    "bandwidth": "2",
+    "bgOnPanel": "bg_port_vaporizer_1",
+    "buildCamState": "Factory/CCS_Fac_Building_Large",
+    "canBatchModeTogglePower": true,
+    "canBatchSelect": true,
+    "canDelete": true,
+    "defaultRendererTemplate": "liquid__0",
+    "delConfirmText": {
+      "cn": "",
+      "en": ""
+    },
+    "desc": {
+      "cn": "可以将持续通入的气体散布到自身周围，从而改变周围环境状态的设备。",
+      "en": "A facility that can disperse a steady input of gas into the surroundings and change the gaseous environment around itself."
+    },
+    "iconOnPanel": "icon_port_vaporizer_1",
+    "id": "vaporizer_1",
+    "inputPorts": [
+      {
+        "index": "0",
+        "isOutput": "0",
+        "isPipe": true,
+        "trans": {
+          "position": {
+            "x": "0",
+            "y": "3",
+            "z": "1"
+          },
+          "rotation": {
+            "x": "0",
+            "y": "90",
+            "z": "0"
+          }
+        }
+      }
+    ],
+    "limitType": "0",
+    "liquidEnabled": true,
+    "markInfoId": "mark_bd_formula_vaporizer_1",
+    "modelHeight": 5.1,
+    "name": {
+      "cn": "气体散布机",
+      "en": "Gas Dispersing Unit"
+    },
+    "needPower": false,
+    "onlyShowOnMain": false,
+    "outputPorts": [],
+    "placeDomainLimitCnt": [],
+    "placeDomains": [],
+    "powerConsume": "0",
+    "quickBarType": "assemble_machine",
+    "range": {
+      "depth": "3",
+      "height": "5",
+      "width": "3",
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    },
+    "recommendDomains": [
+      "domain_2"
+    ],
+    "rendererTemplateMap": {
+      "liquid__0": {
+        "logisticBaseUnit": "",
+        "machineId": "vaporizer_1",
+        "machineLevel": "0",
+        "machineModeType": "liquid",
+        "machineRenderId": "vaporizer_1",
+        "nonLogisticBaseUnit": "pedestal+1_001_03x03_03",
+        "suppressExternalDither": false
+      }
+    },
+    "roadAttachSide": "0",
+    "type": "40"
+  },
   "winder_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_winder_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -9401,6 +10627,7 @@
     "type": "6"
   },
   "xiranite_oven_1": {
+    "allowPlayerMove": true,
     "bandwidth": "2",
     "bgOnPanel": "bg_port_xiranite_oven_1",
     "buildCamState": "Factory/CCS_Fac_Building_Medium",
@@ -9639,6 +10866,15 @@
       "domain_2"
     ],
     "rendererTemplateMap": {
+      "gasliquid__0": {
+        "logisticBaseUnit": "pedestal+1_001_05x05_01",
+        "machineId": "xiranite_oven_1",
+        "machineLevel": "0",
+        "machineModeType": "gasliquid",
+        "machineRenderId": "xiranite_oven_2",
+        "nonLogisticBaseUnit": "pedestal+1_001_05x05_03",
+        "suppressExternalDither": false
+      },
       "liquid__0": {
         "logisticBaseUnit": "pedestal+1_001_05x05_01",
         "machineId": "xiranite_oven_1",

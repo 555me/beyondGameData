@@ -3,6 +3,7 @@
     "modeMap": [
       {
         "groupName": "group_component_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -14,10 +15,17 @@
     "modeMap": [
       {
         "groupName": "group_dismantler_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
+      },
+      {
+        "groupName": "group_dismantler_gasliquid",
+        "isEnvMode": false,
+        "modeName": "gasliquid"
       }
     ],
     "modeUnlockDefaultMap": {
+      "gasliquid": false,
       "liquid": true
     }
   },
@@ -25,6 +33,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -36,6 +45,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -47,14 +57,22 @@
     "modeMap": [
       {
         "groupName": "group_filling_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       },
       {
         "groupName": "group_filling_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
+      },
+      {
+        "groupName": "group_filling_gasliquid",
+        "isEnvMode": false,
+        "modeName": "gasliquid"
       }
     ],
     "modeUnlockDefaultMap": {
+      "gasliquid": false,
       "liquid": false,
       "normal": true
     }
@@ -63,10 +81,12 @@
     "modeMap": [
       {
         "groupName": "group_furnance_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       },
       {
         "groupName": "group_furnance_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -79,6 +99,7 @@
     "modeMap": [
       {
         "groupName": "group_furnance_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -86,10 +107,47 @@
       "normal": true
     }
   },
+  "gas_pump_1": {
+    "modeMap": [
+      {
+        "groupName": "",
+        "isEnvMode": false,
+        "modeName": "gas"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gas": true
+    }
+  },
+  "gas_reactor_1": {
+    "modeMap": [
+      {
+        "groupName": "group_gas_reactor_gas",
+        "isEnvMode": true,
+        "modeName": "gas"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gas": true
+    }
+  },
+  "gas_storager_1": {
+    "modeMap": [
+      {
+        "groupName": "",
+        "isEnvMode": false,
+        "modeName": "gas"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gas": true
+    }
+  },
   "grinder_1": {
     "modeMap": [
       {
         "groupName": "group_grinder_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -101,6 +159,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -112,6 +171,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -123,10 +183,17 @@
     "modeMap": [
       {
         "groupName": "group_liquid_purifier_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
+      },
+      {
+        "groupName": "group_liquid_purifier_gas",
+        "isEnvMode": true,
+        "modeName": "gas"
       }
     ],
     "modeUnlockDefaultMap": {
+      "gas": false,
       "liquid": true
     }
   },
@@ -134,6 +201,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -145,6 +213,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -156,6 +225,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -167,6 +237,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -178,6 +249,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -189,6 +261,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -200,6 +273,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -211,6 +285,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -222,6 +297,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -233,6 +309,7 @@
     "modeMap": [
       {
         "groupName": "group_mix_pool_1_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -244,6 +321,7 @@
     "modeMap": [
       {
         "groupName": "group_mix_pool_2_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -255,10 +333,12 @@
     "modeMap": [
       {
         "groupName": "group_planter_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       },
       {
         "groupName": "group_planter_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -271,6 +351,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -282,6 +363,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -293,6 +375,7 @@
     "modeMap": [
       {
         "groupName": "group_seedcollector_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -304,10 +387,17 @@
     "modeMap": [
       {
         "groupName": "group_shaper_normal",
+        "isEnvMode": false,
         "modeName": "normal"
+      },
+      {
+        "groupName": "group_shaper_gas",
+        "isEnvMode": false,
+        "modeName": "gas"
       }
     ],
     "modeUnlockDefaultMap": {
+      "gas": false,
       "normal": true
     }
   },
@@ -315,6 +405,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -326,6 +417,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -337,6 +429,7 @@
     "modeMap": [
       {
         "groupName": "group_thickener_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -348,6 +441,7 @@
     "modeMap": [
       {
         "groupName": "group_tools_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -355,10 +449,47 @@
       "normal": true
     }
   },
+  "transmuter_1": {
+    "modeMap": [
+      {
+        "groupName": "group_transmuter_1_gastrans",
+        "isEnvMode": false,
+        "modeName": "gastrans"
+      },
+      {
+        "groupName": "group_transmuter_1_liquidtrans",
+        "isEnvMode": false,
+        "modeName": "liquidtrans"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gastrans": true,
+      "liquidtrans": true
+    }
+  },
+  "transmuter_2": {
+    "modeMap": [
+      {
+        "groupName": "group_transmuter_2_gastrans",
+        "isEnvMode": false,
+        "modeName": "gastrans"
+      },
+      {
+        "groupName": "group_transmuter_2_solidtrans",
+        "isEnvMode": false,
+        "modeName": "solidtrans"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gastrans": true,
+      "solidtrans": true
+    }
+  },
   "udpipe_loader_1": {
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -370,6 +501,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -381,6 +513,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -392,6 +525,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -403,6 +537,7 @@
     "modeMap": [
       {
         "groupName": "",
+        "isEnvMode": false,
         "modeName": "liquid"
       }
     ],
@@ -410,10 +545,23 @@
       "liquid": true
     }
   },
+  "vaporizer_1": {
+    "modeMap": [
+      {
+        "groupName": "",
+        "isEnvMode": false,
+        "modeName": "gas"
+      }
+    ],
+    "modeUnlockDefaultMap": {
+      "gas": true
+    }
+  },
   "winder_1": {
     "modeMap": [
       {
         "groupName": "group_winder_normal",
+        "isEnvMode": false,
         "modeName": "normal"
       }
     ],
@@ -425,10 +573,17 @@
     "modeMap": [
       {
         "groupName": "group_xiranite_oven_liquid",
+        "isEnvMode": false,
         "modeName": "liquid"
+      },
+      {
+        "groupName": "group_xiranite_oven_gasliquid",
+        "isEnvMode": true,
+        "modeName": "gasliquid"
       }
     ],
     "modeUnlockDefaultMap": {
+      "gasliquid": false,
       "liquid": true
     }
   }

@@ -81,11 +81,13 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [
           "Bilibili"
         ],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"ServerChannel\", \"equal\":\"Bilibili\"}\n]}"
       },
       "account_game_protocol_children_privacy": {
         "buttonGetStateFunction": "",
@@ -167,9 +169,11 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"}\n]}"
       },
       "account_game_protocol_personal_info_collection": {
         "buttonGetStateFunction": "",
@@ -251,9 +255,11 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateWebView"
+        "validateFunction": "ValidateWebView",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"},\n  {\"key\":\"ForbiddenWebView\", \"equal\":\"False\"}\n]}"
       },
       "account_game_protocol_privacy": {
         "buttonGetStateFunction": "",
@@ -335,9 +341,11 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"}\n]}"
       },
       "account_game_protocol_privacy_oversea": {
         "buttonGetStateFunction": "",
@@ -419,9 +427,11 @@
         "validRegions": [
           "Oversea"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"Oversea\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"}\n]}"
       },
       "account_game_protocol_service": {
         "buttonGetStateFunction": "",
@@ -503,9 +513,11 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"}\n]}"
       },
       "account_game_protocol_service_oversea": {
         "buttonGetStateFunction": "",
@@ -587,9 +599,11 @@
         "validRegions": [
           "Oversea"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"Oversea\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"}\n]}"
       },
       "account_game_protocol_third_party_shared_info": {
         "buttonGetStateFunction": "",
@@ -671,9 +685,11 @@
         "validRegions": [
           "China"
         ],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateWebView"
+        "validateFunction": "ValidateWebView",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Region\", \"equal\":\"China\"},\n  {\"key\":\"GameState\", \"equal\":\"Main\"},\n  {\"key\":\"ForbiddenWebView\", \"equal\":\"False\"}\n]}"
       },
       "account_gift_code": {
         "buttonGetStateFunction": "",
@@ -753,9 +769,11 @@
         ],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateCDK"
+        "validateFunction": "ValidateCDK",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"GameState\", \"equal\":\"Main\"},\n  {\"key\":\"ForbiddenCDK\", \"equal\":\"False\"}\n]}"
       },
       "account_goto_account_center": {
         "buttonGetStateFunction": "",
@@ -833,11 +851,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [
           "Official"
         ],
         "validUserPlatform": [],
-        "validateFunction": "ValidateWebView"
+        "validateFunction": "ValidateWebView",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"ServerChannel\", \"equal\":\"Official\"},\n  {\"key\":\"ForbiddenWebView\", \"equal\":\"False\"}\n]}"
       },
       "account_goto_customer_service_center": {
         "buttonGetStateFunction": "",
@@ -915,11 +935,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [
           "Official"
         ],
         "validUserPlatform": [],
-        "validateFunction": "ValidateWebView"
+        "validateFunction": "ValidateWebView",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"ServerChannel\", \"equal\":\"Official\"},\n  {\"key\":\"ForbiddenWebView\", \"equal\":\"False\"}\n]}"
       },
       "account_psn_only": {
         "buttonGetStateFunction": "",
@@ -995,11 +1017,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"UserPlatform\", \"in\":[\"PS5\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "PS5"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -1012,7 +1036,8 @@
     "validGameStates": [],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": "ValidateAccount"
+    "validateFunction": "ValidateAccount",
+    "visibleRuleJson": "{\"key\":\"ForbiddenAccountPage\", \"equal\":\"False\"}"
   },
   "gameSetting_audio": {
     "tabIcon": "audio",
@@ -1092,11 +1117,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"and\":[\n  {\"key\":\"Platform\", \"in\":[\"IPhonePlayer\"]},\n  {\"key\":\"Auditing\", \"equal\":\"True\"}\n]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer"
         ],
-        "validateFunction": "ValidateBackgroundMusic"
+        "validateFunction": "ValidateBackgroundMusic",
+        "visibleRuleJson": ""
       },
       "audio_controller": {
         "buttonGetStateFunction": "",
@@ -1172,12 +1199,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer",
           "PS5"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_global": {
         "buttonGetStateFunction": "",
@@ -1261,9 +1290,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_music": {
         "buttonGetStateFunction": "",
@@ -1347,9 +1378,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_sfx": {
         "buttonGetStateFunction": "",
@@ -1433,9 +1466,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_spatial": {
         "buttonGetStateFunction": "",
@@ -1511,9 +1546,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"CloudGame\", \"equal\":\"False\"}",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_suite_mode": {
         "buttonGetStateFunction": "",
@@ -1616,11 +1653,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_suspend_unfocused": {
         "buttonGetStateFunction": "",
@@ -1696,11 +1735,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "audio_voice": {
         "buttonGetStateFunction": "",
@@ -1784,9 +1825,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -1799,7 +1842,8 @@
     "validGameStates": [],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": ""
+    "validateFunction": "",
+    "visibleRuleJson": ""
   },
   "gameSetting_controller": {
     "tabIcon": "controller",
@@ -1881,9 +1925,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "camera_impulse_level": {
         "buttonGetStateFunction": "",
@@ -1986,9 +2032,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "combo_skill_camera_alpha": {
         "buttonGetStateFunction": "",
@@ -2091,9 +2139,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_auto_lock_target_diff": {
         "buttonGetStateFunction": "",
@@ -2196,9 +2246,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_auto_sprint": {
         "buttonGetStateFunction": "",
@@ -2274,12 +2326,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"UserPlatform\", \"in\":[\"IPhonePlayer\", \"Android\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_camera_reverse_x": {
         "buttonGetStateFunction": "",
@@ -2355,9 +2409,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_camera_reverse_y": {
         "buttonGetStateFunction": "",
@@ -2433,9 +2489,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_camera_speed_x": {
         "buttonGetStateFunction": "",
@@ -2513,9 +2571,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_camera_speed_y": {
         "buttonGetStateFunction": "",
@@ -2593,9 +2653,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_camera_top_view_speed": {
         "buttonGetStateFunction": "",
@@ -2673,9 +2735,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_enable_auto_attack_touch": {
         "buttonGetStateFunction": "",
@@ -2751,12 +2815,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"UserPlatform\", \"in\":[\"IPhonePlayer\", \"Android\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_get_unstuck": {
         "buttonGetStateFunction": "",
@@ -2834,9 +2900,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_goto_hud_layout": {
         "buttonGetStateFunction": "",
@@ -2914,12 +2982,228 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": "ValidateHudLayout"
+        "validateFunction": "ValidateHudLayout",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"UserPlatform\", \"in\":[\"IPhonePlayer\", \"Android\"]},\n  {\"key\":\"InputType\", \"not_equal\":\"Controller\"}\n]}"
+      },
+      "controller_lock_target_start_priority": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [
+          {
+            "cn": "默认",
+            "en": "Default"
+          },
+          {
+            "cn": "高级敌人优先",
+            "en": "Prioritize Elite Enemies"
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "1"
+          ],
+          "valueIntList": [
+            "1"
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "controller_lock_target_start_priority",
+        "settingItemType": "0",
+        "settingRedDot": "",
+        "settingSortOrder": "860",
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "cn": "主动锁定目标",
+          "en": "Active Target Lock-on"
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": "0",
+        "sliderStepValue": "1",
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
+      },
+      "controller_mark_target_rule": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [
+          {
+            "cn": "默认",
+            "en": "Default"
+          },
+          {
+            "cn": "移动输入方向优先",
+            "en": "Prioritize by movement input"
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "1"
+          ],
+          "valueIntList": [
+            "1"
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "controller_mark_target_rule",
+        "settingItemType": "0",
+        "settingRedDot": "",
+        "settingSortOrder": "840",
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "cn": "辅助选择目标",
+          "en": "Assisted Target Selection"
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": "0",
+        "sliderStepValue": "1",
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_motion": {
         "buttonGetStateFunction": "",
@@ -2995,9 +3279,118 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"not\":{\"and\":[\n  {\"key\":\"CloudGame\", \"equal\":\"True\"},\n  {\"key\":\"InputType\", \"equal\":\"Touch\"}\n]}}"
+      },
+      "controller_skill_cast_target": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [
+          {
+            "cn": "满足技能条件的目标优先",
+            "en": "Prioritize targets that fulfill skill criteria"
+          },
+          {
+            "cn": "主动锁定目标优先，其次满足技能条件的目标优先",
+            "en": "Prioritize hard-locked target, then targets that fulfill skill criteria"
+          },
+          {
+            "cn": "主动锁定目标优先，其次辅助选择目标优先",
+            "en": "Prioritize hard-locked target, then assist-selected target"
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "1"
+          ],
+          "valueIntList": [
+            "1"
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "controller_skill_cast_target",
+        "settingItemType": "0",
+        "settingRedDot": "",
+        "settingSortOrder": "820",
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "cn": "技能优先攻击目标",
+          "en": "Skill Attack Targeting Priority"
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": "0",
+        "sliderStepValue": "1",
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_trigger_effect": {
         "buttonGetStateFunction": "",
@@ -3073,12 +3466,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer",
           "PS5"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "controller_walk_run_ratio": {
         "buttonGetStateFunction": "",
@@ -3156,9 +3551,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -3173,7 +3570,8 @@
     ],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": "ValidateController"
+    "validateFunction": "ValidateController",
+    "visibleRuleJson": "{\"key\":\"GameState\", \"in\":[\"Main\"]}"
   },
   "gameSetting_gamepad": {
     "tabIcon": "gamepad",
@@ -3253,9 +3651,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "gamepad_enable_ultimate_mode_2": {
         "buttonGetStateFunction": "",
@@ -3331,9 +3731,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -3350,7 +3752,8 @@
       "Controller"
     ],
     "validPlatform": [],
-    "validateFunction": "ValidateGamepad"
+    "validateFunction": "ValidateGamepad",
+    "visibleRuleJson": "{\"and\":[\n  {\"key\":\"InputType\", \"equal\":\"Controller\"},\n  {\"key\":\"GameState\", \"in\":[\"Main\"]}\n]}"
   },
   "gameSetting_key_hint": {
     "tabIcon": "key",
@@ -3438,9 +3841,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_camera_lock": {
         "buttonGetStateFunction": "",
@@ -3524,9 +3929,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_skill_1": {
         "buttonGetStateFunction": "",
@@ -3611,9 +4018,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_skill_2": {
         "buttonGetStateFunction": "",
@@ -3698,9 +4107,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_skill_3": {
         "buttonGetStateFunction": "",
@@ -3785,9 +4196,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_skill_4": {
         "buttonGetStateFunction": "",
@@ -3872,9 +4285,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_ultimate_1": {
         "buttonGetStateFunction": "",
@@ -3960,9 +4375,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_ultimate_2": {
         "buttonGetStateFunction": "",
@@ -4048,9 +4465,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_ultimate_3": {
         "buttonGetStateFunction": "",
@@ -4136,9 +4555,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_char_ultimate_4": {
         "buttonGetStateFunction": "",
@@ -4224,9 +4645,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_skill_combo": {
         "buttonGetStateFunction": "",
@@ -4308,9 +4731,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_char_1": {
         "buttonGetStateFunction": "",
@@ -4392,9 +4817,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_char_2": {
         "buttonGetStateFunction": "",
@@ -4476,9 +4903,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_char_3": {
         "buttonGetStateFunction": "",
@@ -4560,9 +4989,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_char_4": {
         "buttonGetStateFunction": "",
@@ -4644,9 +5075,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_char_next": {
         "buttonGetStateFunction": "",
@@ -4728,9 +5161,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_battle_switch_lock_target": {
         "buttonGetStateFunction": "",
@@ -4811,9 +5246,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_adventure_book": {
         "buttonGetStateFunction": "",
@@ -4896,9 +5333,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_char": {
         "buttonGetStateFunction": "",
@@ -4982,9 +5421,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_gacha": {
         "buttonGetStateFunction": "",
@@ -5067,9 +5508,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_general_ability": {
         "buttonGetStateFunction": "",
@@ -5156,9 +5599,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_general_ability_shortcut_wheel": {
         "buttonGetStateFunction": "",
@@ -5245,9 +5690,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_interact": {
         "buttonGetStateFunction": "",
@@ -5332,9 +5779,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_inventory": {
         "buttonGetStateFunction": "",
@@ -5418,9 +5867,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_jump": {
         "buttonGetStateFunction": "",
@@ -5503,9 +5954,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_mail": {
         "buttonGetStateFunction": "",
@@ -5588,9 +6041,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_map": {
         "buttonGetStateFunction": "",
@@ -5674,9 +6129,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_mission": {
         "buttonGetStateFunction": "",
@@ -5760,9 +6217,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_move": {
         "buttonGetStateFunction": "",
@@ -5843,9 +6302,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_sns": {
         "buttonGetStateFunction": "",
@@ -5929,9 +6390,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_sprint": {
         "buttonGetStateFunction": "",
@@ -6016,9 +6479,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_switch_mode": {
         "buttonGetStateFunction": "",
@@ -6101,9 +6566,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_team": {
         "buttonGetStateFunction": "",
@@ -6187,9 +6654,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_track_mission": {
         "buttonGetStateFunction": "",
@@ -6272,9 +6741,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_valuable_depot": {
         "buttonGetStateFunction": "",
@@ -6357,9 +6828,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_walk": {
         "buttonGetStateFunction": "",
@@ -6442,9 +6915,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_common_watch": {
         "buttonGetStateFunction": "",
@@ -6527,9 +7002,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_backup_power": {
         "buttonGetStateFunction": "",
@@ -6611,9 +7088,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_blueprint": {
         "buttonGetStateFunction": "",
@@ -6695,9 +7174,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_conveyer_belt": {
         "buttonGetStateFunction": "",
@@ -6779,9 +7260,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_device_list": {
         "buttonGetStateFunction": "",
@@ -6864,9 +7347,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_dismantle_mode": {
         "buttonGetStateFunction": "",
@@ -6949,9 +7434,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_domain_report": {
         "buttonGetStateFunction": "",
@@ -7033,9 +7520,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_hud_data": {
         "buttonGetStateFunction": "",
@@ -7118,9 +7607,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_pipe": {
         "buttonGetStateFunction": "",
@@ -7202,9 +7693,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_switch_device_icon_display": {
         "buttonGetStateFunction": "",
@@ -7286,9 +7779,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_switch_view_mode": {
         "buttonGetStateFunction": "",
@@ -7371,9 +7866,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "key_factory_tech_tree": {
         "buttonGetStateFunction": "",
@@ -7456,9 +7953,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "LeaveSettingTab_KeyHint",
@@ -7477,7 +7976,8 @@
     "validPlatform": [
       "WindowsPlayer"
     ],
-    "validateFunction": "ValidateKeyHint"
+    "validateFunction": "ValidateKeyHint",
+    "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Platform\", \"in\":[\"WindowsPlayer\"]},\n  {\"key\":\"InputType\", \"equal\":\"Keyboard\"},\n  {\"key\":\"GameState\", \"in\":[\"Main\"]}\n]}"
   },
   "gameSetting_language": {
     "tabIcon": "language",
@@ -7584,11 +8084,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"UserPlatform\", \"in\":[\"WindowsPlayer\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer"
         ],
-        "validateFunction": "ValidateIsKeyboard"
+        "validateFunction": "ValidateIsKeyboard",
+        "visibleRuleJson": "{\"key\":\"InputType\", \"equal\":\"Keyboard\"}"
       },
       "language_audio": {
         "buttonGetStateFunction": "",
@@ -7691,9 +8193,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "language_audio_manage": {
         "buttonGetStateFunction": "",
@@ -7774,9 +8278,11 @@
           "Android"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Platform\", \"in\":[\"IPhonePlayer\", \"Android\", \"WindowsPlayer\"]},\n  {\"key\":\"CloudGame\", \"equal\":\"False\"}\n]}"
       },
       "language_text_change": {
         "buttonGetStateFunction": "",
@@ -7879,9 +8385,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateLanguageTextChangeSetting"
+        "validateFunction": "ValidateLanguageTextChangeSetting",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -7894,7 +8402,8 @@
     "validGameStates": [],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": "ValidateLanguage"
+    "validateFunction": "ValidateLanguage",
+    "visibleRuleJson": ""
   },
   "gameSetting_other": {
     "tabIcon": "other",
@@ -7974,11 +8483,13 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"UserPlatform\", \"in\":[\"WindowsPlayer\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "WindowsPlayer"
         ],
-        "validateFunction": "ValidateIsKeyboard"
+        "validateFunction": "ValidateIsKeyboard",
+        "visibleRuleJson": "{\"key\":\"InputType\", \"equal\":\"Keyboard\"}"
       },
       "other_show_smart_alert": {
         "buttonGetStateFunction": "",
@@ -8054,9 +8565,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "stamina_drug_expire": {
         "buttonGetStateFunction": "",
@@ -8132,12 +8645,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"Platform\", \"in\":[\"IPhonePlayer\", \"Android\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       },
       "stamina_recover": {
         "buttonGetStateFunction": "",
@@ -8213,12 +8728,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "{\"key\":\"Platform\", \"in\":[\"IPhonePlayer\", \"Android\"]}",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": ""
+        "validateFunction": "",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -8233,12 +8750,202 @@
     ],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": "ValidateOther"
+    "validateFunction": "ValidateOther",
+    "visibleRuleJson": "{\"key\":\"GameState\", \"in\":[\"Main\"]}"
   },
   "gameSetting_video": {
     "tabIcon": "video",
     "tabId": "gameSetting_video",
     "tabItems": {
+      "teammate_skill_effect_opacity": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "1"
+          ],
+          "valueIntList": [
+            "1"
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "teammate_skill_effect_opacity",
+        "settingItemType": "1",
+        "settingRedDot": "",
+        "settingSortOrder": "1022",
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "cn": "队友技能特效不透明度",
+          "en": "Teammate Skill Effects Opacity"
+        },
+        "sliderIconList": [],
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": [],
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": 0.1,
+        "sliderStepValue": 0.1,
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
+      },
+      "teammate_skill_effect_strength": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [
+          {
+            "cn": "高",
+            "en": "High"
+          },
+          {
+            "cn": "中",
+            "en": "Medium"
+          },
+          {
+            "cn": "低",
+            "en": "Low"
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          },
+          {
+            "cn": "",
+            "en": ""
+          }
+        ],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "1"
+          ],
+          "valueIntList": [
+            "1"
+          ],
+          "valueStringList": [
+            "1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "teammate_skill_effect_strength",
+        "settingItemType": "0",
+        "settingRedDot": "",
+        "settingSortOrder": "1021",
+        "settingTabId": "gameSetting_video",
+        "settingText": {
+          "cn": "队友技能特效质量",
+          "en": "Teammate Skill Effects Quality"
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": "0",
+        "sliderStepValue": "1",
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "",
+        "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
+      },
       "video_full_screen": {
         "buttonGetStateFunction": "",
         "buttonIcon": "",
@@ -8283,7 +8990,7 @@
         "settingId": "video_full_screen",
         "settingItemType": "3",
         "settingRedDot": "",
-        "settingSortOrder": "2",
+        "settingSortOrder": "110",
         "settingTabId": "gameSetting_video",
         "settingText": {
           "cn": "显示模式",
@@ -8315,9 +9022,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateVideoFullScreen"
+        "validateFunction": "ValidateVideoFullScreen",
+        "visibleRuleJson": ""
       },
       "video_notch_padding": {
         "buttonGetStateFunction": "",
@@ -8365,7 +9074,7 @@
         "settingId": "video_notch_padding",
         "settingItemType": "1",
         "settingRedDot": "",
-        "settingSortOrder": "7",
+        "settingSortOrder": "120",
         "settingTabId": "gameSetting_video",
         "settingText": {
           "cn": "自定义边距",
@@ -8395,12 +9104,14 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [
           "IPhonePlayer",
           "Android"
         ],
-        "validateFunction": "ValidateVideoNotchPadding"
+        "validateFunction": "ValidateVideoNotchPadding",
+        "visibleRuleJson": ""
       },
       "video_quality_main": {
         "buttonGetStateFunction": "",
@@ -8473,7 +9184,7 @@
         "settingId": "video_quality_main",
         "settingItemType": "0",
         "settingRedDot": "",
-        "settingSortOrder": "1",
+        "settingSortOrder": "100",
         "settingTabId": "gameSetting_video",
         "settingText": {
           "cn": "画面质量",
@@ -8503,9 +9214,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateVideoQualityMainSetting"
+        "validateFunction": "ValidateVideoQualityMainSetting",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Platform\", \"not_in\":[\"PS5\"]},\n  {\"key\":\"CloudGame\", \"equal\":\"False\"}\n]}"
       },
       "video_quality_main_ps": {
         "buttonGetStateFunction": "",
@@ -8578,7 +9291,7 @@
         "settingId": "video_quality_main_ps",
         "settingItemType": "0",
         "settingRedDot": "",
-        "settingSortOrder": "1",
+        "settingSortOrder": "100",
         "settingTabId": "gameSetting_video",
         "settingText": {
           "cn": "画面质量",
@@ -8610,9 +9323,11 @@
           "PS5"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidatePSVideoQualityMainSetting"
+        "validateFunction": "ValidatePSVideoQualityMainSetting",
+        "visibleRuleJson": "{\"and\":[\n  {\"key\":\"Platform\", \"in\":[\"PS5\"]},\n  {\"key\":\"CloudGame\", \"equal\":\"False\"}\n]}"
       },
       "video_resolution": {
         "buttonGetStateFunction": "",
@@ -8685,7 +9400,7 @@
         "settingId": "video_resolution",
         "settingItemType": "0",
         "settingRedDot": "",
-        "settingSortOrder": "3",
+        "settingSortOrder": "111",
         "settingTabId": "gameSetting_video",
         "settingText": {
           "cn": "分辨率",
@@ -8717,9 +9432,11 @@
           "WindowsPlayer"
         ],
         "validRegions": [],
+        "validRuleJson": "",
         "validServerChannels": [],
         "validUserPlatform": [],
-        "validateFunction": "ValidateVideoResolution"
+        "validateFunction": "ValidateVideoResolution",
+        "visibleRuleJson": ""
       }
     },
     "tabLeaveFunction": "",
@@ -8732,6 +9449,7 @@
     "validGameStates": [],
     "validInputTypes": [],
     "validPlatform": [],
-    "validateFunction": ""
+    "validateFunction": "",
+    "visibleRuleJson": ""
   }
 }
