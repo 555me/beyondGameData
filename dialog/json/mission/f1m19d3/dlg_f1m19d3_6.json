@@ -2317,6 +2317,12 @@
         },
         {
             "_transitionData": {
+                "forceChangeLoadingCenter": true,
+                "overrideLoadingPos": {
+                    "x": 72.67,
+                    "y": 7.64,
+                    "z": -186.54
+                },
                 "streamLoadMaskBlendData": {
                     "audioBlackScreenBehaviour": {
                         "customRetainFlags": 2
@@ -2591,9 +2597,11 @@
                     "delay": 0.0,
                     "actionEnum": 51
                 },
+                "useOverrideLoadingPos": true,
                 "overrideLoadingPos": {
-                    "x": -172.0,
-                    "z": -103.0
+                    "x": 72.67,
+                    "y": 7.64,
+                    "z": -186.54
                 },
                 "teleportAllEntityActData": {
                     "actorPosList": []
@@ -2788,6 +2796,12 @@
                     "actorIndex": 3,
                     "delay": 0.0
                 },
+                "useOverrideLoadingPos": true,
+                "overrideLoadingPos": {
+                    "x": 72.67,
+                    "y": 7.64,
+                    "z": -186.54
+                },
                 "teleportAllEntityActData": {
                     "actorPosList": []
                 },
@@ -2889,7 +2903,7 @@
             "additionalWidth": 207.0,
             "_position": {
                 "x": 5420.0,
-                "y": 200.0
+                "y": -60.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
             "$id": "18"
@@ -2967,6 +2981,7 @@
                     "delay": 0.0,
                     "actionEnum": 51
                 },
+                "useOverrideLoadingPos": true,
                 "teleportAllEntityActData": {
                     "overrideAllActorPos": true,
                     "actorPosList": [
@@ -6530,11 +6545,11 @@
                     "delay": 0.0,
                     "actionEnum": 51
                 },
-                "forceChangeLoadingCenter": true,
+                "useOverrideLoadingPos": true,
                 "overrideLoadingPos": {
-                    "x": -249.0,
-                    "y": 4.0,
-                    "z": 118.0
+                    "x": -158.08,
+                    "y": 3.98,
+                    "z": -225.49
                 },
                 "teleportAllEntityActData": {
                     "actorPosList": []
@@ -6692,6 +6707,155 @@
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
             "$id": "35"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_f1m19d3_6_013",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "overrideActorNameIdValue": "",
+                    "actorIndex": 3,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 3,
+                    "delay": 0.0
+                },
+                "useOverrideLoadingPos": true,
+                "overrideLoadingPos": {
+                    "x": -158.08,
+                    "y": 3.98,
+                    "z": -225.49
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 3,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "npc_gentleman_hsteacher_01"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_01"
+                        }
+                    },
+                    "actorIndex": 3
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 3
+                },
+                "useLookAt": true,
+                "lookAtActData": {
+                    "targetIndex": 0,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 3
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 3
+                },
+                "turnToActData": {
+                    "actorIndex": 3
+                },
+                "actions": [],
+                "actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "targetIndex": 3,
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 2,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            },
+                            {
+                                "targetIndex": 3,
+                                "emptyTargetDescriptor": {
+
+                                },
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 1,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            },
+                            {
+                                "targetIndex": 3,
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            }
+                        ]
+                    }
+                ],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 5420.0,
+                "y": 180.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "36"
         },
         {
             "_transitionData": {
@@ -6897,7 +7061,7 @@
                 "y": 460.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "36"
+            "$id": "37"
         },
         {
             "_actorNodeData": {
@@ -6969,11 +7133,11 @@
                     "delay": 0.0,
                     "actionEnum": 51
                 },
-                "forceChangeLoadingCenter": true,
+                "useOverrideLoadingPos": true,
                 "overrideLoadingPos": {
-                    "x": -309.0,
-                    "y": 8.0,
-                    "z": 102.0
+                    "x": -153.03,
+                    "y": 9.31,
+                    "z": -285.19
                 },
                 "teleportAllEntityActData": {
                     "actorPosList": []
@@ -7128,7 +7292,156 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "37"
+            "$id": "38"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_f1m19d3_6_013",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "overrideActorNameIdValue": "",
+                    "actorIndex": 3,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 3,
+                    "delay": 0.0
+                },
+                "useOverrideLoadingPos": true,
+                "overrideLoadingPos": {
+                    "x": -153.03,
+                    "y": 9.31,
+                    "z": -285.19
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 3,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "actorId": "npc_gentleman_hsteacher_01"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "npc_gentleman_hsteacher_01"
+                        }
+                    },
+                    "actorIndex": 3
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 3
+                },
+                "useLookAt": true,
+                "lookAtActData": {
+                    "targetIndex": 0,
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 3
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 3
+                },
+                "turnToActData": {
+                    "actorIndex": 3
+                },
+                "actions": [],
+                "actionGroups": [
+                    {
+                        "actions": [
+                            {
+                                "targetIndex": 3,
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 2,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            },
+                            {
+                                "targetIndex": 3,
+                                "emptyTargetDescriptor": {
+
+                                },
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 1,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            },
+                            {
+                                "targetIndex": 3,
+                                "lookAtDescriptor": {
+
+                                },
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogLookAtActData"
+                            }
+                        ]
+                    }
+                ],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": 5420.0,
+                "y": 400.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "39"
         },
         {
             "_actorNodeData": {
@@ -7205,7 +7518,7 @@
                 "y": 500.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "38"
+            "$id": "40"
         },
         {
             "_actorNodeData": {
@@ -7289,7 +7602,7 @@
                 "y": 500.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "39"
+            "$id": "41"
         },
         {
             "_actorNodeData": {
@@ -7367,7 +7680,7 @@
                 "y": 580.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "40"
+            "$id": "42"
         },
         {
             "_actorNodeData": {
@@ -7456,7 +7769,7 @@
                 "y": 580.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "41"
+            "$id": "43"
         },
         {
             "_actorNodeData": {
@@ -7545,7 +7858,7 @@
                 "y": 660.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "42"
+            "$id": "44"
         },
         {
             "_actorNodeData": {
@@ -7637,7 +7950,7 @@
                 "y": 660.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "43"
+            "$id": "45"
         },
         {
             "_actorNodeData": {
@@ -7716,7 +8029,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "44"
+            "$id": "46"
         },
         {
             "_actorNodeData": {
@@ -7795,7 +8108,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "45"
+            "$id": "47"
         },
         {
             "_actorNodeData": {
@@ -7874,7 +8187,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "46"
+            "$id": "48"
         },
         {
             "_actorNodeData": {
@@ -7953,7 +8266,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "47"
+            "$id": "49"
         },
         {
             "_actorNodeData": {
@@ -8032,7 +8345,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "48"
+            "$id": "50"
         },
         {
             "_actorNodeData": {
@@ -8111,7 +8424,7 @@
                 "y": 400.0
             },
             "$type": "Beyond.Gameplay.DialogTreeExActorNode",
-            "$id": "49"
+            "$id": "51"
         },
         {
             "_actorNodeData": {
@@ -8288,24 +8601,6 @@
                 "$ref": "1"
             },
             "_targetNode": {
-                "$ref": "38"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "1"
-            },
-            "_targetNode": {
-                "$ref": "39"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "1"
-            },
-            "_targetNode": {
                 "$ref": "40"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
@@ -8388,6 +8683,24 @@
             },
             "_targetNode": {
                 "$ref": "49"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "50"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "51"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -8540,7 +8853,7 @@
                 "$ref": "15"
             },
             "_targetNode": {
-                "$ref": "36"
+                "$ref": "37"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -8711,7 +9024,7 @@
                 "$ref": "35"
             },
             "_targetNode": {
-                "$ref": "18"
+                "$ref": "36"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -8720,7 +9033,7 @@
                 "$ref": "36"
             },
             "_targetNode": {
-                "$ref": "37"
+                "$ref": "19"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -8729,7 +9042,25 @@
                 "$ref": "37"
             },
             "_targetNode": {
-                "$ref": "18"
+                "$ref": "38"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "38"
+            },
+            "_targetNode": {
+                "$ref": "39"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "39"
+            },
+            "_targetNode": {
+                "$ref": "19"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         }

@@ -1,102 +1,4 @@
 {
-  "trackData": [
-    {
-      "$type": "Beyond.Gameplay.SubsequenceTrackData, Gameplay.Beyond",
-      "index": 0,
-      "trackType": 8,
-      "subDirectorPath": "Actor",
-      "subTracks": [
-        {
-          "$type": "Beyond.Gameplay.CommonMaskTrackData, Gameplay.Beyond",
-          "index": 0,
-          "trackType": 6,
-          "description": "CommonMask Track."
-        },
-        {
-          "$type": "Beyond.Gameplay.CinemachineTrackData, Gameplay.Beyond",
-          "index": 1,
-          "trackType": 5,
-          "description": "Cinemachine Track."
-        },
-        {
-          "$type": "Beyond.Gameplay.DialogSkeletalMorphTrackData, Gameplay.Beyond",
-          "index": 5,
-          "trackType": 13,
-          "description": "Timeline => dataHolder animTrack:npc_chr_0002_endminm",
-          "descriptor": {
-            "$type": "Beyond.Gameplay.CutsceneEntityDescriptor, Gameplay.Beyond",
-            "hierarchyParentPath": "Actor/offset/edminm",
-            "objectType": 2,
-            "entityId": "npc_chr_0002_endminm",
-            "avatarHash": 0,
-            "isModifyLodGroupObjectSizeScale": false,
-            "modifiedLodGroupObjectSizeScale": 1.0,
-            "modifiedLodGroupUsePlatformLODS": false
-          }
-        },
-        {
-          "$type": "Beyond.Gameplay.ActorAnimationTrackData, Gameplay.Beyond",
-          "index": 6,
-          "trackType": 1,
-          "description": "Timeline => dataHolder animTrack:npc_chr_0002_endminm",
-          "descriptor": {
-            "$type": "Beyond.Gameplay.CutsceneEntityDescriptor, Gameplay.Beyond",
-            "hierarchyParentPath": "Actor/offset/edminm",
-            "objectType": 2,
-            "entityId": "npc_chr_0002_endminm",
-            "avatarHash": 0,
-            "isModifyLodGroupObjectSizeScale": false,
-            "modifiedLodGroupObjectSizeScale": 1.0,
-            "modifiedLodGroupUsePlatformLODS": false
-          }
-        },
-        {
-          "$type": "Beyond.Gameplay.DialogMuteAutoBlinkTrackData, Gameplay.Beyond",
-          "index": 11,
-          "trackType": 15,
-          "description": "Timeline => dataHolder animTrack:npc_chr_0002_endminm",
-          "descriptor": {
-            "$type": "Beyond.Gameplay.CutsceneEntityDescriptor, Gameplay.Beyond",
-            "hierarchyParentPath": "Actor/offset/edminm",
-            "objectType": 2,
-            "entityId": "npc_chr_0002_endminm",
-            "avatarHash": 0,
-            "isModifyLodGroupObjectSizeScale": false,
-            "modifiedLodGroupObjectSizeScale": 1.0,
-            "modifiedLodGroupUsePlatformLODS": false
-          }
-        }
-      ]
-    },
-    {
-      "$type": "Beyond.Gameplay.SubsequenceTrackData, Gameplay.Beyond",
-      "index": 0,
-      "trackType": 8,
-      "subDirectorPath": "Audio",
-      "subTracks": []
-    },
-    {
-      "$type": "Beyond.Gameplay.SubsequenceTrackData, Gameplay.Beyond",
-      "index": 0,
-      "trackType": 8,
-      "subDirectorPath": "Effect",
-      "subTracks": []
-    },
-    {
-      "$type": "Beyond.Gameplay.SubsequenceTrackData, Gameplay.Beyond",
-      "index": 0,
-      "trackType": 8,
-      "subDirectorPath": "Light",
-      "subTracks": []
-    },
-    {
-      "$type": "Beyond.Gameplay.SubsequenceTrackData, Gameplay.Beyond",
-      "index": 0,
-      "trackType": 8,
-      "subDirectorPath": "Others",
-      "subTracks": []
-    }
-  ],
   "actors": [
     {
       "descriptor": {
@@ -114,9 +16,42 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
-        "shaderEmotionType": 1
+        "disableBipedIK": false,
+        "shaderEmotionType": 1,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "chr_0028_wulfa_postmodel"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "EarMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_wulfa_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     },
     {
       "descriptor": {
@@ -134,9 +69,34 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
-        "shaderEmotionType": 0
+        "disableBipedIK": false,
+        "shaderEmotionType": 0,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_endminf_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     },
     {
       "descriptor": {
@@ -154,9 +114,34 @@
         "useLogicAction": false,
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
-        "shaderEmotionType": 0
+        "disableBipedIK": false,
+        "shaderEmotionType": 0,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_common_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     }
   ],
   "audioEvents": [
@@ -193,7 +178,11 @@
   "beforeCutsceneMaskType": 1,
   "beforeMaskAudioBehaviour": {
     "presetBehaviour": 1,
-    "customRetainFlags": 2
+    "customRetainFlags": 2,
+    "isOverrideFadeInTime": false,
+    "overrideFadeInTimeSeconds": 0.0,
+    "isOverrideFadeOutTime": false,
+    "overrideFadeOutTimeSeconds": 0.0
   },
   "beforeCutsceneUseFadeOut": false,
   "beforeCutsceneFadeOutDuration": 0.5,
@@ -202,16 +191,26 @@
   "afterCutsceneMaskType": 1,
   "afterMaskAudioBehaviour": {
     "presetBehaviour": 1,
-    "customRetainFlags": 2
+    "customRetainFlags": 2,
+    "isOverrideFadeInTime": false,
+    "overrideFadeInTimeSeconds": 0.0,
+    "isOverrideFadeOutTime": false,
+    "overrideFadeOutTimeSeconds": 0.0
   },
   "afterCutsceneUseFadeOut": false,
   "afterCutsceneFadeOutDuration": 0.5,
   "skipType": 1,
+  "triggerPendingNotificationsOnSkip": false,
   "hideSquad": true,
   "isTransition": false,
   "isDitherFacBuilding": false,
   "hideInteractive": [],
   "hideDeco": [],
+  "npcVisibleRuleType": 0,
+  "npcBlackList": [],
+  "npcWhiteList": [],
+  "hideAllEnemies": false,
+  "hideAllAbilityEntities": true,
   "showDevWaterMark": false,
   "fadeInDuration": 0.0,
   "farCameraPosition": false,
@@ -222,6 +221,7 @@
   "preprocessEntityInSync": false,
   "disableKeepCameras": false,
   "noUIDispatch": false,
+  "noCrossFrameJob": false,
   "tagGroup": {
     "tags": [
       "狼妹线",

@@ -17,9 +17,33 @@
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "disableBipedIK": false,
-        "shaderEmotionType": 1
+        "shaderEmotionType": 1,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_camille_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     },
     {
       "descriptor": {
@@ -38,9 +62,37 @@
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "disableBipedIK": false,
-        "shaderEmotionType": 0
+        "shaderEmotionType": 0,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "chr_0003_endminf_postmodel/Root"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_endminf_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     },
     {
       "descriptor": {
@@ -59,9 +111,37 @@
         "useGachaLayer": false,
         "disablePassThroughRootMotion": false,
         "disableBipedIK": false,
-        "shaderEmotionType": 0
+        "shaderEmotionType": 0,
+        "isDowngrade": false
       },
-      "addonComponents": []
+      "addonComponents": [
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": ""
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "chr_0002_endminm_postmodel/Root"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex1"
+        },
+        {
+          "componentTypeName": "UnityEngine.Animator",
+          "gameObjectPath": "FacialMorphCtrlGO_Ex2"
+        },
+        {
+          "componentTypeName": "Beyond.Gameplay.View.EntityRenderHelper",
+          "gameObjectPath": "",
+          "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_common_asset.asset"
+        }
+      ],
+      "rendererMaterialOverrides": []
     }
   ],
   "audioEvents": [
@@ -128,11 +208,17 @@
   "afterCutsceneUseFadeOut": false,
   "afterCutsceneFadeOutDuration": 0.5,
   "skipType": 1,
+  "triggerPendingNotificationsOnSkip": false,
   "hideSquad": true,
   "isTransition": false,
   "isDitherFacBuilding": false,
   "hideInteractive": [],
   "hideDeco": [],
+  "npcVisibleRuleType": 0,
+  "npcBlackList": [],
+  "npcWhiteList": [],
+  "hideAllEnemies": false,
+  "hideAllAbilityEntities": true,
   "showDevWaterMark": false,
   "fadeInDuration": 0.0,
   "farCameraPosition": false,
