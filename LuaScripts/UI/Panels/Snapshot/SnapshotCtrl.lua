@@ -22,6 +22,7 @@ SnapshotCtrl.s_messages = HL.StaticField(HL.Table) << {
     [MessageConst.CLOSE_SNAPSHOT] = '_OnMsgCloseSnapshot',
     [MessageConst.SNAPSHOT_ACTION_FORCE_RESET] = '_OnActionForceReset',
     [MessageConst.ON_BATTLE_SQUAD_CHANGED] = '_OnBattleSquadChanged',
+    [MessageConst.ON_NEW_CLIENT_TEMP_SQUAD] = '_OnBattleSquadChanged',
     [MessageConst.ON_CHARACTER_DEAD] = '_OnCharacterDead',
     [MessageConst.ON_SCREEN_SIZE_CHANGED] = '_OnScreenSizeChanged',
     [MessageConst.ON_MAIN_CHARACTER_CHANGE_MOVE_MODE] = '_OnMainCharacterChangeMoveMode',
@@ -663,6 +664,11 @@ SnapshotCtrl._OnLateTick = HL.Method() << function(self)
         self:_CloseSelf(false, true)
     end
     
+
+    
+    if self:_IsAnySquadMemberAIScripted() then
+        self:_CloseSelf()
+    end
 end
 
 
@@ -4618,6 +4624,23 @@ SnapshotCtrl._IsCharHiddenByShowMode = HL.Method(HL.Number).Return(HL.Boolean) <
         return not cfg.showLeader
     end
     return not cfg.showTeamMate
+end
+
+
+SnapshotCtrl._IsAnySquadMemberAIScripted = HL.Method().Return(HL.Boolean) << function(self)
+    local members = GameInstance.player.squadManager.squadMembers
+    if members == nil then
+        return false
+    end
+    local scriptedMode = CS.Beyond.Gameplay.AI.CharacterAIModeType.Scripted
+    for i = 0, members.Count - 1 do
+        local entity = members[i]
+        local aiBrain = entity and entity.charAICom and entity.charAICom.aiBrain
+        if aiBrain ~= nil and aiBrain:IsInMode(scriptedMode) then
+            return true
+        end
+    end
+    return false
 end
 
 

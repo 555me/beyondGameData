@@ -1133,6 +1133,20 @@ config = {
         panels = {},
         isSimpleUIPhase = false,
         sceneVisible = true,
+        checkCanOpen = function(arg)
+            local members = GameInstance.player.squadManager.squadMembers
+            if members ~= nil then
+                local scriptedMode = CS.Beyond.Gameplay.AI.CharacterAIModeType.Scripted
+                for i = 0, members.Count - 1 do
+                    local entity = members[i]
+                    local aiBrain = entity and entity.charAICom and entity.charAICom.aiBrain
+                    if aiBrain ~= nil and aiBrain:IsInMode(scriptedMode) then
+                        return false, Language.LUA_GAME_MODE_FORBID_FACTORY_WATCH
+                    end
+                end
+            end
+            return true
+        end,
     },
     
     Friend = {
