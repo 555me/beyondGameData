@@ -1134,6 +1134,11 @@ config = {
         isSimpleUIPhase = false,
         sceneVisible = true,
         checkCanOpen = function(arg)
+            local mainCharacter = GameInstance.playerController.mainCharacter
+            if mainCharacter ~= nil and mainCharacter:HasTag(CS.Beyond.Gameplay.PredefinedTag.InDeathWater) then
+                return false, Language.LUA_GAME_MODE_FORBID_FACTORY_WATCH
+            end
+
             local members = GameInstance.player.squadManager.squadMembers
             if members ~= nil then
                 local scriptedMode = CS.Beyond.Gameplay.AI.CharacterAIModeType.Scripted
