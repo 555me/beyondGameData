@@ -4001,7 +4001,7 @@ local Config = {
                 return state, type
             end
             
-            if ActivityUtils.isNewActivityDayUnread(id) then
+            if not activity.isScratchCompleted then
                 return true, UIConst.RED_DOT_TYPE.Normal
             end
             return false
