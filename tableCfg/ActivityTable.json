@@ -281,6 +281,100 @@
     "timeId": "time_CharacterGuide_laevat",
     "type": "10"
   },
+  "CharacterGuide_liino": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "CharacterGuide_liino_unlock1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第一章 - 进程Ⅱ - 修缮进展",
+          "en": "Complete the main mission [Chapter Ⅰ Process Ⅱ: Remediation Progress]"
+        },
+        "jumpId": "jump_mission_main_chapter_1",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e1m10"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "环塔商会即将在四号谷地举办一场义演。你前往观摩，却听闻偶像梨诺意外失踪……",
+      "en": "The Talos-II General Chamber of Commerce is organizing a charity concert at Valley IV. You head over to watch the performance but hear that a popular idol named Liino has accidentally gone missing..."
+    },
+    "detailJumpId": "jump_mission_activity_CharacterGuide_liino",
+    "id": "CharacterGuide_liino",
+    "immediateClose": true,
+    "instructionId": "CharacterGuide_liino",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "如同流星飞越边界",
+      "en": "Like a Star Streaking Through the Boundaries"
+    },
+    "panelId": "ActivityCharacterGuideLine",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_CharacterGuide_liino",
+    "sortId": "3008",
+    "tabImg": "bg_activity_tab_char_guide_liino",
+    "tabImgColor": "#ab38fc",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_story"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_4_2",
+    "type": "10"
+  },
   "CharacterGuide_mifu": {
     "bgImg": "",
     "bgm": "",
@@ -988,6 +1082,41 @@
     "timeId": "time_special_1_4_1",
     "type": "9"
   },
+  "activity_char_trial_v1d4_2": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "id": "activity_char_trial_v1d4_2",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_chartrial_liino_overview",
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_liino",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_4_2",
+    "type": "9"
+  },
   "activity_checkin_1": {
     "bgImg": "",
     "bgm": "",
@@ -1196,6 +1325,41 @@
     ],
     "themeColor": "",
     "timeId": "time_special_1_0_1",
+    "type": "2"
+  },
+  "activity_checkin_liino": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取明耀晨星寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Bedazzling Dawnstar HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "id": "activity_checkin_liino",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_liino",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "name": {
+      "cn": "明耀晨星签到",
+      "en": "Bedazzling Dawnstar Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "3",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "8313",
+    "tabImg": "bg_activity_tab_char_sign_liino",
+    "tabImgColor": "#AB38FC",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_4_2",
     "type": "2"
   },
   "activity_checkin_lizhiyan": {
