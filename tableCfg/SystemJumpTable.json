@@ -12,6 +12,19 @@
     "phaseId": "",
     "preJumpId": ""
   },
+  "item_obtain_activity_checkin_parkour": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "活动-陵水渡秋签到",
+      "en": "Event: [Ridgeline Flows of Autumn Sign-In]"
+    },
+    "iconId": "icon_tips_activity",
+    "id": "item_obtain_activity_checkin_parkour",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_checkin_parkour\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
   "item_obtain_activity_checkin_universe": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -87,6 +100,19 @@
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_limited_formula_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_limited_formula_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
+  "item_obtain_activity_limited_formula_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "活动-集成援助·泡泡出击",
+      "en": "Event: [AIC Support: Chubby Lung Attacks]"
+    },
+    "iconId": "icon_tips_activity",
+    "id": "item_obtain_activity_limited_formula_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_limited_formula_2\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter",
     "preJumpId": ""
   },
@@ -178,6 +204,19 @@
     "iconId": "icon_tips_activity",
     "id": "item_obtain_activity_takestwo_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_takestwo_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
+  "item_obtain_activity_wuling_racing": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "活动-跑者运动会",
+      "en": "Event: [Runners' Steeplechase]"
+    },
+    "iconId": "icon_tips_activity",
+    "id": "item_obtain_activity_wuling_racing",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_parkour\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter",
     "preJumpId": ""
   },
@@ -558,6 +597,19 @@
     "phaseId": "Map",
     "preJumpId": ""
   },
+  "item_obtain_domain_shop_levelup_m2l4_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "512",
+    "desc": {
+      "cn": "首墩-物资调度终端达2级后解锁",
+      "en": "Marker Stone Stock Redistribution Terminal Lv.2"
+    },
+    "iconId": "icon_tips_domain_shop",
+    "id": "item_obtain_domain_shop_levelup_m2l4_2",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_p_domain_shopdomainshop_channel_map02_2\"\r\n}",
+    "phaseId": "Map",
+    "preJumpId": ""
+  },
   "item_obtain_domain_shop_m1l6_4": {
     "autoUseItemArg": true,
     "bindSystem": "512",
@@ -580,6 +632,19 @@
     },
     "iconId": "icon_tips_domain_shop",
     "id": "item_obtain_domain_shop_m2l1_2",
+    "phaseArgs": "{\r\n  \"domainId\": \"domain_2\",\r\n  \"shopId\": \"domainshop_page_com_map02\"\r\n}",
+    "phaseId": "ShopTrade",
+    "preJumpId": ""
+  },
+  "item_obtain_domain_shop_m2l4_2": {
+    "autoUseItemArg": true,
+    "bindSystem": "512",
+    "desc": {
+      "cn": "武陵-物资调度购买",
+      "en": "Purchase: Wuling Stock Redistribution"
+    },
+    "iconId": "icon_tips_domain_shop",
+    "id": "item_obtain_domain_shop_m2l4_2",
     "phaseArgs": "{\r\n  \"domainId\": \"domain_2\",\r\n  \"shopId\": \"domainshop_page_com_map02\"\r\n}",
     "phaseId": "ShopTrade",
     "preJumpId": ""
@@ -1070,7 +1135,7 @@
     "bindSystem": "55",
     "desc": {
       "cn": "击败碾骨撕裂牙兽有概率掉落",
-      "en": "Chance drop: Bonekrusher Ripptusks"
+      "en": "Chance Drop: Bonekrusher Ripptusks"
     },
     "iconId": "icon_tips_monster",
     "id": "item_obtain_eny_0050_hound",
@@ -1400,6 +1465,32 @@
     "iconId": "icon_tips_monster",
     "id": "item_obtain_eny_0123_klcap",
     "phaseArgs": "{\r\n  \"monsterId\": \"eny_0123_klcap\"\r\n}",
+    "phaseId": "Wiki",
+    "preJumpId": ""
+  },
+  "item_obtain_eny_0127_bigents": {
+    "autoUseItemArg": false,
+    "bindSystem": "55",
+    "desc": {
+      "cn": "击败徘徊树傀有概率掉落",
+      "en": "Chance Drop: Woodcraft Wanderer"
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_eny_0127_bigents",
+    "phaseArgs": "{\r\n  \"monsterId\": \"eny_0128_babyents\"\r\n}",
+    "phaseId": "Wiki",
+    "preJumpId": ""
+  },
+  "item_obtain_eny_0128_babyents": {
+    "autoUseItemArg": false,
+    "bindSystem": "55",
+    "desc": {
+      "cn": "击败虫体树傀有概率掉落",
+      "en": "Chance Drop: Woodcraft Slug"
+    },
+    "iconId": "icon_tips_monster",
+    "id": "item_obtain_eny_0128_babyents",
+    "phaseArgs": "{\r\n  \"monsterId\": \"eny_0129_slwood\"\r\n}",
     "phaseId": "Wiki",
     "preJumpId": ""
   },
@@ -2596,6 +2687,19 @@
     "iconId": "icon_tips_doodad",
     "id": "item_obtain_hdwk_item_drop_slimeml_1",
     "phaseArgs": "{\r\n  \"jumpItem\": \"item_drop_slimeml_1\"\r\n}",
+    "phaseId": "ManualCraftPopups",
+    "preJumpId": ""
+  },
+  "item_obtain_hdwk_item_drop_slwood_1": {
+    "autoUseItemArg": false,
+    "bindSystem": "10000000",
+    "desc": {
+      "cn": "收集足够数量<@obt.key>虫角嫩枝</>以解锁配方",
+      "en": "Gather <@obt.key>Slug Sprig</> to unlock formula"
+    },
+    "iconId": "icon_tips_doodad",
+    "id": "item_obtain_hdwk_item_drop_slwood_1",
+    "phaseArgs": "{\r\n  \"jumpItem\": \"item_drop_slwood_1\"\r\n}",
     "phaseId": "ManualCraftPopups",
     "preJumpId": ""
   },
@@ -5355,6 +5459,32 @@
     "phaseId": "SnapshotChallenge",
     "preJumpId": ""
   },
+  "jump_activity_guide_cedarforest_01": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_activity_guide_cedarforest_01",
+    "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c34m1\",\r\n    \"c34m2\",\r\n    \"c34m2d5\",\r\n    \"c34m3\",\r\n    \"c34m1d5\"\r\n  ]\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
+  "jump_activity_guide_cedarforest_02": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_activity_guide_cedarforest_02",
+    "phaseArgs": "{\r\n  \"levelId\": \"map02_lv009\"\r\n}",
+    "phaseId": "Map",
+    "preJumpId": ""
+  },
   "jump_activity_guide_northarea_01": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -5927,6 +6057,19 @@
     "phaseId": "ActivityCenter",
     "preJumpId": ""
   },
+  "jump_center_activity_char_trial_1_5_1": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_char_trial_1_5_1",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_char_trial_v1d5_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
   "jump_center_activity_char_trial_2": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -6070,6 +6213,19 @@
     "phaseId": "ActivityCenter",
     "preJumpId": ""
   },
+  "jump_center_activity_limited_formula_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_limited_formula_2",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_limited_formula_2\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
   "jump_center_activity_phototaking_carly_2": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -6184,6 +6340,19 @@
     "iconId": "",
     "id": "jump_center_activity_takestwo_1",
     "phaseArgs": "{\r\n  \"activityId\": \"activity_takestwo_1\",\r\n  \"gotoCenter\": true\r\n}",
+    "phaseId": "ActivityCenter",
+    "preJumpId": ""
+  },
+  "jump_center_activity_timelimited_typhoea_archery": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_center_activity_timelimited_typhoea_archery",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_timelimited_typhoea_archery\",\r\n  \"gotoCenter\": true\r\n}",
     "phaseId": "ActivityCenter",
     "preJumpId": ""
   },
@@ -6564,6 +6733,32 @@
     "phaseId": "AdventureBook",
     "preJumpId": ""
   },
+  "jump_dungeon_mini_boss_rush": {
+    "autoUseItemArg": false,
+    "bindSystem": "52",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_dungeon_mini_boss_rush",
+    "phaseArgs": "{\r\n  \"panelId\": \"AdventureDungeon\",\r\n  \"dungeonTab\": \"MiniBossRush\"\r\n}",
+    "phaseId": "AdventureBook",
+    "preJumpId": ""
+  },
+  "jump_dungeon_parkour_entry": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_dungeon_parkour_entry",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_parkour\"\r\n}",
+    "phaseId": "DungeonWulingParkourEntry",
+    "preJumpId": ""
+  },
   "jump_dungeon_special_resource": {
     "autoUseItemArg": false,
     "bindSystem": "52",
@@ -6912,6 +7107,32 @@
     "iconId": "",
     "id": "jump_gacha_lt_1_4_2",
     "phaseArgs": "{\r\n  \"poolId\": \"special_1_4_2\"\r\n}",
+    "phaseId": "GachaPool",
+    "preJumpId": ""
+  },
+  "jump_gacha_lt_1_5_1": {
+    "autoUseItemArg": false,
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_lt_1_5_1",
+    "phaseArgs": "{\r\n  \"poolId\": \"special_1_5_1\"\r\n}",
+    "phaseId": "GachaPool",
+    "preJumpId": ""
+  },
+  "jump_gacha_lt_1_5_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_gacha_lt_1_5_2",
+    "phaseArgs": "{\r\n  \"poolId\": \"rerun_chr_yvonne\"\r\n}",
     "phaseId": "GachaPool",
     "preJumpId": ""
   },
@@ -7292,6 +7513,19 @@
     "phaseId": "Map",
     "preJumpId": ""
   },
+  "jump_map02_lv009": {
+    "autoUseItemArg": false,
+    "bindSystem": "0",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_map02_lv009",
+    "phaseArgs": "{\r\n  \"levelId\": \"map02_lv009\"\r\n}",
+    "phaseId": "Map",
+    "preJumpId": ""
+  },
   "jump_map_camp_fire": {
     "autoUseItemArg": false,
     "bindSystem": "10000000",
@@ -7327,7 +7561,7 @@
     },
     "iconId": "",
     "id": "jump_map_domain_depot_inactive",
-    "phaseArgs": "{\r\n  \"templateId\": \"mark_p_domain_depot\",\r\n  \"active\": \"false\"\r\n}",
+    "phaseArgs": "{\r\n  \"templateId\": \"mark_p_domain_depot\",\r\n  \"active\": false\r\n}",
     "phaseId": "Map",
     "preJumpId": ""
   },
@@ -7565,6 +7799,19 @@
     "phaseId": "Map",
     "preJumpId": ""
   },
+  "jump_map_typhoea_archery": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_map_typhoea_archery",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_p_domain_typhoeaArcheryTYPHOEA_ARCHERY_INST_ID\"\r\n}",
+    "phaseId": "Map",
+    "preJumpId": ""
+  },
   "jump_mission_CharacterGuide": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -7656,6 +7903,19 @@
     "phaseId": "Mission",
     "preJumpId": ""
   },
+  "jump_mission_activity_CharacterGuide_typhoeus": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_CharacterGuide_typhoeus",
+    "phaseArgs": "{\r\n  \"autoSelectList\": [\r\n    \"c34m1\",\r\n    \"c34m2\",\r\n    \"c34m2d5\",\r\n    \"c34m3\",\r\n    \"c34m3d5\"\r\n  ]\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
   "jump_mission_activity_CharacterGuide_wolfgd": {
     "autoUseItemArg": false,
     "bindSystem": "1100",
@@ -7744,6 +8004,45 @@
     "iconId": "",
     "id": "jump_mission_activity_limited_formula_1_3",
     "phaseArgs": "{\r\n  \"autoSelect\": \"a1m8d3\"\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
+  "jump_mission_activity_limited_formula_2_1": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_limited_formula_2_1",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m16d1\"\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
+  "jump_mission_activity_limited_formula_2_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_limited_formula_2_2",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m16d2\"\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
+  "jump_mission_activity_limited_formula_2_3": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_activity_limited_formula_2_3",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m16d3\"\r\n}",
     "phaseId": "Mission",
     "preJumpId": ""
   },
@@ -8059,6 +8358,19 @@
     "phaseId": "Mission",
     "preJumpId": ""
   },
+  "jump_mission_parkour": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_parkour",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"a1m15\"\r\n}",
+    "phaseId": "Mission",
+    "preJumpId": ""
+  },
   "jump_mission_quest": {
     "autoUseItemArg": false,
     "bindSystem": "10000000",
@@ -8135,6 +8447,19 @@
     "id": "jump_mission_sm2l3m6_3",
     "phaseArgs": "{\r\n  \"id\": \"nar_digital_map02_11127_1\",\r\n  \"isFirstLvId\": false\r\n}",
     "phaseId": "PRTSStoryCollDetail",
+    "preJumpId": ""
+  },
+  "jump_mission_typhoea_archery": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_mission_typhoea_archery",
+    "phaseArgs": "{\r\n  \"autoSelect\": \"gm02m29\"\r\n}",
+    "phaseId": "Mission",
     "preJumpId": ""
   },
   "jump_mission_unlock_cleaning_1": {
@@ -8280,6 +8605,19 @@
     "phaseId": "PRTS",
     "preJumpId": ""
   },
+  "jump_research_gm02m27": {
+    "autoUseItemArg": false,
+    "bindSystem": "56",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_research_gm02m27",
+    "phaseArgs": "{\r\n  \"id\": \"research_gm02m27\"\r\n}",
+    "phaseId": "PRTSInvestigateDetail",
+    "preJumpId": ""
+  },
   "jump_scne_grade": {
     "autoUseItemArg": false,
     "bindSystem": "501",
@@ -8341,6 +8679,19 @@
     },
     "iconId": "",
     "id": "jump_settlement_activity_limited_formula_1",
+    "phaseArgs": "{\r\n  \"domainId\": \"domain_2\"\r\n}",
+    "phaseId": "SettlementMain",
+    "preJumpId": ""
+  },
+  "jump_settlement_activity_limited_formula_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_settlement_activity_limited_formula_2",
     "phaseArgs": "{\r\n  \"domainId\": \"domain_2\"\r\n}",
     "phaseId": "SettlementMain",
     "preJumpId": ""
@@ -9177,6 +9528,19 @@
     "phaseId": "Map",
     "preJumpId": ""
   },
+  "jump_task_typhoea_archery": {
+    "autoUseItemArg": false,
+    "bindSystem": "1100",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_task_typhoea_archery",
+    "phaseArgs": "{\r\n  \"activityId\": \"activity_timelimited_typhoea_archery\",\r\n  \"widgetPath\": \"TyphoeaArcheryTaskInfo\",\r\n  \"forcedRewardCellCount\": 3\r\n}",
+    "phaseId": "ActivityCommonTask",
+    "preJumpId": ""
+  },
   "jump_train_basic": {
     "autoUseItemArg": false,
     "bindSystem": "602",
@@ -9359,6 +9723,32 @@
     "phaseId": "CashShop",
     "preJumpId": ""
   },
+  "jump_weapon_gacha_lt_1_5_1": {
+    "autoUseItemArg": false,
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_weapon_gacha_lt_1_5_1",
+    "phaseArgs": "{\r\n  \"shopGroupId\": \"shop_pay_weapon\",\r\n  \"goodsId\": \"shop_weponbox_1_5_1\"\r\n}",
+    "phaseId": "CashShop",
+    "preJumpId": ""
+  },
+  "jump_weapon_gacha_lt_1_5_2": {
+    "autoUseItemArg": false,
+    "bindSystem": "51",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_weapon_gacha_lt_1_5_2",
+    "phaseArgs": "{\r\n  \"shopGroupId\": \"shop_pay_weapon\",\r\n  \"goodsId\": \"shop_weponbox_yvonne\"\r\n}",
+    "phaseId": "CashShop",
+    "preJumpId": ""
+  },
   "jump_weapon_gacha_lt_2": {
     "autoUseItemArg": false,
     "bindSystem": "51",
@@ -9424,6 +9814,19 @@
     "phaseId": "Wiki",
     "preJumpId": ""
   },
+  "jump_wiki_item_activity_xiranite_lung": {
+    "autoUseItemArg": false,
+    "bindSystem": "55",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_wiki_item_activity_xiranite_lung",
+    "phaseArgs": "{\r\n  \"itemId\": \"item_activity_xiranite_lung\"\r\n}",
+    "phaseId": "Wiki",
+    "preJumpId": ""
+  },
   "jump_wiki_item_copper_cmpt": {
     "autoUseItemArg": false,
     "bindSystem": "55",
@@ -9434,6 +9837,19 @@
     "iconId": "",
     "id": "jump_wiki_item_copper_cmpt",
     "phaseArgs": "{\r\n  \"itemId\": \"item_copper_cmpt\"\r\n}",
+    "phaseId": "Wiki",
+    "preJumpId": ""
+  },
+  "jump_wiki_item_copper_enr2_cmpt": {
+    "autoUseItemArg": false,
+    "bindSystem": "55",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_wiki_item_copper_enr2_cmpt",
+    "phaseArgs": "{\r\n  \"itemId\": \"item_copper_enr2_cmpt\"\r\n}",
     "phaseId": "Wiki",
     "preJumpId": ""
   },
@@ -9629,6 +10045,19 @@
     "iconId": "",
     "id": "jump_world_energy_point11",
     "phaseArgs": "{\r\n  \"instId\": \"mark_p_enemyspawnerworld_energy_point_group11\"\r\n}",
+    "phaseId": "Map",
+    "preJumpId": ""
+  },
+  "jump_world_energy_point12": {
+    "autoUseItemArg": false,
+    "bindSystem": "70",
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "iconId": "",
+    "id": "jump_world_energy_point12",
+    "phaseArgs": "{\r\n  \"instId\": \"mark_p_enemyspawnerworld_energy_point_group12\"\r\n}",
     "phaseId": "Map",
     "preJumpId": ""
   },

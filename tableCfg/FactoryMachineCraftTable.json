@@ -1,4 +1,42 @@
 {
+  "component_activity_copper_poly_cmpt": {
+    "buffers": {
+      "item_activity_copper_poly": "0",
+      "item_activity_copper_poly_cmpt": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤铜零件生产",
+      "en": "Proto Xiran-Cuprium Part Production"
+    },
+    "formulaGroupId": "group_component_normal",
+    "gasEnv": "0",
+    "id": "component_activity_copper_poly_cmpt",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "5",
+            "id": "item_activity_copper_poly"
+          }
+        ]
+      }
+    ],
+    "machineId": "component_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_cmpt"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "9",
+    "totalProgress": "60000"
+  },
   "component_activity_xiranite_cmpt_1": {
     "buffers": {
       "item_activity_xiranite_cmpt": "0",
@@ -7049,6 +7087,82 @@
     "sortId": "14",
     "totalProgress": "12000"
   },
+  "furnance_activity_xiranite_enr_nugget_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_nugget": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验重息壤块生产",
+      "en": "Proto Heavy Xiranite Production"
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "gasEnv": "0",
+    "id": "furnance_activity_xiranite_enr_nugget_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_nugget"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "27",
+    "totalProgress": "60000"
+  },
+  "furnance_activity_xiranite_nugget_1": {
+    "buffers": {
+      "item_activity_xiranite_nugget": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤块生产",
+      "en": "Proto Xiranite Production"
+    },
+    "formulaGroupId": "group_furnance_normal",
+    "gasEnv": "0",
+    "id": "furnance_activity_xiranite_nugget_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_xiranite_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "furnance_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_nugget"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "26",
+    "totalProgress": "12000"
+  },
   "furnance_carbon_enr_1": {
     "buffers": {
       "item_carbon_enr": "0",
@@ -8045,6 +8159,49 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "4",
+    "totalProgress": "12000"
+  },
+  "gas_reactor_activity_copper_poly_gas_1": {
+    "buffers": {
+      "item_activity_copper_poly_gas": "0",
+      "item_gas_copper": "0",
+      "item_gas_xiranite": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤铜气生产",
+      "en": "Proto Xiran-Cuprium Gas Production"
+    },
+    "formulaGroupId": "group_gas_reactor_gas",
+    "gasEnv": "1",
+    "id": "gas_reactor_activity_copper_poly_gas_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "2",
+            "id": "item_gas_copper"
+          },
+          {
+            "count": "1",
+            "id": "item_gas_xiranite"
+          }
+        ]
+      }
+    ],
+    "machineId": "gas_reactor_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_gas"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "2",
     "totalProgress": "12000"
   },
   "gas_reactor_gas_copper_enr2_1": {
@@ -9267,6 +9424,82 @@
     "signal": "0",
     "sortId": "4",
     "totalProgress": "60000"
+  },
+  "liquid_transmuter_2_activity_copper_poly_1": {
+    "buffers": {
+      "item_activity_copper_poly": "0",
+      "item_activity_copper_poly_gas": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤铜锭转化",
+      "en": "Proto Xiran-Cuprium Transmutation"
+    },
+    "formulaGroupId": "group_transmuter_2_solidtrans",
+    "gasEnv": "0",
+    "id": "liquid_transmuter_2_activity_copper_poly_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_gas"
+          }
+        ]
+      }
+    ],
+    "machineId": "transmuter_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "8",
+    "totalProgress": "12000"
+  },
+  "liquid_transmuter_2_activity_copper_poly_gas_1": {
+    "buffers": {
+      "item_activity_copper_poly": "0",
+      "item_activity_copper_poly_gas": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤铜气转化",
+      "en": "Proto Xiran-Cuprium Gas Transmutation"
+    },
+    "formulaGroupId": "group_transmuter_2_gastrans",
+    "gasEnv": "0",
+    "id": "liquid_transmuter_2_activity_copper_poly_gas_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly"
+          }
+        ]
+      }
+    ],
+    "machineId": "transmuter_2",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_gas"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "8",
+    "totalProgress": "12000"
   },
   "liquid_transmuter_2_gas_gas_copper_1": {
     "buffers": {
@@ -10901,7 +11134,7 @@
     },
     "formulaDesc": {
       "cn": "苦叶椒种子生产",
-      "en": "Tartpepper Seed Production"
+      "en": "Tartpepper Seeds Production"
     },
     "formulaGroupId": "group_seedcollector_normal",
     "gasEnv": "0",
@@ -10939,7 +11172,7 @@
     },
     "formulaDesc": {
       "cn": "琼叶参种子生产",
-      "en": "Redjade Ginseng Seed Production"
+      "en": "Redjade Ginseng Seeds Production"
     },
     "formulaGroupId": "group_seedcollector_normal",
     "gasEnv": "0",
@@ -10977,7 +11210,7 @@
     },
     "formulaDesc": {
       "cn": "金石稻种子生产",
-      "en": "Amber Rice Seed Production"
+      "en": "Amber Rice Seeds Production"
     },
     "formulaGroupId": "group_seedcollector_normal",
     "gasEnv": "0",
@@ -11044,6 +11277,44 @@
     "progressRound": "2",
     "signal": "0",
     "sortId": "7",
+    "totalProgress": "12000"
+  },
+  "shaper_activity_xiranite_box_1": {
+    "buffers": {
+      "item_activity_xiranite_box": "0",
+      "item_activity_xiranite_nugget": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验龙泡泡外壳生产",
+      "en": "Proto Chubby Lung Shell Production"
+    },
+    "formulaGroupId": "group_shaper_normal",
+    "gasEnv": "0",
+    "id": "shaper_activity_xiranite_box_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_nugget"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_box"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "9",
     "totalProgress": "12000"
   },
   "shaper_activity_xiranite_enr_bottle_1": {
@@ -11159,6 +11430,49 @@
     "signal": "0",
     "sortId": "6",
     "totalProgress": "12000"
+  },
+  "shaper_gas_activity_xiranite_enr_box_1": {
+    "buffers": {
+      "item_activity_xiranite_enr_box": "0",
+      "item_activity_xiranite_enr_nugget": "0",
+      "item_gas_inert": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验龙泡泡重壳生产",
+      "en": "Proto Chubby Lung Heavy Shell Production"
+    },
+    "formulaGroupId": "group_shaper_gas",
+    "gasEnv": "0",
+    "id": "shaper_gas_activity_xiranite_enr_box_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_nugget"
+          },
+          {
+            "count": "5",
+            "id": "item_gas_inert"
+          }
+        ]
+      }
+    ],
+    "machineId": "shaper_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_box"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "2",
+    "totalProgress": "60000"
   },
   "shaper_gas_copper_jar_1": {
     "buffers": {
@@ -11656,6 +11970,92 @@
     "sortId": "2",
     "totalProgress": "12000"
   },
+  "tools_proc_activity_copper_poly_tool_1": {
+    "buffers": {
+      "item_activity_copper_poly_cmpt": "0",
+      "item_activity_copper_poly_tool": "0",
+      "item_xiranite_enr_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验息壤铜骨骼合成",
+      "en": "Proto Xiran-Cuprium Frame Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "gasEnv": "0",
+    "id": "tools_proc_activity_copper_poly_tool_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_cmpt"
+          },
+          {
+            "count": "1",
+            "id": "item_xiranite_enr_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_tool"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "16",
+    "totalProgress": "60000"
+  },
+  "tools_proc_activity_xiranite_copper_tool_1": {
+    "buffers": {
+      "item_activity_copper_xiranite_tool": "0",
+      "item_copper_cmpt": "0",
+      "item_xiranite_powder": "0"
+    },
+    "formulaDesc": {
+      "cn": "实验铜骨骼合成",
+      "en": "Proto Cuprium Frame Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "gasEnv": "0",
+    "id": "tools_proc_activity_xiranite_copper_tool_1",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "4",
+            "id": "item_copper_cmpt"
+          },
+          {
+            "count": "1",
+            "id": "item_xiranite_powder"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_copper_xiranite_tool"
+          }
+        ]
+      }
+    ],
+    "progressRound": "2",
+    "signal": "0",
+    "sortId": "15",
+    "totalProgress": "12000"
+  },
   "tools_proc_activity_xiranite_enr_hulu_1": {
     "buffers": {
       "item_activity_xiranite_enr_hulu": "0",
@@ -11697,6 +12097,49 @@
     "progressRound": "10",
     "signal": "0",
     "sortId": "13",
+    "totalProgress": "60000"
+  },
+  "tools_proc_activity_xiranite_enr_lung": {
+    "buffers": {
+      "item_activity_copper_poly_tool": "0",
+      "item_activity_xiranite_enr_box": "0",
+      "item_activity_xiranite_enr_lung": "0"
+    },
+    "formulaDesc": {
+      "cn": "重息壤龙泡泡合成",
+      "en": "Heavy Xiranite Chubby Lung Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "gasEnv": "0",
+    "id": "tools_proc_activity_xiranite_enr_lung",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_box"
+          },
+          {
+            "count": "1",
+            "id": "item_activity_copper_poly_tool"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_enr_lung"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "18",
     "totalProgress": "60000"
   },
   "tools_proc_activity_xiranite_enr_tool_1": {
@@ -11783,6 +12226,49 @@
     "progressRound": "10",
     "signal": "0",
     "sortId": "12",
+    "totalProgress": "60000"
+  },
+  "tools_proc_activity_xiranite_lung": {
+    "buffers": {
+      "item_activity_copper_xiranite_tool": "0",
+      "item_activity_xiranite_box": "0",
+      "item_activity_xiranite_lung": "0"
+    },
+    "formulaDesc": {
+      "cn": "息壤龙泡泡合成",
+      "en": "Xiranite Chubby Lung Production"
+    },
+    "formulaGroupId": "group_tools_normal",
+    "gasEnv": "0",
+    "id": "tools_proc_activity_xiranite_lung",
+    "ingredients": [
+      {
+        "group": [
+          {
+            "count": "5",
+            "id": "item_activity_xiranite_box"
+          },
+          {
+            "count": "5",
+            "id": "item_activity_copper_xiranite_tool"
+          }
+        ]
+      }
+    ],
+    "machineId": "tools_assebling_mc_1",
+    "outcomes": [
+      {
+        "group": [
+          {
+            "count": "1",
+            "id": "item_activity_xiranite_lung"
+          }
+        ]
+      }
+    ],
+    "progressRound": "10",
+    "signal": "0",
+    "sortId": "17",
     "totalProgress": "60000"
   },
   "tools_proc_battery_1_1": {

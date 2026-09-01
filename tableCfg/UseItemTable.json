@@ -3224,6 +3224,58 @@
       }
     ]
   },
+  "item_slwood_1_hshog_1_1": {
+    "duration": "0",
+    "effectType": "0",
+    "gameModeForbidTagList": [],
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_slwood_1_hshog_1_1",
+    "itemUseDesc": {
+      "cn": "使用后，<#ba.dispel>净化</><#ba.spellinflictonchar>法术附着</>与<#ba.spellinflictonchar>法术异常</>，然后立刻回复<@ba.vup>{value2:0%}</>最大生命值，再回复<@ba.vup>{value:0}</>点生命值。",
+      "en": "Use this to <#ba.dispel>dispel</> <#ba.spellinflictonchar>Arts Inflictions</> and <#ba.spellinflictonchar>Arts Reactions</>, then instantly restore <@ba.vup>{value2:0%}</> Max HP plus <@ba.vup>{value:0}</> HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "0",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 1480.102,
+              "valueStr": ""
+            },
+            {
+              "key": "value2",
+              "value": 0.1,
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_heal_potion_2"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      },
+      {
+        "buffBBData": {
+          "blackboard": [],
+          "buffId": "buff_common_dispel_potion"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_sp_1_moss_1_agmelee_1_1": {
     "duration": "0",
     "effectType": "0",

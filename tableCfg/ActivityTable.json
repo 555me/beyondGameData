@@ -67,11 +67,14 @@
       "en": "A messenger in red is helping to rebuild Valley IV. She has a special letter lying atop a rather sizable pile of packages..."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_aglina",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_aglina",
     "immediateClose": true,
     "instructionId": "CharacterGuide_aglina",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "信使的信",
       "en": "Letter From a Messenger"
@@ -161,11 +164,14 @@
       "en": "Seš'qa has sent a message requesting your support for Camille the Agaš'mekanaz, who is trying to solve a case involving a missing blood sample. The Sarkaz do not call for favors lightly. Perhaps untold secrets lay deeper within this case."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_camille",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_camille",
     "immediateClose": true,
     "instructionId": "CharacterGuide_camille",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "亡者之舞",
       "en": "Danse Macabre"
@@ -255,11 +261,14 @@
       "en": "After all that has happened, you must now return to Dijiang and check if you recovered any of your lost memories."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_laevat",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_laevat",
     "immediateClose": true,
     "instructionId": "CharacterGuide_laevat",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "燃尽记忆之灰",
       "en": "Let Fire Consume the Ashen Past"
@@ -349,11 +358,14 @@
       "en": "The Talos-II General Chamber of Commerce is organizing a charity concert at Valley IV. You head over to watch the performance but hear that a popular idol named Liino has accidentally gone missing..."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_liino",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_liino",
     "immediateClose": true,
     "instructionId": "CharacterGuide_liino",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "如同流星飞越边界",
       "en": "Like a Star Streaking Through the Boundaries"
@@ -443,11 +455,14 @@
       "en": "Mi Fu invites you to meet her at the Main Pillar Office. The Watchguard Captain is not her usual calm self and actually looks a little worried — has something happened in Wuling?"
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_mifu",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_mifu",
     "immediateClose": true,
     "instructionId": "CharacterGuide_mifu",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "以拳问心",
       "en": "A Fistful of Reflections"
@@ -467,6 +482,103 @@
     ],
     "themeColor": "",
     "timeId": "time_CharacterGuide_mifu",
+    "type": "10"
+  },
+  "CharacterGuide_typhoeus": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "CharacterGuide_typhoeus_unlock1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程Ⅶ - 余晖未却",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅶ: Stubbornly Lingers the Setting Sun]"
+        },
+        "jumpId": "jump_mission_main_chapter_2",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e11m8"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "意料之外的讯息将管理员指向应龙关外的神秘松林，在那里，一段新的故事正等待着管理员前来开启。",
+      "en": "An unexpected message points the Endministrator towards a mysterious pinewood forest outside Yinglung Pass. There, a new tale waits for the Endministrator to begin."
+    },
+    "detailJumpId": "jump_mission_activity_CharacterGuide_typhoeus",
+    "endMissionQuestId": "",
+    "id": "CharacterGuide_typhoeus",
+    "immediateClose": true,
+    "instructionId": "CharacterGuide_typhoeus",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "雾隐冬梦深林中",
+      "en": "A Winter Dream Fogged Deep in the Woods"
+    },
+    "panelId": "ActivityCharacterGuideLine",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_CharacterGuide_typhoeus",
+    "sortId": "3009",
+    "tabImg": "bg_activity_tab_char_guide_typhoeus",
+    "tabImgColor": "#7660ff",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_story"
+    ],
+    "themeColor": "",
+    "timeId": "time_CharacterGuide_typhoeus",
     "type": "10"
   },
   "CharacterGuide_wolfgd": {
@@ -553,11 +665,14 @@
       "en": "The Pack has a traitor in their midst. Wulfgard initiated an operation in Valley IV to get to the bottom of this."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_wolfgd",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_wolfgd",
     "immediateClose": true,
     "instructionId": "CharacterGuide_wolfgd",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "离群之狼",
       "en": "Lone Wolf"
@@ -647,11 +762,14 @@
       "en": "Join a girl with a red-cape to look for a lost sample and her forgotten childhood innocence."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_wulfa",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_wulfa",
     "immediateClose": true,
     "instructionId": "CharacterGuide_wulfa",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "红骑士",
       "en": "The Red Knight"
@@ -741,11 +859,14 @@
       "en": "After receiving a delayed package delivery, Yvonne invites you on a trip for getting inspirations to create the perfect graffiti."
     },
     "detailJumpId": "jump_mission_activity_CharacterGuide_yvonne",
+    "endMissionQuestId": "",
     "id": "CharacterGuide_yvonne",
     "immediateClose": true,
     "instructionId": "CharacterGuide_yvonne",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "爱，呐喊和原型机",
       "en": "Love, Scream & The Prototype"
@@ -776,11 +897,14 @@
       "en": "Laevatain is a striker with outstanding mass DMG skills. Her Final Strikes can absorb Heat Inflictions from nearby enemies to trigger powerful battle skills and combo skills. She can also use her ultimate to carve and burn her way through mobs of enemies."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_1",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -811,11 +935,14 @@
       "en": "Yvonne is a DMG dealer who leverages her critical hits. Her ultimate makes her a powerful single-target DMG dealer."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_2",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -846,11 +973,14 @@
       "en": "Gilberta is a supporter with both Arts and Physical abilities. She can quickly Lift enemies after triggering Arts Reactions. Once cast, her ultimate also applies Arts Susceptibility to enemies within a large area."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_3",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -881,11 +1011,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d1_1",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -916,11 +1049,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d1_2",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -951,11 +1087,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d2_1",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -986,11 +1125,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d3_1",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -1021,11 +1163,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d3_2",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -1056,11 +1201,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d4_1",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -1091,11 +1239,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_char_trial_v1d4_2",
     "immediateClose": false,
     "instructionId": "Char_Trial",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "作战演练",
       "en": "Combat Drills"
@@ -1117,6 +1268,44 @@
     "timeId": "time_special_1_4_2",
     "type": "9"
   },
+  "activity_char_trial_v1d5_1": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_char_trial_v1d5_1",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_chartrial_typhoea_overview",
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_typhoea",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_5_1",
+    "type": "9"
+  },
   "activity_checkin_1": {
     "bgImg": "",
     "bgm": "",
@@ -1126,11 +1315,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_1",
     "immediateClose": false,
     "instructionId": "activity_checkin_1",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "唤醒签到",
       "en": "Awakening Sign-In"
@@ -1161,11 +1353,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Messenger Express HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_agline",
     "immediateClose": false,
     "instructionId": "instru_checkin_agline",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "灵动信使签到",
       "en": "Messenger Express Sign-In"
@@ -1196,11 +1391,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Shimmering Moment HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_brilliance",
     "immediateClose": false,
     "instructionId": "instru_checkin_brilliance",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "流光庆时签到",
       "en": "Shimmering Moment Sign-In"
@@ -1231,11 +1429,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Peacekeeper's Nocturne HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_camille",
     "immediateClose": false,
     "instructionId": "instru_checkin_camille",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "夜趋逐罪签到",
       "en": "Peacekeeper's Nocturne Sign-In"
@@ -1266,11 +1467,14 @@
       "en": "The road is long, we still need each other for the journey."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_halfann",
     "immediateClose": false,
     "instructionId": "instru_checkin_checkin_halfann",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "相伴赠礼",
       "en": "Tribute of Companionship"
@@ -1301,11 +1505,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Firewalker's Trail HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_laevat",
     "immediateClose": false,
     "instructionId": "instru_checkin_laevat",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "行火留烬签到",
       "en": "Firewalker's Trail Sign-In"
@@ -1336,11 +1543,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Bedazzling Dawnstar HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_liino",
     "immediateClose": false,
     "instructionId": "instru_checkin_liino",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "明耀晨星签到",
       "en": "Bedazzling Dawnstar Sign-In"
@@ -1371,11 +1581,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Gaze North to the Rift HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_lizhiyan",
     "immediateClose": false,
     "instructionId": "instru_checkin_lizhiyan",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "踞渊北眺签到",
       "en": "Gaze North to the Rift Sign-In"
@@ -1406,11 +1619,14 @@
       "en": "Keep signing in to acquire rich rewards such as [One with Her Fists HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_mifu",
     "immediateClose": false,
     "instructionId": "instru_checkin_mifu",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "拳与心合签到",
       "en": "One with Her Fists Sign-In"
@@ -1432,6 +1648,44 @@
     "timeId": "time_special_1_3_1",
     "type": "2"
   },
+  "activity_checkin_parkour": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取头像·跑动行进、嵌晶玉×1500等丰富奖励。",
+      "en": "Sign in to earn rich rewards such as [Portrait: Go Forth and Run] and [Oroberyl]×1500."
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_checkin_parkour",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_parkour",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "陵水渡秋签到",
+      "en": "Ridgeline Flows of Autumn Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "3",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "8317",
+    "tabImg": "bg_activity_tab_sign_parkour",
+    "tabImgColor": "#33b178",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_wuling_racing",
+    "type": "2"
+  },
   "activity_checkin_tangtang": {
     "bgImg": "",
     "bgm": "",
@@ -1441,11 +1695,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Gently Flows Qingbo HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_tangtang",
     "immediateClose": false,
     "instructionId": "instru_checkin_tangtang",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "清波静流签到",
       "en": "Gently Flows Qingbo Sign-In"
@@ -1467,6 +1724,44 @@
     "timeId": "time_special_1_1_1",
     "type": "2"
   },
+  "activity_checkin_typhoea": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "参与签到累计可领取镞砺括羽寻访凭证×5等丰富奖励。",
+      "en": "Keep signing in to acquire rich rewards such as [Fletched Irontip HH Permit]×5."
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_checkin_typhoea",
+    "immediateClose": false,
+    "instructionId": "instru_checkin_typhoea",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "镞砺括羽签到",
+      "en": "Fletched Irontip Sign-In"
+    },
+    "panelId": "ActivityCharSignCommon",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "ActivityCharSignCommonPopUp",
+    "popUpSortId": "2",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "8316",
+    "tabImg": "bg_activity_tab_char_sign_typhoea",
+    "tabImgColor": "#8053ff",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_checkin_time"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_5_1",
+    "type": "2"
+  },
   "activity_checkin_universe": {
     "bgImg": "",
     "bgm": "",
@@ -1476,11 +1771,14 @@
       "en": "Keep signing in to receive generous rewards that include Sticker: Qiming, Perlica's Token, Space Exploration Event portrait frame [Cosmic Etchings], and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_universe",
     "immediateClose": false,
     "instructionId": "instru_universe_checkin",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "镌宇铭星签到",
       "en": "Etchings of Our Cosmic Dreams Sign-In"
@@ -1511,11 +1809,14 @@
       "en": "[Old Deep Water Dies, by Rising Tide It is Denied] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_v1d0_end",
     "immediateClose": false,
     "instructionId": "instru_checkin_v1d0_end",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "清波将起签到",
       "en": "Qingbo Rising Sign-In"
@@ -1546,11 +1847,14 @@
       "en": "[At the Wake of Spring] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_v1d1_end",
     "immediateClose": false,
     "instructionId": "instru_checkin_v1d1_end",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "潮起武陵签到",
       "en": "Rising Tide of Wuling Sign-In"
@@ -1581,11 +1885,14 @@
       "en": "[Sketches of Lost Heirlooms] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_v1d2_end",
     "immediateClose": false,
     "instructionId": "instru_checkin_v1d2_end",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "寻奇探幽签到",
       "en": "Curios and Myths Sign-In"
@@ -1616,11 +1923,14 @@
       "en": "[Homecoming] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_v1d3_end",
     "immediateClose": false,
     "instructionId": "instru_checkin_v1d3_end",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "北行险境签到",
       "en": "Northward to Peril Sign-In"
@@ -1651,11 +1961,14 @@
       "en": "[Dreamscape of Wind and Snow] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_v1d4_end",
     "immediateClose": false,
     "instructionId": "instru_checkin_v1d4_end",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "深林覆雪签到",
       "en": "A Forest Mantled in Snow"
@@ -1686,11 +1999,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Pearl of the Pack HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_wulfa",
     "immediateClose": false,
     "instructionId": "instru_checkin_wulfa",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "狼群瑰宝签到",
       "en": "Pearl of the Pack Sign-In"
@@ -1721,11 +2037,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Spectral Splendor HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_yvonne",
     "immediateClose": false,
     "instructionId": "instru_checkin_yvonne",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "异彩斑斓签到",
       "en": "Spectral Splendor Sign-In"
@@ -1756,11 +2075,14 @@
       "en": "Keep signing in to acquire rich rewards such as [Blitz of Verdance HH Permit]×5."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_checkin_zhuangfangy",
     "immediateClose": false,
     "instructionId": "instru_checkin_zhuangfangy",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "春雷醒物签到",
       "en": "Blitz of Verdance Sign-In"
@@ -1850,11 +2172,14 @@
       "en": "Carly from the Worker Dorms wants to draw a storybook that can make everyone happy. She hopes the Endmin can help her complete the book."
     },
     "detailJumpId": "jump_activity_conditional_multistage_1",
+    "endMissionQuestId": "",
     "id": "activity_conditional_multistage_1",
     "immediateClose": false,
     "instructionId": "activity_conditional_multistage_1",
     "introMissionJumpId": "jump_mission_activity_conditional_multistage_1",
     "introMissionQuestId": "a1m3_q#IntroDialog",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "卡莉的谷地童话",
       "en": "Carly's Fairytale of the Valley"
@@ -1902,11 +2227,14 @@
       "en": "Ancient obligations shall be honored, and forgotten partnerships restored. Endmin, a gift has been delivered to you."
     },
     "detailJumpId": "jump_contingency_contract_tag_select",
+    "endMissionQuestId": "",
     "id": "activity_contingency_contract_0",
     "immediateClose": false,
     "instructionId": "activity_contingency_contract_0",
     "introMissionJumpId": "jump_mission_contingency_contract_0",
     "introMissionQuestId": "a1m14_q#2",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "危机合约 重燃测试作战",
       "en": "Contingency Contract: Re-Ignition Experimental Operation"
@@ -1937,11 +2265,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_cultivation_refund",
     "immediateClose": false,
     "instructionId": "activity_cultivation_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "干员培养助力",
       "en": "Operator Progression Booster"
@@ -1972,11 +2303,14 @@
       "en": "Progress through the main mission to acquire New Horizons HH-10×Permit. Take part in the New Horizons headhunting banner to get a powerful 6★ operator and a 6★ weapon of choice."
     },
     "detailJumpId": "jump_gacha_beginner",
+    "endMissionQuestId": "",
     "id": "activity_gacha_beginner",
     "immediateClose": false,
     "instructionId": "activity_gacha_beginner",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "于此启程",
       "en": "New Horizons"
@@ -2066,11 +2400,14 @@
       "en": "The road to Wuling, a trail of sights, of majestic nature, of festive nights. Witness the city glittering with life."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_guide_wuling",
     "immediateClose": false,
     "instructionId": "activity_guide_wuling",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "烟光武陵",
       "en": "Glittering Life at Wuling"
@@ -2118,11 +2455,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
     "id": "activity_high_difficulty_1",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "丰碑留名·旧创",
       "en": "Monumental Etching: Old Wounds"
@@ -2170,11 +2510,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
     "id": "activity_high_difficulty_v1d1",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "丰碑留名·炽痕",
       "en": "Monumental Etching: Scorch Mark"
@@ -2222,11 +2565,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
     "id": "activity_high_difficulty_v1d2",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "丰碑留名·秽流",
       "en": "Monumental Etching: Corrupting Surge"
@@ -2274,11 +2620,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
     "id": "activity_high_difficulty_v1d3",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "丰碑留名·忿声",
       "en": "Monumental Etching: Dirge of Grief"
@@ -2326,11 +2675,14 @@
       "en": ""
     },
     "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
     "id": "activity_high_difficulty_v1d4",
     "immediateClose": false,
     "instructionId": "activity_high_difficulty",
     "introMissionJumpId": "jump_mission_unlock_high_difficulty",
     "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "丰碑留名·兽犼",
       "en": "Monumental Etching: Beastly Howl"
@@ -2352,6 +2704,61 @@
     "timeId": "time_activity_high_difficulty_v1d4",
     "type": "8"
   },
+  "activity_high_difficulty_v1d5": {
+    "bgImg": "activity_bg_highdifficulty",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_high_difficulty_unlock_condition_v1d5",
+        "conditionType": "5023",
+        "desc": {
+          "cn": "管理员权限等阶到达30级",
+          "en": "Reach Endministrator Authority Level 30"
+        },
+        "jumpId": "jump_adventure_book",
+        "parameters": [],
+        "progressToCompare": "30",
+        "tips": {
+          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
+          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_high_difficulty",
+    "endMissionQuestId": "",
+    "id": "activity_high_difficulty_v1d5",
+    "immediateClose": false,
+    "instructionId": "activity_high_difficulty",
+    "introMissionJumpId": "jump_mission_unlock_high_difficulty",
+    "introMissionQuestId": "a1m4_q#UnlockDungeon",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "丰碑留名·刻影",
+      "en": "Monumental Etching: Shadow Marked"
+    },
+    "panelId": "ActivityHighDifficulty",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "",
+    "sortId": "6010",
+    "tabImg": "activity_tab_bg_highdifficulty_v1d5",
+    "tabImgColor": "#ff3632",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_high_difficulty"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_high_difficulty_v1d5",
+    "type": "8"
+  },
   "activity_level_rewards": {
     "bgImg": "",
     "bgm": "",
@@ -2361,11 +2768,14 @@
       "en": "Raise the Endministrator's Authority Level to claim generous rewards."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_level_rewards",
     "immediateClose": false,
     "instructionId": "activity_level_rewards",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "权限等阶奖励",
       "en": "Authority Level Rewards"
@@ -2455,11 +2865,14 @@
       "en": "The Blight has plagued the region of Wuling for many years. Fortunately, the AIC Factory can produce Xiranite-based protection devices. Start those production lines, Endmin."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_limited_formula_1",
     "immediateClose": false,
     "instructionId": "activity_conditional_limited_formula_1",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "集成援助·掌中救星",
       "en": "AIC Support: Palm-Top Savior"
@@ -2481,6 +2894,103 @@
     "timeId": "time_activity_limited_formula_1",
     "type": "25"
   },
+  "activity_limited_formula_2": {
+    "bgImg": "activity_bg_temp",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_limited_formula_2_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程II - 无患之患",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅱ: Where Danger Sleeps]"
+        },
+        "jumpId": "jump_mission_main_chapter_2",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e6m5"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "前进吧，生产吧，让龙泡泡的足迹遍布大地！",
+      "en": "Forward! Start the production! Let the Chubby Lungs multiply and spread throughout the land!"
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_limited_formula_2",
+    "immediateClose": false,
+    "instructionId": "activity_conditional_limited_formula_2",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "集成援助·泡泡出击",
+      "en": "AIC Support: Chubby Lung Attacks"
+    },
+    "panelId": "ActivityLimitedFormulaAssistRegionV2",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_limited_fomula_2_overview",
+    "sortId": "6102",
+    "tabImg": "activity_tab_bg_timelimit_2",
+    "tabImgColor": "#a30c07",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_limited_formula"
+    ],
+    "themeColor": "00ffa2",
+    "timeId": "time_activity_limited_formula_2",
+    "type": "25"
+  },
   "activity_lottery_v1d4": {
     "bgImg": "",
     "bgm": "au_music_meta_ui_scratchoff_v1d4",
@@ -2490,11 +3000,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_lottery_v1d4",
     "immediateClose": false,
     "instructionId": "instru_activity_lottery",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "宏运连连乐",
       "en": "Fortune Connect-and-Win"
@@ -2582,11 +3095,14 @@
       "en": "The waterwheel churns as Qingbo rests quiet. Yet currents surged forth with the clanging sounds of riot. Will it wake filth most crude? Or bring back old, bitter feuds?"
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_map02_guide_003",
     "immediateClose": false,
     "instructionId": "activity_guide_qingbo",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "泉流无声",
       "en": "Quietly Flows the Spring"
@@ -2676,11 +3192,14 @@
       "en": "After numerous sacrifices, humanity finally hammered their first nail into the Very Large Rift."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_map02_guide_004",
     "immediateClose": false,
     "instructionId": "activity_guide_shoudun",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "镇绥蚀海",
       "en": "Subduer of the Blighted Sea"
@@ -2770,11 +3289,14 @@
       "en": "Though Tianshi Pillars have been steadily applied in various areas of Wuling, these ingenious facilities still have boundless potential."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_map02_guide_005",
     "immediateClose": false,
     "instructionId": "activity_guide_xirang",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "息壤妙用",
       "en": "Curious Use of Xiranite"
@@ -2864,11 +3386,14 @@
       "en": "The great tide has retreated, and what was once lost has been revealed. The forested mountains may hide great artifacts, technologies, or even shimmering weapons... The time has come to unveil the mystery."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_map02_guide_006",
     "immediateClose": false,
     "instructionId": "activity_guide_zhujiangu",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "寻剑幽谷",
       "en": "Search for Sword Vault Dale"
@@ -2958,11 +3483,14 @@
       "en": "The Very Large Rift still emits its \"radiance\" of despair. But this is the day when we return to the gash that refuses to be healed."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_map02_guide_008",
     "immediateClose": false,
     "instructionId": "activity_guide_northarea",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "北观禁土",
       "en": "Gaze Towards the Northern Exclusion"
@@ -2984,6 +3512,103 @@
     "timeId": "time_activity_guide_northarea",
     "type": "13"
   },
+  "activity_map02_guide_009": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_guide_cedarforest_unlockmain",
+        "conditionType": "18",
+        "desc": {
+          "cn": "在任务「迷雾藏起松林」中，完成「前往林地入口」（完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后可开启对应任务）",
+          "en": "In the mission [A Forest Shrouded in Mist], complete the objective [Go to the entrance of the forest] (complete main mission [Chapter Ⅱ Process Ⅶ: Stubbornly Lingers the Setting Sun] to unlock the specified mission)"
+        },
+        "jumpId": "jump_activity_guide_cedarforest_01",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "c34m1_q#2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "应龙关旁，路径延向森冷幽景。枯枝低语，木石匿踪……雪松林静静等待。",
+      "en": "A trail leading from Yinglung Pass wanders into a cold, gloomy forest, where withered branches groan while rising pines and stones conceal the path... Silently waits the Snowy Forest."
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_map02_guide_009",
+    "immediateClose": false,
+    "instructionId": "activity_guide_cedarforest",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "雪降深林",
+      "en": "Snow Over Deep Woods"
+    },
+    "panelId": "ActivityVersionGuide",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_guide_cedarforest_overview",
+    "sortId": "8006",
+    "tabImg": "activity_tab_bg_cedarforest",
+    "tabImgColor": "#3545bc",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_guide"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_guide_cedarforest",
+    "type": "13"
+  },
   "activity_more": {
     "bgImg": "activity_bg_more",
     "bgm": "",
@@ -2993,11 +3618,14 @@
       "en": "Progress through the main mission to unlock more events"
     },
     "detailJumpId": "jump_mission_activity_more",
+    "endMissionQuestId": "",
     "id": "activity_more",
     "immediateClose": true,
     "instructionId": "",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "更多活动",
       "en": "More Activities"
@@ -3026,11 +3654,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_newplayer_benefits_display",
     "immediateClose": false,
     "instructionId": "activity_benefits_1",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "启程福利展览板",
       "en": "New Horizons Giveaway EXPO Panel"
@@ -3041,7 +3672,7 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "",
-    "sortId": "10070",
+    "sortId": "2000",
     "tabImg": "activity_tab_bg_benefits",
     "tabImgColor": "#fff078",
     "tabImgGender": false,
@@ -3061,11 +3692,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_newplayer_mission_reward",
     "immediateClose": false,
     "instructionId": "instru_newplayer_mission_reward",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "新手特许赠礼",
       "en": "Beginner's Chartered Tribute"
@@ -3086,6 +3720,103 @@
     "themeColor": "",
     "timeId": "time_activity_newplayer_mission_reward",
     "type": "19"
+  },
+  "activity_parkour": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_wuling_racing_1_condition",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成主线任务：第二章 - 进程II - 东风就绪",
+          "en": "Complete the main mission [Chapter Ⅱ Process Ⅱ: Ready the Easterlies]"
+        },
+        "jumpId": "jump_mission_main_chapter_2",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "e6m2"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "一年一度！武陵跑者之间最受欢迎的综合运动赛事就此开幕！……但今年好像有些不一样？",
+      "en": "The most popular integrated ANNUAL athletic event amongst the joggers of Wuling is starting soon...! Wait. Something's different about the Steeplechase this year."
+    },
+    "detailJumpId": "jump_dungeon_parkour_entry",
+    "endMissionQuestId": "",
+    "id": "activity_parkour",
+    "immediateClose": false,
+    "instructionId": "instru_activity_wuling_racing",
+    "introMissionJumpId": "jump_mission_parkour",
+    "introMissionQuestId": "a1m15_q#3",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "跑者运动会",
+      "en": "Runners' Steeplechase"
+    },
+    "panelId": "ActivityWulingParkour",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_wuling_racing_overview",
+    "sortId": "6103",
+    "tabImg": "activity_tab_bg_wulingparkour",
+    "tabImgColor": "#ffffff",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_racingdungeon"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_wuling_racing",
+    "type": "50"
   },
   "activity_phototaking_carly_2": {
     "bgImg": "activity_bg_carly2",
@@ -3155,11 +3886,14 @@
       "en": "Creativity never ends. Carly has acquired new fantasies and imaginations. Help her complete her storybook."
     },
     "detailJumpId": "jump_activity_phototaking_carly_2",
+    "endMissionQuestId": "",
     "id": "activity_phototaking_carly_2",
     "immediateClose": false,
     "instructionId": "activity_phototaking_carly_2",
     "introMissionJumpId": "jump_mission_activity_phototaking_carly_2",
     "introMissionQuestId": "a1m7_q#IntroDialog",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "卡莉的武陵童话",
       "en": "Carly's Fairytale of Wuling"
@@ -3249,11 +3983,14 @@
       "en": "Our dreams, courage, and blazing thirst for knowledge aim towards the stars. Endministrator, please capture these snapshots for us."
     },
     "detailJumpId": "jump_activity_phototaking_universe",
+    "endMissionQuestId": "",
     "id": "activity_phototaking_universe",
     "immediateClose": false,
     "instructionId": "activity_phototaking_universe_1",
     "introMissionJumpId": "jump_mission_unlock_phototaking_universe",
     "introMissionQuestId": "a1m10_q#2",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "镌宇铭星·留影",
       "en": "Snapshot: Etchings of Our Cosmic Dreams"
@@ -3284,11 +4021,14 @@
       "en": ""
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_pristine_access_v1d2",
     "immediateClose": false,
     "instructionId": "instru_activity_pristine_access",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "焕新月卡赠礼",
       "en": "[Pristine Monthly Pass Tribute]"
@@ -3319,11 +4059,14 @@
       "en": "After the Endministrator's awakening, Endfield Industries restarted a project to explore these small, ever-changing Protocol Spaces."
     },
     "detailJumpId": "jump_activity_puzzle_1",
+    "endMissionQuestId": "",
     "id": "activity_puzzle_1",
     "immediateClose": false,
     "instructionId": "Dungeon_Challenge",
     "introMissionJumpId": "jump_mission_activity_puzzle_1",
     "introMissionQuestId": "a1m1_q#1",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "密境行者",
       "en": "Delver of the Cryptic"
@@ -3413,11 +4156,14 @@
       "en": "A young \"operator\" is standing guard. Let's take a look at the mysterious Protocol Space portal he found."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_racingdungeon_1",
     "immediateClose": false,
     "instructionId": "activity_racingdungeon_1",
     "introMissionJumpId": "jump_mission_activity_racingdungeon_1",
     "introMissionQuestId": "a1m13_q#IntroDialog",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "根脉奇境",
       "en": "The Rooted Realm"
@@ -3465,11 +4211,14 @@
       "en": "Warfare has left its echoing mark upon your blades. Feel it. Study it. Lament it. Fight again and secure the medals of glory, Endministrator!"
     },
     "detailJumpId": "jump_seasontower_mainhud",
+    "endMissionQuestId": "",
     "id": "activity_seasontower_0",
     "immediateClose": false,
     "instructionId": "seasontower_main",
     "introMissionJumpId": "jump_mission_seasontower",
     "introMissionQuestId": "db01m10_q#2",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "战争回响",
       "en": "Echoes of War"
@@ -3480,7 +4229,7 @@
     "popUpSortId": "-1",
     "redDotName": "",
     "rewardId": "reward_season_tower_achievement_overview_s1",
-    "sortId": "6101",
+    "sortId": "6100",
     "tabImg": "activity_tab_bg_seasontower",
     "tabImgColor": "#fff078",
     "tabImgGender": false,
@@ -3559,11 +4308,14 @@
       "en": "An arena fashioned using digital data and realistic light and shadow rendering effects. It awaits your choices and eagerness for battle."
     },
     "detailJumpId": "jump_world_simulation_training",
+    "endMissionQuestId": "",
     "id": "activity_simulation_training_1",
     "immediateClose": false,
     "instructionId": "instru_activity_simulation_training_1",
     "introMissionJumpId": "jump_simulation_training_mission",
     "introMissionQuestId": "gm02m16_q#3",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "演武集算",
       "en": "Trial Algorithmics"
@@ -3653,11 +4405,14 @@
       "en": "The incident at Valley IV has been settled but dark tides are affecting Wuling. Nefarith has appeared once more with her eyes set on the Very Large Rift. She must be stopped, Endministrator."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_skipchapter_1",
     "immediateClose": true,
     "instructionId": "instru_activity_skipchapter_1",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "主线先行解锁：武陵",
       "en": "Main Mission Early Unlock: Wuling"
@@ -3688,11 +4443,14 @@
       "en": "Potions, massages, and sumptuous feasts... There are many ways to ease your mental stress."
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_reduce_1",
     "immediateClose": false,
     "instructionId": "Stamina_Discount",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智减耗",
       "en": "Sanity Discount"
@@ -3723,11 +4481,14 @@
       "en": "Potions, massages, and sumptuous feasts... There are many ways to ease your mental stress."
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_reduce_v1d1_1",
     "immediateClose": false,
     "instructionId": "Stamina_Discount",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智减耗",
       "en": "Sanity Discount"
@@ -3758,11 +4519,14 @@
       "en": "Potions, massages, and sumptuous feasts... There are many ways to ease your mental stress."
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_reduce_v1d1_2",
     "immediateClose": false,
     "instructionId": "Stamina_Discount",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智减耗",
       "en": "Sanity Discount"
@@ -3793,11 +4557,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_1d2d1",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智补给",
       "en": "Sanity Supply"
@@ -3828,11 +4595,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_1d2d2",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智补给",
       "en": "Sanity Supply"
@@ -3863,11 +4633,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_1d3d2",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智补给",
       "en": "Sanity Supply"
@@ -3898,11 +4671,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_1d4d1",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智补给",
       "en": "Sanity Supply"
@@ -3933,11 +4709,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_1d4d2",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "理智补给",
       "en": "Sanity Supply"
@@ -3959,6 +4738,82 @@
     "timeId": "time_activity_stamina_refund_1d4d2",
     "type": "29"
   },
+  "activity_stamina_refund_1d5d1": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
+    "id": "activity_stamina_refund_1d5d1",
+    "immediateClose": false,
+    "instructionId": "instru_activity_stamina_refund",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "理智补给",
+      "en": "Sanity Supply"
+    },
+    "panelId": "ActivityStaminaDiscount",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_stamina_return_stage_3",
+    "sortId": "4000",
+    "tabImg": "activity_tab_bg_stamina",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_time_limited"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_stamina_refund_1d5d1",
+    "type": "29"
+  },
+  "activity_stamina_refund_1d5d2": {
+    "bgImg": "activity_bg_stamina_discount",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
+    "id": "activity_stamina_refund_1d5d2",
+    "immediateClose": false,
+    "instructionId": "instru_activity_stamina_refund",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "理智补给",
+      "en": "Sanity Supply"
+    },
+    "panelId": "ActivityStaminaDiscount",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_stamina_return_stage_3",
+    "sortId": "4000",
+    "tabImg": "activity_tab_bg_stamina",
+    "tabImgColor": "#fff100",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_time_limited"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_stamina_refund_1d5d2",
+    "type": "29"
+  },
   "activity_stamina_refund_special": {
     "bgImg": "activity_bg_stamina_discount",
     "bgm": "",
@@ -3968,11 +4823,14 @@
       "en": ""
     },
     "detailJumpId": "jump_stamina_reduce_1",
+    "endMissionQuestId": "",
     "id": "activity_stamina_refund_special",
     "immediateClose": false,
     "instructionId": "instru_activity_stamina_refund_special",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "危机筹备",
       "en": "Contingency Readiness"
@@ -4120,11 +4978,14 @@
       "en": "To boost everyone's morale in the face of adversity, Roman asked Endmin for help in food preparation and distribution."
     },
     "detailJumpId": "jump_submit_map_mark_a1",
+    "endMissionQuestId": "",
     "id": "activity_submit_food_1",
     "immediateClose": false,
     "instructionId": "activity_submit_food_1_info",
     "introMissionJumpId": "jump_mission_activity_submit_food_1",
     "introMissionQuestId": "a1m5_q#2",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "物资供给·开拓节",
       "en": "Supply: Exploration Day"
@@ -4272,11 +5133,14 @@
       "en": "Cooking and great food provide the ultimate therapy, and they are much needed after the crisis at Wuling. Time to cook up a storm with your fellow chefs, Endministrator."
     },
     "detailJumpId": "jump_submit_map_mark_a2",
+    "endMissionQuestId": "",
     "id": "activity_submit_food_2",
     "immediateClose": false,
     "instructionId": "activity_submit_food_2_info",
     "introMissionJumpId": "jump_mission_activity_submit_food_2",
     "introMissionQuestId": "a1m9_q#5",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "物资供给·武陵特厨",
       "en": "Supply: Wuling Super Chef"
@@ -4366,11 +5230,14 @@
       "en": "GO FOR IT! HAVE FAITH IN YOURSELF! DO IT FOR THE HEROES! The legendary tactics are calling out to you! Ignite your burning soul and savor the magnificent arts of TRUE BATTLE!"
     },
     "detailJumpId": "jump_dungeon_activity_takestwo_1",
+    "endMissionQuestId": "",
     "id": "activity_takestwo_1",
     "immediateClose": false,
     "instructionId": "instru_activity_takestwo",
     "introMissionJumpId": "jump_mission_unlock_dungeon_takestwo",
     "introMissionQuestId": "a1m11_q#IntroDialog",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "炽燃！竞技大会！",
       "en": "HEAT RAGE! MEGA ARENA!"
@@ -4392,6 +5259,200 @@
     "timeId": "time_activity_takestwo_1",
     "type": "41"
   },
+  "activity_timelimited_typhoea_archery": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_typhoea_archery_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成支线任务「雾隐冬梦深林中」（完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后可开启对应任务）",
+          "en": "Complete side mission [A Winter Dream Fogged Deep in the Woods] (complete main mission [Chapter Ⅱ Process Ⅶ: Stubbornly Lingers the Setting Sun] to unlock the specified mission)"
+        },
+        "jumpId": "jump_mission_activity_CharacterGuide_typhoeus",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "c34m3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "<size=30><color=#FFF100>该常驻玩法包含限时试炼任务，任务过期后将无法参与，玩法仍可继续体验。</color></size>\n\n猎人虽停止狩猎，却不会忘记精进箭术。",
+      "en": "<size=30><color=#FFF100>This permanent gameplay feature has limited-time Trial Missions that will become unavailable when the mission expires. The gameplay itself remains accessible.</color></size>\n\nThe hunt may have stopped, but the huntress never ceases improving her archery skills."
+    },
+    "detailJumpId": "jump_map_typhoea_archery",
+    "endMissionQuestId": "",
+    "id": "activity_timelimited_typhoea_archery",
+    "immediateClose": false,
+    "instructionId": "instru_timelimited_typhoea_archery_1",
+    "introMissionJumpId": "jump_mission_typhoea_archery",
+    "introMissionQuestId": "gm02m29_q#11",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "挽弓试炼",
+      "en": "Trial of the Bow"
+    },
+    "panelId": "ActivityTyphoeaArchery",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_archery_overview_limited",
+    "sortId": "6101",
+    "tabImg": "activity_tab_bg_typhoeaarchery",
+    "tabImgColor": "#fff600",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_dungeon_fighting"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_timelimited_typhoea_archery",
+    "type": "51"
+  },
+  "activity_timeunlimited_typhoea_archery": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_timeunlimited_typhoea_archery_unlock_condition_1",
+        "conditionType": "19",
+        "desc": {
+          "cn": "完成支线任务「雾隐冬梦深林中」（完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后可开启对应任务）",
+          "en": "Complete side mission [A Winter Dream Fogged Deep in the Woods] (complete main mission [Chapter Ⅱ Process Ⅶ: Stubbornly Lingers the Setting Sun] to unlock the specified mission)"
+        },
+        "jumpId": "jump_mission_activity_CharacterGuide_typhoeus",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "c34m3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "猎人虽停止狩猎，却不会忘记精进箭术。",
+      "en": "The hunt may have stopped, but the huntress never ceases improving her archery skills."
+    },
+    "detailJumpId": "jump_map_typhoea_archery",
+    "endMissionQuestId": "",
+    "id": "activity_timeunlimited_typhoea_archery",
+    "immediateClose": false,
+    "instructionId": "instru_timeunlimited_typhoea_archery_1",
+    "introMissionJumpId": "jump_mission_typhoea_archery",
+    "introMissionQuestId": "gm02m29_q#11",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": true,
+    "name": {
+      "cn": "挽弓试炼",
+      "en": "Trial of the Bow"
+    },
+    "panelId": "ActivityTyphoeaArchery",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_archery_overview_permanent",
+    "sortId": "6101",
+    "tabImg": "activity_tab_bg_typhoeaarchery",
+    "tabImgColor": "#fff600",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_dungeon_fighting"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_timeunlimited_typhoea_archery",
+    "type": "51"
+  },
   "activity_v1d4_01_returnback_new_1": {
     "bgImg": "activity_bg_webreflow",
     "bgm": "",
@@ -4401,11 +5462,14 @@
       "en": "Welcome back to Talos-II, Endministrator."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_v1d4_01_returnback_new_1",
     "immediateClose": false,
     "instructionId": "instru_returnback_new",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "协议重连",
       "en": "Protocol Reconnection"
@@ -4436,11 +5500,14 @@
       "en": "Welcome back to Talos-II, Endministrator."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_v1d4_01_returnback_new_2",
     "immediateClose": false,
     "instructionId": "instru_returnback_new",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "协议重连",
       "en": "Protocol Reconnection"
@@ -4488,11 +5555,14 @@
       "en": "Complete weekly missions to earn rich rewards."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "activity_weekly_task_1",
     "immediateClose": false,
     "instructionId": "instru_activity_weekly_task_1",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": true,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "每周事务",
       "en": "Weekly Routine"
@@ -4582,11 +5652,14 @@
       "en": "Don't let anything stain the beauty of Wuling. Let's clean and rinse the ugly stains, Endmin."
     },
     "detailJumpId": "jump_cleaning_details",
+    "endMissionQuestId": "",
     "id": "cleaning_test",
     "immediateClose": false,
     "instructionId": "cleaning_test",
     "introMissionJumpId": "jump_mission_unlock_cleaning_1",
     "introMissionQuestId": "a1m6d1_q#1",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "净流涤尘",
       "en": "Cleanse and Rinse"
@@ -4676,11 +5749,14 @@
       "en": "Klara has specifically prepared the most suitable survival training to help operators feel at home in the wildlands."
     },
     "detailJumpId": "jump_dungeon_activity_monster_1",
+    "endMissionQuestId": "",
     "id": "dungeon_fighting",
     "immediateClose": false,
     "instructionId": "activity_dungeon_actmonster",
     "introMissionJumpId": "jump_mission_unlock_dungeon_fighting",
     "introMissionQuestId": "a1m2_q#3",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "生存特训",
       "en": "Survival Training"
@@ -4711,11 +5787,14 @@
       "en": ""
     },
     "detailJumpId": "jump_activity_arknights_birth",
+    "endMissionQuestId": "",
     "id": "web_activity_arknights_birth",
     "immediateClose": false,
     "instructionId": "instru_arkbirth",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "共贺庆典",
       "en": "Party Together"
@@ -4746,11 +5825,14 @@
       "en": "Welcome back to Talos-II, Endministrator."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "web_activity_v1d0_01_returnback",
     "immediateClose": false,
     "instructionId": "instru_reflow",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "协议重连",
       "en": "Protocol Reconnection"
@@ -4781,11 +5863,14 @@
       "en": "Operators have just sent you their holiday greetings. Witness their joy, warmth, care, and admiration."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "web_activity_v1d0_02_springfest",
     "immediateClose": false,
     "instructionId": "instru_springfest",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "暖笺贺春",
       "en": "A Spring Note, Warmly Crafted"
@@ -4816,11 +5901,14 @@
       "en": "The notifications are spreading. Text and audio data are being sent to every corner of the world. If you have slowed down your travels, listen to the call that beckons us to return to Talos-II."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "web_activity_v1d4_pullback_01",
     "immediateClose": false,
     "instructionId": "instru_pullback_01",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "协议邀约：重归",
       "en": "Protocol Invitation: The Return"
@@ -4842,6 +5930,44 @@
     "timeId": "time_activity_callback",
     "type": "45"
   },
+  "web_activity_v1d5_merge": {
+    "bgImg": "activity_bg_merge",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "来吧，让我们一起看看山团团贴贴蹭蹭后能有什么样的惊喜……",
+      "en": "Let's see what OrbiPoms can surprise us with when we rub them really closely together..."
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "web_activity_v1d5_merge",
+    "immediateClose": false,
+    "instructionId": "instru_webmerge",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "融合！山团团！",
+      "en": "OrbiPom! MERGE!"
+    },
+    "panelId": "ActivityWEBMergeGame",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "ActivityWEB",
+    "rewardId": "reward_web_activity_spring01",
+    "sortId": "1004",
+    "tabImg": "activity_tab_bg_webmerge",
+    "tabImgColor": "#FFF078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_cleaning"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_merge",
+    "type": "1"
+  },
   "web_web_activity_v1d1_fest_01": {
     "bgImg": "activity_bg_fool",
     "bgm": "",
@@ -4851,11 +5977,14 @@
       "en": "You are the chosen long-ear, a new rising star idolized by many. This is your epic journey."
     },
     "detailJumpId": "",
+    "endMissionQuestId": "",
     "id": "web_web_activity_v1d1_fest_01",
     "immediateClose": false,
     "instructionId": "instru_webfool",
     "introMissionJumpId": "",
     "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
     "name": {
       "cn": "长耳兽之旅",
       "en": "Journey of the Long-Ear"
