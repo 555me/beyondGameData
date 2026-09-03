@@ -144,8 +144,8 @@
             },
             "additionalWidth": 207.0,
             "_position": {
-                "x": 200.0,
-                "y": 200.0
+                "x": 85.60004,
+                "y": 124.8
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
             "$id": "0"
@@ -164,8 +164,8 @@
             ],
             "additionalWidth": 139.0,
             "_position": {
-                "x": 540.0,
-                "y": 120.0
+                "x": 540.8,
+                "y": 119.2
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
             "$id": "1"
@@ -224,45 +224,9 @@
             },
             "$type": "Beyond.Gameplay.DialogTreeFinishNode",
             "$id": "4"
-        },
-        {
-            "_actionData": {
-                "name": "dlgtl_e11m3_11_sub_1",
-                "cinematicType": 2,
-                "cgExData": {
-
-                },
-                "hideAllActors": true,
-                "streamLoadMaskBlendData": {
-                    "fadeOutDuration": 0.0,
-                    "audioBlackScreenBehaviour": {
-                        "customRetainFlags": 2
-                    }
-                },
-                "timelineFinishNums": [],
-                "duration": -1.0,
-                "actionEnum": 132,
-                "configSaveId": "",
-                "$type": "Beyond.Gameplay.DialogCinematicActData"
-            },
-            "additionalWidth": 76.0,
-            "_position": {
-                "x": 1200.0,
-                "y": 20.0
-            },
-            "$type": "Beyond.Gameplay.DialogTreeCinematicNode"
         }
     ],
     "connections": [
-        {
-            "_sourceNode": {
-                "$ref": "0"
-            },
-            "_targetNode": {
-                "$ref": "1"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
         {
             "_sourceNode": {
                 "$ref": "0"
@@ -317,9 +281,6 @@
     },
     "derivedData": {
         "_dialogType": 1,
-        "seamlessDialog": true,
-        "seamlessExitWithBlackscreen": true,
-        "dontWaitTimelineLoadBeforeStart": true,
         "_useBlackScreen": false,
         "beforeMaskBlendData": {
 
@@ -336,16 +297,9 @@
         "rootRot": {
             "y": 32.97275
         },
-        "hideFacBuildingDesc": {
-            "hideFacBuildingRadius": 40.0,
-            "hideFacBuildingRadiusDialogRoot": 40.0,
-            "showFacBuildingTypes": []
-        },
-        "hideDecoConfigs": [],
-        "hideInteractive": [],
-        "hideNpcDesc": {
-
-        },
+        "seamlessDialog": true,
+        "seamlessExitWithBlackscreen": true,
+        "dontWaitTimelineLoadBeforeStart": true,
         "actors": [
             {
                 "actorType": 256,
@@ -359,6 +313,19 @@
         "privateActors": [],
         "posTemplateActorCount": 2,
         "posTemplateId": "1_1_1",
+        "hideEnvCreatureDesc": {
+
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
+            "hideFacBuildingRadiusDialogRoot": 40.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],

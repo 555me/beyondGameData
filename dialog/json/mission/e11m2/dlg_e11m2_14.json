@@ -126,6 +126,7 @@
 
                     },
                     "overrideActorNameIdValue": "",
+                    "actorIndex": 1,
                     "duration": -1.0,
                     "actionEnum": 307,
                     "configSaveId": ""
@@ -145,7 +146,7 @@
                             }
                         }
                     },
-                    "actorIndex": 0,
+                    "actorIndex": 1,
                     "delay": 0.0
                 },
                 "teleportAllEntityActData": {
@@ -153,22 +154,22 @@
                 },
                 "_showNpcs": [],
                 "_hideNpcs": [],
-                "_actorIndex": 0,
+                "_actorIndex": 1,
                 "animActData": {
                     "anim": {
                         "charMontageDesc": {
 
                         },
                         "montageDesc": {
-                            "actorId": "tangtang_map02",
-                            "proxyId": "tangtang_map02_v1d4d0_003"
+                            "actorId": "muhui_map02",
+                            "proxyId": "muhui_map02_v1d4d0_002"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "tangtang_map02",
-                            "proxyId": "tangtang_map02_v1d4d0_003"
+                            "actorId": "muhui_map02",
+                            "proxyId": "muhui_map02_v1d4d0_002"
                         }
                     },
-                    "actorIndex": 0
+                    "actorIndex": 1
                 },
                 "emotionActData": {
                     "emotionDesc": {
@@ -193,32 +194,26 @@
 
                         }
                     },
-                    "actorIndex": 0
+                    "actorIndex": 1
                 },
                 "lookAtActData": {
                     "lookAtDescriptor": {
 
                     },
-                    "actorIndex": 0
+                    "actorIndex": 1
                 },
                 "eyeLookAtActData": {
                     "lookAtDescriptor": {
 
                     },
-                    "actorIndex": 0
+                    "actorIndex": 1
                 },
                 "turnToActData": {
-                    "actorIndex": 0
+                    "actorIndex": 1
                 },
                 "actions": [],
                 "actionGroups": [],
                 "$type": "Beyond.Gameplay.DTTrunkNodeData"
-            },
-            "_color": {
-                "r": 0.4980392,
-                "g": 0.5607843,
-                "b": 0.9019608,
-                "a": 1.0
             },
             "additionalWidth": 207.0,
             "_position": {
@@ -268,6 +263,26 @@
         "_dialogType": 1,
         "_useBlackScreen": false,
         "hideSquad": true,
+        "actors": [
+            {
+                "actorType": 256,
+                "actorId": "tangtang_map02",
+                "npcProxyId": "tangtang_map02_v1d4d0_003",
+                "useNpcProxy": true
+            },
+            {
+                "actorType": 256,
+                "actorId": "muhui_map02",
+                "npcProxyId": "muhui_map02_v1d4d0_002",
+                "useNpcProxy": true
+            }
+        ],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [],
+        "hideEnvCreatureDesc": {
+
+        },
         "hideFacBuildingDesc": {
             "hideFacBuildingRadius": 40.0,
             "hideFacBuildingRadiusDialogRoot": 40.0,
@@ -278,17 +293,6 @@
         "hideNpcDesc": {
 
         },
-        "actors": [
-            {
-                "actorType": 256,
-                "actorId": "tangtang_map02",
-                "npcProxyId": "tangtang_map02_v1d4d0_003",
-                "useNpcProxy": true
-            }
-        ],
-        "npcBlackList": [],
-        "npcWhiteList": [],
-        "privateActors": [],
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],
