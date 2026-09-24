@@ -1306,6 +1306,44 @@
     "timeId": "time_special_1_5_1",
     "type": "9"
   },
+  "activity_character_gift_purrche": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "jump_activity_character_gift_purrche",
+    "endMissionQuestId": "",
+    "id": "activity_character_gift_purrche",
+    "immediateClose": false,
+    "instructionId": "instru_activity_character_gift_purrche",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "我们的大菲林！来袭！",
+      "en": "Purry Big Feline! RAWR!"
+    },
+    "panelId": "ActivityCharacterGift",
+    "popUpOnlyOnce": true,
+    "popUpPanelId": "ActivityCharGiftPopUp",
+    "popUpSortId": "10",
+    "redDotName": "",
+    "rewardId": "reward_activity_character_gift_purrche_overview",
+    "sortId": "8318",
+    "tabImg": "activity_tab_bg_charactergift",
+    "tabImgColor": "#f25c63",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_character_gift"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_character_gift_purrche",
+    "type": "52"
+  },
   "activity_checkin_1": {
     "bgImg": "",
     "bgm": "",
@@ -3607,6 +3645,103 @@
     ],
     "themeColor": "",
     "timeId": "time_activity_guide_cedarforest",
+    "type": "13"
+  },
+  "activity_map02_guide_dg016": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_guide_snowcity_unlockmain",
+        "conditionType": "18",
+        "desc": {
+          "cn": "在支线任务「钟鸣人归」中，完成「探访遂明」（完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后可开启对应任务）",
+          "en": "In the side mission [Bell of Recollection], complete the objective [Investigate Suiming] (complete main mission [Chapter Ⅱ Process Ⅶ: Stubbornly Lingers the Setting Sun] to unlock the specified mission)"
+        },
+        "jumpId": "jump_activity_guide_snowcity_01",
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "gm02m27_q#3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "3"
+            ],
+            "valueIntList": [
+              "3"
+            ],
+            "valueStringList": [
+              "3"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "progressToCompare": "1",
+        "tips": {
+          "cn": "当前主线任务进度：「%s」",
+          "en": "Current main mission progress: [%s]"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "以钟鸣之声为楔子，以钟鸣之声为结语，沉溺于寂静灾厄中的城将为您揭开记忆的一角。",
+      "en": "As the bell tolls and its echo fades, a city lost to silent calamity will reveal a sliver of its memories to you."
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_map02_guide_dg016",
+    "immediateClose": false,
+    "instructionId": "activity_guide_snowcity",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "于钟鸣的旧城",
+      "en": "Echoing Bell of an Old City"
+    },
+    "panelId": "ActivityVersionGuide",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "redDotName": "",
+    "rewardId": "reward_activity_guide_snowcity_overview",
+    "sortId": "8007",
+    "tabImg": "activity_tab_bg_guide_snowcity",
+    "tabImgColor": "#6dabf1",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_guide"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_guide_snowcity",
     "type": "13"
   },
   "activity_more": {
