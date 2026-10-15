@@ -107,62 +107,6 @@
       }
     ]
   },
-  "contingency_contract": {
-    "dataArray": [
-      {
-        "desc": {
-          "cn": "在危机合约中，“指标”是一系列会提升挑战难度的效果，分为3档难度等级。\n管理员可以自由选择指标组合，调节不同难度，进行战斗挑战。",
-          "en": "The Contingency Contract Test Criteria are a series of effects that make challenges more difficult. Test Criteria are divided into 3 difficulty tiers. Select any combination of Test Criteria to tweak the difficulty before starting the combat challenge."
-        },
-        "id": "contingency_contract",
-        "imagePath": "Guide/guide_pic_CC0_1",
-        "pageIndex": "1",
-        "title": {
-          "cn": "危机合约 - 指标",
-          "en": "Contingency Contract: Test Criterion"
-        }
-      },
-      {
-        "desc": {
-          "cn": "指标会存在一些选择上的限制。部分指标之间存在冲突关系，最多只能选择其中一个。\n同时还有部分指标，需要在达成特定指标等级后，或在特定时间后，才会开放。",
-          "en": "There may be selection limits for certain Test Criteria. Some Test Criteria conflict with another, forcing you to choose between one of them. Some are only available when Test Criteria Level is high enough, or after a specified date."
-        },
-        "id": "contingency_contract",
-        "imagePath": "Guide/guide_pic_CC0_2",
-        "pageIndex": "2",
-        "title": {
-          "cn": "危机合约 - 选择指标的限制",
-          "en": "Contingency Contract: Test Criterion Selection Limit"
-        }
-      },
-      {
-        "desc": {
-          "cn": "部分指标是特殊的「锁闭指标」，初始情况不可选择，必须先选择「密钥指标」才能解锁。",
-          "en": "Some Test Criteria are [Locked Criteria] that cannot be selected by default. Select the specified [Key Criteria] to unlock them."
-        },
-        "id": "contingency_contract",
-        "imagePath": "Guide/guide_pic_CC0_3",
-        "pageIndex": "3",
-        "title": {
-          "cn": "危机合约 - 锁闭指标与密钥指标",
-          "en": "Contingency Contract: Locked & Key Criteria"
-        }
-      },
-      {
-        "desc": {
-          "cn": "成功完成每项指标的首次挑战，可获得相应的晶化硬币奖励；更多晶化硬币奖励可通过完成合约任务获得。晶化硬币可用于在机密圣所兑换活动奖励。",
-          "en": "Successfully completing a challenge with a Test Criterion for the first time provides a reward of Vitrified Coins. More Vitrified Coins can be earned by completing Contract Missions. Vitrified Coins are exchangeable for event rewards at the Secret Sanctuary."
-        },
-        "id": "contingency_contract",
-        "imagePath": "Guide/guide_pic_CC0_4",
-        "pageIndex": "4",
-        "title": {
-          "cn": "危机合约 - 挑战奖励",
-          "en": "Contingency Contract: Challenge Rewards"
-        }
-      }
-    ]
-  },
   "dung01_actmonster01": {
     "dataArray": [
       {
@@ -689,6 +633,32 @@
           "cn": "精锻积累 - 二",
           "en": "Gear Artificing: Progress (2)"
         }
+      },
+      {
+        "desc": {
+          "cn": "在待制造分区中，已经自动筛选了所有<@gd.key>可精锻当前属性的已解锁装备</>。\n选择相应装备并开始精锻后，所选装备将按当前制造工艺被<@gd.key>逐件制造并用于精锻</>；如果提前精锻成功，将停止制造并返还未使用的材料。",
+          "en": "The Assembly tab automatically filters for <@gd.key>unlocked pieces of gear that can be used for artificing the selected stats</>. After selecting a piece of gear at the Assembly tab for artificing, the selected gear will be <@gd.key>assembled with the current technique and used for artificing, one piece at a time</>. If artificing is completed early, assembly will be stopped and unused materials will be returned."
+        },
+        "id": "equip_enhance",
+        "imagePath": "Guide/guide_pic_equip_enhance_10",
+        "pageIndex": "11",
+        "title": {
+          "cn": "待制造分区 - 一",
+          "en": "Gear Artificing: Assembly Tab (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "通过<@gd.key>一键填充</>功能，可快速添加待制造分区中的装备；\n若当前工艺所需材料不足时，则会快速<@gd.key>替换</>为其他可制造的工艺，并继续添加装备。",
+          "en": "Open the Assembly tab, then use the <@gd.key>Auto-Fill</> feature to quickly add gear. If materials are insufficient for the current assembly technique, the process will auto-<@gd.key>switch</> to another usable technique and keep assembling and adding the gear."
+        },
+        "id": "equip_enhance",
+        "imagePath": "Guide/guide_pic_equip_enhance_11",
+        "pageIndex": "12",
+        "title": {
+          "cn": "待制造分区 - 二",
+          "en": "Gear Artificing: Assembly Tab (2)"
+        }
       }
     ]
   },
@@ -796,6 +766,101 @@
         "title": {
           "cn": "装备工艺设置 - 三",
           "en": "Gear Assembly: Technique Selection (3)"
+        }
+      }
+    ]
+  },
+  "gamble_battle": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "每张数据铭牌记录了不同的敌人信息，包括敌人类型、数量、等级。且记录了该铭牌对应的战力点和花色。\n战力点代表该数据铭牌的演算难度。",
+          "en": "Each Dataplate contains different data on enemies, including enemy type, quantity, and levels, as well as Battle Points (BP) and the suit of the Dataplate. The BP represents the difficulty of the Dataplate in the Trial."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_1",
+        "pageIndex": "1",
+        "title": {
+          "cn": "百趣演武 - 数据铭牌",
+          "en": "Arena of Games: Dataplate & Battle Points"
+        }
+      },
+      {
+        "desc": {
+          "cn": "抽取的铭牌战力点之和，决定了当局演算成功可获得的奖励点。",
+          "en": "The sum of Battle Points (BP) of the drawn Dataplate(s) determines the Arena Score earned upon successful completion of the trial."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_2",
+        "pageIndex": "2",
+        "title": {
+          "cn": "百趣演武 - 战力点与奖励点",
+          "en": "Arena of Games: Battle Points & Arena Score"
+        }
+      },
+      {
+        "desc": {
+          "cn": "当战力点之和超过10点时，会导致数据溢出。\n数据溢出后，敌人等级提升，挑战难度增加。",
+          "en": "Data Overflow happens when the sum of Battle Points (BP) goes over 10. This effect increases enemy levels and makes the challenge more difficult."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_3",
+        "pageIndex": "3",
+        "title": {
+          "cn": "百趣演武 - 数据溢出",
+          "en": "Arena of Games: Data Overflow"
+        }
+      },
+      {
+        "desc": {
+          "cn": "抽出的铭牌，如果恰好符合好运组合的达成规则，则会带来额外的奖励增益倍率，但也给敌人附加强化效果。\n点击好运组合，可进一步查看组合规则与强化效果详情。",
+          "en": "When the Dataplates drawn match a Lucky Hand combination, you will gain an additional rewards multiplier, but enemies will also become stronger. Open the Hand Details panel for details on how to get various Lucky Hands and the enemy enhancements they apply."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_4",
+        "pageIndex": "4",
+        "title": {
+          "cn": "百趣演武 - 好运组合",
+          "en": "Arena of Games: Lucky Hand"
+        }
+      },
+      {
+        "desc": {
+          "cn": "铭牌库由1~5战力点的数据铭牌构成，在抽取过程中，随时可在界面右侧查看不同战力点的铭牌数量。",
+          "en": "The Dataplate deck includes Dataplates with 1 to 5 Battle Points (BP). The right side of the screen shows the number of Dataplates left in the deck for each BP."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_5",
+        "pageIndex": "5",
+        "title": {
+          "cn": "百趣演武 - 铭牌库",
+          "en": "Arena of Games: Dataplate Deck"
+        }
+      },
+      {
+        "desc": {
+          "cn": "每一局将会进行两轮演算，首轮演算获得的奖励点会给下一轮初始奖励点带来额外增幅。",
+          "en": "Each arena challenge is a 2-round trial. The score earned in Round 1 will give an additional increase to the score multiplier of the next round."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_6",
+        "pageIndex": "6",
+        "title": {
+          "cn": "百趣演武 - 演算轮次及奖励点关系",
+          "en": "Arena of Games: Rounds & Score"
+        }
+      },
+      {
+        "desc": {
+          "cn": "若在第二轮演算失败或中途放弃，仍能获得第一轮演算成功所获得的部分奖励点。\n结算的奖励点将1：1转化为演武积分，单局奖励点转化存在上限。",
+          "en": "If you fail or choose to forfeit the Round 2 of the trial, you can still acquire part of your score earned from Round 1. Your score is tallied to Arena Points in a 1:1 ratio. There is a score tallying limit per round."
+        },
+        "id": "gamble_battle",
+        "imagePath": "Guide/guide_pic_gambling_battle_enhance_7",
+        "pageIndex": "7",
+        "title": {
+          "cn": "百趣演武 - 结算",
+          "en": "Arena of Games: Tallying"
         }
       }
     ]
@@ -958,7 +1023,7 @@
         "imagePath": "Guide/guide_pic_simulation_training_enhance_3",
         "pageIndex": "4",
         "title": {
-          "cn": "选剑演武 -奖励翻倍与放弃",
+          "cn": "选剑演武 - 奖励翻倍与放弃",
           "en": "Trial of Swordmancy: Rewards Doubling & Abandon"
         }
       },
@@ -971,7 +1036,7 @@
         "imagePath": "Guide/guide_pic_simulation_training_enhance_4",
         "pageIndex": "5",
         "title": {
-          "cn": "选剑演武 -铭牌库",
+          "cn": "选剑演武 - 铭牌库",
           "en": "Trial of Swordmancy: Dataplate Deck"
         }
       },
@@ -997,7 +1062,7 @@
         "imagePath": "Guide/guide_pic_simulation_training_enhance_5",
         "pageIndex": "7",
         "title": {
-          "cn": "选剑演武 -自由演算模式",
+          "cn": "选剑演武 - 自由演算模式",
           "en": "Trial of Swordmancy: Free Trial Mode"
         }
       }

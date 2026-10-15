@@ -99,6 +99,11 @@
     "checkFunction": "_CheckPlayerDungeonUnlocked",
     "id": "condition_dung02_bossrush02_01"
   },
+  "condition_dung02_bossrush04_01": {
+    "checkArgs": "{\"dungeonId\" : \"dung02_bossrush04_01\"}",
+    "checkFunction": "_CheckPlayerDungeonUnlocked",
+    "id": "condition_dung02_bossrush04_01"
+  },
   "condition_dung_group_ss01_touched": {
     "checkArgs": "{\"dungeonId\" : \"dung_group_ss01\"}",
     "checkFunction": "_CheckDungeonEntryTouched",
@@ -149,6 +154,16 @@
     "checkFunction": "_CheckDungeonEntryNotTouched",
     "id": "condition_dung_group_ss05_untouched"
   },
+  "condition_dung_group_ss06_touched": {
+    "checkArgs": "{\"dungeonId\" : \"dung_group_ss06\"}",
+    "checkFunction": "_CheckDungeonEntryTouched",
+    "id": "condition_dung_group_ss06_touched"
+  },
+  "condition_dung_group_ss06_untouched": {
+    "checkArgs": "{\"dungeonId\" : \"dung_group_ss06\"}",
+    "checkFunction": "_CheckDungeonEntryNotTouched",
+    "id": "condition_dung_group_ss06_untouched"
+  },
   "condition_gather_crylplant_1_2": {
     "checkArgs": "{\"conditionList\" : [\"condition_unlock_map01_lv006\", \"condition_unlock_map02_lv005\", \"condition_unlock_map02_lv006\", \"condition_unlock_map02_lv008\"]}",
     "checkFunction": "_CheckOrConditionList",
@@ -164,10 +179,20 @@
     "checkFunction": "_CheckOrConditionList",
     "id": "condition_gather_spcstone_1_2"
   },
+  "condition_item_obtain_case_bp_selfselect_skillsp": {
+    "checkArgs": "{\"conditionList\" : [\"condition_item_obtain_case_bp_selfselect_skillsp_1\", \"condition_item_obtain_case_bp_selfselect_skillsp_2\"]}",
+    "checkFunction": "_CheckOrConditionList",
+    "id": "condition_item_obtain_case_bp_selfselect_skillsp"
+  },
   "condition_item_obtain_case_bp_selfselect_skillsp_1": {
     "checkArgs": "{\"itemId\" : \"item_case_bp_selfselect_skillsp_1\"}",
     "checkFunction": "_CheckPlayerOwnItem",
     "id": "condition_item_obtain_case_bp_selfselect_skillsp_1"
+  },
+  "condition_item_obtain_case_bp_selfselect_skillsp_2": {
+    "checkArgs": "{\"itemId\" : \"item_case_bp_selfselect_skillsp_2\"}",
+    "checkFunction": "_CheckPlayerOwnItem",
+    "id": "condition_item_obtain_case_bp_selfselect_skillsp_2"
   },
   "condition_item_obtain_noway_item_bbflower": {
     "checkArgs": "{\"wikiId\" : \"wiki_item_plant_bbflower_1\"}",
@@ -504,10 +529,25 @@
     "checkFunction": "_CheckWikiUnlocked",
     "id": "condition_item_plant_spcstone_2_3"
   },
+  "condition_mission_e11m8": {
+    "checkArgs": "{\"missionId\" : \"e11m8\", \"completed\" : true}",
+    "checkFunction": "_CheckMissionCompleted",
+    "id": "condition_mission_e11m8"
+  },
   "condition_mission_e5m3": {
     "checkArgs": "{\"missionId\" : \"e5m3\", \"completed\" : false}",
     "checkFunction": "_CheckMissionCompleted",
     "id": "condition_mission_e5m3"
+  },
+  "condition_mission_f1m36": {
+    "checkArgs": "{\"missionId\" : \"f1m36\", \"completed\" : true}",
+    "checkFunction": "_CheckMissionCompleted",
+    "id": "condition_mission_f1m36"
+  },
+  "condition_mission_f2m2": {
+    "checkArgs": "{\"missionId\" : \"f2m2\", \"completed\" : true}",
+    "checkFunction": "_CheckMissionCompleted",
+    "id": "condition_mission_f2m2"
   },
   "condition_plant_item_plant_crylplant_1_1": {
     "checkArgs": "{\"conditionList\" : [\"condition_spaceship_plant_build\", \"condition_item_plant_crylplant_1_1\"]}",

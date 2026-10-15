@@ -758,12 +758,12 @@
     "condType": "1",
     "cooldown": "3",
     "equipDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n - <@tips.orange>用尽后恢复次数</>",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n - <@tips.orange>Uses are restored after depletion</>"
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n - <@tips.orange>用尽后恢复次数</>",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\nItem will not be automatically used if the holder cannot gain Ultimate Energy with this method.\n - <@tips.orange>Uses are restored after depletion</>"
     },
     "equipExtraDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>. Item will not be automatically used if Ultimate Energy cannot be gained with this method.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
     },
     "itemId": "item_corp4_spc",
     "levelUpChargeCount": "3",
@@ -785,12 +785,12 @@
     "condType": "1",
     "cooldown": "3",
     "equipDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n - <@tips.orange>用尽后恢复次数</>",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n - <@tips.orange>Uses are restored after depletion</>"
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n - <@tips.orange>用尽后恢复次数</>",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\nItem will not be automatically used if the holder cannot gain Ultimate Energy with this method.\n - <@tips.orange>Uses are restored after depletion</>"
     },
     "equipExtraDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>. Item will not be automatically used if Ultimate Energy cannot be gained with this method.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
     },
     "itemId": "item_dog_1_slimeml_1_1",
     "levelUpChargeCount": "4",
@@ -880,6 +880,33 @@
     "recoverUpperCount": "1",
     "toMainCharCount": "0",
     "useTarget": "1"
+  },
+  "item_inkbiter_1_wgshoal_1_1": {
+    "autoCheckNotInFight": true,
+    "castTime": "2",
+    "chargeCount": "3",
+    "checkTarget": "0",
+    "condParams": [
+      "0.5",
+      "lt"
+    ],
+    "condType": "1",
+    "cooldown": "3",
+    "equipDesc": {
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n - <@tips.orange>用尽后恢复次数</>",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\nItem will not be automatically used if the holder cannot gain Ultimate Energy with this method.\n - <@tips.orange>Uses are restored after depletion</>"
+    },
+    "equipExtraDesc": {
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>. Item will not be automatically used if Ultimate Energy cannot be gained with this method.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
+    },
+    "itemId": "item_inkbiter_1_wgshoal_1_1",
+    "levelUpChargeCount": "3",
+    "levelUpRecoverUpperCount": "1",
+    "recoverTime": "60",
+    "recoverUpperCount": "1",
+    "toMainCharCount": "0",
+    "useTarget": "0"
   },
   "item_lbmob_1_lbshamman_1_sp_1_1": {
     "autoCheckNotInFight": true,
@@ -1187,12 +1214,12 @@
     "condType": "1",
     "cooldown": "3",
     "equipDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n - <@tips.orange>用尽后恢复次数</>",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n - <@tips.orange>Uses are restored after depletion</>"
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n - <@tips.orange>用尽后恢复次数</>",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\nItem will not be automatically used if the holder cannot gain Ultimate Energy with this method.\n - <@tips.orange>Uses are restored after depletion</>"
     },
     "equipExtraDesc": {
-      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
-      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
+      "cn": "装备后，当持有干员的终结技能量低于<@ba.vup>{param1:0%}</>时自动使用，单场战斗中最多可用<@ba.vup>{count:0}</>次。当持有干员无法通过这种方式恢复终结技能量时，将不会自动使用。\n<@tips.orange>用尽后恢复次数</>：战斗中的可用次数用尽时，一段时间后会恢复<@ba.vup>1</>次可用次数。",
+      "en": "Once equipped, item is automatically used when the holder's Ultimate Energy drops below <@ba.vup>{param1:0%}</>. Max uses per battle: <@ba.vup>{count:0}</>. Item will not be automatically used if Ultimate Energy cannot be gained with this method.\n<@tips.orange>Uses are restored after depletion</>: When uses are depleted in battle, <@ba.vup>1</> more use becomes available after a while."
     },
     "itemId": "item_slimeml_1_agrange_1_moss_2_1",
     "levelUpChargeCount": "4",
