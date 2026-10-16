@@ -162,7 +162,6 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/CommonForm/Strong/Crowd/injured",
                                 "tagId": -895818502
                             },
                             "actorId": "langtou_map02",
@@ -280,8 +279,8 @@
 
                         },
                         "montageDesc": {
+                            "bKeepMontageBefore": true,
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/CommonForm/Strong/Crowd/idle",
                                 "tagId": -2033535266
                             },
                             "montageFadeInTransitionInfo": {
@@ -351,12 +350,11 @@
                                     },
                                     "montageDesc": {
                                         "montageKeyTag": {
-                                            "tagName": "Montage/NPC/Humanoid/CommonForm/Strong/Crowd/idle",
                                             "tagId": -2033535266
                                         },
                                         "montageFadeInTransitionInfo": {
                                             "bIsFixedTransitionTime": true,
-                                            "fixedTransitionDuration": 0.5
+                                            "fixedTransitionDuration": 0.8
                                         },
                                         "actorId": "langtou_map02",
                                         "proxyId": "langtou_map02_f1m18d3ShouShang"
@@ -454,7 +452,6 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/CommonForm/Strong/Crowd/intercept",
                                 "tagId": 1613032195
                             },
                             "actorId": "langtou_map02",
@@ -789,7 +786,6 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/CommonForm/Strong/Crowd/fistangry",
                                 "tagId": 576470437
                             },
                             "actorId": "langtou_map02",
@@ -1383,14 +1379,6 @@
         "hideSquad": true,
         "needNpcTurnTo": false,
         "startAfterTurn": false,
-        "hideFacBuildingDesc": {
-            "showFacBuildingTypes": []
-        },
-        "hideDecoConfigs": [],
-        "hideInteractive": [],
-        "hideNpcDesc": {
-
-        },
         "actors": [
             {
                 "actorType": 8,
@@ -1421,6 +1409,17 @@
         "npcBlackList": [],
         "npcWhiteList": [],
         "privateActors": [],
+        "hideEnvCreatureDesc": {
+
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],

@@ -51,12 +51,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -122,11 +122,179 @@
             },
             "additionalWidth": 207.0,
             "_position": {
-                "x": -160.0,
+                "x": -800.0,
                 "y": 960.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
             "$id": "0"
+        },
+        {
+            "_dialogIfData": {
+                "condition": {
+                    "_questId": {
+                        "constValue": "a1m18_q#3"
+                    },
+                    "_comparer": {
+
+                    },
+                    "_targetQuestState": {
+                        "constValue": 3
+                    },
+                    "$type": "Beyond.Gameplay.CheckQuestState"
+                }
+            },
+            "_position": {
+                "x": -320.0,
+                "y": 1000.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeIfNode",
+            "$id": "1"
+        },
+        {
+            "_actorNodeData": {
+                "mfTrunkActionData": {
+                    "exUIDescriptor": {
+                        "_disableClickTime": 1.0
+                    },
+                    "_trunkId": "dlg_a1m7_3_001",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "enableEmotionVoice": true,
+                    "actorIndex": 1,
+                    "duration": -1.0,
+                    "actionEnum": 307,
+                    "configSaveId": ""
+                },
+                "camActData": {
+                    "camDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "mCamDescriptor": {
+                        "dofDescriptor": {
+                            "dofData": {
+
+                            }
+                        }
+                    },
+                    "actorIndex": 1,
+                    "delay": 0.0
+                },
+                "teleportAllEntityActData": {
+                    "actorPosList": []
+                },
+                "_showNpcs": [],
+                "_hideNpcs": [],
+                "_actorIndex": 1,
+                "animActData": {
+                    "anim": {
+                        "charMontageDesc": {
+
+                        },
+                        "montageDesc": {
+                            "montageKeyTag": {
+                                "tagId": 1635068142
+                            },
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
+                        },
+                        "maleMontageOverrideDesc": {
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
+                        },
+                        "animEndType": 1
+                    },
+                    "actorIndex": 1
+                },
+                "emotionActData": {
+                    "emotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "mEmotionDesc": {
+                        "browsTrackInfo": {
+
+                        },
+                        "eyesTrackInfo": {
+
+                        },
+                        "mouthTrackInfo": {
+
+                        }
+                    },
+                    "actorIndex": 1
+                },
+                "lookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "eyeLookAtActData": {
+                    "lookAtDescriptor": {
+
+                    },
+                    "actorIndex": 1
+                },
+                "turnToActData": {
+                    "actorIndex": 1
+                },
+                "actions": [],
+                "actionGroups": [],
+                "$type": "Beyond.Gameplay.DTTrunkNodeData"
+            },
+            "additionalWidth": 207.0,
+            "_position": {
+                "x": -40.0,
+                "y": 1500.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
+            "$id": "2"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_position": {
+                "x": 380.0,
+                "y": 1520.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "3"
+        },
+        {
+            "_transitionData": {
+                "streamLoadMaskBlendData": {
+                    "audioBlackScreenBehaviour": {
+                        "customRetainFlags": 2
+                    }
+                },
+                "_actionGroups": [
+                    {
+                        "actions": []
+                    }
+                ],
+                "actions": []
+            },
+            "additionalWidth": 26.0,
+            "_position": {
+                "x": -40.0,
+                "y": 1000.0
+            },
+            "$type": "Beyond.Gameplay.DialogTransitionNode",
+            "$id": "4"
         },
         {
             "_normalOptions": [
@@ -176,7 +344,7 @@
                 "y": 960.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "1"
+            "$id": "5"
         },
         {
             "_actorNodeData": {
@@ -228,12 +396,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -293,7 +461,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "2"
+            "$id": "6"
         },
         {
             "_actorNodeData": {
@@ -346,16 +514,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/Virtual/idle_shake",
                                 "tagId": 130920861
                             },
                             "montageBodyMask": 5,
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -413,7 +580,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "3"
+            "$id": "7"
         },
         {
             "_normalOptions": [
@@ -433,7 +600,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "4"
+            "$id": "8"
         },
         {
             "_actorNodeData": {
@@ -486,15 +653,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/introduction",
                                 "tagId": 2084416425
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -550,7 +716,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "5"
+            "$id": "9"
         },
         {
             "_actorNodeData": {
@@ -602,12 +768,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -662,7 +828,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "6"
+            "$id": "10"
         },
         {
             "_actorNodeData": {
@@ -715,15 +881,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/cheer",
                                 "tagId": 2024299301
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -779,7 +944,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "7"
+            "$id": "11"
         },
         {
             "_normalOptions": [
@@ -794,7 +959,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "8"
+            "$id": "12"
         },
         {
             "_actorNodeData": {
@@ -846,12 +1011,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -906,7 +1071,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "9"
+            "$id": "13"
         },
         {
             "_actorNodeData": {
@@ -959,15 +1124,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/Virtual/akimbo1",
                                 "tagId": 1197174960
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -1023,7 +1187,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "10"
+            "$id": "14"
         },
         {
             "_actorNodeData": {
@@ -1075,12 +1239,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -1135,7 +1299,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "11"
+            "$id": "15"
         },
         {
             "_actorNodeData": {
@@ -1188,15 +1352,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/give",
                                 "tagId": 1337412590
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -1252,7 +1415,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "12"
+            "$id": "16"
         },
         {
             "_normalOptions": [
@@ -1272,7 +1435,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "13"
+            "$id": "17"
         },
         {
             "_actorNodeData": {
@@ -1324,12 +1487,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -1384,7 +1547,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "14"
+            "$id": "18"
         },
         {
             "_actorNodeData": {
@@ -1436,12 +1599,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -1496,7 +1659,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "15"
+            "$id": "19"
         },
         {
             "_actorNodeData": {
@@ -1548,12 +1711,12 @@
 
                         },
                         "montageDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         }
                     },
                     "actorIndex": 1
@@ -1608,7 +1771,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "16"
+            "$id": "20"
         },
         {
             "finishId": 1,
@@ -1618,7 +1781,7 @@
                 "y": 560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeFinishNode",
-            "$id": "17"
+            "$id": "21"
         },
         {
             "_transitionData": {
@@ -1640,7 +1803,7 @@
                 "y": 880.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "18"
+            "$id": "22"
         },
         {
             "_normalOptions": [
@@ -1724,7 +1887,7 @@
                 "y": 960.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "19"
+            "$id": "23"
         },
         {
             "_actorNodeData": {
@@ -1776,16 +1939,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/introduction",
                                 "tagId": 2084416425
                             },
                             "montageOverrideEntryTransitionInfo": [],
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -1841,7 +2003,7 @@
                 "y": 800.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "20"
+            "$id": "24"
         },
         {
             "_actorNodeData": {
@@ -1944,7 +2106,7 @@
                 "y": 800.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "21"
+            "$id": "25"
         },
         {
             "_actorNodeData": {
@@ -1996,15 +2158,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/Virtual/idle_talkrighthand1",
                                 "tagId": -199252725
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -2060,7 +2221,7 @@
                 "y": 800.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "22"
+            "$id": "26"
         },
         {
             "_actorNodeData": {
@@ -2163,7 +2324,7 @@
                 "y": 800.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "23"
+            "$id": "27"
         },
         {
             "_actorNodeData": {
@@ -2266,7 +2427,7 @@
                 "y": 1040.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "24"
+            "$id": "28"
         },
         {
             "_actorNodeData": {
@@ -2359,7 +2520,7 @@
                 "y": 1040.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "25"
+            "$id": "29"
         },
         {
             "_actorNodeData": {
@@ -2411,15 +2572,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/cheer",
                                 "tagId": 2024299301
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -2475,7 +2635,7 @@
                 "y": 1040.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "26"
+            "$id": "30"
         },
         {
             "_actorNodeData": {
@@ -2527,16 +2687,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/Virtual/akimbo1",
                                 "tagId": 1197174960
                             },
                             "montageOverrideEntryTransitionInfo": [],
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -2592,7 +2751,7 @@
                 "y": 1280.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "27"
+            "$id": "31"
         },
         {
             "_actorNodeData": {
@@ -2695,7 +2854,7 @@
                 "y": 1280.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "28"
+            "$id": "32"
         },
         {
             "_actorNodeData": {
@@ -2798,7 +2957,7 @@
                 "y": 1280.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "29"
+            "$id": "33"
         },
         {
             "_actorNodeData": {
@@ -2901,7 +3060,7 @@
                 "y": 1280.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "30"
+            "$id": "34"
         },
         {
             "_actorNodeData": {
@@ -2994,7 +3153,7 @@
                 "y": 1280.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "31"
+            "$id": "35"
         },
         {
             "_transitionData": {
@@ -3016,7 +3175,7 @@
                 "y": 1620.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "32"
+            "$id": "36"
         },
         {
             "_normalOptions": [
@@ -3100,7 +3259,7 @@
                 "y": 1560.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "33"
+            "$id": "37"
         },
         {
             "_actorNodeData": {
@@ -3152,16 +3311,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/akimbolaugh",
                                 "tagId": -2028159929
                             },
                             "montageOverrideEntryTransitionInfo": [],
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -3217,7 +3375,7 @@
                 "y": 1500.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "34"
+            "$id": "38"
         },
         {
             "_actorNodeData": {
@@ -3310,7 +3468,7 @@
                 "y": 1500.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "35"
+            "$id": "39"
         },
         {
             "_actorNodeData": {
@@ -3413,7 +3571,7 @@
                 "y": 1500.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "36"
+            "$id": "40"
         },
         {
             "_actorNodeData": {
@@ -3516,7 +3674,7 @@
                 "y": 1760.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "37"
+            "$id": "41"
         },
         {
             "_actorNodeData": {
@@ -3568,15 +3726,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/introduction",
                                 "tagId": 2084416425
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -3632,7 +3789,7 @@
                 "y": 1760.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "38"
+            "$id": "42"
         },
         {
             "_actorNodeData": {
@@ -3735,7 +3892,7 @@
                 "y": 1760.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "39"
+            "$id": "43"
         },
         {
             "_actorNodeData": {
@@ -3787,16 +3944,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/Virtual/akimbo1",
                                 "tagId": 1197174960
                             },
                             "montageOverrideEntryTransitionInfo": [],
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -3852,7 +4008,7 @@
                 "y": 2000.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "40"
+            "$id": "44"
         },
         {
             "_actorNodeData": {
@@ -3955,7 +4111,7 @@
                 "y": 2000.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "41"
+            "$id": "45"
         },
         {
             "_actorNodeData": {
@@ -4048,7 +4204,7 @@
                 "y": 2000.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "42"
+            "$id": "46"
         },
         {
             "_transitionData": {
@@ -4070,7 +4226,7 @@
                 "y": 2220.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "43"
+            "$id": "47"
         },
         {
             "_normalOptions": [
@@ -4103,7 +4259,7 @@
                 "y": 2360.0
             },
             "$type": "Beyond.Gameplay.DialogTreeOptionNode",
-            "$id": "44"
+            "$id": "48"
         },
         {
             "_actorNodeData": {
@@ -4155,16 +4311,15 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/cheer",
                                 "tagId": 2024299301
                             },
                             "montageOverrideEntryTransitionInfo": [],
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -4220,7 +4375,7 @@
                 "y": 2340.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "45"
+            "$id": "49"
         },
         {
             "_actorNodeData": {
@@ -4313,7 +4468,7 @@
                 "y": 2340.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "46"
+            "$id": "50"
         },
         {
             "_actorNodeData": {
@@ -4406,7 +4561,7 @@
                 "y": 2340.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "47"
+            "$id": "51"
         },
         {
             "_actorNodeData": {
@@ -4458,15 +4613,14 @@
                         },
                         "montageDesc": {
                             "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/introduction",
                                 "tagId": 2084416425
                             },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
+                            "actorId": "kali-paizhaoerqi_map02",
+                            "proxyId": "kali-paizhaoerqi_map02_v1d3d0_a1m7"
                         },
                         "animEndType": 1
                     },
@@ -4522,7 +4676,7 @@
                 "y": 2340.0
             },
             "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "48"
+            "$id": "52"
         },
         {
             "_transitionData": {
@@ -4544,7 +4698,7 @@
                 "y": 2340.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "49"
+            "$id": "53"
         },
         {
             "_transitionData": {
@@ -4566,7 +4720,7 @@
                 "y": 1900.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "50"
+            "$id": "54"
         },
         {
             "_transitionData": {
@@ -4588,132 +4742,7 @@
                 "y": 1240.0
             },
             "$type": "Beyond.Gameplay.DialogTransitionNode",
-            "$id": "51"
-        },
-        {
-            "_actorNodeData": {
-                "mfTrunkActionData": {
-                    "exUIDescriptor": {
-                        "_disableClickTime": 1.0
-                    },
-                    "_trunkId": "dlg_a1m7_3_001",
-                    "voiceConfig": {
-
-                    },
-                    "microExpressionDesc": {
-
-                    },
-                    "enableEmotionVoice": true,
-                    "actorIndex": 1,
-                    "duration": -1.0,
-                    "actionEnum": 307,
-                    "configSaveId": ""
-                },
-                "camActData": {
-                    "camDescriptor": {
-                        "dofDescriptor": {
-                            "dofData": {
-
-                            }
-                        }
-                    },
-                    "mCamDescriptor": {
-                        "dofDescriptor": {
-                            "dofData": {
-
-                            }
-                        }
-                    },
-                    "actorIndex": 1,
-                    "delay": 0.0
-                },
-                "teleportAllEntityActData": {
-                    "actorPosList": []
-                },
-                "_showNpcs": [],
-                "_hideNpcs": [],
-                "_actorIndex": 1,
-                "animActData": {
-                    "anim": {
-                        "charMontageDesc": {
-
-                        },
-                        "montageDesc": {
-                            "montageKeyTag": {
-                                "tagName": "Montage/NPC/Humanoid/SpecialForm/Kids/VIP/wave1",
-                                "tagId": 1635068142
-                            },
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
-                        },
-                        "maleMontageOverrideDesc": {
-                            "actorId": "carly_map02",
-                            "proxyId": "carly_map02_v1d3d0_a1m7"
-                        },
-                        "animEndType": 1
-                    },
-                    "actorIndex": 1
-                },
-                "emotionActData": {
-                    "emotionDesc": {
-                        "browsTrackInfo": {
-
-                        },
-                        "eyesTrackInfo": {
-
-                        },
-                        "mouthTrackInfo": {
-
-                        }
-                    },
-                    "mEmotionDesc": {
-                        "browsTrackInfo": {
-
-                        },
-                        "eyesTrackInfo": {
-
-                        },
-                        "mouthTrackInfo": {
-
-                        }
-                    },
-                    "actorIndex": 1
-                },
-                "lookAtActData": {
-                    "lookAtDescriptor": {
-
-                    },
-                    "actorIndex": 1
-                },
-                "eyeLookAtActData": {
-                    "lookAtDescriptor": {
-
-                    },
-                    "actorIndex": 1
-                },
-                "turnToActData": {
-                    "actorIndex": 1
-                },
-                "actions": [],
-                "actionGroups": [],
-                "$type": "Beyond.Gameplay.DTTrunkNodeData"
-            },
-            "additionalWidth": 207.0,
-            "_position": {
-                "x": -140.0,
-                "y": 1320.0
-            },
-            "$type": "Beyond.Gameplay.DialogTreeTrunkNode",
-            "$id": "52"
-        },
-        {
-            "additionalWidth": 214.0,
-            "_position": {
-                "x": 180.0,
-                "y": 1560.0
-            },
-            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
-            "$id": "53"
+            "$id": "55"
         }
     ],
     "connections": [
@@ -4740,16 +4769,7 @@
                 "$ref": "1"
             },
             "_targetNode": {
-                "$ref": "18"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "1"
-            },
-            "_targetNode": {
-                "$ref": "52"
+                "$ref": "4"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -4764,24 +4784,6 @@
         },
         {
             "_sourceNode": {
-                "$ref": "3"
-            },
-            "_targetNode": {
-                "$ref": "4"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "4"
-            },
-            "_targetNode": {
-                "$ref": "5"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
                 "$ref": "4"
             },
             "_targetNode": {
@@ -4795,6 +4797,24 @@
             },
             "_targetNode": {
                 "$ref": "6"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "22"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "5"
+            },
+            "_targetNode": {
+                "$ref": "2"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -4813,6 +4833,15 @@
             },
             "_targetNode": {
                 "$ref": "8"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "8"
+            },
+            "_targetNode": {
+                "$ref": "9"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -4858,15 +4887,6 @@
             },
             "_targetNode": {
                 "$ref": "13"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "13"
-            },
-            "_targetNode": {
-                "$ref": "14"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -4908,6 +4928,24 @@
         },
         {
             "_sourceNode": {
+                "$ref": "17"
+            },
+            "_targetNode": {
+                "$ref": "18"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "17"
+            },
+            "_targetNode": {
+                "$ref": "18"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
                 "$ref": "18"
             },
             "_targetNode": {
@@ -4926,42 +4964,6 @@
         },
         {
             "_sourceNode": {
-                "$ref": "19"
-            },
-            "_targetNode": {
-                "$ref": "24"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "19"
-            },
-            "_targetNode": {
-                "$ref": "27"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "19"
-            },
-            "_targetNode": {
-                "$ref": "32"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "19"
-            },
-            "_targetNode": {
-                "$ref": "51"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
                 "$ref": "20"
             },
             "_targetNode": {
@@ -4971,15 +4973,6 @@
         },
         {
             "_sourceNode": {
-                "$ref": "21"
-            },
-            "_targetNode": {
-                "$ref": "22"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
                 "$ref": "22"
             },
             "_targetNode": {
@@ -4992,7 +4985,43 @@
                 "$ref": "23"
             },
             "_targetNode": {
-                "$ref": "19"
+                "$ref": "24"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "23"
+            },
+            "_targetNode": {
+                "$ref": "28"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "23"
+            },
+            "_targetNode": {
+                "$ref": "31"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "23"
+            },
+            "_targetNode": {
+                "$ref": "36"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "23"
+            },
+            "_targetNode": {
+                "$ref": "55"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5019,7 +5048,7 @@
                 "$ref": "26"
             },
             "_targetNode": {
-                "$ref": "19"
+                "$ref": "27"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5028,7 +5057,7 @@
                 "$ref": "27"
             },
             "_targetNode": {
-                "$ref": "28"
+                "$ref": "23"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5055,7 +5084,7 @@
                 "$ref": "30"
             },
             "_targetNode": {
-                "$ref": "31"
+                "$ref": "23"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5064,7 +5093,7 @@
                 "$ref": "31"
             },
             "_targetNode": {
-                "$ref": "19"
+                "$ref": "32"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5088,42 +5117,6 @@
         },
         {
             "_sourceNode": {
-                "$ref": "33"
-            },
-            "_targetNode": {
-                "$ref": "37"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "33"
-            },
-            "_targetNode": {
-                "$ref": "40"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "33"
-            },
-            "_targetNode": {
-                "$ref": "43"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "33"
-            },
-            "_targetNode": {
-                "$ref": "50"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
                 "$ref": "34"
             },
             "_targetNode": {
@@ -5136,7 +5129,7 @@
                 "$ref": "35"
             },
             "_targetNode": {
-                "$ref": "36"
+                "$ref": "23"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5145,7 +5138,7 @@
                 "$ref": "36"
             },
             "_targetNode": {
-                "$ref": "33"
+                "$ref": "37"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5160,6 +5153,42 @@
         },
         {
             "_sourceNode": {
+                "$ref": "37"
+            },
+            "_targetNode": {
+                "$ref": "41"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "37"
+            },
+            "_targetNode": {
+                "$ref": "44"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "37"
+            },
+            "_targetNode": {
+                "$ref": "47"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "37"
+            },
+            "_targetNode": {
+                "$ref": "54"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
                 "$ref": "38"
             },
             "_targetNode": {
@@ -5172,7 +5201,7 @@
                 "$ref": "39"
             },
             "_targetNode": {
-                "$ref": "33"
+                "$ref": "40"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5181,7 +5210,7 @@
                 "$ref": "40"
             },
             "_targetNode": {
-                "$ref": "41"
+                "$ref": "37"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5199,7 +5228,7 @@
                 "$ref": "42"
             },
             "_targetNode": {
-                "$ref": "33"
+                "$ref": "43"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5208,7 +5237,7 @@
                 "$ref": "43"
             },
             "_targetNode": {
-                "$ref": "44"
+                "$ref": "37"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5218,15 +5247,6 @@
             },
             "_targetNode": {
                 "$ref": "45"
-            },
-            "$type": "Beyond.Gameplay.DialogTreeConnection"
-        },
-        {
-            "_sourceNode": {
-                "$ref": "44"
-            },
-            "_targetNode": {
-                "$ref": "49"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5244,7 +5264,7 @@
                 "$ref": "46"
             },
             "_targetNode": {
-                "$ref": "47"
+                "$ref": "37"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5262,7 +5282,16 @@
                 "$ref": "48"
             },
             "_targetNode": {
-                "$ref": "44"
+                "$ref": "49"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "48"
+            },
+            "_targetNode": {
+                "$ref": "53"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5271,7 +5300,7 @@
                 "$ref": "49"
             },
             "_targetNode": {
-                "$ref": "1"
+                "$ref": "50"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5280,7 +5309,7 @@
                 "$ref": "50"
             },
             "_targetNode": {
-                "$ref": "1"
+                "$ref": "51"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5289,7 +5318,7 @@
                 "$ref": "51"
             },
             "_targetNode": {
-                "$ref": "1"
+                "$ref": "52"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         },
@@ -5298,7 +5327,34 @@
                 "$ref": "52"
             },
             "_targetNode": {
+                "$ref": "48"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
                 "$ref": "53"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "54"
+            },
+            "_targetNode": {
+                "$ref": "5"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "55"
+            },
+            "_targetNode": {
+                "$ref": "5"
             },
             "$type": "Beyond.Gameplay.DialogTreeConnection"
         }
@@ -5319,14 +5375,6 @@
 
         },
         "hideSquad": true,
-        "hideFacBuildingDesc": {
-            "showFacBuildingTypes": []
-        },
-        "hideDecoConfigs": [],
-        "hideInteractive": [],
-        "hideNpcDesc": {
-
-        },
         "actors": [
             {
                 "actorType": 8,
@@ -5343,6 +5391,17 @@
         "npcBlackList": [],
         "npcWhiteList": [],
         "privateActors": [],
+        "hideEnvCreatureDesc": {
+
+        },
+        "hideFacBuildingDesc": {
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
         "exLights": [],
         "exEffects": [],
         "tmpGameObjects": [],

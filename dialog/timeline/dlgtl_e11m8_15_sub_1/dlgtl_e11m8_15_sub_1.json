@@ -110,7 +110,8 @@
             }
           ]
         }
-      ]
+      ],
+      "rendererUpdateWhenOffscreenOverrides": []
     },
     {
       "descriptor": {
@@ -230,7 +231,8 @@
           "gameObjectPath": "npc_1006_adaxier_postmodel/Mesh_all/lod3/S_npc_major_ardashir_cloth_01_lod3"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     }
   ],
   "audioEvents": [
@@ -265,6 +267,7 @@
     "hideFacFence": true,
     "hideFacBuilding": false,
     "hideSocialFac": true,
+    "hideSocialFacOwner": 3,
     "hideFacBuildingRadius": 5.0,
     "hideFacBuildingRadiusDialogRoot": 0.0,
     "useCustomHideFacCenter": false,
@@ -282,6 +285,10 @@
   "cutsceneName": "dlgtl_e11m8_15_sub_1",
   "targetFrameRate": 60,
   "needSelfVersionControl": false,
+  "version": "v1d4d0",
+  "enableTimelineEffectLOD": false,
+  "enablePreBindAnimationOutput": false,
+  "enableControlActivationMixer": false,
   "path": "Assets/Beyond/DynamicAssets/Gameplay/Dialog/Timeline/dlgtl_e11m8_15_sub_1/Prefab/dlgtl_e11m8_15_sub_1",
   "interruptCharHenshin": false,
   "useBlackScreen": true,
@@ -314,6 +321,7 @@
   "skipType": 1,
   "triggerPendingNotificationsOnSkip": false,
   "hideSquad": true,
+  "disableNpcColliders": false,
   "isTransition": false,
   "audioListenerFollow": false,
   "isDitherFacBuilding": false,
@@ -351,10 +359,11 @@
   "summaryId": "summary_e11m8_15_001",
   "envFollowCamera": true,
   "keepStateOnChangeActive": false,
+  "npcFollowAssemblerScale": false,
+  "createNpcAssemblerAttachments": true,
   "rainMaxImmediate": true,
   "overrideDryDrenchedAfterSeconds": true,
   "dryDrenchedAfterSeconds": 0.0,
   "overrideDryDrenchedSmoothTime": true,
-  "dryDrenchedSmoothTime": 1.0,
-  "version": "v1d4d0"
+  "dryDrenchedSmoothTime": 1.0
 }

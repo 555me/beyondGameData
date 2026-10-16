@@ -51,7 +51,53 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_jsspsi_npc_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [
+        {
+          "rendererPath": "chr_0036_jsspsi_postmodel/Mesh_all/lod0/S_actor_jsspsi_brow_01_lod0",
+          "rendererType": "SkinnedMeshRenderer",
+          "meshName": "S_actor_jsspsi_brow_01_lod0",
+          "materials": [
+            {
+              "materialAssetPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Jsspsi/Materials/M_actor_jsspsi_brow_01.mat",
+              "materialPathHash": 138832455447155757
+            }
+          ]
+        },
+        {
+          "rendererPath": "chr_0036_jsspsi_postmodel/Mesh_all/lod1/S_actor_jsspsi_brow_01_lod1",
+          "rendererType": "SkinnedMeshRenderer",
+          "meshName": "S_actor_jsspsi_brow_01_lod1",
+          "materials": [
+            {
+              "materialAssetPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Jsspsi/Materials/M_actor_jsspsi_brow_01.mat",
+              "materialPathHash": 138832455447155757
+            }
+          ]
+        },
+        {
+          "rendererPath": "chr_0036_jsspsi_postmodel/Mesh_all/lod2/S_actor_jsspsi_brow_01_lod2",
+          "rendererType": "SkinnedMeshRenderer",
+          "meshName": "S_actor_jsspsi_brow_01_lod2",
+          "materials": [
+            {
+              "materialAssetPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Jsspsi/Materials/M_actor_jsspsi_brow_01.mat",
+              "materialPathHash": 138832455447155757
+            }
+          ]
+        },
+        {
+          "rendererPath": "chr_0036_jsspsi_postmodel/Mesh_all/lod3/S_actor_jsspsi_brow_01_lod3",
+          "rendererType": "SkinnedMeshRenderer",
+          "meshName": "S_actor_jsspsi_brow_01_lod3",
+          "materials": [
+            {
+              "materialAssetPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Jsspsi/Materials/M_actor_jsspsi_brow_01.mat",
+              "materialPathHash": 138832455447155757
+            }
+          ]
+        }
+      ],
+      "rendererUpdateWhenOffscreenOverrides": []
     },
     {
       "descriptor": {
@@ -96,7 +142,8 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_endminf_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     },
     {
       "descriptor": {
@@ -141,7 +188,8 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_common_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     }
   ],
   "audioEvents": [
@@ -168,6 +216,7 @@
     "hideFacFence": true,
     "hideFacBuilding": false,
     "hideSocialFac": true,
+    "hideSocialFacOwner": 3,
     "hideFacBuildingRadius": 5.0,
     "hideFacBuildingRadiusDialogRoot": 0.0,
     "useCustomHideFacCenter": false,
@@ -253,6 +302,8 @@
   "summaryId": "summary_e11m8_16_001",
   "envFollowCamera": true,
   "keepStateOnChangeActive": false,
+  "npcFollowAssemblerScale": false,
+  "createNpcAssemblerAttachments": true,
   "rainMaxImmediate": true,
   "overrideDryDrenchedAfterSeconds": true,
   "dryDrenchedAfterSeconds": 0.0,
