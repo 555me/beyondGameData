@@ -1463,6 +1463,45 @@
     "timeId": "time_special_1_6_1",
     "type": "9"
   },
+  "activity_char_trial_v1d6_2": {
+    "bgImg": "",
+    "bgm": "",
+    "conditions": [],
+    "desc": {
+      "cn": "",
+      "en": ""
+    },
+    "detailJumpId": "",
+    "endMissionQuestId": "",
+    "id": "activity_char_trial_v1d6_2",
+    "immediateClose": false,
+    "instructionId": "Char_Trial",
+    "introMissionJumpId": "",
+    "introMissionQuestId": "",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "作战演练",
+      "en": "Combat Drills"
+    },
+    "panelId": "ActivityCharacterTrial",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "recommendTime": "",
+    "redDotName": "",
+    "rewardId": "reward_activity_chartrial_minghe_overview",
+    "sortId": "5001",
+    "tabImg": "activity_tab_character_trial_minghe",
+    "tabImgColor": "#fff078",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_chartrial"
+    ],
+    "themeColor": "",
+    "timeId": "time_special_1_6_2",
+    "type": "9"
+  },
   "activity_character_gift_purrche": {
     "bgImg": "",
     "bgm": "",
@@ -2590,6 +2629,62 @@
     ],
     "themeColor": "",
     "timeId": "time_activity_contingency_contract_0",
+    "type": "30"
+  },
+  "activity_contingency_contract_1": {
+    "bgImg": "",
+    "bgm": "au_music_meta_ui_cc_v1d6_prepare",
+    "conditions": [
+      {
+        "compareOperator": "3",
+        "conditionId": "activity_cc_0_condition",
+        "conditionType": "5023",
+        "desc": {
+          "cn": "管理员权限等阶到达30级",
+          "en": "Reach Endministrator Authority Level 30"
+        },
+        "jumpId": "jump_adventure_book",
+        "parameters": [],
+        "progressToCompare": "30",
+        "tips": {
+          "cn": "当前权限等阶%d级（可根据行动手册指引完成各项任务，获取行动资历，提升权限等阶）",
+          "en": "Current Authority Level: %d (raise it by completing Operational Manual missions and earning Operational EXP)"
+        }
+      }
+    ],
+    "desc": {
+      "cn": "世界正在变化，回应遥遥无期。污浊潮水涌入了协议空间……请您粉碎这份亵渎。",
+      "en": "The world is changing and no responses have been received for ages. Tainted tide water is pouring into the Protocol Space... Please erase this blasphemy from our sight."
+    },
+    "detailJumpId": "jump_contingency_contract_tag_select_v1d6",
+    "endMissionQuestId": "",
+    "id": "activity_contingency_contract_1",
+    "immediateClose": false,
+    "instructionId": "activity_contingency_contract_1",
+    "introMissionJumpId": "jump_mission_contingency_contract_v1d6",
+    "introMissionQuestId": "a1m21_q#1",
+    "isRecommend": false,
+    "keepAfterPermanentActivityComplete": false,
+    "name": {
+      "cn": "危机合约 浸蓝测试作战",
+      "en": "Contingency Contract: Indigo Experimental Operation"
+    },
+    "panelId": "ActivityContingencyContract",
+    "popUpOnlyOnce": false,
+    "popUpPanelId": "",
+    "popUpSortId": "-1",
+    "recommendTime": "",
+    "redDotName": "",
+    "rewardId": "reward_activity_contingency_contract_1_overview",
+    "sortId": "6103",
+    "tabImg": "activity_tab_bg_contingency_new",
+    "tabImgColor": "#f6ff00",
+    "tabImgGender": false,
+    "tagIds": [
+      "activity_tag_high_difficulty"
+    ],
+    "themeColor": "",
+    "timeId": "time_activity_contingency_contract_1",
     "type": "30"
   },
   "activity_cultivation_refund": {
