@@ -1370,8 +1370,8 @@
     "isValuableDepot": true,
     "itemId": "item_cbp_voucher_originium",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的塔晶。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered Talosite within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+      "cn": "",
+      "en": ""
     },
     "stackingKey": "",
     "targetNumType": "0",
@@ -1388,8 +1388,8 @@
     "isValuableDepot": true,
     "itemId": "item_cbp_voucher_pay",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的塔晶。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered Talosite within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+      "cn": "",
+      "en": ""
     },
     "stackingKey": "",
     "targetNumType": "0",
@@ -2886,6 +2886,48 @@
       }
     ]
   },
+  "item_jzmonk_1_mushbug_spmushroom1_1": {
+    "duration": "60",
+    "effectType": "2",
+    "gameModeForbidTagList": [
+      "0"
+    ],
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_jzmonk_1_mushbug_spmushroom1_1",
+    "itemUseDesc": {
+      "cn": "使用后，随机获得一种增益效果，持续<@ba.vup>{duration:0}</>秒。\n<@ba.info>重新定义你的双眼、双腿以及世界。</>",
+      "en": "Use this to acquire a random buff that lasts <@ba.vup>{duration:0}</>s.\n<@ba.info>It shall redefine your eyes, your legs, and the entire world.</>"
+    },
+    "stackingKey": "buff",
+    "targetNumType": "0",
+    "uiType": "3",
+    "useActions": [
+      {
+        "buffBBData": {
+          "blackboard": [
+            {
+              "key": "value",
+              "value": 0.48906705,
+              "valueStr": ""
+            },
+            {
+              "key": "duration",
+              "value": "60",
+              "valueStr": ""
+            }
+          ],
+          "buffId": "buff_common_mushroom_buff_potion_1"
+        },
+        "skillBBData": {
+          "blackboard": [],
+          "skillId": "",
+          "skillPath": ""
+        },
+        "useType": "2"
+      }
+    ]
+  },
   "item_klbuds_1_hsfly_1_1": {
     "duration": "300",
     "effectType": "2",
@@ -3276,8 +3318,8 @@
     "isValuableDepot": true,
     "itemId": "item_monthlycard_1",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的塔晶。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered Talosite within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+      "cn": "",
+      "en": ""
     },
     "stackingKey": "",
     "targetNumType": "0",
@@ -3685,8 +3727,8 @@
     "isValuableDepot": true,
     "itemId": "item_resetid_1",
     "itemUseDesc": {
-      "cn": "消耗品，使用后可探测出当前区域内的一个未发现的塔晶。解锁当前区域所有地图迷雾后才可使用。（仅限武陵地区生效）",
-      "en": "Consumable. Usage reveals an undiscovered Talosite within the current area. Usable only after all fogged places of the map have been charted. This item only works in Wuling."
+      "cn": "",
+      "en": ""
     },
     "stackingKey": "",
     "targetNumType": "0",
@@ -4224,6 +4266,22 @@
         "useType": "2"
       }
     ]
+  },
+  "item_wgthorns_1_mushbug_spmushroom1_1": {
+    "duration": "0",
+    "effectType": "1",
+    "gameModeForbidTagList": [],
+    "isPersistentBuff": false,
+    "isValuableDepot": false,
+    "itemId": "item_wgthorns_1_mushbug_spmushroom1_1",
+    "itemUseDesc": {
+      "cn": "使用后，立刻使处于无法战斗状态的指定单体复苏，并回复<@ba.vup>50%</>最大生命值。",
+      "en": "Use this to instantly revive an unconscious team member to <@ba.vup>50%</> Max HP."
+    },
+    "stackingKey": "",
+    "targetNumType": "0",
+    "uiType": "4",
+    "useActions": []
   },
   "item_wuling_detector_coin_3": {
     "duration": "0",

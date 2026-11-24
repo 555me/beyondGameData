@@ -1031,7 +1031,7 @@
     "preNode": [
       "tech_jinlong_1_battle_fog_1"
     ],
-    "sortId": "46",
+    "sortId": "71",
     "techId": "tech_jinlong_2_battle_jet_1",
     "uiPos": [
       "10",
@@ -1092,7 +1092,7 @@
     "preNode": [
       "tech_jinlong_1_battle_cannon_2"
     ],
-    "sortId": "47",
+    "sortId": "72",
     "techId": "tech_jinlong_2_battle_trap_1",
     "uiPos": [
       "11",
@@ -1212,15 +1212,15 @@
     "costPointCount": "1",
     "defaultHidden": false,
     "desc": {
-      "cn": "研究后可制造<@tech.key>废水处理机</>；\n废水处理机可以处理污水、也可低效处理壤晶废液与惰性壤晶废液。且不对环境造成污染。",
-      "en": "Research this to construct the <@tech.key>Water Treatment Unit</>. \nThe Water Treatment Unit can process Sewage as well as Xircon Effluent and Inert Xircon Effluent, albeit at lower efficiency. The facility also generates no pollution."
+      "cn": "研究后可制造<@tech.key>废料处理机</>；\n废料处理机可以处理污水、也可低效处理壤晶废液、惰性壤晶废液以及浊型辉铜气。且不对环境造成污染。",
+      "en": "Research this to construct <@tech.key>Waste Treatment Units</>.\nThe Waste Treatment Unit can process Sewage as well as Xircon Effluent, Inert Xircon Effluent, and Turbid Lucidolite Gas at lower efficiency. The facility also generates no pollution."
     },
     "groupId": "tech_group_jinlong",
     "icon": "tech_jinlong_2_liquid_cleaner_1",
     "layer": "tech_group_jinlong_copper",
     "name": {
-      "cn": "废水处理",
-      "en": "Water Treatment Unit"
+      "cn": "废料处理",
+      "en": "Waste Treatment"
     },
     "preNode": [
       "tech_jinlong_1_dismantler_1"
@@ -1232,8 +1232,8 @@
       "4"
     ],
     "unlockDesc": {
-      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>废水处理机</>并使用了",
-      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Water Treatment Units</>"
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>废料处理机</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Waste Treatment Units</>"
     },
     "unlockReward": [
       {
@@ -1625,7 +1625,7 @@
     "preNode": [
       "tech_jinlong_2_battle_jet_1"
     ],
-    "sortId": "49",
+    "sortId": "74",
     "techId": "tech_jinlong_3_battle_debuff_1",
     "uiPos": [
       "10",
@@ -1686,7 +1686,7 @@
     "preNode": [
       "tech_jinlong_2_battle_trap_1"
     ],
-    "sortId": "50",
+    "sortId": "75",
     "techId": "tech_jinlong_3_battle_laser_2",
     "uiPos": [
       "11",
@@ -1747,7 +1747,7 @@
     "preNode": [
       "tech_jinlong_1_battle_cannon_2"
     ],
-    "sortId": "48",
+    "sortId": "73",
     "techId": "tech_jinlong_3_battle_rocket_1",
     "uiPos": [
       "9",
@@ -2286,7 +2286,7 @@
     "preNode": [
       "tech_jinlong_3_battle_rocket_1"
     ],
-    "sortId": "52",
+    "sortId": "77",
     "techId": "tech_jinlong_4_battle_lightning_2",
     "uiPos": [
       "9",
@@ -2347,7 +2347,7 @@
     "preNode": [
       "tech_jinlong_3_battle_laser_2"
     ],
-    "sortId": "51",
+    "sortId": "76",
     "techId": "tech_jinlong_4_battle_turret_3",
     "uiPos": [
       "11",
@@ -2879,6 +2879,456 @@
       }
     ]
   },
+  "tech_jinlong_4_magic_balancer_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_magic_balancer_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "magic_balancer_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_hui_1"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_magic_balancer_1_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其二」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home II]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d2_q#4"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_magic_balancer_1"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>平衡炉</>；\n平衡炉可以<@tech.key>平衡明、晦属性物品</>从而生成更高级物品，典型产物为重息壤等。",
+      "en": "Research this to construct <@tech.key>Forges of Equilibrium</>.\nThe Forge of Equilibrium can <@tech.key>equilibrate materials with L and T properties</> to raise their quality. Typical product: Heavy Xiranite."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_magic_balancer_1",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "清浊平衡",
+      "en": "L/T Equilibrium"
+    },
+    "preNode": [
+      "tech_jinlong_4_magic_spwaner_1_hui"
+    ],
+    "sortId": "64",
+    "techId": "tech_jinlong_4_magic_balancer_1",
+    "uiPos": [
+      "13",
+      "4"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>平衡炉</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Forges of Equilibrium</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_balancer_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_magic_balancer_1"
+      }
+    ]
+  },
+  "tech_jinlong_4_magic_spwaner_1_heng": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_magic_spwaner_1_heng_1",
+      "actionType": "7102",
+      "parameters": []
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_heng_1",
+      "dung_blackbox_bright_cube_1"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_magic_spwaner_1_heng_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其三」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home III]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d3_q#1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_magic_spwaner_1_heng"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后<@tech.key>明晦炉</>投影的阵列·明和阵列·晦可以通过叠加生成全新的<@tech.key>阵列·衡</>",
+      "en": "Research this to create the all-new <@tech.key>E-Arrays</> by stacking L-Arrays and T-Arrays projected by <@tech.key>Forges of Luminance</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_magic_spwaner_1_heng",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "明晦相叠",
+      "en": "L/T Stacking"
+    },
+    "preNode": [
+      "tech_jinlong_4_magic_balancer_1"
+    ],
+    "sortId": "65",
+    "techId": "tech_jinlong_4_magic_spwaner_1_heng",
+    "uiPos": [
+      "13",
+      "5"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以通过叠加阵列·明和阵列·晦生成全新的<@tech.get>阵列·衡</>了",
+      "en": "L-Arrays and T-Arrays can now be stacked to create the all-new <@tech.get>E-Arrays</>."
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_spawner_heng"
+      }
+    ]
+  },
+  "tech_jinlong_4_magic_spwaner_1_hui": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_magic_spwaner_1_hui_1",
+      "actionType": "7101",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "magic_hui"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_hui_1"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_magic_spwaner_1_hui_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其二」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home II]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d2_q#4"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_magic_spwaner_1_hui"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后<@tech.key>明晦炉</>可以投射阵列·晦；\n通过持续通入一定流速的息壤气激活后，明晦炉可在自身前方制造<@tech.key>阵列·晦</>，阵列·晦可以改变区域内传送带上的物品。",
+      "en": "Research this to let <@tech.key>Forges of Luminance</> project T-Arrays.\nInput Xiragen at specified flow rates to activate a Forge of Luminance so that the facility can project a <@tech.key>T-Array</> in front of it. The T-Array can change items on transport belts moving through its area of effect."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_magic_spwaner_1_hui",
+    "layer": "tech_group_jinlong_copper",
+    "name": {
+      "cn": "晦型扩展",
+      "en": "Expansion: Turbid"
+    },
+    "preNode": [
+      "tech_jinlong_4_wonder_supply_port_1"
+    ],
+    "sortId": "63",
+    "techId": "tech_jinlong_4_magic_spwaner_1_hui",
+    "uiPos": [
+      "13",
+      "3"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>明晦炉</>选择并制造<@tech.get>阵列·晦</>了",
+      "en": "<@tech.get>Forges of Luminance</> can now choose to project <@tech.get>T-Arrays</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_spawner_hui"
+      }
+    ]
+  },
+  "tech_jinlong_4_magic_spwaner_1_ming": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_magic_spwaner_1_ming_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "magic_spawner_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_ming_1"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>明晦炉</>；\n通过持续通入一定流速的息壤气激活后，明晦炉可在自身前方制造<@tech.key>阵列·明</>，阵列·明可以改变区域内传送带上的物品。",
+      "en": "Research this to construct <@tech.key>Forges of Luminance</>.\nInput Xiragen at specified flow rates to activate a Forge of Luminance so that the facility can project an <@tech.key>L-Array</> in front of it. The L-Array can change items on transport belts moving through its area of effect."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_magic_spwaner_1_ming",
+    "layer": "tech_group_jinlong_liquid",
+    "name": {
+      "cn": "明炉燃火",
+      "en": "Forge Ignition"
+    },
+    "preNode": [],
+    "sortId": "60",
+    "techId": "tech_jinlong_4_magic_spwaner_1_ming",
+    "uiPos": [
+      "13",
+      "1"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>明晦炉</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Forges of Luminance</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_spawner_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_magic_spawner_1"
+      },
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_spawner_ming"
+      }
+    ]
+  },
+  "tech_jinlong_4_magic_spwaner_2": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_magic_spwaner_2_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "magic_spawner_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_2"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_magic_spwaner_2_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其三」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home III]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d3_q#1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_magic_spwaner_2"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>分影明晦炉</>；\n通过持续通入一定流速的息壤气激活后，分影明晦炉可在自身前方和侧方分别制造一个阵列。",
+      "en": "Research this to construct <@tech.key>Bipolar Forges of Luminance</>.\nInput Xiragen at specified flow rates to activate a Bipolar Forge of Luminance so that the facility can project 2 arrays (one in front, the other to its side)."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_magic_spwaner_2",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "明晦分影",
+      "en": "Forge Bipolarity"
+    },
+    "preNode": [
+      "tech_jinlong_4_magic_spwaner_1_heng"
+    ],
+    "sortId": "66",
+    "techId": "tech_jinlong_4_magic_spwaner_2",
+    "uiPos": [
+      "13",
+      "6"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>分影明晦炉</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Bipolar Forges of Luminance</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_magic_spawner_2"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_magic_spawner_2"
+      }
+    ]
+  },
   "tech_jinlong_4_shaper_mode_2": {
     "action": {
       "actionId": "act_tech_jinlong_4_shaper_mode_2_1",
@@ -3178,6 +3628,228 @@
       {
         "count": "2",
         "itemId": "item_port_vaporizer_1"
+      }
+    ]
+  },
+  "tech_jinlong_4_wonder_supply_port_1": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_wonder_supply_port_1_1",
+      "actionType": "501",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "wonder_supply_port_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [
+      "dung_blackbox_spawner_ming_1"
+    ],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_wonder_supply_port_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其二」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home II]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d2_q#1"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_wonder_supply_port_1"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可制造<@tech.key>重建供应端口</>；\n重建供应端口可以将输入其中的道具自动供应到<@tech.key>重建北部禁区仓库</>。",
+      "en": "Research this to construct <@tech.key>Rebuilding Supply Ports</>.\nRebuilding Supply Ports can automatically deliver incoming items and materials to the <@tech.key>North Wuling Exclusion Zone Rebuilding Depot</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_wonder_supply_port_1",
+    "layer": "tech_group_jinlong_liquid",
+    "name": {
+      "cn": "重建供应",
+      "en": "Rebuilding Supply"
+    },
+    "preNode": [
+      "tech_jinlong_4_magic_spwaner_1_ming"
+    ],
+    "sortId": "61",
+    "techId": "tech_jinlong_4_wonder_supply_port_1",
+    "uiPos": [
+      "13",
+      "2"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在<@tech.get>协议核心</>制造<@tech.get>重建供应端口</>并使用了",
+      "en": "The <@tech.get>PAC</> can now construct <@tech.get>Rebuilding Supply Ports</>"
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_bp_wonder_supply_port_1"
+      },
+      {
+        "count": "2",
+        "itemId": "item_port_wonder_supply_port_1"
+      }
+    ]
+  },
+  "tech_jinlong_4_xiranite_oven_amount_4": {
+    "action": {
+      "actionId": "act_tech_jinlong_4_xiranite_oven_amount_4_1",
+      "actionType": "5123",
+      "parameters": [
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "domain_2"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "xiranite_oven_1"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        {
+          "realType": "0",
+          "valueBoolList": null,
+          "valueFloatList": [
+            "4"
+          ],
+          "valueIntList": [
+            "4"
+          ],
+          "valueStringList": [
+            "4"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        }
+      ]
+    },
+    "alreadyUnlock": false,
+    "blackboxIds": [],
+    "category": "fac_team_jinlong_xiranite",
+    "conditions": [
+      {
+        "conditionId": "tech_jinlong_4_xiranite_oven_amount_4_1",
+        "conditionType": "18",
+        "desc": {
+          "cn": "推进任务「重建家园·其一」后可解锁",
+          "en": "Mission Progress: [Rebuilding a Home I]"
+        },
+        "parameters": [
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": null,
+            "valueIntList": null,
+            "valueStringList": [
+              "f1m31d1_q#4"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          },
+          {
+            "realType": "0",
+            "valueBoolList": null,
+            "valueFloatList": [
+              "0"
+            ],
+            "valueIntList": [
+              "0"
+            ],
+            "valueStringList": [
+              "0"
+            ],
+            "valueType": "0",
+            "valueVector3": null
+          }
+        ],
+        "techId": "tech_jinlong_4_xiranite_oven_amount_4"
+      }
+    ],
+    "cornerIcon": "",
+    "costItems": [],
+    "costPointCount": "1",
+    "defaultHidden": true,
+    "desc": {
+      "cn": "研究后可在武陵地区放置的<@tech.key>天有洪炉</>数量上限<@tech.key>+4</>。",
+      "en": "Research this to raise the limit of <@tech.key>Forges of the Sky</> in Wuling by <@tech.key>+4</>."
+    },
+    "groupId": "tech_group_jinlong",
+    "icon": "tech_jinlong_4_xiranite_oven_amount_4",
+    "layer": "tech_group_jinlong_acid",
+    "name": {
+      "cn": "洪炉扩容V",
+      "en": "Forge Expansion V"
+    },
+    "preNode": [
+      "tech_jinlong_4_dumper_mode_1"
+    ],
+    "sortId": "62",
+    "techId": "tech_jinlong_4_xiranite_oven_amount_4",
+    "uiPos": [
+      "12",
+      "6"
+    ],
+    "unlockDesc": {
+      "cn": "现在可以在武陵地区放置更多的<@tech.get>天有洪炉</>了",
+      "en": "More <@tech.get>Forges of the Sky</> can be placed in Wuling."
+    },
+    "unlockReward": [
+      {
+        "count": "0",
+        "itemId": "item_factech_wuling_oven_amount_5"
       }
     ]
   },

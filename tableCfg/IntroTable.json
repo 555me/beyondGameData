@@ -909,7 +909,7 @@
       {
         "desc": {
           "cn": "若在第二轮演算失败或中途放弃，仍能获得第一轮演算成功所获得的部分奖励点。\n结算的奖励点将1：1转化为演武积分，单局奖励点转化存在上限。",
-          "en": "If you fail or choose to forfeit the Round 2 of the trial, you can still acquire part of your score earned from Round 1. Your score is tallied to Arena Points in a 1:1 ratio. There is a score tallying limit per round."
+          "en": "If you fail or choose to forfeit the Round 2 of the trial, you can still acquire part of your score earned from Round 1. Your final score will be tallied to Arena Points in a 1:1 ratio. There is a score tallying limit per round."
         },
         "id": "gamble_battle",
         "imagePath": "Guide/guide_pic_gambling_battle_enhance_7",
@@ -917,6 +917,317 @@
         "title": {
           "cn": "百趣演武 - 结算",
           "en": "Arena of Games: Tallying"
+        }
+      }
+    ]
+  },
+  "intro_blackjack": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "巫数乱斗是一个比拼点数大小的4人卡牌游戏。一局游戏由多轮对决构成。\n每轮对局开始时，四名玩家从一副完整卡牌（共52张）中分别获得随机的10张牌，作为自己的起始牌库。",
+          "en": "Witch's Darkjack is a 4-player card game where players compete to get the most Points. A game is several rounds. When a round begins, the standard 52-card deck is randomly dealt to 4 players, with each player getting a starting deck of 10 cards."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_1",
+        "pageIndex": "1",
+        "title": {
+          "cn": "玩法简介 - 一",
+          "en": "Gameplay Details (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "每张牌都代表一定的点数。卡牌2~10为数字牌，按面值计点，例如红桃9计为9点；卡牌J、Q和K属于肖像牌，均计为10点。",
+          "en": "Each card gives a certain amount of Points. Cards [2] to [10] are numbers and give Points equal to their pips. EXAMPLE: The [9] of Hearts counts as 9 Points. [J] / [Q] / [K] are court cards. Each court card count as 10 Points."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_2",
+        "pageIndex": "2",
+        "title": {
+          "cn": "玩法简介 - 二",
+          "en": "Gameplay Details (2)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "请注意，卡牌A可以在11点与1点之间自由变化。在不触发爆牌的前提下，为你提供更多点数。",
+          "en": "NOTE: [A] is a special card that counts as either 11 Points or 1 Point, and can give you more Points if you do not go bust."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_3",
+        "pageIndex": "3",
+        "title": {
+          "cn": "玩法简介 - 三",
+          "en": "Gameplay Details (3)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "另外，对局中还会存在四种带有强化效果的附术卡牌（多彩、回溯、王国、黄金），比如附术卡牌·多彩可被视为任意花色。\n其他附术卡牌的具体效果可在对局中探索了解。",
+          "en": "The game also includes cards with boosting foils (Prisma, Revenant, Majesty, and Geld). For example, cards with the Prisma foil can be regarded as any suit. Refer to in-game details for actual effects of the other foils."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_4",
+        "pageIndex": "4",
+        "title": {
+          "cn": "附术卡牌",
+          "en": "Foiled Cards"
+        }
+      },
+      {
+        "desc": {
+          "cn": "在一轮对局中，玩家们会博弈多个回合。该轮拥有最高点数的玩家获胜，其余玩家将会受到扣除萝卜点的惩罚。",
+          "en": "Each round of the game includes multiple turns where players decide their actions. The player with the highest Points wins, while other players will lose Carrots as the penalty."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_5",
+        "pageIndex": "5",
+        "title": {
+          "cn": "对局规则 - 一",
+          "en": "Game Rules (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "每个回合开始时，所有玩家需在限时内做出决策（选择抽牌或停牌），若选择停牌，则本轮游戏无法再次抽牌。",
+          "en": "When a turn begins, all players must decide their action (to draw or to stand) within the time limit. A player who chooses to stand cannot draw again for the rest of the round."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_6",
+        "pageIndex": "6",
+        "title": {
+          "cn": "对局规则 - 二",
+          "en": "Game Rules (2)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "当所有玩家完成决策后，则进入开牌阶段。抽到的牌会立即计入当轮点数。",
+          "en": "Once every player has decided, the cards will be drawn and the Points of that round will be added accordingly."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_7",
+        "pageIndex": "7",
+        "title": {
+          "cn": "对局规则 - 三",
+          "en": "Game Rules (3)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "若有玩家触发爆牌，即当前点数之和超过点数上限（默认上限为21点），则自动停牌（本轮无法抽牌），并且输掉该轮次。",
+          "en": "A player who triggers a bust (where current Points exceed the Limit, which is 21 by default) will automatically stand and lose the round."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_8",
+        "pageIndex": "8",
+        "title": {
+          "cn": "对局规则 - 四",
+          "en": "Game Rules (4)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "直到所有玩家停牌，该轮对局结束并进行决算；否则，该轮对局继续下一回合。",
+          "en": "Once every player has decided to stand, the round ends and the tally begins. Otherwise, a new turn of the round will start."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_9",
+        "pageIndex": "9",
+        "title": {
+          "cn": "对局规则 - 五",
+          "en": "Game Rules (5)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "结算时，拥有起始标识的玩家会优先开始祝福和额外点数结算。",
+          "en": "When tallying, the player bearing the starter's mark will have their Boons and Bonus Points tallied first."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_10",
+        "pageIndex": "10",
+        "title": {
+          "cn": "对局规则 - 六",
+          "en": "Game Rules (6)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "每轮结束时，所有玩家会按照点数大小进行排名决算。除第一名外，其余玩家会按照当前轮次扣除萝卜点；所有玩家按照当前轮次与排名获得相应的巫术金块。",
+          "en": "At the end of every round, players will be ranked according to their Points. With the exception of Rank 1 player(s), everyone will lose Carrot(s) based on the round penalty. All players will also receive some Witchgeld based on their ranks for the round."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_11",
+        "pageIndex": "11",
+        "title": {
+          "cn": "轮次排名",
+          "en": "Round Ranking"
+        }
+      },
+      {
+        "desc": {
+          "cn": "每轮决算结束后，所有玩家会进入巫术商店。巫术商店中的商品会给予不同的增益效果，玩家们可以消耗巫术金块购买商品。如果没有心仪的商品，也可以消耗巫术金块刷新商店。",
+          "en": "Once the round tally is done, all players will enter the Witch's Shoppe where they can purchase items with Witchgeld. Purchasables include boons that offer different advantages. Players can also spend Witchgeld to refresh the Shoppe if nothing is to their liking."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_12",
+        "pageIndex": "12",
+        "title": {
+          "cn": "巫术商店 - 一",
+          "en": "Witch's Shoppe (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "商店首次出现时仅提供巫术祝福。之后，巫术商店将随机提供带有特殊效果的巫术卡牌包。",
+          "en": "When players enter the Witch's Shoppe for the first time, only boons will become available. During later visits, the Shoppe may offer card packs with special effects."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_13",
+        "pageIndex": "13",
+        "title": {
+          "cn": "巫术商店 - 二",
+          "en": "Witch's Shoppe (2)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "在一整局游戏中，玩家最多可拥有4个巫术祝福。购买巫术祝福后无法丢弃。若祝福数量已达持有上限，将无法再次购买祝福。",
+          "en": "Players can acquire up to 4 Witch Boons during an entire game. A purchased Witch Boon cannot be discarded. A player whose boon slots have been completely filled cannot purchase more boons."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_14",
+        "pageIndex": "14",
+        "title": {
+          "cn": "巫术商店 - 三",
+          "en": "Witch's Shoppe (3)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "当萝卜点归零时，玩家会被淘汰。其余玩家继续对局，直到角逐出最后的胜者。",
+          "en": "Players who reach ZERO Carrot Points will be eliminated while the rest can keep playing. The last one to remain wins the game."
+        },
+        "id": "intro_blackjack",
+        "imagePath": "Guide/guide_pic_intro_blackjack_15",
+        "pageIndex": "15",
+        "title": {
+          "cn": "对局结算",
+          "en": "Round Tally"
+        }
+      }
+    ]
+  },
+  "intro_demogame": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "猜数字玩法规则说明（占位文案，待策划替换）",
+          "en": ""
+        },
+        "id": "intro_demogame",
+        "imagePath": "Guide/guide_pic_weekraid_enhance_01",
+        "pageIndex": "1",
+        "title": {
+          "cn": "Demo游戏-猜数字",
+          "en": ""
+        }
+      }
+    ]
+  },
+  "intro_doudizhu": {
+    "dataArray": [
+      {
+        "desc": {
+          "cn": "环带斗牌是一个不对称对抗的3人卡牌游戏。玩家们共用一副完整卡牌（含大王和小王，共54张），由两名“拓荒者”联合对抗一名“军阀”，率先打完手牌者的一方获胜。",
+          "en": "Band Uprising is an asymmetric 3-player card game played with a complete deck (including the Red Joker and Black Joker for a total of 54 cards). Two \"Pioneers\" are pitted against a \"Warlord\". Victory goes to the faction where a player plays all the cards on their hand."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_1",
+        "pageIndex": "1",
+        "title": {
+          "cn": "玩法简介",
+          "en": "Gameplay Details"
+        }
+      },
+      {
+        "desc": {
+          "cn": "对局开始时，将随机抽中一名玩家获得优先抢夺权。发牌时，为所有玩家随机发放17张手牌，并留3张未展示的牌作为军阀牌。",
+          "en": "When the game begins, select a random player and grant them the First Coup. All players are randomly dealt a hand of 17 cards. The 3 remaining cards are kept unrevealed as the Warlord cards."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_2",
+        "pageIndex": "2",
+        "title": {
+          "cn": "夺权阶段 - 一",
+          "en": "Coup Phase (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "从拥有优先抢夺权的玩家开始选择是否夺权，最多经过两轮夺权上位后，确定最终的“军阀”玩家，其余两位玩家自动成为“拓荒者”。“军阀”会获得3张军阀牌，并且可以优先出牌。",
+          "en": "The player with the First Coup can choose to start the Coup. Up to 2 rounds of Coup may be initiated to decide the player who becomes the \"Warlord\", while the other two players will automatically become the “Pioneers\". The \"Warlord\" then receives the 3 Warlord cards and can play first."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_3",
+        "pageIndex": "3",
+        "title": {
+          "cn": "夺权阶段 - 二",
+          "en": "Coup Phase (2)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "在环带斗牌中，卡牌大小顺序为：大王＞小王＞2＞A＞K＞Q＞J＞10＞9＞8＞7＞6＞5＞4＞3，不分花色。",
+          "en": "In Band Uprising, the cards are ranked in this descending sequence: Red Joker ＞ Black Joker ＞ [2] ＞ [A] ＞ [K] ＞ [Q] ＞ [J] ＞ [10] ＞ [9] ＞ [8] ＞ [7] ＞ [6] ＞ [5] ＞ [4] ＞ [3]. Suits do not contribute to rank."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_4",
+        "pageIndex": "4",
+        "title": {
+          "cn": "对局规则 - 一",
+          "en": "Game Rules (1)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "玩家们需按照各种牌型进行出牌，具体牌型请前往界面中右上角的牌型表进行查看。",
+          "en": "Players must play their cards according to the specific combo type. For details on the combo type, use the Combo List button at the upper right corner of the screen."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_5",
+        "pageIndex": "5",
+        "title": {
+          "cn": "对局规则 - 二",
+          "en": "Game Rules (2)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "优先出牌的玩家决定当前轮次的出牌牌型，其余两位玩家必须按照相同且点数更大的牌型或特殊牌型（炸弹、王炸）进行出牌，或选择不出牌。",
+          "en": "The player who plays first decides the combo type of the cards to be played. The other two players can either play higher ranked cards in the same combo type, play a special combo (Bomb or Fiendish Blast), or pass (do not play any cards)."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_6",
+        "pageIndex": "6",
+        "title": {
+          "cn": "对局规则 - 三",
+          "en": "Game Rules (3)"
+        }
+      },
+      {
+        "desc": {
+          "cn": "当轮出牌最大的玩家决定下轮牌型并重新出牌，直到一名玩家打完所有手牌，玩家所在方获得胜利。",
+          "en": "The player who plays the highest ranked card(s) of the round can start the next round with any combo type of choice. Repeat this cycle until a player plays all the cards and acquires victory for their faction (Pioneer or Warlord)."
+        },
+        "id": "intro_doudizhu",
+        "imagePath": "Guide/guide_pic_intro_doudizhu_7",
+        "pageIndex": "7",
+        "title": {
+          "cn": "对局结算",
+          "en": "Round Tally"
         }
       }
     ]

@@ -2217,8 +2217,8 @@
         "activeIcon": "icon_map_general_architecture",
         "defaultVisible": true,
         "desc": {
-          "cn": "用于处理污水的设备，也可低效处理壤晶废液与惰性壤晶废液。",
-          "en": "A facility for processing Sewage. It can also process Xircon Effluent and Inert Xircon Effluent, albeit with limited efficiency."
+          "cn": "用于处理废料的设备，可以处理污水、壤晶废液与惰性壤晶废液等液体，也可处理浊型辉铜气。",
+          "en": "A facility for processing waste. It can also process Sewage, Xircon Effluent, Inert Xircon Effluent, and Turbid Lucidolite Gas."
         },
         "inActiveIcon": "icon_map_general_architecture",
         "isStatic": false,
@@ -2228,8 +2228,8 @@
         "markInfoType": "27",
         "markType": "1403",
         "name": {
-          "cn": "废水处理机",
-          "en": "Water Treatment Unit"
+          "cn": "废料处理机",
+          "en": "Waste Treatment Unit"
         },
         "showJumpTpBtn": false,
         "sortOrder": "1",
@@ -2422,6 +2422,102 @@
         "name": {
           "cn": "储气罐",
           "en": "Gas Tank"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通过息壤气激活，可以在设备自身前方生成1个指定阵列的设备。",
+          "en": "A facility that can be activated with Xiragen to create 1 specified array in front of it."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_magic_spawner_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "明晦炉",
+          "en": "Forge of Luminance"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "通过息壤气激活，可以在设备自身前方和侧方生成2个指定阵列的设备。",
+          "en": "A facility that can be activated with Xiragen to project 2 specified arrays to its front and side."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_magic_spawner_2",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "分影明晦炉",
+          "en": "Bipolar Forge of Luminance"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_general_architecture",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "可以中和明晦属性物品从而合成新的物品的设备。",
+          "en": "A facility that can combine Luminous and Turbid forms of a material to create a novel, equilibrated form."
+        },
+        "inActiveIcon": "icon_map_general_architecture",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_magic_balancer_1",
+        "markInfoType": "26",
+        "markType": "1403",
+        "name": {
+          "cn": "平衡炉",
+          "en": "Forge of Equilibrium"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_storager_box",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "作为北部禁区重建的供应入口，输入重建所需的材料会自动用于重建。",
+          "en": "A supply port for the North Wuling Exclusion Zone (NWEZ) Rebuilding project. Input the required rebuilding materials into this port to automatically raise project progression."
+        },
+        "inActiveIcon": "icon_map_storager_box",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_wonder_supply_port_1",
+        "markInfoType": "0",
+        "markType": "1403",
+        "name": {
+          "cn": "重建供应端口",
+          "en": "Rebuilding Supply Port"
         },
         "showJumpTpBtn": false,
         "sortOrder": "1",
@@ -2865,7 +2961,7 @@
         "activeIcon": "icon_map_decorate",
         "defaultVisible": true,
         "desc": {
-          "cn": "“幸运萝卜完成进货了？抛出去吧。”",
+          "cn": "“‘幸运萝卜’完成进货了？抛出去吧。”",
           "en": "\"Lucky Carrot has restocked? Time to dump it all.\""
         },
         "inActiveIcon": "icon_map_decorate",
@@ -2878,6 +2974,78 @@
         "name": {
           "cn": "调度的具象",
           "en": "Redistribution Made Manifest"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "倾听她的祈愿，甜美滋味无限。",
+          "en": "Listen to her prayer for sweetness never-ending."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_biscuitmountain_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "甜美祈愿",
+          "en": "Sweet Prayer"
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "象征着终末地工业向烹饪领域迈出的坚实一步。",
+          "en": "One small step for Endfield Industries, one solid stride into the culinary sector."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_dg017oven_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "“甜有蜜炉”",
+          "en": "\"Forge of Sweetness\""
+        },
+        "showJumpTpBtn": false,
+        "sortOrder": "1",
+        "visibleDist": "50",
+        "visibleInMist": false,
+        "visibleLayer": "3"
+      },
+      {
+        "activeIcon": "icon_map_decorate",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "模糊的起源，清澈的眼神。",
+          "en": "Comes with a confounding backstory, yet gazes upon the world with clarity."
+        },
+        "inActiveIcon": "icon_map_decorate",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_bd_decorate_mushman_1",
+        "markInfoType": "1210",
+        "markType": "1403",
+        "name": {
+          "cn": "“真核之子”",
+          "en": "\"Eukaryotic Prince\""
         },
         "showJumpTpBtn": false,
         "sortOrder": "1",
@@ -2908,7 +3076,7 @@
           "en": "Talosite"
         },
         "showJumpTpBtn": true,
-        "sortOrder": "5",
+        "sortOrder": "7",
         "visibleDist": "50",
         "visibleInMist": true,
         "visibleLayer": "1"
@@ -3230,6 +3398,34 @@
         "name": {
           "cn": "危境碎片",
           "en": "Crisis Fragment"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "2",
+        "visibleDist": "50",
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      }
+    ]
+  },
+  "1701": {
+    "typeList": [
+      {
+        "activeIcon": "icon_map_activity_cardgame_v1d7",
+        "defaultVisible": false,
+        "desc": {
+          "cn": "当我们的“幸运萝卜”走南闯北后，塞什卡的巫术玩具、菈梵朵玛的奇妙竞技……这些好东西都被这位负责任的干员揉成了一个团，就等您来玩啦！",
+          "en": "\"Lucky Carrot\", dutiful Endfielder, has traveled the realms ... and came up with pastimes that combine elements from Seš'qamam witchcraft toys and from wondrous games of La Fantoma. Everyone's waiting for you to try things out!"
+        },
+        "inActiveIcon": "icon_map_activity_cardgame_v1d7",
+        "isStatic": true,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_activity_card_game",
+        "markInfoType": "45",
+        "markType": "1701",
+        "name": {
+          "cn": "“幸运萝卜”的妙趣游乐",
+          "en": "Lucky Carrot's Games of Wonder"
         },
         "showJumpTpBtn": true,
         "sortOrder": "2",
@@ -3816,7 +4012,7 @@
           "en": "Aurylene"
         },
         "showJumpTpBtn": true,
-        "sortOrder": "5",
+        "sortOrder": "7",
         "visibleDist": "50",
         "visibleInMist": true,
         "visibleLayer": "1"
@@ -3844,7 +4040,7 @@
           "en": "Crate"
         },
         "showJumpTpBtn": true,
-        "sortOrder": "5",
+        "sortOrder": "7",
         "visibleDist": "50",
         "visibleInMist": true,
         "visibleLayer": "1"
@@ -5081,6 +5277,30 @@
         "isTpRelatedMark": false,
         "isVisibleActive": true,
         "markInfoId": "mark_mis_tracking_low",
+        "markInfoType": "30",
+        "markType": "9",
+        "name": {
+          "cn": "追踪中任务",
+          "en": "Tracked Mission"
+        },
+        "showJumpTpBtn": true,
+        "sortOrder": "5",
+        "visibleDist": "50",
+        "visibleInMist": true,
+        "visibleLayer": "1"
+      },
+      {
+        "activeIcon": "icon_map_mission_sweet_pie",
+        "defaultVisible": true,
+        "desc": {
+          "cn": "",
+          "en": ""
+        },
+        "inActiveIcon": "icon_map_mission_sweet_pie",
+        "isStatic": false,
+        "isTpRelatedMark": false,
+        "isVisibleActive": true,
+        "markInfoId": "mark_mis_tracking_sweet_pie",
         "markInfoType": "30",
         "markType": "9",
         "name": {

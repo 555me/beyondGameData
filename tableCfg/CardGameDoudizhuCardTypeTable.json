@@ -1,0 +1,204 @@
+{
+  "ct_01": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "1",
+    "cardTypeDesc": {
+      "cn": "单张牌（不分花色）",
+      "en": "A single card (regardless of suit)"
+    },
+    "cardTypeId": "ct_01",
+    "cardTypeName": {
+      "cn": "单牌",
+      "en": "Solo"
+    }
+  },
+  "ct_02": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "1",
+    "cardTypeDesc": {
+      "cn": "两张点数相同的牌（不分花色）",
+      "en": "2 cards of equal rank (regardless of suit)"
+    },
+    "cardTypeId": "ct_02",
+    "cardTypeName": {
+      "cn": "对子",
+      "en": "Pair"
+    }
+  },
+  "ct_03": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "1",
+    "cardTypeDesc": {
+      "cn": "三张点数相同的牌（不分花色）",
+      "en": "3 cards of equal rank (regardless of suit)"
+    },
+    "cardTypeId": "ct_03",
+    "cardTypeName": {
+      "cn": "三张",
+      "en": "Trio"
+    }
+  },
+  "ct_04": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1"
+    ],
+    "cardCombine2": [
+      "pokerSuitDiamonds_3"
+    ],
+    "cardDisplayType": "2",
+    "cardTypeDesc": {
+      "cn": "三张点数相同的牌（不分花色），并带一张不同的单牌",
+      "en": "3 cards of equal rank (regardless of suit) + KICKER: A Solo of different rank"
+    },
+    "cardTypeId": "ct_04",
+    "cardTypeName": {
+      "cn": "三带一",
+      "en": "Trio & Solo"
+    }
+  },
+  "ct_05": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1"
+    ],
+    "cardCombine2": [
+      "pokerSuitDiamonds_3;pokerSuitClubs_3"
+    ],
+    "cardDisplayType": "2",
+    "cardTypeDesc": {
+      "cn": "三张点数相同的牌（不分花色），并带一个对子",
+      "en": "3 cards of equal rank (regardless of suit) + KICKER: A Pair"
+    },
+    "cardTypeId": "ct_05",
+    "cardTypeName": {
+      "cn": "三带一对",
+      "en": "Trio & Pair"
+    }
+  },
+  "ct_06": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1;pokerSuitClubs_1"
+    ],
+    "cardCombine2": [
+      "pokerSuitDiamonds_3;pokerSuitDiamonds_4"
+    ],
+    "cardDisplayType": "2",
+    "cardTypeDesc": {
+      "cn": "四张点数相同的牌（不分花色），并带两张不同的单牌",
+      "en": "4 cards of equal rank (regardless of suit) + KICKER: 2 Solos of different ranks"
+    },
+    "cardTypeId": "ct_06",
+    "cardTypeName": {
+      "cn": "四带两张",
+      "en": "Quad & Dual Solos"
+    }
+  },
+  "ct_07": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1;pokerSuitClubs_1"
+    ],
+    "cardCombine2": [
+      "pokerSuitDiamonds_3;pokerSuitClubs_3;pokerSuitDiamonds_6;pokerSuitSpades_6"
+    ],
+    "cardDisplayType": "2",
+    "cardTypeDesc": {
+      "cn": "四张点数相同的牌（不分花色），并带两个不同的对子",
+      "en": "4 cards of equal rank (regardless of suit) + KICKER: 2 Pairs of different ranks"
+    },
+    "cardTypeId": "ct_07",
+    "cardTypeName": {
+      "cn": "四带两对",
+      "en": "Quad & Dual Pairs"
+    }
+  },
+  "ct_08": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_3;pokerSuitSpades_3;pokerSuitHearts_3;pokerSuitDiamonds_4;pokerSuitClubs_4;pokerSuitHearts_4"
+    ],
+    "cardCombine2": [
+      "pokerSuitDiamonds_5;pokerSuitDiamonds_6"
+    ],
+    "cardDisplayType": "2",
+    "cardTypeDesc": {
+      "cn": "至少两组连续三张点数相同的牌（最大到A，最小到3，不包含2、大王和小王），并带对应组数的单牌或对子（也可不带）",
+      "en": "≥ 2 sets of consecutive Trios ([2] or Jokers cannot be in this combo; biggest: [A]; smallest: [3]) + OPTIONAL KICKER: Matching number of Solos or Pairs"
+    },
+    "cardTypeId": "ct_08",
+    "cardTypeName": {
+      "cn": "飞机",
+      "en": "Airplane"
+    }
+  },
+  "ct_09": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_3;pokerSuitSpades_4;pokerSuitHearts_5;pokerSuitClubs_6;pokerSuitHearts_7"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "3",
+    "cardTypeDesc": {
+      "cn": "至少五张连续的单牌（最大到A，最小到3，不包含2、大王和小王）",
+      "en": "≥ 5 consecutive Solos ([2] or Jokers cannot be in this combo; biggest: [A]; smallest: [3])"
+    },
+    "cardTypeId": "ct_09",
+    "cardTypeName": {
+      "cn": "顺子",
+      "en": "Straight"
+    }
+  },
+  "ct_10": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_3;pokerSuitSpades_3;pokerSuitDiamonds_4;pokerSuitSpades_4;pokerSuitDiamonds_5;pokerSuitSpades_5"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "3",
+    "cardTypeDesc": {
+      "cn": "至少三对连续的对子（最大到A，最小到3，不包含2、大王和小王）",
+      "en": "≥ 3 sets of consecutive Pairs ([2] or Jokers cannot be in this combo; biggest: [A]; smallest: [3])"
+    },
+    "cardTypeId": "ct_10",
+    "cardTypeName": {
+      "cn": "连对",
+      "en": "Pairs Chain"
+    }
+  },
+  "ct_11": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_1;pokerSuitSpades_1;pokerSuitHearts_1;pokerSuitClubs_1"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "1",
+    "cardTypeDesc": {
+      "cn": "四张点数相同的牌（不分花色），除王炸之外最大的牌型",
+      "en": "4 cards of equal rank (regardless of suit). Bomb beats everything except Fiendish Blast."
+    },
+    "cardTypeId": "ct_11",
+    "cardTypeName": {
+      "cn": "炸弹",
+      "en": "Bomb"
+    }
+  },
+  "ct_12": {
+    "cardCombine1": [
+      "pokerSuitDiamonds_14;pokerSuitDiamonds_15"
+    ],
+    "cardCombine2": [],
+    "cardDisplayType": "1",
+    "cardTypeDesc": {
+      "cn": "大王和小王，最大的牌型",
+      "en": "Red Joker and Black Joker. This is the biggest combo that can be played."
+    },
+    "cardTypeId": "ct_12",
+    "cardTypeName": {
+      "cn": "王炸",
+      "en": "Fiendish Blast"
+    }
+  }
+}

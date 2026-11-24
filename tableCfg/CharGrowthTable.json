@@ -47041,7 +47041,7 @@
           "en": ""
         },
         "desc": {
-          "cn": "汤汤揭开眼罩，释放眼中的<@ba.key>古老图形</>，对范围内的敌人施加一段时间的<#ba.static>定身</>，并造成持续的<@ba.cryst>寒冷伤害</>。\n<@ba.key>古老图形</>演化结束时降下巨浪，对范围内敌人造成大量<@ba.cryst>寒冷伤害</>。\n若主控干员在<@ba.key>古老图形</>中下落攻击，会提前结束演化降下巨浪，巨浪造成的<@ba.cryst>寒冷伤害</>提升。\n",
+          "cn": "汤汤揭开眼罩，释放眼中的<@ba.key>古老图形</>，对范围内的敌人施加一段时间的<#ba.static>定身</>，并造成持续的<@ba.cryst>寒冷伤害</>。\n<@ba.key>古老图形</>演化结束时降下巨浪，对范围内敌人造成大量<@ba.cryst>寒冷伤害</>。\n若主控干员在<@ba.key>古老图形</>中下落攻击，会提前结束演化降下巨浪，巨浪造成的<@ba.cryst>寒冷伤害</>提升。",
           "en": "Tangtang opens her eyepatch and unleashes an <@ba.key>OLDEN STARE</> from her eye that applies temporary <#ba.static>Immobilization</> and deals <@ba.cryst>Cryo DMG</> over time to enemies within its area of effect (AOE).\nWhen the <@ba.key>OLDEN STARE</> stops evolving, a rogue wave comes crashing down to deal massive <@ba.cryst>Cryo DMG</> to enemies in its AOE.\nIf the controlled operator performs a dive attack in the <@ba.key>OLDEN STARE</> pattern, its evolution ends and the rogue wave is summoned immediately to deal even more <@ba.cryst>Cryo DMG</>."
         },
         "icon": "icon_ultimate_skill_tangtang_01",
@@ -67541,7 +67541,7 @@
         },
         "desc": {
           "cn": "明河横扫长枪对周围的敌人造成<@ba.pd>物理伤害</>，并对身前目标造成<#ba.airborne>击飞</>。\n明河施放连携技后，战技替换为<@ba.key>奔霆</>。\n<@ba.key>奔霆</>：明河骑上怒骊腾跃而起，进行短暂蓄力后朝目标冲刺，对身前大范围区域内的敌人强制施加<#ba.conduct>导电</>并造成<@ba.pulse>电磁伤害</>。施加<#ba.conduct>导电</>时，如果目标处于<#ba.pulseinflict>电磁附着</>状态，将<#ba.consume>消耗</>目标全部<#ba.pulseinflict>电磁附着</>，每消耗1层使本次<#ba.conduct>导电</>的<#ba.statuslevel>异常等级</>+1。在<#ba.consume>消耗</>目标的<#ba.pulseinflict>电磁附着</>后，明河还会对目标额外施加1层<#ba.noguard>破防</>。",
-          "en": "Argent Flow sweeps his lance and deals <@ba.pd>Physical DMG</> to nearby enemies and applies <#ba.airborne>Lift</> to target(s) in front of him.\nAfter Argent Flow casts his combo skill, his battle skill is temporarily changed to <@ba.key>Bolt Rush</>.\n<@ba.key>Bolt Rush</>: Argent Flow mounts his galloper Nuli to leap into mid-air, powers up quickly, and then charges at the target to forcibly apply <#ba.conduct>Electrification</> and deal <@ba.pulse>Electric DMG</> to enemies within a large area in front of him. When this <#ba.conduct>Electrification</> is applied on a target with <#ba.pulseinflict>Electric Infliction</>, it <#ba.consume>consumes</> all <#ba.pulseinflict>Electric Infliction</> stacks from the target and grants <#ba.conduct>Electrification</> <#ba.statuslevel>Status Level +1</> per 1 stack consumed. After <#ba.consume>consuming</> the target's <#ba.pulseinflict>Electric Infliction</>, Argent Flow also applies 1 stack of <#ba.noguard>Vulnerability</>."
+          "en": "Argent Flow sweeps his lance and deals <@ba.pd>Physical DMG</> to nearby enemies and applies <#ba.airborne>Lift</> to target(s) in front of him.\nAfter Argent Flow casts his combo skill, his battle skill is temporarily changed to <@ba.key>Bolt Rush</>.\n<@ba.key>Bolt Rush</>: Argent Flow mounts his galloper Nuli to leap into mid-air, powers up quickly, and then charges at the target to forcibly apply <#ba.conduct>Electrification</> and deal <@ba.pulse>Electric DMG</> to enemies within a large area in front of him. When this <#ba.conduct>Electrification</> is applied on a target with <#ba.pulseinflict>Electric Infliction</>, it <#ba.consume>consumes</> all <#ba.pulseinflict>Electric Infliction</> stacks from the target and grants <#ba.conduct>Electrification</> <#ba.statuslevel>Status Level</> +1 per 1 stack consumed. After <#ba.consume>consuming</> the target's <#ba.pulseinflict>Electric Infliction</>, Argent Flow also applies 1 stack of <#ba.noguard>Vulnerability</>."
         },
         "icon": "icon_skill_minghe_01",
         "name": {
@@ -71289,6 +71289,2090 @@
       }
     },
     "weaponType": "1"
+  },
+  "chr_0040_sweetpie": {
+    "charBreakCostMap": {
+      "charBreak20": {
+        "breakStage": "1",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至40级",
+          "en": "Activate this to raise operator level cap to 40"
+        },
+        "equipTierLimit": "2",
+        "name": {
+          "cn": "精英化·一",
+          "en": "Promotion I"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "breakStage": "2",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至60级",
+          "en": "Activate this to raise operator level cap to 60"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "精英化·二",
+          "en": "Promotion II"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "breakStage": "3",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至80级",
+          "en": "Activate this to raise operator level cap to 80"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "精英化·三",
+          "en": "Promotion III"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "breakStage": "4",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，将干员等级上限提升至90级",
+          "en": "Activate this to raise operator level cap to 90"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "精英化·四",
+          "en": "Promotion IV"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_1"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_1"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "breakStage": "1",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，允许干员穿戴蓝色品质装备",
+          "en": "Activate this to let the operator equip blue quality gear"
+        },
+        "equipTierLimit": "3",
+        "name": {
+          "cn": "装备适配·一",
+          "en": "Outfitting I"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "breakStage": "2",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，允许干员穿戴紫色品质装备",
+          "en": "Activate this to let the operator equip purple quality gear"
+        },
+        "equipTierLimit": "4",
+        "name": {
+          "cn": "装备适配·二",
+          "en": "Outfitting II"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "breakStage": "3",
+        "charId": "chr_0040_sweetpie",
+        "description": {
+          "cn": "激活后，允许干员穿戴金色品质装备",
+          "en": "Activate this to let the operator equip gold quality gear"
+        },
+        "equipTierLimit": "5",
+        "name": {
+          "cn": "装备适配·三",
+          "en": "Outfitting III"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "charId": "chr_0040_sweetpie",
+    "charTypeId": "Natural",
+    "defaultWeaponId": "wpn_lance_0009",
+    "engName": "Kay",
+    "mainAttrType": "39",
+    "name": {
+      "cn": "小刻",
+      "en": "Kay"
+    },
+    "profession": "7",
+    "rarity": "6",
+    "skillGroupMap": {
+      "chr_0040_sweetpie_ComboSkill": {
+        "conditionDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionIcon1": "",
+        "conditionIcon2": "",
+        "conditionId1": "",
+        "conditionId2": "",
+        "conditionName1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionName2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "desc": {
+          "cn": "在拥有至少一把<@ba.key>武器</>的情况下，有敌人被施加<#ba.naturalinflict>自然附着</>或受到<#ba.spellburst>法术爆发</>伤害时可以发动。\n向目标丢出<@ba.key>武器</>，造成<@ba.natur>自然伤害</>、命中敌人后恢复一定技力并额外强制造成一次<#ba.naturalburst>自然爆发</>，之后<@ba.key>武器</>会随机掉落在场地中。主控干员触碰<@ba.key>武器</>后，小刻收回该<@ba.key>武器</>。",
+          "en": "COMBO TRIGGER: While Kay has ≥ 1 <@ba.key>Weapon</> and either <#ba.naturalinflict>Nature Infliction</> is applied OR <#ba.spellburst>Arts Burst</> DMG is dealt to the enemy.\nKay throws a <@ba.key>Weapon</> at the target to deal <@ba.natur>Nature DMG</>. Hitting the enemy recovers some SP and also forcibly applies a <#ba.naturalburst>Nature Burst</>. The <@ba.key>Weapon</> will then drop at a random location in the battlefield. Kay <@ba.key>salvages</> the said <@ba.key>Weapon</> when the controlled operator touches it."
+        },
+        "icon": "icon_combo_skill_sweetpie_01",
+        "name": {
+          "cn": "“很快地砸”",
+          "en": "\"Really Kwik Smash\""
+        },
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill",
+        "skillGroupType": "3",
+        "skillIdList": [
+          "chr_0040_sweetpie_combo_skill"
+        ]
+      },
+      "chr_0040_sweetpie_NormalAttack": {
+        "conditionDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionIcon1": "",
+        "conditionIcon2": "",
+        "conditionId1": "",
+        "conditionId2": "",
+        "conditionName1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionName2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "desc": {
+          "cn": "普通攻击：\n对敌人进行至多5段攻击，造成<@ba.pd>物理伤害</>。作为主控干员时，<#ba.lastcombo>重击</>会造成<@ba.poise>{poise:0}</>点失衡。\n\n下落攻击：\n处于空中时使用普通攻击，会下落并攻击附近敌人，造成<@ba.pd>物理伤害</>。\n\n处决攻击：\n附近有敌人处于失衡状态时使用普通攻击，将处决该敌人，造成大量<@ba.pd>物理伤害</>并恢复一定技力。",
+          "en": "BASIC ATTACK: \nAn attack with up to 5 sequences that deals <@ba.pd>Physical DMG</>. As the controlled operator, <#ba.lastcombo>Final Strike</> also deals <@ba.poise>{poise:0}</> Stagger. \n\nDIVE ATTACK: \nBasic attack performed in mid-air becomes a dive attack that deals <@ba.pd>Physical DMG</> to nearby enemies. \n\nFINISHER: \nBasic attack performed near a Staggered enemy becomes a finisher attack that deals massive <@ba.pd>Physical DMG</> and recovers some SP."
+        },
+        "icon": "icon_attack_lance",
+        "name": {
+          "cn": "野性打击",
+          "en": "Wild Wacky-Whack"
+        },
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack",
+        "skillGroupType": "0",
+        "skillIdList": [
+          "chr_0040_sweetpie_attack1",
+          "chr_0040_sweetpie_attack2",
+          "chr_0040_sweetpie_attack3",
+          "chr_0040_sweetpie_attack4",
+          "chr_0040_sweetpie_attack5",
+          "chr_0040_sweetpie_power_attack",
+          "chr_0040_sweetpie_plunging_attack_end"
+        ]
+      },
+      "chr_0040_sweetpie_NormalSkill": {
+        "conditionDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionIcon1": "",
+        "conditionIcon2": "",
+        "conditionId1": "",
+        "conditionId2": "",
+        "conditionName1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionName2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "desc": {
+          "cn": "小刻跃向空中并蓄力，回收所有<@ba.key>武器</>，随后将大锤重重砸向地面，对范围内敌人造成基于<@ba.key>热切天性</>层数的<@ba.natur>自然伤害</>，施加<#ba.naturalinflict>自然附着</>并消耗所有<@ba.key>热切天性</>。若小刻消耗了3层<@ba.key>热切天性</>，还会对敌人强制施加<#ba.burning>燃烧</>。\n<@ba.info>热切天性大于3层时，视为3层。</>",
+          "en": "Kay leaps into mid-air for a short power-up, salvages all her <@ba.key>Weapons</>, then unleashes a powerful ground bash with her heavy hammer. The bash deals <@ba.natur>Nature DMG</> (based on her <@ba.key>Hot Edgy Naives</> stacks), applies <#ba.naturalinflict>Nature Infliction</> on enemies within the area of effect, and consumes all <@ba.key>Hot Edgy Naives</> stacks. If Kay consumes 3 <@ba.key>Hot Edgy Naives</> stacks, she also forcibly applies <#ba.burning>Combustion</> on enemies.\n<@ba.info>If ＞ 3 Hot Edgy Naives stacks are consumed, the effects will be the same as those for 3 stacks.</>"
+        },
+        "icon": "icon_skill_sweetpie_01",
+        "name": {
+          "cn": "“很重地打”",
+          "en": "\"Really Heavy Bash\""
+        },
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill",
+        "skillGroupType": "1",
+        "skillIdList": [
+          "chr_0040_sweetpie_normal_skill"
+        ]
+      },
+      "chr_0040_sweetpie_UltimateSkill": {
+        "conditionDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionDescInactive2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionIcon1": "",
+        "conditionIcon2": "",
+        "conditionId1": "",
+        "conditionId2": "",
+        "conditionName1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionName2": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc1": {
+          "cn": "",
+          "en": ""
+        },
+        "conditionPostDesc2": {
+          "cn": "",
+          "en": ""
+        },
+        "desc": {
+          "cn": "小刻打造一柄复合重锤多次挥舞，最后将重锤扔出造成爆炸，对范围内敌人造成<@ba.natur>自然伤害</>，施加<#ba.naturalinflict>自然附着</>，恢复一定技力并掉落多个<@ba.key>野餐点心</>，主控干员触碰拾取<@ba.key>野餐点心</>后，小刻为其回复生命值并恢复一定技力。敏捷可以额外提高治疗量。",
+          "en": "Kay kitbashes a combi-bonker that she swings multiple times before throwing it to cause an explosion that deals <@ba.natur>Nature DMG</> and applies <#ba.naturalinflict>Nature Infliction</> on enemies within the area of effect, recovers some SP, and leaves behind multiple <@ba.key>Picnic Snacks</>. When the controlled operator touches a <@ba.key>Picnic Snack</> and picks it up, Kay grants HP treatment to the said operator and recovers some SP. The attribute of Agility increases the amount of HP treatment."
+        },
+        "icon": "icon_ultimate_skill_sweetpie_01",
+        "name": {
+          "cn": "“超甜蜜复合重锤！”",
+          "en": "\"Really Sweet Combi-Bonker!\""
+        },
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill",
+        "skillGroupType": "2",
+        "skillIdList": [
+          "chr_0040_sweetpie_ultimate_skill",
+          "chr_0040_sweetpie_passive_talent2"
+        ]
+      }
+    },
+    "skillLevelUp": [
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0040_sweetpie_NormalSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_5"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0040_sweetpie_UltimateSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0040_sweetpie_ComboSkill"
+      },
+      {
+        "goldCost": "1000",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "2",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "2700",
+        "itemBundle": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_1"
+          }
+        ],
+        "level": "3",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "3200",
+        "itemBundle": [
+          {
+            "count": "16",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "4",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "4200",
+        "itemBundle": [
+          {
+            "count": "21",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "5",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "5400",
+        "itemBundle": [
+          {
+            "count": "27",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_2"
+          }
+        ],
+        "level": "6",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "8200",
+        "itemBundle": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "7",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "10500",
+        "itemBundle": [
+          {
+            "count": "8",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "1",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "8",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "18000",
+        "itemBundle": [
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "2",
+            "id": "item_plant_crylplant_1_3"
+          }
+        ],
+        "level": "9",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "24000",
+        "itemBundle": [
+          {
+            "count": "1",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "15",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "10",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "30000",
+        "itemBundle": [
+          {
+            "count": "2",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "24",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "6",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "11",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      },
+      {
+        "goldCost": "65000",
+        "itemBundle": [
+          {
+            "count": "3",
+            "id": "item_char_skill_crown"
+          },
+          {
+            "count": "50",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "36",
+            "id": "item_char_skill_specialize_6"
+          },
+          {
+            "count": "12",
+            "id": "item_plant_crylplant_2_1"
+          }
+        ],
+        "level": "12",
+        "skillGroupId": "chr_0040_sweetpie_NormalAttack"
+      }
+    ],
+    "subAttrType": "40",
+    "talentNodeMap": {
+      "charBreak20": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak20",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "8",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "3",
+            "id": "item_plant_mushroom_1_1"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak40": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak40",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "25",
+            "id": "item_char_break_stage_1_2"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_2"
+          },
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak60": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak60",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "24",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "5",
+            "id": "item_plant_mushroom_1_3"
+          },
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "charBreak70": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "charBreak70",
+        "nodeType": "1",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "36",
+            "id": "item_char_break_stage_3_4"
+          },
+          {
+            "count": "20",
+            "id": "item_char_skill_specialize_1"
+          },
+          {
+            "count": "8",
+            "id": "item_plant_mushroom_2_1"
+          },
+          {
+            "count": "100000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_1": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [
+            {
+              "attrType": "39",
+              "attrValue": "10",
+              "modifierType": "5",
+              "modifyAttributeType": "0"
+            }
+          ],
+          "breakStage": "1",
+          "customIcon": "",
+          "desc": {
+            "cn": "干员力量能力值提升10。",
+            "en": "Operator Strength +10."
+          },
+          "favorability": "60",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_1",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "5",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_3": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [
+            {
+              "attrType": "39",
+              "attrValue": "15",
+              "modifierType": "5",
+              "modifyAttributeType": "0"
+            }
+          ],
+          "breakStage": "2",
+          "customIcon": "",
+          "desc": {
+            "cn": "干员力量能力值提升15。",
+            "en": "Operator Strength +15."
+          },
+          "favorability": "150",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_3",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1800",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_5": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [
+            {
+              "attrType": "39",
+              "attrValue": "15",
+              "modifierType": "5",
+              "modifyAttributeType": "0"
+            }
+          ],
+          "breakStage": "3",
+          "customIcon": "",
+          "desc": {
+            "cn": "干员力量能力值提升15。",
+            "en": "Operator Strength +15."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_5",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "10",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "6000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_7": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [
+            {
+              "attrType": "39",
+              "attrValue": "20",
+              "modifierType": "5",
+              "modifyAttributeType": "0"
+            }
+          ],
+          "breakStage": "4",
+          "customIcon": "",
+          "desc": {
+            "cn": "干员力量能力值提升20。",
+            "en": "Operator Strength +20."
+          },
+          "favorability": "300",
+          "title": {
+            "cn": "锤炼",
+            "en": "Forged"
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_7",
+        "nodeType": "3",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "12000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_passive_skill_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_passive_skill_0_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "icon_talent_sweetpie_01",
+          "index": "0",
+          "level": "1",
+          "name": {
+            "cn": "无底武器库",
+            "en": "Bottomless Arsenal"
+          },
+          "talentEffectId": "chr_0040_sweetpie_talent_1_1"
+        },
+        "requiredItem": []
+      },
+      "chr_0040_sweetpie_passive_skill_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_passive_skill_0_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "1",
+          "iconId": "icon_talent_sweetpie_01",
+          "index": "0",
+          "level": "2",
+          "name": {
+            "cn": "无底武器库",
+            "en": "Bottomless Arsenal"
+          },
+          "talentEffectId": "chr_0040_sweetpie_talent_1_2"
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "2400",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_passive_skill_0_3": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_passive_skill_0_3",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "3",
+          "iconId": "icon_talent_sweetpie_01",
+          "index": "0",
+          "level": "3",
+          "name": {
+            "cn": "无底武器库",
+            "en": "Bottomless Arsenal"
+          },
+          "talentEffectId": "chr_0040_sweetpie_talent_1_3"
+        },
+        "requiredItem": [
+          {
+            "count": "18",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_passive_skill_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_passive_skill_1_1",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "2",
+          "iconId": "icon_talent_sweetpie_02",
+          "index": "1",
+          "level": "1",
+          "name": {
+            "cn": "来块蜜饼吧！",
+            "en": "Have a Waffle!"
+          },
+          "talentEffectId": "chr_0040_sweetpie_talent_2_1"
+        },
+        "requiredItem": [
+          {
+            "count": "48",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "10800",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "chr_0040_sweetpie_passive_skill_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "chr_0040_sweetpie_passive_skill_1_2",
+        "nodeType": "4",
+        "passiveSkillNodeInfo": {
+          "breakStage": "3",
+          "iconId": "icon_talent_sweetpie_02",
+          "index": "1",
+          "level": "2",
+          "name": {
+            "cn": "来块蜜饼吧！",
+            "en": "Have a Waffle!"
+          },
+          "talentEffectId": "chr_0040_sweetpie_talent_2_2"
+        },
+        "requiredItem": [
+          {
+            "count": "18",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "16000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT2": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT2",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT3": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT3",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6500",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "equipBreakT4": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "0",
+          "index": "0",
+          "level": "0"
+        },
+        "nodeId": "equipBreakT4",
+        "nodeType": "2",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "18000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0040_sweetpie_0_1": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "1",
+          "index": "0",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0040_sweetpie_0_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "6",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "1600",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0040_sweetpie_0_2": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "3",
+          "index": "0",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0040_sweetpie_0_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "8000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0040_sweetpie_1_1": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "2",
+          "index": "1",
+          "level": "1"
+        },
+        "nodeId": "fac_chr_0040_sweetpie_1_1",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "12",
+            "id": "item_char_skill_level_1_6"
+          },
+          {
+            "count": "3000",
+            "id": "item_gold"
+          }
+        ]
+      },
+      "fac_chr_0040_sweetpie_1_2": {
+        "attributeNodeInfo": {
+          "attributeModifiers": [],
+          "breakStage": "0",
+          "customIcon": "",
+          "desc": {
+            "cn": "",
+            "en": ""
+          },
+          "favorability": "0",
+          "title": {
+            "cn": "",
+            "en": ""
+          }
+        },
+        "factorySkillNodeInfo": {
+          "breakStage": "4",
+          "index": "1",
+          "level": "2"
+        },
+        "nodeId": "fac_chr_0040_sweetpie_1_2",
+        "nodeType": "5",
+        "passiveSkillNodeInfo": {
+          "breakStage": "0",
+          "iconId": "",
+          "index": "0",
+          "level": "0",
+          "name": {
+            "cn": "",
+            "en": ""
+          },
+          "talentEffectId": ""
+        },
+        "requiredItem": [
+          {
+            "count": "20",
+            "id": "item_char_skill_level_7_12"
+          },
+          {
+            "count": "20000",
+            "id": "item_gold"
+          }
+        ]
+      }
+    },
+    "weaponType": "5"
   },
   "chr_9000_endmin": {
     "charBreakCostMap": {

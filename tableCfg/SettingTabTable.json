@@ -3279,11 +3279,11 @@
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
-        "validRuleJson": "",
+        "validRuleJson": "{\"not\":{\"and\":[\n  {\"key\":\"CloudGame\", \"equal\":\"True\"},\n  {\"key\":\"CloudClientType\", \"equal\":\"Web\"}\n]}}",
         "validServerChannels": [],
         "validUserPlatform": [],
         "validateFunction": "",
-        "visibleRuleJson": "{\"not\":{\"and\":[\n  {\"key\":\"CloudGame\", \"equal\":\"True\"},\n  {\"key\":\"InputType\", \"equal\":\"Touch\"}\n]}}"
+        "visibleRuleJson": ""
       },
       "controller_skill_cast_target": {
         "buttonGetStateFunction": "",
@@ -3383,6 +3383,86 @@
         },
         "toggleValueGetFunction": "",
         "toggleValueSetFunction": "",
+        "validGameStates": [],
+        "validPlatform": [],
+        "validRegions": [],
+        "validRuleJson": "",
+        "validServerChannels": [],
+        "validUserPlatform": [],
+        "validateFunction": "",
+        "visibleRuleJson": ""
+      },
+      "controller_sweet_pie_pitch_reverse": {
+        "buttonGetStateFunction": "",
+        "buttonIcon": "",
+        "buttonOnClickFunction": "",
+        "buttonText": {
+          "cn": "",
+          "en": ""
+        },
+        "dropdownOptionGetFunction": "",
+        "dropdownOptionSelectFunction": "",
+        "dropdownOptionTextList": [],
+        "dropdownOptionTextListGetFunction": "",
+        "dropdownOptionValidateSelectFunction": "",
+        "isDefaultValueValid": true,
+        "keyActionIds1": null,
+        "keyActionIds2": null,
+        "keyActionScopes": null,
+        "keyIcon1": "",
+        "keyIcon2": "",
+        "keyIsLongPress1": false,
+        "keyIsLongPress2": false,
+        "keyIsMutable1": false,
+        "keyIsMutable2": false,
+        "keyPriority": "0",
+        "settingDefaultValue": {
+          "realType": "0",
+          "valueBoolList": [
+            false
+          ],
+          "valueFloatList": null,
+          "valueIntList": null,
+          "valueStringList": [
+            "FALSE"
+          ],
+          "valueType": "0",
+          "valueVector3": null
+        },
+        "settingGroupTitle": {
+          "cn": "",
+          "en": ""
+        },
+        "settingId": "controller_sweet_pie_pitch_reverse",
+        "settingItemType": "3",
+        "settingRedDot": "",
+        "settingSortOrder": "600",
+        "settingTabId": "gameSetting_controller",
+        "settingText": {
+          "cn": "飞行器俯仰操作翻转",
+          "en": "Invert Y-Axis Controls"
+        },
+        "sliderIconList": null,
+        "sliderIconOnClickFunction": "",
+        "sliderIconRangeList": null,
+        "sliderMaxValue": "1",
+        "sliderMaxValueGetFunction": "",
+        "sliderMinValue": "0",
+        "sliderStepValue": "1",
+        "sliderUseFill": false,
+        "sliderValueGetFunction": "",
+        "sliderValueSetFunction": "",
+        "sliderWholeNumbers": false,
+        "toggleOffText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleOnText": {
+          "cn": "",
+          "en": ""
+        },
+        "toggleValueGetFunction": "ToggleGetSweetPiePitchReverse",
+        "toggleValueSetFunction": "ToggleSetSweetPiePitchReverse",
         "validGameStates": [],
         "validPlatform": [],
         "validRegions": [],
