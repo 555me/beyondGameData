@@ -1,0 +1,220 @@
+{
+    "m_allParameters": [],
+    "type": "Beyond.Gameplay.DialogTree",
+    "nodes": [
+        {
+            "_contentNodeData": {
+                "contentActionData": {
+                    "contentTrunkId": "dlg_f1m31d3_7_002",
+                    "duration": 0.0
+                },
+                "dialogTrunkActionData": {
+                    "_trunkId": "dlg_f1m31d3_7_001",
+                    "customText": "",
+                    "voiceConfig": {
+
+                    },
+                    "microExpressionDesc": {
+
+                    },
+                    "overrideActorNameIdValue": "",
+                    "overrideEmotionVoiceId": "",
+                    "actionEnum": 300,
+                    "configSaveId": ""
+                },
+                "actions": [
+                    {
+                        "pos": {
+                            "x": 1.898,
+                            "y": 0.023,
+                            "z": 1.275
+                        },
+                        "rot": {
+                            "y": 248.2404
+                        },
+                        "actorIndex": 0,
+                        "$type": "Beyond.Gameplay.DialogTeleportEntityActionData"
+                    }
+                ],
+                "_actionGroups": [
+                    {
+                        "duration": 5.0,
+                        "actions": [
+                            {
+                                "camDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": -0.2798462,
+                                        "y": 1.544998,
+                                        "z": 0.4423218
+                                    },
+                                    "rot": {
+                                        "x": 6.806521,
+                                        "y": 75.3546,
+                                        "z": 1.246759E-05
+                                    },
+                                    "fov": 34.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "mOverride": true,
+                                "mCamDescriptor": {
+                                    "modeNum": -1,
+                                    "camType": 2,
+                                    "pos": {
+                                        "x": -0.2798462,
+                                        "y": 1.544998,
+                                        "z": 0.4423218
+                                    },
+                                    "rot": {
+                                        "x": 6.806522,
+                                        "y": 75.3546,
+                                        "z": 1.246759E-05
+                                    },
+                                    "fov": 34.0,
+                                    "dofDescriptor": {
+                                        "dofData": {
+
+                                        }
+                                    }
+                                },
+                                "actionEnum": 51,
+                                "$type": "Beyond.Gameplay.DialogCamActData"
+                            },
+                            {
+                                "anim": {
+                                    "charMontageDesc": {
+
+                                    },
+                                    "montageDesc": {
+                                        "montageKeyTag": {
+                                            "tagId": -1606287753
+                                        },
+                                        "actorId": "npc_lady_hsteacher_a_10"
+                                    },
+                                    "maleMontageOverrideDesc": {
+                                        "actorId": "npc_lady_hsteacher_a_10"
+                                    }
+                                },
+                                "actorIndex": 0,
+                                "$type": "Beyond.Gameplay.DialogAnimActData"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "additionalWidth": 207.0,
+            "_UID": "0d69c450-9aeb-4e7e-987e-bc492cbecae4",
+            "_position": {
+                "x": 199.2,
+                "y": 199.2
+            },
+            "$type": "Beyond.Gameplay.DialogTree2DContentNode",
+            "$id": "0"
+        },
+        {
+            "_normalOptions": [
+                {
+                    "_optionId": "option_dlg_f1m31d3_7_1_001",
+                    "logicId": 14
+                }
+            ],
+            "additionalWidth": 139.0,
+            "_UID": "1860d124-c901-46ef-9c9c-0f2b947164a2",
+            "_position": {
+                "x": 600.0,
+                "y": 200.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeOptionNode",
+            "$id": "1"
+        },
+        {
+            "additionalWidth": 214.0,
+            "_UID": "321969e6-fd46-4b57-9fc2-a6611f4e89cf",
+            "_position": {
+                "x": 1335.2,
+                "y": 208.0
+            },
+            "$type": "Beyond.Gameplay.DialogTreeFinishNode",
+            "$id": "2"
+        }
+    ],
+    "connections": [
+        {
+            "_sourceNode": {
+                "$ref": "0"
+            },
+            "_targetNode": {
+                "$ref": "1"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        },
+        {
+            "_sourceNode": {
+                "$ref": "1"
+            },
+            "_targetNode": {
+                "$ref": "2"
+            },
+            "$type": "Beyond.Gameplay.DialogTreeConnection"
+        }
+    ],
+    "canvasGroups": [],
+    "localBlackboard": {
+        "_variables": {
+
+        }
+    },
+    "derivedData": {
+        "_dialogType": 2,
+        "beforeMaskBlendData": {
+
+        },
+        "afterMaskBlendData": {
+
+        },
+        "hideSquad": true,
+        "rootPos": {
+            "x": -499.3288,
+            "y": 230.4213,
+            "z": 1013.209
+        },
+        "use2DUI": true,
+        "actors": [],
+        "npcBlackList": [],
+        "npcWhiteList": [],
+        "privateActors": [
+            {
+                "templateId": "npc_lady_hsteacher_a_10",
+                "position": {
+                    "x": 1.898,
+                    "y": 0.023,
+                    "z": 1.275
+                },
+                "rotation": {
+                    "y": 248.2404
+                }
+            }
+        ],
+        "hideEnvCreatureDesc": {
+
+        },
+        "hideFacBuildingDesc": {
+            "hideFacBuildingRadius": 40.0,
+            "showFacBuildingTypes": []
+        },
+        "hideDecoConfigs": [],
+        "hideInteractive": [],
+        "hideNpcDesc": {
+
+        },
+        "exLights": [],
+        "exEffects": [],
+        "tmpGameObjects": [],
+        "$type": "Beyond.Gameplay.DialogTreeData"
+    }
+}

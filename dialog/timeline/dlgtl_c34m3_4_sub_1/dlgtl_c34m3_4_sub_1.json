@@ -6,6 +6,7 @@
         "hierarchyParentPath": "Actor/offset/Common/typhoeus",
         "name": "P_actor_typhoea_01",
         "objectType": 2,
+        "descriptorVersion": 0,
         "entityId": "npc_chr_0034_typhoea",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Loli/Typhoea/Models/SK_actor_typhoea_01.fbx",
         "avatarHash": 158192896335443643,
@@ -43,7 +44,8 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_common_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     },
     {
       "descriptor": {
@@ -51,6 +53,7 @@
         "hierarchyParentPath": "Actor/offset/FemaleOnly/edminf",
         "name": "P_actor_endminf_01",
         "objectType": 2,
+        "descriptorVersion": 0,
         "entityId": "npc_chr_0003_endminf",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Girl/Endminf/Models/SK_actor_endminf_01.fbx",
         "avatarHash": 714774044687045084,
@@ -88,7 +91,8 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_endminf_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     },
     {
       "descriptor": {
@@ -96,6 +100,7 @@
         "hierarchyParentPath": "Actor/offset/MaleOnly/edminm",
         "name": "P_actor_endminm_01",
         "objectType": 2,
+        "descriptorVersion": 0,
         "entityId": "npc_chr_0002_endminm",
         "avatarPath": "Assets/Beyond/Arts/Entity/Actor/Boy/Endminm/Models/SK_actor_endminm_01.fbx",
         "avatarHash": 105262779132463679,
@@ -133,7 +138,8 @@
           "customSerializedStr": "Assets/Beyond/DynamicAssets/GameData/GameplayConfig/VFXConfig/VFX_character_common_asset.asset"
         }
       ],
-      "rendererMaterialOverrides": []
+      "rendererMaterialOverrides": [],
+      "rendererUpdateWhenOffscreenOverrides": []
     }
   ],
   "audioEvents": [
@@ -148,6 +154,7 @@
     "hideFacFence": true,
     "hideFacBuilding": false,
     "hideSocialFac": true,
+    "hideSocialFacOwner": 3,
     "hideFacBuildingRadius": 5.0,
     "hideFacBuildingRadiusDialogRoot": 0.0,
     "useCustomHideFacCenter": false,
@@ -232,6 +239,7 @@
   "version": "v1d5d0",
   "enableTimelineEffectLOD": true,
   "enablePreBindAnimationOutput": true,
+  "enableControlActivationMixer": false,
   "path": "Assets/Beyond/DynamicAssets/Gameplay/Dialog/Timeline/dlgtl_c34m3_4_sub_1/Prefab/dlgtl_c34m3_4_sub_1",
   "interruptCharHenshin": false,
   "useBlackScreen": true,
@@ -264,6 +272,7 @@
   "skipType": 1,
   "triggerPendingNotificationsOnSkip": true,
   "hideSquad": false,
+  "disableNpcColliders": false,
   "isTransition": false,
   "audioListenerFollow": false,
   "isDitherFacBuilding": false,
@@ -299,6 +308,8 @@
   "summaryId": "",
   "envFollowCamera": false,
   "keepStateOnChangeActive": false,
+  "npcFollowAssemblerScale": false,
+  "createNpcAssemblerAttachments": true,
   "rainMaxImmediate": true,
   "overrideDryDrenchedAfterSeconds": true,
   "dryDrenchedAfterSeconds": 0.0,
